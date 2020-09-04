@@ -1,0 +1,24 @@
+---
+title: "Aspose.Words for Cloud 1.21.0 Release Notes"
+type: docs
+url: /aspose-words-for-cloud-1-21-0-release-notes/
+weight: 110
+---
+
+{{% alert color="primary" %}} 
+
+This page contains release notes for [Aspose.Words for Cloud 1.21.0](http://www.aspose.com/downloads/words/cloud/new-releases/aspose.words-for-cloud-1.21.0/)
+
+{{% /alert %}} 
+## **Aspose.Words**
+- Aspose.Words library was updated to version 15.12
+## **All Changes**
+
+|**Key** |**Summary** |**Category** |
+| :- | :- | :- |
+|WORDSCLOUD-6 |Out of memory error occurs for a DOCX during split document. |Bug |
+|WORDSCLOUD-11 |Out of memory occurs during rendering to PDF. |Bug |
+|WORDSCLOUD-16 |Out of memory exception occurs during rendering to PDF. |Bug |
+|WORDSCLOUD-29(SAASWORDS-260) |ContainingFields Cleanup option do not work for executeTemplate Resource. |Bug |
+| | | |
+

@@ -1,0 +1,358 @@
+---
+title: "Get a Header or Footer in a Document"
+type: docs
+url: /get-a-header-or-footer-in-a-document/
+weight: 20
+---
+
+# **Introduction**
+This REST API allows you to get a header/footer that is contained in a document.
+## **Resource URI**
+```java
+
+~/{file-name}/headersFooters/{index}
+
+~/{file-name}/sections/{sectionIndex}/headersFooters/{index}
+
+```
+
+- *{file-name}* is the name of a Word document containing elements.
+- *{sectionIndex}* is the index of a section that contains headers and footers. If this syntax is used, only elements within a specified section are returned.
+- *{index}* is the index of specific header/footer.
+
+[Swagger UI](https://apireference.aspose.cloud/words/#/HeadersFooters/GetHeaderFooter) lets you call this REST API directly from the browser. 
+## **cURL Example**
+**Case 1: Get a Header or Footer in a Document**
+
+{{< tabs tabTotal="2" tabID="2" tabName1="Request" tabName2="Response" >}}
+
+{{< tab tabNum="1" >}}
+
+```java
+
+// First get JSON Web Token
+
+// Please get your App Key and App SID from https://dashboard.aspose.cloud/#/apps. Kindly place App Key in "client\_secret" and App SID in "client\_id" argument.
+
+curl -v "https://api.aspose.cloud/connect/token" \
+
+-X POST \
+
+-d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
+
+-H "Content-Type: application/x-www-form-urlencoded" \
+
+-H "Accept: application/json"
+
+// cURL example to get an individual header/footer in a document
+
+curl -v "https://api.aspose.cloud/v4.0/words/HeadersFooters.doc/headersfooters/0" \
+
+-X GET \
+
+-H "Content-Type: application/json" \
+
+-H "Accept: application/json" \
+
+-H "Authorization: Bearer <jwt token>"
+
+```
+
+{{< /tab >}}
+
+{{< tab tabNum="2" >}}
+
+```java
+
+{
+
+  "HeaderFooter": {
+
+    "Paragraphs": {
+
+      "link": {
+
+        "Href": "http://api.aspose.cloud/v4.0/words/HeadersFooters.doc/sections/0/headersfooters/0/paragraphs",
+
+        "Rel": "self",
+
+        "Type": null,
+
+        "Title": null
+
+      }
+
+    },
+
+    "DrawingObjects": {
+
+      "link": {
+
+        "Href": "http://api.aspose.cloud/v4.0/words/HeadersFooters.doc/sections/0/headersfooters/0/drawingObjects",
+
+        "Rel": "self",
+
+        "Type": null,
+
+        "Title": null
+
+      }
+
+    },
+
+    "Type": "HeaderEven",
+
+    "link": {
+
+      "Href": "http://api.aspose.cloud/v4.0/words/HeadersFooters.doc/sections/0/headersfooters/0",
+
+      "Rel": "self",
+
+      "Type": null,
+
+      "Title": null
+
+    }
+
+  },
+
+  "Code": 200,
+
+  "Status": "OK"
+
+}
+
+```
+
+{{< /tab >}}
+
+{{< /tabs >}}
+
+**Case 2: Get a Header or Footer in a Section**
+
+{{< tabs tabTotal="2" tabID="5" tabName1="Request" tabName2="Response" >}}
+
+{{< tab tabNum="1" >}}
+
+```java
+
+// First get JSON Web Token
+
+// Please get your App Key and App SID from https://dashboard.aspose.cloud/#/apps. Kindly place App Key in "client\_secret" and App SID in "client\_id" argument.
+
+curl -v "https://api.aspose.cloud/connect/token" \
+
+-X POST \
+
+-d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
+
+-H "Content-Type: application/x-www-form-urlencoded" \
+
+-H "Accept: application/json"
+
+// cURL example to get an individual header/footer in a section
+
+curl -v "https://api.aspose.cloud/v4.0/words/HeadersFooters.doc/sections/0/headersfooters/0" \
+
+-X GET \
+
+-H "Content-Type: application/json" \
+
+-H "Accept: application/json" \
+
+-H "Authorization: Bearer <jwt token>"
+
+```
+
+{{< /tab >}}
+
+{{< tab tabNum="2" >}}
+
+```java
+
+{
+
+  "HeaderFooter": {
+
+    "Paragraphs": {
+
+      "link": {
+
+        "Href": "http://api.aspose.cloud/v4.0/words/HeadersFooters.doc/sections/0/headersfooters/0/paragraphs",
+
+        "Rel": "self",
+
+        "Type": null,
+
+        "Title": null
+
+      }
+
+    },
+
+    "DrawingObjects": {
+
+      "link": {
+
+        "Href": "http://api.aspose.cloud/v4.0/words/HeadersFooters.doc/sections/0/headersfooters/0/drawingObjects",
+
+        "Rel": "self",
+
+        "Type": null,
+
+        "Title": null
+
+      }
+
+    },
+
+    "Type": "HeaderEven",
+
+    "link": {
+
+      "Href": "http://api.aspose.cloud/v4.0/words/HeadersFooters.doc/sections/0/headersfooters/0",
+
+      "Rel": "self",
+
+      "Type": null,
+
+      "Title": null
+
+    }
+
+  },
+
+  "Code": 200,
+
+  "Status": "OK"
+
+}
+
+```
+
+{{< /tab >}}
+
+{{< /tabs >}}
+# **SDKs**
+Using an SDK (API client) is the quickest way for a developer to speed up the development. An SDK takes care of a lot of low-level details of making requests and handling responses and lets you focus on writing code specific to your particular project. Check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs along with working examples, to get you started in no time. Please check [Available SDKs](/available-sdks/) article to learn how to add an SDK to your project.
+## **SDK Examples**
+**Case 1: Get a Header or Footer in a Document**
+
+{{< tabs tabTotal="9" tabID="8" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Python" tabName5="Ruby" tabName6="Node.js" tabName7="Android" tabName8="Swift" tabName9="Go" >}}
+
+{{< tab tabNum="1" >}}
+
+{{< gist "aspose-cloud" "19215e2ac3d61ca0fd78d1ca2f1c1023" "GetHeaderFooter.cs" >}}
+
+{{< /tab >}}
+
+{{< tab tabNum="2" >}}
+
+{{< gist "aspose-cloud" "7d6af3eba6f989851e6475842125f31d" "GetHeaderFooter.java" >}}
+
+{{< /tab >}}
+
+{{< tab tabNum="3" >}}
+
+{{< gist "aspose-cloud" "163e730223a72524d163ef9c017f1b1a" "GetHeaderFooter.php" >}}
+
+{{< /tab >}}
+
+{{< tab tabNum="4" >}}
+
+{{< gist "aspose-cloud" "fb014f439299bbee24472cb0efa6d50b" "GetHeaderFooter.py" >}}
+
+{{< /tab >}}
+
+{{< tab tabNum="5" >}}
+
+{{< gist "aspose-cloud" "3f3f4f7033ae386af05042ee2ad3aa06" "GetHeaderFooter.rb" >}}
+
+{{< /tab >}}
+
+{{< tab tabNum="6" >}}
+
+{{< gist "aspose-cloud" "715d05011a94ac77f67b21213de5da7f" "GetHeaderFooter.js" >}}
+
+{{< /tab >}}
+
+{{< tab tabNum="7" >}}
+
+{{< gist "aspose-cloud" "5240b25c9a3e98fb21785ad771a3876b" "Aspose\_Cloud\_Words\_GetHeaderFooter.java" >}}
+
+{{< /tab >}}
+
+{{< tab tabNum="8" >}}
+
+{{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose\_Words\_Swift\_GetHeaderFooter.swift" >}}
+
+{{< /tab >}}
+
+{{< tab tabNum="9" >}}
+
+{{< gist "aspose-cloud" "068ce2149de5ad69ab516209b7ae82cf" "GetHeaderFooters.go" >}}
+
+{{< /tab >}}
+
+{{< /tabs >}}
+
+**Case 2: Get a Header or Footer in a Section**
+
+{{< tabs tabTotal="9" tabID="9" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Python" tabName5="Ruby" tabName6="Node.js" tabName7="Android" tabName8="Swift" tabName9="Go" >}}
+
+{{< tab tabNum="1" >}}
+
+{{< gist "aspose-cloud" "19215e2ac3d61ca0fd78d1ca2f1c1023" "GetHeaderFooterOfSection.cs" >}}
+
+{{< /tab >}}
+
+{{< tab tabNum="2" >}}
+
+{{< gist "aspose-cloud" "7d6af3eba6f989851e6475842125f31d" "GetHeaderFooterOfSection.java" >}}
+
+{{< /tab >}}
+
+{{< tab tabNum="3" >}}
+
+{{< gist "aspose-cloud" "163e730223a72524d163ef9c017f1b1a" "GetHeaderFooterOfSection.php" >}}
+
+{{< /tab >}}
+
+{{< tab tabNum="4" >}}
+
+{{< gist "aspose-cloud" "fb014f439299bbee24472cb0efa6d50b" "GetHeaderFooterOfSection.py" >}}
+
+{{< /tab >}}
+
+{{< tab tabNum="5" >}}
+
+{{< gist "aspose-cloud" "3f3f4f7033ae386af05042ee2ad3aa06" "GetHeaderFooterOfSection.rb" >}}
+
+{{< /tab >}}
+
+{{< tab tabNum="6" >}}
+
+{{< gist "aspose-cloud" "715d05011a94ac77f67b21213de5da7f" "GetHeaderFooterOfSection.js" >}}
+
+{{< /tab >}}
+
+{{< tab tabNum="7" >}}
+
+{{< gist "aspose-cloud" "5240b25c9a3e98fb21785ad771a3876b" "Aspose\_Cloud\_Words\_GetHeaderFooterOfSection.java" >}}
+
+{{< /tab >}}
+
+{{< tab tabNum="8" >}}
+
+{{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose\_Words\_Swift\_GetHeaderFooterOfSection.swift" >}}
+
+{{< /tab >}}
+
+{{< tab tabNum="9" >}}
+
+{{< gist "aspose-cloud" "068ce2149de5ad69ab516209b7ae82cf" "GetHeaderFooterOfSection.go" >}}
+
+{{< /tab >}}
+
+{{< /tabs >}}
+
