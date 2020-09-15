@@ -16,5 +16,5 @@ Aspose Cloud services are best used with Microsoft Dynamics CRM Online where we 
 
 We have created the following Plugins for Microsoft Dynamics CRM using Aspose.Words for Cloud
 
-- [Aspose Cloud AutoMerge](/aspose-cloud-automerge-html/)
-  - [Using Cloud AutoMerge for Dynamics CRM](/using-cloud-automerge-for-dynamics-crm-html/)
+- [Aspose Cloud AutoMerge](/aspose-cloud-automerge/)
+  - [Using Cloud AutoMerge for Dynamics CRM](/using-cloud-automerge-for-dynamics-crm/)

@@ -7,7 +7,7 @@ weight: 10
 
 This section has following topics:
 
-- [Aspose Doc Importer](/aspose-doc-importer-html/)
-- [Aspose Doc Exporter](/aspose-doc-exporter-html/)
-- [Aspose Importer Exporter](/aspose-importer-exporter-html/)
-- [Aspose Cloud eBook Generator](/aspose-cloud-ebook-generator-html/)
+- [Aspose Doc Importer](/aspose-doc-importer/)
+- [Aspose Doc Exporter](/aspose-doc-exporter/)
+- [Aspose Importer Exporter](/aspose-importer-exporter/)
+- [Aspose Cloud eBook Generator](/aspose-cloud-ebook-generator/)

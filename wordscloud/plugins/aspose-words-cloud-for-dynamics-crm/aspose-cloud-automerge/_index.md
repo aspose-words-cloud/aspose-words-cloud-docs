@@ -160,4 +160,4 @@ It is simple to install Aspose Cloud AutoMerge. Please follow below Instructions
 - Go to solution and select "Aspose Cloud AutoMerge".
 - Press the Delete button.
 ### **Using**
-﻿[Using Cloud AutoMerge for Dynamics CRM](/using-cloud-automerge-for-dynamics-crm-html/)
+﻿[Using Cloud AutoMerge for Dynamics CRM](/using-cloud-automerge-for-dynamics-crm/)

@@ -7,4 +7,4 @@ weight: 40
 
 This section has following topics:
 
-- [Aspose Doc Exporter - Aspose.Words Cloud for Drupal](/aspose-doc-exporter-aspose-words-cloud-for-drupal-html/)
+- [Aspose Doc Exporter - Aspose.Words Cloud for Drupal](/aspose-doc-exporter-aspose-words-cloud-for-drupal/)
