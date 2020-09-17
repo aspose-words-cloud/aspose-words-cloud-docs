@@ -27,27 +27,18 @@ This REST API allows you to add new or update existing document property. The de
 // Please get your App Key and App SID from https://dashboard.aspose.cloud/#/apps. Kindly place App Key in "client\_secret" and App SID in "client\_id" argument.
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 // cURL example to update an existing document property
 
 curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/documentProperties/AsposeAuthor?destFileName=updated\_document.docx" \
-
 -X PUT \
-
 -d "{ 'Name': 'Author', 'Value': 'Sohail', 'BuiltIn': false, 'link': null }" \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json" \
-
 -H "Authorization: Bearer <jwt token>"
 
 ```

@@ -27,27 +27,18 @@ Please check [Convert Document to Destination Format with Detailed Settings and 
 // Please get your App Key and App SID from https://dashboard.aspose.cloud/#/apps. Kindly place App Key in "client\_secret" and App SID in "client\_id" argument.
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 // cURL example to load web page and save it to doc format
 
 curl -v "https://api.aspose.cloud/v4.0/words/loadWebDocument" \
-
 -X PUT \
-
 -d "{ 'LoadingDocumentUrl': 'https://www.le.ac.uk/oerresources/bdra/html/page\_09.htm', 'SaveOptions': { 'SaveFormat': 'docx', 'FileName': 'HTMLDocument.docx', 'SaveRoutingSlip': true } }" \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json" \
-
 -H "Authorization: Bearer <jwt token>"
 
 ```

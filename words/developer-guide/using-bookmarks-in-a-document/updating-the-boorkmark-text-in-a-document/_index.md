@@ -26,27 +26,18 @@ This REST API allows you to update the bookmark text and returns updated bookmar
 // Please get your App Key and App SID from https://dashboard.aspose.cloud/#/apps. Kindly place App Key in "client\_secret" and App SID in "client\_id" argument.
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 // cURL example to update bookmark text in a document
 
 curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/bookmarks/aspose" \
-
 -X PUT \
-
 -d "{'Name': 'aspose', 'Text': 'This will be the text for Aspose'}" \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json" \
-
 -H "Authorization: Bearer <jwt token>"
 
 ```

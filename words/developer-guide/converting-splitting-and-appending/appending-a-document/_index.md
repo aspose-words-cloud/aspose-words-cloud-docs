@@ -37,27 +37,18 @@ The description of the important API parameters is given below:
 // Please get your App Key and App SID from https://dashboard.aspose.cloud/#/apps. Kindly place App Key in "client\_secret" and App SID in "client\_id" argument.
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 // cURL example to append a document
 
 curl -v "https://api.aspose.cloud/v4.0/words/test\_doc.docx/appendDocument" \
-
 -X PUT \
-
 -d "{'DocumentEntries':[{'Href':'test\_multi\_pages.docx', 'ImportFormatMode':'KeepSourceFormatting'}]}" \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json" \
-
 -H "Authorization: Bearer <jwt token>"
 
 ```

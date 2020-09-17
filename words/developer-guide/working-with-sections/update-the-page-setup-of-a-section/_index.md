@@ -53,27 +53,18 @@ This REST API allows you to update the section page setup properties. The API re
 // Please get your App Key and App SID from https://dashboard.aspose.cloud/#/apps. Kindly place App Key in "client\_secret" and App SID in "client\_id" argument.
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 // cURL example to update sections's page setup properties
 
 curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/sections/0/pageSetup" \
-
 -X PUT \
-
 -d "{ 'LeftMargin': 99, 'Orientation': 'Landscape', 'PaperSize': 'A5' }" \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json" \
-
 -H "Authorization: Bearer <jwt token>"
 
 ```

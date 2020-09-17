@@ -26,27 +26,18 @@ This REST API allows you to insert a watermark image into a document. This is a 
 // Please get your App Key and App SID from https://dashboard.aspose.cloud/#/apps. Kindly place App Key in "client\_secret" and App SID in "client\_id" argument.
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 // cURL example to insert a watermark image into a document
 
 curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/watermarks/images?destFileName=InsertDocumentWatermarkImage.docx&rotationAngle=0F&image=aspose-cloud.png" \
-
 -X POST \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json" \
-
 -H "Content-Length: 0" \
-
 -H "Authorization: Bearer <jwt token>"
 
 ```

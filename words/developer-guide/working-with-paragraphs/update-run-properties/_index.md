@@ -39,27 +39,18 @@ This REST API allows you to update run properties. The API returns updated run d
 // Please get your App Key and App SID from https://dashboard.aspose.cloud/#/apps. Kindly place App Key in "client\_secret" and App SID in "client\_id" argument.
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 // cURL example to update run properties
 
 curl -v "https://api.aspose.cloud/v4.0/words/Run.doc/paragraphs/1/runs/0" \
-
 -X PUT \
-
 -d "{ 'Text': 'Run with text' }" \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json" \
-
 -H "Authorization: Bearer <jwt token>"
 
 ```

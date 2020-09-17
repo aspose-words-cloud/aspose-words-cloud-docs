@@ -78,27 +78,18 @@ This REST API allows you to update font properties. The API returns updated font
 // Please get your App Key and App SID from https://dashboard.aspose.cloud/#/apps. Kindly place App Key in "client\_secret" and App SID in "client\_id" argument.
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 // cURL example to update font properties
 
 curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/paragraphs/0/runs/0/font" \
-
 -X PUT \
-
 -d "{ 'AllCaps': 'false', 'Bidi': 'false', 'Bold': 'false', 'BoldBi': 'false', 'Border': { 'LineStyle': 'None', 'LineWidth': '0', 'DistanceFromText': '0', 'Shadow': 'false' }, 'ComplexScript': 'false', 'DoubleStrikeThrough': 'false', 'Emboss': 'false', 'Engrave': 'false', 'Hidden': 'false', 'Italic': 'true', 'ItalicBi': 'false', 'Kerning': '0', 'LocaleId': '1033', 'LocaleIdBi': '1025', 'LocaleIdFarEast': '1033', 'Name': 'Calibri', 'NameAscii': 'Calibri', 'NameBi': 'Times New Roman', 'NameFarEast': 'Calibri', 'NameOther': 'Calibri', 'NoProofing': 'false', 'Outline': 'false, 'Position': '0', 'Scaling': '100', 'Shadow': 'false', 'Size': '11', 'SizeBi': '11', 'SmallCaps': 'false', 'Spacing': '0', 'StrikeThrough': 'false', 'StyleIdentifier': 'DefaultParagraphFont', 'StyleName': 'Default Paragraph Font', 'Subscript': 'false', 'Superscript': 'false', 'TextEffect': 'None', 'Underline': 'Dash' }" \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json" \
-
 -H "Authorization: Bearer <jwt token>"
 
 ```

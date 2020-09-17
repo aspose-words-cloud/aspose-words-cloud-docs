@@ -23,13 +23,9 @@ Text classification is a lightweight version of classification API that processe
 // Please get your App Key and App SID from https://dashboard.aspose.cloud/#/apps. Kindly place App Key in "client\_secret" and App SID in "client\_id" argument.
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 
@@ -37,15 +33,10 @@ curl -v "https://api.aspose.cloud/connect/token" \
 // cURL example to classify raw text
 
 curl -v "https://api.aspose.cloud/v4.0/words/classify?bestClassesCount=3" \
-
 -X PUT \
-
 -d "'text to classify'" \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json" \
-
 -H "Authorization: Bearer <jwt token>"
 
 ```

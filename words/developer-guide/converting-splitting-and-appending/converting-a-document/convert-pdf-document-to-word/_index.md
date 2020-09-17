@@ -58,13 +58,9 @@ The following limitations apply and will be addressed in future versions:
 // Please get your App Key and App SID from https://dashboard.aspose.cloud/#/apps. Kindly place App Key in "client\_secret" and App SID in "client\_id" argument.
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d "grant\_type=client\_credentials&client\_id=xxx&client\_secret=xxxx" \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 
@@ -72,15 +68,10 @@ curl -v "https://api.aspose.cloud/connect/token" \
 // cURL example to convert PDF Document to Word
 
 curl -v "https://api.aspose.cloud/v4.0/words/2019\_new\_demo.pdf/saveAs" \
-
 -X PUT \
-
 -d "{'SaveFormat':'docx', 'FileName': '2019\_new\_demo Out.docx'}" \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json" \
-
 -H "Authorization: Bearer <jwt token>"
 
 ```

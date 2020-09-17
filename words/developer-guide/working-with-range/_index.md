@@ -93,25 +93,17 @@ First, he needs to call [Paragraph API](https://apireference.aspose.cloud/words/
 // Please get your App Key and App SID from https://dashboard.aspose.cloud/#/apps. Kindly place App Key in "client\_secret" and App SID in "client\_id" argument.
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 // cURL example to get a list of paragraphs that are contained in the document or in the section
 
 curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/paragraphs" \
-
 -X GET \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json" \
-
 -H "Authorization: Bearer <jwt token>"
 
 ```
@@ -207,13 +199,9 @@ He sees that the first two paragraphs correspond to id0.0 and id0.2 (NodeId in t
 // cURL example to get the text from the range.
 
 curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/range/id0.0/id0.2:end" \
-
 -X GET \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json" \
-
 -H "Authorization: Bearer <jwt token>"
 
 ```
@@ -251,25 +239,17 @@ First, he needs to call [Paragraph API](https://apireference.aspose.cloud/words/
 // Please get your App Key and App SID from https://dashboard.aspose.cloud/#/apps. Kindly place App Key in "client\_secret" and App SID in "client\_id" argument.
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 // cURL example to get a list of paragraphs that are contained in the document or in the section
 
 curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/paragraphs" \
-
 -X GET \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json" \
-
 -H "Authorization: Bearer <jwt token>"
 
 ```
@@ -365,15 +345,10 @@ Now, he calls the following API to save the first two paragraphs (correspond to 
 // cURL example to save the selected range as a new document.
 
 curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/range/id0.0/id0.2:end/saveas" \
-
 -X POST \
-
 -d "{ 'DocumentName': 'SelectedRanage.docx' }" \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json" \
-
 -H "Authorization: Bearer <jwt token>"
 
 ```
