@@ -28,17 +28,17 @@ The REST API allows you to add a comment to a Word Document. The API return adde
 
 // First get JSON Web Token
 
-// Please get your App Key and App SID from https://dashboard.aspose.cloud/#/apps. Kindly place App Key in "client\_secret" and App SID in "client\_id" argument.
+// Please get your App Key and App SID from https://dashboard.aspose.cloud/#/apps. Kindly place App Key in "client_secret" and App SID in "client_id" argument.
 
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
--d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
+-d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
 // cURL example to get add comment to a word document
 
-curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/comments" \
+curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/comments" \
 -X POST \
 -d "{ 'RangeStart': { 'Node': { 'nodeId': '0.0.3' },  'Offset': 0}, 'RangeEnd': { 'Node': { 'nodeId': '0.0.3' }, 'Offset': 0}, 'Initial': 'IA', 'Author': 'Sohail', 'Text': 'A new Comment' }" \
 -H "Content-Type: application/json" \
@@ -67,7 +67,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/comments" \
 
         "link": {
 
-          "Href": "http://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/sections/0/paragraphs/0/runs/1",
+          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/paragraphs/0/runs/1",
 
           "Rel": "self",
 
@@ -91,7 +91,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/comments" \
 
         "link": {
 
-          "Href": "http://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/sections/0/paragraphs/0/runs/1",
+          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/paragraphs/0/runs/1",
 
           "Rel": "self",
 
@@ -125,7 +125,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/comments" \
 
           "link": {
 
-            "Href": "http://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/comments/0/paragraphs/0",
+            "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/comments/0/paragraphs/0",
 
             "Rel": "self",
 
@@ -143,7 +143,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/comments" \
 
     "link": {
 
-      "Href": "http://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/comments/0",
+      "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/comments/0",
 
       "Rel": "self",
 
@@ -185,13 +185,13 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="3" >}}
 
-{{< gist "aspose-cloud" "303ca1faad43f8d1b672fbeac98ad2e0" "add\_comment\_to\_document.py" >}}
+{{< gist "aspose-cloud" "303ca1faad43f8d1b672fbeac98ad2e0" "add_comment_to_document.py" >}}
 
 {{< /tab >}}
 
 {{< tab tabNum="4" >}}
 
-{{< gist "aspose-cloud" "5af73b7a7c08a9072ac1c05b0914df3f" "put\_comment.rb" >}}
+{{< gist "aspose-cloud" "5af73b7a7c08a9072ac1c05b0914df3f" "put_comment.rb" >}}
 
 {{< /tab >}}
 
@@ -203,13 +203,13 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="6" >}}
 
-{{< gist "aspose-cloud" "5240b25c9a3e98fb21785ad771a3876b" "Aspose\_Cloud\_Words\_PutComment.java" >}}
+{{< gist "aspose-cloud" "5240b25c9a3e98fb21785ad771a3876b" "Aspose_Cloud_Words_PutComment.java" >}}
 
 {{< /tab >}}
 
 {{< tab tabNum="7" >}}
 
-{{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose\_Words\_Swift\_PutComment.swift" >}}
+{{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose_Words_Swift_PutComment.swift" >}}
 
 {{< /tab >}}
 

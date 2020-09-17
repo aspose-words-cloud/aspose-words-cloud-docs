@@ -24,7 +24,7 @@ This REST API allows you to delete a table row.
 
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
--d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
+-d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
@@ -76,13 +76,13 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="3" >}}
 
-{{< gist "aspose-cloud" "303ca1faad43f8d1b672fbeac98ad2e0" "delete\_table\_row.py" >}}
+{{< gist "aspose-cloud" "303ca1faad43f8d1b672fbeac98ad2e0" "delete_table_row.py" >}}
 
 {{< /tab >}}
 
 {{< tab tabNum="4" >}}
 
-{{< gist "aspose-cloud" "5af73b7a7c08a9072ac1c05b0914df3f" "delete\_table\_row.rb" >}}
+{{< gist "aspose-cloud" "5af73b7a7c08a9072ac1c05b0914df3f" "delete_table_row.rb" >}}
 
 {{< /tab >}}
 
@@ -94,13 +94,13 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="6" >}}
 
-{{< gist "aspose-cloud" "5240b25c9a3e98fb21785ad771a3876b" "Aspose\_Cloud\_Words\_DeleteTableRow.java" >}}
+{{< gist "aspose-cloud" "5240b25c9a3e98fb21785ad771a3876b" "Aspose_Cloud_Words_DeleteTableRow.java" >}}
 
 {{< /tab >}}
 
 {{< tab tabNum="7" >}}
 
-{{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose\_Words\_Swift\_DeleteTableRow.swift" >}}
+{{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose_Words_Swift_DeleteTableRow.swift" >}}
 
 {{< /tab >}}
 

@@ -44,7 +44,7 @@ weight: 60
 |PDF2WORD-410 |Text overlaying for multicolumn layouts |Bug|
 |PDF2WORD-413|Similar output files have pixel diffs in golds on Linux |Bug|
 |PDF2WORD-414 |Text could not be fully displayed inside graphical elements on Linux |Bug|
-|PDF2WORD-415 |SearchablePdf\_WithTextBehindImages\_MustNotHaveDuplicatedText fails on Linux |Bug|
+|PDF2WORD-415 |SearchablePdf_WithTextBehindImages_MustNotHaveDuplicatedText fails on Linux |Bug|
 |PDF2WORD-418 |Wrong text wrapping |Bug|
 |PDF2WORD-419 |Wrong rotated and flipped image positions |Bug |
 |PDF2WORD-421 |Missing font error in unit tests on Linux |Bug|
@@ -60,8 +60,8 @@ weight: 60
 |PDF2WORD-467 |Large whitespace gaps which break words inside of text flow. |Bug|
 |PDF2WORD-468 |Incorrect text alignment on Linux |Bug|
 |PDF2WORD-472 |Can't open a couple Chinese PDFs because they have unexpected file header |Bug |
-|PDF2WORD-478 |Wrong formulas block alignment in Appendix\_C\_CITables docx |Bug|
-|PDF2WORD-479 |Different Golds for 2018\_blueprint.pdf on dev PCs and GitLab |Bug|
+|PDF2WORD-478 |Wrong formulas block alignment in Appendix_C_CITables docx |Bug|
+|PDF2WORD-479 |Different Golds for 2018_blueprint.pdf on dev PCs and GitLab |Bug|
 
 
 ## **SDKs Changes**

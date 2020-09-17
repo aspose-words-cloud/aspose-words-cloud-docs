@@ -48,11 +48,11 @@ The following formats are supported:
 
 // First get JSON Web Token
 
-// Please get your App Key and App SID from https://dashboard.aspose.cloud/#/apps. Kindly place App Key in "client\_secret" and App SID in "client\_id" argument.
+// Please get your App Key and App SID from https://dashboard.aspose.cloud/#/apps. Kindly place App Key in "client_secret" and App SID in "client_id" argument.
 
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
--d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
+-d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
@@ -91,17 +91,17 @@ BMP File
 
 // First get JSON Web Token
 
-// Please get your App Key and App SID from https://dashboard.aspose.cloud/#/apps. Kindly place App Key in "client\_secret" and App SID in "client\_id" argument.
+// Please get your App Key and App SID from https://dashboard.aspose.cloud/#/apps. Kindly place App Key in "client_secret" and App SID in "client_id" argument.
 
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
--d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
+-d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
 // cURL example to render a paragraph in PNG format
 
-curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/paragraphs/0/render?format=png" \
+curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs/0/render?format=png" \
 -X GET \
 -H "Content-Type: application/json" \
 -H "Accept: application/json" \
@@ -134,11 +134,11 @@ PNG File
 
 // First get JSON Web Token
 
-// Please get your App Key and App SID from https://dashboard.aspose.cloud/#/apps. Kindly place App Key in "client\_secret" and App SID in "client\_id" argument.
+// Please get your App Key and App SID from https://dashboard.aspose.cloud/#/apps. Kindly place App Key in "client_secret" and App SID in "client_id" argument.
 
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
--d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
+-d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
@@ -177,17 +177,17 @@ PNG File
 
 // First get JSON Web Token
 
-// Please get your App Key and App SID from https://dashboard.aspose.cloud/#/apps. Kindly place App Key in "client\_secret" and App SID in "client\_id" argument.
+// Please get your App Key and App SID from https://dashboard.aspose.cloud/#/apps. Kindly place App Key in "client_secret" and App SID in "client_id" argument.
 
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
--d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
+-d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
 // cURL example to render a DrawingObject to PDF format
 
-curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/drawingObjects/0/render?format=pdf" \
+curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/drawingObjects/0/render?format=pdf" \
 -X GET \
 -H "Content-Type: application/json" \
 -H "Accept: application/json" \
@@ -220,11 +220,11 @@ PDF File
 
 // First get JSON Web Token
 
-// Please get your App Key and App SID from https://dashboard.aspose.cloud/#/apps. Kindly place App Key in "client\_secret" and App SID in "client\_id" argument.
+// Please get your App Key and App SID from https://dashboard.aspose.cloud/#/apps. Kindly place App Key in "client_secret" and App SID in "client_id" argument.
 
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
--d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
+-d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
@@ -271,13 +271,13 @@ PNG File
 
 {{< tab tabNum="3" >}}
 
-{{< gist "aspose-cloud" "303ca1faad43f8d1b672fbeac98ad2e0" "render\_page\_to\_specified\_format.py" >}}
+{{< gist "aspose-cloud" "303ca1faad43f8d1b672fbeac98ad2e0" "render_page_to_specified_format.py" >}}
 
 {{< /tab >}}
 
 {{< tab tabNum="4" >}}
 
-{{< gist "aspose-cloud" "5af73b7a7c08a9072ac1c05b0914df3f" "render\_page.rb" >}}
+{{< gist "aspose-cloud" "5af73b7a7c08a9072ac1c05b0914df3f" "render_page.rb" >}}
 
 {{< /tab >}}
 
@@ -289,13 +289,13 @@ PNG File
 
 {{< tab tabNum="6" >}}
 
-{{< gist "aspose-cloud" "5240b25c9a3e98fb21785ad771a3876b" "Aspose\_Cloud\_Words\_RenderPage.java" >}}
+{{< gist "aspose-cloud" "5240b25c9a3e98fb21785ad771a3876b" "Aspose_Cloud_Words_RenderPage.java" >}}
 
 {{< /tab >}}
 
 {{< tab tabNum="7" >}}
 
-{{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose\_Words\_Swift\_RenderPage.swift" >}}
+{{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose_Words_Swift_RenderPage.swift" >}}
 
 {{< /tab >}}
 
@@ -319,13 +319,13 @@ PNG File
 
 {{< tab tabNum="3" >}}
 
-{{< gist "aspose-cloud" "303ca1faad43f8d1b672fbeac98ad2e0" "render\_paragraph\_to\_specified\_format.py" >}}
+{{< gist "aspose-cloud" "303ca1faad43f8d1b672fbeac98ad2e0" "render_paragraph_to_specified_format.py" >}}
 
 {{< /tab >}}
 
 {{< tab tabNum="4" >}}
 
-{{< gist "aspose-cloud" "5af73b7a7c08a9072ac1c05b0914df3f" "render\_paragraph.rb" >}}
+{{< gist "aspose-cloud" "5af73b7a7c08a9072ac1c05b0914df3f" "render_paragraph.rb" >}}
 
 {{< /tab >}}
 
@@ -337,13 +337,13 @@ PNG File
 
 {{< tab tabNum="6" >}}
 
-{{< gist "aspose-cloud" "5240b25c9a3e98fb21785ad771a3876b" "Aspose\_Cloud\_Words\_RenderParagraph.java" >}}
+{{< gist "aspose-cloud" "5240b25c9a3e98fb21785ad771a3876b" "Aspose_Cloud_Words_RenderParagraph.java" >}}
 
 {{< /tab >}}
 
 {{< tab tabNum="7" >}}
 
-{{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose\_Words\_Swift\_RenderParagraph.swift" >}}
+{{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose_Words_Swift_RenderParagraph.swift" >}}
 
 {{< /tab >}}
 
@@ -367,13 +367,13 @@ PNG File
 
 {{< tab tabNum="3" >}}
 
-{{< gist "aspose-cloud" "303ca1faad43f8d1b672fbeac98ad2e0" "render\_table\_to\_specified\_format.py" >}}
+{{< gist "aspose-cloud" "303ca1faad43f8d1b672fbeac98ad2e0" "render_table_to_specified_format.py" >}}
 
 {{< /tab >}}
 
 {{< tab tabNum="4" >}}
 
-{{< gist "aspose-cloud" "5af73b7a7c08a9072ac1c05b0914df3f" "render\_table.rb" >}}
+{{< gist "aspose-cloud" "5af73b7a7c08a9072ac1c05b0914df3f" "render_table.rb" >}}
 
 {{< /tab >}}
 
@@ -385,13 +385,13 @@ PNG File
 
 {{< tab tabNum="6" >}}
 
-{{< gist "aspose-cloud" "5240b25c9a3e98fb21785ad771a3876b" "Aspose\_Cloud\_Words\_RenderTable.java" >}}
+{{< gist "aspose-cloud" "5240b25c9a3e98fb21785ad771a3876b" "Aspose_Cloud_Words_RenderTable.java" >}}
 
 {{< /tab >}}
 
 {{< tab tabNum="7" >}}
 
-{{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose\_Words\_Swift\_RenderTable.swift" >}}
+{{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose_Words_Swift_RenderTable.swift" >}}
 
 {{< /tab >}}
 
@@ -415,13 +415,13 @@ PNG File
 
 {{< tab tabNum="3" >}}
 
-{{< gist "aspose-cloud" "303ca1faad43f8d1b672fbeac98ad2e0" "render\_drawing\_object\_to\_specified\_format.py" >}}
+{{< gist "aspose-cloud" "303ca1faad43f8d1b672fbeac98ad2e0" "render_drawing_object_to_specified_format.py" >}}
 
 {{< /tab >}}
 
 {{< tab tabNum="4" >}}
 
-{{< gist "aspose-cloud" "5af73b7a7c08a9072ac1c05b0914df3f" "render\_drawing\_object.rb" >}}
+{{< gist "aspose-cloud" "5af73b7a7c08a9072ac1c05b0914df3f" "render_drawing_object.rb" >}}
 
 {{< /tab >}}
 
@@ -433,13 +433,13 @@ PNG File
 
 {{< tab tabNum="6" >}}
 
-{{< gist "aspose-cloud" "5240b25c9a3e98fb21785ad771a3876b" "Aspose\_Cloud\_Words\_RenderDrawingObject.java" >}}
+{{< gist "aspose-cloud" "5240b25c9a3e98fb21785ad771a3876b" "Aspose_Cloud_Words_RenderDrawingObject.java" >}}
 
 {{< /tab >}}
 
 {{< tab tabNum="7" >}}
 
-{{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose\_Words\_Swift\_RenderDrawingObject.swift" >}}
+{{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose_Words_Swift_RenderDrawingObject.swift" >}}
 
 {{< /tab >}}
 
@@ -463,13 +463,13 @@ PNG File
 
 {{< tab tabNum="3" >}}
 
-{{< gist "aspose-cloud" "303ca1faad43f8d1b672fbeac98ad2e0" "render\_math\_object\_to\_specified\_format.py" >}}
+{{< gist "aspose-cloud" "303ca1faad43f8d1b672fbeac98ad2e0" "render_math_object_to_specified_format.py" >}}
 
 {{< /tab >}}
 
 {{< tab tabNum="4" >}}
 
-{{< gist "aspose-cloud" "5af73b7a7c08a9072ac1c05b0914df3f" "render\_math\_object.rb" >}}
+{{< gist "aspose-cloud" "5af73b7a7c08a9072ac1c05b0914df3f" "render_math_object.rb" >}}
 
 {{< /tab >}}
 
@@ -481,13 +481,13 @@ PNG File
 
 {{< tab tabNum="6" >}}
 
-{{< gist "aspose-cloud" "5240b25c9a3e98fb21785ad771a3876b" "Aspose\_Cloud\_Words\_RenderMathObject.java" >}}
+{{< gist "aspose-cloud" "5240b25c9a3e98fb21785ad771a3876b" "Aspose_Cloud_Words_RenderMathObject.java" >}}
 
 {{< /tab >}}
 
 {{< tab tabNum="7" >}}
 
-{{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose\_Words\_Swift\_RenderMathObject.swift" >}}
+{{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose_Words_Swift_RenderMathObject.swift" >}}
 
 {{< /tab >}}
 

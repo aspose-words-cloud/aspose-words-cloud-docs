@@ -20,11 +20,11 @@ This REST API allows you to Copy Style from Document Element. Please note that t
 
 // First get JSON Web Token
 
-// Please get your App Key and App SID from https://dashboard.aspose.cloud/#/apps. Kindly place App Key in "client\_secret" and App SID in "client\_id" argument.
+// Please get your App Key and App SID from https://dashboard.aspose.cloud/#/apps. Kindly place App Key in "client_secret" and App SID in "client_id" argument.
 
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
--d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
+-d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
@@ -178,7 +178,7 @@ curl -X POST "https://api.aspose.cloud/v4.0/words/TestCopyStyle.docx/styles/copy
 
     "IsQuickStyle": true,
 
-    "LinkedStyleName": "Heading 1 Char\_1",
+    "LinkedStyleName": "Heading 1 Char_1",
 
     "Type": "Paragraph",
 
@@ -186,11 +186,11 @@ curl -X POST "https://api.aspose.cloud/v4.0/words/TestCopyStyle.docx/styles/copy
 
     "StyleIdentifier": "User",
 
-    "Name": "Heading 1\_1",
+    "Name": "Heading 1_1",
 
     "link": {
 
-      "Href": "https://api.aspose.cloud/v4.0/words/TestCopyStyle.docx/styles/Heading 1\_1",
+      "Href": "https://api.aspose.cloud/v4.0/words/TestCopyStyle.docx/styles/Heading 1_1",
 
       "Rel": "self"
 

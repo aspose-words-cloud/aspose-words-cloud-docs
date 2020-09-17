@@ -41,9 +41,9 @@ Please follow these simple steps to get started
 1. Open PHP Storm and Choose **File** > **Open Project**
 1. Browse to the latest source code that you have downloaded.
 ### **Source code overview**
-- Aspose\_Cloud\_SDK\_For\_PHP-master - Contains Aspose for Cloud SDK API for different operations.
+- Aspose_Cloud_SDK_For_PHP-master - Contains Aspose for Cloud SDK API for different operations.
 - aspose-cloud-eBook-generator.php - Contains main plugin code.
-- aspose\_posts\_exporter\_doc\_converter.php - Convert posts into epub and other formats.
+- aspose_posts_exporter_doc_converter.php - Convert posts into epub and other formats.
 ## **Downloading and Installing**
 ### **Downloading**
 You can download the Aspose Cloud eBook Generator plugin from one of the following locations:

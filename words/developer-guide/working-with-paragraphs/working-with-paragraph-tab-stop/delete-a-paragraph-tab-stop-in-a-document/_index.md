@@ -20,11 +20,11 @@ This REST API allows you to delete all Paragraph Tab Stops in a Document. Pleas
 
 // First get JSON Web Token
 
-// Please get your App Key and App SID from https://dashboard.aspose.cloud/#/apps. Kindly place App Key in "client\_secret" and App SID in "client\_id" argument.
+// Please get your App Key and App SID from https://dashboard.aspose.cloud/#/apps. Kindly place App Key in "client_secret" and App SID in "client_id" argument.
 
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
--d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
+-d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
@@ -138,7 +138,7 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="9" >}}
 
-{{< gist "aspose-cloud" "068ce2149de5ad69ab516209b7ae82cf" "delete\_paragraph\_tab\_stop.go" >}}
+{{< gist "aspose-cloud" "068ce2149de5ad69ab516209b7ae82cf" "delete_paragraph_tab_stop.go" >}}
 
 {{< /tab >}}
 

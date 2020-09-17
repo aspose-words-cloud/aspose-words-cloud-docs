@@ -46,19 +46,19 @@ The GitHub repository for Aspose.Words Cloud has a complete set of examples, dem
 
 {{< tab tabNum="4" >}}
 
-{{< gist "aspose-cloud" "5af73b7a7c08a9072ac1c05b0914df3f" "convert\_html\_to\_word.rb" >}}
+{{< gist "aspose-cloud" "5af73b7a7c08a9072ac1c05b0914df3f" "convert_html_to_word.rb" >}}
 
 {{< /tab >}}
 
 {{< tab tabNum="5" >}}
 
-{{< gist "aspose-cloud" "303ca1faad43f8d1b672fbeac98ad2e0" "convert\_html\_to\_word.py" >}}
+{{< gist "aspose-cloud" "303ca1faad43f8d1b672fbeac98ad2e0" "convert_html_to_word.py" >}}
 
 {{< /tab >}}
 
 {{< tab tabNum="6" >}}
 
-{{< gist "aspose-cloud" "e5e9b0139962cb912eac42c9df06a1a2" "convert\_html\_to\_word.js" >}}
+{{< gist "aspose-cloud" "e5e9b0139962cb912eac42c9df06a1a2" "convert_html_to_word.js" >}}
 
 {{< /tab >}}
 

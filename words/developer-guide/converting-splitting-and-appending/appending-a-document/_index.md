@@ -34,19 +34,19 @@ The description of the important API parameters is given below:
 
 // First get JSON Web Token
 
-// Please get your App Key and App SID from https://dashboard.aspose.cloud/#/apps. Kindly place App Key in "client\_secret" and App SID in "client\_id" argument.
+// Please get your App Key and App SID from https://dashboard.aspose.cloud/#/apps. Kindly place App Key in "client_secret" and App SID in "client_id" argument.
 
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
--d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
+-d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
 // cURL example to append a document
 
-curl -v "https://api.aspose.cloud/v4.0/words/test\_doc.docx/appendDocument" \
+curl -v "https://api.aspose.cloud/v4.0/words/test_doc.docx/appendDocument" \
 -X PUT \
--d "{'DocumentEntries':[{'Href':'test\_multi\_pages.docx', 'ImportFormatMode':'KeepSourceFormatting'}]}" \
+-d "{'DocumentEntries':[{'Href':'test_multi_pages.docx', 'ImportFormatMode':'KeepSourceFormatting'}]}" \
 -H "Content-Type: application/json" \
 -H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>"
@@ -67,7 +67,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_doc.docx/appendDocument" \
 
       {
 
-        "Href": "test\_doc.docx",
+        "Href": "test_doc.docx",
 
         "Rel": "self"
 
@@ -75,7 +75,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_doc.docx/appendDocument" \
 
       {
 
-        "Href": "https://api.aspose.cloud/v4.0/words/test\_doc.docx?format=doc",
+        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=doc",
 
         "Rel": "alternate",
 
@@ -87,7 +87,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_doc.docx/appendDocument" \
 
       {
 
-        "Href": "https://api.aspose.cloud/v4.0/words/test\_doc.docx?format=dot",
+        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=dot",
 
         "Rel": "alternate",
 
@@ -99,7 +99,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_doc.docx/appendDocument" \
 
       {
 
-        "Href": "https://api.aspose.cloud/v4.0/words/test\_doc.docx?format=docx",
+        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=docx",
 
         "Rel": "alternate",
 
@@ -111,7 +111,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_doc.docx/appendDocument" \
 
       {
 
-        "Href": "https://api.aspose.cloud/v4.0/words/test\_doc.docx?format=docm",
+        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=docm",
 
         "Rel": "alternate",
 
@@ -123,7 +123,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_doc.docx/appendDocument" \
 
       {
 
-        "Href": "https://api.aspose.cloud/v4.0/words/test\_doc.docx?format=dotx",
+        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=dotx",
 
         "Rel": "alternate",
 
@@ -135,7 +135,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_doc.docx/appendDocument" \
 
       {
 
-        "Href": "https://api.aspose.cloud/v4.0/words/test\_doc.docx?format=dotm",
+        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=dotm",
 
         "Rel": "alternate",
 
@@ -147,7 +147,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_doc.docx/appendDocument" \
 
       {
 
-        "Href": "https://api.aspose.cloud/v4.0/words/test\_doc.docx?format=flatopc",
+        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=flatopc",
 
         "Rel": "alternate",
 
@@ -159,7 +159,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_doc.docx/appendDocument" \
 
       {
 
-        "Href": "https://api.aspose.cloud/v4.0/words/test\_doc.docx?format=rtf",
+        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=rtf",
 
         "Rel": "alternate",
 
@@ -171,7 +171,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_doc.docx/appendDocument" \
 
       {
 
-        "Href": "https://api.aspose.cloud/v4.0/words/test\_doc.docx?format=wml",
+        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=wml",
 
         "Rel": "alternate",
 
@@ -183,7 +183,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_doc.docx/appendDocument" \
 
       {
 
-        "Href": "https://api.aspose.cloud/v4.0/words/test\_doc.docx?format=odt",
+        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=odt",
 
         "Rel": "alternate",
 
@@ -195,7 +195,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_doc.docx/appendDocument" \
 
       {
 
-        "Href": "https://api.aspose.cloud/v4.0/words/test\_doc.docx?format=ott",
+        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=ott",
 
         "Rel": "alternate",
 
@@ -207,7 +207,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_doc.docx/appendDocument" \
 
       {
 
-        "Href": "https://api.aspose.cloud/v4.0/words/test\_doc.docx?format=txt",
+        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=txt",
 
         "Rel": "alternate",
 
@@ -219,7 +219,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_doc.docx/appendDocument" \
 
       {
 
-        "Href": "https://api.aspose.cloud/v4.0/words/test\_doc.docx?format=mhtml",
+        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=mhtml",
 
         "Rel": "alternate",
 
@@ -231,7 +231,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_doc.docx/appendDocument" \
 
       {
 
-        "Href": "https://api.aspose.cloud/v4.0/words/test\_doc.docx?format=epub",
+        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=epub",
 
         "Rel": "alternate",
 
@@ -243,7 +243,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_doc.docx/appendDocument" \
 
       {
 
-        "Href": "https://api.aspose.cloud/v4.0/words/test\_doc.docx?format=pdf",
+        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=pdf",
 
         "Rel": "alternate",
 
@@ -255,7 +255,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_doc.docx/appendDocument" \
 
       {
 
-        "Href": "https://api.aspose.cloud/v4.0/words/test\_doc.docx?format=xps",
+        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=xps",
 
         "Rel": "alternate",
 
@@ -267,7 +267,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_doc.docx/appendDocument" \
 
       {
 
-        "Href": "https://api.aspose.cloud/v4.0/words/test\_doc.docx?format=tiff",
+        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=tiff",
 
         "Rel": "alternate",
 
@@ -279,7 +279,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_doc.docx/appendDocument" \
 
       {
 
-        "Href": "https://api.aspose.cloud/v4.0/words/test\_doc.docx?format=png",
+        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=png",
 
         "Rel": "alternate",
 
@@ -291,7 +291,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_doc.docx/appendDocument" \
 
       {
 
-        "Href": "https://api.aspose.cloud/v4.0/words/test\_doc.docx?format=jpeg",
+        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=jpeg",
 
         "Rel": "alternate",
 
@@ -303,7 +303,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_doc.docx/appendDocument" \
 
       {
 
-        "Href": "https://api.aspose.cloud/v4.0/words/test\_doc.docx?format=bmp",
+        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=bmp",
 
         "Rel": "alternate",
 
@@ -315,7 +315,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_doc.docx/appendDocument" \
 
       {
 
-        "Href": "https://api.aspose.cloud/v4.0/words/test\_doc.docx?format=gif",
+        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=gif",
 
         "Rel": "alternate",
 
@@ -327,7 +327,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_doc.docx/appendDocument" \
 
       {
 
-        "Href": "https://api.aspose.cloud/v4.0/words/test\_doc.docx?format=svg",
+        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=svg",
 
         "Rel": "alternate",
 
@@ -339,7 +339,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_doc.docx/appendDocument" \
 
       {
 
-        "Href": "https://api.aspose.cloud/v4.0/words/test\_doc.docx?format=html",
+        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=html",
 
         "Rel": "alternate",
 
@@ -351,7 +351,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_doc.docx/appendDocument" \
 
       {
 
-        "Href": "https://api.aspose.cloud/v4.0/words/test\_doc.docx?format=htmlfixed",
+        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=htmlfixed",
 
         "Rel": "alternate",
 
@@ -363,7 +363,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_doc.docx/appendDocument" \
 
       {
 
-        "Href": "https://api.aspose.cloud/v4.0/words/test\_doc.docx?format=pcl",
+        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=pcl",
 
         "Rel": "alternate",
 
@@ -375,7 +375,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_doc.docx/appendDocument" \
 
     ],
 
-    "FileName": "test\_doc.docx",
+    "FileName": "test_doc.docx",
 
     "SourceFormat": "Docx",
 
@@ -387,7 +387,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_doc.docx/appendDocument" \
 
       "link": {
 
-        "Href": "https://api.aspose.cloud/v4.0/words/test\_doc.docx/documentProperties",
+        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx/documentProperties",
 
         "Rel": "self"
 
@@ -447,19 +447,19 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="7" >}}
 
-{{< gist "aspose-cloud" "5240b25c9a3e98fb21785ad771a3876b" "Aspose\_Cloud\_Words\_AppendaDocument.java" >}}
+{{< gist "aspose-cloud" "5240b25c9a3e98fb21785ad771a3876b" "Aspose_Cloud_Words_AppendaDocument.java" >}}
 
 {{< /tab >}}
 
 {{< tab tabNum="8" >}}
 
-{{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose\_Words\_Swift\_AppendaDocument.swift" >}}
+{{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose_Words_Swift_AppendaDocument.swift" >}}
 
 {{< /tab >}}
 
 {{< tab tabNum="9" >}}
 
-{{< gist "aspose-cloud" "068ce2149de5ad69ab516209b7ae82cf" "Aspose\_Cloud\_Words\_AppendaDocument.go" >}}
+{{< gist "aspose-cloud" "068ce2149de5ad69ab516209b7ae82cf" "Aspose_Cloud_Words_AppendaDocument.go" >}}
 
 {{< /tab >}}
 

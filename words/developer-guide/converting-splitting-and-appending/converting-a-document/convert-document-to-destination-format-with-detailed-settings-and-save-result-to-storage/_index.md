@@ -22,9 +22,9 @@ weight: 20
 |emf|EmfSaveOptions|
 |epub|EpubSaveOptions|
 |flatopc/fopc|OoxmlSaveOptions|
-|flatopc\_macro/fopc\_macro|OoxmlSaveOptions|
-|flatopc\_template/fopc\_template|OoxmlSaveOptions|
-|flatopc\_template\_macro/fopc\_template\_macro|OoxmlSaveOptions|
+|flatopc_macro/fopc_macro|OoxmlSaveOptions|
+|flatopc_template/fopc_template|OoxmlSaveOptions|
+|flatopc_template_macro/fopc_template_macro|OoxmlSaveOptions|
 |gif|GifSaveOptions|
 |html|HtmlSaveOptions|
 |htmlfixed|HtmlFixedSaveOptions|
@@ -85,11 +85,11 @@ All elements, except **SaveFormat** and **FileName**, can be omitted. If we omit
 
    <UseGdiEmfRenderer>{true/false}</UseGdiEmfRenderer><!-- default value = true-->
 
-   <ImageBrightness>{float\_number}</ImageBrightness><!-- default value = 0.5 -->
+   <ImageBrightness>{float_number}</ImageBrightness><!-- default value = 0.5 -->
 
    <ImageColorMode>{BlackAndWhite/Grayscale/None}</ImageColorMode><!-- default value = None -->
 
-   <ImageContrast>{float\_number}</ImageContrast><!-- default value = 0.5 -->
+   <ImageContrast>{float_number}</ImageContrast><!-- default value = 0.5 -->
 
    <GraphicsQualityOptions>
 
@@ -145,13 +145,13 @@ All elements, except **SaveFormat** and **FileName**, can be omitted. If we omit
 
    <DmlEffectsRenderingMode>{Simplified | None | Fine}</DmlEffectsRenderingMode><!-- default value = Simplified -->
 
-   <Resolution>{float\_number}</Resolution><!-- default value = 96 -->
+   <Resolution>{float_number}</Resolution><!-- default value = 96 -->
 
-   <HorizontalResolution>{float\_number}</Resolution><!-- default value = 96 -->
+   <HorizontalResolution>{float_number}</Resolution><!-- default value = 96 -->
 
-   <VerticalResolution>{float\_number}</Resolution><!-- default value = 96 -->
+   <VerticalResolution>{float_number}</Resolution><!-- default value = 96 -->
 
-   <Scale>{float\_number}</Scale><!-- default value = 1.0 -->
+   <Scale>{float_number}</Scale><!-- default value = 1.0 -->
 
 </BmpSaveOptions>
 
@@ -199,7 +199,7 @@ All elements, except **SaveFormat** and **FileName**, can be omitted. If we omit
 
    <PrettyFormat>{true/false}</PrettyFormat><!-- default value = false -->
 
-   <Compliance>{Ecma376\_2006/Iso29500\_2008\_Transitional}</Compliance><!-- default value = Ecma376\_2006 -->
+   <Compliance>{Ecma376_2006/Iso29500_2008_Transitional}</Compliance><!-- default value = Ecma376_2006 -->
 
    <Password>{string}</Password><!-- default value = "" -->
 
@@ -223,11 +223,11 @@ All elements, except **SaveFormat** and **FileName**, can be omitted. If we omit
 
    <!-- specific part -->
 
-   <ImageBrightness>{float\_number}</ImageBrightness><!-- default value = 0.5 -->
+   <ImageBrightness>{float_number}</ImageBrightness><!-- default value = 0.5 -->
 
    <ImageColorMode>{BlackAndWhite/Grayscale/None}</ImageColorMode><!-- default value = None -->
 
-   <ImageContrast>{float\_number}</ImageContrast><!-- default value = 0.5 -->
+   <ImageContrast>{float_number}</ImageContrast><!-- default value = 0.5 -->
 
    <GraphicsQualityOptions>
 
@@ -281,13 +281,13 @@ All elements, except **SaveFormat** and **FileName**, can be omitted. If we omit
 
    <DmlEffectsRenderingMode>{Simplified | None | Fine}</DmlEffectsRenderingMode><!-- default value = Simplified -->
 
-   <Resolution>{float\_number}</Resolution><!-- default value = 96 -->
+   <Resolution>{float_number}</Resolution><!-- default value = 96 -->
 
-   <HorizontalResolution>{float\_number}</Resolution><!-- default value = 96 -->
+   <HorizontalResolution>{float_number}</Resolution><!-- default value = 96 -->
 
-   <VerticalResolution>{float\_number}</Resolution><!-- default value = 96 -->
+   <VerticalResolution>{float_number}</Resolution><!-- default value = 96 -->
 
-   <Scale>{float\_number}</Scale><!-- defaulHtmlSaveOptionst value = 1.0 -->
+   <Scale>{float_number}</Scale><!-- defaulHtmlSaveOptionst value = 1.0 -->
 
    <UseGdiEmfRenderer>{true/false}</UseGdiEmfRenderer><!-- default value = true-->
 
@@ -399,11 +399,11 @@ All elements, except **SaveFormat** and **FileName**, can be omitted. If we omit
 
    <UseGdiEmfRenderer>{true/false}</UseGdiEmfRenderer><!-- default value = true-->
 
-   <ImageBrightness>{float\_number}</ImageBrightness><!-- default value = 0.5 -->
+   <ImageBrightness>{float_number}</ImageBrightness><!-- default value = 0.5 -->
 
    <ImageColorMode>{BlackAndWhite/Grayscale/None}</ImageColorMode><!-- default value = None -->
 
-   <ImageContrast>{float\_number}</ImageContrast><!-- default value = 0.5 -->
+   <ImageContrast>{float_number}</ImageContrast><!-- default value = 0.5 -->
 
    <GraphicsQualityOptions>
 
@@ -459,13 +459,13 @@ All elements, except **SaveFormat** and **FileName**, can be omitted. If we omit
 
    <DmlEffectsRenderingMode>{Simplified | None | Fine}</DmlEffectsRenderingMode><!-- default value = Simplified -->
 
-   <Resolution>{float\_number}</Resolution><!-- default value = 96 -->
+   <Resolution>{float_number}</Resolution><!-- default value = 96 -->
 
-   <HorizontalResolution>{float\_number}</Resolution><!-- default value = 96 -->
+   <HorizontalResolution>{float_number}</Resolution><!-- default value = 96 -->
 
-   <VerticalResolution>{float\_number}</Resolution><!-- default value = 96 -->
+   <VerticalResolution>{float_number}</Resolution><!-- default value = 96 -->
 
-   <Scale>{float\_number}</Scale><!-- default value = 1.0 -->
+   <Scale>{float_number}</Scale><!-- default value = 1.0 -->
 
 </GifSaveOptions>
 
@@ -655,11 +655,11 @@ All elements, except **SaveFormat** and **FileName**, can be omitted. If we omit
 
    <UseGdiEmfRenderer>{true/false}</UseGdiEmfRenderer><!-- default value = true-->
 
-   <ImageBrightness>{float\_number}</ImageBrightness><!-- default value = 0.5 -->
+   <ImageBrightness>{float_number}</ImageBrightness><!-- default value = 0.5 -->
 
    <ImageColorMode>{BlackAndWhite/Grayscale/None}</ImageColorMode><!-- default value = None -->
 
-   <ImageContrast>{float\_number}</ImageContrast><!-- default value = 0.5 -->
+   <ImageContrast>{float_number}</ImageContrast><!-- default value = 0.5 -->
 
    <GraphicsQualityOptions>
 
@@ -715,13 +715,13 @@ All elements, except **SaveFormat** and **FileName**, can be omitted. If we omit
 
    <DmlEffectsRenderingMode>{Simplified | None | Fine}</DmlEffectsRenderingMode><!-- default value = Simplified -->
 
-   <Resolution>{float\_number}</Resolution><!-- default value = 96 -->
+   <Resolution>{float_number}</Resolution><!-- default value = 96 -->
 
-   <HorizontalResolution>{float\_number}</Resolution><!-- default value = 96 -->
+   <HorizontalResolution>{float_number}</Resolution><!-- default value = 96 -->
 
-   <VerticalResolution>{float\_number}</Resolution><!-- default value = 96 -->
+   <VerticalResolution>{float_number}</Resolution><!-- default value = 96 -->
 
-   <Scale>{float\_number}</Scale><!-- default value = 1.0 -->
+   <Scale>{float_number}</Scale><!-- default value = 1.0 -->
 
 </JpegSaveOptions>
 
@@ -895,7 +895,7 @@ All elements, except **SaveFormat** and **FileName**, can be omitted. If we omit
 
    <DigitalSignatureDetails><!-- default value = null -->
 
-      <Certificate>{certificate\_filename}</Certificate><!-- default value = null -->
+      <Certificate>{certificate_filename}</Certificate><!-- default value = null -->
 
       <HashAlgorithm>{Md5/Sha1/Sha256/Sha384/Sha512}</HashAlgorithm><!-- default value = Sha512 -->
 
@@ -903,7 +903,7 @@ All elements, except **SaveFormat** and **FileName**, can be omitted. If we omit
 
       <Reason>{string}</Reason><!-- default value = null -->
 
-      <SignatureDate>{date\_string}</SignatureDate><!-- default value = current time -->
+      <SignatureDate>{date_string}</SignatureDate><!-- default value = current time -->
 
    </DigitalSignatureDetails>
 
@@ -925,7 +925,7 @@ All elements, except **SaveFormat** and **FileName**, can be omitted. If we omit
 
    <EncryptionDetails><!-- default value = null -->
 
-      <EncryptionAlgorithm>{RC4\_128/RC4\_40}</EncryptionAlgorithm><!-- default value = RC4\_40 -->
+      <EncryptionAlgorithm>{RC4_128/RC4_40}</EncryptionAlgorithm><!-- default value = RC4_40 -->
 
       <OwnerPassword>{string}</OwnerPassword><!-- default value = null -->
 
@@ -1029,11 +1029,11 @@ All elements, except **SaveFormat** and **FileName**, can be omitted. If we omit
 
    <UseGdiEmfRenderer>{true/false}</UseGdiEmfRenderer><!-- default value = true-->
 
-   <ImageBrightness>{float\_number}</ImageBrightness><!-- default value = 0.5 -->
+   <ImageBrightness>{float_number}</ImageBrightness><!-- default value = 0.5 -->
 
    <ImageColorMode>{BlackAndWhite/Grayscale/None}</ImageColorMode><!-- default value = None -->
 
-   <ImageContrast>{float\_number}</ImageContrast><!-- default value = 0.5 -->
+   <ImageContrast>{float_number}</ImageContrast><!-- default value = 0.5 -->
 
    <GraphicsQualityOptions>
 
@@ -1087,13 +1087,13 @@ All elements, except **SaveFormat** and **FileName**, can be omitted. If we omit
 
    <DmlEffectsRenderingMode>{Simplified | None | Fine}</DmlEffectsRenderingMode><!-- default value = Simplified -->
 
-   <Resolution>{float\_number}</Resolution><!-- default value = 96 -->
+   <Resolution>{float_number}</Resolution><!-- default value = 96 -->
 
-   <HorizontalResolution>{float\_number}</Resolution><!-- default value = 96 -->
+   <HorizontalResolution>{float_number}</Resolution><!-- default value = 96 -->
 
-   <VerticalResolution>{float\_number}</Resolution><!-- default value = 96 -->
+   <VerticalResolution>{float_number}</Resolution><!-- default value = 96 -->
 
-   <Scale>{float\_number}</Scale><!-- default value = 1.0 -->
+   <Scale>{float_number}</Scale><!-- default value = 1.0 -->
 
 </PngSaveOptions>
 
@@ -1245,11 +1245,11 @@ All elements, except **SaveFormat** and **FileName**, can be omitted. If we omit
 
    <UseGdiEmfRenderer>{true/false}</UseGdiEmfRenderer><!-- default value = true-->
 
-   <ImageBrightness>{float\_number}</ImageBrightness><!-- default value = 0.5 -->
+   <ImageBrightness>{float_number}</ImageBrightness><!-- default value = 0.5 -->
 
    <ImageColorMode>{BlackAndWhite/Grayscale/None}</ImageColorMode><!-- default value = None -->
 
-   <ImageContrast>{float\_number}</ImageContrast><!-- default value = 0.5 -->
+   <ImageContrast>{float_number}</ImageContrast><!-- default value = 0.5 -->
 
    <GraphicsQualityOptions>
 
@@ -1305,13 +1305,13 @@ All elements, except **SaveFormat** and **FileName**, can be omitted. If we omit
 
    <DmlEffectsRenderingMode>{Simplified | None | Fine}</DmlEffectsRenderingMode><!-- default value = Simplified -->
 
-   <Resolution>{float\_number}</Resolution><!-- default value = 96 -->
+   <Resolution>{float_number}</Resolution><!-- default value = 96 -->
 
-   <HorizontalResolution>{float\_number}</Resolution><!-- default value = 96 -->
+   <HorizontalResolution>{float_number}</Resolution><!-- default value = 96 -->
 
-   <VerticalResolution>{float\_number}</Resolution><!-- default value = 96 -->
+   <VerticalResolution>{float_number}</Resolution><!-- default value = 96 -->
 
-   <Scale>{float\_number}</Scale><!-- default value = 1.0 -->
+   <Scale>{float_number}</Scale><!-- default value = 1.0 -->
 
    <TiffBinarizationMethod>{FloydSteinbergDithering/Threshold}</TiffBinarizationMethod><!-- default value = Threshold -->
 
@@ -1529,11 +1529,11 @@ R,G,B = 0..255
 
 // First get JSON Web Token
 
-// Please get your App Key and App SID from https://dashboard.aspose.cloud/#/apps. Kindly place App Key in "client\_secret" and App SID in "client\_id" argument
+// Please get your App Key and App SID from https://dashboard.aspose.cloud/#/apps. Kindly place App Key in "client_secret" and App SID in "client_id" argument
 
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
--d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
+-d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
@@ -1541,9 +1541,9 @@ curl -v "https://api.aspose.cloud/connect/token" \
 
 // cURL example to convert MS Word Document to PDF using PDFSaveOptions
 
-curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/saveAs" \
+curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/saveAs" \
 -X PUT \
--d "{'SaveFormat':'pdf', 'FileName': 'test\_multi\_pages.pdf'}" \
+-d "{'SaveFormat':'pdf', 'FileName': 'test_multi_pages.pdf'}" \
 -H "Content-Type: application/json" \
 -H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>"
@@ -1562,7 +1562,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/saveAs" \
 
     "SourceDocument": {
 
-      "Href": "http://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx",
+      "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx",
 
       "Rel": "self",
 
@@ -1574,7 +1574,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/saveAs" \
 
     "DestDocument": {
 
-      "Href": "test\_multi\_pages.pdf",
+      "Href": "test_multi_pages.pdf",
 
       "Rel": "saved",
 
@@ -1646,13 +1646,13 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="7" >}}
 
-{{< gist "aspose-cloud" "5240b25c9a3e98fb21785ad771a3876b" "Aspose\_Cloud\_Words\_ConvertWordDocumentToAnotherFormatWithDetailedSettings.java" >}}
+{{< gist "aspose-cloud" "5240b25c9a3e98fb21785ad771a3876b" "Aspose_Cloud_Words_ConvertWordDocumentToAnotherFormatWithDetailedSettings.java" >}}
 
 {{< /tab >}}
 
 {{< tab tabNum="8" >}}
 
-{{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose\_Words\_Swift\_ConvertWordDocumentToAnotherFormatWithDetailedSettings.swift" >}}
+{{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose_Words_Swift_ConvertWordDocumentToAnotherFormatWithDetailedSettings.swift" >}}
 
 {{< /tab >}}
 

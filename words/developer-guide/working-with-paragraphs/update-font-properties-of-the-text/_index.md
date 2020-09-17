@@ -75,11 +75,11 @@ Output Document: [ResultWordDocument.docx](attachments/885279/1180113.docx)
 
 // First get JSON Web Token
 
-// Please get your App Key and App SID from https://dashboard.aspose.cloud/#/apps. Kindly place App Key in "client\_secret" and App SID in "client\_id" argument.
+// Please get your App Key and App SID from https://dashboard.aspose.cloud/#/apps. Kindly place App Key in "client_secret" and App SID in "client_id" argument.
 
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
--d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
+-d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
@@ -266,13 +266,13 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="3" >}}
 
-{{< gist "aspose-cloud" "303ca1faad43f8d1b672fbeac98ad2e0" "post\_document\_paragraph\_run\_font.py" >}}
+{{< gist "aspose-cloud" "303ca1faad43f8d1b672fbeac98ad2e0" "post_document_paragraph_run_font.py" >}}
 
 {{< /tab >}}
 
 {{< tab tabNum="4" >}}
 
-{{< gist "aspose-cloud" "5af73b7a7c08a9072ac1c05b0914df3f" "post\_document\_paragraph\_run\_font.rb" >}}
+{{< gist "aspose-cloud" "5af73b7a7c08a9072ac1c05b0914df3f" "post_document_paragraph_run_font.rb" >}}
 
 {{< /tab >}}
 
@@ -284,13 +284,13 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="6" >}}
 
-{{< gist "aspose-cloud" "5240b25c9a3e98fb21785ad771a3876b" "Aspose\_Cloud\_Words\_PostDocumentParagraphRunFont.java" >}}
+{{< gist "aspose-cloud" "5240b25c9a3e98fb21785ad771a3876b" "Aspose_Cloud_Words_PostDocumentParagraphRunFont.java" >}}
 
 {{< /tab >}}
 
 {{< tab tabNum="7" >}}
 
-{{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose\_Words\_Swift\_PostDocumentParagraphRunFont.swift" >}}
+{{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose_Words_Swift_PostDocumentParagraphRunFont.swift" >}}
 
 {{< /tab >}}
 

@@ -39,7 +39,7 @@ You can simply run the following docker command after pulling the container from
 
 ```java
 
-docker run   -e "LicensePublicKey=public\_key" -e "LicensePrivateKey=private\_key" -v "/fonts:/fonts" -v "/data:/data" aspose/words.cloud
+docker run   -e "LicensePublicKey=public_key" -e "LicensePrivateKey=private_key" -v "/fonts:/fonts" -v "/data:/data" aspose/words.cloud
 
 ```
 
