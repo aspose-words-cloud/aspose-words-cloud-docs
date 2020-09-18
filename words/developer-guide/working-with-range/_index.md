@@ -90,28 +90,20 @@ First, he needs to call [Paragraph API](https://apireference.aspose.cloud/words/
 
 // First get JSON Web Token
 
-// Please get your App Key and App SID from https://dashboard.aspose.cloud/#/apps. Kindly place App Key in "client\_secret" and App SID in "client\_id" argument.
+// Please get your App Key and App SID from https://dashboard.aspose.cloud/#/apps. Kindly place App Key in "client_secret" and App SID in "client_id" argument.
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
--d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
+-d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 // cURL example to get a list of paragraphs that are contained in the document or in the section
 
 curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/paragraphs" \
-
 -X GET \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json" \
-
 -H "Authorization: Bearer <jwt token>"
 
 ```
@@ -207,13 +199,9 @@ He sees that the first two paragraphs correspond to id0.0 and id0.2 (NodeId in t
 // cURL example to get the text from the range.
 
 curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/range/id0.0/id0.2:end" \
-
 -X GET \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json" \
-
 -H "Authorization: Bearer <jwt token>"
 
 ```
@@ -248,28 +236,20 @@ First, he needs to call [Paragraph API](https://apireference.aspose.cloud/words/
 
 // First get JSON Web Token
 
-// Please get your App Key and App SID from https://dashboard.aspose.cloud/#/apps. Kindly place App Key in "client\_secret" and App SID in "client\_id" argument.
+// Please get your App Key and App SID from https://dashboard.aspose.cloud/#/apps. Kindly place App Key in "client_secret" and App SID in "client_id" argument.
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
--d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
+-d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 // cURL example to get a list of paragraphs that are contained in the document or in the section
 
 curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/paragraphs" \
-
 -X GET \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json" \
-
 -H "Authorization: Bearer <jwt token>"
 
 ```
@@ -365,15 +345,10 @@ Now, he calls the following API to save the first two paragraphs (correspond to 
 // cURL example to save the selected range as a new document.
 
 curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/range/id0.0/id0.2:end/saveas" \
-
 -X POST \
-
 -d "{ 'DocumentName': 'SelectedRanage.docx' }" \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json" \
-
 -H "Authorization: Bearer <jwt token>"
 
 ```
@@ -744,13 +719,13 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="2" >}}
 
-{{< gist "aspose-cloud" "5240b25c9a3e98fb21785ad771a3876b" "Aspose\_Cloud\_Words\_GetParagraphsText.java" >}}
+{{< gist "aspose-cloud" "5240b25c9a3e98fb21785ad771a3876b" "Aspose_Cloud_Words_GetParagraphsText.java" >}}
 
 {{< /tab >}}
 
 {{< tab tabNum="3" >}}
 
-{{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose\_Words\_Swift\_GetParagraphsText.swift" >}}
+{{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose_Words_Swift_GetParagraphsText.swift" >}}
 
 {{< /tab >}}
 
@@ -774,13 +749,13 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="2" >}}
 
-{{< gist "aspose-cloud" "5240b25c9a3e98fb21785ad771a3876b" "Aspose\_Cloud\_Words\_SaveTheSelectedRanageAsANewDocument.java" >}}
+{{< gist "aspose-cloud" "5240b25c9a3e98fb21785ad771a3876b" "Aspose_Cloud_Words_SaveTheSelectedRanageAsANewDocument.java" >}}
 
 {{< /tab >}}
 
 {{< tab tabNum="3" >}}
 
-{{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose\_Words\_Swift\_SaveTheSelectedRanageAsANewDocument.swift" >}}
+{{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose_Words_Swift_SaveTheSelectedRanageAsANewDocument.swift" >}}
 
 {{< /tab >}}
 

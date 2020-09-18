@@ -40,7 +40,7 @@ The page contains release notes for Aspose.Words Cloud 20.4 – [API Reference]
 |PDF2WORD-135 |Slow processing on some files |Bug|
 |PDF2WORD-412 |Wrong formulas formatting |Bug|
 |PDF2WORD-425 |TestRecognizingTextWithBookmarks fails on Linux |Bug|
-|PDF2WORD-429|TestDocument\_CorrectResult\_BothHeadersAndFooters fails on Linux|Bug|
+|PDF2WORD-429|TestDocument_CorrectResult_BothHeadersAndFooters fails on Linux|Bug|
 |PDF2WORD-460|TableDetector doesn't recognize a colored table|Bug|
 |PDF2WORD-469|Table doesn't fit it's border|Bug|
 |PDF2WORD-470 |Some vector lines aren't visible on the chart|Bug|

@@ -24,32 +24,23 @@ Output Document: [TestMailMergeWithImages_Out.docx](attachments/885365/1180103.
 
 // First get JSON Web Token
 
-// Please get your App Key and App SID from https://dashboard.aspose.cloud/#/apps. Kindly place App Key in "client\_secret" and App SID in "client\_id" argument.
+// Please get your App Key and App SID from https://dashboard.aspose.cloud/#/apps. Kindly place App Key in "client_secret" and App SID in "client_id" argument.
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
--d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
+-d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 
 
 // cURL example to insert image during mail merge
 
-curl -v "https://api.aspose.cloud/v4.0/words/TestMailMergeWithImages.doc/MailMerge?destFileName=TestMailMergeWithImages\_Out.docx" \
-
+curl -v "https://api.aspose.cloud/v4.0/words/TestMailMergeWithImages.doc/MailMerge?destFileName=TestMailMergeWithImages_Out.docx" \
 -X PUT \
-
 -F data=@MailMergeData.txt \
-
 -H "Content-Type: multipart/form-data" \
-
 -H "Accept: application/json" \
-
 -H "Authorization: Bearer <jwt token>"
 
 ```
@@ -68,7 +59,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/TestMailMergeWithImages.doc/MailMer
 
       {
 
-        "Href": "TestMailMergeWithImages\_Out.docx",
+        "Href": "TestMailMergeWithImages_Out.docx",
 
         "Rel": "self",
 
@@ -80,7 +71,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/TestMailMergeWithImages.doc/MailMer
 
       {
 
-        "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages\_Out.docx?format=doc",
+        "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages_Out.docx?format=doc",
 
         "Rel": "alternate",
 
@@ -92,7 +83,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/TestMailMergeWithImages.doc/MailMer
 
       {
 
-        "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages\_Out.docx?format=dot",
+        "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages_Out.docx?format=dot",
 
         "Rel": "alternate",
 
@@ -104,7 +95,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/TestMailMergeWithImages.doc/MailMer
 
       {
 
-        "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages\_Out.docx?format=docx",
+        "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages_Out.docx?format=docx",
 
         "Rel": "alternate",
 
@@ -116,7 +107,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/TestMailMergeWithImages.doc/MailMer
 
       {
 
-        "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages\_Out.docx?format=docm",
+        "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages_Out.docx?format=docm",
 
         "Rel": "alternate",
 
@@ -128,7 +119,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/TestMailMergeWithImages.doc/MailMer
 
       {
 
-        "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages\_Out.docx?format=dotx",
+        "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages_Out.docx?format=dotx",
 
         "Rel": "alternate",
 
@@ -140,7 +131,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/TestMailMergeWithImages.doc/MailMer
 
       {
 
-        "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages\_Out.docx?format=dotm",
+        "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages_Out.docx?format=dotm",
 
         "Rel": "alternate",
 
@@ -152,7 +143,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/TestMailMergeWithImages.doc/MailMer
 
       {
 
-        "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages\_Out.docx?format=flatopc",
+        "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages_Out.docx?format=flatopc",
 
         "Rel": "alternate",
 
@@ -164,7 +155,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/TestMailMergeWithImages.doc/MailMer
 
       {
 
-        "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages\_Out.docx?format=rtf",
+        "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages_Out.docx?format=rtf",
 
         "Rel": "alternate",
 
@@ -176,7 +167,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/TestMailMergeWithImages.doc/MailMer
 
       {
 
-        "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages\_Out.docx?format=wml",
+        "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages_Out.docx?format=wml",
 
         "Rel": "alternate",
 
@@ -188,7 +179,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/TestMailMergeWithImages.doc/MailMer
 
       {
 
-        "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages\_Out.docx?format=odt",
+        "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages_Out.docx?format=odt",
 
         "Rel": "alternate",
 
@@ -200,7 +191,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/TestMailMergeWithImages.doc/MailMer
 
       {
 
-        "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages\_Out.docx?format=ott",
+        "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages_Out.docx?format=ott",
 
         "Rel": "alternate",
 
@@ -212,7 +203,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/TestMailMergeWithImages.doc/MailMer
 
       {
 
-        "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages\_Out.docx?format=txt",
+        "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages_Out.docx?format=txt",
 
         "Rel": "alternate",
 
@@ -224,7 +215,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/TestMailMergeWithImages.doc/MailMer
 
       {
 
-        "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages\_Out.docx?format=mhtml",
+        "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages_Out.docx?format=mhtml",
 
         "Rel": "alternate",
 
@@ -236,7 +227,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/TestMailMergeWithImages.doc/MailMer
 
       {
 
-        "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages\_Out.docx?format=epub",
+        "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages_Out.docx?format=epub",
 
         "Rel": "alternate",
 
@@ -248,7 +239,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/TestMailMergeWithImages.doc/MailMer
 
       {
 
-        "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages\_Out.docx?format=pdf",
+        "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages_Out.docx?format=pdf",
 
         "Rel": "alternate",
 
@@ -260,7 +251,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/TestMailMergeWithImages.doc/MailMer
 
       {
 
-        "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages\_Out.docx?format=xps",
+        "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages_Out.docx?format=xps",
 
         "Rel": "alternate",
 
@@ -272,7 +263,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/TestMailMergeWithImages.doc/MailMer
 
       {
 
-        "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages\_Out.docx?format=tiff",
+        "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages_Out.docx?format=tiff",
 
         "Rel": "alternate",
 
@@ -284,7 +275,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/TestMailMergeWithImages.doc/MailMer
 
       {
 
-        "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages\_Out.docx?format=png",
+        "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages_Out.docx?format=png",
 
         "Rel": "alternate",
 
@@ -296,7 +287,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/TestMailMergeWithImages.doc/MailMer
 
       {
 
-        "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages\_Out.docx?format=jpeg",
+        "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages_Out.docx?format=jpeg",
 
         "Rel": "alternate",
 
@@ -308,7 +299,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/TestMailMergeWithImages.doc/MailMer
 
       {
 
-        "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages\_Out.docx?format=bmp",
+        "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages_Out.docx?format=bmp",
 
         "Rel": "alternate",
 
@@ -320,7 +311,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/TestMailMergeWithImages.doc/MailMer
 
       {
 
-        "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages\_Out.docx?format=gif",
+        "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages_Out.docx?format=gif",
 
         "Rel": "alternate",
 
@@ -332,7 +323,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/TestMailMergeWithImages.doc/MailMer
 
       {
 
-        "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages\_Out.docx?format=svg",
+        "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages_Out.docx?format=svg",
 
         "Rel": "alternate",
 
@@ -344,7 +335,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/TestMailMergeWithImages.doc/MailMer
 
       {
 
-        "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages\_Out.docx?format=html",
+        "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages_Out.docx?format=html",
 
         "Rel": "alternate",
 
@@ -356,7 +347,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/TestMailMergeWithImages.doc/MailMer
 
       {
 
-        "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages\_Out.docx?format=htmlfixed",
+        "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages_Out.docx?format=htmlfixed",
 
         "Rel": "alternate",
 
@@ -368,7 +359,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/TestMailMergeWithImages.doc/MailMer
 
       {
 
-        "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages\_Out.docx?format=pcl",
+        "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages_Out.docx?format=pcl",
 
         "Rel": "alternate",
 
@@ -380,7 +371,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/TestMailMergeWithImages.doc/MailMer
 
     ],
 
-    "FileName": "TestMailMergeWithImages\_Out.docx",
+    "FileName": "TestMailMergeWithImages_Out.docx",
 
     "SourceFormat": 1,
 
@@ -394,7 +385,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/TestMailMergeWithImages.doc/MailMer
 
       "link": {
 
-        "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages\_Out.docx/documentProperties",
+        "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages_Out.docx/documentProperties",
 
         "Rel": "self",
 
@@ -462,13 +453,13 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="7" >}}
 
-{{< gist "aspose-cloud" "5240b25c9a3e98fb21785ad771a3876b" "Aspose\_Cloud\_Words\_InsertImagesDuringMailMerge.java" >}}
+{{< gist "aspose-cloud" "5240b25c9a3e98fb21785ad771a3876b" "Aspose_Cloud_Words_InsertImagesDuringMailMerge.java" >}}
 
 {{< /tab >}}
 
 {{< tab tabNum="8" >}}
 
-{{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose\_Words\_Swift\_InsertImagesDuringMailMerge.swift" >}}
+{{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose_Words_Swift_InsertImagesDuringMailMerge.swift" >}}
 
 {{< /tab >}}
 

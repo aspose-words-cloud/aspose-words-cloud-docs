@@ -20,28 +20,20 @@ This REST API allows you to get all lists of documents. Please note that the SDK
 
 // First get JSON Web Token
 
-// Please get your App Key and App SID from https://dashboard.aspose.cloud/#/apps. Kindly place App Key in "client\_secret" and App SID in "client\_id" argument.
+// Please get your App Key and App SID from https://dashboard.aspose.cloud/#/apps. Kindly place App Key in "client_secret" and App SID in "client_id" argument.
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
--d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
+-d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 // cURL example to get a list of sections
 
-curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/Lists/GetLists" \
-
+curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/Lists/GetLists" \
 -X GET\
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json" \
-
 -H "Authorization: Bearer <jwt token>"
 
 ```
@@ -62,7 +54,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/Lists/GetLi
 
         "link": {
 
-          "Href": "http://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/sections/0",
+          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0",
 
           "Rel": "self",
 
@@ -78,7 +70,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/Lists/GetLi
 
     "link": {
 
-      "Href": "http://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/sections",
+      "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections",
 
       "Rel": "self",
 

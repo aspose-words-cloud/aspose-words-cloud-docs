@@ -42,11 +42,11 @@ You can download the Aspose.Words Cloud for Salesforce from one of the following
 Once downloaded, please follow these steps to deploy Aspose.Words Cloud on Salesforce:
 ##### **Import Aspose.Words Cloud for Salesforce as project in Eclipse as Force.com project**
 - File > Import General > Existing Projects into Workspace
-- Select the Aspose\_for\_SalesForce/Aspose.Words Sample unziped folder as root directory.
+- Select the Aspose_for_SalesForce/Aspose.Words Sample unziped folder as root directory.
 #### **Deploy on Salesforce**
 - Right Click on Project > Force.com > Deploy to Server.
 ### **Using and Video Demo**
-![todo:image\_alt\_text](/plugins/servlet/confluence/placeholder/unknown-macro)
+![todo:image_alt_text](/plugins/servlet/confluence/placeholder/unknown-macro)
 
 After you have installed the Aspose.Words Cloud for Salesforce it is really simple to start using it. Please follow these simple steps to get started.
 
@@ -296,7 +296,7 @@ public with sharing class Utils {
 
     public static String Sign(String data) {
 
-        String HMAC\_SHA1 = 'HmacSHA1';
+        String HMAC_SHA1 = 'HmacSHA1';
 
         try {
 
@@ -318,7 +318,7 @@ public with sharing class Utils {
 
             // compute the hmac on input data bytes
 
-            Blob mac = Crypto.generateMac(HMAC\_SHA1, Blob.valueOf(url.toExternalForm()), Blob.valueOf(AsposeCloudApp.AppKey));
+            Blob mac = Crypto.generateMac(HMAC_SHA1, Blob.valueOf(url.toExternalForm()), Blob.valueOf(AsposeCloudApp.AppKey));
 
             String base64 = EncodingUtil.base64Encode(mac);
 

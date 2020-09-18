@@ -18,28 +18,20 @@ This REST API allows you to get all properties of a document. The API returns a 
 
 // First get JSON Web Token
 
-// Please get your App Key and App SID from https://dashboard.aspose.cloud/#/apps. Kindly place App Key in "client\_secret" and App SID in "client\_id" argument.
+// Please get your App Key and App SID from https://dashboard.aspose.cloud/#/apps. Kindly place App Key in "client_secret" and App SID in "client_id" argument.
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
--d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
+-d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 // cURL example to get document properties
 
-curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/documentProperties" \
-
+curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties" \
 -X GET \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json" \
-
 -H "Authorization: Bearer <jwt token>"
 
 ```
@@ -66,7 +58,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/documentPro
 
         "link": {
 
-          "Href": "http://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/documentProperties/Bytes",
+          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/Bytes",
 
           "Rel": "self",
 
@@ -88,7 +80,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/documentPro
 
         "link": {
 
-          "Href": "http://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/documentProperties/Characters",
+          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/Characters",
 
           "Rel": "self",
 
@@ -110,7 +102,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/documentPro
 
         "link": {
 
-          "Href": "http://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/documentProperties/CharactersWithSpaces",
+          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/CharactersWithSpaces",
 
           "Rel": "self",
 
@@ -132,7 +124,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/documentPro
 
         "link": {
 
-          "Href": "http://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/documentProperties/Company",
+          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/Company",
 
           "Rel": "self",
 
@@ -154,7 +146,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/documentPro
 
         "link": {
 
-          "Href": "http://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/documentProperties/CreateTime",
+          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/CreateTime",
 
           "Rel": "self",
 
@@ -176,7 +168,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/documentPro
 
         "link": {
 
-          "Href": "http://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/documentProperties/HeadingPairs",
+          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/HeadingPairs",
 
           "Rel": "self",
 
@@ -198,7 +190,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/documentPro
 
         "link": {
 
-          "Href": "http://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/documentProperties/LastSavedBy",
+          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/LastSavedBy",
 
           "Rel": "self",
 
@@ -220,7 +212,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/documentPro
 
         "link": {
 
-          "Href": "http://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/documentProperties/LastSavedTime",
+          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/LastSavedTime",
 
           "Rel": "self",
 
@@ -242,7 +234,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/documentPro
 
         "link": {
 
-          "Href": "http://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/documentProperties/Lines",
+          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/Lines",
 
           "Rel": "self",
 
@@ -264,7 +256,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/documentPro
 
         "link": {
 
-          "Href": "http://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/documentProperties/NameOfApplication",
+          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/NameOfApplication",
 
           "Rel": "self",
 
@@ -286,7 +278,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/documentPro
 
         "link": {
 
-          "Href": "http://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/documentProperties/Pages",
+          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/Pages",
 
           "Rel": "self",
 
@@ -308,7 +300,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/documentPro
 
         "link": {
 
-          "Href": "http://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/documentProperties/Paragraphs",
+          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/Paragraphs",
 
           "Rel": "self",
 
@@ -330,7 +322,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/documentPro
 
         "link": {
 
-          "Href": "http://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/documentProperties/RevisionNumber",
+          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/RevisionNumber",
 
           "Rel": "self",
 
@@ -352,7 +344,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/documentPro
 
         "link": {
 
-          "Href": "http://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/documentProperties/Security",
+          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/Security",
 
           "Rel": "self",
 
@@ -374,7 +366,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/documentPro
 
         "link": {
 
-          "Href": "http://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/documentProperties/Template",
+          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/Template",
 
           "Rel": "self",
 
@@ -396,7 +388,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/documentPro
 
         "link": {
 
-          "Href": "http://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/documentProperties/TitlesOfParts",
+          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/TitlesOfParts",
 
           "Rel": "self",
 
@@ -418,7 +410,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/documentPro
 
         "link": {
 
-          "Href": "http://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/documentProperties/TotalEditingTime",
+          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/TotalEditingTime",
 
           "Rel": "self",
 
@@ -440,7 +432,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/documentPro
 
         "link": {
 
-          "Href": "http://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/documentProperties/Version",
+          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/Version",
 
           "Rel": "self",
 
@@ -462,7 +454,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/documentPro
 
         "link": {
 
-          "Href": "http://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/documentProperties/Words",
+          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/Words",
 
           "Rel": "self",
 
@@ -484,7 +476,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/documentPro
 
         "link": {
 
-          "Href": "http://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/documentProperties/testProp",
+          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/testProp",
 
           "Rel": "self",
 
@@ -500,7 +492,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/documentPro
 
     "link": {
 
-      "Href": "http://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/documentProperties",
+      "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties",
 
       "Re\* Connection #0 to host api.aspose.cloud left intact l": "self",
 
@@ -566,13 +558,13 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="7" >}}
 
-{{< gist "aspose-cloud" "5240b25c9a3e98fb21785ad771a3876b" "Aspose\_Cloud\_Words\_GetDocumentProperties.java" >}}
+{{< gist "aspose-cloud" "5240b25c9a3e98fb21785ad771a3876b" "Aspose_Cloud_Words_GetDocumentProperties.java" >}}
 
 {{< /tab >}}
 
 {{< tab tabNum="8" >}}
 
-{{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose\_Words\_Swift\_GetDocumentProperties.swift" >}}
+{{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose_Words_Swift_GetDocumentProperties.swift" >}}
 
 {{< /tab >}}
 

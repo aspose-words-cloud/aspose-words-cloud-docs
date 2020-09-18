@@ -27,25 +27,17 @@ This REST API allows you to read a particular document property info by the prop
 // Get App Key and App SID from https://dashboard.aspose.cloud/
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
--d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
+-d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 // cURL example to get a particular document property
 
-curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/documentProperties/Author" \
-
+curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/Author" \
 -X GET \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json" \
-
 -H "Authorization: Bearer <jwt token>"
 
 ```
@@ -68,7 +60,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/documentPro
 
     "link": {
 
-      "Href": "http://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/documentProperties/Author",
+      "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/Author",
 
       "Rel": "self",
 
@@ -134,13 +126,13 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="7" >}}
 
-{{< gist "aspose-cloud" "5240b25c9a3e98fb21785ad771a3876b" "Aspose\_Cloud\_Words\_GetDocumentProperty.java" >}}
+{{< gist "aspose-cloud" "5240b25c9a3e98fb21785ad771a3876b" "Aspose_Cloud_Words_GetDocumentProperty.java" >}}
 
 {{< /tab >}}
 
 {{< tab tabNum="8" >}}
 
-{{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose\_Words\_Swift\_GetDocumentProperty.swift" >}}
+{{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose_Words_Swift_GetDocumentProperty.swift" >}}
 
 {{< /tab >}}
 

@@ -30,16 +30,12 @@ Output Document: [TestPostDocumentExecuteMailMerge.docx](attachments/885367/118
 
 // First get JSON Web Token
 
-// Please get your App Key and App SID from https://dashboard.aspose.cloud/#/apps. Kindly place App Key in "client\_secret" and App SID in "client\_id" argument.
+// Please get your App Key and App SID from https://dashboard.aspose.cloud/#/apps. Kindly place App Key in "client_secret" and App SID in "client_id" argument.
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
--d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
+-d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 
@@ -47,15 +43,10 @@ curl -v "https://api.aspose.cloud/connect/token" \
 // cURL example to populate MailMerge template with HTML Data
 
 curl -v "https://api.aspose.cloud/v4.0/words/template.doc/MailMerge?destFileName=TestPostDocumentExecuteMailMerge.docx" \
-
 -X PUT \
-
 -F data=@TestExecuteMailMergeData.txt \
-
 -H "Content-Type: multipart/form-data" \
-
 -H "Accept: application/json" \
-
 -H "Authorization: Bearer <jwt token>"
 
 ```
@@ -288,13 +279,13 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="7" >}}
 
-{{< gist "aspose-cloud" "5240b25c9a3e98fb21785ad771a3876b" "Aspose\_Cloud\_Words\_PopulateMailMergeTemplateWithHTMLData.java" >}}
+{{< gist "aspose-cloud" "5240b25c9a3e98fb21785ad771a3876b" "Aspose_Cloud_Words_PopulateMailMergeTemplateWithHTMLData.java" >}}
 
 {{< /tab >}}
 
 {{< tab tabNum="8" >}}
 
-{{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose\_Words\_Swift\_PopulateMailMergeTemplateWithHTMLData.swift" >}}
+{{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose_Words_Swift_PopulateMailMergeTemplateWithHTMLData.swift" >}}
 
 {{< /tab >}}
 

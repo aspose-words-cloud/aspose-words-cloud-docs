@@ -41,8 +41,8 @@ Please follow these simple steps to get started
 1. Open PHP Storm and Choose **File** > **Open Project**
 1. Browse to the latest source code that you have downloaded,
 ### **Source code overview**
-- Aspose\_Cloud\_SDK\_For\_PHP-master - Contains Aspose for Cloud SDK API for different operations.
-- aspose\_doc\_exporter.module - Contains main module code.
+- Aspose_Cloud_SDK_For_PHP-master - Contains Aspose for Cloud SDK API for different operations.
+- aspose_doc_exporter.module - Contains main module code.
 ## **Installation and Usage**
 ### **Downloading and Installing**
 #### **Downloading**

@@ -47,32 +47,22 @@ The request is an HTTP request with multipart content (see [RFC 2046](http://to
 
 // First get JSON Web Token
 
-// Please get your App Key and App SID from https://dashboard.aspose.cloud/#/apps. Kindly place App Key in "client\_secret" and App SID in "client\_id" argument.
+// Please get your App Key and App SID from https://dashboard.aspose.cloud/#/apps. Kindly place App Key in "client_secret" and App SID in "client_id" argument.
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
--d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
+-d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 // cURL example to update a Drawing Object in the Word Document
 
-curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/drawingObjects/0" \
-
+curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/drawingObjects/0" \
 -X PUT \
-
 -F "json={ 'Left': 0 };type=application/json" \
-
 -F "aspose-cloud.png=@aspose-cloud.png;type=image/png" \
-
 -H "Content-Type: multipart/form-data" \
-
 -H "Accept: application/json" \
-
 -H "Authorization: Bearer <jwt token>"
 
 ```
@@ -91,7 +81,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/drawingObje
 
       {
 
-        "Href": "http://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/sections/0/paragraphs/7/drawingObjects/0?format=jpeg",
+        "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/paragraphs/7/drawingObjects/0?format=jpeg",
 
         "Rel": "self",
 
@@ -103,7 +93,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/drawingObje
 
       {
 
-        "Href": "http://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/sections/0/paragraphs/7/drawingObjects/0?format=tiff",
+        "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/paragraphs/7/drawingObjects/0?format=tiff",
 
         "Rel": "self",
 
@@ -115,7 +105,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/drawingObje
 
       {
 
-        "Href": "http://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/sections/0/paragraphs/7/drawingObjects/0?format=png",
+        "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/paragraphs/7/drawingObjects/0?format=png",
 
         "Rel": "self",
 
@@ -127,7 +117,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/drawingObje
 
       {
 
-        "Href": "http://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/sections/0/paragraphs/7/drawingObjects/0?format=bmp",
+        "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/paragraphs/7/drawingObjects/0?format=bmp",
 
         "Rel": "self",
 
@@ -147,7 +137,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/drawingObje
 
     "ImageDataLink": {
 
-      "Href": "http://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/sections/0/paragraphs/7/drawingObjects/0/ImageData",
+      "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/paragraphs/7/drawingObjects/0/ImageData",
 
       "Rel": "self",
 
@@ -171,7 +161,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/drawingObje
 
     "link": {
 
-      "Href": "http://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/sections/0/paragraphs/7/drawingObjects/0",
+      "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/paragraphs/7/drawingObjects/0",
 
       "Rel": "self",
 
@@ -213,13 +203,13 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="3" >}}
 
-{{< gist "aspose-cloud" "303ca1faad43f8d1b672fbeac98ad2e0" "post\_drawing\_object.py" >}}
+{{< gist "aspose-cloud" "303ca1faad43f8d1b672fbeac98ad2e0" "post_drawing_object.py" >}}
 
 {{< /tab >}}
 
 {{< tab tabNum="4" >}}
 
-{{< gist "aspose-cloud" "5af73b7a7c08a9072ac1c05b0914df3f" "post\_drawing\_object.rb" >}}
+{{< gist "aspose-cloud" "5af73b7a7c08a9072ac1c05b0914df3f" "post_drawing_object.rb" >}}
 
 {{< /tab >}}
 
@@ -231,13 +221,13 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="6" >}}
 
-{{< gist "aspose-cloud" "5240b25c9a3e98fb21785ad771a3876b" "Aspose\_Cloud\_Words\_PostDrawingObject.java" >}}
+{{< gist "aspose-cloud" "5240b25c9a3e98fb21785ad771a3876b" "Aspose_Cloud_Words_PostDrawingObject.java" >}}
 
 {{< /tab >}}
 
 {{< tab tabNum="7" >}}
 
-{{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose\_Words\_Swift\_PostDrawingObject.swift" >}}
+{{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose_Words_Swift_PostDrawingObject.swift" >}}
 
 {{< /tab >}}
 

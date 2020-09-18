@@ -34,9 +34,9 @@ The **valid formats** are:
 |emf|Enhanced Metafile Format|
 |epub|...|
 |flatopc/fopc|...|
-|flatopc\_macro/fopc\_macro|...|
-|flatopc\_template/fopc\_template|...|
-|flatopc\_template\_macro/fopc\_template\_macro|...|
+|flatopc_macro/fopc_macro|...|
+|flatopc_template/fopc_template|...|
+|flatopc_template_macro/fopc_template_macro|...|
 |jpeg/jpg|Joint Photographic Experts Group Image Format|
 |html|...|
 |htmlfixed|...|
@@ -87,30 +87,21 @@ PUT <https://api.aspose.cloud/v4.0/words/TestSplitDocument.doc/split?format=pdf
 
 // First get JSON Web Token
 
-// Please get your App Key and App SID from https://dashboard.aspose.cloud/#/apps. Kindly place App Key in "client\_secret" and App SID in "client\_id" argument.
+// Please get your App Key and App SID from https://dashboard.aspose.cloud/#/apps. Kindly place App Key in "client_secret" and App SID in "client_id" argument.
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
--d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
+-d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 // cURL example to split a document
 
-curl -v "https://api.aspose.cloud/v4.0/words/test\_doc.docx/split?from=2&to=3&format=pdf" \
-
+curl -v "https://api.aspose.cloud/v4.0/words/test_doc.docx/split?from=2&to=3&format=pdf" \
 -X PUT \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json" \
-
 -H "Content-Length: 0" \
-
 -H "Authorization: Bearer <jwt token>"
 
 ```
@@ -127,7 +118,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_doc.docx/split?from=2&to=3&fo
 
     "SourceDocument": {
 
-      "Href": "test\_doc.docx",
+      "Href": "test_doc.docx",
 
       "Rel": "self"
 
@@ -137,7 +128,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_doc.docx/split?from=2&to=3&fo
 
       {
 
-        "Href": "test\_doc\_page2.pdf",
+        "Href": "test_doc_page2.pdf",
 
         "Rel": "page"
 
@@ -145,7 +136,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_doc.docx/split?from=2&to=3&fo
 
       {
 
-        "Href": "test\_doc\_page3.pdf",
+        "Href": "test_doc_page3.pdf",
 
         "Rel": "page"
 
@@ -208,13 +199,13 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="7" >}}
 
-{{< gist "aspose-cloud" "5240b25c9a3e98fb21785ad771a3876b" "Aspose\_Cloud\_Words\_SplitAllPagesToNewPDFs.java" >}}
+{{< gist "aspose-cloud" "5240b25c9a3e98fb21785ad771a3876b" "Aspose_Cloud_Words_SplitAllPagesToNewPDFs.java" >}}
 
 {{< /tab >}}
 
 {{< tab tabNum="8" >}}
 
-{{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose\_Words\_Swift\_SplitAllPagesToNewPDFs.swift" >}}
+{{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose_Words_Swift_SplitAllPagesToNewPDFs.swift" >}}
 
 {{< /tab >}}
 
@@ -268,13 +259,13 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="7" >}}
 
-{{< gist "aspose-cloud" "5240b25c9a3e98fb21785ad771a3876b" "Aspose\_Cloud\_Words\_SplitSpecificPagesToNewPDFs.java" >}}
+{{< gist "aspose-cloud" "5240b25c9a3e98fb21785ad771a3876b" "Aspose_Cloud_Words_SplitSpecificPagesToNewPDFs.java" >}}
 
 {{< /tab >}}
 
 {{< tab tabNum="8" >}}
 
-{{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose\_Words\_Swift\_SplitSpecificPagesToNewPDFs.swift" >}}
+{{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose_Words_Swift_SplitSpecificPagesToNewPDFs.swift" >}}
 
 {{< /tab >}}
 
@@ -328,13 +319,13 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="7" >}}
 
-{{< gist "aspose-cloud" "5240b25c9a3e98fb21785ad771a3876b" "Aspose\_Cloud\_Words\_SplitSpecificPagesToPNGs.java" >}}
+{{< gist "aspose-cloud" "5240b25c9a3e98fb21785ad771a3876b" "Aspose_Cloud_Words_SplitSpecificPagesToPNGs.java" >}}
 
 {{< /tab >}}
 
 {{< tab tabNum="8" >}}
 
-{{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose\_Words\_Swift\_SplitSpecificPagesToPNGs.swift" >}}
+{{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose_Words_Swift_SplitSpecificPagesToPNGs.swift" >}}
 
 {{< /tab >}}
 

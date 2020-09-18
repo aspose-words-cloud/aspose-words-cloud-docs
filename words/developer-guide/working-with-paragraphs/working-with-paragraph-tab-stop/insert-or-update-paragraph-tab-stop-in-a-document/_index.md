@@ -20,16 +20,12 @@ This REST API allows you to Insert or update the paragraph tab stop in a documen
 
 // First get JSON Web Token
 
-// Please get your App Key and App SID from https://dashboard.aspose.cloud/#/apps. Kindly place App Key in "client\_secret" and App SID in "client\_id" argument.
+// Please get your App Key and App SID from https://dashboard.aspose.cloud/#/apps. Kindly place App Key in "client_secret" and App SID in "client_id" argument.
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
--d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
+-d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 // cURL example to get a list of sections
@@ -37,9 +33,7 @@ curl -v "https://api.aspose.cloud/connect/token" \
 curl -X POST "https://api.aspose.cloud/v4.0/words/ParagraphTabStops.docx/sections%2F0/paragraphs/0/tabstops?storage=First%20Storage"
 
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json" \
-
 -H "Authorization: Bearer <jwt token>"
 
 ```
@@ -144,7 +138,7 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="9" >}}
 
-{{< gist "aspose-cloud" "068ce2149de5ad69ab516209b7ae82cf" "insert\_or\_update\_paragraph\_tab\_stops.go" >}}
+{{< gist "aspose-cloud" "068ce2149de5ad69ab516209b7ae82cf" "insert_or_update_paragraph_tab_stops.go" >}}
 
 {{< /tab >}}
 

@@ -75,30 +75,21 @@ This REST API allows you to update font properties. The API returns updated font
 
 // First get JSON Web Token
 
-// Please get your App Key and App SID from https://dashboard.aspose.cloud/#/apps. Kindly place App Key in "client\_secret" and App SID in "client\_id" argument.
+// Please get your App Key and App SID from https://dashboard.aspose.cloud/#/apps. Kindly place App Key in "client_secret" and App SID in "client_id" argument.
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
--d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
+-d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 // cURL example to update font properties
 
-curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/paragraphs/0/runs/0/font" \
-
+curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs/0/runs/0/font" \
 -X PUT \
-
 -d "{ 'AllCaps': 'false', 'Bidi': 'false', 'Bold': 'false', 'BoldBi': 'false', 'Border': { 'LineStyle': 'None', 'LineWidth': '0', 'DistanceFromText': '0', 'Shadow': 'false' }, 'ComplexScript': 'false', 'DoubleStrikeThrough': 'false', 'Emboss': 'false', 'Engrave': 'false', 'Hidden': 'false', 'Italic': 'true', 'ItalicBi': 'false', 'Kerning': '0', 'LocaleId': '1033', 'LocaleIdBi': '1025', 'LocaleIdFarEast': '1033', 'Name': 'Calibri', 'NameAscii': 'Calibri', 'NameBi': 'Times New Roman', 'NameFarEast': 'Calibri', 'NameOther': 'Calibri', 'NoProofing': 'false', 'Outline': 'false, 'Position': '0', 'Scaling': '100', 'Shadow': 'false', 'Size': '11', 'SizeBi': '11', 'SmallCaps': 'false', 'Spacing': '0', 'StrikeThrough': 'false', 'StyleIdentifier': 'DefaultParagraphFont', 'StyleName': 'Default Paragraph Font', 'Subscript': 'false', 'Superscript': 'false', 'TextEffect': 'None', 'Underline': 'Dash' }" \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json" \
-
 -H "Authorization: Bearer <jwt token>"
 
 ```
@@ -233,7 +224,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/paragraphs/
 
     "link": {
 
-      "Href": "http://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/sections/0/headersfooters/0/paragraphs/0/runs/1/font",
+      "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/headersfooters/0/paragraphs/0/runs/1/font",
 
       "Rel": "self",
 
@@ -275,13 +266,13 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="3" >}}
 
-{{< gist "aspose-cloud" "303ca1faad43f8d1b672fbeac98ad2e0" "post\_document\_paragraph\_run\_font.py" >}}
+{{< gist "aspose-cloud" "303ca1faad43f8d1b672fbeac98ad2e0" "post_document_paragraph_run_font.py" >}}
 
 {{< /tab >}}
 
 {{< tab tabNum="4" >}}
 
-{{< gist "aspose-cloud" "5af73b7a7c08a9072ac1c05b0914df3f" "post\_document\_paragraph\_run\_font.rb" >}}
+{{< gist "aspose-cloud" "5af73b7a7c08a9072ac1c05b0914df3f" "post_document_paragraph_run_font.rb" >}}
 
 {{< /tab >}}
 
@@ -293,13 +284,13 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="6" >}}
 
-{{< gist "aspose-cloud" "5240b25c9a3e98fb21785ad771a3876b" "Aspose\_Cloud\_Words\_PostDocumentParagraphRunFont.java" >}}
+{{< gist "aspose-cloud" "5240b25c9a3e98fb21785ad771a3876b" "Aspose_Cloud_Words_PostDocumentParagraphRunFont.java" >}}
 
 {{< /tab >}}
 
 {{< tab tabNum="7" >}}
 
-{{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose\_Words\_Swift\_PostDocumentParagraphRunFont.swift" >}}
+{{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose_Words_Swift_PostDocumentParagraphRunFont.swift" >}}
 
 {{< /tab >}}
 

@@ -22,30 +22,21 @@ This REST API allows you to insert a watermark text into a document. This is a 
 
 // First get JSON Web Token
 
-// Please get your App Key and App SID from https://dashboard.aspose.cloud/#/apps. Kindly place App Key in "client\_secret" and App SID in "client\_id" argument.
+// Please get your App Key and App SID from https://dashboard.aspose.cloud/#/apps. Kindly place App Key in "client_secret" and App SID in "client_id" argument.
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
--d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
+-d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 // cURL example to insert a WordArt text watermark into a document
 
-curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/watermarks/texts" \
-
+curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/watermarks/texts" \
 -X POST \
-
 -d "{ 'Text': 'This is the text', 'RotationAngle': 90 }" \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json" \
-
 -H "Authorization: Bearer <jwt token>"
 
 ```
@@ -64,7 +55,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/watermarks/
 
       {
 
-        "Href": "test\_multi\_pages.docx",
+        "Href": "test_multi_pages.docx",
 
         "Rel": "self",
 
@@ -76,7 +67,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/watermarks/
 
       {
 
-        "Href": "http://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx?format=doc",
+        "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx?format=doc",
 
         "Rel": "alternate",
 
@@ -88,7 +79,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/watermarks/
 
       {
 
-        "Href": "http://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx?format=dot",
+        "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx?format=dot",
 
         "Rel": "alternate",
 
@@ -100,7 +91,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/watermarks/
 
       {
 
-        "Href": "http://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx?format=docx",
+        "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx?format=docx",
 
         "Rel": "alternate",
 
@@ -112,7 +103,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/watermarks/
 
       {
 
-        "Href": "http://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx?format=docm",
+        "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx?format=docm",
 
         "Rel": "alternate",
 
@@ -124,7 +115,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/watermarks/
 
       {
 
-        "Href": "http://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx?format=dotx",
+        "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx?format=dotx",
 
         "Rel": "alternate",
 
@@ -136,7 +127,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/watermarks/
 
       {
 
-        "Href": "http://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx?format=dotm",
+        "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx?format=dotm",
 
         "Rel": "alternate",
 
@@ -148,7 +139,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/watermarks/
 
       {
 
-        "Href": "http://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx?format=flatopc",
+        "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx?format=flatopc",
 
         "Rel": "alternate",
 
@@ -160,7 +151,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/watermarks/
 
       {
 
-        "Href": "http://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx?format=rtf",
+        "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx?format=rtf",
 
         "Rel": "alternate",
 
@@ -172,7 +163,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/watermarks/
 
       {
 
-        "Href": "http://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx?format=wml",
+        "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx?format=wml",
 
         "Rel": "alternate",
 
@@ -184,7 +175,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/watermarks/
 
       {
 
-        "Href": "http://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx?format=odt",
+        "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx?format=odt",
 
         "Rel": "alternate",
 
@@ -196,7 +187,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/watermarks/
 
       {
 
-        "Href": "http://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx?format=ott",
+        "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx?format=ott",
 
         "Rel": "alternate",
 
@@ -208,7 +199,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/watermarks/
 
       {
 
-        "Href": "http://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx?format=txt",
+        "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx?format=txt",
 
         "Rel": "alternate",
 
@@ -220,7 +211,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/watermarks/
 
       {
 
-        "Href": "http://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx?format=mhtml",
+        "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx?format=mhtml",
 
         "Rel": "alternate",
 
@@ -232,7 +223,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/watermarks/
 
       {
 
-        "Href": "http://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx?format=epub",
+        "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx?format=epub",
 
         "Rel": "alternate",
 
@@ -244,7 +235,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/watermarks/
 
       {
 
-        "Href": "http://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx?format=pdf",
+        "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx?format=pdf",
 
         "Rel": "alternate",
 
@@ -256,7 +247,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/watermarks/
 
       {
 
-        "Href": "http://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx?format=xps",
+        "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx?format=xps",
 
         "Rel": "alternate",
 
@@ -268,7 +259,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/watermarks/
 
       {
 
-        "Href": "http://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx?format=tiff",
+        "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx?format=tiff",
 
         "Rel": "alternate",
 
@@ -280,7 +271,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/watermarks/
 
       {
 
-        "Href": "http://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx?format=png",
+        "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx?format=png",
 
         "Rel": "alternate",
 
@@ -292,7 +283,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/watermarks/
 
       {
 
-        "Href": "http://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx?format=jpeg",
+        "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx?format=jpeg",
 
         "Rel": "alternate",
 
@@ -304,7 +295,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/watermarks/
 
       {
 
-        "Href": "http://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx?format=bmp",
+        "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx?format=bmp",
 
         "Rel": "alternate",
 
@@ -316,7 +307,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/watermarks/
 
       {
 
-        "Href": "http://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx?format=gif",
+        "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx?format=gif",
 
         "Rel": "alternate",
 
@@ -328,7 +319,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/watermarks/
 
       {
 
-        "Href": "http://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx?format=svg",
+        "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx?format=svg",
 
         "Rel": "alternate",
 
@@ -340,7 +331,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/watermarks/
 
       {
 
-        "Href": "http://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx?format=html",
+        "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx?format=html",
 
         "Rel": "alternate",
 
@@ -352,7 +343,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/watermarks/
 
       {
 
-        "Href": "http://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx?format=htmlfixed",
+        "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx?format=htmlfixed",
 
         "Rel": "alternate",
 
@@ -364,7 +355,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/watermarks/
 
       {
 
-        "Href": "http://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx?format=pcl",
+        "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx?format=pcl",
 
         "Rel": "alternate",
 
@@ -376,7 +367,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/watermarks/
 
     ],
 
-    "FileName": "test\_multi\_pages.docx",
+    "FileName": "test_multi_pages.docx",
 
     "SourceFormat": 4,
 
@@ -390,7 +381,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/watermarks/
 
       "link": {
 
-        "Href": "http://api.aspose.cloud/v4.0/words/test\_multi\_pages.docx/documentProperties",
+        "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties",
 
         "Rel": "self",
 
@@ -434,13 +425,13 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="3" >}}
 
-{{< gist "aspose-cloud" "303ca1faad43f8d1b672fbeac98ad2e0" "post\_insert\_document\_watermark\_text.py" >}}
+{{< gist "aspose-cloud" "303ca1faad43f8d1b672fbeac98ad2e0" "post_insert_document_watermark_text.py" >}}
 
 {{< /tab >}}
 
 {{< tab tabNum="4" >}}
 
-{{< gist "aspose-cloud" "5af73b7a7c08a9072ac1c05b0914df3f" "insert\_document\_watermark\_text.rb" >}}
+{{< gist "aspose-cloud" "5af73b7a7c08a9072ac1c05b0914df3f" "insert_document_watermark_text.rb" >}}
 
 {{< /tab >}}
 
@@ -452,13 +443,13 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="6" >}}
 
-{{< gist "aspose-cloud" "5240b25c9a3e98fb21785ad771a3876b" "Aspose\_Cloud\_Words\_PostInsertDocumentWatermarkText.java" >}}
+{{< gist "aspose-cloud" "5240b25c9a3e98fb21785ad771a3876b" "Aspose_Cloud_Words_PostInsertDocumentWatermarkText.java" >}}
 
 {{< /tab >}}
 
 {{< tab tabNum="7" >}}
 
-{{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose\_Words\_Swift\_PostInsertDocumentWatermarkText.swift" >}}
+{{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose_Words_Swift_PostInsertDocumentWatermarkText.swift" >}}
 
 {{< /tab >}}
 

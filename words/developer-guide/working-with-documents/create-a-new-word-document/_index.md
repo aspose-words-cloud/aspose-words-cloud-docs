@@ -17,9 +17,9 @@ This REST API allows you to create a new Word Document. The document is created 
 |Dotm|".dotm"|Office Open XML WordprocessingML Macro-Enabled Template|
 |Dotx|".dotx"|Office Open XML WordprocessingML Template (macro-free)|
 |FlatOpc|".flatopc", ".fopc"|Office Open XML WordprocessingML stored in a flat XML file instead of a ZIP package|
-|FlatOpcMacroEnabled|".flatopc\_macro", ".fopc\_macro"|Office Open XML WordprocessingML Macro-Enabled Document stored in a flat XML file instead of a ZIP package.|
-|FlatOpcTemplate|".flatopc\_template", ".fopc\_template"|Office Open XML WordprocessingML Template (macro-free) stored in a flat XML file instead of a ZIP package.|
-|FlatOpcTemplateMacroEnabled|".flatopc\_template\_macro", ".fopc\_template\_macro"|Office Open XML WordprocessingML Macro-Enabled Template stored in a flat XML file instead of a ZIP package.|
+|FlatOpcMacroEnabled|".flatopc_macro", ".fopc_macro"|Office Open XML WordprocessingML Macro-Enabled Document stored in a flat XML file instead of a ZIP package.|
+|FlatOpcTemplate|".flatopc_template", ".fopc_template"|Office Open XML WordprocessingML Template (macro-free) stored in a flat XML file instead of a ZIP package.|
+|FlatOpcTemplateMacroEnabled|".flatopc_template_macro", ".fopc_template_macro"|Office Open XML WordprocessingML Macro-Enabled Template stored in a flat XML file instead of a ZIP package.|
 |WordML|".wordml", ".wml"|Microsoft Word 2003 WordprocessingML format.|
 |Rtf|".rtf"|RTF format. All characters above 7-bits are escaped as hexadecimal or Unicode characters|
 and the request parameters are the following:
@@ -38,30 +38,21 @@ and the request parameters are the following:
 
 // First get JSON Web Token
 
-// Please get your App Key and App SID from https://dashboard.aspose.cloud/#/apps. Kindly place App Key in "client\_secret" and App SID in "client\_id" argument.
+// Please get your App Key and App SID from https://dashboard.aspose.cloud/#/apps. Kindly place App Key in "client_secret" and App SID in "client_id" argument.
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
--d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
+-d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 // cURL example to create a new word document
 
 curl -v "https://api.aspose.cloud/v4.0/words/create?fileName=TestDocument.docx" \
-
 -X PUT \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json" \
-
 -H "Content-Length: 0" \
-
 -H "Authorization: Bearer <jwt token>"
 
 ```
@@ -474,13 +465,13 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="7" >}}
 
-{{< gist "aspose-cloud" "5240b25c9a3e98fb21785ad771a3876b" "Aspose\_Cloud\_Words\_CreateNewWordDocument.java" >}}
+{{< gist "aspose-cloud" "5240b25c9a3e98fb21785ad771a3876b" "Aspose_Cloud_Words_CreateNewWordDocument.java" >}}
 
 {{< /tab >}}
 
 {{< tab tabNum="8" >}}
 
-{{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose\_Words\_Swift\_CreateNewWordDocument.swift" >}}
+{{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose_Words_Swift_CreateNewWordDocument.swift" >}}
 
 {{< /tab >}}
 
