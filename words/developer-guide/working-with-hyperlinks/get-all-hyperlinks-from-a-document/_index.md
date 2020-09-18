@@ -6,7 +6,6 @@ aliases: [/get-all-hyperlinks-from-a-document/]
 weight: 20
 ---
 
-## Introduction
 This REST API allows you to get all hyperlink from a document.
 ## Resource URI
 [Swagger UI](https://apireference.aspose.cloud/words/#/Hyperlinks/GetDocumentHyperlinks) lets you call this REST API directly from the browser.  

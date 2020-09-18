@@ -6,7 +6,6 @@ aliases: [/delete-a-table-from-a-word-document/]
 weight: 20
 ---
 
-## Introduction
 This REST API allows you to delete a table from a Word document.
 ## Resource URI
 [Swagger UI](https://apireference.aspose.cloud/words/#/Tables/DeleteTable) lets you call this REST API directly from the browser. The description of the API and its parameters are also given there.

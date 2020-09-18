@@ -6,7 +6,6 @@ aliases: [/update-font-properties-of-the-text/]
 weight: 70
 ---
 
-## Introduction
 This article explains how to format the text. Using [PUT /words/{name}/{paragraphPath}/runs/{index}/font](https://apireference.aspose.cloud/words/#/Runs/UpdateRunFont) API you can update font properties of the text.
 ## Resource URI
 ~/{file-name}/{paragraphPath}/runs/{index}/font

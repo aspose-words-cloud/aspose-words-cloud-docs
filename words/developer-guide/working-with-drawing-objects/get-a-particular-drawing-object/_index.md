@@ -6,7 +6,6 @@ aliases: [/get-a-particular-drawing-object/]
 weight: 20
 ---
 
-## Introduction
 This REST API allows you to get a particular drawing object from the document. You can also convert a drawing object to a specified format. Moreover, the detail of resource properties are given below:
 
 |**Property Name**|**Type**|**Description**|

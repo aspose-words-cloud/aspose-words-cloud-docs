@@ -6,7 +6,6 @@ aliases: [/search-text-in-a-word-document/]
 weight: 10
 ---
 
-## Introduction
 This REST API allows you to search text in a word document. In other words, the API finds all occurrences of a character pattern specified by a regular expression. The request parameters are the following:
 
 |**Parameter Name**|**Type**|**Query String/HTTPBody**|**Description**|

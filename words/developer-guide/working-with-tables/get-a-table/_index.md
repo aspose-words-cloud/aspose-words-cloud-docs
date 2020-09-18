@@ -6,7 +6,6 @@ aliases: [/get-a-table/]
 weight: 40
 ---
 
-## Introduction
 This REST API allows you to get JSON/XML representation of one of the tables.
 ## Resource URI
 [Swagger UI](https://apireference.aspose.cloud/words/#/Tables/GetTable) lets you call this REST API directly from the browser. The description of the API and its parameters are also given there.

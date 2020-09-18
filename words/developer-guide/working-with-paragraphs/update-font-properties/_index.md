@@ -6,7 +6,6 @@ aliases: [/update-font-properties/]
 weight: 140
 ---
 
-## Introduction
 This REST API allows you to update font properties. The API returns updated font data in XML/JSON format. The resource properties are the following:
 
 |**Property Name**|**Type**|**Description**|

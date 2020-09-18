@@ -6,7 +6,6 @@ aliases: [/remove-fields-from-a-document/]
 weight: 30
 ---
 
-## Introduction
 This REST API allows you to remove all fields from a document, section or paragraph.  
 ## Resource URI
 ```html

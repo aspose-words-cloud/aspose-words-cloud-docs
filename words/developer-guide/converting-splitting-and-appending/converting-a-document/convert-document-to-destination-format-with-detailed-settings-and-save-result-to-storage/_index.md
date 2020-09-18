@@ -8,7 +8,6 @@ description: "The API lets you convert word document to HTML, PDF, JPEG, or othe
 weight: 20
 ---
 
-## Introduction
 [PUT /words/{name}/saveAs](https://apireference.aspose.cloud/words/#/Convert/SaveAs) API lets you convert *Microsoft Word document* to another format with details settings. The list of supported formats are:
 
 |**format Parameter Value**|**Request Types**|

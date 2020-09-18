@@ -8,7 +8,6 @@ description: "API lets you convert MS Word document to the TIFF file with additi
 weight: 30
 ---
 
-## Introduction
 [PUT /words/{name}/saveAs/tiff](https://apireference.aspose.cloud/words/#/Convert/SaveAsTiff) API lets you convert MS Word document to *TIFF file* with additional settings and save the result to storage. The resulting image save to the same folder and storage where the original document is. A relative path can be used here for some sub-folder of the document folder.
 ## Resource URI
 [Swagger UI](https://apireference.aspose.cloud/words/#/Convert/SaveAsTiff) lets you call this REST API directly from the browser. The description of the API and its parameters is also given there.

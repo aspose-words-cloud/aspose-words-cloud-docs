@@ -6,7 +6,6 @@ aliases: [/replace-document-text/]
 weight: 20
 ---
 
-## Introduction
 This REST API allows you to replace text in a document. The API replaces all occurrences of a specified string with another string. If a captured or replacement string contains one or more special characters: paragraph break, cell break, section break, field start, field separator, field end, inline picture, drawing object, footnote, the API returns HTTP 400 error response.
 
 The request parameters are the following:

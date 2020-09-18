@@ -6,7 +6,6 @@ aliases: [/get-all-runs-in-the-paragraph/]
 weight: 80
 ---
 
-## Introduction
 This REST API allows you to get a list of all runs that are contained in the specific paragraph.
 ## Resource URI
 ```java

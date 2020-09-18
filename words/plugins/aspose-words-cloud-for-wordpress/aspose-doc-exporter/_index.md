@@ -6,7 +6,6 @@ aliases: [/aspose-doc-exporter/]
 weight: 20
 ---
 
-## Introduction
 ### What is WordPress?
 WordPress is a free open source blogging tool and a content management system (CMS) based on PHP and MySQL, which runs on a web hosting service. Features include a plugin architecture and a template system. WordPress is used by more than 22.0% of the top 10 million websites as of August 2013. WordPress is the most popular blogging system in use on the Web, at more than 60 million websites. It’s probably the easiest and most powerful blogging and website content management system (or CMS) in existence today.
 ### Aspose DOC Exporter

@@ -8,10 +8,6 @@ description: "Append Word documents in Python, C#, Java, Ruby, PHP, NodeJS, Go, 
 weight: 10
 ---
 
-
-
-
-## Introduction
 Appending documents is a very common task and is fully supported in Aspose.Words Cloud. The API allows you to append a document or documents, specified in the **documentList** parameter, to the original resource document. The changes are saved in the original resource document if the **destFileName** parameter is missing.
 
 The description of the important API parameters is given below:

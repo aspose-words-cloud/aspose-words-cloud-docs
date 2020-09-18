@@ -6,7 +6,6 @@ aliases: [/get-all-drawing-objects-from-a-word-document/]
 weight: 10
 ---
 
-## Introduction
 This REST API allows you to get all drawing objects that are defined in the document or in a specific element.
 ## Resource URI
 ```html

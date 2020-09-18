@@ -6,7 +6,6 @@ aliases: [/add-comment-to-a-word-document/]
 weight: 30
 ---
 
-## Introduction
 The REST API allows you to add a comment to a Word Document. The API return added comment data in XML/JSON format. The resource properties are given below:
 
 |**Property Name**|**Type**|**Description**|

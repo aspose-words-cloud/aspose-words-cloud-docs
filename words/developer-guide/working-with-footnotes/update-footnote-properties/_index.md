@@ -6,7 +6,6 @@ aliases: [/update-footnote-properties/]
 weight: 50
 ---
 
-## Introduction
 This REST API allows you to update footnote properties. The API returns updated footnote in XML/JSON format.
 ## Resource URI
 ```html

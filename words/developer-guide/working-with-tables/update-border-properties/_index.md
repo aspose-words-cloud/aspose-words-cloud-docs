@@ -6,7 +6,6 @@ aliases: [/update-border-properties/]
 weight: 190
 ---
 
-## Introduction
 The REST API allows you to update the properties of the table border. It returns updated border data in XML/JSON format. The details of resource properties are given below:
 
 |**Property Name**|**Type**|**Description**|

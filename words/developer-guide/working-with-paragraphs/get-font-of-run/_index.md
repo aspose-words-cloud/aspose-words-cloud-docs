@@ -6,7 +6,6 @@ aliases: [/get-font-of-run/]
 weight: 130
 ---
 
-## Introduction
 This REST API allows you to get the font of a run. The resource properties are the following:
 
 |**Property Name**|**Type**|**Description**|

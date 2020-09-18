@@ -6,7 +6,6 @@ aliases: [/reset-border-properties-to-default-values/]
 weight: 210
 ---
 
-## Introduction
 The REST API allows you to reset border properties to default values. 
 ## Resource URI
 [Swagger UI](https://apireference.aspose.cloud/words/#/Borders/DeleteBorder) lets you call this REST API directly from the browser. The description of the API and its parameters are also given there.

@@ -8,7 +8,6 @@ description: "In this article you will learn that how to get MailMerge Field Nam
 weight: 30
 ---
 
-## Introduction
 This example explains how to get MailMerge Field Names in the document. Description of some important parameters of the API is given below:
 
 - **useNonMergeFields:** Result includes "mustache" field names if UseNonMergeFields is true

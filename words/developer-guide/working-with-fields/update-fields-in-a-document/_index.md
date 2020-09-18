@@ -6,7 +6,6 @@ aliases: [/update-fields-in-a-document/]
 weight: 20
 ---
 
-## Introduction
 This REST API allows you to update (reevaluate) fields in a document. 
 ## Resource URI
 ```html

@@ -6,7 +6,6 @@ aliases: [/update-a-table-cell-format/]
 weight: 160
 ---
 
-## Introduction
 This REST API allows you to update a table cell format properties. The description of important cell properties is:
 
 |**Property Name**|**Type**|**Description**|

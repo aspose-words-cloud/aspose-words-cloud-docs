@@ -6,7 +6,6 @@ aliases: [/delete-all-headers-and-footers-from-a-document/]
 weight: 40
 ---
 
-## Introduction
 This REST API allows you to delete all Headers and Footers from a document.
 ## Resource URI
 [Swagger UI](https://apireference.aspose.cloud/words/#/HeadersFooters/DeleteHeadersFooters) lets you call this REST API directly from the browser.  

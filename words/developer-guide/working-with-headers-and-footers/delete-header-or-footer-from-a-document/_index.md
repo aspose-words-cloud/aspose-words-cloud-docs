@@ -6,7 +6,6 @@ aliases: [/delete-header-or-footer-from-a-document/]
 weight: 50
 ---
 
-## Introduction
 This REST API allows you to delete Header/Footer from a document.
 ## Resource URI
 [Swagger UI](https://apireference.aspose.cloud/words/#/HeadersFooters/DeleteHeaderFooter) lets you call this REST API directly from the browser.  

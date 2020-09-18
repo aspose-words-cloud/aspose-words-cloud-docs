@@ -6,7 +6,6 @@ aliases: [/remove-form-field-from-document/]
 weight: 50
 ---
 
-## Introduction
 This REST API allows you to remove form field from a document.
 ## Resource URI
 ```html

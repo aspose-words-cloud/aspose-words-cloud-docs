@@ -6,7 +6,6 @@ aliases: [/get-a-list-of-tables-that-are-contained-in-the-document/]
 weight: 10
 ---
 
-## Introduction
 This REST API allows you to get a list of all tables that are contained in the document.
 ## Resource URI
 [Swagger UI](https://apireference.aspose.cloud/words/#/Tables/GetTables) lets you call this REST API directly from the browser. The description of the API and its parameters are also given there.

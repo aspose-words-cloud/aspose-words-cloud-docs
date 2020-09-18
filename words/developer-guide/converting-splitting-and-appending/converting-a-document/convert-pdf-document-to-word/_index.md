@@ -8,7 +8,6 @@ description: "Our conversion APIs let you convert PDF to Word document. The API
 weight: 40
 ---
 
-## Introduction
 Our conversion APIs let you *convert PDF to Word* document. The APIs even supports encrypted PDF file to Word document conversion. The converter turns a document into a "flow" format - merges multiple paragraphs into one section, converts tables and lists into native Word tables and lists, etc. so that document can then be naturally edited in Word editing application (such as Microsoft Word).
 
 {{% alert color="primary" %}} 

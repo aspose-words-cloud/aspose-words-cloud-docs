@@ -6,7 +6,6 @@ aliases: [/updating-the-boorkmark-text-in-a-document/]
 weight: 30
 ---
 
-## Introduction
 This REST API allows you to update the bookmark text and returns updated bookmark data in XML/JSON format. The description of the important parameters of the API is given below:
 
 |**Property Name**|**Type**|**Description**|

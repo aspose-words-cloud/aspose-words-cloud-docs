@@ -6,7 +6,6 @@ aliases: [/get-officemath-objects-from-document/]
 weight: 10
 ---
 
-## Introduction
 This REST API allows you to get all OfficeMath objects that are defined in the document.
 ## Resource URI
 ```java

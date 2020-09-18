@@ -6,7 +6,6 @@ aliases: [/update-a-drawing-object/]
 weight: 40
 ---
 
-## Introduction
 This REST API allows you to update a drawing object in the Word document. The API returns updated object data in the XML/JSON format.
 
 The request is an HTTP request with multipart content (see [RFC 2046](http://tools.ietf.org/html/rfc2046#page-17) or [RFC 1341](http://www.w3.org/Protocols/rfc1341/7_2_Multipart.html)). The first part of the multipart content contains the drawing object data and the second contains a binary image. Moreover, the detail of resource properties are given below:

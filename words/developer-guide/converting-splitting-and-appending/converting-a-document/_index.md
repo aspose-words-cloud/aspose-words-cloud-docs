@@ -8,7 +8,6 @@ description: "By using Aspose.Words Cloud you can convert word document to PDF o
 weight: 20
 ---
 
-## Introduction
 The ability to easily and reliably convert documents from one format to another is one of the four main feature areas of Aspose.Words Cloud. It has provided the following simplest APIs to convert a Word document to other file formats:
 
 |**API**|**Description**|

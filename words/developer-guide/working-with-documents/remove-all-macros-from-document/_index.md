@@ -6,7 +6,6 @@ aliases: [/remove-all-macros-from-document/]
 weight: 100
 ---
 
-## Introduction
 This REST API allows you to remove all macros that are contained in the document.
 ## Resource URI
 [Swagger UI](https://apireference.aspose.cloud/words/#/Macros/DeleteMacros) lets you call this REST API directly from the browser.  

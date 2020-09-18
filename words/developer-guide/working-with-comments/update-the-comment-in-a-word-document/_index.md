@@ -6,7 +6,6 @@ aliases: [/update-the-comment-in-a-word-document/]
 weight: 40
 ---
 
-## Introduction
 The REST API allows you to update the comment in a Word Document. The API returns updated comment data in XML/JSON format. Moreover, resource properties are given below:
 
 |**Property Name**|**Type**|**Description**|

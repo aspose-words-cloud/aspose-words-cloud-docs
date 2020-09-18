@@ -8,7 +8,6 @@ description: "This REST API allows you to Get Paragraph Tab Stop in a Document. 
 weight: 30
 ---
 
-## Introduction
 This REST API allows you to get a paragraph tab stop in a Document. Please note that the SDKs of this cloud API are available in *Python, C#, Java, Ruby, PHP, Node.js, Android, Swift,* and *Go* languages. 
 ## Resource URI
 [Swagger UI](https://apireference.aspose.cloud/words/#/Paragraphs/GetParagraphTabStops) lets you call this REST API directly from the browser.  

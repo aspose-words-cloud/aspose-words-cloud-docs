@@ -6,7 +6,6 @@ aliases: [/add-header-or-footer-to-a-document/]
 weight: 30
 ---
 
-## Introduction
 This REST API allows you to add Header or Footer to a document. The API returns the added object's data in XML/JSON format. 
 
 The request body should contain a type of header/footer, and the allowed values of headerFooterType are:

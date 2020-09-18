@@ -6,7 +6,6 @@ aliases: [/protect-the-unprotected-document/]
 weight: 20
 ---
 
-## Introduction
 This REST API allows you to protect the unprotected document. 
 
 {{% alert color="primary" %}} 

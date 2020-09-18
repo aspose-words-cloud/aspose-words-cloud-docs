@@ -6,7 +6,6 @@ aliases: [/get-image-data-from-a-drawing-object/]
 weight: 60
 ---
 
-## Introduction
 This REST API allows you to get image data from a drawing object.
 ## Resource URI
 ```java

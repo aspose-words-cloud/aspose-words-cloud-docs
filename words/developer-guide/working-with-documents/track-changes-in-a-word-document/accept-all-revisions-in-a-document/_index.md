@@ -8,7 +8,6 @@ description: "This REST API allows you to accept word revision tracking."
 weight: 10
 ---
 
-## Introduction
 This REST API allows you to accept all revisions in a document. The request parameters are the following:
 
 |**Parameter Name**|**Type**|**Query String/HTTP Body**|**Description**|

@@ -8,10 +8,6 @@ description: "This REST API allows you to reject word revision tracking."
 weight: 20
 ---
 
-
-
-
-## Introduction
 This REST API allows you to reject all revisions in a document. The request parameters are the following:
 
 |**Parameter Name**|**Type**|**Query String/HTTP Body**|**Description**|

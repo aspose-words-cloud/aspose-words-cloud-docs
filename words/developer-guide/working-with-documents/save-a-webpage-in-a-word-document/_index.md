@@ -6,7 +6,6 @@ aliases: [/save-a-webpage-in-a-word-document/]
 weight: 20
 ---
 
-## Introduction
 This REST API allows you to load a new document from the web into the file with any supported format of data. The request parameters are given below:
 
 |**Parameter Name**|**Type**|**Description**|

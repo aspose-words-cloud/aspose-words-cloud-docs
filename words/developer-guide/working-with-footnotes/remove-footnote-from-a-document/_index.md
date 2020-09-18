@@ -6,7 +6,6 @@ aliases: [/remove-footnote-from-a-document/]
 weight: 40
 ---
 
-## Introduction
 This REST API allows you to remove a footnote from a document.
 ## Resource URI
 ```html

@@ -8,7 +8,6 @@ description: "This REST API allows you to get a list of sections or section brea
 weight: 10
 ---
 
-## Introduction
 This REST API allows you to get a list of sections or section breaks that are contained in the document. Please note that the SDKs of this cloud API are available in *Python, C#, Java, Ruby, PHP, Node.js, Android, Swift* and *Go* languages. 
 ## Resource URI
 [Swagger UI](https://apireference.aspose.cloud/words/#/Sections/GetSections) lets you call this REST API directly from the browser.  

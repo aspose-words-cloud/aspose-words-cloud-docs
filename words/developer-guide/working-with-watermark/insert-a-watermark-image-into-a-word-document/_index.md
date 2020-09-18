@@ -6,7 +6,6 @@ aliases: [/insert-a-watermark-image-into-a-word-document/]
 weight: 20
 ---
 
-## Introduction
 This REST API allows you to insert a watermark image into a document. This is a high-level operation that allows inserting an image into headers/footers in a document. The image will appear as a watermark throughout the document. The most important request parameters are the following:
 
 |**Parameter Name**|**Type**|**Query String/HTTP Body**|**Description**|

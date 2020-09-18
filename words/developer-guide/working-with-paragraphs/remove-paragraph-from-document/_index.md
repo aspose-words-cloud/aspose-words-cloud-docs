@@ -6,7 +6,6 @@ aliases: [/remove-paragraph-from-document/]
 weight: 40
 ---
 
-## Introduction
 This REST API allows you to remove a paragraph from the document.
 ## Resource URI
 ```java

@@ -6,7 +6,6 @@ aliases: [/get-field-from-a-document/]
 weight: 40
 ---
 
-## Introduction
 This REST API allows you to get a field from a document, section or paragraph.
 ## Resource URI
 ```html

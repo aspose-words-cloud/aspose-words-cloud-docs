@@ -8,7 +8,6 @@ description: "This REST API allows you to update a list level of documents. Plea
 weight: 50
 ---
 
-## Introduction
 This REST API allows you to update a list level of documents. Please note that the SDKs of this cloud API are available in *Python, C#, Java, Ruby, PHP, Node.js, Android, Swift,* and *Go* languages.
 ## Resource URI
 [Swagger UI](https://apireference.aspose.cloud/words/#/Lists/UpdateListLevel) lets you call this REST API directly from the browser.  

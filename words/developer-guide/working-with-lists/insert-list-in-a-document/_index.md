@@ -8,7 +8,6 @@ description: "This REST API allows you to insert a list in a document. Please no
 weight: 10
 ---
 
-## Introduction
 This REST API allows you to insert a list in a document. Please note that the SDKs of this cloud API are available in *Python, C#, Java, Ruby, PHP, Node.js, Android, Swift,* and *Go* languages.
 ## Resource URI
 [Swagger UI](https://apireference.aspose.cloud/words/#/Lists/InsertList) lets you call this REST API directly from the browser.  

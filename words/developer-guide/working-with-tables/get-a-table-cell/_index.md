@@ -6,7 +6,6 @@ aliases: [/get-a-table-cell/]
 weight: 120
 ---
 
-## Introduction
 This REST API allows you to get a table cell. The API returns a JSON/XML representation of one of the cells contained in the table.
 ## Resource URI
 [Swagger UI](https://apireference.aspose.cloud/words/#/Tables/GetTableCell) lets you call this REST API directly from the browser. The description of the API and its parameters is also given there.

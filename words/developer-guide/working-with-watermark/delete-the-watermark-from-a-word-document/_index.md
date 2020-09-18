@@ -6,7 +6,6 @@ aliases: [/delete-the-watermark-from-a-word-document/]
 weight: 10
 ---
 
-## Introduction
 This REST API allows you to delete the last watermark (if it exists) from the document.
 ## Resource URI
 [Swagger UI](https://apireference.aspose.cloud/words/#/Watermarks/DeleteWatermark) lets you call this REST API directly from the browser.  

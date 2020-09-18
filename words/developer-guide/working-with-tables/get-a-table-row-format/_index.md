@@ -6,7 +6,6 @@ aliases: [/get-a-table-row-format/]
 weight: 100
 ---
 
-## Introduction
 This REST API allows you to get a table row format properties. The description of important row properties is:
 
 |**Property Name**|**Type**|**Description**|

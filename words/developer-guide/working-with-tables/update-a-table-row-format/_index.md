@@ -6,7 +6,6 @@ aliases: [/update-a-table-row-format/]
 weight: 110
 ---
 
-## Introduction
 This REST API allows you to update a table row format properties. The description of important row properties is:
 
 |**Property Name**|**Type**|**Description**|

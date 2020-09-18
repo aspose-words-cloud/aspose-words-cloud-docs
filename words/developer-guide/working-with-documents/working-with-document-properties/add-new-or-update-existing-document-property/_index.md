@@ -6,7 +6,6 @@ aliases: [/add-new-or-update-existing-document-property/]
 weight: 30
 ---
 
-## Introduction
 This REST API allows you to add new or update existing document property. The details of resource properties are given below:
 
 |**Property Name**|**Description**|

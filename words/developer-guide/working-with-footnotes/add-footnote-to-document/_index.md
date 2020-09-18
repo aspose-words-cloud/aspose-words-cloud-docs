@@ -6,7 +6,6 @@ aliases: [/add-footnote-to-document/]
 weight: 30
 ---
 
-## Introduction
 This REST API allows you to add a footnote to a document.
 ## Resource URI
 ```html

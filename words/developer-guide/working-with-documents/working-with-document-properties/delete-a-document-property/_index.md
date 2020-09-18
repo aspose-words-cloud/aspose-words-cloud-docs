@@ -6,7 +6,6 @@ aliases: [/delete-a-document-property/]
 weight: 40
 ---
 
-## Introduction
 This REST API allows you to delete a document property. Built-In Document Property resources cannot be removed and return an HTTP 400 error response.
 ## Resource URI
 [Swagger UI](https://apireference.aspose.cloud/words/#/DocumentProperties/DeleteDocumentProperty) lets you call this REST API directly from the browser. The description of the API and its parameters are also given there.

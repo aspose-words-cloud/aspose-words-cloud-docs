@@ -6,7 +6,6 @@ aliases: [/get-ole-file-from-a-drawing-object/]
 weight: 70
 ---
 
-## Introduction
 This REST API allows you to get an embedded OLE file from a drawing object. The API response contains an embedded OLE file of the first drawing object of the document. However, returns an error if the drawing object does not have an embedded OLE file.
 ## Resource URI
 ```java

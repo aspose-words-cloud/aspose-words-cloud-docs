@@ -6,7 +6,6 @@ aliases: [/add-run-to-paragraph/]
 weight: 90
 ---
 
-## Introduction
 This REST API allows you to add run to paragraph. The API returns added run data in XML/JSON format.
 ## Resource URI
 ```java

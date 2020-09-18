@@ -6,7 +6,6 @@ aliases: [/delete-comment-from-word-document/]
 weight: 50
 ---
 
-## Introduction
 The REST API allows you to delete a comment from a Word Document.
 ## Resource URI
 [Swagger UI](https://apireference.aspose.cloud/words/#/Comments/DeleteComment) lets you call this REST API directly from the browser. The description of the API and its parameters is also given there.

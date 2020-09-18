@@ -8,7 +8,6 @@ description: "In this article you will learn that how to get MailMerge Field Na
 weight: 40
 ---
 
-## Introduction
 This example explains how to get MailMerge Field Names in the document online. [This API](https://apireference.aspose.cloud/words/#/MailMerge/GetDocumentFieldNamesOnline) assumes we send the document in the request body. Description of some important parameters of the API is given below:
 
 - **useNonMergeFields:** Result includes "mustache" field names if UseNonMergeFields is true

@@ -6,7 +6,6 @@ aliases: [/get-hyperlink-from-a-document/]
 weight: 10
 ---
 
-## Introduction
 This REST API allows you to get a hyperlink from a document. The resource properties are:
 
 |**Property Name**|**Type**|**Description**|

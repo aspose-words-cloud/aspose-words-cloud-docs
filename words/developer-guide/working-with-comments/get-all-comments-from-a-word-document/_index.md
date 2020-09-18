@@ -6,7 +6,6 @@ aliases: [/get-all-comments-from-a-word-document/]
 weight: 10
 ---
 
-## Introduction
 The REST API allows you to get all comments from a Word Document. 
 ## Resource URI
 [Swagger UI](https://apireference.aspose.cloud/words/#/Comments/GetComments) lets you call this REST API directly from the browser. The description of the API and its parameters is also given there.

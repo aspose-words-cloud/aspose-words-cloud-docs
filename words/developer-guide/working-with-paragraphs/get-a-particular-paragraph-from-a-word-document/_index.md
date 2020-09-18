@@ -6,7 +6,6 @@ aliases: [/get-a-particular-paragraph-from-a-word-document/]
 weight: 20
 ---
 
-## Introduction
 This REST API allows you to get a particular paragraph from a word document. The API returns a JSON/XML representation of one of the paragraphs.
 ## Resource URI
 ```java

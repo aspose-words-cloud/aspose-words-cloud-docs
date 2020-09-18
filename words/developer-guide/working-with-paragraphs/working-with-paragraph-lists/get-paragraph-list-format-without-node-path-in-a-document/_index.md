@@ -8,7 +8,6 @@ description: "This REST API allows you to Get Paragraph List Format Without Node
 weight: 40
 ---
 
-## Introduction
 This REST API allows you to Get Paragraph List Format Without Node Path in a Document. Please note that the SDKs of this cloud API are available in *Python, C#, Java, Ruby, PHP, Node.js, Android, Swift,* and *Go* languages. 
 ## Resource URI
 [Swagger UI](https://apireference.aspose.cloud/words/#/Paragraphs/GetParagraphListFormat) lets you call this REST API directly from the browser.  

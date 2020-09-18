@@ -8,7 +8,6 @@ description: "This REST API allows you to read the page setup of a section. The 
 weight: 30
 ---
 
-## Introduction
 This REST API allows you to read the page setup of a section. The API returns JSON/XML representation of the section page setup. The resource properties are the following:
 
 |**Property Name**|**Type**|**Description**|

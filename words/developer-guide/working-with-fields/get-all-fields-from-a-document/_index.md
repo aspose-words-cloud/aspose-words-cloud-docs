@@ -6,7 +6,6 @@ aliases: [/get-all-fields-from-a-document/]
 weight: 10
 ---
 
-## Introduction
 This REST API allows you to get all fields that are defined in the document, section or paragraph.  
 ## Resource URI
 ```html

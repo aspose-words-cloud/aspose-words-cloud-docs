@@ -6,7 +6,6 @@ aliases: [/gets-the-list-of-fonts/]
 weight: 10
 ---
 
-## Introduction
 This REST API allows you to get the list of fonts, available for document processing. It consists of 3 groups:
 
 - SystemFonts - Represents all TrueType fonts installed on the server.

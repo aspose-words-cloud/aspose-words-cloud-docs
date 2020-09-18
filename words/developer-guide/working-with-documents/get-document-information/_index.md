@@ -6,7 +6,6 @@ aliases: [/get-document-information/]
 weight: 30
 ---
 
-## Introduction
 This REST API allows you to get information about the document. The API returns a JSON/XML representation of the document unless a specific Accept header is provided in which case it will return the document in the specified format. The different representations of a document are basically the formats to which the document can be converted. So to achieve a conversion, all a user has to do is to use one of these links.
 ## Resource URI
 [Swagger UI](https://apireference.aspose.cloud/words/#/WordsDocument/GetDocument) lets you call this REST API directly from the browser.  

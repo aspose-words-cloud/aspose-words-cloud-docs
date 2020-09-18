@@ -6,7 +6,6 @@ aliases: [/get-a-header-or-footer-in-a-document/]
 weight: 20
 ---
 
-## Introduction
 This REST API allows you to get a header/footer that is contained in a document.
 ## Resource URI
 ```java

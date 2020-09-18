@@ -6,7 +6,6 @@ aliases: [/get-a-table-row/]
 weight: 70
 ---
 
-## Introduction
 This REST API allows you to get a table row. The API returns a JSON/XML representation of one of the table rows.
 ## Resource URI
 [Swagger UI](https://apireference.aspose.cloud/words/#/Tables/GetTableRow) lets you call this REST API directly from the browser. The description of the API and its parameters are also given there.

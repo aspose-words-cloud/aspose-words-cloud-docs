@@ -8,9 +8,6 @@ description: "In this article, you will learn how to populate a mail merge or mu
 weight: 20
 ---
 
-
-
-## Introduction
 In this article, you will learn how to populate a mail merge or mustache template with data online in various languages. You can download the SDK of your favorite language and start programming in the smartest way. The SDKs are available in Java, .NET, PHP, Ruby, Python, NodeJS, Swift, Android and Go languages. You can send both template file and mail merge data file in the request body and the API returns populated document in API response. [This API](https://apireference.aspose.cloud/words/#/MailMerge/ExecuteMailMergeOnline) represents a controller for executing a mail merge. Description of some important parameters of the API is given below:
 
 |**Parameter Name**|**Description**|

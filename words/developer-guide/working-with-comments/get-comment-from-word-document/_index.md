@@ -6,7 +6,6 @@ aliases: [/get-comment-from-word-document/]
 weight: 20
 ---
 
-## Introduction
 The REST API allows you to get a comment from a Word Document. The API returns a JSON/XML representation of the comment. The resource properties are given below:
 
 |**Property Name**|**Type**|**Description**|
