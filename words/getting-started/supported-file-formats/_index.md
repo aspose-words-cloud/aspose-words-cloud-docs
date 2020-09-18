@@ -5,10 +5,9 @@ url: /supported-file-formats/
 weight: 30
 ---
 
-## **Supported Document Formats**
-The following table indicates the file formats that Aspose.Words Cloud can Load and Save:
+A complete list of supported file formats is presented in the table:
 
-|**Format**|**Description**|**Load**|**Save**|**Remarks**|
+|Format|Description|Load|Save|Remarks|
 | :- | :- | :- | :- | :- |
 |[DOC](https://docs.fileformat.com/word-processing/doc/)|Microsoft Word 97 - 2007 Document.|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |[DOT](https://docs.fileformat.com/word-processing/dot/)|Microsoft Word 97 - 2007 Template.|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
@@ -47,4 +46,3 @@ The following table indicates the file formats that Aspose.Words Cloud can Load 
 |[JPEG](https://docs.fileformat.com/image/jpeg/)|Joint Photographic Experts Group.| |{{< emoticons/tick >}}| |
 |[GIF](https://docs.fileformat.com/image/gif/)|Graphic Interchange Format.| |{{< emoticons/tick >}}| |
 |[MD](https://docs.fileformat.com/word-processing/md/)|Markdown Format| |{{< emoticons/tick >}}| |
-
