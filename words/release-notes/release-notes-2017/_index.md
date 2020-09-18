@@ -6,4 +6,4 @@ aliases: [/release-notes-2017/]
 weight: 40
 ---
 
-### **Release Notes - 2017**
+### Release Notes - 2017

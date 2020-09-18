@@ -11,8 +11,8 @@ weight: 30
 The page contains release notes for Aspose.Words Cloud 20.6 – [API Reference](https://apireference.aspose.cloud/words/)
 
 {{% /alert %}} 
-## **Important Changes and New Features**
-### **Words Cloud changes**
+## Important Changes and New Features
+### Words Cloud changes
 1. Added OoxmlSaveOption CompressionLevel property
 1. Added group of methods without nodePath property
    1. DeleteAllParagraphTabStops
@@ -25,13 +25,13 @@ The page contains release notes for Aspose.Words Cloud 20.6 – [API Reference]
    1. UpdateParagraphListFormat
 1. In methods InsertOrUpdateParagraphTabStop, DeleteParagraphTabStop order of parameters has changed NodePath was moved to one position next, like if it was second before, now it's
 1. Fixed swagger specification for "insert drawing object" and "update drawing object" methods
-### **PDF to Word conversion improvements**
+### PDF to Word conversion improvements
 1. Implemented clipping path detection for W and W\* operators
 1. Added support for PDF files with early EOFs
 1. Slightly improved speed of PDF recognition workflow
 1. Corrected space detection between links on the same row
 1. Fixed a rare concurrency error in font loading code
-## ` `**All changes**
+## ` `All changes
 
 |**ID**|**Summary**|**Category**|
 | :- | :- | :- |
@@ -45,7 +45,7 @@ The page contains release notes for Aspose.Words Cloud 20.6 – [API Reference]
 |PDF2WORD-499 |Sometimes PDF conversion fails on Linux |Bug|
 |PDF2WORD-500 |Can't open doc-1.pdf because there is no "end of stream" marker |Bug|
 |PDF2WORD-501 |Duplicated bottom text line after PDF conversion |Bug|
-### **API Changes for Aspose.Words Cloud SDKs (.Net, Java, PHP, Ruby, Node.js, Python, Go and Swift)**
+### API Changes for Aspose.Words Cloud SDKs (.Net, Java, PHP, Ruby, Node.js, Python, Go and Swift)
 1. Added new methods:
    1. deleteAllParagraphTabStopsWithoutNodePath
    1. deleteParagraphTabStopWithoutNodePath

@@ -6,14 +6,14 @@ aliases: [/aspose-words-cloud-20-3-release-notes/]
 weight: 60
 ---
 
-## **Important Changes and Enhancements**
-### **API changes**
+## Important Changes and Enhancements
+### API changes
 - Added RtfSaveOptionsData.SaveImagesAsWmf property
 - Added SDK for Swift
 - Added SDK for Go
 - PHP SDK. From now in packagist sdk has different package name aspose-words-cloud [new link here](https://packagist.org/packages/aspose-cloud/aspose-words-cloud)
   Old package is abandoned and no more updated since this release [ABANDONED package](https://packagist.org/packages/aspose/words-sdk-php)
-### **PDF to Word conversion improvements**
+### PDF to Word conversion improvements
 - Improved space detection between words in text paragraphs;
 - Fixed position in text for images rotated by 45 degrees;
 - Corrected PDF header recognition while checking file format;
@@ -21,7 +21,7 @@ weight: 60
 - Adjusted text position and alignment on Linux;
 - Improved line endings detection for text lines;
 - Table cell size calculation was slightly updated.
-## **All changes**
+## All changes
 
 |#|Summary|Category|
 | :- | :- | :- |
@@ -65,34 +65,34 @@ weight: 60
 |PDF2WORD-479 |Different Golds for 2018_blueprint.pdf on dev PCs and GitLab |Bug|
 
 
-## **SDKs Changes**
-### **Aspose Words Cloud .Net SDK**
+## SDKs Changes
+### Aspose Words Cloud .Net SDK
 - XmlColor.Alpha isn't a required property
 - RtfSaveOptionsData.SaveImageAsWmf property is added
-### **Aspose Words Cloud C++ SDK**
+### Aspose Words Cloud C++ SDK
 - Alpha property of XmlColor class isn't a required now
 - SaveImageAsWmf property is added to RtfSaveOptionsData class.
-### **Aspose Words Cloud Go SDK**
+### Aspose Words Cloud Go SDK
 - XmlColor.Alpha isn't a required property
 - RtfSaveOptionsData.SaveImageAsWmf property is added
-### **Aspose Words Cloud Java SDK**
+### Aspose Words Cloud Java SDK
 - Added RtfSaveOptionsData.SaveImagesAsWmf property
 - WordsApi class now has credentials parameters
 - Methods which used to work with File now work with byte[]
-### ` `**Aspose Words Cloud Node.js SDK**
+### ` `Aspose Words Cloud Node.js SDK
 - XmlColor.Alpha isn't a required property
 - RtfSaveOptionsData.SaveImageAsWmf property is added
-### **Aspose Words Cloud PHP SDK**
+### Aspose Words Cloud PHP SDK
 - Added RtfSaveOptionsData.SaveImagesAsWmf property
 - WordsApi class now has credentials parameters
-#### **Important update**
+#### Important update
 From now in packagist sdk has different package name aspose-words-cloud [new link here](https://packagist.org/packages/aspose-cloud/aspose-words-cloud)
 Old package is abandoned and no more updated since this release [ABANDONED package](https://packagist.org/packages/aspose/words-sdk-php)
-### **Aspose Words Cloud Python SDK**
+### Aspose Words Cloud Python SDK
 - Added RtfSaveOptionsData.SaveImagesAsWmf property
 - WordsApi class now has credentials parameters
 - All methods which are used files, now operate with bytes array
-### ` `**Aspose Words Cloud Ruby SDK**
+### ` `Aspose Words Cloud Ruby SDK
 - Added RtfSaveOptionsData.SaveImagesAsWmf property
 - WordsApi class now has credentials parameters
 

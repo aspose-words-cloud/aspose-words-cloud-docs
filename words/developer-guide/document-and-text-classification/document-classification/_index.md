@@ -8,7 +8,7 @@ description: "The businesses are now receiving different kind of text-based docu
 weight: 10
 ---
 
-## **Introduction**
+## Introduction
 The businesses are now receiving different kind of text-based documents. These documents might be brochures, emails, letters, support tickets and many more. It becomes more challenging when executives or any concerned people need an immediate insight from the all text-based documents. The organizations know well that their data should be accumulated categorically. Hence, they are creating taxonomies. When the data is indexed in a taxonomy, users can find what they actually required.
 
 The [Taxonomy (general)](https://en.wikipedia.org/wiki/Taxonomy_\(general\)) is the practice and science of classification of things or concepts, including the principles that underlie such classification. In our case, this is a list of text categories. The Aspose.Words Cloud support two taxonomies for now:
@@ -37,9 +37,9 @@ The API important parameters are:
 Document classification supports classifying documents stored on Aspose Storage or any of [the supported storage](https://docs.aspose.cloud/display/storagecloud/How+to+Configure+3rd+Party+Cloud+Storages). API supports all document formats [supported by other Aspose.Words Cloud methods](https://products.aspose.cloud/words/cloud), including PDF which will be implicitly [converted to Word format](/convert-pdf-document-to-word/).
 
 **Note:** The SDKs in C#, Java, PHP, Ruby, Python, Node.js, Android, Swift and Go are available for download. Also the sample code are given below for each of the SDKs:
-## **Resource URI**
+## Resource URI
 [Swagger UI](https://apireference.aspose.cloud/words/#/Classification/ClassifyDocument) lets you call the REST API directly from the browser. The description of the API and its parameters is also given there.
-## **cURL Example**
+## cURL Example
 **Input Document:** [test_multi_pages.docx](attachments/884752/1180129.docx)
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
@@ -121,9 +121,9 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/classify?best
 {{< /tab >}}
 
 {{< /tabs >}}
-## **SDKs**
+## SDKs
 Using an SDK (API client) is the quickest way for a developer to speed up the development. An SDK takes care of a lot of low-level details of making requests and handling responses and lets you focus on writing code specific to your particular project. Check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words SDKs along with working examples, to get you started in no time.
-## **SDK Examples**
+## SDK Examples
 {{< tabs tabTotal="9" tabID="4" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Python" tabName5="Ruby" tabName6="Node.js" tabName7="Android" tabName8="Swift" tabName9="Go" >}}
 
 {{< tab tabNum="1" >}}

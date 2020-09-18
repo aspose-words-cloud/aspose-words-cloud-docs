@@ -11,7 +11,7 @@ weight: 50
 The page contains release notes for Aspose.Words Cloud 18.7 – [API Reference](https://apireference.aspose.cloud/words/)
 
 {{% /alert %}} 
-## **Important Changes and New Features**
+## Important Changes and New Features
 **Added some new SaveOptions**
 
 1. MetafileRenderingOptions.EmulateRasterOperations

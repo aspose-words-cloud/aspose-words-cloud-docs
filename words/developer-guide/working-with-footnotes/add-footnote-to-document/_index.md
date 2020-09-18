@@ -6,9 +6,9 @@ aliases: [/add-footnote-to-document/]
 weight: 30
 ---
 
-## **Introduction**
+## Introduction
 This REST API allows you to add a footnote to a document.
-## **Resource URI**
+## Resource URI
 ```html
 
 ~/{file-name}/footnotes
@@ -34,7 +34,7 @@ The resource properties are:
 |Position|DocumentPosition|Reference to marked run of text.|
 |Content| |Content of footnote.|
 [Swagger UI](https://apireference.aspose.cloud/words/#/Footnotes/InsertFootnote) lets you call this REST API directly from the browser.  
-## **cURL Example**
+## cURL Example
 **Input Document:** [Footnote.doc](attachments/885418/1180127.doc)
 
 {{< tabs tabTotal="2" tabID="2" tabName1="Request" tabName2="Response" >}}
@@ -157,9 +157,9 @@ curl -v "https://api.aspose.cloud/v4.0/words/Footnote.doc/footnotes" \
 {{< /tab >}}
 
 {{< /tabs >}}
-## **SDKs**
+## SDKs
 Using an SDK (API client) is the quickest way for a developer to speed up the development. An SDK takes care of a lot of low-level details of making requests and handling responses and lets you focus on writing code specific to your particular project. Check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs along with working examples, to get you started in no time. Please check [Available SDKs](/available-sdks/) article to learn how to add an SDK to your project.
-## **SDK Examples**
+## SDK Examples
 {{< tabs tabTotal="9" tabID="5" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Python" tabName5="Ruby" tabName6="Node.js" tabName7="Android" tabName8="Swift" tabName9="Go" >}}
 
 {{< tab tabNum="1" >}}

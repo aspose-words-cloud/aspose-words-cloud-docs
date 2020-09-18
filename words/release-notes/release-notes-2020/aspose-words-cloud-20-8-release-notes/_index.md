@@ -11,12 +11,12 @@ weight: 10
 The page contains release notes for Aspose.Words Cloud 20.8 – [API Reference](https://apireference.aspose.cloud/words/)
 
 {{% /alert %}} 
-## **Important Changes and New Features**
-### **Words Cloud changes**
+## Important Changes and New Features
+### Words Cloud changes
 1. Added "optimize document" feature
 1. Added '**ApplyBaseDocumentHeadersAndFootersToAppendingDocuments**' option to '**DocumentEntryList**' for **AppendDocument** API
 1. **WithoutNodePath** methods were removed from SDKs
-### **PDF to Word conversion improvements**
+### PDF to Word conversion improvements
 1. Improved header/footer detection by removing false candidates
 1. Corrected multiple issues with footnotes recognition (numbers, alignment, continuation, etc)
 1. Reduced memory allocations for PDFs with big images (10 times less now)
@@ -28,7 +28,7 @@ The page contains release notes for Aspose.Words Cloud 20.8 – [API Reference]
 1. Changed obfuscation settings for fix iOS compatibility
 
 
-## **All changes**
+## All changes
 
 |**ID**|**Summary**|**Category**|
 | :- | :- | :- |
@@ -52,9 +52,9 @@ The page contains release notes for Aspose.Words Cloud 20.8 – [API Reference]
 |PDF2WORD-515 |Refactoring of class PdfContentProcessor |Task|
 |PDF2WORD-558|Use new flag to skip all image processing methods when requested|Task|
 |PDF2WORD-561|Change obfuscation settings to fix iOS compatibility|Task|
-## **SDK Changes**
+## SDK Changes
 
-### **Aspose Words Cloud (Java, PHP, Python, Ruby) SDKs 20.8**
+### Aspose Words Cloud (Java, PHP, Python, Ruby) SDKs 20.8
 
 
 - Added new api method

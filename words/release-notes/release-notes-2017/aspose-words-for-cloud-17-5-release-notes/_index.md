@@ -11,7 +11,7 @@ weight: 80
 The page contains release notes for Aspose.Words for Cloud update 17.5 – [API Version 1.1](http://api.aspose.com/v1.1/swagger/ui/index)
 
 {{% /alert %}} 
-#### **Swagger Notation Optimization**
+#### Swagger Notation Optimization
 Swagger notation was reworked to merge similar methods into one, making overall method list more consise. Specifically, the following variables are introduced into methods' paths (note that they are optional in some methods):
 
 - *\{nodePath\}* - specifies path to a node (section or paragraph). Sample syntaxes:
@@ -27,7 +27,7 @@ Swagger notation was reworked to merge similar methods into one, making overall
   - *\{nodePath\}/tables/\{tableIndex\}* - references specific table in paragraph or section
 
 Note that certain elements can be nested in cells or headersFooters, e.g. paragraph could be referenced by */sections/1/tables/1/rows/1/cells/1/paragraph/1*.
-#### **Detail Issues with Associated IDs**
+#### Detail Issues with Associated IDs
 
 |**Key**|**Summary**|**Category**|
 | :- | :- | :- |

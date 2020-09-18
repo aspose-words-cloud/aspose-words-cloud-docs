@@ -10,7 +10,7 @@ weight: 20
 
 
 
-## **Introduction**
+## Introduction
 In this article, you will learn how to populate a mail merge or mustache template with data online in various languages. You can download the SDK of your favorite language and start programming in the smartest way. The SDKs are available in Java, .NET, PHP, Ruby, Python, NodeJS, Swift, Android and Go languages. You can send both template file and mail merge data file in the request body and the API returns populated document in API response. [This API](https://apireference.aspose.cloud/words/#/MailMerge/ExecuteMailMergeOnline) represents a controller for executing a mail merge. Description of some important parameters of the API is given below:
 
 |**Parameter Name**|**Description**|
@@ -30,9 +30,9 @@ The cleanup options parameter can contain a list of values from below, separated
 |RemoveTitleRow|Removes title row of the table if this table doesn't contain any rows except title row. It does not remove title rows in nested tables.|
 |RemoveTitleRowInInnerTables|Enable "RemoveTitleRow " for nested tables.|
 |RemoveStaticFields|Specifies whether static fields should be removed from the document. Static fields are fields, which results remain the same upon any document change. Fields, which do not store their results in a document and are calculated on the fly (like Aspose.Words.Fields.FieldType.FieldListNum, Aspose.Words.Fields.FieldType.FieldSymbol, etc.) are not considered to be static.|
-## **Resource URI**
+## Resource URI
 [Swagger UI](https://apireference.aspose.cloud/words/#/MailMerge/ExecuteMailMergeOnline) lets you call this REST API directly from the browser. The description of the API and its parameters is also given there.
-## **cURL Example**
+## cURL Example
 **Case 1: MailMerge Template**
 
 **Input Document:** [SampleMailMergeTemplate.docx](attachments/884946/1180099.docx)
@@ -134,9 +134,9 @@ Output Document: TestPostExecuteTemplate.docx
 {{< /tab >}}
 
 {{< /tabs >}}
-## **SDKs**
+## SDKs
 Using an SDK (API client) is the quickest way for a developer to speed up the development. An SDK takes care of a lot of low-level details of making requests and handling responses and lets you focus on writing code specific to your particular project. Check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words SDKs along with working examples, to get you started in no time. Please check [Available SDKs](/available-sdks/) article to learn how to add an SDK to your project.
-## **SDK Examples**
+## SDK Examples
 {{< tabs tabTotal="9" tabID="7" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Python" tabName5="Ruby" tabName6="Node.js" tabName7="Android" tabName8="Swift" tabName9="Go" >}}
 
 {{< tab tabNum="1" >}}

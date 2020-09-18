@@ -6,7 +6,7 @@ aliases: [/render-complex-parts-of-a-word-document-into-the-image/]
 weight: 90
 ---
 
-## **Introduction**
+## Introduction
 This REST API allows you to render complex portions of a document to any supported format. The following elements can be rendered: 
 
 - page
@@ -30,7 +30,7 @@ The following formats are supported:
 |png|Portable Network Graphic|
 |svg|Scalable Vector Graphics File|
 |tiff|Tagged Image File Format|
-## **Resource URI**
+## Resource URI
 [Swagger UI](https://apireference.aspose.cloud/words/#/Render) lets you call following REST APIs directly from the browser:
 
 - [Renders page to a specified format](https://apireference.aspose.cloud/words/#/Render/RenderPage)
@@ -38,7 +38,7 @@ The following formats are supported:
 - [Renders table to a specified format](https://apireference.aspose.cloud/words/#/Render/RenderTable)
 - [Renders drawing object to a specified format](https://apireference.aspose.cloud/words/#/Render/RenderDrawingObject)
 - [Renders math object to a specified format](https://apireference.aspose.cloud/words/#/Render/RenderMathObject)
-## **cURL Example**
+## cURL Example
 **Case 1: Render a page of the document in BMP format:**
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
@@ -253,7 +253,7 @@ PNG File
 {{< /tab >}}
 
 {{< /tabs >}}
-## **SDK Examples**
+## SDK Examples
 **Case 1: Renders Page to Specified Format**
 
 {{< tabs tabTotal="7" tabID="16" tabName1="C#" tabName2="Java" tabName3="Python" tabName4="Ruby" tabName5="Node.js" tabName6="Android" tabName7="Swift" >}}

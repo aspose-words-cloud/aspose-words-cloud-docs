@@ -6,7 +6,7 @@ aliases: [/update-the-comment-in-a-word-document/]
 weight: 40
 ---
 
-## **Introduction**
+## Introduction
 The REST API allows you to update the comment in a Word Document. The API returns updated comment data in XML/JSON format. Moreover, resource properties are given below:
 
 |**Property Name**|**Type**|**Description**|
@@ -18,9 +18,9 @@ The REST API allows you to update the comment in a Word Document. The API return
 |DateTime|DateTime|Gets the date and time that the comment was made.|
 |Text|string|This is a convenience property that allows you to easily get or set the text of the comment.|
 |Content|list of child nodes|List of child nodes.|
-## **Resource URI**
+## Resource URI
 [Swagger UI](https://apireference.aspose.cloud/words/#/Comments/UpdateComment) lets you call this REST API directly from the browser. The description of the API and its parameters are also given there.
-## **cURL Example**
+## cURL Example
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 
 {{< tab tabNum="1" >}}
@@ -123,9 +123,9 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/comments/0" \
 {{< /tab >}}
 
 {{< /tabs >}}
-## **SDK Source**
+## SDK Source
 Using an SDK (API client) is the quickest way for a developer to speed up the development. An SDK takes care of a lot of low-level details of making requests and handling responses and lets you focus on writing code specific to your particular project. Check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs along with working examples, to get you started in no time. Please check [Available SDKs](/available-sdks/) article to learn how to add an SDK to your project.
-## **SDK Examples**
+## SDK Examples
 {{< tabs tabTotal="8" tabID="4" tabName1="C#" tabName2="Java" tabName3="Python" tabName4="Ruby" tabName5="Node.js" tabName6="Android" tabName7="Swift" tabName8="Go" >}}
 
 {{< tab tabNum="1" >}}

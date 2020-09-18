@@ -6,7 +6,7 @@ aliases: [/get-font-of-run/]
 weight: 130
 ---
 
-## **Introduction**
+## Introduction
 This REST API allows you to get the font of a run. The resource properties are the following:
 
 |**Property Name**|**Type**|**Description**|
@@ -51,7 +51,7 @@ This REST API allows you to get the font of a run. The resource properties are t
 |TextEffect|TextEffect|Specifies the font animation effect.|
 |Underline|Underline|Specifies the type of underline applied to the font.|
 |UnderlineColor|Color|Specifies the color of the underline applied to the font.|
-## **Resource URI**
+## Resource URI
 ```java
 
 ~/{file-name}/{paragraphPath}/runs/{index}/font
@@ -67,7 +67,7 @@ This REST API allows you to get the font of a run. The resource properties are t
 *{index}* is the index of the specific run.
 
 [Swagger UI](https://apireference.aspose.cloud/words/#/Runs/GetRunFont) lets you call this REST API directly from the browser.  
-## **cURL Example**
+## cURL Example
 {{< tabs tabTotal="2" tabID="2" tabName1="Request" tabName2="Response" >}}
 
 {{< tab tabNum="1" >}}
@@ -247,9 +247,9 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs/0/
 {{< /tab >}}
 
 {{< /tabs >}}
-## **SDKs**
+## SDKs
 Using an SDK (API client) is the quickest way for a developer to speed up the development. An SDK takes care of a lot of low-level details of making requests and handling responses and lets you focus on writing code specific to your particular project. Check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs along with working examples, to get you started in no time. Please check [Available SDKs](/available-sdks/) article to learn how to add an SDK to your project.
-## **SDK Examples**
+## SDK Examples
 {{< tabs tabTotal="8" tabID="5" tabName1="C#" tabName2="Java" tabName3="Python" tabName4="Ruby" tabName5="Node.js" tabName6="Android" tabName7="Swift" tabName8="Go" >}}
 
 {{< tab tabNum="1" >}}

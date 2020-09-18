@@ -6,13 +6,13 @@ aliases: [/text-classification/]
 weight: 20
 ---
 
-## **Introduction**
+## Introduction
 Aspose.Words Cloud supports [text and document classification](https://en.wikipedia.org/wiki/Document_classification) into the [Interactive Advertising Bureau (IAB) taxonomy](https://www.iab.com/guidelines/taxonomy/) categories. Document classification is often used in various business processes to automate the flow of documents through the organization.
 
 Text classification is a lightweight version of classification API that processes text snippets. You do not need to store the snippet on any storage, instead, it is supplied in the request body.
-## **Resource URI**
+## Resource URI
 [Swagger UI](https://apireference.aspose.cloud/words/#/Classification/Classify) lets you call this REST API directly from the browser. The description of the API and its parameters is also given there.
-## **cURL Example**
+## cURL Example
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 
 {{< tab tabNum="1" >}}
@@ -93,9 +93,9 @@ curl -v "https://api.aspose.cloud/v4.0/words/classify?bestClassesCount=3" \
 {{< /tab >}}
 
 {{< /tabs >}}
-## **SDKs**
+## SDKs
 Using an SDK (API client) is the quickest way for a developer to speed up the development. An SDK takes care of a lot of low-level details of making requests and handling responses and lets you focus on writing code specific to your particular project. Check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words SDKs along with working examples, to get you started in no time. Please check [Available SDKs](/available-sdks/) article to learn how to add an SDK to your project.
-## **SDK Examples**
+## SDK Examples
 {{< tabs tabTotal="9" tabID="4" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Python" tabName5="Ruby" tabName6="Node.js" tabName7="Android" tabName8="Swift" tabName9="Go" >}}
 
 {{< tab tabNum="1" >}}

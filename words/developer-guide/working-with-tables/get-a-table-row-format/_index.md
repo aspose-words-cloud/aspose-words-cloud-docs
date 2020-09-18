@@ -6,7 +6,7 @@ aliases: [/get-a-table-row-format/]
 weight: 100
 ---
 
-## **Introduction**
+## Introduction
 This REST API allows you to get a table row format properties. The description of important row properties is:
 
 |**Property Name**|**Type**|**Description**|
@@ -15,9 +15,9 @@ This REST API allows you to get a table row format properties. The description o
 |HeightRule|HeightRule|Specifies the rule for determining the height of the table row.|
 |AllowBreakAcrossPages|bool|True if the text in a table row is allowed to split across a page break.|
 |HeadingFormat|bool|True if the row is repeated as a table heading on every page when the table spans more than one page.|
-## **Resource URI**
+## Resource URI
 [Swagger UI](https://apireference.aspose.cloud/words/#/Tables/GetTableRowFormat) lets you call this REST API directly from the browser. The description of the API and its parameters are also given there.
-## **cURL Example**
+## cURL Example
 **Input Document:** [TablesGet.docx](attachments/885355/1180119.docx)
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
@@ -89,9 +89,9 @@ curl -v "https://api.aspose.cloud/v4.0/words/TablesGet.docx/tables/1/rows/0/rowf
 {{< /tab >}}
 
 {{< /tabs >}}
-## **SDK Source**
+## SDK Source
 Using an SDK (API client) is the quickest way for a developer to speed up the development. An SDK takes care of a lot of low-level details of making requests and handling responses and lets you focus on writing code specific to your particular project. Check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs along with working examples, to get you started in no time. Please check [Available SDKs](/available-sdks/) article to learn how to add an SDK to your project.
-## **SDK Examples**
+## SDK Examples
 {{< tabs tabTotal="8" tabID="4" tabName1="C#" tabName2="Java" tabName3="Python" tabName4="Ruby" tabName5="Node.js" tabName6="Android" tabName7="Swift" tabName8="Go" >}}
 
 {{< tab tabNum="1" >}}

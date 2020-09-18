@@ -6,11 +6,11 @@ aliases: [/insert-images-during-mail-merge/]
 weight: 60
 ---
 
-## **Introduction**
+## Introduction
 This example explains how to insert Images on a MERGEFIELD. [MailMerge](https://apireference.aspose.cloud/words/#/MailMerge/ExecuteMailMerge) API allows you to insert images on a merge field. The mail merges data string can be either in XML or JSON format.
-## **Resource URI**
+## Resource URI
 [Swagger UI](https://apireference.aspose.cloud/words/#/MailMerge/ExecuteMailMerge) lets you call this REST API directly from the browser. The description of the APIs and its parameters are also given there.
-## **cURL Example**
+## cURL Example
 Input Document: [TestMailMergeWithImages.doc](attachments/885365/1180101.doc)
 
 Mail Merge Data: [MailMergeData.txt](attachments/885365/1180104.txt)
@@ -411,9 +411,9 @@ curl -v "https://api.aspose.cloud/v4.0/words/TestMailMergeWithImages.doc/MailMer
 {{< /tab >}}
 
 {{< /tabs >}}
-## **SDKs**
+## SDKs
 Using an SDK (API client) is the quickest way for a developer to speed up the development. An SDK takes care of a lot of low-level details of making requests and handling responses and lets you focus on writing code specific to your particular project. Check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words SDKs along with working examples, to get you started in no time. Please check [Available SDKs](/available-sdks/) article to learn how to add an SDK to your project.
-## **SDK Examples**
+## SDK Examples
 {{< tabs tabTotal="8" tabID="4" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Python" tabName5="Ruby" tabName6="Node.js" tabName7="Android" tabName8="Swift" >}}
 
 {{< tab tabNum="1" >}}

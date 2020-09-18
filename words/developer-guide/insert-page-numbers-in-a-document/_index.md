@@ -8,9 +8,9 @@ description: "This REST API allows you to insert page numbers in word document
 weight: 170
 ---
 
-## **Introduction**
+## Introduction
 This REST API allows you to insert *page numbers in word* documents. This article reveals that how to add page numbers in word documents with formatted and arranged manners using most frequently used options.
-## **Resource URI**
+## Resource URI
 ```java
 
 ~/{file-name}/insertPageNumbers
@@ -22,7 +22,7 @@ or
 ```
 
 [Swagger UI](https://apireference.aspose.cloud/words/#/PageNumbers/InsertPageNumbers) lets you call this REST API directly from the browser.  
-## **cURL Example**
+## cURL Example
 {{< tabs tabTotal="2" tabID="2" tabName1="Request" tabName2="Response" >}}
 
 {{< tab tabNum="1" >}}
@@ -415,9 +415,9 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/insertPageNum
 {{< /tab >}}
 
 {{< /tabs >}}
-## **SDKs**
+## SDKs
 Using an SDK (API client) is the quickest way for a developer to speed up the development. An SDK takes care of a lot of low-level details of making requests and handling responses and lets you focus on writing code specific to your particular project. Check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs along with working examples, to get you started in no time. Please check [Available SDKs](/available-sdks/) article to learn how to add an SDK to your project.
-## **SDK Examples**
+## SDK Examples
 {{< tabs tabTotal="8" tabID="5" tabName1="C#" tabName2="Java" tabName3="Python" tabName4="Ruby" tabName5="Node.js" tabName6="Android" tabName7="Swift" tabName8="Go" >}}
 
 {{< tab tabNum="1" >}}

@@ -6,7 +6,7 @@ aliases: [/get-a-officemath-object-from-document/]
 weight: 20
 ---
 
-## **Introduction**
+## Introduction
 This REST API allows you to get one of the OfficeMath objects that are defined in the document. The Resource Properties are:
 
 |**Property Name**|**Type**|**Description**|
@@ -15,7 +15,7 @@ This REST API allows you to get one of the OfficeMath objects that are defined 
 |DisplayType|OfficeMathDisplayType|Specifies the display format type of the equation. See possible values and more info at [.NET API Reference.](https://apireference.aspose.com/net/words/aspose.words.math/officemathdisplaytype)|
 |Justification|OfficeMathJustification|Specifies the justification of the equation. See possible values and more info at [.NET API Reference.](https://apireference.aspose.com/net/words/aspose.words.math/officemathjustification)|
 |MathObjectType|MathObjectType|Specifies type of an Office Math object. See possible values and more info at [.NET API Reference.](https://apireference.aspose.com/net/words/aspose.words.math/mathobjecttype)|
-## **Resource URI**
+## Resource URI
 ```java
 
 ~/{file-name}/officeMathObjects/{index}
@@ -34,7 +34,7 @@ This REST API allows you to get one of the OfficeMath objects that are defined 
 *{index}* is the index of specific office math object.
 
 [Swagger UI](https://apireference.aspose.cloud/words/#/OfficeMathObjects/GetOfficeMathObject) lets you call this REST API directly from the browser.  
-## **cURL Example**
+## cURL Example
 {{< tabs tabTotal="2" tabID="2" tabName1="Request" tabName2="Response" >}}
 
 {{< tab tabNum="1" >}}
@@ -130,9 +130,9 @@ curl -v "https://api.aspose.cloud/v4.0/words/MathObjects.docx/OfficeMathObjects/
 {{< /tab >}}
 
 {{< /tabs >}}
-## **SDKs**
+## SDKs
 Using an SDK (API client) is the quickest way for a developer to speed up the development. An SDK takes care of a lot of low-level details of making requests and handling responses and lets you focus on writing code specific to your particular project. Check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs along with working examples, to get you started in no time. Please check [Available SDKs](/available-sdks/) article to learn how to add an SDK to your project.
-## **SDK Examples**
+## SDK Examples
 {{< tabs tabTotal="8" tabID="5" tabName1="C#" tabName2="Java" tabName3="Python" tabName4="Ruby" tabName5="Node.js" tabName6="Android" tabName7="Swift" tabName8="Go" >}}
 
 {{< tab tabNum="1" >}}

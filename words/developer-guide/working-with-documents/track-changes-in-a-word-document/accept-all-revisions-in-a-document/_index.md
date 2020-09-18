@@ -8,7 +8,7 @@ description: "This REST API allows you to accept word revision tracking."
 weight: 10
 ---
 
-## **Introduction**
+## Introduction
 This REST API allows you to accept all revisions in a document. The request parameters are the following:
 
 |**Parameter Name**|**Type**|**Query String/HTTP Body**|**Description**|
@@ -16,9 +16,9 @@ This REST API allows you to accept all revisions in a document. The request para
 |destFileName|string|Query string: destFileName=AfterAcceptAll.doc|Result path of the document after the operation. If this parameter is omitted then the result of the operation will be saved as the source document.|
 |folder|string|Query string: folder=MyFolder|Original document folder.|
 |storage|string|Query string: storage=MyAmazonS3Storage|Original document storage.|
-## **Resource URI**
+## Resource URI
 [Swagger UI](https://apireference.aspose.cloud/words/#/Revisions/AcceptAllRevisions) lets you call this REST API directly from the browser.  
-## **cURL Example**
+## cURL Example
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 
 {{< tab tabNum="1" >}}
@@ -93,9 +93,9 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/revisions/acc
 {{< /tab >}}
 
 {{< /tabs >}}
-## **SDKs**
+## SDKs
 Using an SDK (API client) is the quickest way for a developer to speed up the development. An SDK takes care of a lot of low-level details of making requests and handling responses and lets you focus on writing code specific to your particular project. Check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs along with working examples, to get you started in no time. Please check [Available SDKs](/available-sdks/) article to learn how to add an SDK to your project.
-## **SDK Examples**
+## SDK Examples
 {{< tabs tabTotal="8" tabID="4" tabName1="C#" tabName2="Java" tabName3="Python" tabName4="Ruby" tabName5="Node.js" tabName6="Android" tabName7="Swift" tabName8="Go" >}}
 
 {{< tab tabNum="1" >}}
