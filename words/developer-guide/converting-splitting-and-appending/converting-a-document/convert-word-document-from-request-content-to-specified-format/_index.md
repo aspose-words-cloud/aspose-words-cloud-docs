@@ -19,7 +19,7 @@ You can check the quality of Aspose.Words Cloud conversion and view the results 
 ## Introduction
 [PUT /words/convert](https://apireference.aspose.cloud/words/#/Convert/ConvertDocument) API lets you convert MS Word document to another format. The API request contains a document to convert and the response contains the conversion result, or if outPath parameter specified - the API saves the result to the Cloud storage and return OK status code. The list of supported formats are:
 
-|**format Parameter Value**|**Format of the returned Presentation**|
+|format Parameter Value|Format of the returned Presentation|
 | :- | :- |
 |bmp|Bitmap image file|
 |doc|Word document|
@@ -49,7 +49,7 @@ You can check the quality of Aspose.Words Cloud conversion and view the results 
 |xps|XML Paper Specification File|
 The important parameters of this API are:
 
-|**Parameter Name**|**Type**|**Query String**|**Description**|
+|Parameter Name|Type|Query String|Description|
 | :- | :- | :- | :- |
 |format|string|format=jpeg|Return the document in the specified format. Valid values for this parameter are given above.|
 |outPath|string|outPath=SomeFolder/result.jpeg|A path for saving operation results to the Cloud storage.|

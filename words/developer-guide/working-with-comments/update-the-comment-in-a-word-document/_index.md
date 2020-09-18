@@ -8,7 +8,7 @@ weight: 40
 
 The REST API allows you to update the comment in a Word Document. The API returns updated comment data in XML/JSON format. Moreover, resource properties are given below:
 
-|**Property Name**|**Type**|**Description**|
+|Property Name|Type|Description|
 | :- | :- | :- |
 |RangeStart|link|Link to comment range start.|
 |RangeEnd|link|Link to comment range end.|

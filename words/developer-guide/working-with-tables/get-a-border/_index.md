@@ -8,7 +8,7 @@ weight: 180
 
 The REST API allows you to get a border. The API returns a JSON/XML representation of the border. The details of resource properties are given below:
 
-|**Property Name**|**Type**|**Description**|
+|Property Name|Type|Description|
 | :- | :- | :- |
 |BorderType|BorderType|Gets the border type.|
 |Color|Color|Specifies the border color.|

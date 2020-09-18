@@ -8,7 +8,7 @@ weight: 20
 
 This REST API allows you to get one of the OfficeMath objects that are defined in the document. The Resource Properties are:
 
-|**Property Name**|**Type**|**Description**|
+|Property Name|Type|Description|
 | :- | :- | :- |
 |Content| |Content of OfficeMath object.|
 |DisplayType|OfficeMathDisplayType|Specifies the display format type of the equation. See possible values and more info at [.NET API Reference.](https://apireference.aspose.com/net/words/aspose.words.math/officemathdisplaytype)|

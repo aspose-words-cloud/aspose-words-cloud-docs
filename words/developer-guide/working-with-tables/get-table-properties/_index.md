@@ -8,7 +8,7 @@ weight: 50
 
 This REST API allows you to get properties of a table. The description of the important table properties is given below:
 
-|**Property Name**|**Type**|**Description**|
+|Property Name|Type|Description|
 | :- | :- | :- |
 |Alignment|TableAlignment|Specifies how an inline table is aligned in the document.|
 |AllowAutoFit|bool|Allows Microsoft Word and Aspose.Words to automatically resize cells in a table to fit their contents.|

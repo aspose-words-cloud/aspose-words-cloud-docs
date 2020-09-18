@@ -8,7 +8,7 @@ weight: 40
 
 This REST API allows you to update the section page setup properties. The API returns updated data in XML/JSON format. The resource properties are the following:
 
-|**Property Name**|**Type**|**Description**|
+|Property Name|Type|Description|
 | :- | :- | :- |
 |Bidi|bool|Specifies that this section contains bidirectional (complex scripts) text.|
 |BorderAlwaysInFront|bool|Specifies where the page border is positioned relative to intersecting texts and objects.|

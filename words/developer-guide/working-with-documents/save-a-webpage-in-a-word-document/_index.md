@@ -8,7 +8,7 @@ weight: 20
 
 This REST API allows you to load a new document from the web into the file with any supported format of data. The request parameters are given below:
 
-|**Parameter Name**|**Type**|**Description**|
+|Parameter Name|Type|Description|
 | :- | :- | :- |
 |LoadingDocumentUrl|string|Web document URL|
 |SaveOptions|SaveOptions|Save options|

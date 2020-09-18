@@ -8,7 +8,7 @@ weight: 20
 
 This REST API allows you to get a particular drawing object from the document. You can also convert a drawing object to a specified format. Moreover, the detail of resource properties are given below:
 
-|**Property Name**|**Type**|**Description**|
+|Property Name|Type|Description|
 | :- | :- | :- |
 |Width|double|Width of drawing object.|
 |Height|double|Height of drawing object.|

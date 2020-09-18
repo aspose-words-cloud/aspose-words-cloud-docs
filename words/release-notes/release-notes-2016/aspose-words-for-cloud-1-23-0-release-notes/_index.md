@@ -13,7 +13,7 @@ The page contains release notes for Aspose.Words for Cloud update 1.23.0 – [AP
 {{% /alert %}} 
 ## Full List of Issues Covering all Changes in this Release
 
-|**Key** |**Summary** |**Category** |
+|Key |Summary |Category |
 | :- | :- | :- |
 |WORDSCLOUD-61 |Additional page in 'statistics' result |Bug |
 |WORDSCLOUD-58 |Additional page in 'statistics' result |Bug |

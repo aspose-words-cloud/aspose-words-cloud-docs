@@ -16,7 +16,7 @@ Password is always required. If you want to change the type of protection, then 
 
 The resource properties are given below:
 
-|**Property Name**|**Type**|**Description**|
+|Property Name|Type|Description|
 | :- | :- | :- |
 |ProtectionType|string|Document protection type, one from: AllowOnlyComments, AllowOnlyFormFields, AllowOnlyRevisions, ReadOnly, NoProtection.|
 |Password|string|Current document protection password.|

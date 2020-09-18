@@ -8,7 +8,7 @@ weight: 140
 
 This REST API allows you to add a cell to a table row. The description of important API parameters is given below:
 
-|**Parameter Name**|**Type**|**Description**|
+|Parameter Name|Type|Description|
 | :- | :- | :- |
 |InsertAfter|int?|Table cell will be inserted after the cell with the specified 0-based index.|
 ## Resource URI

@@ -8,7 +8,7 @@ weight: 90
 
 This REST API allows you to add a row to a table. The API returns added row's data in XML/JSON format. The description of important API parameters is given below:
 
-|**Parameter Name**|**Type**|**Description**|
+|Parameter Name|Type|Description|
 | :- | :- | :- |
 |ColumnsCount|int|Count of columns. Default is 1.|
 |InsertAfter|int?|Table row will be inserted after a row with specified 0-based index.|

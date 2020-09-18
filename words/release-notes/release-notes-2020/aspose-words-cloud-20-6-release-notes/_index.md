@@ -33,7 +33,7 @@ The page contains release notes for Aspose.Words Cloud 20.6 – [API Reference]
 1. Fixed a rare concurrency error in font loading code
 ## ` `All changes
 
-|**ID**|**Summary**|**Category**|
+|ID|Summary|Category|
 | :- | :- | :- |
 |WORDSCLOUD-1183|Add new OoxmlSaveOption CompressionLevel|Feature|
 |WORDSCLOUD-1147|Some methods don't have "withoutNodePath" version in swagger UI|Bug|

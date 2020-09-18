@@ -13,7 +13,7 @@ The page contains release notes for Aspose.Words for Cloud update 17.7. – [API
 {{% /alert %}} 
 ## Full List of Issues Covering all Changes in this Release
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |**WORDSCLOUD-204**|Mail Merge not generating output from templates|Bug|
 |**WORDSCLOUD-209**|destFileName Description for mail merge is wrong|Bug|

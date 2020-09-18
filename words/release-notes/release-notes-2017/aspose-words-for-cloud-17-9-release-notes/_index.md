@@ -13,7 +13,7 @@ The page contains release notes for Aspose.Words for Cloud update 17.9 – [API 
 {{% /alert %}} 
 ## Full List of Issues Covering all Changes in this Release
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |**WORDSCLOUD-238**|System.IndexOutOfRangeException is thrown while converting DOCX to PDF|Bug|
 |**WORDSCLOUD-239**|DOCX to PDF conversion issue with Chart's color|Bug|

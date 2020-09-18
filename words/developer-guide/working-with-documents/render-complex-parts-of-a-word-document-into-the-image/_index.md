@@ -16,12 +16,12 @@ This REST API allows you to render complex portions of a document to any suppor
 
 The request parameters are the following:
 
-|**Parameter Name**|**Type**|**Query String/HTTPBody**|**Description**|
+|Parameter Name|Type|Query String/HTTPBody|Description|
 | :- | :- | :- | :- |
 |format|string|Query String: format=jpeg|Return the document in the specified format. Valid values for this parameter are given below.|
 The following formats are supported:
 
-|**format parameter value**|**Format of the returned Presentation**|
+|format parameter value|Format of the returned Presentation|
 | :- | :- |
 |bmp|Bitmap image file|
 |gif|Gif Image|

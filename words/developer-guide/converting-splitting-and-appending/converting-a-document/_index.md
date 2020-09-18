@@ -10,7 +10,7 @@ weight: 20
 
 The ability to easily and reliably convert documents from one format to another is one of the four main feature areas of Aspose.Words Cloud. It has provided the following simplest APIs to convert a Word document to other file formats:
 
-|**API**|**Description**|
+|API|Description|
 | :- | :- |
 |[GET /words/{name}](https://apireference.aspose.cloud/words/#/Convert/GetDocumentWithFormat)|Export the document into the specified format.|
 |[PUT /words/convert](https://apireference.aspose.cloud/words/#/Convert/ConvertDocument)|Converts document from the request's content to the specified format.|

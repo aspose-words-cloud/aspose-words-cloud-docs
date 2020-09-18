@@ -8,7 +8,7 @@ weight: 30
 
 This REST API allows you to update the bookmark text and returns updated bookmark data in XML/JSON format. The description of the important parameters of the API is given below:
 
-|**Property Name**|**Type**|**Description**|
+|Property Name|Type|Description|
 | :- | :- | :- |
 |Name|string|Name of the selected bookmark |
 |Text|string|The text contained within this bookmark|

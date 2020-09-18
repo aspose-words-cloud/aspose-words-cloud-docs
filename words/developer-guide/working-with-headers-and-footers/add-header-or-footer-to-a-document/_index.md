@@ -10,7 +10,7 @@ This REST API allows you to add Header or Footer to a document. The API returns 
 
 The request body should contain a type of header/footer, and the allowed values of headerFooterType are:
 
-|**Value**|**Description**|
+|Value|Description|
 | :- | :- |
 |HeaderEven|The header for even-numbered pages.|
 |HeaderPrimary|Primary header, also used for odd-numbered pages|

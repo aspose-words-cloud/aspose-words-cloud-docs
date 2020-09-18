@@ -8,7 +8,7 @@ weight: 30
 
 This REST API allows you to insert a watermark text into a document. This is a high-level operation that allows inserting a WordArt object into headers/footers in a document. The object will appear as a watermark throughout the document. The most important request parameters are the following:
 
-|**Parameter Name**|**Type**|**Query String/HTTP Body**|**Description**|
+|Parameter Name|Type|Query String/HTTP Body|Description|
 | :- | :- | :- | :- |
 |watermarkText |string|Query String/HTTP Body: text=DRAFT|Watermark text.|
 ## Resource URI

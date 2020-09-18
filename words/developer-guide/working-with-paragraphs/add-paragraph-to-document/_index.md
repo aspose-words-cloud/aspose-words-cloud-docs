@@ -8,7 +8,7 @@ weight: 30
 
 This REST API allows you to add a paragraph to a document. The API returns added paragraph data in XML/JSON format. The request parameters are the following:
 
-|**Parameter Name**|**Type**|**Query String/HTTPBody**|**Description**|
+|Parameter Name|Type|Query String/HTTPBody|Description|
 | :- | :- | :- | :- |
 |insertBeforeNode|string|Query String: insertBeforeNode="nodeId"|Paragraph will be inserted before node with id="nodeId".|
 |text|string|Request body|A paragraph will be inserted with text "text".|

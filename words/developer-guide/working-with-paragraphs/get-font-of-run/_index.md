@@ -8,7 +8,7 @@ weight: 130
 
 This REST API allows you to get the font of a run. The resource properties are the following:
 
-|**Property Name**|**Type**|**Description**|
+|Property Name|Type|Description|
 | :- | :- | :- |
 |AllCaps|bool|True if the font is formatted as all capital letters.|
 |Bidi|bool|Specifies whether the contents of this run shall have right-to-left characteristics.|

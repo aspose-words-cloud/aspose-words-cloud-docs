@@ -8,7 +8,7 @@ weight: 10
 
 This REST API allows you to get a hyperlink from a document. The resource properties are:
 
-|**Property Name**|**Type**|**Description**|
+|Property Name|Type|Description|
 | :- | :- | :- |
 |Id|int|Hyperlink identifier.|
 |DisplayText|string|Text of the hyperlink as it is presented in a Word document.|

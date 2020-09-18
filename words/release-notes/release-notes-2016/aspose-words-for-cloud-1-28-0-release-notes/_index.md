@@ -13,7 +13,7 @@ The page contains release notes for Aspose.Words for Cloud update 1.28.0 – [AP
 {{% /alert %}} 
 ## Full List of Issues Covering all Changes in this Release
 
-|**Key** |**Summary** |**Category** |
+|Key |Summary |Category |
 | :- | :- | :- |
 |WORDSCLOUD-90 |Out of memory exception occurs during rendering to PDF |Exception |
 |WORDSCLOUD-93 |Conversion error on split to html: Index was out of range |Exception |

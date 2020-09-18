@@ -20,7 +20,7 @@ This article explains how to format the text. Using [PUT /words/{name}/{paragrap
 *{index}* is the index of specific run.
 ## Resource Properties
 
-|**Property Name**|**Type**|**Description**|
+|Property Name|Type|Description|
 | :- | :- | :- |
 |AllCaps|bool|True if the font is formatted as all capital letters.|
 |Bidi|bool|Specifies whether the contents of this run shall have right-to-left characteristics.|

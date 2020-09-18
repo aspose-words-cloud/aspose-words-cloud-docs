@@ -10,7 +10,7 @@ weight: 20
 
 This REST API allows you to get one of the sections contained in the document. The resource properties are the following:
 
-|**Property Name**|**Type**|**Description**|
+|Property Name|Type|Description|
 | :- | :- | :- |
 |Paragraphs|Link|Represents a link to a list of all paragraphs that are contained in the section.|
 |PageSetup|Link|Represents a link to the section's page setup resource.|

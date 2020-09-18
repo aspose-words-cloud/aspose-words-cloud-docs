@@ -8,7 +8,7 @@ weight: 10
 
 This REST API allows you to get document protection info. The resource properties are given below:
 
-|**Property Name**|**Type**|**Description**|
+|Property Name|Type|Description|
 | :- | :- | :- |
 |ProtectionType|string|Document protection type, one from: AllowOnlyComments, AllowOnlyFormFields, AllowOnlyRevisions, ReadOnly, NoProtection.|
 ## Resource URI

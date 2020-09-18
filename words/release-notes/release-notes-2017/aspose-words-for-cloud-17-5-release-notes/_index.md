@@ -29,7 +29,7 @@ Swagger notation was reworked to merge similar methods into one, making overall
 Note that certain elements can be nested in cells or headersFooters, e.g. paragraph could be referenced by */sections/1/tables/1/rows/1/cells/1/paragraph/1*.
 #### Detail Issues with Associated IDs
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSCLOUD-163|<p>Render complex document parts</p><p>The following elements support rendering as of 17.5</p><p>- page</p><p>- paragraph</p><p>- table</p><p>- drawingObject</p><p>- officeMathObject</p><p>The following formats are supported:</p><p>- bmp</p><p>- gif</p><p>- jpeg</p><p>- png</p><p>- svg</p><p>- tiff</p><p> </p>|Feature|
 |WORDSCLOUD-173|If storage does not exist, server returns "Object reference not set to an instance of an object|Bug|

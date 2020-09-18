@@ -8,7 +8,7 @@ weight: 50
 
 This REST API allows you to get all the formatting of a paragraph. The resource properties are:
 
-|**Property Name**|**Type**|**Description**|
+|Property Name|Type|Description|
 | :- | :- | :- |
 |AddSpaceBetweenFarEastAndAlpha|bool|Specifies a flag indicating whether inter-character spacing is automatically adjusted between regions of Latin text and regions of East Asian text in the current paragraph.|
 |AddSpaceBetweenFarEastAndDigit|bool|Specifies a flag indicating whether inter-character spacing is automatically adjusted between regions of numbers and regions of East Asian text in the current paragraph.|

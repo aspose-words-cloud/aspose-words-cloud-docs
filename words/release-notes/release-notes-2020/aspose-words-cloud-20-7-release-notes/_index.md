@@ -23,7 +23,7 @@ The page contains release notes for Aspose.Words Cloud 20.7 – [API Reference]
 
 ## All changes
 
-|**ID**|**Summary**|**Category**|
+|ID|Summary|Category|
 | :- | :- | :- |
 |WORDSCLOUD-785|Add "Markdown" save format|Feature|
 |WORDSCLOUD-852|Problem with ordered/unordered lists inside table|Bug|

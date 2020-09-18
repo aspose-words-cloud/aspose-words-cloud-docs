@@ -8,7 +8,7 @@ weight: 20
 
 The REST API allows you to get a comment from a Word Document. The API returns a JSON/XML representation of the comment. The resource properties are given below:
 
-|**Property Name**|**Type**|**Description**|
+|Property Name|Type|Description|
 | :- | :- | :- |
 |RangeStart|link|Link to comment range start.|
 |RangeEnd|link|Link to comment range end.|

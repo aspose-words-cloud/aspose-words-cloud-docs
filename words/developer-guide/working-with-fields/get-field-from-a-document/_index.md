@@ -27,7 +27,7 @@ This REST API allows you to get a field from a document, section or paragraph.
 
 The resource properties are:
 
-|**Property Name**|**Type**|**Description**|
+|Property Name|Type|Description|
 | :- | :- | :- |
 |FieldCode|string|Returns field code.|
 |LocaleId|int|Specifies LCID of the field.|

@@ -13,7 +13,7 @@ The page contains release notes for Aspose.Words for Cloud update 16.10.0 – [A
 {{% /alert %}} 
 ## Full List of Issues Covering all Changes in this Release
 
-|**Key** |**Summary** |**Category** |
+|Key |Summary |Category |
 | :- | :- | :- |
 |WORDSCLOUD-13 |compareDocument Resource does not mimic MS Word behavior |Bug |
 |WORDSCLOUD-134 |Add HtmlSaveOption "ExportTextBoxAsSvg" |Enhancement |

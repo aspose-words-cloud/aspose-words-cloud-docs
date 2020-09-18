@@ -25,7 +25,7 @@ This REST API allows you to add a footnote to a document.
 
 The resource properties are:
 
-|**Property Name**|**Type**|**Description**|
+|Property Name|Type|Description|
 | :- | :- | :- |
 |FootnoteType|FootnoteType|Returns a value that specifies whether this is a footnote or endnote.|
 |ReferenceMark|string|Specifies custom reference mark to be used for this footnote. The default value is System.String.Empty, meaning auto-numbered footnotes are used.|

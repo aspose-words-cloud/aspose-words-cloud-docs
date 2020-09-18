@@ -8,7 +8,7 @@ weight: 10
 
 This REST API allows you to create a new Word Document. The document is created with a format that is recognized from file extensions. The supported formats are:
 
-|**Format**|**Extension**|**Description**|
+|Format|Extension|Description|
 | :- | :- | :- |
 |Doc|".doc"|Microsoft Word 97 - 2007 Document format|
 |Docx|".docx"|Office Open XML WordprocessingML Document (macro-free)|
@@ -24,7 +24,7 @@ This REST API allows you to create a new Word Document. The document is created 
 |Rtf|".rtf"|RTF format. All characters above 7-bits are escaped as hexadecimal or Unicode characters|
 and the request parameters are the following:
 
-|**Parameter Name**|**Query String/HTTPBody**|**Description**|
+|Parameter Name|Query String/HTTPBody|Description|
 | :- | :- | :- |
 |fileName|Query String: fileName=documentName.docx|The file name.|
 ## Resource URI

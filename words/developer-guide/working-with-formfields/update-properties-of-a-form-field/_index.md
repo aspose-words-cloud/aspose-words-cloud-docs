@@ -8,7 +8,7 @@ weight: 40
 
 This REST API allows you to update properties of a form field, returns updated form field data in XML/JSON format. The resource properties are:
 
-|**Property Name**|**Type**|**Description**|
+|Property Name|Type|Description|
 | :- | :- | :- |
 |Name|string|Specifies the form field name.|
 |Enabled|bool|True if a form field is enabled.|
@@ -21,7 +21,7 @@ This REST API allows you to update properties of a form field, returns updated f
 |ExitMacro|string|Specifies an exit macro name for the form field.|
 **Text input properties**
 
-|**Property Name**|**Type**|**Description**|
+|Property Name|Type|Description|
 | :- | :- | :- |
 |TextInputFormat|string|Specifies the text formatting for a text form field.|
 |TextInputType|TextFormFieldType|Specifies the type of a text form field.|
@@ -29,20 +29,20 @@ This REST API allows you to update properties of a form field, returns updated f
 |MaxLength|int|The maximum length for the text field. Zero when the length is not limited.|
 **Checkbox properties**
 
-|**Property Name**|**Type**|**Description**|
+|Property Name|Type|Description|
 | :- | :- | :- |
 |IsCheckBoxExactSize|bool|Specifies the boolean value that indicates whether the size of the textbox is automatic or specified explicitly.|
 |CheckBoxSize|double|Specifies the size of the checkbox in points. Has effect only when "IsCheckBoxExactSize" is true.|
 |Checked|bool|Specifies the checked status of the checkbox form field.|
 **DropDown properties**
 
-|**Property Name**|**Type**|**Description**|
+|Property Name|Type|Description|
 | :- | :- | :- |
 |DropDownSelectedIndex|int|Specifies the index specifying the currently selected item in a dropdown form field.|
 |DropDownItems|string[]|Provides access to the items of a dropdown form field.|
 The **Request Parameters** are:
 
-|**Parameter Name**|**Type**|**Query String/HTTPBody**|**Description**|
+|Parameter Name|Type|Query String/HTTPBody|Description|
 | :- | :- | :- | :- |
 |insertBeforeNode|string|Query String: insertBeforeNode="nodeId"|Form field will be inserted before node with id="nodeId".|
 ## Resource URI

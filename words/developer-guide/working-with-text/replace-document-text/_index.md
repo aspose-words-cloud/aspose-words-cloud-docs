@@ -10,7 +10,7 @@ This REST API allows you to replace text in a document. The API replaces all occ
 
 The request parameters are the following:
 
-|**Parameter Name**|**Type**|**Description**|
+|Parameter Name|Type|Description|
 | :- | :- | :- |
 |OldValue|string|Old text value (or regex pattern (see "IsOldValueRegex")) to replace.|
 |NewValue|string|New text value to replace by.|
@@ -19,7 +19,7 @@ The request parameters are the following:
 |IsOldValueRegex|bool|The flag means that "OldValue" contains regex expression.|
 Moreover, resource properties are the following:
 
-|**Property Name**|**Type**|**Description**|
+|Property Name|Type|Description|
 | :- | :- | :- |
 |Matches|integer|Returns the number of matches.|
 ## Resource URI

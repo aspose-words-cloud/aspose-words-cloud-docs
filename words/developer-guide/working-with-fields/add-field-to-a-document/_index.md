@@ -8,7 +8,7 @@ weight: 50
 
 This REST API allows you to add a field to a document, section or paragraph. The API returns added field data in XML/JSON format. The request parameters are:
 
-|**Parameter Name**|**Type**|**Query String/HTTPBody**|**Description**|
+|Parameter Name|Type|Query String/HTTPBody|Description|
 | :- | :- | :- | :- |
 |insertBeforeNode|string|Query String: insertBeforeNode="nodeId"|The field will be inserted before a node with id="nodeId".|
 ## Resource URI
@@ -31,7 +31,7 @@ This REST API allows you to add a field to a document, section or paragraph. The
 
 The resource properties are:
 
-|**Property Name**|**Type**|**Description**|
+|Property Name|Type|Description|
 | :- | :- | :- |
 |FieldCode|string|Returns field code.|
 |LocaleId|int|Specifies LCID of the field.|

@@ -15,7 +15,7 @@ This page contains release notes for [Aspose.Words for Cloud 1.21.0](http://www.
 - Aspose.Words library was updated to version 15.12
 ## All Changes
 
-|**Key** |**Summary** |**Category** |
+|Key |Summary |Category |
 | :- | :- | :- |
 |WORDSCLOUD-6 |Out of memory error occurs for a DOCX during split document. |Bug |
 |WORDSCLOUD-11 |Out of memory occurs during rendering to PDF. |Bug |

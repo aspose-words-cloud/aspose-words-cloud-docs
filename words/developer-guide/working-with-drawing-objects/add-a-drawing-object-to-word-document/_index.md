@@ -8,7 +8,7 @@ weight: 30
 
 This REST API allows you to add a drawing object to the Word document. The request is an HTTP request with multipart content (see [RFC 2046](http://tools.ietf.org/html/rfc2046#page-17) or [RFC 1341](http://www.w3.org/Protocols/rfc1341/7_2_Multipart.html)). The first part of the multipart content contains the drawing object data and the second contains a binary image. Moreover, the detail of resource properties are given below:
 
-|**Parameter Name**|**Type**|**Description**|
+|Parameter Name|Type|Description|
 | :- | :- | :- |
 |RelativeHorizontalPosition|Aspose.Words.Drawing.ShapeBase.RelativeHorizontalPosition|Specifies where the distance to the image is measured.|
 |RelativeVerticalPosition|Aspose.Words.Drawing.ShapeBase.RelativeVerticalPosition|Specifies where the distance to the image is measured.|

@@ -10,14 +10,14 @@ weight: 20
 
 In this article, you will learn how to populate a mail merge or mustache template with data online in various languages. You can download the SDK of your favorite language and start programming in the smartest way. The SDKs are available in Java, .NET, PHP, Ruby, Python, NodeJS, Swift, Android and Go languages. You can send both template file and mail merge data file in the request body and the API returns populated document in API response. [This API](https://apireference.aspose.cloud/words/#/MailMerge/ExecuteMailMergeOnline) represents a controller for executing a mail merge. Description of some important parameters of the API is given below:
 
-|**Parameter Name**|**Description**|
+|Parameter Name|Description|
 | :- | :- |
 |withRegions|<p>Merge with regions or not. False by default.</p><p>Flag 'withRegions' can be omitted, in this case, a simple mail merge will be executed. If the flag is present and value is 'true' - mail merge with regions will be executed.</p>|
 |cleanup|If the cleanup parameter is omitted, cleanup options will be None.|
 |useWholeParagraphAsRegion|Specifies a value indicating whether a paragraph with TableStart or TableEnd field should be fully included in the mail merge region or particular range between TableStart and TableEnd fields. The default value is true.|
 The cleanup options parameter can contain a list of values from below, separated by ",":
 
-|**Value**|**Description**|
+|Value|Description|
 | :- | :- |
 |None|Without any cleanup.|
 |EmptyParagraphs|Specifies whether paragraphs that contained mail merge fields with no data should be removed from the document.|

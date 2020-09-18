@@ -13,7 +13,7 @@ The page contains release notes for Aspose.Words for Cloud update 1.25.0 – [AP
 {{% /alert %}} 
 ## Full List of Issues Covering all Changes in this Release
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSCLOUD-76 |HTML MergeField output is inappropriate |Bug |
 |WORDSCLOUD-73 |Eight pages missing when splitting Doc to PNGs |Bug |

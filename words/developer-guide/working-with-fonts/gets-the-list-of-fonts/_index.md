@@ -14,12 +14,12 @@ This REST API allows you to get the list of fonts, available for document proces
 
 The API request parameters are:
 
-|**Parameter Name**|**HTTP Method(s)**|**Type**|**Query String/HTTPBody**|**Description**|
+|Parameter Name|HTTP Method(s)|Type|Query String/HTTPBody|Description|
 | :- | :- | :- | :- | :- |
 |fontsLocation|GET|string|Query String: fontsLocation=CustomFonts|A folder in file storage with custom fonts.|
 and **FontInfo** properties are:
 
-|**Name**|**Description)**|
+|Name|Description)|
 | :- | :- |
 |FontFamilyName|The family name of the font.|
 |FullFontName|Full name of the font.|

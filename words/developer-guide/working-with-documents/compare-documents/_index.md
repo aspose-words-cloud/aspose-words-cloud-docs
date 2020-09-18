@@ -18,7 +18,7 @@ The REST API compares the input document with another document producing changes
 
 The description of the important parameters of the API is given below:
 
-|**Name**|**Type**|**Description**|
+|Name|Type|Description|
 | :- | :- | :- |
 |ComparingWithDocument|string|Path to document to compare at the server.|
 |Author|string|Initials of the author to use for revisions.|

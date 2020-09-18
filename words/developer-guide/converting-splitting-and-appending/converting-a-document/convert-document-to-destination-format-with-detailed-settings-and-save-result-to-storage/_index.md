@@ -10,7 +10,7 @@ weight: 20
 
 [PUT /words/{name}/saveAs](https://apireference.aspose.cloud/words/#/Convert/SaveAs) API lets you convert *Microsoft Word document* to another format with details settings. The list of supported formats are:
 
-|**format Parameter Value**|**Request Types**|
+|format Parameter Value|Request Types|
 | :- | :- |
 |bmp|BmpSaveOptions|
 |doc|DocSaveOptions|
@@ -48,7 +48,7 @@ weight: 20
 |xps|XpsSaveOptions|
 The important parameters of this API are:
 
-|**Parameter Name**|**Description**|**Default Value**|
+|Parameter Name|Description|Default Value|
 | :- | :- | :- |
 |SaveFormat|Format of the output file.| |
 |FileName|Name of the destination file.| |

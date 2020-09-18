@@ -15,7 +15,7 @@ This page contains release notes for [Aspose.Words for Cloud 1.22.0](http://www.
 - Aspose.Words library was updated to version 16.1
 ## All Changes
 
-|**Key** |**Summary** |**Category** |
+|Key |Summary |Category |
 | :- | :- | :- |
 |WORDSCLOUD-1 |RemoveTitleRow doesn't remove title row of the tables. |Bug |
 |WORDSCLOUD-2 |statistics: stack empty error occurs for a DOC. |Bug |

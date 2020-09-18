@@ -8,7 +8,7 @@ weight: 30
 
 This REST API allows you to add a table to a document, and returns added table's data in XML/JSON format. The important API parameters are:
 
-|**Parameter Name**|**Type**|**Description**|
+|Parameter Name|Type|Description|
 | :- | :- | :- |
 |ColumnsCount|int|Count of columns. The default is 2.|
 |RowsCount|int|Count of rows. The default is 2.|

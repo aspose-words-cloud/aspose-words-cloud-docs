@@ -25,7 +25,7 @@ This REST API allows you to get all fields that are defined in the document, s
 
 The resource properties are:
 
-|**Property Name**|**Type**|**Description**|
+|Property Name|Type|Description|
 | :- | :- | :- |
 |FieldCode|string|Returns field code.|
 |LocaleId|int|Gets or sets LCID of the field.|

@@ -13,7 +13,7 @@ The page contains release notes for Aspose.Words for Cloud update 17.6 – [API 
 {{% /alert %}} 
 ## Full List of issues covering all changes in this release
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSCLOUD-188|Meaningless error if folder does not exist|Bug|
 |WORDSCLOUD-192 |<p>Improved API Error Messages.</p><p>Error messages for the following API calls have been made more readable</p><p>- Storage does not exist error.</p><p>- File or folder do not exist.</p><p>- Index out of bounds error</p><p>- Required parameters are not specified (e.g. in request body)</p>|Feature|

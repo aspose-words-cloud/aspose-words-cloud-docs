@@ -15,7 +15,7 @@ weight: 70
 1. Reduced the number of processing steps for PDF images (should improve processing time for some PDFs).
 ## All changes
 
-|**Summary**|**Category**|
+|Summary|Category|
 | :- | :- |
 |Move property "**ColorMode**" from SaveOptionsData to FixedPageSaveOptionsData|Enhancement|
 |Replace MemoryStream and byte[] with SixLabors.ImageSharp.IImage in image processing|Enhancement|

@@ -8,7 +8,7 @@ weight: 20
 
 This REST API allows you to insert a watermark image into a document. This is a high-level operation that allows inserting an image into headers/footers in a document. The image will appear as a watermark throughout the document. The most important request parameters are the following:
 
-|**Parameter Name**|**Type**|**Query String/HTTP Body**|**Description**|
+|Parameter Name|Type|Query String/HTTP Body|Description|
 | :- | :- | :- | :- |
 |image|string|Query string: imageFile=ImagesFolder/watermark.jpg|The image file server full name. If the name is empty the image is expected in request content.|
 |rotationAngle|double|Query string: rotationAngle = -42.5|The watermark rotation angle.|

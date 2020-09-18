@@ -14,7 +14,7 @@ Aspose.Words Cloud has provided the simplest API to split a Word document within
 ## Resource URI
 [Swagger UI](https://apireference.aspose.cloud/words/#/Split/SplitDocument) lets you call this REST API directly from the browser. The description of the important parameters of the API is given below:
 
-|**Parameter Name**|**Type**|**Description**|
+|Parameter Name|Type|Description|
 | :- | :- | :- |
 |format|string|If the format is specified, the response contains the conversion data. Please see the table below for valid formats.|
 |from|int|The start page number for splitting, if it is not specified, splitting starts from the first page of the document.|
@@ -22,7 +22,7 @@ Aspose.Words Cloud has provided the simplest API to split a Word document within
 |zipOutput|bool|ZipOutput or not.|
 The **valid formats** are:
 
-|**format Parameter Value**|**Format of the returned Page**|
+|format Parameter Value|Format of the returned Page|
 | :- | :- |
 |bmp|Bitmap Picture|
 |doc|...|

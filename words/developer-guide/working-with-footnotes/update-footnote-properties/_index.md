@@ -27,7 +27,7 @@ This REST API allows you to update footnote properties. The API returns updated 
 
 The resource properties are:
 
-|**Property Name**|**Type**|**Description**|
+|Property Name|Type|Description|
 | :- | :- | :- |
 |FootnoteType|FootnoteType|Returns a value that specifies whether this is a footnote or endnote.|
 |ReferenceMark|string|Gets/sets custom reference mark to be used for this footnote. Default value is System.String.Empty, meaning auto-numbered footnotes are used.|

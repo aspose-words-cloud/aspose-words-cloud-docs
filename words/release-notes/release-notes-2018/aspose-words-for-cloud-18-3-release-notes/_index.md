@@ -23,7 +23,7 @@ All currently [supported cloud SDKs](https://github.com/aspose-words-cloud) (.NE
 #### Dropping support of deprecated PDF save option properties
 Some PDF save options that have been deprecated in Aspose.Words .NET are now not available in Aspose.Words Cloud REST API as well. Full list of properties is as follows:
 
-|**Removed property**|**Property to use instead**|
+|Removed property|Property to use instead|
 | :- | :- |
 |PdfSaveOptions.HeadingsOutlineLevels|PdfSaveOptions.OutlineOptions.HeadingsOutlineLevels|
 |PdfSaveOptions.ExpandedOutlineLevels|PdfSaveOptions.OutlineOptions.ExpandedOutlineLevels|

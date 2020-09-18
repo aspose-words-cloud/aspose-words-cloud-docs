@@ -10,7 +10,7 @@ Aspose.Words Cloud provides helper functions to work with files uploaded to Asp
 ### Download a file from Cloud Storage
 #### API Information
 
-|**API**|**Type**|**Description**|**Swagger Link**|
+|API|Type|Description|Swagger Link|
 | :- | :- | :- | :- |
 |/words/storage/file/{path}|GET|Download a File from Storage|[DownloadFile](https://apireference.aspose.cloud/words/#/File/DownloadFile)|
 #### cURL Example
@@ -40,7 +40,7 @@ curl  -v -X GET "https://api.aspose.cloud/v4.0/words/storage/file/sample.docx" -
 ### Uploading a file from Cloud Storage
 #### API Information
 
-|**API**|**Type**|**Description**|**Swagger Link**|
+|API|Type|Description|Swagger Link|
 | :- | :- | :- | :- |
 |/words/storage/file/{path}|PUT|Upload a file to Cloud Storage|[UploadFile](https://apireference.aspose.cloud/words/#/File/UploadFile)|
 #### cURL Example
@@ -90,7 +90,7 @@ curl  -v -X PUT "https://api.aspose.cloud/v4.0/words/storage/file/sample.docx" -
 ### Copying a file to a new location on Cloud Storage
 #### API Information
 
-|**API**|**Type**|**Description**|**Swagger Link**|
+|API|Type|Description|Swagger Link|
 | :- | :- | :- | :- |
 |/words/storage/file/copy/{srcPath}|PUT|Duplicate a file to a new location on Cloud Storage|[CopyFile](https://apireference.aspose.cloud/words/#/File/CopyFile)|
 #### cURL Example
@@ -118,7 +118,7 @@ curl -v -X PUT "https://api.aspose.cloud/v4.0/words/storage/file/copy/sample.doc
 ### Moving a file to a new location on Cloud Storage
 #### API Information
 
-|**API**|**Type**|**Description**|**Swagger Link**|
+|API|Type|Description|Swagger Link|
 | :- | :- | :- | :- |
 |/words/storage/file/MOVE/{srcPath}|PUT|Move a file to a new location on Cloud Storage|[MoveFile](https://apireference.aspose.cloud/words/#/File/MoveFile)|
 #### cURL Example
@@ -146,7 +146,7 @@ curl -v -X PUT "https://api.aspose.cloud/v4.0/words/storage/file/move/input.docx
 ### Deleting a file on Cloud Storage
 #### API Information
 
-|**API**|**Type**|**Description**|**Swagger Link**|
+|API|Type|Description|Swagger Link|
 | :- | :- | :- | :- |
 |/words/storage/file/{path}|DELETE|Delete a file from Cloud Storage|[DeleteFile](https://apireference.aspose.cloud/words/#/File/DeleteFile)|
 #### cURL Example

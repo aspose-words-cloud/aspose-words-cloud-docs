@@ -8,7 +8,7 @@ weight: 100
 
 This REST API allows you to get one of the runs contained in the paragraph. The resource properties are the following:
 
-|**Property Name**|**Type**|**Description**|
+|Property Name|Type|Description|
 | :- | :- | :- |
 |Text|string|Returns run text|
 ## Resource URI

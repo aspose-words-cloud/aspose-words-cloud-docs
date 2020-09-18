@@ -27,7 +27,7 @@ This REST API allows you to delete a field from a document, section or paragraph
 
 The resource properties are:
 
-|**Property Name**|**Type**|**Description**|
+|Property Name|Type|Description|
 | :- | :- | :- |
 |FieldCode|string|Returns field code.|
 |LocaleId|int|Gets or sets LCID of the field.|

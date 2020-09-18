@@ -30,7 +30,7 @@ The page contains release notes for Aspose.Words Cloud 20.8 – [API Reference]
 
 ## All changes
 
-|**ID**|**Summary**|**Category**|
+|ID|Summary|Category|
 | :- | :- | :- |
 |WORDSCLOUD-1206|UpdateField API unable to find TOC field and update|Bug|
 |WORDSCLOUD-1230|Convert ODT to TXT with SaveAs API throws Index was outside the bounds of the array error|Bug|

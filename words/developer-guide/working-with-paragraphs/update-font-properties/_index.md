@@ -8,7 +8,7 @@ weight: 140
 
 This REST API allows you to update font properties. The API returns updated font data in XML/JSON format. The resource properties are the following:
 
-|**Property Name**|**Type**|**Description**|
+|Property Name|Type|Description|
 | :- | :- | :- |
 |AllCaps|bool|True if the font is formatted as all capital letters.|
 |Bidi|bool|Specifies whether the contents of this run shall have right-to-left characteristics.|

@@ -8,7 +8,7 @@ weight: 20
 
 This REST API allows you to read a particular document property info by the property name. The details of resource properties are given below:
 
-|**Property Name**|**Description**|
+|Property Name|Description|
 | :- | :- |
 |Name|The name of the property.  <br>Two properties cannot have the same name; attempts to create one would return a 400 BadRequest.  <br>BuiltIn property names cannot be changed; attempts to create one would return a 400 BadRequest|
 |Value|The value of the property.|

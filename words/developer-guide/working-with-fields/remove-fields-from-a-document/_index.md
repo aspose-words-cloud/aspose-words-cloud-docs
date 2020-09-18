@@ -25,7 +25,7 @@ This REST API allows you to remove all fields from a document, section or paragr
 
 The resource properties are:
 
-|**Property Name**|**Type**|**Description**|
+|Property Name|Type|Description|
 | :- | :- | :- |
 |FieldCode|string|Returns field code.|
 |LocaleId|int|Gets or sets LCID of the field.|

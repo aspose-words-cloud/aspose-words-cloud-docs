@@ -13,7 +13,7 @@ The page contains release notes for Aspose.Words for Cloud update 1.26.0 – [AP
 {{% /alert %}} 
 ## Full List of Issues Covering all Changes in this Release
 
-|**Key** |**Summary** |**Category** |
+|Key |Summary |Category |
 | :- | :- | :- |
 |WORDSCLOUD-48 |Incorrect document url for documents in folders |Bug |
 |WORDSCLOUD-69 |A Page's content is splitting into two pages during rendering |Bug |

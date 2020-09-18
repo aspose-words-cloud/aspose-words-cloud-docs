@@ -8,7 +8,7 @@ weight: 100
 
 This REST API allows you to get a table row format properties. The description of important row properties is:
 
-|**Property Name**|**Type**|**Description**|
+|Property Name|Type|Description|
 | :- | :- | :- |
 |Height|double|Specifies the height of the table row in points.|
 |HeightRule|HeightRule|Specifies the rule for determining the height of the table row.|

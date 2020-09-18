@@ -8,7 +8,7 @@ weight: 70
 
 This REST API allows you to get statistical data on the document. The request parameters are the following:
 
-|**Parameter Name**|**Type**|**Query String/HTTPBody**|**Description**|
+|Parameter Name|Type|Query String/HTTPBody|Description|
 | :- | :- | :- | :- |
 |includeComments|bool|Query String: includeComments=true|Support including/excluding comments from the WordCount. The default value is "false".|
 |includeFootnotes|bool|Query String: includeFootnotes=true|Support including/excluding footnotes from the WordCount. The default value is "false".|

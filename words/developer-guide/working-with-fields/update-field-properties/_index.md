@@ -27,7 +27,7 @@ This REST API allows you to update field properties. The API returns updated fie
 
 The resource properties are:
 
-|**Property Name**|**Type**|**Description**|
+|Property Name|Type|Description|
 | :- | :- | :- |
 |FieldCode|string|Returns field code.|
 |LocaleId|int|Specifies LCID of the field.|

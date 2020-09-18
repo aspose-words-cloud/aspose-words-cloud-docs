@@ -13,7 +13,7 @@ The page contains release notes for Aspose.Words for Cloud update 18.1 – [API 
 {{% /alert %}} 
 ## Full List of Issues Covering all Changes in this Release
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSAI-160|PDF to DOCX conversion: Each character of the Word Document has its own line|Bug|
 

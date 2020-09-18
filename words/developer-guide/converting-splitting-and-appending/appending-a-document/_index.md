@@ -12,7 +12,7 @@ Appending documents is a very common task and is fully supported in Aspose.Words
 
 The description of the important API parameters is given below:
 
-|**Name**|**Type**|**Description**|
+|Name|Type|Description|
 | :- | :- | :- |
 |Href|string|Path of the document to append.|
 |ImportFormatMode|string|Defines which formatting will be used: appended or destination document. Possible values are **KeepSourceFormatting** or **UseDestinationStyles**. |

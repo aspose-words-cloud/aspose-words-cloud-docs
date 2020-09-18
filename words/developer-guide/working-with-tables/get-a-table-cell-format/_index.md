@@ -8,7 +8,7 @@ weight: 150
 
 This REST API allows you to access the formatting properties of a table cell. The description of important cell properties is:
 
-|**Property Name**|**Type**|**Description**|
+|Property Name|Type|Description|
 | :- | :- | :- |
 |BottomPadding|double|Specifies the amount of space (in points) to add below the contents of the cell.|
 |FitText|bool|If true, fits text in the cell, compressing each paragraph to the width of the cell.|

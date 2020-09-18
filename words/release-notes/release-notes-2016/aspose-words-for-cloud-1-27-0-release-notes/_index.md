@@ -13,7 +13,7 @@ The page contains release notes for Aspose.Words for Cloud update 1.27.0 – [AP
 {{% /alert %}} 
 ## Full List of Issues Covering all Changes in this Release
 
-|**Key** |**Summary** |**Category** |
+|Key |Summary |Category |
 | :- | :- | :- |
 |WORDSCLOUD-78 |Mixed Numbers, English and non-English content is incorectly encoded |Bug |
 |WORDSCLOUD-84 |HTML MergeField output is inappropriate |Bug |

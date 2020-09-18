@@ -8,7 +8,7 @@ weight: 60
 
 This REST API allows you to update table properties and returns updated data in XML/JSON format. The description of the important table properties is given below:
 
-|**Property Name**|**Type**|**Description**|
+|Property Name|Type|Description|
 | :- | :- | :- |
 |Alignment|TableAlignment|Specifies how an inline table is aligned in the document.|
 |AllowAutoFit|bool|Allows Microsoft Word and Aspose.Words to automatically resize cells in a table to fit their contents.|

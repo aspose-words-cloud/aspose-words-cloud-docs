@@ -30,7 +30,7 @@ Based on Adobe's [deprecation of Flash](https://theblog.adobe.com/adobe-flash-u
 #### Dropping support of deprecated save option properties
 Some save options that have been deprecated in Aspose.Words .NET are now not available in Aspose.Words Cloud REST API as well. Full list of properties is as follows:
 
-|**Removed Property**|**Property to use instead**|
+|Removed Property|Property to use instead|
 | :- | :- |
 |HtmlSaveOptions.AllowNegativeLeftIndent|HtmlSaveOptions.AllowNegativeIndent|
 |HtmlSaveOptions.ExportHeadersFooters|HtmlSaveOptions.ExportHeadersFootersMode|

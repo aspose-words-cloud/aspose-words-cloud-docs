@@ -13,7 +13,7 @@ The page contains release notes for Aspose.Words for Cloud update 16.11.0 – [A
 {{% /alert %}} 
 ## Full List of Issues Covering all Changes in this Release
 
-|**Key** |**Summary** |**Category** |
+|Key |Summary |Category |
 | :- | :- | :- |
 |WORDSCLOUD-142 |Add HtmlSaveOption "HtmlVersion" |Enhancement |
 |WORDSCLOUD-143 |Add FixedPageSaveOption "OptimizeOutput" |Enhancement |

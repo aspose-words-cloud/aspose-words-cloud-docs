@@ -10,7 +10,7 @@ weight: 20
 
 This REST API allows you to reject all revisions in a document. The request parameters are the following:
 
-|**Parameter Name**|**Type**|**Query String/HTTP Body**|**Description**|
+|Parameter Name|Type|Query String/HTTP Body|Description|
 | :- | :- | :- | :- |
 |destFileName|string|Query string: destFileName=AfterAcceptAll.doc|Result path of the document after the operation. If this parameter is omitted then the result of the operation will be saved as the source document.|
 |folder|string|Query string: folder=MyFolder|Original document folder.|

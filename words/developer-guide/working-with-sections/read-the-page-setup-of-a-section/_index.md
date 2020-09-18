@@ -10,7 +10,7 @@ weight: 30
 
 This REST API allows you to read the page setup of a section. The API returns JSON/XML representation of the section page setup. The resource properties are the following:
 
-|**Property Name**|**Type**|**Description**|
+|Property Name|Type|Description|
 | :- | :- | :- |
 |Bidi|bool|Specifies that this section contains bidirectional (complex scripts) text.|
 |BorderAlwaysInFront|bool|Specifies where the page border is positioned relative to intersecting texts and objects.|
