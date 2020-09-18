@@ -6,7 +6,7 @@ aliases: [/add-header-or-footer-to-a-document/]
 weight: 30
 ---
 
-# **Introduction**
+## **Introduction**
 This REST API allows you to add Header or Footer to a document. The API returns the added object's data in XML/JSON format. 
 
 The request body should contain a type of header/footer, and the allowed values of headerFooterType are:
@@ -118,7 +118,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/HeadersFooters.doc/headersfooters" 
 {{< /tab >}}
 
 {{< /tabs >}}
-# **SDKs**
+## **SDKs**
 Using an SDK (API client) is the quickest way for a developer to speed up the development. An SDK takes care of a lot of low-level details of making requests and handling responses and lets you focus on writing code specific to your particular project. Check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs along with working examples, to get you started in no time. Please check [Available SDKs](/available-sdks/) article to learn how to add an SDK to your project.
 ## **SDK Examples**
 {{< tabs tabTotal="9" tabID="4" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Python" tabName5="Ruby" tabName6="Node.js" tabName7="Android" tabName8="Swift" tabName9="Go" >}}

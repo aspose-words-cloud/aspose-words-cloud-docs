@@ -10,7 +10,7 @@ weight: 20
 
 
 
-# **Introduction**
+## **Introduction**
 In this article, you will learn how to populate a mail merge or mustache template with data online in various languages. You can download the SDK of your favorite language and start programming in the smartest way. The SDKs are available in Java, .NET, PHP, Ruby, Python, NodeJS, Swift, Android and Go languages. You can send both template file and mail merge data file in the request body and the API returns populated document in API response. [This API](https://apireference.aspose.cloud/words/#/MailMerge/ExecuteMailMergeOnline) represents a controller for executing a mail merge. Description of some important parameters of the API is given below:
 
 |**Parameter Name**|**Description**|
@@ -134,7 +134,7 @@ Output Document: TestPostExecuteTemplate.docx
 {{< /tab >}}
 
 {{< /tabs >}}
-# **SDKs**
+## **SDKs**
 Using an SDK (API client) is the quickest way for a developer to speed up the development. An SDK takes care of a lot of low-level details of making requests and handling responses and lets you focus on writing code specific to your particular project. Check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words SDKs along with working examples, to get you started in no time. Please check [Available SDKs](/available-sdks/) article to learn how to add an SDK to your project.
 ## **SDK Examples**
 {{< tabs tabTotal="9" tabID="7" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Python" tabName5="Ruby" tabName6="Node.js" tabName7="Android" tabName8="Swift" tabName9="Go" >}}

@@ -8,7 +8,7 @@ description: "Our conversion APIs let you convert PDF to Word document. The API
 weight: 40
 ---
 
-# **Introduction**
+## **Introduction**
 Our conversion APIs let you *convert PDF to Word* document. The APIs even supports encrypted PDF file to Word document conversion. The converter turns a document into a "flow" format - merges multiple paragraphs into one section, converts tables and lists into native Word tables and lists, etc. so that document can then be naturally edited in Word editing application (such as Microsoft Word).
 
 {{% alert color="primary" %}} 
@@ -130,7 +130,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/2019_new_demo.pdf/saveAs" \
 {{< /tab >}}
 
 {{< /tabs >}}
-# **SDKs**
+## **SDKs**
 Using an SDK (API client) is the quickest way for a developer to speed up the development. An SDK takes care of a lot of low-level details of making requests and handling responses and lets you focus on writing code specific to your particular project. Check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words SDKs along with working examples, to get you started in no time. Please check [Available SDKs](/available-sdks/) article to learn how to add an SDK to your project.
 ## **SDK Examples**
 {{< tabs tabTotal="9" tabID="4" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Python" tabName5="Ruby" tabName6="Node.js" tabName7="Android" tabName8="Swift" tabName9="Go" >}}

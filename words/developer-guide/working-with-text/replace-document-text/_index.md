@@ -6,7 +6,7 @@ aliases: [/replace-document-text/]
 weight: 20
 ---
 
-# **Introduction**
+## **Introduction**
 This REST API allows you to replace text in a document. The API replaces all occurrences of a specified string with another string. If a captured or replacement string contains one or more special characters: paragraph break, cell break, section break, field start, field separator, field end, inline picture, drawing object, footnote, the API returns HTTP 400 error response.
 
 The request parameters are the following:
@@ -86,7 +86,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/replaceText" 
 {{< /tab >}}
 
 {{< /tabs >}}
-# **SDKs**
+## **SDKs**
 Using an SDK (API client) is the quickest way for a developer to speed up the development. An SDK takes care of a lot of low-level details of making requests and handling responses and lets you focus on writing code specific to your particular project. Check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs along with working examples, to get you started in no time. Please check [Available SDKs](/available-sdks/) article to learn how to add an SDK to your project.
 ## **SDK Examples**
 {{< tabs tabTotal="8" tabID="4" tabName1="C#" tabName2="Java" tabName3="Python" tabName4="Ruby" tabName5="Node.js" tabName6="Android" tabName7="Swift" tabName8="Go" >}}
