@@ -2,6 +2,7 @@
 title: "Get a Table Row Format"
 type: docs
 url: /get-a-table-row-format/
+aliases: [/get-a-table-row-format/]
 weight: 100
 ---
 

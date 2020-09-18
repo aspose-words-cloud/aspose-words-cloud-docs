@@ -2,6 +2,7 @@
 title: "Pricing Plan"
 type: docs
 url: /pricing-plan/
+aliases: [/pricing-plan/]
 weight: 70
 ---
 

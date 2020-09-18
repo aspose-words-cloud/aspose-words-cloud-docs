@@ -2,6 +2,7 @@
 title: "Update Properties of a Form Field"
 type: docs
 url: /update-properties-of-a-form-field/
+aliases: [/update-properties-of-a-form-field/]
 weight: 40
 ---
 

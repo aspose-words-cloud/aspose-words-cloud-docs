@@ -2,6 +2,7 @@
 title: "Delete Drawing Object From Document"
 type: docs
 url: /delete-drawing-object-from-document/
+aliases: [/delete-drawing-object-from-document/]
 weight: 50
 ---
 

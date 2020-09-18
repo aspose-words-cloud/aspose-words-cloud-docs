@@ -2,6 +2,7 @@
 title: "Get Hyperlink from a Document"
 type: docs
 url: /get-hyperlink-from-a-document/
+aliases: [/get-hyperlink-from-a-document/]
 weight: 10
 ---
 

@@ -2,6 +2,7 @@
 title: "Update Table Properties"
 type: docs
 url: /update-table-properties/
+aliases: [/update-table-properties/]
 weight: 60
 ---
 

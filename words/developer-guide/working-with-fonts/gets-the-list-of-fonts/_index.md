@@ -2,6 +2,7 @@
 title: "Gets the List of Fonts"
 type: docs
 url: /gets-the-list-of-fonts/
+aliases: [/gets-the-list-of-fonts/]
 weight: 10
 ---
 

@@ -2,6 +2,7 @@
 title: "Get Representation of a Form Field"
 type: docs
 url: /get-representation-of-a-form-field/
+aliases: [/get-representation-of-a-form-field/]
 weight: 20
 ---
 

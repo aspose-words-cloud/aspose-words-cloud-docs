@@ -2,6 +2,7 @@
 title: "Apply Style from Document Element"
 type: docs
 url: /apply-style-from-document-element/
+aliases: [/apply-style-from-document-element/]
 keywords: "List of Sections,get sections,section break word,Section Break, Word, Microsoft Word, Word Documents,Java, .NET, PHP, Ruby, Python, NodeJS, Swift, Android ,Go"
 description: "This REST API allows you to Apply Style from Document Element. Please note that the SDKs of this cloud API are available in Python, C#, Java, Ruby, PHP, Node.js, Android, Swift, and Go languages."
 weight: 60

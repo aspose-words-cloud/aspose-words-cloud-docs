@@ -2,6 +2,7 @@
 title: "Get all the Formatting for a Paragraph"
 type: docs
 url: /get-all-the-formatting-for-a-paragraph/
+aliases: [/get-all-the-formatting-for-a-paragraph/]
 weight: 50
 ---
 

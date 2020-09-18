@@ -2,6 +2,7 @@
 title: "Working with Fonts"
 type: docs
 url: /working-with-fonts/
+aliases: [/working-with-fonts/]
 weight: 110
 ---
 

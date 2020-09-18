@@ -2,6 +2,7 @@
 title: "Get a Table Cell Format"
 type: docs
 url: /get-a-table-cell-format/
+aliases: [/get-a-table-cell-format/]
 weight: 150
 ---
 

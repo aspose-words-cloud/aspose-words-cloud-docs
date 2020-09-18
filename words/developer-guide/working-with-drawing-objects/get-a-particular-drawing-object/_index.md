@@ -2,6 +2,7 @@
 title: "Get a Particular Drawing Object"
 type: docs
 url: /get-a-particular-drawing-object/
+aliases: [/get-a-particular-drawing-object/]
 weight: 20
 ---
 

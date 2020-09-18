@@ -2,6 +2,7 @@
 title: "Get Image Data from a Drawing Object"
 type: docs
 url: /get-image-data-from-a-drawing-object/
+aliases: [/get-image-data-from-a-drawing-object/]
 weight: 60
 ---
 

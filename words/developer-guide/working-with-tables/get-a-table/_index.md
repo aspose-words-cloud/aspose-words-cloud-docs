@@ -2,6 +2,7 @@
 title: "Get a Table"
 type: docs
 url: /get-a-table/
+aliases: [/get-a-table/]
 weight: 40
 ---
 

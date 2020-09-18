@@ -2,6 +2,7 @@
 title: "Get all Runs in the Paragraph"
 type: docs
 url: /get-all-runs-in-the-paragraph/
+aliases: [/get-all-runs-in-the-paragraph/]
 weight: 80
 ---
 

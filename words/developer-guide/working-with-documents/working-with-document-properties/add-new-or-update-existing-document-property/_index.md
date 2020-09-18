@@ -2,6 +2,7 @@
 title: "Add New or Update Existing Document Property"
 type: docs
 url: /add-new-or-update-existing-document-property/
+aliases: [/add-new-or-update-existing-document-property/]
 weight: 30
 ---
 

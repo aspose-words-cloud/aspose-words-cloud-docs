@@ -2,6 +2,7 @@
 title: "Add Comment to a Word Document"
 type: docs
 url: /add-comment-to-a-word-document/
+aliases: [/add-comment-to-a-word-document/]
 weight: 30
 ---
 

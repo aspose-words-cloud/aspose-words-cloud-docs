@@ -2,6 +2,7 @@
 title: "Get Paragraph List Format Without Node Path in a Document"
 type: docs
 url: /get-paragraph-list-format-without-node-path-in-a-document/
+aliases: [/get-paragraph-list-format-without-node-path-in-a-document/]
 keywords: "List of Sections,get sections,section break word,Section Break, Word, Microsoft Word, Word Documents,Java, .NET, PHP, Ruby, Python, NodeJS, Swift, Android ,Go"
 description: "This REST API allows you to Get Paragraph List Format Without Node Path in a Document. Please note that the SDKs of this cloud API are available in Python, C#, Java, Ruby, PHP, Node.js, Android, Swift, and Go languages."
 weight: 40

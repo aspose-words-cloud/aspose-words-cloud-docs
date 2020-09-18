@@ -2,6 +2,7 @@
 title: "Get a Header or Footer in a Document"
 type: docs
 url: /get-a-header-or-footer-in-a-document/
+aliases: [/get-a-header-or-footer-in-a-document/]
 weight: 20
 ---
 

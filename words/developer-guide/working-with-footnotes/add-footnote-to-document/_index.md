@@ -2,6 +2,7 @@
 title: "Add Footnote to Document"
 type: docs
 url: /add-footnote-to-document/
+aliases: [/add-footnote-to-document/]
 weight: 30
 ---
 

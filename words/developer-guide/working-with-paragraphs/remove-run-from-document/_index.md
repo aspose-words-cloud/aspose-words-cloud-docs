@@ -2,6 +2,7 @@
 title: "Remove Run from Document"
 type: docs
 url: /remove-run-from-document/
+aliases: [/remove-run-from-document/]
 weight: 120
 ---
 

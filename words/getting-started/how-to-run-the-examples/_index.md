@@ -2,6 +2,7 @@
 title: "How to Run the Examples"
 type: docs
 url: /how-to-run-the-examples/
+aliases: [/how-to-run-the-examples/]
 weight: 60
 ---
 

@@ -2,6 +2,7 @@
 title: "Working with Files and Storage using Aspose.Words Cloud"
 type: docs
 url: /working-with-files-and-storage-using-aspose-words-cloud/
+aliases: [/working-with-files-and-storage-using-aspose-words-cloud/]
 weight: 30
 ---
 

@@ -2,6 +2,7 @@
 title: "Add Table to a Document"
 type: docs
 url: /add-table-to-a-document/
+aliases: [/add-table-to-a-document/]
 weight: 30
 ---
 

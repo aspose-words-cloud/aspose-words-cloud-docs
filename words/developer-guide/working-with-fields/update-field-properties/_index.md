@@ -2,6 +2,7 @@
 title: "Update Field Properties"
 type: docs
 url: /update-field-properties/
+aliases: [/update-field-properties/]
 weight: 60
 ---
 

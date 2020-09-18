@@ -2,6 +2,7 @@
 title: "Quickstart"
 type: docs
 url: /quickstart/
+aliases: [/quickstart/]
 weight: 20
 ---
 

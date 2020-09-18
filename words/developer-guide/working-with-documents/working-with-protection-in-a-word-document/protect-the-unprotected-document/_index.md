@@ -2,6 +2,7 @@
 title: "Protect the unprotected Document"
 type: docs
 url: /protect-the-unprotected-document/
+aliases: [/protect-the-unprotected-document/]
 weight: 20
 ---
 

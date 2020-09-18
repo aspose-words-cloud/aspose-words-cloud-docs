@@ -2,6 +2,7 @@
 title: "Working with Range"
 type: docs
 url: /working-with-range/
+aliases: [/working-with-range/]
 weight: 210
 ---
 

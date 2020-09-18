@@ -2,6 +2,7 @@
 title: "Delete Comment From Word Document"
 type: docs
 url: /delete-comment-from-word-document/
+aliases: [/delete-comment-from-word-document/]
 weight: 50
 ---
 

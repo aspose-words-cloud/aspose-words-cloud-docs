@@ -2,6 +2,7 @@
 title: "Get Footnote from a Document"
 type: docs
 url: /get-footnote-from-a-document/
+aliases: [/get-footnote-from-a-document/]
 weight: 20
 ---
 

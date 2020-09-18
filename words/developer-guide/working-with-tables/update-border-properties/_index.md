@@ -2,6 +2,7 @@
 title: "Update Border Properties"
 type: docs
 url: /update-border-properties/
+aliases: [/update-border-properties/]
 weight: 190
 ---
 

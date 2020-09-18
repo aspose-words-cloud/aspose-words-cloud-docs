@@ -2,6 +2,7 @@
 title: "Get Comment from Word Document"
 type: docs
 url: /get-comment-from-word-document/
+aliases: [/get-comment-from-word-document/]
 weight: 20
 ---
 

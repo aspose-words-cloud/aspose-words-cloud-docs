@@ -2,6 +2,7 @@
 title: "Aspose Cloud eBook Generator"
 type: docs
 url: /aspose-cloud-ebook-generator/
+aliases: [/aspose-cloud-ebook-generator/]
 weight: 40
 ---
 

@@ -2,6 +2,7 @@
 title: "Get Document Statistics"
 type: docs
 url: /get-document-statistics/
+aliases: [/get-document-statistics/]
 weight: 70
 ---
 

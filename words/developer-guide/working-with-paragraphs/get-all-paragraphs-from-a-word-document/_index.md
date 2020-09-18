@@ -2,6 +2,7 @@
 title: "Get all Paragraphs from a Word Document"
 type: docs
 url: /get-all-paragraphs-from-a-word-document/
+aliases: [/get-all-paragraphs-from-a-word-document/]
 weight: 10
 ---
 

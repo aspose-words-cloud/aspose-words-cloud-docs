@@ -2,6 +2,7 @@
 title: "Add Run to Paragraph"
 type: docs
 url: /add-run-to-paragraph/
+aliases: [/add-run-to-paragraph/]
 weight: 90
 ---
 

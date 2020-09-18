@@ -2,6 +2,7 @@
 title: "Delete a Document Property"
 type: docs
 url: /delete-a-document-property/
+aliases: [/delete-a-document-property/]
 weight: 40
 ---
 

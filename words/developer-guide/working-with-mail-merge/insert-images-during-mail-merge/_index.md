@@ -2,6 +2,7 @@
 title: "Insert Images During Mail Merge"
 type: docs
 url: /insert-images-during-mail-merge/
+aliases: [/insert-images-during-mail-merge/]
 weight: 60
 ---
 

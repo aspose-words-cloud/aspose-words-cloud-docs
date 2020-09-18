@@ -2,6 +2,7 @@
 title: "Working with FormFields"
 type: docs
 url: /working-with-formfields/
+aliases: [/working-with-formfields/]
 weight: 180
 ---
 

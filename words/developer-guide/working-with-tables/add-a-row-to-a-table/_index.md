@@ -2,6 +2,7 @@
 title: "Add a Row To a Table"
 type: docs
 url: /add-a-row-to-a-table/
+aliases: [/add-a-row-to-a-table/]
 weight: 90
 ---
 

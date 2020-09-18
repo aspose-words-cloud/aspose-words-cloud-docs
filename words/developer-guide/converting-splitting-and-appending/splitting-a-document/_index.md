@@ -2,6 +2,7 @@
 title: "Splitting a Document"
 type: docs
 url: /splitting-a-document/
+aliases: [/splitting-a-document/]
 keywords: "Split word document, word to doc,save word file as pdf,convert word document to html,word doc to html,convert pdf to word,tiff file,Python, C#, Java, Ruby, PHP, NodeJS, Go, Android, Swift"
 description: "While working with your documents, you may come across scenarios where you want to split the large documents into smaller ones. You can split the documents into separate documents within the MS Word document or different file formats. Splitting one large document into smaller documents of different file formats is an important aspect of document manipulation tasks. It involves a series of steps that need to be performed for getting the desired results. Aspose.Words Cloud eliminates the need for such complicated tasks and makes it hassle-free for you. You can perform this operation in various languages. Currently we support Python, C#, Java, Ruby, PHP, NodeJS, Go, Android and Swift."
 weight: 30

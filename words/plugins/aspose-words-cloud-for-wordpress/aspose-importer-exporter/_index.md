@@ -2,6 +2,7 @@
 title: "Aspose Importer Exporter"
 type: docs
 url: /aspose-importer-exporter/
+aliases: [/aspose-importer-exporter/]
 weight: 30
 ---
 

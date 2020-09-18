@@ -2,6 +2,7 @@
 title: "Working With Reports"
 type: docs
 url: /working-with-reports/
+aliases: [/working-with-reports/]
 weight: 240
 ---
 

@@ -2,6 +2,7 @@
 title: "Update a Table Row Format"
 type: docs
 url: /update-a-table-row-format/
+aliases: [/update-a-table-row-format/]
 weight: 110
 ---
 

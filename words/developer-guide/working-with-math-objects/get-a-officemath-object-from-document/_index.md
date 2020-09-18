@@ -2,6 +2,7 @@
 title: "Get a OfficeMath Object from Document"
 type: docs
 url: /get-a-officemath-object-from-document/
+aliases: [/get-a-officemath-object-from-document/]
 weight: 20
 ---
 

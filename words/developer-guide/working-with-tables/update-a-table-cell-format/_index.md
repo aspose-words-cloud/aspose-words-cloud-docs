@@ -2,6 +2,7 @@
 title: "Update a Table Cell Format"
 type: docs
 url: /update-a-table-cell-format/
+aliases: [/update-a-table-cell-format/]
 weight: 160
 ---
 

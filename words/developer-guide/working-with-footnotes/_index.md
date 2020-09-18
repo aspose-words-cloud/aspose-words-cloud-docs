@@ -2,6 +2,7 @@
 title: "Working with Footnotes"
 type: docs
 url: /working-with-footnotes/
+aliases: [/working-with-footnotes/]
 weight: 80
 ---
 

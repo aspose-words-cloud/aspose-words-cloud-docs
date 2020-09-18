@@ -2,6 +2,7 @@
 title: "Compare Documents"
 type: docs
 url: /compare-documents/
+aliases: [/compare-documents/]
 weight: 80
 ---
 

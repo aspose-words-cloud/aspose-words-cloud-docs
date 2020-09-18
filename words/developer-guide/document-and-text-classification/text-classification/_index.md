@@ -2,6 +2,7 @@
 title: "Text Classification"
 type: docs
 url: /text-classification/
+aliases: [/text-classification/]
 weight: 20
 ---
 

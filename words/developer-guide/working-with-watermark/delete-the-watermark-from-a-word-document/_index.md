@@ -2,6 +2,7 @@
 title: "Delete the watermark from a Word Document"
 type: docs
 url: /delete-the-watermark-from-a-word-document/
+aliases: [/delete-the-watermark-from-a-word-document/]
 weight: 10
 ---
 

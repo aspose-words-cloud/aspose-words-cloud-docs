@@ -2,6 +2,7 @@
 title: "Aspose.Words Cloud for Drupal"
 type: docs
 url: /aspose-words-cloud-for-drupal/
+aliases: [/aspose-words-cloud-for-drupal/]
 weight: 40
 ---
 

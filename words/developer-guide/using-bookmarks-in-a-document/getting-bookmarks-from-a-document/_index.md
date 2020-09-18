@@ -2,6 +2,7 @@
 title: "Getting Bookmarks from a Document"
 type: docs
 url: /getting-bookmarks-from-a-document/
+aliases: [/getting-bookmarks-from-a-document/]
 weight: 10
 ---
 

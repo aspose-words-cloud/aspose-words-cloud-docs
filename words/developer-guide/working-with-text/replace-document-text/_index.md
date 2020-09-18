@@ -2,6 +2,7 @@
 title: "Replace Document Text"
 type: docs
 url: /replace-document-text/
+aliases: [/replace-document-text/]
 weight: 20
 ---
 

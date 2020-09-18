@@ -2,6 +2,7 @@
 title: "Accept all Revisions in a Document"
 type: docs
 url: /accept-all-revisions-in-a-document/
+aliases: [/accept-all-revisions-in-a-document/]
 keywords: "word revision tracking, track changes, track changes in word"
 description: "This REST API allows you to accept word revision tracking."
 weight: 10

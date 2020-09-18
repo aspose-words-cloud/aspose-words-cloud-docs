@@ -2,6 +2,7 @@
 title: "Supported Platforms"
 type: docs
 url: /supported-platforms/
+aliases: [/supported-platforms/]
 weight: 40
 ---
 

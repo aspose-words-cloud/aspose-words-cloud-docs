@@ -2,6 +2,7 @@
 title: "Add Form Field to Paragraph"
 type: docs
 url: /add-form-field-to-paragraph/
+aliases: [/add-form-field-to-paragraph/]
 weight: 30
 ---
 

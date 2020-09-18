@@ -2,6 +2,7 @@
 title: "Get Form Fields from Document"
 type: docs
 url: /get-form-fields-from-document/
+aliases: [/get-form-fields-from-document/]
 weight: 10
 ---
 

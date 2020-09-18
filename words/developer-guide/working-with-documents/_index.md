@@ -2,6 +2,7 @@
 title: "Working with Documents"
 type: docs
 url: /working-with-documents/
+aliases: [/working-with-documents/]
 weight: 50
 ---
 

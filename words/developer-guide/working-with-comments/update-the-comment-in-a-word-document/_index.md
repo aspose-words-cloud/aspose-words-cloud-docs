@@ -2,6 +2,7 @@
 title: "Update the Comment in a Word Document"
 type: docs
 url: /update-the-comment-in-a-word-document/
+aliases: [/update-the-comment-in-a-word-document/]
 weight: 40
 ---
 

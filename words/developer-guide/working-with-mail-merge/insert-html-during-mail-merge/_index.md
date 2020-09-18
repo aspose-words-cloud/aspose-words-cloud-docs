@@ -2,6 +2,7 @@
 title: "Insert HTML During Mail Merge"
 type: docs
 url: /insert-html-during-mail-merge/
+aliases: [/insert-html-during-mail-merge/]
 weight: 50
 ---
 

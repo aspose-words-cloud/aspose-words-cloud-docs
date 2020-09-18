@@ -2,6 +2,7 @@
 title: "Get Table Properties"
 type: docs
 url: /get-table-properties/
+aliases: [/get-table-properties/]
 weight: 50
 ---
 

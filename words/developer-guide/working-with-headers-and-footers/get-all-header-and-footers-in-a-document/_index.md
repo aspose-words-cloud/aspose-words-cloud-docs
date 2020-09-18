@@ -2,6 +2,7 @@
 title: "Get all Header and Footers in a Document"
 type: docs
 url: /get-all-header-and-footers-in-a-document/
+aliases: [/get-all-header-and-footers-in-a-document/]
 weight: 10
 ---
 

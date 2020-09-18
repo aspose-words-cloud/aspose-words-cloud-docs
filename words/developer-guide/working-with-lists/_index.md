@@ -2,6 +2,7 @@
 title: "Working With Lists"
 type: docs
 url: /working-with-lists/
+aliases: [/working-with-lists/]
 weight: 230
 ---
 

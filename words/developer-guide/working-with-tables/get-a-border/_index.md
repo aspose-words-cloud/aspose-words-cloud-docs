@@ -2,6 +2,7 @@
 title: "Get a Border"
 type: docs
 url: /get-a-border/
+aliases: [/get-a-border/]
 weight: 180
 ---
 

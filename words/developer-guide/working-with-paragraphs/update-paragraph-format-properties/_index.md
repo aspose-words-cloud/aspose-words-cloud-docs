@@ -2,6 +2,7 @@
 title: "Update Paragraph Format Properties"
 type: docs
 url: /update-paragraph-format-properties/
+aliases: [/update-paragraph-format-properties/]
 weight: 60
 ---
 

@@ -2,6 +2,7 @@
 title: "Convert PDF Document to Word"
 type: docs
 url: /convert-pdf-document-to-word/
+aliases: [/convert-pdf-document-to-word/]
 keywords: "convert pdf to word, dotm file, go sdk, Python, Ruby, Java, C#, Node.js, PHP, Android, Swift and Go"
 description: "Our conversion APIs let you convert PDF to Word document. The APIs even supports encrypted PDF file to Word document conversion. The converter turns a document into a &amp;quot;flow&amp;quot; format - merges multiple paragraphs into one section, converts tables and lists into native Word tables and lists, etc. so that document can then be naturally edited in Word editing application (such as Microsoft Word). Currently, we support Python, C#, Java, Ruby, PHP, Node.JS, Go, Android, Swift"
 weight: 40

@@ -2,6 +2,7 @@
 title: "Get OLE file from a Drawing Object"
 type: docs
 url: /get-ole-file-from-a-drawing-object/
+aliases: [/get-ole-file-from-a-drawing-object/]
 weight: 70
 ---
 

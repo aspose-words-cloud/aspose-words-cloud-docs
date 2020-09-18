@@ -2,6 +2,7 @@
 title: "Aspose Doc Exporter"
 type: docs
 url: /aspose-doc-exporter/
+aliases: [/aspose-doc-exporter/]
 weight: 20
 ---
 

@@ -2,6 +2,7 @@
 title: "Using Cloud AutoMerge for Dynamics CRM"
 type: docs
 url: /using-cloud-automerge-for-dynamics-crm/
+aliases: [/using-cloud-automerge-for-dynamics-crm/]
 weight: 10
 ---
 

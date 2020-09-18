@@ -2,6 +2,7 @@
 title: "Evaluate Aspose.Words"
 type: docs
 url: /evaluate-aspose-words/
+aliases: [/evaluate-aspose-words/]
 weight: 90
 ---
 

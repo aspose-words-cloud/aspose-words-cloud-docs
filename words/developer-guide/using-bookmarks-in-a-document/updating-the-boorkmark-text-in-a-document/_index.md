@@ -2,6 +2,7 @@
 title: "Updating the Boorkmark Text in a document"
 type: docs
 url: /updating-the-boorkmark-text-in-a-document/
+aliases: [/updating-the-boorkmark-text-in-a-document/]
 weight: 30
 ---
 

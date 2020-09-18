@@ -2,6 +2,7 @@
 title: "Get all Drawing Objects from a Word Document"
 type: docs
 url: /get-all-drawing-objects-from-a-word-document/
+aliases: [/get-all-drawing-objects-from-a-word-document/]
 weight: 10
 ---
 

@@ -2,6 +2,7 @@
 title: "Populate MailMerge Template with Data Online"
 type: docs
 url: /populate-mailmerge-template-with-data-online/
+aliases: [/populate-mailmerge-template-with-data-online/]
 keywords: "Populate, mustache template, online, Mail Merge, Word, Microsoft Word, Java, .NET, PHP, Ruby, Python, NodeJS, Swift, Android ,Go"
 description: "In this article, you will learn how to populate a mail merge or mustache template with data online in various languages. You can download the SDK of your favorite language and start programming in the smartest way. The SDKs are available in Java, .NET, PHP, Ruby, Python, NodeJS, Swift, Android and Go languages."
 weight: 20

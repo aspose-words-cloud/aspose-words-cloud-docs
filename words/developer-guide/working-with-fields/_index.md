@@ -2,6 +2,7 @@
 title: "Working with Fields"
 type: docs
 url: /working-with-fields/
+aliases: [/working-with-fields/]
 weight: 160
 ---
 

@@ -2,6 +2,7 @@
 title: "Update Run Properties"
 type: docs
 url: /update-run-properties/
+aliases: [/update-run-properties/]
 weight: 110
 ---
 
