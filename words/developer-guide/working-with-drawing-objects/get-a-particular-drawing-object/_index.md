@@ -19,7 +19,9 @@ This REST API allows you to get a particular drawing object from the document. Y
 |WrapType|WrapType|Specifies how text is wrapped around a shape or picture. See possible values and more info at [.NET API Reference](https://apireference.aspose.com/net/words/aspose.words.drawing/wraptype).|
 |imageDataLink|link|Link to embedded image resource, if present.|
 |oleDataLink|link|Link to embedded OLE resource, if present.|
+
 ## Resource URI
+
 ```html
 
 ~/{file-name}/drawingObjects/{index}
@@ -38,7 +40,9 @@ This REST API allows you to get a particular drawing object from the document. Y
 *{index}* is the index of the specific drawing object.
 
 [Swagger UI](https://apireference.aspose.cloud/words/#/DrawingObjects/GetDocumentDrawingObjectByIndex) lets you call this REST API directly from the browser. 
+
 ## cURL Example
+
 **Input Document:** [test_multi_pages.docx](attachments/885442/1180124.docx)
 
 **Output File:** [drawingObject.png](attachments/885442/1180123.png)
@@ -82,9 +86,13 @@ drawingObject.png file
 {{< /tab >}}
 
 {{< /tabs >}}
+
 ## SDKs
+
 Using an SDK is the best way to speed up the development. An SDK takes care of a lot of low-level details of making requests and handling responses and lets you focus on writing code specific to your particular project. Check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs along with working examples, to get you started in no time. Please check [Available SDKs](/available-sdks/) article to learn how to add an SDK to your project.
+
 ## SDK Examples
+
 Code examples for various SDKs are presented below:
 {{< tabs tabTotal="8" tabID="5" tabName1="C#" tabName2="Java" tabName3="Python" tabName4="Ruby" tabName5="Node.js" tabName6="Android" tabName7="Swift" tabName8="Go" >}}
 

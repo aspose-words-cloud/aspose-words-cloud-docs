@@ -29,7 +29,9 @@ The following formats are supported:
 |png|Portable Network Graphic|
 |svg|Scalable Vector Graphics File|
 |tiff|Tagged Image File Format|
+
 ## Resource URI
+
 [Swagger UI](https://apireference.aspose.cloud/words/#/Render) lets you call following REST APIs directly from the browser:
 
 - [Renders page to a specified format](https://apireference.aspose.cloud/words/#/Render/RenderPage)
@@ -37,7 +39,9 @@ The following formats are supported:
 - [Renders table to a specified format](https://apireference.aspose.cloud/words/#/Render/RenderTable)
 - [Renders drawing object to a specified format](https://apireference.aspose.cloud/words/#/Render/RenderDrawingObject)
 - [Renders math object to a specified format](https://apireference.aspose.cloud/words/#/Render/RenderMathObject)
+
 ## cURL Example
+
 **Case 1: Render a page of the document in BMP format:**
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
@@ -252,7 +256,9 @@ PNG File
 {{< /tab >}}
 
 {{< /tabs >}}
+
 ## SDK Examples
+
 Code examples for various SDKs are presented below:
 **Case 1: Renders Page to Specified Format**
 

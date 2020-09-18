@@ -36,9 +36,13 @@ The API important parameters are:
 Document classification supports classifying documents stored on Aspose Storage or any of [the supported storage](https://docs.aspose.cloud/display/storagecloud/How+to+Configure+3rd+Party+Cloud+Storages). API supports all document formats [supported by other Aspose.Words Cloud methods](https://products.aspose.cloud/words/cloud), including PDF which will be implicitly [converted to Word format](/convert-pdf-document-to-word/).
 
 **Note:** The SDKs in C#, Java, PHP, Ruby, Python, Node.js, Android, Swift and Go are available for download. Also the sample code are given below for each of the SDKs:
+
 ## Resource URI
+
 [Swagger UI](https://apireference.aspose.cloud/words/#/Classification/ClassifyDocument) lets you call the REST API directly from the browser. The description of the API and its parameters is also given there.
+
 ## cURL Example
+
 **Input Document:** [test_multi_pages.docx](attachments/884752/1180129.docx)
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
@@ -120,9 +124,13 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/classify?best
 {{< /tab >}}
 
 {{< /tabs >}}
+
 ## SDKs
+
 Using an SDK is the best way to speed up the development. An SDK takes care of a lot of low-level details of making requests and handling responses and lets you focus on writing code specific to your particular project. Check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words SDKs along with working examples, to get you started in no time.
+
 ## SDK Examples
+
 Code examples for various SDKs are presented below:
 {{< tabs tabTotal="9" tabID="4" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Python" tabName5="Ruby" tabName6="Node.js" tabName7="Android" tabName8="Swift" tabName9="Go" >}}
 

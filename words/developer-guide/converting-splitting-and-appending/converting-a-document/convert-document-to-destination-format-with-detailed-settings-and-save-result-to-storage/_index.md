@@ -58,7 +58,9 @@ The important parameters of this API are:
 |ColorMode|Gets or sets a value determining how colors are rendered.|Normal|
 |UpdateSdtContent|Gets or sets a value determining whether the content of Aspose.Words.Markup.StructuredDocumentTag" is updated before saving.|True|
 |UpdateFields|Gets or sets a value determining if fields should be updated before saving the document to a fixed page format.|True|
+
 ## Save Options
+
 All elements, except **SaveFormat** and **FileName**, can be omitted. If we omit an element, then the element will contain default value (default values for elements you can see in a comment after the corresponding element).
 
 - **Request for saving images BMP:**
@@ -1518,9 +1520,13 @@ All elements, except **SaveFormat** and **FileName**, can be omitted. If we omit
 R,G,B = 0..255
 
 ```
+
 ## Resource URI
+
 [Swagger UI](https://apireference.aspose.cloud/words/#/Convert/SaveAs) lets you call this REST API directly from the browser. The description of the API and its parameters is also given there.
+
 ## cURL Example
+
 {{< tabs tabTotal="2" tabID="25" tabName1="Request" tabName2="Response" >}}
 
 {{< tab tabNum="1" >}}
@@ -1603,9 +1609,13 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/saveAs" \
 {{< /tab >}}
 
 {{< /tabs >}}
+
 ## SDKs
+
 Using an SDK is the best way to speed up the development. An SDK takes care of a lot of low-level details of making requests and handling responses and lets you focus on writing code specific to your particular project. Check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words SDKs along with working examples, to get you started in no time. Please check [Available SDKs](/available-sdks/) article to learn how to add an SDK to your project.
+
 ## SDK Examples
+
 Code examples for various SDKs are presented below:
 {{< tabs tabTotal="9" tabID="28" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Python" tabName5="Ruby" tabName6="Node.js" tabName7="Android" tabName8="Swift" tabName9="Go" >}}
 

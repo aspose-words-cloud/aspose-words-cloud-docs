@@ -11,7 +11,11 @@ weight: 10
 This page contains release notes for [Aspose.Words for Cloud 1.19.1](http://www.aspose.com/downloads/words/cloud/new-releases/aspose.words-for-cloud-1.19.1/)
 
 {{% /alert %}} 
+
 ## Aspose.Words
+
 - Aspose.Words library was reverted to version 15.8 
+
 ## New functionality
+
 - Added "loadEncoding" option while loading Txt file (SAASWORDS-187, SAASWORDS-247)

@@ -11,15 +11,20 @@ weight: 50
 The page contains release notes for Aspose.Words Cloud 20.4 – [API Reference](https://apireference.aspose.cloud/words/)
 
 {{% /alert %}} 
+
 ## Important Changes and Enhancements
+
 ### Words Cloud changes
+
 1. Added CompareOptions to "Compare documents" endpoint
 1. Added "Password" option to OdtSaveOptions
 1. Added "Dml3DEffectsRenderingMode" to SaveOptions
 1. Added "InterpolateImages" option to PdfSaveOptions
 1. Added "UpdateLastPrintedProperty" to SaveOptions
 1. Added "UseTargetMachineFonts" option to HtmlFixedSaveOptions
+
 ### PDF to Word conversion improvements
+
 1. Fixed all issues related to Xamarin support;
 1. Improved formulas formatting when font substitution occurs during the recognition;
 1. Got better bookmark detection when running on Linux;
@@ -51,7 +56,9 @@ The page contains release notes for Aspose.Words Cloud 20.4 – [API Reference]
 |PDF2WORD-480 |Test Live Share feature in Visual Studio 2019 |Task|
 |PDF2WORD-481|Integrate StyleCop and Cloud style rules|Task|
 |PDF2WORD-482 |Migrate Pdf2Word projects to VS 2019, C# 8 and .NET Core 3.1 |Task|
+
 ## SDK Changes
+
 1. 'rangeEndIdentifier' now non-required for all SDKs, just like NET SDK.
 1. The same order of parameters in the modelRequests for all SDKs.
 1. Added CompareOptions property to CompareData class

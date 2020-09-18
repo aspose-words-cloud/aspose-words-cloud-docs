@@ -11,6 +11,7 @@ weight: 90
 The page contains release notes for Aspose.Words for Cloud update 1.23.0 – [API Version 1.1](http://api.aspose.com/v1.1/swagger/ui/index)
 
 {{% /alert %}} 
+
 ## Full List of Issues Covering all Changes in this Release
 
 |Key |Summary |Category |

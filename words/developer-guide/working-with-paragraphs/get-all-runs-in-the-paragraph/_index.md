@@ -7,7 +7,9 @@ weight: 80
 ---
 
 This REST API allows you to get a list of all runs that are contained in the specific paragraph.
+
 ## Resource URI
+
 ```java
 
 ~/{file-name}/{paragraphPath}/runs/
@@ -21,7 +23,9 @@ This REST API allows you to get a list of all runs that are contained in the spe
 - *sections/{sectionIndex}/paragraphs/{paragraphIndex}* - references specific paragraph within section
 
 [Swagger UI](https://apireference.aspose.cloud/words/#/Runs/GetRuns) lets you call this REST API directly from the browser.  
+
 ## cURL Example
+
 **Input Document:** [GetField.docx](attachments/885381/1180125.docx)
 
 {{< tabs tabTotal="2" tabID="2" tabName1="Request" tabName2="Response" >}}
@@ -91,9 +95,13 @@ curl -v "https://api.aspose.cloud/v4.0/words/GetField.docx/sections/0/paragraphs
 {{< /tab >}}
 
 {{< /tabs >}}
+
 ## SDKs
+
 Using an SDK is the best way to speed up the development. An SDK takes care of a lot of low-level details of making requests and handling responses and lets you focus on writing code specific to your particular project. Check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs along with working examples, to get you started in no time. Please check [Available SDKs](/available-sdks/) article to learn how to add an SDK to your project.
+
 ## SDK Examples
+
 Code examples for various SDKs are presented below:
 {{< tabs tabTotal="8" tabID="5" tabName1="C#" tabName2="Java" tabName3="Python" tabName4="Ruby" tabName5="Node.js" tabName6="Android" tabName7="Swift" tabName8="Go" >}}
 

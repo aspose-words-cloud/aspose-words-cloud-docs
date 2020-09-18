@@ -9,9 +9,13 @@ weight: 10
 Bookmarks identify in a Microsoft Word document the locations or fragments that you name and identify for future reference. For example, you might use a bookmark to identify text that you want to revise later. Instead of scrolling through the document to locate the text, you can go to it by using the Bookmark dialog box.
 
 Aspose.Words Cloud API allows you to obtain a bookmark collection to iterate through bookmarks or for other purposes.
+
 ## Resource URI
+
 [Swagger UI](https://apireference.aspose.cloud/words/#/Bookmarks/GetBookmarks) lets you call this REST API directly from the browser. The description of the API and its parameters are also given there. 
+
 ## cURL Example
+
 Below cURL example shows how to obtain bookmarks from a bookmark collection. You can download a template file of this example from [here](attachments/885272/1180120.docx).
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
@@ -139,9 +143,13 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/bookmarks" \
 {{< /tab >}}
 
 {{< /tabs >}}
+
 ## SDK Source
+
 Using an SDK (API client) is the quickest way for a developer to speed up the development. An SDK takes care of a lot of low-level details of making requests and handling responses and lets you focus on writing code specific to your particular project. Check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs along with working examples, to get you started in no time. Please check [Available SDKs](/available-sdks/) article to learn how to add an SDK to your project.
+
 ## SDK Examples
+
 Code examples for various SDKs are presented below:
 {{< tabs tabTotal="8" tabID="4" tabName1="C#" tabName2="Java" tabName3="Python" tabName4="Ruby" tabName5="Node.js" tabName6="Android" tabName7="Swift" tabName8="Go" >}}
 

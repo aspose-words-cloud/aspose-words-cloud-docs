@@ -7,7 +7,9 @@ weight: 70
 ---
 
 This article explains how to format the text. Using [PUT /words/{name}/{paragraphPath}/runs/{index}/font](https://apireference.aspose.cloud/words/#/Runs/UpdateRunFont) API you can update font properties of the text.
+
 ## Resource URI
+
 ~/{file-name}/{paragraphPath}/runs/{index}/font
 
 *{file-name}* is the name of the Word document containing elements.
@@ -18,6 +20,7 @@ This article explains how to format the text. Using [PUT /words/{name}/{paragrap
 - *sections/{sectionIndex}/paragraphs/{paragraphIndex}* - references specific paragraph within section.
 
 *{index}* is the index of specific run.
+
 ## Resource Properties
 
 |Property Name|Type|Description|
@@ -62,7 +65,9 @@ This article explains how to format the text. Using [PUT /words/{name}/{paragrap
 |TextEffect|TextEffect|Specifies the font animation effect.|
 |Underline|Underline|Specifies the type of underline applied to the font.|
 |UnderlineColor|Color|Specifies the color of the underline applied to the font.|
+
 ## cURL Example
+
 Input Document: [SampleWordDocument.docx](attachments/885279/1180112.docx)
 
 Output Document: [ResultWordDocument.docx](attachments/885279/1180113.docx)
@@ -247,9 +252,13 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/
 {{< /tab >}}
 
 {{< /tabs >}}
+
 ## SDKs
+
 Using an SDK is the best way to speed up the development. An SDK takes care of a lot of low-level details of making requests and handling responses and lets you focus on writing code specific to your particular project. Check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words SDKs along with working examples, to get you started in no time. Please check [Available SDKs](/available-sdks/) article to learn how to add an SDK to your project.
+
 ## SDK Examples
+
 Code examples for various SDKs are presented below:
 {{< tabs tabTotal="8" tabID="4" tabName1="C#" tabName2="Java" tabName3="Python" tabName4="Ruby" tabName5="Node.js" tabName6="Android" tabName7="Swift" tabName8="Go" >}}
 

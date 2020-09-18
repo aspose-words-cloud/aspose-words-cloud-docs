@@ -13,9 +13,13 @@ This example explains how to get MailMerge Field Names in the document. Descript
 - **useNonMergeFields:** Result includes "mustache" field names if UseNonMergeFields is true
 
 **Note:** The SDKs are available in Java, .NET, PHP, Ruby, Python, NodeJS, Swift, Android and Go languages.
+
 ## Resource URI
+
 [Swagger UI](https://apireference.aspose.cloud/words/#/MailMerge/GetDocumentFieldNamesOnline) lets you call this REST API directly from the browser. The description of the API and its parameters is also given there.
+
 ## cURL Example
+
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 
 {{< tab tabNum="1" >}}
@@ -95,9 +99,13 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleMailMergeTemplate.docx/mailMe
 {{< /tab >}}
 
 {{< /tabs >}}
+
 ## SDKs
+
 Using an SDK is the best way to speed up the development. An SDK takes care of a lot of low-level details of making requests and handling responses and lets you focus on writing code specific to your particular project. Check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words SDKs along with working examples, to get you started in no time. Please check [Available SDKs](/available-sdks/) article to learn how to add an SDK to your project.
+
 ## SDK Examples
+
 Code examples for various SDKs are presented below:
 {{< tabs tabTotal="9" tabID="4" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Python" tabName5="Ruby" tabName6="Node.js" tabName7="Android" tabName8="Swift" tabName9="Go" >}}
 

@@ -9,9 +9,13 @@ weight: 30
 ---
 
 [PUT /words/{name}/saveAs/tiff](https://apireference.aspose.cloud/words/#/Convert/SaveAsTiff) API lets you convert MS Word document to *TIFF file* with additional settings and save the result to storage. The resulting image save to the same folder and storage where the original document is. A relative path can be used here for some sub-folder of the document folder.
+
 ## Resource URI
+
 [Swagger UI](https://apireference.aspose.cloud/words/#/Convert/SaveAsTiff) lets you call this REST API directly from the browser. The description of the API and its parameters is also given there.
+
 ## cURL Example
+
 **Input Document:** [test_multi_pages.docx](attachments/885301/1180092.docx) 
 
 **Output Document:** [abc.tiff](attachments/885301/1180091.tiff)** 
@@ -98,9 +102,13 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/saveAs/tiff" 
 {{< /tab >}}
 
 {{< /tabs >}}
+
 ## SDKs
+
 Using an SDK is the best way to speed up the development. An SDK takes care of a lot of low-level details of making requests and handling responses and lets you focus on writing code specific to your particular project. Check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words SDKs along with working examples, to get you started in no time. Please check [Available SDKs](/available-sdks/) article to learn how to add an SDK to your project.
+
 ## SDK Examples
+
 Code examples for various SDKs are presented below:
 {{< tabs tabTotal="9" tabID="4" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Python" tabName5="Ruby" tabName6="Node.js" tabName7="Android" tabName8="Swift" tabName9="Go" >}}
 

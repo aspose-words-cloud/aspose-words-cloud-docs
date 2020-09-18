@@ -7,21 +7,30 @@ weight: 210
 ---
 
 ## Overview
+
 The concept of Range is similar to [Range Object in MS Word API](https://docs.microsoft.com/en-us/office/vba/word/Concepts/Working-with-Word/working-with-range-objects). Working with a range is much closer to how a user interacts with a document in MS Word.
 
 A range is basically a contiguous area in a document. It is signified as a pair of positions (START, END), where a coordinate of START always less than a coordinate of END. It may span across multiple sections, paragraphs, etc., in other words, across different nodes of the [DOM tree](https://docs.aspose.com/display/wordsnet/Aspose.Words+Document+Object+Model). Thus, a user can ignore the underlying model of the document. Such an approach is going to make the usage of API much more friendly.
+
 ## Ways to Specify a Range
+
 A range can be specified in one of the three ways:
+
 ### Position in a document based on nodes IDs
+
 /range/{startId}/{endId}
 
 - {startId} - id of the node from which the range starts (included). Required.
 - {endId} - id of the node at which the range ends (excluded). Optional. If missed, the end of the range corresponds to the end of the node with id = startId, i.e. the range is limited by the bounds of "startId node".
+
 #### Example
+
 A range consisting of the second and third paragraphs.
 
 /range/id0.1/id0.3
+
 ### Position in a document based on nodes pseudo names
+
 /range/{startPseudoName}/{endPseudoName}
 
 - {startPseudoName} - a pseudo name of the node from which the range starts (included). Required.
@@ -31,11 +40,15 @@ A range consisting of the second and third paragraphs.
 
 - TableN for tables.
 - ImageN for images.
+
 #### Example
+
 A range consisting of the text from the first table and after the table till the second table.
 
 /range/table0/table1
+
 ### Positions inside nodes
+
 A certain position inside a node can be specified with a selector that is separated from a node identifier with a colon.
 
 /range/{startIdentifier}:{startSelector}/{endIdentifier}:{endSelector}
@@ -50,35 +63,49 @@ Selectors cannot be used without a node identifier.
 **Available selectors**
 
 end - specifies the end of the node ("end" here is supposed to be a virtual node after the last child node, i.e. it means that the whole content of the node should be included for an end node).
+
 #### Example
+
 A range consisting of all nodes starting from the end of the 1st table till the beginning of the 6th paragraph.
 
 /range/table0:end/id0.5
+
 ## Operations with a Range
+
 The following operations can be defined on a range:
+
 ### Get the text from the range
+
 Get the text from all nodes in the range. You may use one of the following two APIs to get the text from the range:
 
 - [GET /words/{name}/range/{rangeStartIdentifier}/{rangeEndIdentifier}](https://apireference.aspose.cloud/words/#/RangeApi/GetRangeText)
 - [GET /words/{name}/range/{rangeStartIdentifier}](https://apireference.aspose.cloud/words/#/RangeApi/GetRangeText2)
+
 ### Remove the text from the range
+
 With the following APIs you can remove the text from the range. Text from all nodes inside the range would be removed.
 
 - [DELETE /words/{name}/range/{rangeStartIdentifier}/{rangeEndIdentifier}](https://apireference.aspose.cloud/words/#/RangeApi/RemoveRange)
 - [DELETE /words/{name}/range/{rangeStartIdentifier}](https://apireference.aspose.cloud/words/#/RangeApi/RemoveRange2)
+
 ### Replace the content in the range
+
 The replacement should be done according to MS Word rules. For example, several nodes, except the case when all nodes are runs of one paragraph, should be replaced with one new paragraph. However, several runs in one paragraph should be replaced with the new run(s). The style should be consistent to removed nodes.
 
 Content in the range can be replaced with one of the following two APIs:
 
 - [POST /words/{name}/range/{rangeStartIdentifier}/{rangeEndIdentifier}](https://apireference.aspose.cloud/words/#/RangeApi/ReplaceWithText)
 - [POST /words/{name}/range/{rangeStartIdentifier}](https://apireference.aspose.cloud/words/#/RangeApi/ReplaceWithText2)
+
 ### Save the selected range as a new document
+
 The range should be saved as a separate document. The original document must not be changed. The said task can be achieved with one of the following two APIs:
 
 - [POST /words/{name}/range/{rangeStartIdentifier}/{rangeEndIdentifier}/SaveAs](https://apireference.aspose.cloud/words/#/RangeApi/SaveAsRange)
 - [POST /words/{name}/range/{rangeStartIdentifier}/SaveAs](https://apireference.aspose.cloud/words/#/RangeApi/SaveAsRange2)
+
 ## Use cases
+
 **Use case 1: A user wants to get a text from the first two paragraphs in the document.**
 
 First, he needs to call [Paragraph API](https://apireference.aspose.cloud/words/#/Paragraphs/GetParagraphs) to get a list of paragraphs that are contained in the document.
@@ -705,9 +732,13 @@ curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/range/id0.0/id0.2:e
 {{< /tab >}}
 
 {{< /tabs >}}
+
 ## SDKs
+
 Using an SDK is the best way to speed up the development. An SDK takes care of a lot of low-level details of making requests and handling responses and lets you focus on writing code specific to your particular project. Check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs along with working examples, to get you started in no time. Please check [Available SDKs](/available-sdks/) article to learn how to add an SDK to your project.
+
 ## SDK Examples
+
 Code examples for various SDKs are presented below:
 **Use case 1: Get text from the first two paragraphs in the document.**
 

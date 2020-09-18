@@ -7,6 +7,7 @@ weight: 10
 ---
 
 #### Create Template and Upload
+
 Below are the steps to create and upload Template in CRM
 
 - Open word and create a template.
@@ -26,7 +27,9 @@ Below are the steps to create and upload Template in CRM
 - Give the name of the template and attach the created document in the attachment. 
 
 ![todo:image_alt_text](using-cloud-automerge-for-dynamics-crm_4)
+
 #### How to Configure Workflow
+
 This section shows how Aspose .NET AutoMerge can be used with a workflow.
 
 - Open Settings -> Processes within CRM and hit New.
@@ -37,7 +40,9 @@ This section shows how Aspose .NET AutoMerge can be used with a workflow.
 ![todo:image_alt_text](using-cloud-automerge-for-dynamics-crm_5)
 
 - Here you will see all available options to use with Aspose AutoMerge:
+
 #### Create Document
+
 Select this option to create a new document based on the template.
 
 - Give a meaningful name to the step.
@@ -53,7 +58,9 @@ Select this option to create a new document based on the template.
 - **Delete Template From Cloud Storage**: If you already own Aspose License for Aspose.Words use this attribute to use the license to generate full version of the document.
 - **Delete Generated Document From Cloud Storage**: If you already own Aspose License for Aspose.Words use this attribute to use the license to generate full version of the document.
   Please Note that the document is generated at this stage and attached to the Primary record of the workflow. (In this case, created document is attached to the Contact)
+
 #### Attach to Email
+
 Select this option to attach the created document to an email. This step is used with combination of "Send Email" described below. Please notice that you can select an existing email as well as you can create an email within your workflow.
 
 - First Create an email message within workflow.
@@ -66,7 +73,9 @@ Select this option to attach the created document to an email. This step is used
 - **Enable Logging**: It will log all the steps performed by the plugin. (we leave this functionality to be fulfilled by the user themselves in the source code, If you would like to use our Log functionality un-comment the code in Log function)
 - **Email**: Use this lookup to select an already created email. (The email can be from existing emails or created email under the same workflow)
 - **Attachment**: Select the created Output Attachment file to attach to the email.
+
 #### Attach To Letter
+
 Select this option to attach the created document to a letter. Please notice that you can select an existing letter as well as you can create a letter within your workflow.
 
 - First Create a letter within workflow.
@@ -79,7 +88,9 @@ Select this option to attach the created document to a letter. Please notice tha
 - **Enable Logging**: It will log all the steps performed by the plugin. (we leave this functionality to be fulfilled by the user themselves in the source code, If you would like to use our Log functionality un-comment the code in Log function)
 - **Letter**: Use this lookup to select an already created letter. (The letter can be from existing letters or created letter under the same workflow)
 - **Attachment**: Select the created Output Attachment file to attach to the letter.
+
 #### Attach To Entity
+
 Select this step if you want to attach the document to any record. Attach to any record works same like Attach to Email/Letter.
 
 ![todo:image_alt_text](using-cloud-automerge-for-dynamics-crm_9)
@@ -88,21 +99,27 @@ Select this step if you want to attach the document to any record. Attach to any
 - **Attachment:** Select the created Output Attachment file to attach to the Entity.
 - **Entity Logical Name:** Provide the logical name of the Entity here. (Like: account, contact, lead etc)
 - **Record Id:** Provide the Record Primary GUID here to which the document is attached. Please note that it will not create a copy of document but attach the provided document directly.
+
 #### Send Email
+
 Use this step to send the email, this is used with the Attach to Email step where the document is attached with the email and sent.
 
 ![todo:image_alt_text](using-cloud-automerge-for-dynamics-crm_10)
 
 - **Enable Logging:** It will log all the steps performed by the plugin.
 - **Email:** select the email you want to send.
+
 #### Generate Copy of Document
+
 Use this step to generate a copy of Document. It is usually used when you want to keep the document with the primary record as well as attach it under any other record.
 
 ![todo:image_alt_text](using-cloud-automerge-for-dynamics-crm_11)
 
 - **Enable Logging:** It will log all the steps performed by the plugin.
 - **Attachment:** Select the generated document.
+
 #### Delete Temp Document
+
 Select this step if you want to delete the generated document from the primary entity.
 
 - Give name to the step.
@@ -112,7 +129,9 @@ Select this step if you want to delete the generated document from the primary e
 
 - **Enable Logging**: It will log all the steps performed by the plugin. (we leave this functionality to be fulfilled by the user themselves in the source code, If you would like to use our Log functionality un-comment the code in Log function)
 - **Attachment**: Select the created Output Attachment file.
+
 #### Execute Workflow and Ouput
+
 Execution of workflow is depends on what options you have selected while configuring the workflow.
 
 - Open Contact record and click on Run Workflow. 

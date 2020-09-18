@@ -16,7 +16,9 @@ You can check the quality of Aspose.Words Cloud conversion and view the results 
 - [Viewer](https://products.aspose.app/words/viewer)
 
 {{% /alert %}} 
+
 ## Introduction
+
 [PUT /words/convert](https://apireference.aspose.cloud/words/#/Convert/ConvertDocument) API lets you convert MS Word document to another format. The API request contains a document to convert and the response contains the conversion result, or if outPath parameter specified - the API saves the result to the Cloud storage and return OK status code. The list of supported formats are:
 
 |format Parameter Value|Format of the returned Presentation|
@@ -59,9 +61,13 @@ The important parameters of this API are:
 The format can also be specified by the request Accept header.
 
 {{% /alert %}} 
+
 ## Resource URI
+
 [Swagger UI](https://apireference.aspose.cloud/words/#/Convert/ConvertDocument) lets you call this REST API directly from the browser. The description of the API and its parameters is also given there.
+
 ## cURL Example
+
 **Input Document:** [TableDocument.doc](attachments/885335/1180089.doc)
 
 **Output Document:** [TableDocument.pdf](attachments/885335/1180090.pdf)** 
@@ -109,9 +115,13 @@ PDF Document
 {{< /tab >}}
 
 {{< /tabs >}}
+
 ## SDKs
+
 Using an SDK is the best way to speed up the development. An SDK takes care of a lot of low-level details of making requests and handling responses and lets you focus on writing code specific to your particular project. Check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words SDKs along with working examples, to get you started in no time. Please check [Available SDKs](/available-sdks/) article to learn how to add an SDK to your project.
+
 ## SDK Examples
+
 Code examples for various SDKs are presented below:
 {{< tabs tabTotal="9" tabID="4" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Python" tabName5="Ruby" tabName6="Node.js" tabName7="Android" tabName8="Swift" tabName9="Go" >}}
 

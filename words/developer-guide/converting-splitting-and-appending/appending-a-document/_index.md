@@ -16,9 +16,13 @@ The description of the important API parameters is given below:
 | :- | :- | :- |
 |Href|string|Path of the document to append.|
 |ImportFormatMode|string|Defines which formatting will be used: appended or destination document. Possible values are **KeepSourceFormatting** or **UseDestinationStyles**. |
+
 ## Resource URI
+
 [Swagger UI](https://apireference.aspose.cloud/words/#/Append/AppendDocument) lets you call this REST API directly from the browser. The description of the API and its parameters are also given there.
+
 ## cURL Example
+
 **Input Documents: [**test_doc.docx](attachments/885186/1180117.docx), [**test_multi_pages.docx](attachments/885186/1180118.docx)**
 
 **Output Document: [**test_doc_output.docx](attachments/885186/1180114.docx)**
@@ -401,9 +405,13 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_doc.docx/appendDocument" \
 {{< /tab >}}
 
 {{< /tabs >}}
+
 ## SDKs
+
 Using an SDK is the best way to speed up the development. An SDK takes care of a lot of low-level details of making requests and handling responses and lets you focus on writing code specific to your particular project. Check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs along with working examples, to get you started in no time. Please check [Available SDKs](/available-sdks/) article to learn how to add an SDK to your project.
+
 ## SDK Examples
+
 Code examples for various SDKs are presented below:
 {{< tabs tabTotal="9" tabID="4" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Python" tabName5="Ruby" tabName6="Node.js" tabName7="Android" tabName8="Swift" tabName9="Go" >}}
 

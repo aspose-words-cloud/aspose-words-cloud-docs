@@ -11,8 +11,11 @@ weight: 20
 The page contains release notes for Aspose.Words Cloud 18.10 – [API Reference](https://apireference.aspose.cloud/words/)
 
 {{% /alert %}} 
+
 ## Important Changes and New Features
+
 #### Android SDK
+
 Fully reworked version of Aspose Cloud Android Java SDK has been released. Android Java Cloud SDK is a wrapper around REST API, allowing to process documents in Android Java quickly and easily, gaining all benefits of strong types and IDE highlights. The distribution is available at [Maven ](https://repository.aspose.cloud/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-words-cloud-android)and source code at [GitHub](https://github.com/aspose-words-cloud/aspose-words-cloud-java).
 
 New SDK is fully supported and has the following advantages over the previous versions:

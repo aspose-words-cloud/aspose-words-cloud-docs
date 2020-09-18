@@ -11,10 +11,15 @@ weight: 20
 The page contains release notes for Aspose.Words Cloud 20.7 – [API Reference](https://apireference.aspose.cloud/words/)
 
 {{% /alert %}} 
+
 ## Important Changes and New Features
+
 ### Words Cloud changes
+
 1. Added "Markdown" save format
+
 ### PDF to Word conversion improvements
+
 1. Corrected KeyNotFoundException and InvalidOperationException errors while loading a PDF
 1. Implemented first version of footnote detection
 1. Corrected recognition for page headers with image and text
@@ -41,12 +46,17 @@ The page contains release notes for Aspose.Words Cloud 20.7 – [API Reference]
 |PDF2WORD-537 |JBig2Decoder causes an OverflowException |Bug|
 |PDF2WORD-538 |PdfPageTree class fails on IsTreeNode function |Bug|
 |PDF2WORD-539 |Sign Pdf2Word release with the same certificate and key as Aspose.Words team does |Task|
+
 ## SDK Changes
+
 ### Aspose Words Cloud SDKs( Java, PHP, Python, Ruby)
+
 - Added "Markdown" save format
 - UpdateParagraphFormatRequest now takes ParagraphFormatUpdateDto
 - ParagraphFormat's hierarchy changed: ParagraphFormatBase model was introduced and contains all common properties
+
 ### Aspose Words Cloud SDKs( C++, Go, .NET, Node, Swift)
+
 - Added "Markdown" save format
 - Added endpoint to update paragraph format without node path (PUT "/words/{name}/paragraphs/{index}/format")
 

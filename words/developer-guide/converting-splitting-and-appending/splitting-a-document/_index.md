@@ -11,7 +11,9 @@ weight: 30
 While working with your documents, you may come across scenarios where you want to split the large documents into smaller ones. You can split the documents into separate documents within the MS Word document or different file formats. Splitting one large document into smaller documents of different file formats is an important aspect of document manipulation tasks. It involves a series of steps that need to be performed for getting the desired results. Aspose.Words Cloud eliminates the need for such complicated tasks and makes it hassle-free for you. Please note that we support Python, C#, Java, Ruby, PHP, NodeJS, Go, Android and Swift languages so far.
 
 Aspose.Words Cloud has provided the simplest API to split a Word document within MS Word documents or other file formats.
+
 ## Resource URI
+
 [Swagger UI](https://apireference.aspose.cloud/words/#/Split/SplitDocument) lets you call this REST API directly from the browser. The description of the important parameters of the API is given below:
 
 |Parameter Name|Type|Description|
@@ -78,7 +80,9 @@ PUT <https://api.aspose.cloud/v4.0/words/TestSplitDocument.doc/split?from=2&to=
 Split all pages from the document into PDF format and zip files:
 
 PUT <https://api.aspose.cloud/v4.0/words/TestSplitDocument.doc/split?format=pdf&zipOutput=true>
+
 ## cURL Example
+
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 
 {{< tab tabNum="1" >}}
@@ -153,11 +157,17 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_doc.docx/split?from=2&to=3&for
 {{< /tab >}}
 
 {{< /tabs >}}
+
 ## SDKs
+
 Using an SDK is the best way to speed up the development. An SDK takes care of a lot of low-level details of making requests and handling responses and lets you focus on writing code specific to your particular project. Check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs along with working examples, to get you started in no time. Please check [Available SDKs](/available-sdks/) article to learn how to add an SDK to your project.
+
 ## SDK Examples
+
 Code examples for various SDKs are presented below:
+
 ### Split all Pages to new PDFs
+
 **Split all pages**
 
 {{< tabs tabTotal="9" tabID="4" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Python" tabName5="Ruby" tabName6="Node.js" tabName7="Android" tabName8="Swift" tabName9="Go" >}}
@@ -217,7 +227,9 @@ Code examples for various SDKs are presented below:
 {{< /tab >}}
 
 {{< /tabs >}}
+
 ### Split specific pages to new PDFs
+
 **Split specific pages**
 
 {{< tabs tabTotal="9" tabID="5" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Python" tabName5="Ruby" tabName6="Node.js" tabName7="Android" tabName8="Swift" tabName9="Go" >}}
@@ -277,7 +289,9 @@ Code examples for various SDKs are presented below:
 {{< /tab >}}
 
 {{< /tabs >}}
+
 ### Split specific pages to any Supported Format
+
 **split document to any format**
 
 {{< tabs tabTotal="9" tabID="6" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Python" tabName5="Ruby" tabName6="Node.js" tabName7="Android" tabName8="Swift" tabName9="Go" >}}
