@@ -253,6 +253,7 @@ PNG File
 
 {{< /tabs >}}
 ## SDK Examples
+Code examples for various SDKs are presented below:
 **Case 1: Renders Page to Specified Format**
 
 {{< tabs tabTotal="7" tabID="16" tabName1="C#" tabName2="Java" tabName3="Python" tabName4="Ruby" tabName5="Node.js" tabName6="Android" tabName7="Swift" >}}
