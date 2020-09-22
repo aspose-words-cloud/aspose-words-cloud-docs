@@ -11,7 +11,6 @@ This REST API allows you to get a list of all runs that are contained in the spe
 ## Resource URI
 
 ```java
-
 ~/{file-name}/{paragraphPath}/runs/
 
 ```
@@ -31,7 +30,6 @@ This REST API allows you to get a list of all runs that are contained in the spe
 {{< tabs tabTotal="2" tabID="2" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
 ```java
-
 // Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
 // Place App_Key in "client_secret" and App_SID in "client_id" argument.
 
@@ -54,7 +52,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/GetField.docx/sections/0/paragraphs
 {{< /tab >}}
 {{< tab tabNum="2" >}}
 ```java
-
 {
   "Runs": {
     "List": [

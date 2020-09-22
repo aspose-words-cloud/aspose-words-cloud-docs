@@ -19,7 +19,6 @@ This REST API allows you to Update Style on Document Element. Please note that t
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
 ```java
-
 // Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
 // Place App_Key in "client_secret" and App_SID in "client_id" argument.
 
@@ -44,7 +43,6 @@ curl -X PUT "https://api.aspose.cloud/v4.0/words/Run.doc/styles/Heading%201/upda
 {{< /tab >}}
 {{< tab tabNum="2" >}}
 ```java
-
 {
   "Style": {
     "Font": {

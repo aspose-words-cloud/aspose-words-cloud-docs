@@ -18,7 +18,6 @@ This REST API allows you to get one of the OfficeMath objects that are defined 
 ## Resource URI
 
 ```java
-
 ~/{file-name}/officeMathObjects/{index}
 ~/{file-name}/{nodePath}/officeMathObjects/{index}
 ```
@@ -39,7 +38,6 @@ This REST API allows you to get one of the OfficeMath objects that are defined 
 {{< tabs tabTotal="2" tabID="2" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
 ```java
-
 // Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
 // Place App_Key in "client_secret" and App_SID in "client_id" argument.
 
@@ -62,7 +60,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/MathObjects.docx/OfficeMathObjects/
 {{< /tab >}}
 {{< tab tabNum="2" >}}
 ```java
-
 {
   "OfficeMathObject": {
     "Content": {

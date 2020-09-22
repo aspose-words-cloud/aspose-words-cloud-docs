@@ -48,7 +48,6 @@ This REST API allows you to get a particular drawing object from the document. Y
 {{< tabs tabTotal="2" tabID="2" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
 ```java
-
 // First get Access Token
 // Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
 // Place App_Key in "client_secret" and App_SID in "client_id" argument.
@@ -73,7 +72,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/drawingObject
 {{< /tab >}}
 {{< tab tabNum="2" >}}
 ```java
-
 drawingObject.png file
 
 ```

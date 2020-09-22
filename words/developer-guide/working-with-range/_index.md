@@ -110,7 +110,6 @@ First, he needs to call [Paragraph API](https://apireference.aspose.cloud/words/
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
 ```java
-
 // Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
 // Place App_Key in "client_secret" and App_SID in "client_id" argument.
 
@@ -133,7 +132,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/paragraphs" \
 {{< /tab >}}
 {{< tab tabNum="2" >}}
 ```java
-
 {
   "Paragraphs": {
     "ParagraphLinkList": [
@@ -181,7 +179,6 @@ He sees that the first two paragraphs correspond to id0.0 and id0.2 (NodeId in t
 {{< tabs tabTotal="2" tabID="4" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
 ```java
-
 // cURL example to get the text from the range.
 
 curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/range/id0.0/id0.2:end" \
@@ -195,7 +192,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/range/id0.0/id0.2:e
 {{< /tab >}}
 {{< tab tabNum="2" >}}
 ```java
-
 {
   "Text": "You might find it useful to extract only the text from a document. This is useful if you are passing the text to another API service. All the text in a document is contained in text runs of paragraph elements. Text can appear in three types of the document's structural elements.  The resulting dump can help you understand the structure of Google Docs files in general, or help you troubleshoot issues around the structure and content of a particular document. "
 
@@ -211,7 +207,6 @@ First, he needs to call [Paragraph API](https://apireference.aspose.cloud/words/
 {{< tabs tabTotal="2" tabID="7" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
 ```java
-
 // Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
 // Place App_Key in "client_secret" and App_SID in "client_id" argument.
 
@@ -234,7 +229,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/paragraphs" \
 {{< /tab >}}
 {{< tab tabNum="2" >}}
 ```java
-
 {
   "Paragraphs": {
     "ParagraphLinkList": [
@@ -282,7 +276,6 @@ Now, he calls the following API to save the first two paragraphs (correspond to 
 {{< tabs tabTotal="2" tabID="10" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
 ```java
-
 // cURL example to save the selected range as a new document.
 
 curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/range/id0.0/id0.2:end/saveas" \
@@ -297,7 +290,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/range/id0.0/id0.2:e
 {{< /tab >}}
 {{< tab tabNum="2" >}}
 ```java
-
 {
   "Document": {
     "Links": [

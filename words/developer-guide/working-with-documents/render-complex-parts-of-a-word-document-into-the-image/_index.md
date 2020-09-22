@@ -47,7 +47,6 @@ The following formats are supported:
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
 ```java
-
 // Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
 // Place App_Key in "client_secret" and App_SID in "client_id" argument.
 
@@ -71,7 +70,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/pages/1/ren
 {{< /tab >}}
 {{< tab tabNum="2" >}}
 ```java
-
 BMP File
 
 ```
@@ -83,7 +81,6 @@ BMP File
 {{< tabs tabTotal="2" tabID="4" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
 ```java
-
 // Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
 // Place App_Key in "client_secret" and App_SID in "client_id" argument.
 
@@ -107,7 +104,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs/0/
 {{< /tab >}}
 {{< tab tabNum="2" >}}
 ```java
-
 PNG File
 
 ```
@@ -119,7 +115,6 @@ PNG File
 {{< tabs tabTotal="2" tabID="7" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
 ```java
-
 // Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
 // Place App_Key in "client_secret" and App_SID in "client_id" argument.
 
@@ -143,7 +138,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/TablesGet.docx/tables/0/render?form
 {{< /tab >}}
 {{< tab tabNum="2" >}}
 ```java
-
 PNG File
 
 ```
@@ -155,7 +149,6 @@ PNG File
 {{< tabs tabTotal="2" tabID="10" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
 ```java
-
 // Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
 // Place App_Key in "client_secret" and App_SID in "client_id" argument.
 
@@ -179,7 +172,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/drawingObject
 {{< /tab >}}
 {{< tab tabNum="2" >}}
 ```java
-
 PDF File
 
 ```
@@ -191,7 +183,6 @@ PDF File
 {{< tabs tabTotal="2" tabID="13" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
 ```java
-
 // Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
 // Place App_Key in "client_secret" and App_SID in "client_id" argument.
 
@@ -215,7 +206,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/MathObjects.docx/OfficeMathObjects/
 {{< /tab >}}
 {{< tab tabNum="2" >}}
 ```java
-
 PNG File
 
 ```

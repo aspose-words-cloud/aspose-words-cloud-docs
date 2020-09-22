@@ -11,7 +11,6 @@ This REST API allows you to get a header/footer that is contained in a document.
 ## Resource URI
 
 ```java
-
 ~/{file-name}/headersFooters/{index}
 ~/{file-name}/sections/{sectionIndex}/headersFooters/{index}
 ```
@@ -29,7 +28,6 @@ This REST API allows you to get a header/footer that is contained in a document.
 {{< tabs tabTotal="2" tabID="2" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
 ```java
-
 // Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
 // Place App_Key in "client_secret" and App_SID in "client_id" argument.
 
@@ -52,7 +50,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/HeadersFooters.doc/headersfooters/0
 {{< /tab >}}
 {{< tab tabNum="2" >}}
 ```java
-
 {
   "HeaderFooter": {
     "Paragraphs": {
@@ -95,7 +92,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/HeadersFooters.doc/headersfooters/0
 {{< tabs tabTotal="2" tabID="5" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
 ```java
-
 // Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
 // Place App_Key in "client_secret" and App_SID in "client_id" argument.
 
@@ -118,7 +114,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/HeadersFooters.doc/sections/0/heade
 {{< /tab >}}
 {{< tab tabNum="2" >}}
 ```java
-
 {
   "HeaderFooter": {
     "Paragraphs": {

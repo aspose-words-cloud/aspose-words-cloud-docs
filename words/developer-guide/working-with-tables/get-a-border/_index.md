@@ -28,7 +28,6 @@ The REST API allows you to get a border. The API returns a JSON/XML representati
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
 ```java
-
 // Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
 // Place App_Key in "client_secret" and App_SID in "client_id" argument.
 
@@ -51,7 +50,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/TablesGet.docx/tables/1/rows/0/cell
 {{< /tab >}}
 {{< tab tabNum="2" >}}
 ```java
-
 {
   "Border": {
     "BorderType": "Left",

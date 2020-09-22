@@ -87,7 +87,6 @@ After you have installed the Aspose.Words Cloud for Salesforce it is really simp
 **MailMerge.page**
 
 ```java
-
 <apex:page controller="MailMergeController">
 
 <apex:form id="theForm">
@@ -177,7 +176,6 @@ After you have installed the Aspose.Words Cloud for Salesforce it is really simp
 **MailMergeController.cls**
 
 ```java
-
 public with sharing class MailMergeController {
     public string appSID {get; set;}
     public string appKey {get; set;}
@@ -208,7 +206,6 @@ public with sharing class MailMergeController {
 **MailMerge.cls**
 
 ```java
-
 public with sharing class MailMerge {
     public string apiResponse {get; set;}
     public String ExecuteMailMerege(String FileName, String dataFile, SaveFormat outFormat) {
@@ -265,7 +262,6 @@ public with sharing class MailMerge {
 **Product.cls**
 
 ```java
-
 public with sharing class Product {
     public static String BaseProductUri { get; set; }
 }
@@ -274,7 +270,6 @@ public with sharing class Product {
 **AsposeCloudApp.cls**
 
 ```java
-
 public with sharing class AsposeCloudApp {
     public static String AppSID { get; set; }
     public static String AppKey { get; set; }
@@ -290,7 +285,6 @@ public with sharing class AsposeCloudApp {
 **Utils.cls**
 
 ```java
-
 public with sharing class Utils {
     public static String Sign(String data) {
         String HMAC_SHA1 = 'HmacSHA1';

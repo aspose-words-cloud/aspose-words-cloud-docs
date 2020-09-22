@@ -19,7 +19,6 @@ This REST API allows you to delete all Paragraph Tab Stops in a Document. Pleas
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
 ```java
-
 // Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
 // Place App_Key in "client_secret" and App_SID in "client_id" argument.
 
@@ -42,7 +41,6 @@ curl -X DELETE "https://api.aspose.cloud/v4.0/words/ParagraphTabStops.docx/secti
 {{< /tab >}}
 {{< tab tabNum="2" >}}
 ```java
-
  {
   "TabStops": [],
   "RequestId": "Root=1-5ee5043a-efea5b92b280c903d2788739"

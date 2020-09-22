@@ -66,7 +66,6 @@ The page contains release notes for Aspose.Words Cloud 20.8 – [API Reference]
 - Added new api method
 
 ```java
-
 {name}/compatibility/optimize
 
 ```

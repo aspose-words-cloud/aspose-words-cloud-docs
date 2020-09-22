@@ -67,7 +67,6 @@ You can download the latest source code at:
 Execute MailMerge on Cloud file:
 
 ```java
-
         private string ExecuteMailMerge(CloudAppConfig Config, string Xml)
 
         {

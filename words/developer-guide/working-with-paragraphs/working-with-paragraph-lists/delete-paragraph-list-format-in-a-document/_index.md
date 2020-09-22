@@ -19,7 +19,6 @@ This REST API allows you to Delete Paragraph List Format in a Document. Please 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
 ```java
-
 // Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
 // Place App_Key in "client_secret" and App_SID in "client_id" argument.
 
@@ -42,7 +41,6 @@ curl -X DELETE "https://api.aspose.cloud/v4.0/words/ParagraphGetListFormat.doc/s
 {{< /tab >}}
 {{< tab tabNum="2" >}}
 ```java
-
   "ListFormat": {
     "ListLevelNumber": 0,
     "IsListItem": false,
