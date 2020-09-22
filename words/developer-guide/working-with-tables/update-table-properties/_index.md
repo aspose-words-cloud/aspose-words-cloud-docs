@@ -35,7 +35,6 @@ This REST API allows you to update table properties and returns updated data in 
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
-
 ```java
 
 // Please get your App_Key and App_SID from https://dashboard.aspose.cloud/#/apps. Place your App_Key in "client_secret" and App_SID in "client_id" argument.
@@ -59,13 +58,10 @@ curl -v "https://api.aspose.cloud/v4.0/words/TablesGet.docx/tables/1/properties"
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
-
 ```java
 
 {
-
   "Properties": {
-
     "Alignment": "Right",
     "AllowAutoFit": false,
     "Bidi": true,
@@ -74,7 +70,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/TablesGet.docx/tables/1/properties"
     "LeftIndent": 3.0,
     "LeftPadding": 4.0,
     "PreferredWidth": {
-
       "Type": "Auto",
       "Value": 0.0
 
@@ -86,28 +81,24 @@ curl -v "https://api.aspose.cloud/v4.0/words/TablesGet.docx/tables/1/properties"
     "TextWrapping": "None",
     "TopPadding": 6.0,
     "link": {
-
       "Href": "http://api.aspose.cloud/v4.0/words/TablesGet.docx/sections/0/tables/1/properties",
       "Rel": "self",
       "Type": null,
       "Title": null
 
     }
-
   },
   "Code": 200,
   "Status": "OK"
 
 }
-
 ```
 
 {{< /tab >}}
 {{< /tabs >}}
-
 ## SDK Source
 
-Using an SDK (API client) is the quickest way for a developer to speed up the development. An SDK takes care of a lot of low-level details of making requests and handling responses and lets you focus on writing code specific to your particular project. Check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs along with working examples, to get you started in no time. Please check [Available SDKs](/available-sdks/) article to learn how to add an SDK to your project.
+Using an SDK (API client) is the quickest way for a developer to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs, supplied with short and clear code examples.
 
 ## SDK Examples
 

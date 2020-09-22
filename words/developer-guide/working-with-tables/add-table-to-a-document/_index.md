@@ -22,7 +22,6 @@ This REST API allows you to add a table to a document, and returns added table's
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
-
 ```java
 
 // Please get your App_Key and App_SID from https://dashboard.aspose.cloud/#/apps. Place your App_Key in "client_secret" and App_SID in "client_id" argument.
@@ -46,397 +45,295 @@ curl -v "https://api.aspose.cloud/v4.0/words/TablesGet.docx/tables" \
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
-
 ```java
 
 {
-
   "Table": {
-
     "TableRowList": [
-
       {
-
         "TableCellList": [
-
           {
-
             "ChildNodes": [
-
               {
-
                 "Text": "",
                 "NodeId": "0.9.0.0.0",
                 "link": {
-
                   "Href": "http://api.aspose.cloud/v4.0/words/TablesGet.docx/sections/0/tables/4/rows/0/cells/0/paragraphs/0",
                   "Rel": "self",
                   "Type": null,
                   "Title": null
 
                 }
-
               }
-
             ],
             "NodeId": "0.9.0.0",
             "link": {
-
               "Href": "http://api.aspose.cloud/v4.0/words/TablesGet.docx/sections/0/tables/4/rows/0/cells/0",
               "Rel": "self",
               "Type": null,
               "Title": null
 
             }
-
           },
           {
-
             "ChildNodes": [
-
               {
-
                 "Text": "",
                 "NodeId": "0.9.0.1.0",
                 "link": {
-
                   "Href": "http://api.aspose.cloud/v4.0/words/TablesGet.docx/sections/0/tables/4/rows/0/cells/1/paragraphs/0",
                   "Rel": "self",
                   "Type": null,
                   "Title": null
 
                 }
-
               }
-
             ],
             "NodeId": "0.9.0.1",
             "link": {
-
               "Href": "http://api.aspose.cloud/v4.0/words/TablesGet.docx/sections/0/tables/4/rows/0/cells/1",
               "Rel": "self",
               "Type": null,
               "Title": null
 
             }
-
           },
           {
-
             "ChildNodes": [
-
               {
-
                 "Text": "",
                 "NodeId": "0.9.0.2.0",
                 "link": {
-
                   "Href": "http://api.aspose.cloud/v4.0/words/TablesGet.docx/sections/0/tables/4/rows/0/cells/2/paragraphs/0",
                   "Rel": "self",
                   "Type": null,
                   "Title": null
 
                 }
-
               }
-
             ],
             "NodeId": "0.9.0.2",
             "link": {
-
               "Href": "http://api.aspose.cloud/v4.0/words/TablesGet.docx/sections/0/tables/4/rows/0/cells/2",
               "Rel": "self",
               "Type": null,
               "Title": null
 
             }
-
           }
-
         ],
         "RowFormat": {
-
           "Height": 0.0,
           "HeightRule": "Auto",
           "AllowBreakAcrossPages": true,
           "HeadingFormat": false,
           "link": {
-
             "Href": "http://api.aspose.cloud/v4.0/words/TablesGet.docx/sections/0/tables/4/rows/0/rowformat",
             "Rel": "self",
             "Type": null,
             "Title": null
 
           }
-
         },
         "NodeId": "0.9.0",
         "link": {
-
           "Href": "http://api.aspose.cloud/v4.0/words/TablesGet.docx/sections/0/tables/4/rows/0",
           "Rel": "self",
           "Type": null,
           "Title": null
 
         }
-
       },
       {
-
         "TableCellList": [
-
           {
-
             "ChildNodes": [
-
               {
-
                 "Text": "",
                 "NodeId": "0.9.1.0.0",
                 "link": {
-
                   "Href": "http://api.aspose.cloud/v4.0/words/TablesGet.docx/sections/0/tables/4/rows/1/cells/0/paragraphs/0",
                   "Rel": "self",
                   "Type": null,
                   "Title": null
 
                 }
-
               }
-
             ],
             "NodeId": "0.9.1.0",
             "link": {
-
               "Href": "http://api.aspose.cloud/v4.0/words/TablesGet.docx/sections/0/tables/4/rows/1/cells/0",
               "Rel": "self",
               "Type": null,
               "Title": null
 
             }
-
           },
           {
-
             "ChildNodes": [
-
               {
-
                 "Text": "",
                 "NodeId": "0.9.1.1.0",
                 "link": {
-
                   "Href": "http://api.aspose.cloud/v4.0/words/TablesGet.docx/sections/0/tables/4/rows/1/cells/1/paragraphs/0",
                   "Rel": "self",
                   "Type": null,
                   "Title": null
 
                 }
-
               }
-
             ],
             "NodeId": "0.9.1.1",
             "link": {
-
               "Href": "http://api.aspose.cloud/v4.0/words/TablesGet.docx/sections/0/tables/4/rows/1/cells/1",
               "Rel": "self",
               "Type": null,
               "Title": null
 
             }
-
           },
           {
-
             "ChildNodes": [
-
               {
-
                 "Text": "",
                 "NodeId": "0.9.1.2.0",
                 "link": {
-
                   "Href": "http://api.aspose.cloud/v4.0/words/TablesGet.docx/sections/0/tables/4/rows/1/cells/2/paragraphs/0",
                   "Rel": "self",
                   "Type": null,
                   "Title": null
 
                 }
-
               }
-
             ],
             "NodeId": "0.9.1.2",
             "link": {
-
               "Href": "http://api.aspose.cloud/v4.0/words/TablesGet.docx/sections/0/tables/4/rows/1/cells/2",
               "Rel": "self",
               "Type": null,
               "Title": null
 
             }
-
           }
-
         ],
         "RowFormat": {
-
           "Height": 0.0,
           "HeightRule": "Auto",
           "AllowBreakAcrossPages": true,
           "HeadingFormat": false,
           "link": {
-
             "Href": "http://api.aspose.cloud/v4.0/words/TablesGet.docx/sections/0/tables/4/rows/1/rowformat",
             "Rel": "self",
             "Type": null,
             "Title": null
 
           }
-
         },
         "NodeId": "0.9.1",
         "link": {
-
           "Href": "http://api.aspose.cloud/v4.0/words/TablesGet.docx/sections/0/tables/4/rows/1",
           "Rel": "self",
           "Type": null,
           "Title": null
 
         }
-
       },
       {
-
         "TableCellList": [
-
           {
-
             "ChildNodes": [
-
               {
-
                 "Text": "",
                 "NodeId": "0.9.2.0.0",
                 "link": {
-
                   "Href": "http://api.aspose.cloud/v4.0/words/TablesGet.docx/sections/0/tables/4/rows/2/cells/0/paragraphs/0",
                   "Rel": "self",
                   "Type": null,
                   "Title": null
 
                 }
-
               }
-
             ],
             "NodeId": "0.9.2.0",
             "link": {
-
               "Href": "http://api.aspose.cloud/v4.0/words/TablesGet.docx/sections/0/tables/4/rows/2/cells/0",
               "Rel": "self",
               "Type": null,
               "Title": null
 
             }
-
           },
           {
-
             "ChildNodes": [
-
               {
-
                 "Text": "",
                 "NodeId": "0.9.2.1.0",
                 "link": {
-
                   "Href": "http://api.aspose.cloud/v4.0/words/TablesGet.docx/sections/0/tables/4/rows/2/cells/1/paragraphs/0",
                   "Rel": "self",
                   "Type": null,
                   "Title": null
 
                 }
-
               }
-
             ],
             "NodeId": "0.9.2.1",
             "link": {
-
               "Href": "http://api.aspose.cloud/v4.0/words/TablesGet.docx/sections/0/tables/4/rows/2/cells/1",
               "Rel": "self",
               "Type": null,
               "Title": null
 
             }
-
           },
           {
-
             "ChildNodes": [
-
               {
-
                 "Text": "",
                 "NodeId": "0.9.2.2.0",
                 "link": {
-
                   "Href": "http://api.aspose.cloud/v4.0/words/TablesGet.docx/sections/0/tables/4/rows/2/cells/2/paragraphs/0",
                   "Rel": "self",
                   "Type": null,
                   "Title": null
 
                 }
-
               }
-
             ],
             "NodeId": "0.9.2.2",
             "link": {
-
               "Href": "http://api.aspose.cloud/v4.0/words/TablesGet.docx/sections/0/tables/4/rows/2/cel\* Connection #0 to host api.aspose.cloud left intact ls/2",
               "Rel": "self",
               "Type": null,
               "Title": null
 
             }
-
           }
-
         ],
         "RowFormat": {
-
           "Height": 0.0,
           "HeightRule": "Auto",
           "AllowBreakAcrossPages": true,
           "HeadingFormat": false,
           "link": {
-
             "Href": "http://api.aspose.cloud/v4.0/words/TablesGet.docx/sections/0/tables/4/rows/2/rowformat",
             "Rel": "self",
             "Type": null,
             "Title": null
 
           }
-
         },
         "NodeId": "0.9.2",
         "link": {
-
           "Href": "http://api.aspose.cloud/v4.0/words/TablesGet.docx/sections/0/tables/4/rows/2",
           "Rel": "self",
           "Type": null,
           "Title": null
 
         }
-
       }
-
     ],
     "TableProperties": {
-
       "Alignment": "Left",
       "AllowAutoFit": true,
       "Bidi": false,
@@ -445,7 +342,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/TablesGet.docx/tables" \
       "LeftIndent": 0.0,
       "LeftPadding": 5.4,
       "PreferredWidth": {
-
         "Type": "Percent",
         "Value": 100.0
 
@@ -457,39 +353,33 @@ curl -v "https://api.aspose.cloud/v4.0/words/TablesGet.docx/tables" \
       "TextWrapping": "None",
       "TopPadding": 0.0,
       "link": {
-
         "Href": "http://api.aspose.cloud/v4.0/words/TablesGet.docx/sections/0/tables/4/properties",
         "Rel": "self",
         "Type": null,
         "Title": null
 
       }
-
     },
     "NodeId": "0.9",
     "link": {
-
       "Href": "http://api.aspose.cloud/v4.0/words/TablesGet.docx/sections/0/tables/4",
       "Rel": "self",
       "Type": null,
       "Title": null
 
     }
-
   },
   "Code": 200,
   "Status": "OK"
 
 }
-
 ```
 
 {{< /tab >}}
 {{< /tabs >}}
-
 ## SDK Source
 
-Using an SDK (API client) is the quickest way for a developer to speed up the development. An SDK takes care of a lot of low-level details of making requests and handling responses and lets you focus on writing code specific to your particular project. Check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs along with working examples, to get you started in no time. Please check [Available SDKs](/available-sdks/) article to learn how to add an SDK to your project.
+Using an SDK (API client) is the quickest way for a developer to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs, supplied with short and clear code examples.
 
 ## SDK Examples
 

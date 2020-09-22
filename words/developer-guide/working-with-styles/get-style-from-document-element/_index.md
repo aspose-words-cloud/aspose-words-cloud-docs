@@ -18,7 +18,6 @@ This REST API allows you to Get Style from Document Element. Please note that th
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
-
 ```java
 
 // Please get your App_Key and App_SID from https://dashboard.aspose.cloud/#/apps. Place your App_Key in "client_secret" and App_SID in "client_id" argument.
@@ -41,25 +40,18 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
-
 ```java
 
 {
-
   "Styles": [
-
     {
-
       "Font": {
-
         "AllCaps": false,
         "Bidi": false,
         "Bold": false,
         "BoldBi": false,
         "Border": {
-
           "Color": {
-
             "Web": "",
             "Alpha": 0
 
@@ -71,7 +63,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
 
         },
         "Color": {
-
           "Web": "",
           "Alpha": 0
 
@@ -82,7 +73,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
         "Engrave": false,
         "Hidden": false,
         "HighlightColor": {
-
           "Web": "",
           "Alpha": 0
 
@@ -115,12 +105,10 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
         "TextEffect": "None",
         "Underline": "None",
         "UnderlineColor": {
-
           "Web": "",
           "Alpha": 0
 
         }
-
       },
       "BuiltIn": true,
       "NextParagraphStyleName": "Balloon Text",
@@ -132,25 +120,19 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
       "StyleIdentifier": "BalloonText",
       "Name": "Balloon Text",
       "link": {
-
         "Href": "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/styles/Balloon Text",
         "Rel": "self"
 
       }
-
     },
     {
-
       "Font": {
-
         "AllCaps": false,
         "Bidi": false,
         "Bold": false,
         "BoldBi": false,
         "Border": {
-
           "Color": {
-
             "Web": "",
             "Alpha": 0
 
@@ -162,7 +144,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
 
         },
         "Color": {
-
           "Web": "",
           "Alpha": 0
 
@@ -173,7 +154,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
         "Engrave": false,
         "Hidden": false,
         "HighlightColor": {
-
           "Web": "",
           "Alpha": 0
 
@@ -206,12 +186,10 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
         "TextEffect": "None",
         "Underline": "None",
         "UnderlineColor": {
-
           "Web": "",
           "Alpha": 0
 
         }
-
       },
       "BuiltIn": false,
       "NextParagraphStyleName": "Balloon Text Char",
@@ -223,25 +201,19 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
       "StyleIdentifier": "User",
       "Name": "Balloon Text Char",
       "link": {
-
         "Href": "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/styles/Balloon Text Char",
         "Rel": "self"
 
       }
-
     },
     {
-
       "Font": {
-
         "AllCaps": false,
         "Bidi": false,
         "Bold": false,
         "BoldBi": false,
         "Border": {
-
           "Color": {
-
             "Web": "",
             "Alpha": 0
 
@@ -253,7 +225,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
 
         },
         "Color": {
-
           "Web": "#000000"
 
         },
@@ -263,7 +234,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
         "Engrave": false,
         "Hidden": false,
         "HighlightColor": {
-
           "Web": "",
           "Alpha": 0
 
@@ -296,12 +266,10 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
         "TextEffect": "None",
         "Underline": "None",
         "UnderlineColor": {
-
           "Web": "",
           "Alpha": 0
 
         }
-
       },
       "BuiltIn": false,
       "NextParagraphStyleName": "Body",
@@ -313,25 +281,19 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
       "StyleIdentifier": "User",
       "Name": "Body",
       "link": {
-
         "Href": "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/styles/Body",
         "Rel": "self"
 
       }
-
     },
     {
-
       "Font": {
-
         "AllCaps": false,
         "Bidi": false,
         "Bold": false,
         "BoldBi": false,
         "Border": {
-
           "Color": {
-
             "Web": "",
             "Alpha": 0
 
@@ -343,7 +305,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
 
         },
         "Color": {
-
           "Web": "",
           "Alpha": 0
 
@@ -354,7 +315,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
         "Engrave": false,
         "Hidden": false,
         "HighlightColor": {
-
           "Web": "",
           "Alpha": 0
 
@@ -387,12 +347,10 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
         "TextEffect": "None",
         "Underline": "None",
         "UnderlineColor": {
-
           "Web": "",
           "Alpha": 0
 
         }
-
       },
       "BuiltIn": true,
       "NextParagraphStyleName": "Comment Reference",
@@ -404,25 +362,19 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
       "StyleIdentifier": "CommentReference",
       "Name": "Comment Reference",
       "link": {
-
         "Href": "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/styles/Comment Reference",
         "Rel": "self"
 
       }
-
     },
     {
-
       "Font": {
-
         "AllCaps": false,
         "Bidi": false,
         "Bold": true,
         "BoldBi": true,
         "Border": {
-
           "Color": {
-
             "Web": "",
             "Alpha": 0
 
@@ -434,7 +386,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
 
         },
         "Color": {
-
           "Web": "",
           "Alpha": 0
 
@@ -445,7 +396,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
         "Engrave": false,
         "Hidden": false,
         "HighlightColor": {
-
           "Web": "",
           "Alpha": 0
 
@@ -478,12 +428,10 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
         "TextEffect": "None",
         "Underline": "None",
         "UnderlineColor": {
-
           "Web": "",
           "Alpha": 0
 
         }
-
       },
       "BuiltIn": true,
       "NextParagraphStyleName": "Comment Text",
@@ -495,25 +443,19 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
       "StyleIdentifier": "CommentSubject",
       "Name": "Comment Subject",
       "link": {
-
         "Href": "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/styles/Comment Subject",
         "Rel": "self"
 
       }
-
     },
     {
-
       "Font": {
-
         "AllCaps": false,
         "Bidi": false,
         "Bold": true,
         "BoldBi": true,
         "Border": {
-
           "Color": {
-
             "Web": "",
             "Alpha": 0
 
@@ -525,7 +467,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
 
         },
         "Color": {
-
           "Web": "",
           "Alpha": 0
 
@@ -536,7 +477,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
         "Engrave": false,
         "Hidden": false,
         "HighlightColor": {
-
           "Web": "",
           "Alpha": 0
 
@@ -569,12 +509,10 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
         "TextEffect": "None",
         "Underline": "None",
         "UnderlineColor": {
-
           "Web": "",
           "Alpha": 0
 
         }
-
       },
       "BuiltIn": false,
       "NextParagraphStyleName": "Comment Subject Char",
@@ -586,25 +524,19 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
       "StyleIdentifier": "User",
       "Name": "Comment Subject Char",
       "link": {
-
         "Href": "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/styles/Comment Subject Char",
         "Rel": "self"
 
       }
-
     },
     {
-
       "Font": {
-
         "AllCaps": false,
         "Bidi": false,
         "Bold": false,
         "BoldBi": false,
         "Border": {
-
           "Color": {
-
             "Web": "",
             "Alpha": 0
 
@@ -616,7 +548,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
 
         },
         "Color": {
-
           "Web": "",
           "Alpha": 0
 
@@ -627,7 +558,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
         "Engrave": false,
         "Hidden": false,
         "HighlightColor": {
-
           "Web": "",
           "Alpha": 0
 
@@ -660,12 +590,10 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
         "TextEffect": "None",
         "Underline": "None",
         "UnderlineColor": {
-
           "Web": "",
           "Alpha": 0
 
         }
-
       },
       "BuiltIn": true,
       "NextParagraphStyleName": "Comment Text",
@@ -677,25 +605,19 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
       "StyleIdentifier": "CommentText",
       "Name": "Comment Text",
       "link": {
-
         "Href": "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/styles/Comment Text",
         "Rel": "self"
 
       }
-
     },
     {
-
       "Font": {
-
         "AllCaps": false,
         "Bidi": false,
         "Bold": false,
         "BoldBi": false,
         "Border": {
-
           "Color": {
-
             "Web": "",
             "Alpha": 0
 
@@ -707,7 +629,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
 
         },
         "Color": {
-
           "Web": "",
           "Alpha": 0
 
@@ -718,7 +639,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
         "Engrave": false,
         "Hidden": false,
         "HighlightColor": {
-
           "Web": "",
           "Alpha": 0
 
@@ -751,12 +671,10 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
         "TextEffect": "None",
         "Underline": "None",
         "UnderlineColor": {
-
           "Web": "",
           "Alpha": 0
 
         }
-
       },
       "BuiltIn": false,
       "NextParagraphStyleName": "Comment Text Char",
@@ -768,25 +686,19 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
       "StyleIdentifier": "User",
       "Name": "Comment Text Char",
       "link": {
-
         "Href": "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/styles/Comment Text Char",
         "Rel": "self"
 
       }
-
     },
     {
-
       "Font": {
-
         "AllCaps": false,
         "Bidi": false,
         "Bold": false,
         "BoldBi": false,
         "Border": {
-
           "Color": {
-
             "Web": "",
             "Alpha": 0
 
@@ -798,7 +710,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
 
         },
         "Color": {
-
           "Web": "",
           "Alpha": 0
 
@@ -809,7 +720,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
         "Engrave": false,
         "Hidden": false,
         "HighlightColor": {
-
           "Web": "",
           "Alpha": 0
 
@@ -842,12 +752,10 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
         "TextEffect": "None",
         "Underline": "None",
         "UnderlineColor": {
-
           "Web": "",
           "Alpha": 0
 
         }
-
       },
       "BuiltIn": true,
       "NextParagraphStyleName": "Default Paragraph Font",
@@ -859,25 +767,19 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
       "StyleIdentifier": "DefaultParagraphFont",
       "Name": "Default Paragraph Font",
       "link": {
-
         "Href": "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/styles/Default Paragraph Font",
         "Rel": "self"
 
       }
-
     },
     {
-
       "Font": {
-
         "AllCaps": false,
         "Bidi": false,
         "Bold": false,
         "BoldBi": false,
         "Border": {
-
           "Color": {
-
             "Web": "",
             "Alpha": 0
 
@@ -889,7 +791,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
 
         },
         "Color": {
-
           "Web": "",
           "Alpha": 0
 
@@ -900,7 +801,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
         "Engrave": false,
         "Hidden": false,
         "HighlightColor": {
-
           "Web": "",
           "Alpha": 0
 
@@ -933,12 +833,10 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
         "TextEffect": "None",
         "Underline": "None",
         "UnderlineColor": {
-
           "Web": "",
           "Alpha": 0
 
         }
-
       },
       "BuiltIn": true,
       "NextParagraphStyleName": "Footer",
@@ -950,25 +848,19 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
       "StyleIdentifier": "Footer",
       "Name": "Footer",
       "link": {
-
         "Href": "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/styles/Footer",
         "Rel": "self"
 
       }
-
     },
     {
-
       "Font": {
-
         "AllCaps": false,
         "Bidi": false,
         "Bold": false,
         "BoldBi": false,
         "Border": {
-
           "Color": {
-
             "Web": "",
             "Alpha": 0
 
@@ -980,7 +872,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
 
         },
         "Color": {
-
           "Web": "",
           "Alpha": 0
 
@@ -991,7 +882,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
         "Engrave": false,
         "Hidden": false,
         "HighlightColor": {
-
           "Web": "",
           "Alpha": 0
 
@@ -1024,12 +914,10 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
         "TextEffect": "None",
         "Underline": "None",
         "UnderlineColor": {
-
           "Web": "",
           "Alpha": 0
 
         }
-
       },
       "BuiltIn": false,
       "NextParagraphStyleName": "Footer Char",
@@ -1041,25 +929,19 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
       "StyleIdentifier": "User",
       "Name": "Footer Char",
       "link": {
-
         "Href": "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/styles/Footer Char",
         "Rel": "self"
 
       }
-
     },
     {
-
       "Font": {
-
         "AllCaps": false,
         "Bidi": false,
         "Bold": false,
         "BoldBi": false,
         "Border": {
-
           "Color": {
-
             "Web": "",
             "Alpha": 0
 
@@ -1071,7 +953,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
 
         },
         "Color": {
-
           "Web": "",
           "Alpha": 0
 
@@ -1082,7 +963,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
         "Engrave": false,
         "Hidden": false,
         "HighlightColor": {
-
           "Web": "",
           "Alpha": 0
 
@@ -1115,12 +995,10 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
         "TextEffect": "None",
         "Underline": "None",
         "UnderlineColor": {
-
           "Web": "",
           "Alpha": 0
 
         }
-
       },
       "BuiltIn": true,
       "NextParagraphStyleName": "Header",
@@ -1132,25 +1010,19 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
       "StyleIdentifier": "Header",
       "Name": "Header",
       "link": {
-
         "Href": "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/styles/Header",
         "Rel": "self"
 
       }
-
     },
     {
-
       "Font": {
-
         "AllCaps": false,
         "Bidi": false,
         "Bold": false,
         "BoldBi": false,
         "Border": {
-
           "Color": {
-
             "Web": "",
             "Alpha": 0
 
@@ -1162,7 +1034,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
 
         },
         "Color": {
-
           "Web": "",
           "Alpha": 0
 
@@ -1173,7 +1044,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
         "Engrave": false,
         "Hidden": false,
         "HighlightColor": {
-
           "Web": "",
           "Alpha": 0
 
@@ -1206,12 +1076,10 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
         "TextEffect": "None",
         "Underline": "None",
         "UnderlineColor": {
-
           "Web": "",
           "Alpha": 0
 
         }
-
       },
       "BuiltIn": false,
       "NextParagraphStyleName": "Header Char",
@@ -1223,25 +1091,19 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
       "StyleIdentifier": "User",
       "Name": "Header Char",
       "link": {
-
         "Href": "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/styles/Header Char",
         "Rel": "self"
 
       }
-
     },
     {
-
       "Font": {
-
         "AllCaps": false,
         "Bidi": false,
         "Bold": true,
         "BoldBi": true,
         "Border": {
-
           "Color": {
-
             "Web": "",
             "Alpha": 0
 
@@ -1253,7 +1115,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
 
         },
         "Color": {
-
           "Web": "",
           "Alpha": 0
 
@@ -1264,7 +1125,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
         "Engrave": false,
         "Hidden": false,
         "HighlightColor": {
-
           "Web": "",
           "Alpha": 0
 
@@ -1297,12 +1157,10 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
         "TextEffect": "None",
         "Underline": "None",
         "UnderlineColor": {
-
           "Web": "",
           "Alpha": 0
 
         }
-
       },
       "BuiltIn": true,
       "NextParagraphStyleName": "Normal",
@@ -1314,25 +1172,19 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
       "StyleIdentifier": "Heading1",
       "Name": "Heading 1",
       "link": {
-
         "Href": "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/styles/Heading 1",
         "Rel": "self"
 
       }
-
     },
     {
-
       "Font": {
-
         "AllCaps": false,
         "Bidi": false,
         "Bold": true,
         "BoldBi": true,
         "Border": {
-
           "Color": {
-
             "Web": "",
             "Alpha": 0
 
@@ -1344,7 +1196,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
 
         },
         "Color": {
-
           "Web": "",
           "Alpha": 0
 
@@ -1355,7 +1206,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
         "Engrave": false,
         "Hidden": false,
         "HighlightColor": {
-
           "Web": "",
           "Alpha": 0
 
@@ -1388,12 +1238,10 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
         "TextEffect": "None",
         "Underline": "None",
         "UnderlineColor": {
-
           "Web": "",
           "Alpha": 0
 
         }
-
       },
       "BuiltIn": false,
       "NextParagraphStyleName": "Heading 1 Char",
@@ -1405,25 +1253,19 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
       "StyleIdentifier": "User",
       "Name": "Heading 1 Char",
       "link": {
-
         "Href": "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/styles/Heading 1 Char",
         "Rel": "self"
 
       }
-
     },
     {
-
       "Font": {
-
         "AllCaps": false,
         "Bidi": false,
         "Bold": false,
         "BoldBi": false,
         "Border": {
-
           "Color": {
-
             "Web": "",
             "Alpha": 0
 
@@ -1435,7 +1277,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
 
         },
         "Color": {
-
           "Web": "",
           "Alpha": 0
 
@@ -1446,7 +1287,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
         "Engrave": false,
         "Hidden": false,
         "HighlightColor": {
-
           "Web": "",
           "Alpha": 0
 
@@ -1479,12 +1319,10 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
         "TextEffect": "None",
         "Underline": "Single",
         "UnderlineColor": {
-
           "Web": "",
           "Alpha": 0
 
         }
-
       },
       "BuiltIn": true,
       "NextParagraphStyleName": "Hyperlink",
@@ -1496,15 +1334,12 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
       "StyleIdentifier": "Hyperlink",
       "Name": "Hyperlink",
       "link": {
-
         "Href": "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/styles/Hyperlink",
         "Rel": "self"
 
       }
-
     },
     {
-
       "BuiltIn": true,
       "NextParagraphStyleName": "No List",
       "BaseStyleName": "",
@@ -1515,25 +1350,19 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
       "StyleIdentifier": "NoList",
       "Name": "No List",
       "link": {
-
         "Href": "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/styles/No List",
         "Rel": "self"
 
       }
-
     },
     {
-
       "Font": {
-
         "AllCaps": false,
         "Bidi": false,
         "Bold": false,
         "BoldBi": false,
         "Border": {
-
           "Color": {
-
             "Web": "",
             "Alpha": 0
 
@@ -1545,7 +1374,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
 
         },
         "Color": {
-
           "Web": "",
           "Alpha": 0
 
@@ -1556,7 +1384,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
         "Engrave": false,
         "Hidden": false,
         "HighlightColor": {
-
           "Web": "",
           "Alpha": 0
 
@@ -1589,12 +1416,10 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
         "TextEffect": "None",
         "Underline": "None",
         "UnderlineColor": {
-
           "Web": "",
           "Alpha": 0
 
         }
-
       },
       "BuiltIn": true,
       "NextParagraphStyleName": "Normal",
@@ -1606,25 +1431,19 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
       "StyleIdentifier": "Normal",
       "Name": "Normal",
       "link": {
-
         "Href": "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/styles/Normal",
         "Rel": "self"
 
       }
-
     },
     {
-
       "Font": {
-
         "AllCaps": false,
         "Bidi": false,
         "Bold": false,
         "BoldBi": false,
         "Border": {
-
           "Color": {
-
             "Web": "",
             "Alpha": 0
 
@@ -1636,7 +1455,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
 
         },
         "Color": {
-
           "Web": "",
           "Alpha": 0
 
@@ -1647,7 +1465,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
         "Engrave": false,
         "Hidden": false,
         "HighlightColor": {
-
           "Web": "",
           "Alpha": 0
 
@@ -1680,12 +1497,10 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
         "TextEffect": "None",
         "Underline": "None",
         "UnderlineColor": {
-
           "Web": "",
           "Alpha": 0
 
         }
-
       },
       "BuiltIn": true,
       "NextParagraphStyleName": "Page Number",
@@ -1697,25 +1512,19 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
       "StyleIdentifier": "PageNumber",
       "Name": "Page Number",
       "link": {
-
         "Href": "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/styles/Page Number",
         "Rel": "self"
 
       }
-
     },
     {
-
       "Font": {
-
         "AllCaps": false,
         "Bidi": false,
         "Bold": false,
         "BoldBi": false,
         "Border": {
-
           "Color": {
-
             "Web": "",
             "Alpha": 0
 
@@ -1727,7 +1536,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
 
         },
         "Color": {
-
           "Web": "",
           "Alpha": 0
 
@@ -1738,7 +1546,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
         "Engrave": false,
         "Hidden": false,
         "HighlightColor": {
-
           "Web": "",
           "Alpha": 0
 
@@ -1771,12 +1578,10 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
         "TextEffect": "None",
         "Underline": "None",
         "UnderlineColor": {
-
           "Web": "",
           "Alpha": 0
 
         }
-
       },
       "BuiltIn": true,
       "NextParagraphStyleName": "Table Normal",
@@ -1788,27 +1593,22 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
       "StyleIdentifier": "TableNormal",
       "Name": "Table Normal",
       "link": {
-
         "Href": "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/styles/Table Normal",
         "Rel": "self"
 
       }
-
     }
-
   ],
   "RequestId": "Root=1-5ee50b16-18036ec0d0b34f0c1810c8e0"
 
 }
-
 ```
 
 {{< /tab >}}
 {{< /tabs >}}
-
 ## SDKs
 
-Using an SDK is the best way to speed up the development. An SDK takes care of a lot of low-level details of making requests and handling responses and lets you focus on writing code specific to your particular project. Check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs along with working examples, to get you started in no time. Please check [Available SDKs](/available-sdks/) article to learn how to add an SDK to your project.
+Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs, supplied with short and clear code examples.
 
 ## SDK Examples
 

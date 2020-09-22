@@ -13,7 +13,6 @@ This REST API allows you to get one of the form fields contained in the paragrap
 ```html
 
 ~/{paragraph}/formfields/{formFieldIndex}
-
 ```
 
 [Swagger UI](https://apireference.aspose.cloud/words/#/FormFields/GetFormField) lets you call this REST API directly from the browser.  
@@ -24,7 +23,6 @@ This REST API allows you to get one of the form fields contained in the paragrap
 
 {{< tabs tabTotal="2" tabID="2" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
-
 ```java
 
 // Please get your App_Key and App_SID from https://dashboard.aspose.cloud/#/apps. Place your App_Key in "client_secret" and App_SID in "client_id" argument.
@@ -47,13 +45,10 @@ curl -v "https://api.aspose.cloud/v4.0/words/FormFilled.docx/sections/0/formfiel
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
-
 ```java
 
 {
-
   "FormField": {
-
     "NodeId": "0.1.0.0.0.1",
     "Name": "FullName",
     "Enabled": true,
@@ -69,14 +64,12 @@ curl -v "https://api.aspose.cloud/v4.0/words/FormFilled.docx/sections/0/formfiel
     "TextInputDefault": "123",
     "MaxLength": 0,
     "link": {
-
       "Href": "http://api.aspose.cloud/v4.0/words/FormFilled.docx/sections/0/tables/0/rows/0/cells/0/paragraphs/0/formfields/0",
       "Rel": "self",
       "Type": null,
       "Title": null
 
     }
-
   },
   "Code": 200,
   "Status": "OK"
@@ -87,10 +80,9 @@ curl -v "https://api.aspose.cloud/v4.0/words/FormFilled.docx/sections/0/formfiel
 
 {{< /tab >}}
 {{< /tabs >}}
-
 ## SDKs
 
-Using an SDK is the best way to speed up the development. An SDK takes care of a lot of low-level details of making requests and handling responses and lets you focus on writing code specific to your particular project. Check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs along with working examples, to get you started in no time. Please check [Available SDKs](/available-sdks/) article to learn how to add an SDK to your project.
+Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs, supplied with short and clear code examples.
 
 ## SDK Examples
 

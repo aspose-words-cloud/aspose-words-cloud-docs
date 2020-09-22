@@ -29,7 +29,6 @@ The description of the important API parameters is given below:
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
-
 ```java
 
 // Please get your App_Key and App_SID from https://dashboard.aspose.cloud/#/apps. Place your App_Key in "client_secret" and App_SID in "client_id" argument.
@@ -53,23 +52,17 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_doc.docx/appendDocument" \
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
-
 ```java
 
 {
-
   "Document": {
-
     "Links": [
-
       {
-
         "Href": "test_doc.docx",
         "Rel": "self"
 
       },
       {
-
         "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=doc",
         "Rel": "alternate",
         "Type": "application/msword",
@@ -77,7 +70,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_doc.docx/appendDocument" \
 
       },
       {
-
         "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=dot",
         "Rel": "alternate",
         "Type": "application/msword",
@@ -85,7 +77,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_doc.docx/appendDocument" \
 
       },
       {
-
         "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=docx",
         "Rel": "alternate",
         "Type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
@@ -93,7 +84,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_doc.docx/appendDocument" \
 
       },
       {
-
         "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=docm",
         "Rel": "alternate",
         "Type": "application/vnd.ms-word.document.macroEnabled.12",
@@ -101,7 +91,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_doc.docx/appendDocument" \
 
       },
       {
-
         "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=dotx",
         "Rel": "alternate",
         "Type": "application/vnd.openxmlformats-officedocument.wordprocessingml.template",
@@ -109,7 +98,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_doc.docx/appendDocument" \
 
       },
       {
-
         "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=dotm",
         "Rel": "alternate",
         "Type": "application/vnd.ms-word.template.macroEnabled.12",
@@ -117,7 +105,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_doc.docx/appendDocument" \
 
       },
       {
-
         "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=flatopc",
         "Rel": "alternate",
         "Type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
@@ -125,7 +112,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_doc.docx/appendDocument" \
 
       },
       {
-
         "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=rtf",
         "Rel": "alternate",
         "Type": "application/rtf",
@@ -133,7 +119,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_doc.docx/appendDocument" \
 
       },
       {
-
         "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=wml",
         "Rel": "alternate",
         "Type": "text/xml",
@@ -141,7 +126,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_doc.docx/appendDocument" \
 
       },
       {
-
         "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=odt",
         "Rel": "alternate",
         "Type": "application/vnd.oasis.opendocument.text",
@@ -149,7 +133,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_doc.docx/appendDocument" \
 
       },
       {
-
         "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=ott",
         "Rel": "alternate",
         "Type": "application/vnd.oasis.opendocument.text-template",
@@ -157,7 +140,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_doc.docx/appendDocument" \
 
       },
       {
-
         "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=txt",
         "Rel": "alternate",
         "Type": "text/plain",
@@ -165,7 +147,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_doc.docx/appendDocument" \
 
       },
       {
-
         "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=mhtml",
         "Rel": "alternate",
         "Type": "multipart/related",
@@ -173,7 +154,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_doc.docx/appendDocument" \
 
       },
       {
-
         "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=epub",
         "Rel": "alternate",
         "Type": "application/epub+zip",
@@ -181,7 +161,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_doc.docx/appendDocument" \
 
       },
       {
-
         "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=pdf",
         "Rel": "alternate",
         "Type": "application/pdf",
@@ -189,7 +168,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_doc.docx/appendDocument" \
 
       },
       {
-
         "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=xps",
         "Rel": "alternate",
         "Type": "application/vnd.ms-xpsdocument",
@@ -197,7 +175,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_doc.docx/appendDocument" \
 
       },
       {
-
         "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=tiff",
         "Rel": "alternate",
         "Type": "image/tiff",
@@ -205,7 +182,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_doc.docx/appendDocument" \
 
       },
       {
-
         "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=png",
         "Rel": "alternate",
         "Type": "image/png",
@@ -213,7 +189,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_doc.docx/appendDocument" \
 
       },
       {
-
         "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=jpeg",
         "Rel": "alternate",
         "Type": "image/jpeg",
@@ -221,7 +196,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_doc.docx/appendDocument" \
 
       },
       {
-
         "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=bmp",
         "Rel": "alternate",
         "Type": "image/bmp",
@@ -229,7 +203,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_doc.docx/appendDocument" \
 
       },
       {
-
         "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=gif",
         "Rel": "alternate",
         "Type": "image/gif",
@@ -237,7 +210,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_doc.docx/appendDocument" \
 
       },
       {
-
         "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=svg",
         "Rel": "alternate",
         "Type": "image/svg+xml",
@@ -245,7 +217,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_doc.docx/appendDocument" \
 
       },
       {
-
         "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=html",
         "Rel": "alternate",
         "Type": "text/html",
@@ -253,7 +224,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_doc.docx/appendDocument" \
 
       },
       {
-
         "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=htmlfixed",
         "Rel": "alternate",
         "Type": "text/html",
@@ -261,42 +231,33 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_doc.docx/appendDocument" \
 
       },
       {
-
         "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=pcl",
         "Rel": "alternate",
         "Type": "application/x-pcl",
         "Title": "Download as PCL"
 
       }
-
     ],
     "FileName": "test_doc.docx",
     "SourceFormat": "Docx",
     "IsEncrypted": false,
     "IsSigned": false,
     "DocumentProperties": {
-
       "link": {
-
         "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx/documentProperties",
         "Rel": "self"
 
       }
-
     }
-
   }
-
 }
-
 ```
 
 {{< /tab >}}
 {{< /tabs >}}
-
 ## SDKs
 
-Using an SDK is the best way to speed up the development. An SDK takes care of a lot of low-level details of making requests and handling responses and lets you focus on writing code specific to your particular project. Check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs along with working examples, to get you started in no time. Please check [Available SDKs](/available-sdks/) article to learn how to add an SDK to your project.
+Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs, supplied with short and clear code examples.
 
 ## SDK Examples
 
@@ -330,4 +291,3 @@ Code examples for various SDKs are presented below:
 {{< gist "aspose-cloud" "068ce2149de5ad69ab516209b7ae82cf" "Aspose_Cloud_Words_AppendaDocument.go" >}}
 {{< /tab >}}
 {{< /tabs >}}
-

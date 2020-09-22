@@ -18,7 +18,7 @@ This will give you **App SID** and **App Key** credentials, which you can use to
 
 ## Install the SDK of your choice
 
-Using an SDK (API client) is the quickest way to speed up the development. An SDK takes care of a lot of low-level details of making requests and handling responses and lets you focus on writing code specific to your particular project. Please check [Available SDKs](/available-sdks/) article to learn how to add an SDK to your project.
+Using an SDK (API client) is the quickest way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Please check [Available SDKs](/available-sdks/) article to learn how to add an SDK to your project.
 
 ## Make an API request from the SDK of your choice
 

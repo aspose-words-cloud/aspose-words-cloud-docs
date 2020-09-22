@@ -30,7 +30,6 @@ This REST API allows you to get all paragraphs that are contained in a document 
 
 {{< tabs tabTotal="2" tabID="2" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
-
 ```java
 
 // Please get your App_Key and App_SID from https://dashboard.aspose.cloud/#/apps. Place your App_Key in "client_secret" and App_SID in "client_id" argument.
@@ -53,362 +52,284 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs" \
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
-
 ```java
 
 {
-
   "Paragraphs": {
-
     "ParagraphLinkList": [
-
       {
-
         "Text": "3 of ",
         "NodeId": "0.0.0",
         "link": {
-
           "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/headersfooters/0/paragraphs/0",
           "Rel": "self",
           "Type": null,
           "Title": null
 
         }
-
       },
       {
-
         "Text": "3 of ",
         "NodeId": "0.0.1",
         "link": {
-
           "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/headersfooters/0/paragraphs/1",
           "Rel": "self",
           "Type": null,
           "Title": null
 
         }
-
       },
       {
-
         "Text": "3 of ",
         "NodeId": "0.0.2",
         "link": {
-
           "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/headersfooters/0/paragraphs/2",
           "Rel": "self",
           "Type": null,
           "Title": null
 
         }
-
       },
       {
-
         "Text": "Page  of ",
         "NodeId": "0.1.0",
         "link": {
-
           "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/headersfooters/1/paragraphs/0",
           "Rel": "self",
           "Type": null,
           "Title": null
 
         }
-
       },
       {
-
         "Text": "3 of 3",
         "NodeId": "0.1.1",
         "link": {
-
           "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/headersfooters/1/paragraphs/1",
           "Rel": "self",
           "Type": null,
           "Title": null
 
         }
-
       },
       {
-
         "Text": "3 of 3",
         "NodeId": "0.1.2",
         "link": {
-
           "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/headersfooters/1/paragraphs/2",
           "Rel": "self",
           "Type": null,
           "Title": null
 
         }
-
       },
       {
-
         "Text": "3 of ",
         "NodeId": "0.1.3",
         "link": {
-
           "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/headersfooters/1/paragraphs/3",
           "Rel": "self",
           "Type": null,
           "Title": null
 
         }
-
       },
       {
-
         "Text": "",
         "NodeId": "0.2.0",
         "link": {
-
           "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/headersfooters/2/paragraphs/0",
           "Rel": "self",
           "Type": null,
           "Title": null
 
         }
-
       },
       {
-
         "Text": "",
         "NodeId": "0.2.1",
         "link": {
-
           "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/headersfooters/2/paragraphs/1",
           "Rel": "self",
           "Type": null,
           "Title": null
 
         }
-
       },
       {
-
         "Text": "",
         "NodeId": "0.3.0",
         "link": {
-
           "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/headersfooters/3/paragraphs/0",
           "Rel": "self",
           "Type": null,
           "Title": null
 
         }
-
       },
       {
-
         "Text": "",
         "NodeId": "0.3.1",
         "link": {
-
           "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/headersfooters/3/paragraphs/1",
           "Rel": "self",
           "Type": null,
           "Title": null
 
         }
-
       },
       {
-
         "Text": "3 of ",
         "NodeId": "0.4.0",
         "link": {
-
           "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/headersfooters/4/paragraphs/0",
           "Rel": "self",
           "Type": null,
           "Title": null
 
         }
-
       },
       {
-
         "Text": "3 of ",
         "NodeId": "0.4.1",
         "link": {
-
           "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/headersfooters/4/paragraphs/1",
           "Rel": "self",
           "Type": null,
           "Title": null
 
         }
-
       },
       {
-
         "Text": "3 of ",
         "NodeId": "0.4.2",
         "link": {
-
           "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/headersfooters/4/paragraphs/2",
           "Rel": "self",
           "Type": null,
           "Title": null
 
         }
-
       },
       {
-
         "Text": "Testing Page 1A new Comment1",
         "NodeId": "0.0",
         "link": {
-
           "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/paragraphs/0",
           "Rel": "self",
           "Type": null,
           "Title": null
 
         }
-
       },
       {
-
         "Text": "A new Comment1",
         "NodeId": "2.0",
         "link": {
-
           "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/comments/0/paragraphs/0",
           "Rel": "self",
           "Type": null,
           "Title": null
 
         }
-
       },
       {
-
         "Text": "",
         "NodeId": "0.1",
         "link": {
-
           "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/paragraphs/1",
           "Rel": "self",
           "Type": null,
           "Title": null
 
         }
-
       },
       {
-
         "Text": "",
         "NodeId": "0.2",
         "link": {
-
           "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/paragraphs/2",
           "Rel": "self",
           "Type": null,
           "Title": null
 
         }
-
       },
       {
-
         "Text": "Heading",
         "NodeId": "0.3",
         "link": {
-
           "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/paragraphs/3",
           "Rel": "self",
           "Type": null,
           "Title": null
 
         }
-
       },
       {
-
         "Text": "",
         "NodeId": "0.4",
         "link": {
-
           "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/paragraphs/4",
           "Rel": "self",
           "Type": null,
           "Title": null
 
         }
-
       },
       {
-
         "Text": "This will be the text for AsposeTesting Page 2",
         "NodeId": "0.5",
         "link": {
-
           "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/paragraphs/5",
           "Rel": "self",
           "Type": null,
           "Title": null
 
         }
-
       },
       {
-
         "Text": "",
         "NodeId": "0.6",
         "link": {
-
           "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/paragraphs/6",
           "Rel": "self",
           "Type": null,
           "Title": null
 
         }
-
       },
       {
-
         "Text": "Testing Page 3",
         "NodeId": "\* Connection #0 to host api.aspose.cloud left intact 0.7",
         "link": {
-
           "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/paragraphs/7",
           "Rel": "self",
           "Type": null,
           "Title": null
 
         }
-
       }
-
     ],
     "link": {
-
       "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs",
       "Rel": "self",
       "Type": null,
       "Title": null
 
     }
-
   },
   "Code": 200,
   "Status": "OK"
 
 }
-
 ```
 
 {{< /tab >}}
 {{< /tabs >}}
-
 ## SDKs
 
-Using an SDK is the best way to speed up the development. An SDK takes care of a lot of low-level details of making requests and handling responses and lets you focus on writing code specific to your particular project. Check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs along with working examples, to get you started in no time. Please check [Available SDKs](/available-sdks/) article to learn how to add an SDK to your project.
+Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs, supplied with short and clear code examples.
 
 ## SDK Examples
 

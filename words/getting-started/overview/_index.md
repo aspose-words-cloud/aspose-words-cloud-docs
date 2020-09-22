@@ -26,7 +26,7 @@ Our Aspose.Words REST APIs comes with many features crucial to organizations, su
 
 ## SDKs
 
-Using an SDK (API client) is the quickest way for a developer to speed up the development. An SDK takes care of a lot of low-level details of making requests and handling responses and lets you focus on writing code specific to your particular project.
+Using an SDK (API client) is the quickest way for a developer to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks.
 
 Check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words SDKs together with working examples to get you started in no time.
 

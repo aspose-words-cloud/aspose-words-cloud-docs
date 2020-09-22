@@ -20,7 +20,6 @@ This REST API allows you to search text in a word document. In other words, the 
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
-
 ```java
 
 // Please get your App_Key and App_SID from https://dashboard.aspose.cloud/#/apps. Place your App_Key in "client_secret" and App_SID in "client_id" argument.
@@ -43,1007 +42,768 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/search?patt
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
-
 ```java
 
 {
-
   "SearchingPattern": "aspose",
   "SearchResults": {
-
     "ResultsList": [
-
       {
-
         "RangeStart": {
-
           "Node": {
-
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/products/words/cloud",
             "NodeId": "0.0.0",
             "link": {
-
               "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/0/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
 
             }
-
           },
           "Offset": 65
 
         },
         "RangeEnd": {
-
           "Node": {
-
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/products/words/cloud",
             "NodeId": "0.0.0",
             "link": {
-
               "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/0/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
 
             }
-
           },
           "Offset": 71
 
         }
-
       },
       {
-
         "RangeStart": {
-
           "Node": {
-
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/products/words/cloud",
             "NodeId": "0.1.0",
             "link": {
-
               "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/1/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
 
             }
-
           },
           "Offset": 65
 
         },
         "RangeEnd": {
-
           "Node": {
-
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/products/words/cloud",
             "NodeId": "0.1.0",
             "link": {
-
               "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/1/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
 
             }
-
           },
           "Offset": 71
 
         }
-
       },
       {
-
         "RangeStart": {
-
           "Node": {
-
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/products/words/cloud",
             "NodeId": "0.2.0",
             "link": {
-
               "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/2/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
 
             }
-
           },
           "Offset": 65
 
         },
         "RangeEnd": {
-
           "Node": {
-
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/products/words/cloud",
             "NodeId": "0.2.0",
             "link": {
-
               "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/2/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
 
             }
-
           },
           "Offset": 71
 
         }
-
       },
       {
-
         "RangeStart": {
-
           "Node": {
-
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/products/words/cloud",
             "NodeId": "0.3.0",
             "link": {
-
               "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/3/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
 
             }
-
           },
           "Offset": 65
 
         },
         "RangeEnd": {
-
           "Node": {
-
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/products/words/cloud",
             "NodeId": "0.3.0",
             "link": {
-
               "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/3/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
 
             }
-
           },
           "Offset": 71
 
         }
-
       },
       {
-
         "RangeStart": {
-
           "Node": {
-
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.4.0",
             "link": {
-
               "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/4/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
 
             }
-
           },
           "Offset": 65
 
         },
         "RangeEnd": {
-
           "Node": {
-
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.4.0",
             "link": {
-
               "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/4/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
 
             }
-
           },
           "Offset": 71
 
         }
-
       },
       {
-
         "RangeStart": {
-
           "Node": {
-
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.5.0",
             "link": {
-
               "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/5/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
 
             }
-
           },
           "Offset": 65
 
         },
         "RangeEnd": {
-
           "Node": {
-
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.5.0",
             "link": {
-
               "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/5/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
 
             }
-
           },
           "Offset": 71
 
         }
-
       },
       {
-
         "RangeStart": {
-
           "Node": {
-
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.6.0",
             "link": {
-
               "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/6/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
 
             }
-
           },
           "Offset": 65
 
         },
         "RangeEnd": {
-
           "Node": {
-
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.6.0",
             "link": {
-
               "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/6/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
 
             }
-
           },
           "Offset": 71
 
         }
-
       },
       {
-
         "RangeStart": {
-
           "Node": {
-
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.7.0",
             "link": {
-
               "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/7/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
 
             }
-
           },
           "Offset": 65
 
         },
         "RangeEnd": {
-
           "Node": {
-
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.7.0",
             "link": {
-
               "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/7/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
 
             }
-
           },
           "Offset": 71
 
         }
-
       },
       {
-
         "RangeStart": {
-
           "Node": {
-
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.8.0",
             "link": {
-
               "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/8/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
 
             }
-
           },
           "Offset": 65
 
         },
         "RangeEnd": {
-
           "Node": {
-
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.8.0",
             "link": {
-
               "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/8/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
 
             }
-
           },
           "Offset": 71
 
         }
-
       },
       {
-
         "RangeStart": {
-
           "Node": {
-
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.9.0",
             "link": {
-
               "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/9/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
 
             }
-
           },
           "Offset": 65
 
         },
         "RangeEnd": {
-
           "Node": {
-
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.9.0",
             "link": {
-
               "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/9/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
 
             }
-
           },
           "Offset": 71
 
         }
-
       },
       {
-
         "RangeStart": {
-
           "Node": {
-
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.10.0",
             "link": {
-
               "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/10/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
 
             }
-
           },
           "Offset": 65
 
         },
         "RangeEnd": {
-
           "Node": {
-
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.10.0",
             "link": {
-
               "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/10/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
 
             }
-
           },
           "Offset": 71
 
         }
-
       },
       {
-
         "RangeStart": {
-
           "Node": {
-
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.11.0",
             "link": {
-
               "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/11/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
 
             }
-
           },
           "Offset": 65
 
         },
         "RangeEnd": {
-
           "Node": {
-
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.11.0",
             "link": {
-
               "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/11/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
 
             }
-
           },
           "Offset": 71
 
         }
-
       },
       {
-
         "RangeStart": {
-
           "Node": {
-
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.12.0",
             "link": {
-
               "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/12/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
 
             }
-
           },
           "Offset": 65
 
         },
         "RangeEnd": {
-
           "Node": {
-
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.12.0",
             "link": {
-
               "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/12/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
 
             }
-
           },
           "Offset": 71
 
         }
-
       },
       {
-
         "RangeStart": {
-
           "Node": {
-
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.13.0",
             "link": {
-
               "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/13/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
 
             }
-
           },
           "Offset": 65
 
         },
         "RangeEnd": {
-
           "Node": {
-
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.13.0",
             "link": {
-
               "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/13/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
 
             }
-
           },
           "Offset": 71
 
         }
-
       },
       {
-
         "RangeStart": {
-
           "Node": {
-
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.14.0",
             "link": {
-
               "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/14/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
 
             }
-
           },
           "Offset": 65
 
         },
         "RangeEnd": {
-
           "Node": {
-
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.14.0",
             "link": {
-
               "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/14/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
 
             }
-
           },
           "Offset": 71
 
         }
-
       },
       {
-
         "RangeStart": {
-
           "Node": {
-
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.15.0",
             "link": {
-
               "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/15/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
 
             }
-
           },
           "Offset": 65
 
         },
         "RangeEnd": {
-
           "Node": {
-
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.15.0",
             "link": {
-
               "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/15/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
 
             }
-
           },
           "Offset": 71
 
         }
-
       },
       {
-
         "RangeStart": {
-
           "Node": {
-
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.16.0",
             "link": {
-
               "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/16/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
 
             }
-
           },
           "Offset": 65
 
         },
         "RangeEnd": {
-
           "Node": {
-
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.16.0",
             "link": {
-
               "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/16/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
 
             }
-
           },
           "Offset": 71
 
         }
-
       },
       {
-
         "RangeStart": {
-
           "Node": {
-
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.17.0",
             "link": {
-
               "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/17/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
 
             }
-
           },
           "Offset": 65
 
         },
         "RangeEnd": {
-
           "Node": {
-
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.17.0",
             "link": {
-
               "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/17/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
 
             }
-
           },
           "Offset": 71
 
         }
-
       },
       {
-
         "RangeStart": {
-
           "Node": {
-
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.18.0",
             "link": {
-
               "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/18/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
 
             }
-
           },
           "Offset": 65
 
         },
         "RangeEnd": {
-
           "Node": {
-
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.18.0",
             "link": {
-
               "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/18/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
 
             }
-
           },
           "Offset": 71
 
         }
-
       },
       {
-
         "RangeStart": {
-
           "Node": {
-
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.19.0",
             "link": {
-
               "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/19/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
 
             }
-
           },
           "Offset": 65
 
         },
         "RangeEnd": {
-
           "Node": {
-
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.19.0",
             "link": {
-
               "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/19/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
 
             }
-
           },
           "Offset": 71
 
         }
-
       },
       {
-
         "RangeStart": {
-
           "Nod\* Connection #0 to host api.aspose.cloud left intact e": {
-
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.20.0",
             "link": {
-
               "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/20/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
 
             }
-
           },
           "Offset": 65
 
         },
         "RangeEnd": {
-
           "Node": {
-
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.20.0",
             "link": {
-
               "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/20/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
 
             }
-
           },
           "Offset": 71
 
         }
-
       },
       {
-
         "RangeStart": {
-
           "Node": {
-
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.21.0",
             "link": {
-
               "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/21/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
 
             }
-
           },
           "Offset": 65
 
         },
         "RangeEnd": {
-
           "Node": {
-
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.21.0",
             "link": {
-
               "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/21/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
 
             }
-
           },
           "Offset": 71
 
         }
-
       },
       {
-
         "RangeStart": {
-
           "Node": {
-
             "Text": " HYPERLINK \"http://www.aspose.com\" ",
             "NodeId": "5.5.2",
             "link": {
-
               "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/5/paragraphs/5/runs/1",
               "Rel": "self",
               "Type": null,
               "Title": null
 
             }
-
           },
           "Offset": 23
 
         },
         "RangeEnd": {
-
           "Node": {
-
             "Text": " HYPERLINK \"http://www.aspose.com\" ",
             "NodeId": "5.5.2",
             "link": {
-
               "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/5/paragraphs/5/runs/1",
               "Rel": "self",
               "Type": null,
               "Title": null
 
             }
-
           },
           "Offset": 29
 
         }
-
       }
-
     ],
     "link": {
-
       "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/search?pattern=aspose",
       "Rel": "self",
       "Type": null,
       "Title": null
 
     }
-
   },
   "Code": 200,
   "Status": "OK"
 
 }
-
 ```
 
 {{< /tab >}}
 {{< /tabs >}}
-
 ## SDKs
 
-Using an SDK is the best way to speed up the development. An SDK takes care of a lot of low-level details of making requests and handling responses and lets you focus on writing code specific to your particular project. Check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs along with working examples, to get you started in no time. Please check [Available SDKs](/available-sdks/) article to learn how to add an SDK to your project.
+Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs, supplied with short and clear code examples.
 
 ## SDK Examples
 

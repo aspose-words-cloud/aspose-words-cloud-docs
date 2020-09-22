@@ -20,7 +20,6 @@ Aspose.Words Cloud provides helper functions to work with files uploaded to Asp
 
 {{< tabs tabTotal="1" tabID="1" tabName1="Request" >}}
 {{< tab tabNum="1" >}}
-
 **Create Request Token**
 
 ```java
@@ -39,7 +38,6 @@ curl  -v -X GET "https://api.aspose.cloud/v4.0/words/storage/file/sample.docx" -
 
 {{< /tab >}}
 {{< /tabs >}}
-
 ### Uploading a file from Cloud Storage
 
 #### API Information
@@ -52,7 +50,6 @@ curl  -v -X GET "https://api.aspose.cloud/v4.0/words/storage/file/sample.docx" -
 
 {{< tabs tabTotal="2" tabID="4" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
-
 **Create Request Token**
 
 ```java
@@ -69,27 +66,21 @@ curl  -v -X PUT "https://api.aspose.cloud/v4.0/words/storage/file/sample.docx" -
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
-
 ```java
 
 {
-
    "uploaded":[
-
       "sample.docx"
 
    ],
    "errors":[
-
    ]
 
 }
-
 ```
 
 {{< /tab >}}
 {{< /tabs >}}
-
 ### Copying a file to a new location on Cloud Storage
 
 #### API Information
@@ -102,7 +93,6 @@ curl  -v -X PUT "https://api.aspose.cloud/v4.0/words/storage/file/sample.docx" -
 
 {{< tabs tabTotal="1" tabID="8" tabName1="Request" >}}
 {{< tab tabNum="1" >}}
-
 **Create Request Token**
 
 ```java
@@ -119,7 +109,6 @@ curl -v -X PUT "https://api.aspose.cloud/v4.0/words/storage/file/copy/sample.doc
 
 {{< /tab >}}
 {{< /tabs >}}
-
 ### Moving a file to a new location on Cloud Storage
 
 #### API Information
@@ -132,7 +121,6 @@ curl -v -X PUT "https://api.aspose.cloud/v4.0/words/storage/file/copy/sample.doc
 
 {{< tabs tabTotal="1" tabID="11" tabName1="Request" >}}
 {{< tab tabNum="1" >}}
-
 **Create Request Token**
 
 ```java
@@ -149,7 +137,6 @@ curl -v -X PUT "https://api.aspose.cloud/v4.0/words/storage/file/move/input.docx
 
 {{< /tab >}}
 {{< /tabs >}}
-
 ### Deleting a file on Cloud Storage
 
 #### API Information
@@ -162,7 +149,6 @@ curl -v -X PUT "https://api.aspose.cloud/v4.0/words/storage/file/move/input.docx
 
 {{< tabs tabTotal="1" tabID="14" tabName1="Request" >}}
 {{< tab tabNum="1" >}}
-
 **Create Request Token**
 
 ```java

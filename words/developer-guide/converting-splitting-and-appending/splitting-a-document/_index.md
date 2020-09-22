@@ -85,7 +85,6 @@ PUT <https://api.aspose.cloud/v4.0/words/TestSplitDocument.doc/split?format=pdf
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
-
 ```java
 
 // Please get your App_Key and App_SID from https://dashboard.aspose.cloud/#/apps. Place your App_Key in "client_secret" and App_SID in "client_id" argument.
@@ -109,48 +108,37 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_doc.docx/split?from=2&to=3&for
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
-
 ```java
 
 {
-
   "SplitResult": {
-
     "SourceDocument": {
-
       "Href": "test_doc.docx",
       "Rel": "self"
 
     },
     "Pages": [
-
       {
-
         "Href": "test_doc_page2.pdf",
         "Rel": "page"
 
       },
       {
-
         "Href": "test_doc_page3.pdf",
         "Rel": "page"
 
       }
-
     ]
 
   }
-
 }
-
 ```
 
 {{< /tab >}}
 {{< /tabs >}}
-
 ## SDKs
 
-Using an SDK is the best way to speed up the development. An SDK takes care of a lot of low-level details of making requests and handling responses and lets you focus on writing code specific to your particular project. Check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs along with working examples, to get you started in no time. Please check [Available SDKs](/available-sdks/) article to learn how to add an SDK to your project.
+Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs, supplied with short and clear code examples.
 
 ## SDK Examples
 
@@ -189,7 +177,6 @@ Code examples for various SDKs are presented below:
 {{< gist "aspose-cloud" "068ce2149de5ad69ab516209b7ae82cf" "SplitAllPagesToNewPDFs.go" >}}
 {{< /tab >}}
 {{< /tabs >}}
-
 ### Split specific pages to new PDFs
 
 **Split specific pages**
@@ -223,7 +210,6 @@ Code examples for various SDKs are presented below:
 {{< gist "aspose-cloud" "068ce2149de5ad69ab516209b7ae82cf" "SplitSpecificPagesToNewPDFs.go" >}}
 {{< /tab >}}
 {{< /tabs >}}
-
 ### Split specific pages to any Supported Format
 
 **split document to any format**
@@ -257,7 +243,6 @@ Code examples for various SDKs are presented below:
 {{< gist "aspose-cloud" "068ce2149de5ad69ab516209b7ae82cf" "SplitSpecificPagesToPNGs.go" >}}
 {{< /tab >}}
 {{< /tabs >}}
-
 [ ](https://gist.github.com/aspose-words/d7482a8f2824fb669f7c31d8518ad13e#file-examples-ruby-splitresource-split_specific_pages_to_any_supported_format-rb)
 
 

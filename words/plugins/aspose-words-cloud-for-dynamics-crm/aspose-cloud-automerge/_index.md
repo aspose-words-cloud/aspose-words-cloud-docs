@@ -71,11 +71,9 @@ Execute MailMerge on Cloud file:
         private string ExecuteMailMerge(CloudAppConfig Config, string Xml)
 
         {
-
             try
 
             {
-
                 string URIRequest = Config.ProductUri + "/words/" + Config.FileName + "/executeMailMerge";
 
                 string URISigned = Sign(URIRequest, Config.AppSID, Config.AppKey);
@@ -85,21 +83,17 @@ Execute MailMerge on Cloud file:
                 using (Stream responseStream = ProcessCommand(URISigned, "POST", Xml, "xml"))
 
                 {
-
                     string strResponse = null;
 
                     using (StreamReader reader = new StreamReader(responseStream))
 
                     {
-
                         strResponse = reader.ReadToEnd();
 
                     }
-
                     using (MemoryStream ms = new MemoryStream(System.Text.Encoding.UTF8.GetBytes(strResponse)))
 
                     {
-
                         XPathDocument xPathDoc = new XPathDocument(ms);
 
                         XPathNavigator navigator = xPathDoc.CreateNavigator();
@@ -115,21 +109,15 @@ Execute MailMerge on Cloud file:
                         return outputFileName;
 
                     }
-
                 }
-
             }
-
             catch (Exception ex)
 
             {
-
                 throw ex;
 
             }
-
         }
-
 ```
 
 ## Installation and Usage

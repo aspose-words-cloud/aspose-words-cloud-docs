@@ -22,7 +22,6 @@ This example explains how to get MailMerge Field Names in the document. Descript
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
-
 ```java
 
 // Please get your App_Key and App_SID from https://dashboard.aspose.cloud/#/apps. Place your App_Key in "client_secret" and App_SID in "client_id" argument.
@@ -45,15 +44,11 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleMailMergeTemplate.docx/mailMe
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
-
 ```java
 
 {
-
     "FieldNames": {
-
         "Names": [
-
             "FullName",
             "Company",
             "Address",
@@ -63,28 +58,24 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleMailMergeTemplate.docx/mailMe
 
         ],
         "link": {
-
             "Href": "http://api.aspose.cloud/v4.0/words/SampleMailMergeTemplate.docx/mailmerge/getFieldNames",
             "Rel": "self",
             "Type": null,
             "Title": null
 
         }
-
     },
     "Code": 200,
     "Status": "OK"
 
 }
-
 ```
 
 {{< /tab >}}
 {{< /tabs >}}
-
 ## SDKs
 
-Using an SDK is the best way to speed up the development. An SDK takes care of a lot of low-level details of making requests and handling responses and lets you focus on writing code specific to your particular project. Check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words SDKs along with working examples, to get you started in no time. Please check [Available SDKs](/available-sdks/) article to learn how to add an SDK to your project.
+Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words SDKs with code examples.
 
 ## SDK Examples
 

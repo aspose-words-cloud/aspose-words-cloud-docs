@@ -19,7 +19,6 @@ A range can be specified in one of the three ways:
 ### Position in a document based on nodes IDs
 
 /range/{startId}/{endId}
-
 - {startId} - id of the node from which the range starts (included). Required.
 - {endId} - id of the node at which the range ends (excluded). Optional. If missed, the end of the range corresponds to the end of the node with id = startId, i.e. the range is limited by the bounds of "startId node".
 
@@ -32,7 +31,6 @@ A range consisting of the second and third paragraphs.
 ### Position in a document based on nodes pseudo names
 
 /range/{startPseudoName}/{endPseudoName}
-
 - {startPseudoName} - a pseudo name of the node from which the range starts (included). Required.
 - {endPseudoName} - a pseudo name of the node at which the range ends (excluded). Optional. If missed, the end of the range corresponds to the end of the node with pseudoname = startPseudoName, i.e. the range is limited by the bounds of "startPseudoName node".
 
@@ -52,7 +50,6 @@ A range consisting of the text from the first table and after the table till the
 A certain position inside a node can be specified with a selector that is separated from a node identifier with a colon.
 
 /range/{startIdentifier}:{startSelector}/{endIdentifier}:{endSelector}
-
 - {startIdentifier} - an identifier (id or a pseudo name) of the node from which the range starts (included). Required.
 - {endIdentifier} - an identifier (id or a pseudo name) of the node at which the range ends (excluded). Optional. If missed, the end of the range corresponds to the end of the node with identifier = startIdentifier, i.e. the range is limited by the bounds of "startIdentifier node".
 - {startSelector} - a selector that specifies a certain position inside the start node (included). Optional. If missed, the start of the range corresponds to the beginning of the start node.
@@ -112,7 +109,6 @@ First, he needs to call [Paragraph API](https://apireference.aspose.cloud/words/
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
-
 ```java
 
 // Please get your App_Key and App_SID from https://dashboard.aspose.cloud/#/apps. Place your App_Key in "client_secret" and App_SID in "client_id" argument.
@@ -135,74 +131,54 @@ curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/paragraphs" \
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
-
 ```java
 
 {
-
   "Paragraphs": {
-
     "ParagraphLinkList": [
-
       {
-
         "Text": "You might find it useful to extract only the text from a document. This is useful if you are passing the text to another API service. All the text in a document is contained in text runs of paragraph elements. Text can appear in three types of the document's structural elements.",
         "NodeId": "0.0",
         "link": {
-
           "Href": "https://api.aspose.cloud/v4.0/words/MyDocument.docx/sections/0/paragraphs/0",
           "Rel": "self"
 
         }
-
       },
       {
-
         "Text": "",
         "NodeId": "0.1",
         "link": {
-
           "Href": "https://api.aspose.cloud/v4.0/words/MyDocument.docx/sections/0/paragraphs/1",
           "Rel": "self"
 
         }
-
       },
       {
-
         "Text": "The resulting dump can help you understand the structure of Google Docs files in general, or help you troubleshoot issues around the structure and content of a particular document.",
         "NodeId": "0.2",
         "link": {
-
           "Href": "https://api.aspose.cloud/v4.0/words/MyDocument.docx/sections/0/paragraphs/2",
           "Rel": "self"
 
         }
-
       }
-
     ],
     "link": {
-
       "Href": "https://api.aspose.cloud/v4.0/words/MyDocument.docx/paragraphs",
       "Rel": "self"
 
     }
-
   }
-
 }
-
 ```
 
 {{< /tab >}}
 {{< /tabs >}}
-
 He sees that the first two paragraphs correspond to id0.0 and id0.2 (NodeId in the response), so he calls Range API to get the text he requires:
 
 {{< tabs tabTotal="2" tabID="4" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
-
 ```java
 
 // cURL example to get the text from the range.
@@ -217,27 +193,22 @@ curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/range/id0.0/id0.2:e
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
-
 ```java
 
 {
-
   "Text": "You might find it useful to extract only the text from a document. This is useful if you are passing the text to another API service. All the text in a document is contained in text runs of paragraph elements. Text can appear in three types of the document's structural elements.  The resulting dump can help you understand the structure of Google Docs files in general, or help you troubleshoot issues around the structure and content of a particular document. "
 
 }
-
 ```
 
 {{< /tab >}}
 {{< /tabs >}}
-
 **Use case 2: A user wants to save the selected range as a new document.**
 
 First, he needs to call [Paragraph API](https://apireference.aspose.cloud/words/#/Paragraphs/GetParagraphs) to get a list of paragraphs that are contained in the document.
 
 {{< tabs tabTotal="2" tabID="7" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
-
 ```java
 
 // Please get your App_Key and App_SID from https://dashboard.aspose.cloud/#/apps. Place your App_Key in "client_secret" and App_SID in "client_id" argument.
@@ -260,74 +231,54 @@ curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/paragraphs" \
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
-
 ```java
 
 {
-
   "Paragraphs": {
-
     "ParagraphLinkList": [
-
       {
-
         "Text": "You might find it useful to extract only the text from a document. This is useful if you are passing the text to another API service. All the text in a document is contained in text runs of paragraph elements. Text can appear in three types of the document's structural elements.",
         "NodeId": "0.0",
         "link": {
-
           "Href": "https://api.aspose.cloud/v4.0/words/MyDocument.docx/sections/0/paragraphs/0",
           "Rel": "self"
 
         }
-
       },
       {
-
         "Text": "",
         "NodeId": "0.1",
         "link": {
-
           "Href": "https://api.aspose.cloud/v4.0/words/MyDocument.docx/sections/0/paragraphs/1",
           "Rel": "self"
 
         }
-
       },
       {
-
         "Text": "The resulting dump can help you understand the structure of Google Docs files in general, or help you troubleshoot issues around the structure and content of a particular document.",
         "NodeId": "0.2",
         "link": {
-
           "Href": "https://api.aspose.cloud/v4.0/words/MyDocument.docx/sections/0/paragraphs/2",
           "Rel": "self"
 
         }
-
       }
-
     ],
     "link": {
-
       "Href": "https://api.aspose.cloud/v4.0/words/MyDocument.docx/paragraphs",
       "Rel": "self"
 
     }
-
   }
-
 }
-
 ```
 
 {{< /tab >}}
 {{< /tabs >}}
-
 Now, he calls the following API to save the first two paragraphs (correspond to id0.0 and id0.2 in the response) as a new document:** 
 
 {{< tabs tabTotal="2" tabID="10" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
-
 ```java
 
 // cURL example to save the selected range as a new document.
@@ -343,23 +294,17 @@ curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/range/id0.0/id0.2:e
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
-
 ```java
 
 {
-
   "Document": {
-
     "Links": [
-
       {
-
         "Href": "SelectedRanage.docx",
         "Rel": "self"
 
       },
       {
-
         "Href": "https://api.aspose.cloud/v4.0/words/SelectedRanage.docx?format=doc",
         "Rel": "alternate",
         "Type": "application/msword",
@@ -367,7 +312,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/range/id0.0/id0.2:e
 
       },
       {
-
         "Href": "https://api.aspose.cloud/v4.0/words/SelectedRanage.docx?format=dot",
         "Rel": "alternate",
         "Type": "application/msword",
@@ -375,7 +319,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/range/id0.0/id0.2:e
 
       },
       {
-
         "Href": "https://api.aspose.cloud/v4.0/words/SelectedRanage.docx?format=docx",
         "Rel": "alternate",
         "Type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
@@ -383,7 +326,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/range/id0.0/id0.2:e
 
       },
       {
-
         "Href": "https://api.aspose.cloud/v4.0/words/SelectedRanage.docx?format=docm",
         "Rel": "alternate",
         "Type": "application/vnd.ms-word.document.macroEnabled.12",
@@ -391,7 +333,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/range/id0.0/id0.2:e
 
       },
       {
-
         "Href": "https://api.aspose.cloud/v4.0/words/SelectedRanage.docx?format=dotx",
         "Rel": "alternate",
         "Type": "application/vnd.openxmlformats-officedocument.wordprocessingml.template",
@@ -399,7 +340,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/range/id0.0/id0.2:e
 
       },
       {
-
         "Href": "https://api.aspose.cloud/v4.0/words/SelectedRanage.docx?format=dotm",
         "Rel": "alternate",
         "Type": "application/vnd.ms-word.template.macroEnabled.12",
@@ -407,7 +347,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/range/id0.0/id0.2:e
 
       },
       {
-
         "Href": "https://api.aspose.cloud/v4.0/words/SelectedRanage.docx?format=flatopc",
         "Rel": "alternate",
         "Type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
@@ -415,7 +354,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/range/id0.0/id0.2:e
 
       },
       {
-
         "Href": "https://api.aspose.cloud/v4.0/words/SelectedRanage.docx?format=rtf",
         "Rel": "alternate",
         "Type": "application/rtf",
@@ -423,7 +361,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/range/id0.0/id0.2:e
 
       },
       {
-
         "Href": "https://api.aspose.cloud/v4.0/words/SelectedRanage.docx?format=wml",
         "Rel": "alternate",
         "Type": "text/xml",
@@ -431,7 +368,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/range/id0.0/id0.2:e
 
       },
       {
-
         "Href": "https://api.aspose.cloud/v4.0/words/SelectedRanage.docx?format=odt",
         "Rel": "alternate",
         "Type": "application/vnd.oasis.opendocument.text",
@@ -439,7 +375,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/range/id0.0/id0.2:e
 
       },
       {
-
         "Href": "https://api.aspose.cloud/v4.0/words/SelectedRanage.docx?format=ott",
         "Rel": "alternate",
         "Type": "application/vnd.oasis.opendocument.text-template",
@@ -447,7 +382,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/range/id0.0/id0.2:e
 
       },
       {
-
         "Href": "https://api.aspose.cloud/v4.0/words/SelectedRanage.docx?format=txt",
         "Rel": "alternate",
         "Type": "text/plain",
@@ -455,7 +389,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/range/id0.0/id0.2:e
 
       },
       {
-
         "Href": "https://api.aspose.cloud/v4.0/words/SelectedRanage.docx?format=mhtml",
         "Rel": "alternate",
         "Type": "multipart/related",
@@ -463,7 +396,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/range/id0.0/id0.2:e
 
       },
       {
-
         "Href": "https://api.aspose.cloud/v4.0/words/SelectedRanage.docx?format=epub",
         "Rel": "alternate",
         "Type": "application/epub+zip",
@@ -471,7 +403,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/range/id0.0/id0.2:e
 
       },
       {
-
         "Href": "https://api.aspose.cloud/v4.0/words/SelectedRanage.docx?format=pdf",
         "Rel": "alternate",
         "Type": "application/pdf",
@@ -479,7 +410,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/range/id0.0/id0.2:e
 
       },
       {
-
         "Href": "https://api.aspose.cloud/v4.0/words/SelectedRanage.docx?format=xps",
         "Rel": "alternate",
         "Type": "application/vnd.ms-xpsdocument",
@@ -487,7 +417,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/range/id0.0/id0.2:e
 
       },
       {
-
         "Href": "https://api.aspose.cloud/v4.0/words/SelectedRanage.docx?format=tiff",
         "Rel": "alternate",
         "Type": "image/tiff",
@@ -495,7 +424,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/range/id0.0/id0.2:e
 
       },
       {
-
         "Href": "https://api.aspose.cloud/v4.0/words/SelectedRanage.docx?format=png",
         "Rel": "alternate",
         "Type": "image/png",
@@ -503,7 +431,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/range/id0.0/id0.2:e
 
       },
       {
-
         "Href": "https://api.aspose.cloud/v4.0/words/SelectedRanage.docx?format=jpeg",
         "Rel": "alternate",
         "Type": "image/jpeg",
@@ -511,7 +438,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/range/id0.0/id0.2:e
 
       },
       {
-
         "Href": "https://api.aspose.cloud/v4.0/words/SelectedRanage.docx?format=bmp",
         "Rel": "alternate",
         "Type": "image/bmp",
@@ -519,7 +445,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/range/id0.0/id0.2:e
 
       },
       {
-
         "Href": "https://api.aspose.cloud/v4.0/words/SelectedRanage.docx?format=gif",
         "Rel": "alternate",
         "Type": "image/gif",
@@ -527,7 +452,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/range/id0.0/id0.2:e
 
       },
       {
-
         "Href": "https://api.aspose.cloud/v4.0/words/SelectedRanage.docx?format=svg",
         "Rel": "alternate",
         "Type": "image/svg+xml",
@@ -535,7 +459,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/range/id0.0/id0.2:e
 
       },
       {
-
         "Href": "https://api.aspose.cloud/v4.0/words/SelectedRanage.docx?format=html",
         "Rel": "alternate",
         "Type": "text/html",
@@ -543,7 +466,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/range/id0.0/id0.2:e
 
       },
       {
-
         "Href": "https://api.aspose.cloud/v4.0/words/SelectedRanage.docx?format=htmlfixed",
         "Rel": "alternate",
         "Type": "text/html",
@@ -551,42 +473,33 @@ curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/range/id0.0/id0.2:e
 
       },
       {
-
         "Href": "https://api.aspose.cloud/v4.0/words/SelectedRanage.docx?format=pcl",
         "Rel": "alternate",
         "Type": "application/x-pcl",
         "Title": "Download as PCL"
 
       }
-
     ],
     "FileName": "SelectedRanage.docx",
     "SourceFormat": "Docx",
     "IsEncrypted": false,
     "IsSigned": false,
     "DocumentProperties": {
-
       "link": {
-
         "Href": "https://api.aspose.cloud/v4.0/words/SelectedRanage.docx/documentProperties",
         "Rel": "self"
 
       }
-
     }
-
   }
-
 }
-
 ```
 
 {{< /tab >}}
 {{< /tabs >}}
-
 ## SDKs
 
-Using an SDK is the best way to speed up the development. An SDK takes care of a lot of low-level details of making requests and handling responses and lets you focus on writing code specific to your particular project. Check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs along with working examples, to get you started in no time. Please check [Available SDKs](/available-sdks/) article to learn how to add an SDK to your project.
+Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs, supplied with short and clear code examples.
 
 ## SDK Examples
 
@@ -607,7 +520,6 @@ Code examples for various SDKs are presented below:
 {{< gist "aspose-cloud" "068ce2149de5ad69ab516209b7ae82cf" "GetParagraphsText.go" >}}
 {{< /tab >}}
 {{< /tabs >}}
-
 **Use case 2: Save the selected range as a new document.**
 
 {{< tabs tabTotal="4" tabID="14" tabName1="C#" tabName2="Android" tabName3="Swift" tabName4="Go" >}}
@@ -624,4 +536,3 @@ Code examples for various SDKs are presented below:
 {{< gist "aspose-cloud" "068ce2149de5ad69ab516209b7ae82cf" "SaveTheSelectedRanageAsANewDocument.go" >}}
 {{< /tab >}}
 {{< /tabs >}}
-

@@ -16,7 +16,6 @@ This REST API allows you to get all properties of a document. The API returns a 
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
-
 ```java
 
 // Please get your App_Key and App_SID from https://dashboard.aspose.cloud/#/apps. Place your App_Key in "client_secret" and App_SID in "client_id" argument.
@@ -39,340 +38,271 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentPrope
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
-
 ```java
 
  {
-
   "DocumentProperties": {
-
     "List": [
-
       {
-
         "Name": "Bytes",
         "Value": "58687",
         "BuiltIn": true,
         "link": {
-
           "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/Bytes",
           "Rel": "self",
           "Type": null,
           "Title": null
 
         }
-
       },
       {
-
         "Name": "Characters",
         "Value": "52",
         "BuiltIn": true,
         "link": {
-
           "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/Characters",
           "Rel": "self",
           "Type": null,
           "Title": null
 
         }
-
       },
       {
-
         "Name": "CharactersWithSpaces",
         "Value": "60",
         "BuiltIn": true,
         "link": {
-
           "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/CharactersWithSpaces",
           "Rel": "self",
           "Type": null,
           "Title": null
 
         }
-
       },
       {
-
         "Name": "Company",
         "Value": "",
         "BuiltIn": true,
         "link": {
-
           "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/Company",
           "Rel": "self",
           "Type": null,
           "Title": null
 
         }
-
       },
       {
-
         "Name": "CreateTime",
         "Value": "04/29/2015 05:01:00",
         "BuiltIn": true,
         "link": {
-
           "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/CreateTime",
           "Rel": "self",
           "Type": null,
           "Title": null
 
         }
-
       },
       {
-
         "Name": "HeadingPairs",
         "Value": "#ObjectArray",
         "BuiltIn": true,
         "link": {
-
           "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/HeadingPairs",
           "Rel": "self",
           "Type": null,
           "Title": null
 
         }
-
       },
       {
-
         "Name": "LastSavedBy",
         "Value": "Екимов Я.Н.",
         "BuiltIn": true,
         "link": {
-
           "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/LastSavedBy",
           "Rel": "self",
           "Type": null,
           "Title": null
 
         }
-
       },
       {
-
         "Name": "LastSavedTime",
         "Value": "10/21/2017 13:28:00",
         "BuiltIn": true,
         "link": {
-
           "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/LastSavedTime",
           "Rel": "self",
           "Type": null,
           "Title": null
 
         }
-
       },
       {
-
         "Name": "Lines",
         "Value": "1",
         "BuiltIn": true,
         "link": {
-
           "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/Lines",
           "Rel": "self",
           "Type": null,
           "Title": null
 
         }
-
       },
       {
-
         "Name": "NameOfApplication",
         "Value": "Microsoft Office Word",
         "BuiltIn": true,
         "link": {
-
           "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/NameOfApplication",
           "Rel": "self",
           "Type": null,
           "Title": null
 
         }
-
       },
       {
-
         "Name": "Pages",
         "Value": "3",
         "BuiltIn": true,
         "link": {
-
           "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/Pages",
           "Rel": "self",
           "Type": null,
           "Title": null
 
         }
-
       },
       {
-
         "Name": "Paragraphs",
         "Value": "1",
         "BuiltIn": true,
         "link": {
-
           "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/Paragraphs",
           "Rel": "self",
           "Type": null,
           "Title": null
 
         }
-
       },
       {
-
         "Name": "RevisionNumber",
         "Value": "13",
         "BuiltIn": true,
         "link": {
-
           "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/RevisionNumber",
           "Rel": "self",
           "Type": null,
           "Title": null
 
         }
-
       },
       {
-
         "Name": "Security",
         "Value": "0",
         "BuiltIn": true,
         "link": {
-
           "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/Security",
           "Rel": "self",
           "Type": null,
           "Title": null
 
         }
-
       },
       {
-
         "Name": "Template",
         "Value": "Normal.dotm",
         "BuiltIn": true,
         "link": {
-
           "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/Template",
           "Rel": "self",
           "Type": null,
           "Title": null
 
         }
-
       },
       {
-
         "Name": "TitlesOfParts",
         "Value": "#StringArray",
         "BuiltIn": true,
         "link": {
-
           "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/TitlesOfParts",
           "Rel": "self",
           "Type": null,
           "Title": null
 
         }
-
       },
       {
-
         "Name": "TotalEditingTime",
         "Value": "11",
         "BuiltIn": true,
         "link": {
-
           "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/TotalEditingTime",
           "Rel": "self",
           "Type": null,
           "Title": null
 
         }
-
       },
       {
-
         "Name": "Version",
         "Value": "1048576",
         "BuiltIn": true,
         "link": {
-
           "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/Version",
           "Rel": "self",
           "Type": null,
           "Title": null
 
         }
-
       },
       {
-
         "Name": "Words",
         "Value": "9",
         "BuiltIn": true,
         "link": {
-
           "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/Words",
           "Rel": "self",
           "Type": null,
           "Title": null
 
         }
-
       },
       {
-
         "Name": "testProp",
         "Value": "1",
         "BuiltIn": false,
         "link": {
-
           "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/testProp",
           "Rel": "self",
           "Type": null,
           "Title": null
 
         }
-
       }
-
     ],
     "link": {
-
       "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties",
       "Re\* Connection #0 to host api.aspose.cloud left intact l": "self",
       "Type": null,
       "Title": null
 
     }
-
   },
   "Code": 200,
   "Status": "OK"
 
 }
-
 ```
 
 {{< /tab >}}
 {{< /tabs >}}
-
 ## SDKs
 
-Using an SDK is the best way to speed up the development. An SDK takes care of a lot of low-level details of making requests and handling responses and lets you focus on writing code specific to your particular project. Check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs along with working examples, to get you started in no time. Please check [Available SDKs](/available-sdks/) article to learn how to add an SDK to your project.
+Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs, supplied with short and clear code examples.
 
 ## SDK Examples
 

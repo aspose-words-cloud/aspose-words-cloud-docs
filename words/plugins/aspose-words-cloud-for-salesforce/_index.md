@@ -179,22 +179,14 @@ After you have installed the Aspose.Words Cloud for Salesforce it is really simp
 ```java
 
 public with sharing class MailMergeController {
-
     public string appSID {get; set;}
-
     public string appKey {get; set;}
-
     public string fileName {get; set;}
-
     public string dataFileName {get; set;}
-
     public string saveFormat {get; set;}
-
     public string output {get; set;}
 
-
     public PageReference runSample() {
-
         Product.BaseProductUri = 'http://api.aspose.com/v1.1';
 
         AsposeCloudApp.setAppInfo(appKey, appSID);
@@ -208,9 +200,7 @@ public with sharing class MailMergeController {
         return null;
 
     }
-
 }
-
 ```
 
 #### MailMerge Class
@@ -220,19 +210,13 @@ public with sharing class MailMergeController {
 ```java
 
 public with sharing class MailMerge {
-
     public string apiResponse {get; set;}
-
     public String ExecuteMailMerege(String FileName, String dataFile, SaveFormat outFormat) {
-
         return ExecuteMailMerege(FileName, dataFile, String.valueOf(outFormat));
 
     }
-
     public String ExecuteMailMerege(String FileName, String dataFile, String outFormat) {
-
         try {
-
             //build URI to get Image
 
             String strURI = Product.BaseProductUri + '/words/' + FileName + '/executeMailMerge?mailMergeDataFile=' + dataFile;
@@ -254,7 +238,6 @@ public with sharing class MailMerge {
             Map<String, Object> params = (Map<String, Object>) JSON.deserializeUntyped(strJSON);
 
             if(params.containsKey('Document')){
-
                 Map<String, Object> doc = (Map<String, Object>) params.get('Document');
 
                 String DocName = (String) doc.get('FileName');
@@ -264,23 +247,17 @@ public with sharing class MailMerge {
                 downloadURL = Utils.Sign(strURI);
 
             }
-
             return downloadURL;
 
         }
-
         catch (Exception ex) {
-
             system.debug(ex);
 
             return null;
 
         }
-
     }
-
 }
-
 ```
 
 #### Utility Classes
@@ -290,11 +267,8 @@ public with sharing class MailMerge {
 ```java
 
 public with sharing class Product {
-
     public static String BaseProductUri { get; set; }
-
 }
-
 ```
 
 **AsposeCloudApp.cls**
@@ -302,21 +276,15 @@ public with sharing class Product {
 ```java
 
 public with sharing class AsposeCloudApp {
-
     public static String AppSID { get; set; }
-
     public static String AppKey { get; set; }
-
     public static void setAppInfo(String key, String sid) {
-
         AppSID=sid;
 
         AppKey=key;
 
     }
-
 }
-
 ```
 
 **Utils.cls**
@@ -324,13 +292,10 @@ public with sharing class AsposeCloudApp {
 ```java
 
 public with sharing class Utils {
-
     public static String Sign(String data) {
-
         String HMAC_SHA1 = 'HmacSHA1';
 
         try {
-
             data = data.replace(' ', '%20');
 
             URL url = new URL(data);
@@ -370,29 +335,22 @@ public with sharing class Utils {
             return encodedUrl;
 
         } catch (Exception ex) {
-
             system.debug(ex.getStackTraceString());
 
             return null;
 
         }
-
     }
-
     public static String ProcessCommand(String strURI, String strHttpCommand, Blob content, String ContentType) {
-
         try {
-
             HttpRequest request = new HttpRequest();
 
             Integer len = 0;
 
             if (strContent != null) {
-
                 request.setBodyAsBlob(content);
 
             }
-
             request.setEndpoint(strURI);
 
             request.setMethod(strHttpCommand);
@@ -416,7 +374,6 @@ public with sharing class Utils {
             return res.getBody();
 
         } catch (Exception ex) {
-
             system.debug('HTTP ERROR' + ex.getMessage());
 
             system.debug(ex.getStackTraceString());
@@ -424,9 +381,6 @@ public with sharing class Utils {
             return null;
 
         }
-
     }
-
 }
-
 ```

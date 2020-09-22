@@ -40,7 +40,6 @@ and **FontInfo** properties are:
 
 {{< tabs tabTotal="2" tabID="2" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
-
 ```java
 
 // Please get your App_Key and App_SID from https://dashboard.aspose.cloud/#/apps. Place your App_Key in "client_secret" and App_SID in "client_id" argument.
@@ -63,15 +62,11 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
-
 ```java
 
 {
-
   "SystemFonts": [
-
     {
-
       "FontFamilyName": "Century Gothic",
       "FullFontName": "Century Gothic",
       "Version": "Version 2.35",
@@ -79,7 +74,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Arial Narrow",
       "FullFontName": "Arial Narrow Italic",
       "Version": "Version 2.30",
@@ -87,7 +81,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Arial",
       "FullFontName": "Arial",
       "Version": "Version 6.90",
@@ -95,7 +88,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Arial",
       "FullFontName": "Arial Bold",
       "Version": "Version 6.90",
@@ -103,7 +95,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Arial",
       "FullFontName": "Arial Bold Italic",
       "Version": "Version 6.90",
@@ -111,7 +102,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Arial",
       "FullFontName": "Arial Italic",
       "Version": "Version 6.90",
@@ -119,7 +109,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Arial Narrow",
       "FullFontName": "Arial Narrow",
       "Version": "Version 2.37",
@@ -127,7 +116,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Arial Narrow",
       "FullFontName": "Arial Narrow",
       "Version": "Version 2.30",
@@ -135,7 +123,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Arial Narrow",
       "FullFontName": "Arial Narrow Bold",
       "Version": "Version 1.01",
@@ -143,7 +130,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Arial Narrow",
       "FullFontName": "Arial Narrow Bold Italic",
       "Version": "Version 1.01",
@@ -151,7 +137,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Arial Narrow",
       "FullFontName": "Arial Narrow Italic",
       "Version": "Version 2.37",
@@ -159,7 +144,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Arial Unicode MS",
       "FullFontName": "Arial Unicode MS",
       "Version": "Version 1.01",
@@ -167,7 +151,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Arial Black",
       "FullFontName": "Arial Black",
       "Version": "Version 5.22",
@@ -175,7 +158,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Batang",
       "FullFontName": "Batang",
       "Version": "Version 5.00",
@@ -183,7 +165,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "BatangChe",
       "FullFontName": "BatangChe",
       "Version": "Version 5.00",
@@ -191,7 +172,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Gungsuh",
       "FullFontName": "Gungsuh",
       "Version": "Version 5.00",
@@ -199,7 +179,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "GungsuhChe",
       "FullFontName": "GungsuhChe",
       "Version": "Version 5.00",
@@ -207,7 +186,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Calibri",
       "FullFontName": "Calibri",
       "Version": "Version 6.18",
@@ -215,7 +193,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Calibri",
       "FullFontName": "Calibri Bold",
       "Version": "Version 6.18",
@@ -223,7 +200,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Calibri",
       "FullFontName": "Calibri Italic",
       "Version": "Version 6.18",
@@ -231,7 +207,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Calibri Light",
       "FullFontName": "Calibri Light",
       "Version": "Version 6.18",
@@ -239,7 +214,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Calibri Light",
       "FullFontName": "Calibri Light Italic",
       "Version": "Version 6.18",
@@ -247,7 +221,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Calibri",
       "FullFontName": "Calibri Bold Italic",
       "Version": "Version 6.18",
@@ -255,7 +228,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Cambria",
       "FullFontName": "Cambria",
       "Version": "Version 6.96",
@@ -263,7 +235,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Cambria Math",
       "FullFontName": "Cambria Math",
       "Version": "Version 6.96",
@@ -271,7 +242,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Comic Sans MS",
       "FullFontName": "Comic Sans MS",
       "Version": "Version 5.12",
@@ -279,7 +249,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Comic Sans MS",
       "FullFontName": "Comic Sans MS Bold",
       "Version": "Version 5.12",
@@ -287,7 +256,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Comic Sans MS",
       "FullFontName": "Comic Sans MS Italic",
       "Version": "Version 5.12",
@@ -295,7 +263,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Comic Sans MS",
       "FullFontName": "Comic Sans MS Bold Italic",
       "Version": "Version 5.12",
@@ -303,7 +270,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Consolas",
       "FullFontName": "Consolas",
       "Version": "Version 6.96",
@@ -311,7 +277,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Consolas",
       "FullFontName": "Consolas Bold",
       "Version": "Version 6.96",
@@ -319,7 +284,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Consolas",
       "FullFontName": "Consolas Italic",
       "Version": "Version 6.96",
@@ -327,7 +291,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Consolas",
       "FullFontName": "Consolas Bold Italic",
       "Version": "Version 6.96",
@@ -335,7 +298,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Courier New",
       "FullFontName": "Courier New",
       "Version": "Version 6.90",
@@ -343,7 +305,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Courier New",
       "FullFontName": "Courier New Bold",
       "Version": "Version 6.90",
@@ -351,7 +312,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Courier New",
       "FullFontName": "Courier New Bold Italic",
       "Version": "Version 6.90",
@@ -359,7 +319,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Courier New",
       "FullFontName": "Courier New Italic",
       "Version": "Version 6.90",
@@ -367,7 +326,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Ebrima",
       "FullFontName": "Ebrima",
       "Version": "Version 5.11",
@@ -375,7 +333,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Ebrima",
       "FullFontName": "Ebrima Bold",
       "Version": "Version 5.11",
@@ -383,7 +340,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Freestyle Script",
       "FullFontName": "Freestyle Script",
       "Version": "Version 1.05",
@@ -391,7 +347,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Gadugi",
       "FullFontName": "Gadugi",
       "Version": "Version 1.10",
@@ -399,7 +354,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Garamond",
       "FullFontName": "Garamond",
       "Version": "Version 2.20",
@@ -407,7 +361,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Georgia",
       "FullFontName": "Georgia",
       "Version": "Version 5.58",
@@ -415,7 +368,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Georgia",
       "FullFontName": "Georgia Bold",
       "Version": "Version 5.58",
@@ -423,7 +375,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Georgia",
       "FullFontName": "Georgia Italic",
       "Version": "Version 5.58",
@@ -431,7 +382,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Georgia",
       "FullFontName": "Georgia Bold Italic",
       "Version": "Version 5.58",
@@ -439,7 +389,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Gulim",
       "FullFontName": "Gulim",
       "Version": "Version 5.02",
@@ -447,7 +396,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "GulimChe",
       "FullFontName": "GulimChe",
       "Version": "Version 5.02",
@@ -455,7 +403,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Dotum",
       "FullFontName": "Dotum",
       "Version": "Version 5.02",
@@ -463,7 +410,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "DotumChe",
       "FullFontName": "DotumChe",
       "Version": "Version 5.02",
@@ -471,7 +417,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Microsoft Himalaya",
       "FullFontName": "Microsoft Himalaya",
       "Version": "Version 5.22",
@@ -479,7 +424,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Edwardian Script ITC",
       "FullFontName": "Edwardian Script ITC",
       "Version": "Version 1.05",
@@ -487,7 +431,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Javanese Text",
       "FullFontName": "Javanese Text",
       "Version": "Version 1.07",
@@ -495,7 +438,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Leelawadee UI",
       "FullFontName": "Leelawadee UI Bold",
       "Version": "Version 5.05",
@@ -503,7 +445,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Leelawadee UI",
       "FullFontName": "Leelawadee UI",
       "Version": "Version 5.05",
@@ -511,7 +452,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Leelawadee UI Semilight",
       "FullFontName": "Leelawadee UI Semilight",
       "Version": "Version 5.05",
@@ -519,7 +459,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Lucida Console",
       "FullFontName": "Lucida Console",
       "Version": "Version 5.00",
@@ -527,7 +466,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Malgun Gothic",
       "FullFontName": "Malgun Gothic",
       "Version": "Version 6.67",
@@ -535,7 +473,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Myanmar Text",
       "FullFontName": "Myanmar Text",
       "Version": "Version 1.15",
@@ -543,7 +480,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Mongolian Baiti",
       "FullFontName": "Mongolian Baiti",
       "Version": "Version 5.52",
@@ -551,7 +487,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Microsoft JhengHei",
       "FullFontName": "Microsoft JhengHei",
       "Version": "Version 6.13",
@@ -559,7 +494,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Microsoft JhengHei UI",
       "FullFontName": "Microsoft JhengHei UI",
       "Version": "Version 6.13",
@@ -567,7 +501,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Microsoft YaHei",
       "FullFontName": "Microsoft YaHei",
       "Version": "Version 6.22",
@@ -575,7 +508,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Microsoft YaHei UI",
       "FullFontName": "Microsoft YaHei UI",
       "Version": "Version 6.22",
@@ -583,7 +515,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Microsoft Yi Baiti",
       "FullFontName": "Microsoft Yi Baiti",
       "Version": "Version 5.99",
@@ -591,7 +522,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "MV Boli",
       "FullFontName": "MV Boli",
       "Version": "Version 6.84",
@@ -599,7 +529,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Nirmala UI",
       "FullFontName": "Nirmala UI",
       "Version": "Version 1.34",
@@ -607,7 +536,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Nirmala UI",
       "FullFontName": "Nirmala UI Bold",
       "Version": "Version 1.34",
@@ -615,7 +543,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Nirmala UI Semilight",
       "FullFontName": "Nirmala UI Semilight",
       "Version": "Version 1.34",
@@ -623,7 +550,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Microsoft New Tai Lue",
       "FullFontName": "Microsoft New Tai Lue",
       "Version": "Version 5.98",
@@ -631,7 +557,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Microsoft PhagsPa",
       "FullFontName": "Microsoft PhagsPa",
       "Version": "Version 5.99",
@@ -639,7 +564,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Segoe MDL2 Assets",
       "FullFontName": "Segoe MDL2 Assets",
       "Version": "Version 1.55",
@@ -647,7 +571,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Segoe Print",
       "FullFontName": "Segoe Print",
       "Version": "Version 5.02",
@@ -655,7 +578,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Segoe UI",
       "FullFontName": "Segoe UI",
       "Version": "Version 5.53",
@@ -663,7 +585,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Segoe UI",
       "FullFontName": "Segoe UI Bold",
       "Version": "Version 5.53",
@@ -671,7 +592,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Segoe UI",
       "FullFontName": "Segoe UI Italic",
       "Version": "Version 5.29",
@@ -679,7 +599,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Segoe UI Light",
       "FullFontName": "Segoe UI Light",
       "Version": "Version 5.53",
@@ -687,7 +606,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Segoe UI Semilight",
       "FullFontName": "Segoe UI Semilight",
       "Version": "Version 5.53",
@@ -695,7 +613,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Segoe UI",
       "FullFontName": "Segoe UI Bold Italic",
       "Version": "Version 5.29",
@@ -703,7 +620,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Segoe UI Black",
       "FullFontName": "Segoe UI Black",
       "Version": "Version 2.00",
@@ -711,7 +627,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Segoe UI Emoji",
       "FullFontName": "Segoe UI Emoji",
       "Version": "Version 1.11",
@@ -719,7 +634,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Segoe UI Historic",
       "FullFontName": "Segoe UI Historic",
       "Version": "Version 1.01",
@@ -727,7 +641,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Segoe UI Semibold",
       "FullFontName": "Segoe UI Semibold",
       "Version": "Version 5.53",
@@ -735,7 +648,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Segoe UI Symbol",
       "FullFontName": "Segoe UI Symbol",
       "Version": "Version 6.22",
@@ -743,7 +655,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "SimSun",
       "FullFontName": "SimSun",
       "Version": "Version 5.15",
@@ -751,7 +662,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "NSimSun",
       "FullFontName": "NSimSun",
       "Version": "Version 5.15",
@@ -759,7 +669,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Source Code Pro Black",
       "FullFontName": "Source Code Pro Black",
       "Version": "Version 2.010;PS 1.0;hotconv 1.0.84;makeotf.lib2.5.63406",
@@ -767,7 +676,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Source Code Pro Black",
       "FullFontName": "Source Code Pro Black Italic",
       "Version": "Version 1.030;PS 1.0;hotconv 1.0.84;makeotf.lib2.5.63406",
@@ -775,7 +683,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Source Code Pro",
       "FullFontName": "Source Code Pro Bold",
       "Version": "Version 2.010;PS 1.0;hotconv 1.0.84;makeotf.lib2.5.63406",
@@ -783,7 +690,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Source Code Pro",
       "FullFontName": "Source Code Pro Bold Italic",
       "Version": "Version 1.030;PS 1.0;hotconv 1.0.84;makeotf.lib2.5.63406",
@@ -791,7 +697,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Source Code Pro ExtraLight",
       "FullFontName": "Source Code Pro ExtraLight",
       "Version": "Version 2.010;PS 1.0;hotconv 1.0.84;makeotf.lib2.5.63406",
@@ -799,7 +704,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Source Code Pro ExtraLight",
       "FullFontName": "Source Code Pro ExtraLight Italic",
       "Version": "Version 1.030;PS 1.0;hotconv 1.0.84;makeotf.lib2.5.63406",
@@ -807,7 +711,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Source Code Pro",
       "FullFontName": "Source Code Pro Italic",
       "Version": "Version 1.030;PS 1.0;hotconv 1.0.84;makeotf.lib2.5.63406",
@@ -815,7 +718,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Source Code Pro Light",
       "FullFontName": "Source Code Pro Light",
       "Version": "Version 2.010;PS 1.0;hotconv 1.0.84;makeotf.lib2.5.63406",
@@ -823,7 +725,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Source Code Pro Light",
       "FullFontName": "Source Code Pro Light Italic",
       "Version": "Version 1.030;PS 1.0;hotconv 1.0.84;makeotf.lib2.5.63406",
@@ -831,7 +732,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Source Code Pro Medium",
       "FullFontName": "Source Code Pro Medium",
       "Version": "Version 2.010;PS 1.0;hotconv 1.0.84;makeotf.lib2.5.63406",
@@ -839,7 +739,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Source Code Pro Medium",
       "FullFontName": "Source Code Pro Medium Italic",
       "Version": "Version 1.030;PS 1.0;hotconv 1.0.84;makeotf.lib2.5.63406",
@@ -847,7 +746,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Source Code Pro",
       "FullFontName": "Source Code Pro",
       "Version": "Version 2.010;PS 1.0;hotconv 1.0.84;makeotf.lib2.5.63406",
@@ -855,7 +753,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Source Code Pro Semibold",
       "FullFontName": "Source Code Pro Semibold",
       "Version": "Version 2.010;PS 1.0;hotconv 1.0.84;makeotf.lib2.5.63406",
@@ -863,7 +760,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Source Code Pro Semibold",
       "FullFontName": "Source Code Pro Semibold Italic",
       "Version": "Version 1.030;PS 1.0;hotconv 1.0.84;makeotf.lib2.5.63406",
@@ -871,7 +767,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Source Sans Pro Black",
       "FullFontName": "Source Sans Pro Black",
       "Version": "Version 2.020;PS 2.0;hotconv 1.0.86;makeotf.lib2.5.63406",
@@ -879,7 +774,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Source Sans Pro Black",
       "FullFontName": "Source Sans Pro Black Italic",
       "Version": "Version 1.075;PS 2.0;hotconv 1.0.86;makeotf.lib2.5.63406",
@@ -887,7 +781,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Source Sans Pro",
       "FullFontName": "Source Sans Pro Bold",
       "Version": "Version 2.020;PS 2.0;hotconv 1.0.86;makeotf.lib2.5.63406",
@@ -895,7 +788,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Source Sans Pro",
       "FullFontName": "Source Sans Pro Bold Italic",
       "Version": "Version 1.075;PS 2.0;hotconv 1.0.86;makeotf.lib2.5.63406",
@@ -903,7 +795,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Source Sans Pro ExtraLight",
       "FullFontName": "Source Sans Pro ExtraLight",
       "Version": "Version 2.020;PS 2.0;hotconv 1.0.86;makeotf.lib2.5.63406",
@@ -911,7 +802,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Source Sans Pro ExtraLight",
       "FullFontName": "Source Sans Pro ExtraLight Italic",
       "Version": "Version 1.075;PS 2.0;hotconv 1.0.86;makeotf.lib2.5.63406",
@@ -919,7 +809,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Source Sans Pro",
       "FullFontName": "Source Sans Pro Italic",
       "Version": "Version 1.075;PS 2.0;hotconv 1.0.86;makeotf.lib2.5.63406",
@@ -927,7 +816,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Source Sans Pro Light",
       "FullFontName": "Source Sans Pro Light",
       "Version": "Version 2.020;PS 2.0;hotconv 1.0.86;makeotf.lib2.5.63406",
@@ -935,7 +823,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Source Sans Pro Light",
       "FullFontName": "Source Sa\* Connection #0 to host api.aspose.cloud left intact ns Pro Light Italic",
       "Version": "Version 1.075;PS 2.0;hotconv 1.0.86;makeotf.lib2.5.63406",
@@ -943,7 +830,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Source Sans Pro",
       "FullFontName": "Source Sans Pro",
       "Version": "Version 2.020;PS 2.0;hotconv 1.0.86;makeotf.lib2.5.63406",
@@ -951,7 +837,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Source Sans Pro Semibold",
       "FullFontName": "Source Sans Pro Semibold",
       "Version": "Version 2.020;PS 2.0;hotconv 1.0.86;makeotf.lib2.5.63406",
@@ -959,7 +844,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Source Sans Pro Semibold",
       "FullFontName": "Source Sans Pro Semibold Italic",
       "Version": "Version 1.075;PS 2.0;hotconv 1.0.86;makeotf.lib2.5.63406",
@@ -967,7 +851,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Symbol",
       "FullFontName": "Symbol",
       "Version": "Version 5.01",
@@ -975,7 +858,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Microsoft Tai Le",
       "FullFontName": "Microsoft Tai Le",
       "Version": "Version 5.98",
@@ -983,7 +865,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Times New Roman",
       "FullFontName": "Times New Roman",
       "Version": "Version 6.96",
@@ -991,7 +872,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Times New Roman",
       "FullFontName": "Times New Roman Bold",
       "Version": "Version 6.96",
@@ -999,7 +879,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Times New Roman",
       "FullFontName": "Times New Roman Bold Italic",
       "Version": "Version 6.96",
@@ -1007,7 +886,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Times New Roman",
       "FullFontName": "Times New Roman Italic",
       "Version": "Version 6.96",
@@ -1015,7 +893,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Trebuchet MS",
       "FullFontName": "Trebuchet MS",
       "Version": "Version 5.14",
@@ -1023,7 +900,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Trebuchet MS",
       "FullFontName": "Trebuchet MS Bold",
       "Version": "Version 5.14",
@@ -1031,7 +907,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Trebuchet MS",
       "FullFontName": "Trebuchet MS Bold Italic",
       "Version": "Version 5.14",
@@ -1039,7 +914,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Trebuchet MS",
       "FullFontName": "Trebuchet MS Italic",
       "Version": "Version 5.14",
@@ -1047,7 +921,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Verdana",
       "FullFontName": "Verdana",
       "Version": "Version 5.32",
@@ -1055,7 +928,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Verdana",
       "FullFontName": "Verdana Bold",
       "Version": "Version 5.32",
@@ -1063,7 +935,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Verdana",
       "FullFontName": "Verdana Italic",
       "Version": "Version 5.32",
@@ -1071,7 +942,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Verdana",
       "FullFontName": "Verdana Bold Italic",
       "Version": "Version 5.32",
@@ -1079,7 +949,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Webdings",
       "FullFontName": "Webdings",
       "Version": "Version 5.00",
@@ -1087,7 +956,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Wingdings",
       "FullFontName": "Wingdings",
       "Version": "Version 5.00",
@@ -1095,7 +963,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Wingdings 3",
       "FullFontName": "Wingdings 3",
       "Version": "Version 1.50",
@@ -1103,7 +970,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Yu Gothic Medium",
       "FullFontName": "Yu Gothic Medium",
       "Version": "Version 1.73",
@@ -1111,14 +977,12 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 
     },
     {
-
       "FontFamilyName": "Yu Gothic UI",
       "FullFontName": "Yu Gothic UI Regular",
       "Version": "Version 1.73",
       "FilePath": "C:\\Windows\\Fonts\\YuGothM.ttc"
 
     }
-
   ],
   "AdditionalFonts": null,
   "CustomFonts": null,
@@ -1126,15 +990,13 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
   "Status": "OK"
 
 }
-
 ```
 
 {{< /tab >}}
 {{< /tabs >}}
-
 ## SDKs
 
-Using an SDK is the best way to speed up the development. An SDK takes care of a lot of low-level details of making requests and handling responses and lets you focus on writing code specific to your particular project. Check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs along with working examples, to get you started in no time. Please check [Available SDKs](/available-sdks/) article to learn how to add an SDK to your project.
+Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs, supplied with short and clear code examples.
 
 ## SDK Examples
 
