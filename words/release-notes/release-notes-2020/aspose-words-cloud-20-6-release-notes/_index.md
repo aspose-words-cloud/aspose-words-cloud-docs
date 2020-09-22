@@ -67,5 +67,3 @@ The page contains release notes for Aspose.Words Cloud 20.6 – [API Reference]
 1. insertOrUpdateParagraphTabStop, deleteParagraphTabStop methods have been changed parameter order
 1. OoxmlSaveOptionsData.CompressionLevel property has been added
 
-
-

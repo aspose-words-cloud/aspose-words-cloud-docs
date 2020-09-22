@@ -6,6 +6,4 @@ aliases: [/working-with-paragraph-lists/]
 weight: 150
 ---
 
-
-
 **Working With Paragraph Lists**

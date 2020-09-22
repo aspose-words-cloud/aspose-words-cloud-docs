@@ -61,12 +61,9 @@ The **Request Parameters** are:
 **Input Document:** [FormFilled.docx](attachments/885421/1180128.docx)
 
 {{< tabs tabTotal="2" tabID="2" tabName1="Request" tabName2="Response" >}}
-
 {{< tab tabNum="1" >}}
 
 ```java
-
-
 
 // Please get your App_Key and App_SID from https://dashboard.aspose.cloud/#/apps. Place your App_Key in "client_secret" and App_SID in "client_id" argument.
 
@@ -88,7 +85,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/FormFilled.docx/sections/0/paragrap
 ```
 
 {{< /tab >}}
-
 {{< tab tabNum="2" >}}
 
 ```java
@@ -98,49 +94,30 @@ curl -v "https://api.aspose.cloud/v4.0/words/FormFilled.docx/sections/0/paragrap
   "FormField": {
 
     "NodeId": "0.1.0.0.0.1",
-
     "Name": "FullName",
-
     "Enabled": true,
-
     "StatusText": "",
-
     "OwnStatus": false,
-
     "HelpText": "",
-
     "OwnHelp": false,
-
     "CalculateOnExit": true,
-
     "EntryMacro": "",
-
     "ExitMacro": "",
-
     "TextInputFormat": "UPPERCASE",
-
     "TextInputType": "Regular",
-
     "TextInputDefault": "123",
-
     "MaxLength": 0,
-
     "link": {
 
       "Href": "http://api.aspose.cloud/v4.0/words/FormFilled.docx/sections/0/tables/0/rows/0/cells/0/paragraphs/0/formfields/0",
-
       "Rel": "self",
-
       "Type": null,
-
       "Title": null
 
     }
 
   },
-
   "Code": 200,
-
   "Status": "OK"
 
 }
@@ -148,7 +125,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/FormFilled.docx/sections/0/paragrap
 ```
 
 {{< /tab >}}
-
 {{< /tabs >}}
 
 ## SDKs
@@ -159,53 +135,28 @@ Using an SDK is the best way to speed up the development. An SDK takes care of a
 
 Code examples for various SDKs are presented below:
 {{< tabs tabTotal="8" tabID="5" tabName1="C#" tabName2="Java" tabName3="Python" tabName4="Ruby" tabName5="Node.js" tabName6="Android" tabName7="Swift" tabName8="Go" >}}
-
 {{< tab tabNum="1" >}}
-
 {{< gist "aspose-cloud" "19215e2ac3d61ca0fd78d1ca2f1c1023" "AddFormFieldToParagraph.cs" >}}
-
 {{< /tab >}}
-
 {{< tab tabNum="2" >}}
-
 {{< gist "aspose-cloud" "7d6af3eba6f989851e6475842125f31d" "PutFormField.java" >}}
-
 {{< /tab >}}
-
 {{< tab tabNum="3" >}}
-
 {{< gist "aspose-cloud" "303ca1faad43f8d1b672fbeac98ad2e0" "put_form_field.py" >}}
-
 {{< /tab >}}
-
 {{< tab tabNum="4" >}}
-
 {{< gist "aspose-cloud" "5af73b7a7c08a9072ac1c05b0914df3f" "put_form_field.rb" >}}
-
 {{< /tab >}}
-
 {{< tab tabNum="5" >}}
-
 {{< gist "aspose-cloud" "e5e9b0139962cb912eac42c9df06a1a2" "putFormField.js" >}}
-
 {{< /tab >}}
-
 {{< tab tabNum="6" >}}
-
 {{< gist "aspose-cloud" "5240b25c9a3e98fb21785ad771a3876b" "Aspose_Cloud_Words_PutFormField.java" >}}
-
 {{< /tab >}}
-
 {{< tab tabNum="7" >}}
-
 {{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose_Words_Swift_PutFormField.swift" >}}
-
 {{< /tab >}}
-
 {{< tab tabNum="8" >}}
-
 {{< gist "aspose-cloud" "068ce2149de5ad69ab516209b7ae82cf" "PutFormField.go" >}}
-
 {{< /tab >}}
-
 {{< /tabs >}}

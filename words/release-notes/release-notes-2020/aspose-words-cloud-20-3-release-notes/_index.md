@@ -120,5 +120,3 @@ Old package is abandoned and no more updated since this release [ABANDONED pack
 - WordsApi class now has credentials parameters
 
 
-
-

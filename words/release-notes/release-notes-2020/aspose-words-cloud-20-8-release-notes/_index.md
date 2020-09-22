@@ -77,9 +77,3 @@ which is allows to optimize the document contents as well as default Aspose.Word
 
 
 
-
-
-
-
-
-

@@ -51,7 +51,3 @@ Publically available Swagger description and UI has received updates and fixes t
 *replaceResourcesHostTo* parameter is now deprecated and will be removed in future versions of the API. Please contact Support if you are using it.
 
 
-
-
-
-

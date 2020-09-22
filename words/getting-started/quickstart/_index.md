@@ -29,41 +29,22 @@ The GitHub repository for Aspose.Words Cloud has a complete set of examples, dem
 ## Convert HTML to DOCX
 
 {{< tabs tabTotal="6" tabID="1" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Ruby" tabName5="Python" tabName6="Node.js" >}}
-
 {{< tab tabNum="1" >}}
-
 {{< gist "aspose-cloud" "19215e2ac3d61ca0fd78d1ca2f1c1023" "ConvertHTMLToWord.cs" >}}
-
 {{< /tab >}}
-
 {{< tab tabNum="2" >}}
-
 {{< gist "aspose-cloud" "5a72e646dc2cba15427e85ec53053e57" "ConvertHTMLToWord.java" >}}
-
 {{< /tab >}}
-
 {{< tab tabNum="3" >}}
-
 {{< gist "aspose-cloud" "d33e07e49426e4f66a3262788d9792a3" "ConvertHTMLToWord.php" >}}
-
 {{< /tab >}}
-
 {{< tab tabNum="4" >}}
-
 {{< gist "aspose-cloud" "5af73b7a7c08a9072ac1c05b0914df3f" "convert_html_to_word.rb" >}}
-
 {{< /tab >}}
-
 {{< tab tabNum="5" >}}
-
 {{< gist "aspose-cloud" "303ca1faad43f8d1b672fbeac98ad2e0" "convert_html_to_word.py" >}}
-
 {{< /tab >}}
-
 {{< tab tabNum="6" >}}
-
 {{< gist "aspose-cloud" "e5e9b0139962cb912eac42c9df06a1a2" "convert_html_to_word.js" >}}
-
 {{< /tab >}}
-
 {{< /tabs >}}

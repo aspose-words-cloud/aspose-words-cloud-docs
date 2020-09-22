@@ -24,7 +24,3 @@ The following articles explain each API in detail and contain cURL and SDK Examp
 1. [Convert PDF file to a Word Document](/convert-pdf-document-to-word/)
 
 
-
-
-
-

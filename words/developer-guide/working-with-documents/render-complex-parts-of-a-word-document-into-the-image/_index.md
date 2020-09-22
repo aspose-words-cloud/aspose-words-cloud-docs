@@ -45,12 +45,9 @@ The following formats are supported:
 **Case 1: Render a page of the document in BMP format:**
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
-
 {{< tab tabNum="1" >}}
 
 ```java
-
-
 
 // Please get your App_Key and App_SID from https://dashboard.aspose.cloud/#/apps. Place your App_Key in "client_secret" and App_SID in "client_id" argument.
 
@@ -72,7 +69,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/pages/1/ren
 ```
 
 {{< /tab >}}
-
 {{< tab tabNum="2" >}}
 
 ```java
@@ -82,18 +78,14 @@ BMP File
 ```
 
 {{< /tab >}}
-
 {{< /tabs >}}
 
 **Case 2: Render a paragraph in PNG format:**
 
 {{< tabs tabTotal="2" tabID="4" tabName1="Request" tabName2="Response" >}}
-
 {{< tab tabNum="1" >}}
 
 ```java
-
-
 
 // Please get your App_Key and App_SID from https://dashboard.aspose.cloud/#/apps. Place your App_Key in "client_secret" and App_SID in "client_id" argument.
 
@@ -115,7 +107,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs/0/
 ```
 
 {{< /tab >}}
-
 {{< tab tabNum="2" >}}
 
 ```java
@@ -125,18 +116,14 @@ PNG File
 ```
 
 {{< /tab >}}
-
 {{< /tabs >}}
 
 **Case 3: Render a table in PNG format:**
 
 {{< tabs tabTotal="2" tabID="7" tabName1="Request" tabName2="Response" >}}
-
 {{< tab tabNum="1" >}}
 
 ```java
-
-
 
 // Please get your App_Key and App_SID from https://dashboard.aspose.cloud/#/apps. Place your App_Key in "client_secret" and App_SID in "client_id" argument.
 
@@ -158,7 +145,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/TablesGet.docx/tables/0/render?form
 ```
 
 {{< /tab >}}
-
 {{< tab tabNum="2" >}}
 
 ```java
@@ -168,18 +154,14 @@ PNG File
 ```
 
 {{< /tab >}}
-
 {{< /tabs >}}
 
 **Case 4: Render a drawingObject in PDF format:**
 
 {{< tabs tabTotal="2" tabID="10" tabName1="Request" tabName2="Response" >}}
-
 {{< tab tabNum="1" >}}
 
 ```java
-
-
 
 // Please get your App_Key and App_SID from https://dashboard.aspose.cloud/#/apps. Place your App_Key in "client_secret" and App_SID in "client_id" argument.
 
@@ -201,7 +183,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/drawingObject
 ```
 
 {{< /tab >}}
-
 {{< tab tabNum="2" >}}
 
 ```java
@@ -211,18 +192,14 @@ PDF File
 ```
 
 {{< /tab >}}
-
 {{< /tabs >}}
 
 **Case 5: Render an OfficeMathObject in PNG format:**
 
 {{< tabs tabTotal="2" tabID="13" tabName1="Request" tabName2="Response" >}}
-
 {{< tab tabNum="1" >}}
 
 ```java
-
-
 
 // Please get your App_Key and App_SID from https://dashboard.aspose.cloud/#/apps. Place your App_Key in "client_secret" and App_SID in "client_id" argument.
 
@@ -244,7 +221,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/MathObjects.docx/OfficeMathObjects/
 ```
 
 {{< /tab >}}
-
 {{< tab tabNum="2" >}}
 
 ```java
@@ -254,7 +230,6 @@ PNG File
 ```
 
 {{< /tab >}}
-
 {{< /tabs >}}
 
 ## SDK Examples
@@ -263,240 +238,130 @@ Code examples for various SDKs are presented below:
 **Case 1: Renders Page to Specified Format**
 
 {{< tabs tabTotal="7" tabID="16" tabName1="C#" tabName2="Java" tabName3="Python" tabName4="Ruby" tabName5="Node.js" tabName6="Android" tabName7="Swift" >}}
-
 {{< tab tabNum="1" >}}
-
 {{< gist "aspose-cloud" "19215e2ac3d61ca0fd78d1ca2f1c1023" "RendersPageToSpecifiedFormat.cs" >}}
-
 {{< /tab >}}
-
 {{< tab tabNum="2" >}}
-
 {{< gist "aspose-cloud" "7d6af3eba6f989851e6475842125f31d" "RenderPage.java" >}}
-
 {{< /tab >}}
-
 {{< tab tabNum="3" >}}
-
 {{< gist "aspose-cloud" "303ca1faad43f8d1b672fbeac98ad2e0" "render_page_to_specified_format.py" >}}
-
 {{< /tab >}}
-
 {{< tab tabNum="4" >}}
-
 {{< gist "aspose-cloud" "5af73b7a7c08a9072ac1c05b0914df3f" "render_page.rb" >}}
-
 {{< /tab >}}
-
 {{< tab tabNum="5" >}}
-
 {{< gist "aspose-cloud" "e5e9b0139962cb912eac42c9df06a1a2" "renderPage.js" >}}
-
 {{< /tab >}}
-
 {{< tab tabNum="6" >}}
-
 {{< gist "aspose-cloud" "5240b25c9a3e98fb21785ad771a3876b" "Aspose_Cloud_Words_RenderPage.java" >}}
-
 {{< /tab >}}
-
 {{< tab tabNum="7" >}}
-
 {{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose_Words_Swift_RenderPage.swift" >}}
-
 {{< /tab >}}
-
 {{< /tabs >}}
 
 **Case 2: Renders Paragraph to Specified Format**
 
 {{< tabs tabTotal="7" tabID="17" tabName1="C#" tabName2="Java" tabName3="Python" tabName4="Ruby" tabName5="Node.js" tabName6="Android" tabName7="Swift" >}}
-
 {{< tab tabNum="1" >}}
-
 {{< gist "aspose-cloud" "19215e2ac3d61ca0fd78d1ca2f1c1023" "RenderParagraph.cs" >}}
-
 {{< /tab >}}
-
 {{< tab tabNum="2" >}}
-
 {{< gist "aspose-cloud" "7d6af3eba6f989851e6475842125f31d" "RenderParagraph.java" >}}
-
 {{< /tab >}}
-
 {{< tab tabNum="3" >}}
-
 {{< gist "aspose-cloud" "303ca1faad43f8d1b672fbeac98ad2e0" "render_paragraph_to_specified_format.py" >}}
-
 {{< /tab >}}
-
 {{< tab tabNum="4" >}}
-
 {{< gist "aspose-cloud" "5af73b7a7c08a9072ac1c05b0914df3f" "render_paragraph.rb" >}}
-
 {{< /tab >}}
-
 {{< tab tabNum="5" >}}
-
 {{< gist "aspose-cloud" "e5e9b0139962cb912eac42c9df06a1a2" "renderParagraph.js" >}}
-
 {{< /tab >}}
-
 {{< tab tabNum="6" >}}
-
 {{< gist "aspose-cloud" "5240b25c9a3e98fb21785ad771a3876b" "Aspose_Cloud_Words_RenderParagraph.java" >}}
-
 {{< /tab >}}
-
 {{< tab tabNum="7" >}}
-
 {{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose_Words_Swift_RenderParagraph.swift" >}}
-
 {{< /tab >}}
-
 {{< /tabs >}}
 
 **Case 3: Renders Table to Specified Format**
 
 {{< tabs tabTotal="7" tabID="18" tabName1="C#" tabName2="Java" tabName3="Python" tabName4="Ruby" tabName5="Node.js" tabName6="Android" tabName7="Swift" >}}
-
 {{< tab tabNum="1" >}}
-
 {{< gist "aspose-cloud" "19215e2ac3d61ca0fd78d1ca2f1c1023" "RenderTable.cs" >}}
-
 {{< /tab >}}
-
 {{< tab tabNum="2" >}}
-
 {{< gist "aspose-cloud" "7d6af3eba6f989851e6475842125f31d" "RenderTable.java" >}}
-
 {{< /tab >}}
-
 {{< tab tabNum="3" >}}
-
 {{< gist "aspose-cloud" "303ca1faad43f8d1b672fbeac98ad2e0" "render_table_to_specified_format.py" >}}
-
 {{< /tab >}}
-
 {{< tab tabNum="4" >}}
-
 {{< gist "aspose-cloud" "5af73b7a7c08a9072ac1c05b0914df3f" "render_table.rb" >}}
-
 {{< /tab >}}
-
 {{< tab tabNum="5" >}}
-
 {{< gist "aspose-cloud" "e5e9b0139962cb912eac42c9df06a1a2" "renderTable.js" >}}
-
 {{< /tab >}}
-
 {{< tab tabNum="6" >}}
-
 {{< gist "aspose-cloud" "5240b25c9a3e98fb21785ad771a3876b" "Aspose_Cloud_Words_RenderTable.java" >}}
-
 {{< /tab >}}
-
 {{< tab tabNum="7" >}}
-
 {{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose_Words_Swift_RenderTable.swift" >}}
-
 {{< /tab >}}
-
 {{< /tabs >}}
 
 **Case 4: Renders Drawing Object to Specified Format**
 
 {{< tabs tabTotal="7" tabID="19" tabName1="C#" tabName2="Java" tabName3="Python" tabName4="Ruby" tabName5="Node.js" tabName6="Android" tabName7="Swift" >}}
-
 {{< tab tabNum="1" >}}
-
 {{< gist "aspose-cloud" "19215e2ac3d61ca0fd78d1ca2f1c1023" "RenderDrawingObjectToSpecifiedFormat.cs" >}}
-
 {{< /tab >}}
-
 {{< tab tabNum="2" >}}
-
 {{< gist "aspose-cloud" "7d6af3eba6f989851e6475842125f31d" "RenderDrawingObject.java" >}}
-
 {{< /tab >}}
-
 {{< tab tabNum="3" >}}
-
 {{< gist "aspose-cloud" "303ca1faad43f8d1b672fbeac98ad2e0" "render_drawing_object_to_specified_format.py" >}}
-
 {{< /tab >}}
-
 {{< tab tabNum="4" >}}
-
 {{< gist "aspose-cloud" "5af73b7a7c08a9072ac1c05b0914df3f" "render_drawing_object.rb" >}}
-
 {{< /tab >}}
-
 {{< tab tabNum="5" >}}
-
 {{< gist "aspose-cloud" "e5e9b0139962cb912eac42c9df06a1a2" "renderDrawingObject.js" >}}
-
 {{< /tab >}}
-
 {{< tab tabNum="6" >}}
-
 {{< gist "aspose-cloud" "5240b25c9a3e98fb21785ad771a3876b" "Aspose_Cloud_Words_RenderDrawingObject.java" >}}
-
 {{< /tab >}}
-
 {{< tab tabNum="7" >}}
-
 {{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose_Words_Swift_RenderDrawingObject.swift" >}}
-
 {{< /tab >}}
-
 {{< /tabs >}}
 
 **Case 5: Renders Math Object to Specified Format**
 
 {{< tabs tabTotal="7" tabID="20" tabName1="C#" tabName2="Java" tabName3="Python" tabName4="Ruby" tabName5="Node.js" tabName6="Android" tabName7="Swift" >}}
-
 {{< tab tabNum="1" >}}
-
 {{< gist "aspose-cloud" "19215e2ac3d61ca0fd78d1ca2f1c1023" "RenderMathObject.cs" >}}
-
 {{< /tab >}}
-
 {{< tab tabNum="2" >}}
-
 {{< gist "aspose-cloud" "7d6af3eba6f989851e6475842125f31d" "RenderMathObject.java" >}}
-
 {{< /tab >}}
-
 {{< tab tabNum="3" >}}
-
 {{< gist "aspose-cloud" "303ca1faad43f8d1b672fbeac98ad2e0" "render_math_object_to_specified_format.py" >}}
-
 {{< /tab >}}
-
 {{< tab tabNum="4" >}}
-
 {{< gist "aspose-cloud" "5af73b7a7c08a9072ac1c05b0914df3f" "render_math_object.rb" >}}
-
 {{< /tab >}}
-
 {{< tab tabNum="5" >}}
-
 {{< gist "aspose-cloud" "e5e9b0139962cb912eac42c9df06a1a2" "renderMathObject.js" >}}
-
 {{< /tab >}}
-
 {{< tab tabNum="6" >}}
-
 {{< gist "aspose-cloud" "5240b25c9a3e98fb21785ad771a3876b" "Aspose_Cloud_Words_RenderMathObject.java" >}}
-
 {{< /tab >}}
-
 {{< tab tabNum="7" >}}
-
 {{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose_Words_Swift_RenderMathObject.swift" >}}
-
 {{< /tab >}}
-
 {{< /tabs >}}
 

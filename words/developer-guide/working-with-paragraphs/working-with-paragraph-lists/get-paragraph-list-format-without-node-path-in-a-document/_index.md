@@ -17,12 +17,9 @@ This REST API allows you to Get Paragraph List Format Without Node Path in a Doc
 ## cURL Example
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
-
 {{< tab tabNum="1" >}}
 
 ```java
-
-
 
 // Please get your App_Key and App_SID from https://dashboard.aspose.cloud/#/apps. Place your App_Key in "client_secret" and App_SID in "client_id" argument.
 
@@ -43,7 +40,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/ParagraphGetListFormat.doc/para
 ```
 
 {{< /tab >}}
-
 {{< tab tabNum="2" >}}
 
 ```java
@@ -53,21 +49,16 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/ParagraphGetListFormat.doc/para
   "ListFormat": {
 
     "ListLevelNumber": 1,
-
     "ListId": 1,
-
     "IsListItem": true,
-
     "link": {
 
       "Href": "https://api.aspose.cloud/v4.0/words/ParagraphGetListFormat.doc/sections/0/body/paragraphs/1/listFormat",
-
       "Rel": "self"
 
     }
 
   },
-
   "RequestId": "Root=1-5ee5003c-cb9aaf6c22084586e37c7428"
 
 }
@@ -75,7 +66,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/ParagraphGetListFormat.doc/para
 ```
 
 {{< /tab >}}
-
 {{< /tabs >}}
 
 ## SDKs
@@ -86,63 +76,33 @@ Using an SDK is the best way to speed up the development. An SDK takes care of a
 
 Code examples for various SDKs are presented below:
 {{< tabs tabTotal="9" tabID="4" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Python" tabName5="Ruby" tabName6="Node.js" tabName7="Android" tabName8="Swift" tabName9="Go" >}}
-
 {{< tab tabNum="1" >}}
-
 {{< gist "aspose-cloud" "9fa2e714041dd6cf1071eb307b623416" "GetParagraphListFormatWithoutNodePath.cs" >}}
-
 {{< /tab >}}
-
 {{< tab tabNum="2" >}}
-
 {{< gist "aspose-cloud" "7d6af3eba6f989851e6475842125f31d" "GetParagraphListFormatWithoutNodePath.java" >}}
-
 {{< /tab >}}
-
 {{< tab tabNum="3" >}}
-
 {{< gist "aspose-cloud" "163e730223a72524d163ef9c017f1b1a" "GetParagraphListFormatWithoutNodePath.php" >}}
-
 {{< /tab >}}
-
 {{< tab tabNum="4" >}}
-
 {{< gist "aspose-cloud" "fb014f439299bbee24472cb0efa6d50b" "GetParagraphListFormatWithoutNodePath.py" >}}
-
 {{< /tab >}}
-
 {{< tab tabNum="5" >}}
-
 {{< gist "aspose-cloud" "5af73b7a7c08a9072ac1c05b0914df3f" "GetParagraphListFormatWithoutNodePath.rb" >}}
-
 {{< /tab >}}
-
 {{< tab tabNum="6" >}}
-
 {{< gist "aspose-cloud" "e5e9b0139962cb912eac42c9df06a1a2" "GetParagraphListFormatWithoutNodePath.js" >}}
-
 {{< /tab >}}
-
 {{< tab tabNum="7" >}}
-
 {{< gist "aspose-cloud" "5240b25c9a3e98fb21785ad771a3876b" "GetParagraphListFormatWithoutNodePath.java" >}}
-
 {{< /tab >}}
-
 {{< tab tabNum="8" >}}
-
 {{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "GetParagraphListFormatWithoutNodePath.swift" >}}
-
 {{< /tab >}}
-
 {{< tab tabNum="9" >}}
-
 {{< gist "aspose-cloud" "068ce2149de5ad69ab516209b7ae82cf" "get_paragraph_list_format_without_path.go" >}}
-
 {{< /tab >}}
-
 {{< /tabs >}}
-
-
 
 
