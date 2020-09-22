@@ -48,7 +48,8 @@ The cleanup options parameter can contain a list of values from below, separated
 {{< tab tabNum="1" >}}
 ```java
 
-// Please get your App_Key and App_SID from https://dashboard.aspose.cloud/#/apps. Place your App_Key in "client_secret" and App_SID in "client_id" argument.
+// Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
+// Place App_Key in "client_secret" and App_SID in "client_id" argument.
 
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
@@ -284,7 +285,8 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleMailMergeTemplate.docx/MailMe
 {{< tab tabNum="1" >}}
 ```java
 
-// Please get your App_Key and App_SID from https://dashboard.aspose.cloud/#/apps. Place your App_Key in "client_secret" and App_SID in "client_id" argument.
+// Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
+// Place App_Key in "client_secret" and App_SID in "client_id" argument.
 
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \

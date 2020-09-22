@@ -43,7 +43,8 @@ This REST API allows you to add a drawing object to the Word document. The reque
 {{< tab tabNum="1" >}}
 ```java
 
-// Please get your App_Key and App_SID from https://dashboard.aspose.cloud/#/apps. Place your App_Key in "client_secret" and App_SID in "client_id" argument.
+// Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
+// Place App_Key in "client_secret" and App_SID in "client_id" argument.
 
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \

@@ -50,7 +50,8 @@ This REST API allows you to get a particular drawing object from the document. Y
 ```java
 
 // First get Access Token
-// Please get your App_Key and App_SID from https://dashboard.aspose.cloud/#/apps. Place your App_Key in "client_secret" and App_SID in "client_id" argument.
+// Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
+// Place App_Key in "client_secret" and App_SID in "client_id" argument.
 
 curl -v "https://api.aspose.cloud/oauth2/token" \
 -X POST \
