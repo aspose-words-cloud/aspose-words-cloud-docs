@@ -24,14 +24,12 @@ Aspose.Words Cloud provides helper functions to work with files uploaded to Asp
 
 ```java
 curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=[]&client_secret=[]" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
-
 ```
 
 ```java
 curl  -v -X GET "https://api.aspose.cloud/v4.0/words/storage/file/sample.docx" -H "Content-Type: application/json" -H "Authorization: Bearer 
 
 [Access Token]
-
 ```
 
 {{< /tab >}}
@@ -52,12 +50,10 @@ curl  -v -X GET "https://api.aspose.cloud/v4.0/words/storage/file/sample.docx" -
 
 ```java
 curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=[]&client_secret=[]" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
-
 ```
 
 ```java
 curl  -v -X PUT "https://api.aspose.cloud/v4.0/words/storage/file/sample.docx" -H "Content-Type:application/octet-stream" -H "Authorization: Bearer [Access Token]
-
 ```
 
 {{< /tab >}}
@@ -92,12 +88,10 @@ curl  -v -X PUT "https://api.aspose.cloud/v4.0/words/storage/file/sample.docx" -
 
 ```java
 curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=[]&client_secret=[]" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
-
 ```
 
 ```java
 curl -v -X PUT "https://api.aspose.cloud/v4.0/words/storage/file/copy/sample.docx/%2F?destPath=MyFolder" -H "Content-Type:application/json" -H "Authorization: Bearer [Access Token]
-
 ```
 
 {{< /tab >}}
@@ -118,12 +112,10 @@ curl -v -X PUT "https://api.aspose.cloud/v4.0/words/storage/file/copy/sample.doc
 
 ```java
 curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=[]&client_secret=[]" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
-
 ```
 
 ```java
 curl -v -X PUT "https://api.aspose.cloud/v4.0/words/storage/file/move/input.docx/%2F?destPath=MyFolder" -H "Content-Type:application/json" -H "Authorization: Bearer [Access Token]
-
 ```
 
 {{< /tab >}}
@@ -144,12 +136,10 @@ curl -v -X PUT "https://api.aspose.cloud/v4.0/words/storage/file/move/input.docx
 
 ```java
 curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=[]&client_secret=[]" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
-
 ```
 
 ```java
 curl -v -X DELETE "https://api.aspose.cloud/v4.0/words/storage/file/input.docx" -H "Content-Type:application/json" -H "Authorization: Bearer [Access Token]
-
 ```
 
 {{< /tab >}}

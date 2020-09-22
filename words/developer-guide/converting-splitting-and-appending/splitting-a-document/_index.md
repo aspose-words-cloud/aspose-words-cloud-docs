@@ -103,7 +103,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_doc.docx/split?from=2&to=3&for
 -H "Accept: application/json" \
 -H "Content-Length: 0" \
 -H "Authorization: Bearer <jwt token>"
-
 ```
 
 {{< /tab >}}

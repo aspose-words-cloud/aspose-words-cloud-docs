@@ -13,7 +13,6 @@ This REST API allows you to clear/reset the fonts cache.
 ```html
 
 ~/fonts/cache
-
 ```
 
 [Swagger UI](https://apireference.aspose.cloud/words/#/Fonts/ResetCache) lets you call this REST API directly from the browser.  
@@ -39,7 +38,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/cache" \
 -H "Content-Type: application/json" \
 -H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>"
-
 ```
 
 {{< /tab >}}

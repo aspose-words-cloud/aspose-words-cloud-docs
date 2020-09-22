@@ -35,7 +35,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/ParagraphTabStops.docx/sections
 -H "Content-Type: application/json" \
 -H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>"
-
 ```
 
 {{< /tab >}}

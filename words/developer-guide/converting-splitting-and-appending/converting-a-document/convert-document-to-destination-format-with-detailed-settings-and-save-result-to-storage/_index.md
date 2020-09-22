@@ -156,7 +156,6 @@ All elements, except **SaveFormat** and **FileName**, can be omitted. If we omit
    <Scale>{float_number}</Scale><!-- default value = 1.0 -->
 
 </BmpSaveOptions>
-
 ```
 
 - **Request for saving** **a document (DOC, DOT):**
@@ -180,7 +179,6 @@ All elements, except **SaveFormat** and **FileName**, can be omitted. If we omit
    <SaveRoutingSlip>{true/false}</SaveRoutingSlip><!-- default value = true -->
 
 </DocSaveOptions>
-
 ```
 
 - **Request for saving OOXML (DOCX, DOCM, DOTX, DOTM, FLATOPC):**
@@ -206,7 +204,6 @@ All elements, except **SaveFormat** and **FileName**, can be omitted. If we omit
    <Password>{string}</Password><!-- default value = "" -->
 
 </OoxmlSaveOptions>
-
 ```
 
 - **Request for saving EMF:**
@@ -294,7 +291,6 @@ All elements, except **SaveFormat** and **FileName**, can be omitted. If we omit
    <UseGdiEmfRenderer>{true/false}</UseGdiEmfRenderer><!-- default value = true-->
 
 </EmfSaveOptions>
-
 ```
 
 - **Request for saving EPUB:**
@@ -374,7 +370,6 @@ All elements, except **SaveFormat** and **FileName**, can be omitted. If we omit
    <TableWidthOutputMode>{All/None/RelativeOnly}</TableWidthOutputMode><!-- default value = All -->
 
 </EpubSaveOptions>
-
 ```
 
 - **Request for saving GIF:**
@@ -470,7 +465,6 @@ All elements, except **SaveFormat** and **FileName**, can be omitted. If we omit
    <Scale>{float_number}</Scale><!-- default value = 1.0 -->
 
 </GifSaveOptions>
-
 ```
 
 - **Request for saving HTML:**
@@ -566,7 +560,6 @@ All elements, except **SaveFormat** and **FileName**, can be omitted. If we omit
    <ResolveFontNames>{true/false}</ResolveFontNames> <!-- Specifies whether font family names used in the document are resolved and substituted according to FontSettings when being written into HTML-based formats. -->
 
 </HtmlSaveOptions>
-
 ```
 
 - **Request for saving fixed HTML:**
@@ -630,7 +623,6 @@ All elements, except **SaveFormat** and **FileName**, can be omitted. If we omit
    <ShowPageBorder>{true/false}</ShowPageBorder><!-- default value = true -->
 
 </HtmlFixedSaveOptions>
-
 ```
 
 - **Request for saving images JPEG:**
@@ -724,7 +716,6 @@ All elements, except **SaveFormat** and **FileName**, can be omitted. If we omit
    <Scale>{float_number}</Scale><!-- default value = 1.0 -->
 
 </JpegSaveOptions>
-
 ```
 
 - **Request for saving MHTML:**
@@ -800,7 +791,6 @@ All elements, except **SaveFormat** and **FileName**, can be omitted. If we omit
  <TableWidthOutputMode>{All/None/RelativeOnly}</TableWidthOutputMode><!-- default value = All -->
 
 </MhtmlSaveOptions>
-
 ```
 
 - **Request for saving ODT, OTT:**
@@ -824,7 +814,6 @@ All elements, except **SaveFormat** and **FileName**, can be omitted. If we omit
    <IsStrictSchema11>{true/false}</IsStrictSchema11><!-- default value = false -->
 
 </OdtSaveOptions>
-
 ```
 
 - **Request for saving PCL:**
@@ -868,7 +857,6 @@ All elements, except **SaveFormat** and **FileName**, can be omitted. If we omit
   <RasterizeTransformedElements>{true/false}</RasterizeTransformedElements><!-- default value = true -->
 
 </PclSaveOptions>
-
 ```
 
 - **Request for saving PDF:**
@@ -1004,7 +992,6 @@ All elements, except **SaveFormat** and **FileName**, can be omitted. If we omit
    <EscapeUri>{true/false}</EscapeUri> <!-- A flag specifying whether URI should be escaped before writing. The default value is true. -->
 
 </PdfSaveOptions>
-
 ```
 
 - **Request for saving images PNG:**
@@ -1096,7 +1083,6 @@ All elements, except **SaveFormat** and **FileName**, can be omitted. If we omit
    <Scale>{float_number}</Scale><!-- default value = 1.0 -->
 
 </PngSaveOptions>
-
 ```
 
 - **Request for saving PS:**
@@ -1138,7 +1124,6 @@ All elements, except **SaveFormat** and **FileName**, can be omitted. If we omit
    <UseBookFoldPrintingSettings>{true/false}</UseBookFoldPrintingSettings><!-- default value = false -->
 
 </PsSaveOptions>
-
 ```
 
 - **Request for saving RTF:**
@@ -1164,7 +1149,6 @@ All elements, except **SaveFormat** and **FileName**, can be omitted. If we omit
    <ExportImagesForOldReaders>{true/false}</ExportImagesForOldReaders><!-- default value = true -->
 
 </RtfSaveOptions> 
-
 ```
 
 - **Request for saving SVG:**
@@ -1220,7 +1204,6 @@ All elements, except **SaveFormat** and **FileName**, can be omitted. If we omit
    <TextOutputMode>{UsePlacedGlyphs/UseSvgFonts/UseTargetMachineFonts}</TextOutputMode><!-- default value = UseTargetMachineFonts -->
 
 </SvgSaveOptions>
-
 ```
 
 - **Request for saving TIFF:**
@@ -1318,7 +1301,6 @@ All elements, except **SaveFormat** and **FileName**, can be omitted. If we omit
    <TiffCompression>{Ccitt3/Ccitt4/Lzw/None/Rle}</TiffCompression><!-- default value = Lzw -->
 
 </TiffSaveOptions>
-
 ```
 
 - **Request for saving TXT:**
@@ -1348,7 +1330,6 @@ All elements, except **SaveFormat** and **FileName**, can be omitted. If we omit
    <SimplifyListLabels>{true/false}</SimplifyListLabels><!-- default value = false -->
 
 </TextSaveOptions>
-
 ```
 
 - **Request for saving WORDML:**
@@ -1370,7 +1351,6 @@ All elements, except **SaveFormat** and **FileName**, can be omitted. If we omit
    <PrettyFormat>{true/false}</PrettyFormat><!-- default value = false -->
 
 </WordMLSaveOptions>
-
 ```
 
 - **Request for saving XAMLFIXED:**
@@ -1408,7 +1388,6 @@ All elements, except **SaveFormat** and **FileName**, can be omitted. If we omit
    <ResourcesFolderAlias>string</ResourcesFolderAlias>
 
 </XamlFixedSaveOptions>
-
 ```
 
 - **Request for saving XAMLFLOW:**
@@ -1432,7 +1411,6 @@ All elements, except **SaveFormat** and **FileName**, can be omitted. If we omit
    <ImagesFolderAlias>{string}</ImagesFolderAlias><!-- default value = "" -->
 
 </XamlFlowSaveOptions>
-
 ```
 
 - **Request for saving XPS (OpenXPS, XPS):**
@@ -1502,7 +1480,6 @@ All elements, except **SaveFormat** and **FileName**, can be omitted. If we omit
    <UseBookFoldPrintingSettings>{true/false}</UseBookFoldPrintingSettings><!-- default value = false -->
 
 </XpsSaveOptions>
-
 ```
 
 **Type definition:**
@@ -1516,7 +1493,6 @@ All elements, except **SaveFormat** and **FileName**, can be omitted. If we omit
 {ColorName} = known color name, e.g. Black
 
 R,G,B = 0..255
-
 ```
 
 ## Resource URI
@@ -1545,7 +1521,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/saveAs" \
 -H "Content-Type: application/json" \
 -H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>"
-
 ```
 
 {{< /tab >}}
@@ -1575,7 +1550,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/saveAs" \
   "Status": "OK"
 
 } 
-
 ```
 
 {{< /tab >}}

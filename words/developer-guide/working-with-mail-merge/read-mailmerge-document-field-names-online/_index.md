@@ -40,7 +40,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/mailMerge/FieldNames" \
 -H "Content-Type: multipart/form-data" \
 -H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>"
-
 ```
 
 {{< /tab >}}

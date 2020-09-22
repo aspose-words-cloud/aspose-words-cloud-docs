@@ -15,7 +15,6 @@ This REST API allows you to get all drawing objects that are defined in the doc
 ~/{file-name}/drawingObjects
 
 ~/{file-name}/{nodePath}/drawingObjects
-
 ```
 
 *{file-name}* is the name of the Word document containing elements.
@@ -48,7 +47,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/drawingObject
 -H "Content-Type: application/json" \
 -H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>"
-
 ```
 
 {{< /tab >}}

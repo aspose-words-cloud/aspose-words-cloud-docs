@@ -71,7 +71,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/2019_new_demo.pdf/saveAs" \
 -H "Content-Type: application/json" \
 -H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>"
-
 ```
 
 {{< /tab >}}
@@ -101,7 +100,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/2019_new_demo.pdf/saveAs" \
   "Status": "OK"
 
 } 
-
 ```
 
 {{< /tab >}}

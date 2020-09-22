@@ -37,7 +37,6 @@ curl -X PUT "https://api.aspose.cloud/v4.0/words/Run.doc/styles/Heading%201/upda
 -H  "Content-Type: application/json" 
 
 -d "{\"IsQuickStyle\":true,\"Name\":\"My Style\"}"
-
 ```
 
 {{< /tab >}}

@@ -16,7 +16,6 @@ This REST API allows you to get all paragraphs that are contained in a document 
 ~/{file-name}/sections/{sectionIndex}/paragraphs
 
 ~/{file-name}/sections/{sectionIndex}/headersFooters/{headerFooterIndex}/paragraphs
-
 ```
 
 *{file-name}* is the name of the Word document containing elements.
@@ -46,7 +45,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs" \
 -H "Content-Type: application/json" \
 -H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>"
-
 ```
 
 {{< /tab >}}

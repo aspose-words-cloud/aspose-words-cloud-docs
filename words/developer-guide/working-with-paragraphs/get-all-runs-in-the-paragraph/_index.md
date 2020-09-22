@@ -12,7 +12,6 @@ This REST API allows you to get a list of all runs that are contained in the spe
 
 ```java
 ~/{file-name}/{paragraphPath}/runs/
-
 ```
 
 *{file-name}* is the name of the Word document containing elements
@@ -46,7 +45,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/GetField.docx/sections/0/paragraphs
 -H "Content-Type: application/json" \
 -H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>"
-
 ```
 
 {{< /tab >}}

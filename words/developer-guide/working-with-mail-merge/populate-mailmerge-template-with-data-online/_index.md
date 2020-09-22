@@ -64,14 +64,12 @@ curl -v "https://api.aspose.cloud/v4.0/words/MailMerge" \
 -H "Accept: multipart/form-data" \
 -H "Authorization: Bearer <jwt token>" \
 -o TestPostDocumentExecuteMailMerge.docx
-
 ```
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
 ```java
 Output Document: TestPostDocumentExecuteMailMerge.docx
-
 ```
 
 {{< /tab >}}
@@ -106,14 +104,12 @@ curl -v "https://api.aspose.cloud/v4.0/words/MailMerge" \
 -H "Accept: multipart/form-data" \
 -H "Authorization: Bearer <jwt token>" \
 -o TestPostExecuteTemplate.docx
-
 ```
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
 ```java
 Output Document: TestPostExecuteTemplate.docx
-
 ```
 
 {{< /tab >}}

@@ -54,7 +54,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/create?fileName=TestDocument.docx" 
 -H "Accept: application/json" \
 -H "Content-Length: 0" \
 -H "Authorization: Bearer <jwt token>"
-
 ```
 
 {{< /tab >}}

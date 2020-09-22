@@ -15,7 +15,6 @@ This REST API allows you to get all fields that are defined in the document, s
 ~/{file-name}/fields
 
 ~/{file-name}/{nodePath}/fields
-
 ```
 
 *{file-name}* is the name of the Word document containing elements.
@@ -57,7 +56,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/GetField.docx/sections/0/paragraphs
 -H "Content-Type: application/json" \
 -H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>"
-
 ```
 
 {{< /tab >}}

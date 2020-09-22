@@ -64,7 +64,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleMailMergeTemplate.docx/MailMe
 -H "Content-Type: multipart/form-data" \
 -H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>"
-
 ```
 
 {{< /tab >}}
@@ -299,7 +298,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/TestExecuteTemplate.doc/MailMerge?d
 -H "Content-Type: multipart/form-data" \
 -H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>"
-
 ```
 
 {{< /tab >}}

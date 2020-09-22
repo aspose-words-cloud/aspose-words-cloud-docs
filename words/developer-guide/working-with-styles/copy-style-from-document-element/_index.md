@@ -37,7 +37,6 @@ curl -X POST "https://api.aspose.cloud/v4.0/words/TestCopyStyle.docx/styles/copy
 -H  "Authorization: Bearer  
 
 -H  "Content-Type: application/json" -d "{\"StyleName\":\"Heading 1\"}"
-
 ```
 
 {{< /tab >}}

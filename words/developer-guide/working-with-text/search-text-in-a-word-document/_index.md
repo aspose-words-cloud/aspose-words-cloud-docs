@@ -37,7 +37,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/search?patt
 -H "Content-Type: application/json" \
 -H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>"
-
 ```
 
 {{< /tab >}}

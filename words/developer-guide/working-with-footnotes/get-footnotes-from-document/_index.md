@@ -15,7 +15,6 @@ This REST API allows you to get a list of footnotes that are contained in the do
 ~/{file-name}/footnotes
 
 ~/{file-name}/{nodePath}/footnotes
-
 ```
 
 *{file-name}* is the name of the Word document containing elements.
@@ -59,7 +58,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/Footnote.doc/footnotes" \
 -H "Content-Type: application/json" \
 -H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>"
-
 ```
 
 {{< /tab >}}

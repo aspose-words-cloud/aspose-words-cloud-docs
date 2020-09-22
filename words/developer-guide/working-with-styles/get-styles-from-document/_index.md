@@ -35,7 +35,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyleFromDocumentElement
 -H  "accept: application/json" -H  "Authorization: Bearer <jwt tokon>" 
 
 -H  "Content-Type: application/json" 
-
 ```
 
 {{< /tab >}}

@@ -67,7 +67,6 @@ The page contains release notes for Aspose.Words Cloud 20.8 – [API Reference]
 
 ```java
 {name}/compatibility/optimize
-
 ```
 
 which is allows to optimize the document contents as well as default Aspose.Words behavior to a particular versions of MS Word

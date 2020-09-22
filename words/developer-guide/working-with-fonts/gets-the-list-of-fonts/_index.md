@@ -31,7 +31,6 @@ and **FontInfo** properties are:
 ```html
 
 ~/fonts/available
-
 ```
 
 [Swagger UI](https://apireference.aspose.cloud/words/#/Fonts/GetAvailableFonts) lets you call this REST API directly from the browser.  
@@ -57,7 +56,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
 -H "Content-Type: application/json" \
 -H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>"
-
 ```
 
 {{< /tab >}}

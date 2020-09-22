@@ -15,7 +15,6 @@ This REST API allows you to get form fields from a document or specific section/
 ~/{file-name}/formfields
 
 ~/{file-name}/{nodePath}/formfields
-
 ```
 
 *{file-name}* is the name of the Word document containing elements.
@@ -50,7 +49,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/FormFilled.docx/formfields" \
 -H "Content-Type: application/json" \
 -H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>"
-
 ```
 
 {{< /tab >}}

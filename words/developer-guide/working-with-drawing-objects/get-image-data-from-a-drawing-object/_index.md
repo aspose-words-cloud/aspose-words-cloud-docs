@@ -14,7 +14,6 @@ This REST API allows you to get image data from a drawing object.
 ~/{file-name}/drawingObjects/{index}/imageData
 
 ~/{file-name}/{nodePath}/drawingObjects/{index}/imageData
-
 ```
 
 *{file-name}* is the name of the Word document containing elements.
@@ -50,14 +49,12 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/drawingObject
 -H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>" \
 -o image.png
-
 ```
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
 ```java
 image.png file
-
 ```
 
 {{< /tab >}}

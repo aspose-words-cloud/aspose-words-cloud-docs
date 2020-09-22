@@ -14,7 +14,6 @@ This REST API allows you to get all OfficeMath objects that are defined in the 
 ~/{file-name}/officeMathObjects
 
 ~/{file-name}/{nodePath}/officeMathObjects
-
 ```
 
 *{file-name}* is the name of the Word document containing elements.
@@ -47,7 +46,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/MathObjects.docx/OfficeMathObjects"
 -H "Content-Type: application/json" \
 -H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>"
-
 ```
 
 {{< /tab >}}

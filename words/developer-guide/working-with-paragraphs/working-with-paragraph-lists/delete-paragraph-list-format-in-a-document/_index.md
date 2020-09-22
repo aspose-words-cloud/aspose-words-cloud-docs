@@ -35,7 +35,6 @@ curl -X DELETE "https://api.aspose.cloud/v4.0/words/ParagraphGetListFormat.doc/s
 -H "Content-Type: application/json" \
 -H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>"
-
 ```
 
 {{< /tab >}}

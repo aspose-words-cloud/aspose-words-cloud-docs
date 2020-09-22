@@ -64,14 +64,12 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/pages/1/ren
 -H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>" \
 -o SampleWordDocument.bmp
-
 ```
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
 ```java
 BMP File
-
 ```
 
 {{< /tab >}}
@@ -98,14 +96,12 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs/0/
 -H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>" \
 -o Paragraph.png
-
 ```
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
 ```java
 PNG File
-
 ```
 
 {{< /tab >}}
@@ -132,14 +128,12 @@ curl -v "https://api.aspose.cloud/v4.0/words/TablesGet.docx/tables/0/render?form
 -H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>" \
 -o Table.png
-
 ```
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
 ```java
 PNG File
-
 ```
 
 {{< /tab >}}
@@ -166,14 +160,12 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/drawingObject
 -H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>" \
 -o DrawingObject.pdf
-
 ```
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
 ```java
 PDF File
-
 ```
 
 {{< /tab >}}
@@ -200,14 +192,12 @@ curl -v "https://api.aspose.cloud/v4.0/words/MathObjects.docx/OfficeMathObjects/
 -H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>" \
 -o OfficeMathObject.png
-
 ```
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
 ```java
 PNG File
-
 ```
 
 {{< /tab >}}

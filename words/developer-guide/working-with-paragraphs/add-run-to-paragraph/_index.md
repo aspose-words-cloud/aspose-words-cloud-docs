@@ -12,7 +12,6 @@ This REST API allows you to add run to paragraph. The API returns added run data
 
 ```java
 ~/{file-name}/{paragraphPath}/runs/
-
 ```
 
 *{file-name}* is the name of the Word document containing elements.
@@ -45,7 +44,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/Run.doc/paragraphs/1/runs" \
 -H "Content-Type: application/json" \
 -H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>"
-
 ```
 
 {{< /tab >}}

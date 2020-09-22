@@ -41,7 +41,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/TablesGet.docx/tables/1/rows" \
 -H "Content-Type: application/json" \
 -H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>"
-
 ```
 
 {{< /tab >}}

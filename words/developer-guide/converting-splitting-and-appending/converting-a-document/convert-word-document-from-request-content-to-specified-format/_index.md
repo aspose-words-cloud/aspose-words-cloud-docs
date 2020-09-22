@@ -93,14 +93,12 @@ curl -v "https://api.aspose.cloud/v4.0/words/convert?format=pdf" \
 -H "Accept: multipart/form-data" \
 -H "Authorization: Bearer <jwt token>" \
 -o TableDocument.pdf
-
 ```
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
 ```java
 PDF Document 
-
 ```
 
 {{< /tab >}}

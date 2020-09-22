@@ -44,7 +44,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/HeadersFooters.doc/headersfooters/0
 -H "Content-Type: application/json" \
 -H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>"
-
 ```
 
 {{< /tab >}}
@@ -108,7 +107,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/HeadersFooters.doc/sections/0/heade
 -H "Content-Type: application/json" \
 -H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>"
-
 ```
 
 {{< /tab >}}

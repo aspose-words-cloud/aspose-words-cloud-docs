@@ -33,7 +33,6 @@ curl -v "https://api.aspose.cloud/connect/token" \
 curl -X PUT "https://api.aspose.cloud/v4.0/words/TestApplyStyleToDocumentElement.docx/paragraphs%2F1%2FparagraphFormat/style?storage=First%20Storage" 
 
 -H  "Content-Type: application/json" -d "{\"StyleName\":\"Heading 1\"}"
-
 ```
 
 {{< /tab >}}

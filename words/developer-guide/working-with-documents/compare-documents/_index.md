@@ -54,7 +54,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/compareTestDoc1.doc/compareDocument
 -H "Content-Type: application/json" \
 -H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>"
-
 ```
 
 {{< /tab >}}
