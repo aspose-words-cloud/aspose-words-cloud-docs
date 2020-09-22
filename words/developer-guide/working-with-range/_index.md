@@ -116,9 +116,9 @@ First, he needs to call [Paragraph API](https://apireference.aspose.cloud/words/
 
 ```java
 
-// First get JSON Web Token
 
-// Please get your App Key and App SID from https://dashboard.aspose.cloud/#/apps. Kindly place App Key in "client_secret" and App SID in "client_id" argument.
+
+// Please get your App_Key and App_SID from https://dashboard.aspose.cloud/#/apps. Place your App_Key in "client_secret" and App_SID in "client_id" argument.
 
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
@@ -262,9 +262,9 @@ First, he needs to call [Paragraph API](https://apireference.aspose.cloud/words/
 
 ```java
 
-// First get JSON Web Token
 
-// Please get your App Key and App SID from https://dashboard.aspose.cloud/#/apps. Kindly place App Key in "client_secret" and App SID in "client_id" argument.
+
+// Please get your App_Key and App_SID from https://dashboard.aspose.cloud/#/apps. Place your App_Key in "client_secret" and App_SID in "client_id" argument.
 
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \

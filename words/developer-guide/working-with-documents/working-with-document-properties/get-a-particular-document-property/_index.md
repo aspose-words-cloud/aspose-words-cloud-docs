@@ -26,7 +26,7 @@ This REST API allows you to read a particular document property info by the prop
 
 ```java
 
-// First get JSON Web Token
+
 
 // Get App Key and App SID from https://dashboard.aspose.cloud/
 

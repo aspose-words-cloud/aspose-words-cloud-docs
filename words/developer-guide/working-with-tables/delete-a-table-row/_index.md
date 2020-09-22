@@ -22,7 +22,7 @@ This REST API allows you to delete a table row.
 
 ```java
 
-// First get JSON Web Token
+
 
 // Get App Key and App SID from https://dashboard.aspose.cloud/
 
