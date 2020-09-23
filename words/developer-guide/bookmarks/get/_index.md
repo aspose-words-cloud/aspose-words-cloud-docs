@@ -1,5 +1,6 @@
 ---
-title: "Getting Bookmarks from a Document"
+title: "Get"
+second_title: "Bookmarks in a Word Document"
 type: docs
 url: /getting-bookmarks-from-a-document/
 aliases: [/getting-bookmarks-from-a-document/]

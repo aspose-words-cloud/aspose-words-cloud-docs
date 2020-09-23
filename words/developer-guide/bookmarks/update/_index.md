@@ -1,5 +1,6 @@
 ---
-title: "Updating the Boorkmark Text in a document"
+title: "Update"
+second_title: "Bookmarks in a Word Document"
 type: docs
 url: /updating-the-boorkmark-text-in-a-document/
 aliases: [/updating-the-boorkmark-text-in-a-document/]

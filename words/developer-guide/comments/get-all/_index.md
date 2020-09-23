@@ -1,5 +1,6 @@
 ---
-title: "Get all Comments from a Word Document"
+title: "Get all"
+second_title: "Comments in a Word Document"
 type: docs
 url: /get-all-comments-from-a-word-document/
 aliases: [/get-all-comments-from-a-word-document/]

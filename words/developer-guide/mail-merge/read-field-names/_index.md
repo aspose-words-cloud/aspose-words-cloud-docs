@@ -1,5 +1,6 @@
 ---
-title: "Read MailMerge Document Field Names"
+title: "Read Field Names"
+second_title: "Mail Merge"
 type: docs
 url: /read-mailmerge-document-field-names/
 aliases: [/read-mailmerge-document-field-names/]

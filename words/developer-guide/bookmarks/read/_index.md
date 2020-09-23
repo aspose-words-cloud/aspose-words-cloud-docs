@@ -1,5 +1,6 @@
 ---
-title: "Reading a Bookmark by name"
+title: "Read"
+second_title: "Bookmarks in a Word Document"
 type: docs
 url: /reading-a-bookmark-by-name/
 aliases: [/reading-a-bookmark-by-name/]

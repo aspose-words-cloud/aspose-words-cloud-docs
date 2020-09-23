@@ -1,5 +1,6 @@
 ---
-title: "Populate MailMerge Template with Data"
+title: "Populate Template with Data"
+second_title: "Mail Merge"
 type: docs
 url: /populate-mailmerge-template-with-data/
 aliases: [/populate-mailmerge-template-with-data/]

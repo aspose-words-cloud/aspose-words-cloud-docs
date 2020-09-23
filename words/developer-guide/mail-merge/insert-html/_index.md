@@ -1,5 +1,6 @@
 ---
-title: "Insert HTML During Mail Merge"
+title: "Insert HTML"
+second_title: "Mail Merge"
 type: docs
 url: /insert-html-during-mail-merge/
 aliases: [/insert-html-during-mail-merge/]

@@ -2,11 +2,11 @@
 title: "Aspose Doc Exporter for Drupal"
 type: docs
 url: /aspose-doc-exporter-aspose-words-cloud-for-drupal/
-aliases: [/aspose-doc-exporter-aspose-words-cloud-for-drupal/]
+aliases: [/aspose-doc-exporter-aspose-words-cloud-for-drupal/, /aspose-words-cloud-for-drupal/]
 weight: 40
 ---
 
-### What is Drupal?
+## What is Drupal?
 
 Drupal is a free, open-source web development platform for online content and user communities. Drupal powers some of the busiest sites on the web, and can be adapted to virtually any visual design. Drupal runs over a million sites, including WhiteHouse.gov, World Economic Forum, Stanford University, and Examiner.com. It’s built, used, and supported by an active and diverse community of people around the world.
 
