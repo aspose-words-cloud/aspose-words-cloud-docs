@@ -41,7 +41,7 @@ curl -v "https://api.aspose.cloud/connect/token" \
 # cURL example to protect the unprotected document
 curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/protection" \
 -X PUT \
--d "{ 'Password': 'IDDQD', 'ProtectionType': 'AllowOnlyComments' }" \
+-d "{ 'Password': '*****', 'ProtectionType': 'AllowOnlyComments' }" \
 -H "Content-Type: application/json" \
 -H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>"
