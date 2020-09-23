@@ -16,7 +16,9 @@ The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Convert/Sa
 
 ## cURL Example
 
-**Input Document:** [test_multi_pages.docx](attachments/885301/1180092.docx) 
+cUrl is a popular command-line utility for transferring data and a perfect tool for testing REST APIs. The following are a few examples of using cURL.
+
+*Input Document:** [test_multi_pages.docx](attachments/885301/1180092.docx) 
 
 **Output Document:** [abc.tiff](attachments/885301/1180091.tiff)** 
 
@@ -50,14 +52,12 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/saveAs/tiff" 
       "Rel": "self",
       "Type": null,
       "Title": null
-
     },
     "DestDocument": {
       "Href": "abc.tiff",
       "Rel": "saved",
       "Type": null,
       "Title": null
-
     },
     "AdditionalItems": [
     ]
@@ -73,11 +73,12 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/saveAs/tiff" 
 {{< /tabs >}}
 ## SDKs
 
-Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words SDKs with code examples.
+Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Please check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words SDKs with code examples.
 
 ## SDK Examples
 
-Code examples for various SDKs are presented below:
+The code examples of using this REST API with various SDKs are presented below:
+
 {{< tabs tabTotal="9" tabID="4" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Python" tabName5="Ruby" tabName6="Node.js" tabName7="Android" tabName8="Swift" tabName9="Go" >}}
 {{< tab tabNum="1" >}}
 {{< gist "aspose-cloud" "9fa2e714041dd6cf1071eb307b623416" "ConvertWordDocumentToTiffWithDetailedSettings.cs" >}}

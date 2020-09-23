@@ -68,7 +68,9 @@ The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Convert/Co
 
 ## cURL Example
 
-**Input Document:** [TableDocument.doc](attachments/885335/1180089.doc)
+cUrl is a popular command-line utility for transferring data and a perfect tool for testing REST APIs. The following are a few examples of using cURL.
+
+*Input Document:** [TableDocument.doc](attachments/885335/1180089.doc)
 
 **Output Document:** [TableDocument.pdf](attachments/885335/1180090.pdf)** 
 
@@ -103,11 +105,12 @@ PDF Document
 {{< /tabs >}}
 ## SDKs
 
-Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words SDKs with code examples.
+Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Please check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words SDKs with code examples.
 
 ## SDK Examples
 
-Code examples for various SDKs are presented below:
+The code examples of using this REST API with various SDKs are presented below:
+
 {{< tabs tabTotal="9" tabID="4" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Python" tabName5="Ruby" tabName6="Node.js" tabName7="Android" tabName8="Swift" tabName9="Go" >}}
 {{< tab tabNum="1" >}}
 {{< gist "aspose-cloud" "9fa2e714041dd6cf1071eb307b623416" "ConvertWordDocumentToAnotherFormat.cs" >}}

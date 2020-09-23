@@ -36,7 +36,9 @@ The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/MailMerge/
 
 ## cURL Example
 
-**Case 1: MailMerge Template**
+cUrl is a popular command-line utility for transferring data and a perfect tool for testing REST APIs. The following are a few examples of using cURL.
+
+*Case 1: MailMerge Template**
 
 **Input Document:** [SampleMailMergeTemplate.docx](attachments/884946/1180099.docx)
 
@@ -73,182 +75,156 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleMailMergeTemplate.docx/MailMe
       {
         "Href": "TestPostDocumentExecuteMailMerge.docx",
         "Rel": "self"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/TestPostDocumentExecuteMailMerge.docx?format=doc",
         "Rel": "alternate",
         "Type": "application/msword",
         "Title": "Download as DOC"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/TestPostDocumentExecuteMailMerge.docx?format=dot",
         "Rel": "alternate",
         "Type": "application/msword",
         "Title": "Download as DOT"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/TestPostDocumentExecuteMailMerge.docx?format=docx",
         "Rel": "alternate",
         "Type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
         "Title": "Download as DOCX"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/TestPostDocumentExecuteMailMerge.docx?format=docm",
         "Rel": "alternate",
         "Type": "application/vnd.ms-word.document.macroEnabled.12",
         "Title": "Download as DOCM"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/TestPostDocumentExecuteMailMerge.docx?format=dotx",
         "Rel": "alternate",
         "Type": "application/vnd.openxmlformats-officedocument.wordprocessingml.template",
         "Title": "Download as DOTX"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/TestPostDocumentExecuteMailMerge.docx?format=dotm",
         "Rel": "alternate",
         "Type": "application/vnd.ms-word.template.macroEnabled.12",
         "Title": "Download as DOTM"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/TestPostDocumentExecuteMailMerge.docx?format=flatopc",
         "Rel": "alternate",
         "Type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
         "Title": "Download as FLATOPC"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/TestPostDocumentExecuteMailMerge.docx?format=rtf",
         "Rel": "alternate",
         "Type": "application/rtf",
         "Title": "Download as RTF"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/TestPostDocumentExecuteMailMerge.docx?format=wml",
         "Rel": "alternate",
         "Type": "text/xml",
         "Title": "Download as WML"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/TestPostDocumentExecuteMailMerge.docx?format=odt",
         "Rel": "alternate",
         "Type": "application/vnd.oasis.opendocument.text",
         "Title": "Download as ODT"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/TestPostDocumentExecuteMailMerge.docx?format=ott",
         "Rel": "alternate",
         "Type": "application/vnd.oasis.opendocument.text-template",
         "Title": "Download as OTT"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/TestPostDocumentExecuteMailMerge.docx?format=txt",
         "Rel": "alternate",
         "Type": "text/plain",
         "Title": "Download as TXT"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/TestPostDocumentExecuteMailMerge.docx?format=mhtml",
         "Rel": "alternate",
         "Type": "multipart/related",
         "Title": "Download as MHTML"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/TestPostDocumentExecuteMailMerge.docx?format=epub",
         "Rel": "alternate",
         "Type": "application/epub+zip",
         "Title": "Download as EPUB"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/TestPostDocumentExecuteMailMerge.docx?format=pdf",
         "Rel": "alternate",
         "Type": "application/pdf",
         "Title": "Download as PDF"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/TestPostDocumentExecuteMailMerge.docx?format=xps",
         "Rel": "alternate",
         "Type": "application/vnd.ms-xpsdocument",
         "Title": "Download as XPS"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/TestPostDocumentExecuteMailMerge.docx?format=tiff",
         "Rel": "alternate",
         "Type": "image/tiff",
         "Title": "Download as TIFF"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/TestPostDocumentExecuteMailMerge.docx?format=png",
         "Rel": "alternate",
         "Type": "image/png",
         "Title": "Download as PNG"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/TestPostDocumentExecuteMailMerge.docx?format=jpeg",
         "Rel": "alternate",
         "Type": "image/jpeg",
         "Title": "Download as JPEG"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/TestPostDocumentExecuteMailMerge.docx?format=bmp",
         "Rel": "alternate",
         "Type": "image/bmp",
         "Title": "Download as BMP"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/TestPostDocumentExecuteMailMerge.docx?format=gif",
         "Rel": "alternate",
         "Type": "image/gif",
         "Title": "Download as GIF"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/TestPostDocumentExecuteMailMerge.docx?format=svg",
         "Rel": "alternate",
         "Type": "image/svg+xml",
         "Title": "Download as SVG"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/TestPostDocumentExecuteMailMerge.docx?format=html",
         "Rel": "alternate",
         "Type": "text/html",
         "Title": "Download as HTML"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/TestPostDocumentExecuteMailMerge.docx?format=htmlfixed",
         "Rel": "alternate",
         "Type": "text/html",
         "Title": "Download as HTMLFIXED"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/TestPostDocumentExecuteMailMerge.docx?format=pcl",
         "Rel": "alternate",
         "Type": "application/x-pcl",
         "Title": "Download as PCL"
-
       }
     ],
     "FileName": "TestPostDocumentExecuteMailMerge.docx",
@@ -259,7 +235,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleMailMergeTemplate.docx/MailMe
       "link": {
         "Href": "https://api.aspose.cloud/v4.0/words/TestPostDocumentExecuteMailMerge.docx/documentProperties",
         "Rel": "self"
-
       }
     }
   },
@@ -305,182 +280,156 @@ curl -v "https://api.aspose.cloud/v4.0/words/TestExecuteTemplate.doc/MailMerge?d
       {
         "Href": "TestPostExecuteTemplate.docx",
         "Rel": "self"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/TestPostExecuteTemplate.docx?format=doc",
         "Rel": "alternate",
         "Type": "application/msword",
         "Title": "Download as DOC"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/TestPostExecuteTemplate.docx?format=dot",
         "Rel": "alternate",
         "Type": "application/msword",
         "Title": "Download as DOT"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/TestPostExecuteTemplate.docx?format=docx",
         "Rel": "alternate",
         "Type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
         "Title": "Download as DOCX"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/TestPostExecuteTemplate.docx?format=docm",
         "Rel": "alternate",
         "Type": "application/vnd.ms-word.document.macroEnabled.12",
         "Title": "Download as DOCM"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/TestPostExecuteTemplate.docx?format=dotx",
         "Rel": "alternate",
         "Type": "application/vnd.openxmlformats-officedocument.wordprocessingml.template",
         "Title": "Download as DOTX"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/TestPostExecuteTemplate.docx?format=dotm",
         "Rel": "alternate",
         "Type": "application/vnd.ms-word.template.macroEnabled.12",
         "Title": "Download as DOTM"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/TestPostExecuteTemplate.docx?format=flatopc",
         "Rel": "alternate",
         "Type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
         "Title": "Download as FLATOPC"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/TestPostExecuteTemplate.docx?format=rtf",
         "Rel": "alternate",
         "Type": "application/rtf",
         "Title": "Download as RTF"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/TestPostExecuteTemplate.docx?format=wml",
         "Rel": "alternate",
         "Type": "text/xml",
         "Title": "Download as WML"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/TestPostExecuteTemplate.docx?format=odt",
         "Rel": "alternate",
         "Type": "application/vnd.oasis.opendocument.text",
         "Title": "Download as ODT"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/TestPostExecuteTemplate.docx?format=ott",
         "Rel": "alternate",
         "Type": "application/vnd.oasis.opendocument.text-template",
         "Title": "Download as OTT"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/TestPostExecuteTemplate.docx?format=txt",
         "Rel": "alternate",
         "Type": "text/plain",
         "Title": "Download as TXT"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/TestPostExecuteTemplate.docx?format=mhtml",
         "Rel": "alternate",
         "Type": "multipart/related",
         "Title": "Download as MHTML"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/TestPostExecuteTemplate.docx?format=epub",
         "Rel": "alternate",
         "Type": "application/epub+zip",
         "Title": "Download as EPUB"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/TestPostExecuteTemplate.docx?format=pdf",
         "Rel": "alternate",
         "Type": "application/pdf",
         "Title": "Download as PDF"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/TestPostExecuteTemplate.docx?format=xps",
         "Rel": "alternate",
         "Type": "application/vnd.ms-xpsdocument",
         "Title": "Download as XPS"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/TestPostExecuteTemplate.docx?format=tiff",
         "Rel": "alternate",
         "Type": "image/tiff",
         "Title": "Download as TIFF"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/TestPostExecuteTemplate.docx?format=png",
         "Rel": "alternate",
         "Type": "image/png",
         "Title": "Download as PNG"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/TestPostExecuteTemplate.docx?format=jpeg",
         "Rel": "alternate",
         "Type": "image/jpeg",
         "Title": "Download as JPEG"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/TestPostExecuteTemplate.docx?format=bmp",
         "Rel": "alternate",
         "Type": "image/bmp",
         "Title": "Download as BMP"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/TestPostExecuteTemplate.docx?format=gif",
         "Rel": "alternate",
         "Type": "image/gif",
         "Title": "Download as GIF"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/TestPostExecuteTemplate.docx?format=svg",
         "Rel": "alternate",
         "Type": "image/svg+xml",
         "Title": "Download as SVG"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/TestPostExecuteTemplate.docx?format=html",
         "Rel": "alternate",
         "Type": "text/html",
         "Title": "Download as HTML"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/TestPostExecuteTemplate.docx?format=htmlfixed",
         "Rel": "alternate",
         "Type": "text/html",
         "Title": "Download as HTMLFIXED"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/TestPostExecuteTemplate.docx?format=pcl",
         "Rel": "alternate",
         "Type": "application/x-pcl",
         "Title": "Download as PCL"
-
       }
     ],
     "FileName": "TestPostExecuteTemplate.docx",
@@ -491,7 +440,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/TestExecuteTemplate.doc/MailMerge?d
       "link": {
         "Href": "https://api.aspose.cloud/v4.0/words/TestPostExecuteTemplate.docx/documentProperties",
         "Rel": "self"
-
       }
     }
   },
@@ -502,11 +450,12 @@ curl -v "https://api.aspose.cloud/v4.0/words/TestExecuteTemplate.doc/MailMerge?d
 {{< /tabs >}}
 ## SDKs
 
-Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words SDKs with code examples.
+Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Please check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words SDKs with code examples.
 
 ## SDK Examples
 
-Code examples for various SDKs are presented below:
+The code examples of using this REST API with various SDKs are presented below:
+
 {{< tabs tabTotal="9" tabID="7" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Python" tabName5="Ruby" tabName6="Node.js" tabName7="Android" tabName8="Swift" tabName9="Go" >}}
 {{< tab tabNum="1" >}}
 {{< gist "aspose-cloud" "9fa2e714041dd6cf1071eb307b623416" "PostDocumentExecuteMailMerge.cs" >}}

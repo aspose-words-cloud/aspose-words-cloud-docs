@@ -12,9 +12,11 @@ This REST API allows you to Get Style from Document Element. Please note that th
 
 ## Resource URI
 
-The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Styles/GetStyle) lets you call this REST API directly from a browser.  
+The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Styles/GetStyle) lets you call this REST API directly from a browser.
 
 ## cURL Example
+
+cUrl is a popular command-line utility for transferring data and a perfect tool for testing REST APIs. The following are a few examples of using cURL.
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
@@ -118,7 +120,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
       "link": {
         "Href": "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/styles/Balloon Text",
         "Rel": "self"
-
       }
     },
     {
@@ -199,7 +200,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
       "link": {
         "Href": "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/styles/Balloon Text Char",
         "Rel": "self"
-
       }
     },
     {
@@ -279,7 +279,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
       "link": {
         "Href": "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/styles/Body",
         "Rel": "self"
-
       }
     },
     {
@@ -360,7 +359,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
       "link": {
         "Href": "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/styles/Comment Reference",
         "Rel": "self"
-
       }
     },
     {
@@ -441,7 +439,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
       "link": {
         "Href": "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/styles/Comment Subject",
         "Rel": "self"
-
       }
     },
     {
@@ -522,7 +519,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
       "link": {
         "Href": "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/styles/Comment Subject Char",
         "Rel": "self"
-
       }
     },
     {
@@ -603,7 +599,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
       "link": {
         "Href": "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/styles/Comment Text",
         "Rel": "self"
-
       }
     },
     {
@@ -684,7 +679,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
       "link": {
         "Href": "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/styles/Comment Text Char",
         "Rel": "self"
-
       }
     },
     {
@@ -765,7 +759,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
       "link": {
         "Href": "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/styles/Default Paragraph Font",
         "Rel": "self"
-
       }
     },
     {
@@ -846,7 +839,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
       "link": {
         "Href": "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/styles/Footer",
         "Rel": "self"
-
       }
     },
     {
@@ -927,7 +919,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
       "link": {
         "Href": "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/styles/Footer Char",
         "Rel": "self"
-
       }
     },
     {
@@ -1008,7 +999,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
       "link": {
         "Href": "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/styles/Header",
         "Rel": "self"
-
       }
     },
     {
@@ -1089,7 +1079,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
       "link": {
         "Href": "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/styles/Header Char",
         "Rel": "self"
-
       }
     },
     {
@@ -1170,7 +1159,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
       "link": {
         "Href": "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/styles/Heading 1",
         "Rel": "self"
-
       }
     },
     {
@@ -1251,7 +1239,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
       "link": {
         "Href": "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/styles/Heading 1 Char",
         "Rel": "self"
-
       }
     },
     {
@@ -1332,7 +1319,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
       "link": {
         "Href": "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/styles/Hyperlink",
         "Rel": "self"
-
       }
     },
     {
@@ -1348,7 +1334,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
       "link": {
         "Href": "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/styles/No List",
         "Rel": "self"
-
       }
     },
     {
@@ -1429,7 +1414,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
       "link": {
         "Href": "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/styles/Normal",
         "Rel": "self"
-
       }
     },
     {
@@ -1510,7 +1494,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
       "link": {
         "Href": "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/styles/Page Number",
         "Rel": "self"
-
       }
     },
     {
@@ -1591,7 +1574,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
       "link": {
         "Href": "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/styles/Table Normal",
         "Rel": "self"
-
       }
     }
   ],
@@ -1604,11 +1586,12 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
 {{< /tabs >}}
 ## SDKs
 
-Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs, supplied with short and clear code examples.
+Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Please check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs, supplied with short and clear code examples.
 
 ## SDK Examples
 
-Code examples for various SDKs are presented below:
+The code examples of using this REST API with various SDKs are presented below:
+
 {{< tabs tabTotal="9" tabID="4" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Python" tabName5="Ruby" tabName6="Node.js" tabName7="Android" tabName8="Swift" tabName9="Go" >}}
 {{< tab tabNum="1" >}}
 {{< gist "aspose-cloud" "9fa2e714041dd6cf1071eb307b623416" "GetStyle.cs" >}}

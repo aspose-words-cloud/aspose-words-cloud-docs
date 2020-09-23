@@ -51,182 +51,156 @@ curl -v "https://api.aspose.cloud/v4.0/words/TestMailMergeWithImages.doc/MailMer
         "Rel": "self",
         "Type": null,
         "Title": null
-
       },
       {
         "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages_Out.docx?format=doc",
         "Rel": "alternate",
         "Type": "application/msword",
         "Title": "Download as DOC"
-
       },
       {
         "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages_Out.docx?format=dot",
         "Rel": "alternate",
         "Type": "application/msword",
         "Title": "Download as DOT"
-
       },
       {
         "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages_Out.docx?format=docx",
         "Rel": "alternate",
         "Type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
         "Title": "Download as DOCX"
-
       },
       {
         "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages_Out.docx?format=docm",
         "Rel": "alternate",
         "Type": "application/vnd.ms-word.document.macroEnabled.12",
         "Title": "Download as DOCM"
-
       },
       {
         "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages_Out.docx?format=dotx",
         "Rel": "alternate",
         "Type": "application/vnd.openxmlformats-officedocument.wordprocessingml.template",
         "Title": "Download as DOTX"
-
       },
       {
         "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages_Out.docx?format=dotm",
         "Rel": "alternate",
         "Type": "application/vnd.ms-word.template.macroEnabled.12",
         "Title": "Download as DOTM"
-
       },
       {
         "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages_Out.docx?format=flatopc",
         "Rel": "alternate",
         "Type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
         "Title": "Download as FLATOPC"
-
       },
       {
         "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages_Out.docx?format=rtf",
         "Rel": "alternate",
         "Type": "application/rtf",
         "Title": "Download as RTF"
-
       },
       {
         "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages_Out.docx?format=wml",
         "Rel": "alternate",
         "Type": "text/xml",
         "Title": "Download as WML"
-
       },
       {
         "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages_Out.docx?format=odt",
         "Rel": "alternate",
         "Type": "application/vnd.oasis.opendocument.text",
         "Title": "Download as ODT"
-
       },
       {
         "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages_Out.docx?format=ott",
         "Rel": "alternate",
         "Type": "application/vnd.oasis.opendocument.text-template",
         "Title": "Download as OTT"
-
       },
       {
         "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages_Out.docx?format=txt",
         "Rel": "alternate",
         "Type": "text/plain",
         "Title": "Download as TXT"
-
       },
       {
         "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages_Out.docx?format=mhtml",
         "Rel": "alternate",
         "Type": "multipart/related",
         "Title": "Download as MHTML"
-
       },
       {
         "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages_Out.docx?format=epub",
         "Rel": "alternate",
         "Type": "application/epub+zip",
         "Title": "Download as EPUB"
-
       },
       {
         "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages_Out.docx?format=pdf",
         "Rel": "alternate",
         "Type": "application/pdf",
         "Title": "Download as PDF"
-
       },
       {
         "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages_Out.docx?format=xps",
         "Rel": "alternate",
         "Type": "application/vnd.ms-xpsdocument",
         "Title": "Download as XPS"
-
       },
       {
         "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages_Out.docx?format=tiff",
         "Rel": "alternate",
         "Type": "image/tiff",
         "Title": "Download as TIFF"
-
       },
       {
         "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages_Out.docx?format=png",
         "Rel": "alternate",
         "Type": "image/png",
         "Title": "Download as PNG"
-
       },
       {
         "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages_Out.docx?format=jpeg",
         "Rel": "alternate",
         "Type": "image/jpeg",
         "Title": "Download as JPEG"
-
       },
       {
         "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages_Out.docx?format=bmp",
         "Rel": "alternate",
         "Type": "image/bmp",
         "Title": "Download as BMP"
-
       },
       {
         "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages_Out.docx?format=gif",
         "Rel": "alternate",
         "Type": "image/gif",
         "Title": "Download as GIF"
-
       },
       {
         "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages_Out.docx?format=svg",
         "Rel": "alternate",
         "Type": "image/svg+xml",
         "Title": "Download as SVG"
-
       },
       {
         "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages_Out.docx?format=html",
         "Rel": "alternate",
         "Type": "text/html",
         "Title": "Download as HTML"
-
       },
       {
         "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages_Out.docx?format=htmlfixed",
         "Rel": "alternate",
         "Type": "text/html",
         "Title": "Download as HTMLFIXED"
-
       },
       {
         "Href": "http://api.aspose.cloud/v4.0/words/TestMailMergeWithImages_Out.docx?format=pcl",
         "Rel": "alternate",
         "Type": "application/x-pcl",
         "Title": "Download as PCL"
-
       }
     ],
     "FileName": "TestMailMergeWithImages_Out.docx",
@@ -240,7 +214,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/TestMailMergeWithImages.doc/MailMer
         "Rel": "self",
         "Type": null,
         "Title": null
-
       }
     }
   },
@@ -258,7 +231,8 @@ Using an SDK is the best way to speed up the development. An SDK takes care of l
 
 ## SDK Examples
 
-Code examples for various SDKs are presented below:
+The code examples of using this REST API with various SDKs are presented below:
+
 {{< tabs tabTotal="8" tabID="4" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Python" tabName5="Ruby" tabName6="Node.js" tabName7="Android" tabName8="Swift" >}}
 {{< tab tabNum="1" >}}
 {{< gist "aspose-cloud" "9fa2e714041dd6cf1071eb307b623416" "InsertImagesDuringMailMerge.cs" >}}

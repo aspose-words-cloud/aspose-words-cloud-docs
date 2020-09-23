@@ -42,7 +42,9 @@ The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Render) le
 
 ## cURL Example
 
-**Case 1: Render a page of the document in BMP format:**
+cUrl is a popular command-line utility for transferring data and a perfect tool for testing REST APIs. The following are a few examples of using cURL.
+
+*Case 1: Render a page of the document in BMP format:**
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
@@ -194,7 +196,8 @@ PNG File
 {{< /tabs >}}
 ## SDK Examples
 
-Code examples for various SDKs are presented below:
+The code examples of using this REST API with various SDKs are presented below:
+
 **Case 1: Renders Page to Specified Format**
 
 {{< tabs tabTotal="7" tabID="16" tabName1="C#" tabName2="Java" tabName3="Python" tabName4="Ruby" tabName5="Node.js" tabName6="Android" tabName7="Swift" >}}

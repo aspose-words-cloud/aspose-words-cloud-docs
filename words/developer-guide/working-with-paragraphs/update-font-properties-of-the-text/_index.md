@@ -68,7 +68,7 @@ This article explains how to format the text. Using [PUT /words/{name}/{paragrap
 
 ## cURL Example
 
-Input Document: [SampleWordDocument.docx](attachments/885279/1180112.docx)
+cUrl is a popular command-line utility for transferring data and a perfect tool for testing REST APIs. The following are a few examples of using cURL.Input Document: [SampleWordDocument.docx](attachments/885279/1180112.docx)
 
 Output Document: [ResultWordDocument.docx](attachments/885279/1180113.docx)
 
@@ -112,12 +112,10 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/
          "LineWidth":0.0,
          "Shadow":false,
          "link":null
-
       },
       "Color":{
          "Web":"",
          "Alpha":0
-
       },
       "ComplexScript":false,
       "DoubleStrikeThrough":false,
@@ -127,7 +125,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/
       "HighlightColor":{
          "Web":"",
          "Alpha":0
-
       },
       "Italic":false,
       "ItalicBi":false,
@@ -159,14 +156,12 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/
       "UnderlineColor":{
          "Web":"",
          "Alpha":0
-
       },
       "link":{
          "Href":"http://api.aspose.cloud/v4.0/words/ResultWordDocument.docx/sections/0/paragraphs/2/runs/0/font",
          "Rel":"self",
          "Type":null,
          "Title":null
-
       }
    },
    "Code":200,
@@ -179,11 +174,12 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/
 {{< /tabs >}}
 ## SDKs
 
-Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words SDKs with code examples.
+Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Please check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words SDKs with code examples.
 
 ## SDK Examples
 
-Code examples for various SDKs are presented below:
+The code examples of using this REST API with various SDKs are presented below:
+
 {{< tabs tabTotal="8" tabID="4" tabName1="C#" tabName2="Java" tabName3="Python" tabName4="Ruby" tabName5="Node.js" tabName6="Android" tabName7="Swift" tabName8="Go" >}}
 {{< tab tabNum="1" >}}
 {{< gist "aspose-cloud" "19215e2ac3d61ca0fd78d1ca2f1c1023" "UpdateDocumentParagraphRunFont.cs" >}}

@@ -32,7 +32,9 @@ The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Compare/Co
 
 ## cURL Example
 
-**Input Documents: [**compareTestDoc1.doc](attachments/885441/1180122.doc)**, [compareTestDoc2.doc](attachments/885441/1180121.doc)
+cUrl is a popular command-line utility for transferring data and a perfect tool for testing REST APIs. The following are a few examples of using cURL.
+
+*Input Documents: [**compareTestDoc1.doc](attachments/885441/1180122.doc)**, [compareTestDoc2.doc](attachments/885441/1180121.doc)
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
@@ -63,182 +65,156 @@ curl -v "https://api.aspose.cloud/v4.0/words/compareTestDoc1.doc/compareDocument
       {
         "Href": "compareTestDoc1.doc",
         "Rel": "self"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/compareTestDoc1.doc?format=doc",
         "Rel": "alternate",
         "Type": "application/msword",
         "Title": "Download as DOC"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/compareTestDoc1.doc?format=dot",
         "Rel": "alternate",
         "Type": "application/msword",
         "Title": "Download as DOT"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/compareTestDoc1.doc?format=docx",
         "Rel": "alternate",
         "Type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
         "Title": "Download as DOCX"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/compareTestDoc1.doc?format=docm",
         "Rel": "alternate",
         "Type": "application/vnd.ms-word.document.macroEnabled.12",
         "Title": "Download as DOCM"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/compareTestDoc1.doc?format=dotx",
         "Rel": "alternate",
         "Type": "application/vnd.openxmlformats-officedocument.wordprocessingml.template",
         "Title": "Download as DOTX"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/compareTestDoc1.doc?format=dotm",
         "Rel": "alternate",
         "Type": "application/vnd.ms-word.template.macroEnabled.12",
         "Title": "Download as DOTM"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/compareTestDoc1.doc?format=flatopc",
         "Rel": "alternate",
         "Type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
         "Title": "Download as FLATOPC"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/compareTestDoc1.doc?format=rtf",
         "Rel": "alternate",
         "Type": "application/rtf",
         "Title": "Download as RTF"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/compareTestDoc1.doc?format=wml",
         "Rel": "alternate",
         "Type": "text/xml",
         "Title": "Download as WML"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/compareTestDoc1.doc?format=odt",
         "Rel": "alternate",
         "Type": "application/vnd.oasis.opendocument.text",
         "Title": "Download as ODT"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/compareTestDoc1.doc?format=ott",
         "Rel": "alternate",
         "Type": "application/vnd.oasis.opendocument.text-template",
         "Title": "Download as OTT"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/compareTestDoc1.doc?format=txt",
         "Rel": "alternate",
         "Type": "text/plain",
         "Title": "Download as TXT"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/compareTestDoc1.doc?format=mhtml",
         "Rel": "alternate",
         "Type": "multipart/related",
         "Title": "Download as MHTML"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/compareTestDoc1.doc?format=epub",
         "Rel": "alternate",
         "Type": "application/epub+zip",
         "Title": "Download as EPUB"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/compareTestDoc1.doc?format=pdf",
         "Rel": "alternate",
         "Type": "application/pdf",
         "Title": "Download as PDF"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/compareTestDoc1.doc?format=xps",
         "Rel": "alternate",
         "Type": "application/vnd.ms-xpsdocument",
         "Title": "Download as XPS"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/compareTestDoc1.doc?format=tiff",
         "Rel": "alternate",
         "Type": "image/tiff",
         "Title": "Download as TIFF"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/compareTestDoc1.doc?format=png",
         "Rel": "alternate",
         "Type": "image/png",
         "Title": "Download as PNG"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/compareTestDoc1.doc?format=jpeg",
         "Rel": "alternate",
         "Type": "image/jpeg",
         "Title": "Download as JPEG"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/compareTestDoc1.doc?format=bmp",
         "Rel": "alternate",
         "Type": "image/bmp",
         "Title": "Download as BMP"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/compareTestDoc1.doc?format=gif",
         "Rel": "alternate",
         "Type": "image/gif",
         "Title": "Download as GIF"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/compareTestDoc1.doc?format=svg",
         "Rel": "alternate",
         "Type": "image/svg+xml",
         "Title": "Download as SVG"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/compareTestDoc1.doc?format=html",
         "Rel": "alternate",
         "Type": "text/html",
         "Title": "Download as HTML"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/compareTestDoc1.doc?format=htmlfixed",
         "Rel": "alternate",
         "Type": "text/html",
         "Title": "Download as HTMLFIXED"
-
       },
       {
         "Href": "https://api.aspose.cloud/v4.0/words/compareTestDoc1.doc?format=pcl",
         "Rel": "alternate",
         "Type": "application/x-pcl",
         "Title": "Download as PCL"
-
       }
     ],
     "FileName": "compareTestDoc1.doc",
@@ -249,7 +225,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/compareTestDoc1.doc/compareDocument
       "link": {
         "Href": "https://api.aspose.cloud/v4.0/words/compareTestDoc1.doc/documentProperties",
         "Rel": "self"
-
       }
     }
   }
@@ -259,11 +234,12 @@ curl -v "https://api.aspose.cloud/v4.0/words/compareTestDoc1.doc/compareDocument
 {{< /tabs >}}
 ## SDKs
 
-Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs, supplied with short and clear code examples.
+Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Please check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs, supplied with short and clear code examples.
 
 ## SDK Examples
 
-Code examples for various SDKs are presented below:
+The code examples of using this REST API with various SDKs are presented below:
+
 {{< tabs tabTotal="8" tabID="4" tabName1="C#" tabName2="Java" tabName3="Python" tabName4="Ruby" tabName5="Node.js" tabName6="Android" tabName7="Swift" tabName8="Go" >}}
 {{< tab tabNum="1" >}}
 {{< gist "aspose-cloud" "19215e2ac3d61ca0fd78d1ca2f1c1023" "CompareDocument.cs" >}}
