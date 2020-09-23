@@ -28,7 +28,7 @@ and **FontInfo** properties are:
 
 ## REST API’s Resources
 
-The following URIs is used to address the REST resource:
+The following URI is used to address the REST resource:
 
 ```HTML
 ~/fonts/available

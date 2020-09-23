@@ -29,7 +29,7 @@ Aspose.Words now supports encrypted PDF files for **PDF to Word conversion**.
 
 #### Dropping support for Word to SWF conversion
 
-Based on Adobe's [deprecation of Flash](https://theblog.adobe.com/adobe-flash-update/), conversion to SWF is no longer supported by Words Cloud API REST API.
+Based on Adobe's [deprecation of Flash](https://theblog.adobe.com/adobe-flash-update/), conversion to SWF is no longer supported by Words Cloud API.
 
 #### Dropping support of deprecated save option properties
 

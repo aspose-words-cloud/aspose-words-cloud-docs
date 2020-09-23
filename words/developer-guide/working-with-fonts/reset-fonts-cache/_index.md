@@ -10,7 +10,7 @@ This REST API allows you to clear/reset the fonts cache.
 
 ## REST API’s Resources
 
-The following URIs are used to address REST resources:
+The following URI is used to address the REST resource:
 
 ```HTML
 ~/fonts/cache

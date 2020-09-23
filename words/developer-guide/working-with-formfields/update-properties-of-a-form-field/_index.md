@@ -51,7 +51,7 @@ The **Request Parameters** are:
 
 ## REST API’s Resources
 
-The following URIs are used to address REST resources:
+The following URI is used to address the REST resource:
 
 ```HTML
 ~/{paragraph}/formfields/{formFieldIndex}

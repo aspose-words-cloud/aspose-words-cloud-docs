@@ -10,7 +10,7 @@ This REST API allows you to get one of the form fields contained in the paragrap
 
 ## REST API’s Resources
 
-The following URIs are used to address REST resources:
+The following URI is used to address the REST resource:
 
 ```HTML
 ~/{paragraph}/formfields/{formFieldIndex}

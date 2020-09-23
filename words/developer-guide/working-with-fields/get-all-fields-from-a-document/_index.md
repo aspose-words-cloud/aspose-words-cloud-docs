@@ -14,7 +14,6 @@ The following URIs are used to address REST resources:
 
 ```HTML
 ~/{file-name}/fields
-
 ~/{file-name}/{nodePath}/fields
 ```
 
