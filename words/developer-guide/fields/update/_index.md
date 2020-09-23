@@ -1,7 +1,7 @@
 ---
 title: "Update Fields in a Document"
 type: docs
-url: /update-fields-in-a-document/
+url: /fields/update/
 aliases: [/update-fields-in-a-document/]
 weight: 20
 ---

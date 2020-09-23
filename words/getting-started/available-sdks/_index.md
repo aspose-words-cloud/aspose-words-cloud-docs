@@ -1,7 +1,7 @@
 ---
 title: "Available SDKs"
 type: docs
-url: /available-sdks/
+url: /getting-started/available-sdks/
 aliases: [/available-sdks/]
 weight: 50
 ---

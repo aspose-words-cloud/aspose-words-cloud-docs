@@ -1,7 +1,7 @@
 ---
 title: "Aspose Cloud eBook Generator"
 type: docs
-url: /aspose-cloud-ebook-generator/
+url: /plugins/wordpress/aspose-cloud-ebook-generator/
 aliases: [/aspose-cloud-ebook-generator/]
 weight: 40
 ---

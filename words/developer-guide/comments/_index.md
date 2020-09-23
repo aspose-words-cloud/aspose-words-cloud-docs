@@ -1,7 +1,7 @@
 ---
 title: "Comments"
 type: docs
-url: /working-with-comments/
+url: /comments/
 aliases: [/working-with-comments/]
 weight: 120
 ---

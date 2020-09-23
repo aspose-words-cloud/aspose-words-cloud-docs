@@ -1,7 +1,7 @@
 ---
 title: "Replace Document Text"
 type: docs
-url: /replace-document-text/
+url: /text/replace/
 aliases: [/replace-document-text/]
 weight: 20
 ---

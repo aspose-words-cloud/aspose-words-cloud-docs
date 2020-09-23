@@ -1,7 +1,7 @@
 ---
 title: "Update List in a Document"
 type: docs
-url: /update-list-in-a-document/
+url: /lists/update/
 aliases: [/update-list-in-a-document/]
 keywords: "List of Sections,get sections,section break word,Section Break, Word, Microsoft Word, Word Documents,Java, .NET, PHP, Ruby, Python, NodeJS, Swift, Android ,Go"
 description: "This REST API allows you to update a list of documents. Please note that the SDKs of this cloud API are available in Python, C#, Java, Ruby, PHP, Node.js, Android, Swift, and Go languages."

@@ -1,7 +1,7 @@
 ---
 title: "Render Complex Parts of a Word Document Into the Image"
 type: docs
-url: /render-complex-parts-of-a-word-document-into-the-image/
+url: /documents/render-into-image/
 aliases: [/render-complex-parts-of-a-word-document-into-the-image/]
 weight: 90
 ---

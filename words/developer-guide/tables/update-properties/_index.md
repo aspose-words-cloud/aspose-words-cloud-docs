@@ -1,7 +1,7 @@
 ---
 title: "Update Table Properties"
 type: docs
-url: /update-table-properties/
+url: /tables/update-properties/
 aliases: [/update-table-properties/]
 weight: 60
 ---

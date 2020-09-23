@@ -1,7 +1,7 @@
 ---
 title: "Remove Footnote from a Document"
 type: docs
-url: /remove-footnote-from-a-document/
+url: /footnotes/remove/
 aliases: [/remove-footnote-from-a-document/]
 weight: 40
 ---

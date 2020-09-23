@@ -1,7 +1,7 @@
 ---
 title: "Bookmarks"
 type: docs
-url: /using-bookmarks-in-a-document/
+url: /bookmarks/
 aliases: [/using-bookmarks-in-a-document/]
 weight: 190
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Remove all Macros from Document"
 type: docs
-url: /remove-all-macros-from-document/
+url: /documents/remove-macros/
 aliases: [/remove-all-macros-from-document/]
 weight: 100
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Insert a Watermark Image into a Word Document"
 type: docs
-url: /insert-a-watermark-image-into-a-word-document/
+url: /watermark/insert-image/
 aliases: [/insert-a-watermark-image-into-a-word-document/]
 weight: 20
 ---

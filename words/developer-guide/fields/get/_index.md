@@ -1,7 +1,7 @@
 ---
 title: "Get Field from a Document"
 type: docs
-url: /get-field-from-a-document/
+url: /fields/get/
 aliases: [/get-field-from-a-document/]
 weight: 40
 ---

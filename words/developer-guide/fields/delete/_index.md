@@ -1,7 +1,7 @@
 ---
 title: "Delete Field From Document"
 type: docs
-url: /delete-field-from-document/
+url: /fields/delete/
 aliases: [/delete-field-from-document/]
 weight: 70
 ---

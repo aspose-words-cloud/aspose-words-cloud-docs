@@ -1,7 +1,7 @@
 ---
 title: "Files and Storage in Aspose Cloud"
 type: docs
-url: /working-with-files-and-storage-using-aspose-words-cloud/
+url: /files-and-storage/
 aliases: [/working-with-files-and-storage-using-aspose-words-cloud/]
 weight: 30
 ---

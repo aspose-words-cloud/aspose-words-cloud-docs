@@ -1,7 +1,7 @@
 ---
 title: "Reset Borders Properties to Default Values"
 type: docs
-url: /reset-borders-properties-to-default-values/
+url: /tables/reset-border-properties-all/
 aliases: [/reset-borders-properties-to-default-values/]
 weight: 200
 ---

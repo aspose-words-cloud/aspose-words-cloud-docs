@@ -2,7 +2,7 @@
 title: "Insert HTML"
 second_title: "Mail Merge"
 type: docs
-url: /insert-html-during-mail-merge/
+url: /mail-merge/insert-html/
 aliases: [/insert-html-during-mail-merge/]
 weight: 50
 ---

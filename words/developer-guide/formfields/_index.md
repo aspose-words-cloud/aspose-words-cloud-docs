@@ -1,7 +1,7 @@
 ---
 title: "FormFields"
 type: docs
-url: /working-with-formfields/
+url: /formfields/
 aliases: [/working-with-formfields/]
 weight: 180
 ---

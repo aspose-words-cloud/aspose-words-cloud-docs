@@ -1,7 +1,7 @@
 ---
 title: "Watermark"
 type: docs
-url: /working-with-watermark/
+url: /watermark/
 aliases: [/working-with-watermark/]
 weight: 220
 ---

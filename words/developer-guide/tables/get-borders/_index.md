@@ -1,7 +1,7 @@
 ---
 title: "Get a List of Borders"
 type: docs
-url: /get-a-list-of-borders/
+url: /tables/get-borders/
 aliases: [/get-a-list-of-borders/]
 weight: 170
 ---

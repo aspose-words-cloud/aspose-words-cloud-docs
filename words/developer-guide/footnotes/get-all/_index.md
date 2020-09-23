@@ -1,7 +1,7 @@
 ---
 title: "Get Footnotes from Document"
 type: docs
-url: /get-footnotes-from-document/
+url: /footnotes/get-all/
 aliases: [/get-footnotes-from-document/]
 weight: 10
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Drawing Objects"
 type: docs
-url: /working-with-drawing-objects/
+url: /drawing-objects/
 aliases: [/working-with-drawing-objects/]
 weight: 130
 ---

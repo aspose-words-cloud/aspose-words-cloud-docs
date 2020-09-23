@@ -2,7 +2,7 @@
 title: "Update"
 second_title: "Comments in a Word Document"
 type: docs
-url: /update-the-comment-in-a-word-document/
+url: /comments/update/
 aliases: [/update-the-comment-in-a-word-document/]
 weight: 40
 ---

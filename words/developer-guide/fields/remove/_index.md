@@ -1,7 +1,7 @@
 ---
 title: "Remove Fields from a Document"
 type: docs
-url: /remove-fields-from-a-document/
+url: /fields/remove/
 aliases: [/remove-fields-from-a-document/]
 weight: 30
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Fonts"
 type: docs
-url: /working-with-fonts/
+url: /fonts/
 aliases: [/working-with-fonts/]
 weight: 110
 ---

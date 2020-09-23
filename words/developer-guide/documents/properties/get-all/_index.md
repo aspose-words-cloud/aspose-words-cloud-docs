@@ -1,7 +1,7 @@
 ---
 title: "Get All Document Properties"
 type: docs
-url: /get-all-document-properties/
+url: /documents/properties/get-all/
 aliases: [/get-all-document-properties/]
 weight: 10
 ---

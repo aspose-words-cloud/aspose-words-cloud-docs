@@ -1,7 +1,7 @@
 ---
 title: "Remove Paragraph from Document"
 type: docs
-url: /remove-paragraph-from-document/
+url: /paragraphs/remove/
 aliases: [/remove-paragraph-from-document/]
 weight: 40
 ---

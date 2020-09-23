@@ -2,7 +2,7 @@
 title: "Get all"
 second_title: "Comments in a Word Document"
 type: docs
-url: /get-all-comments-from-a-word-document/
+url: /comments/get-all/
 aliases: [/get-all-comments-from-a-word-document/]
 weight: 10
 ---

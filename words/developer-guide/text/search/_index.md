@@ -1,7 +1,7 @@
 ---
 title: "Search Text in a Word Document"
 type: docs
-url: /search-text-in-a-word-document/
+url: /text/search/
 aliases: [/search-text-in-a-word-document/]
 weight: 10
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Get Document Protection Info"
 type: docs
-url: /get-document-protection-info/
+url: /documents/protection/get/
 aliases: [/get-document-protection-info/]
 weight: 10
 ---

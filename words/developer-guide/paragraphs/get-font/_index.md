@@ -1,7 +1,7 @@
 ---
 title: "Get Font of Run"
 type: docs
-url: /get-font-of-run/
+url: /paragraphs/get-font/
 aliases: [/get-font-of-run/]
 weight: 130
 ---

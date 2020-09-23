@@ -1,7 +1,7 @@
 ---
 title: "Get Image Data from a Drawing Object"
 type: docs
-url: /get-image-data-from-a-drawing-object/
+url: /drawing-objects/get-image-data/
 aliases: [/get-image-data-from-a-drawing-object/]
 weight: 60
 ---

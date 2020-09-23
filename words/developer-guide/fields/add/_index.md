@@ -1,7 +1,7 @@
 ---
 title: "Add Field to a Document"
 type: docs
-url: /add-field-to-a-document/
+url: /fields/add/
 aliases: [/add-field-to-a-document/]
 weight: 50
 ---

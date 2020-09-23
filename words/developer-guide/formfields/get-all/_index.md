@@ -1,7 +1,7 @@
 ---
 title: "Get Form Fields from Document"
 type: docs
-url: /get-form-fields-from-document/
+url: /formfields/get-all/
 aliases: [/get-form-fields-from-document/]
 weight: 10
 ---

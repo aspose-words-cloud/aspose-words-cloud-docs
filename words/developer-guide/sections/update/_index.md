@@ -1,7 +1,7 @@
 ---
 title: "Update the Page Setup of a Section"
 type: docs
-url: /update-the-page-setup-of-a-section/
+url: /sections/update/
 aliases: [/update-the-page-setup-of-a-section/]
 weight: 40
 ---

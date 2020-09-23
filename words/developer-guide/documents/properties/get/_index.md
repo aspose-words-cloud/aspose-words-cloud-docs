@@ -1,7 +1,7 @@
 ---
 title: "Get a Particular Document Property"
 type: docs
-url: /get-a-particular-document-property/
+url: /documents/properties/get/
 aliases: [/get-a-particular-document-property/]
 weight: 20
 ---

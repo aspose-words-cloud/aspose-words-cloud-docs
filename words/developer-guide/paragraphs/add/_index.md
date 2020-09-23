@@ -1,7 +1,7 @@
 ---
 title: "Add Paragraph to Document"
 type: docs
-url: /add-paragraph-to-document/
+url: /paragraphs/add/
 aliases: [/add-paragraph-to-document/]
 weight: 30
 ---

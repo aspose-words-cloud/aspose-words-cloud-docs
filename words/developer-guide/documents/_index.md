@@ -1,7 +1,7 @@
 ---
 title: "Work with Documents"
 type: docs
-url: /working-with-documents/
+url: /documents/
 aliases: [/working-with-documents/]
 weight: 50
 ---

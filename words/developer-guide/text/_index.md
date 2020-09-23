@@ -1,7 +1,7 @@
 ---
 title: "Text"
 type: docs
-url: /working-with-text/
+url: /text/
 aliases: [/working-with-text/]
 weight: 150
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Get all Fields from a Document"
 type: docs
-url: /get-all-fields-from-a-document/
+url: /fields/get-all/
 aliases: [/get-all-fields-from-a-document/]
 weight: 10
 ---

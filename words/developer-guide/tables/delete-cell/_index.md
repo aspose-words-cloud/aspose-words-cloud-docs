@@ -1,7 +1,7 @@
 ---
 title: "Delete a Table Cell"
 type: docs
-url: /delete-a-table-cell/
+url: /tables/delete-cell/
 aliases: [/delete-a-table-cell/]
 weight: 130
 ---

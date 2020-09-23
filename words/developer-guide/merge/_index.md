@@ -1,7 +1,7 @@
 ---
 title: "Merge Documents"
 type: docs
-url: /appending-a-document/
+url: /merge/
 aliases: [/appending-a-document/]
 keywords: "document append, convert word doc to html, save word file as pdf, go sdk, Python, C#, Java, Ruby, PHP, NodeJS, Go, Android, Swift"
 description: "Append Word documents in Python, C#, Java, Ruby, PHP, NodeJS, Go, Android, Swift using Aspose.Words Cloud. Recently we have introduced Go SDK for our Golang customers.Basically, appending documents is a common task and is fully supported by Words Cloud API. The API allows you to append a document or documents, specified in the documentList parameter, to the original resource document. The changes are saved in the original resource document if the destFileName parameter is missing."

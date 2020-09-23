@@ -1,7 +1,7 @@
 ---
 title: "Tables"
 type: docs
-url: /working-with-tables/
+url: /tables/
 aliases: [/working-with-tables/]
 weight: 90
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Delete Header or Footer from a Document"
 type: docs
-url: /delete-header-or-footer-from-a-document/
+url: /headers-and-footers/delete/
 aliases: [/delete-header-or-footer-from-a-document/]
 weight: 50
 ---

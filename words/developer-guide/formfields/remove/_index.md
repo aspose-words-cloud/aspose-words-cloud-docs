@@ -1,7 +1,7 @@
 ---
 title: "Remove Form Field from Document"
 type: docs
-url: /remove-form-field-from-document/
+url: /formfields/remove/
 aliases: [/remove-form-field-from-document/]
 weight: 50
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Update Footnote Properties"
 type: docs
-url: /update-footnote-properties/
+url: /footnotes/update/
 aliases: [/update-footnote-properties/]
 weight: 50
 ---

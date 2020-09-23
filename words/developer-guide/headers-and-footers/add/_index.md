@@ -1,7 +1,7 @@
 ---
 title: "Add Header or Footer to a Document"
 type: docs
-url: /add-header-or-footer-to-a-document/
+url: /headers-and-footers/add/
 aliases: [/add-header-or-footer-to-a-document/]
 weight: 30
 ---

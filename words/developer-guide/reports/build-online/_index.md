@@ -1,7 +1,7 @@
 ---
 title: "Build Report Online"
 type: docs
-url: /build-report-online/
+url: /reports/build-online/
 aliases: [/build-report-online/]
 keywords: "List of Sections,get sections,section break word,Section Break, Word, Microsoft Word, Word Documents,Java, .NET, PHP, Ruby, Python, NodeJS, Swift, Android ,Go"
 description: "This REST API allows you to Build Report Online. Please note that the SDKs of this cloud API are available in Python, C#, Java, Ruby, PHP, Node.js, Android, Swift, and Go languages."

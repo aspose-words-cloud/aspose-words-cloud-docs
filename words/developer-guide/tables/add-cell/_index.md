@@ -1,7 +1,7 @@
 ---
 title: "Add Cell to Table Row"
 type: docs
-url: /add-cell-to-table-row/
+url: /tables/add-cell/
 aliases: [/add-cell-to-table-row/]
 weight: 140
 ---

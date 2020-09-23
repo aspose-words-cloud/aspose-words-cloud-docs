@@ -1,7 +1,7 @@
 ---
 title: "Get a Table Cell"
 type: docs
-url: /get-a-table-cell/
+url: /tables/get-cell/
 aliases: [/get-a-table-cell/]
 weight: 120
 ---

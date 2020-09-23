@@ -1,7 +1,7 @@
 ---
 title: "Remove the Protection from the Document"
 type: docs
-url: /remove-the-protection-from-the-document/
+url: /documents/protection/remove/
 aliases: [/remove-the-protection-from-the-document/]
 weight: 30
 ---

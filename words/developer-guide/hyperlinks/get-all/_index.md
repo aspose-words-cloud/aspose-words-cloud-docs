@@ -1,7 +1,7 @@
 ---
 title: "Get all Hyperlinks from a Document"
 type: docs
-url: /get-all-hyperlinks-from-a-document/
+url: /hyperlinks/get-all/
 aliases: [/get-all-hyperlinks-from-a-document/]
 weight: 20
 ---

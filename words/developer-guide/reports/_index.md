@@ -1,7 +1,7 @@
 ---
 title: "Reports"
 type: docs
-url: /working-with-reports/
+url: /reports/
 aliases: [/working-with-reports/]
 weight: 240
 ---

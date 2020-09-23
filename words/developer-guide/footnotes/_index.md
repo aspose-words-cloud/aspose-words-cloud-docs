@@ -1,7 +1,7 @@
 ---
 title: "Footnotes"
 type: docs
-url: /working-with-footnotes/
+url: /footnotes/
 aliases: [/working-with-footnotes/]
 weight: 80
 ---

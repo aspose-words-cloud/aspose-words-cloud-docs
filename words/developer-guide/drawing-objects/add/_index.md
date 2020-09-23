@@ -1,7 +1,7 @@
 ---
 title: "Add a Drawing Object to Word Document"
 type: docs
-url: /add-a-drawing-object-to-word-document/
+url: /drawing-objects/add/
 aliases: [/add-a-drawing-object-to-word-document/]
 weight: 30
 ---

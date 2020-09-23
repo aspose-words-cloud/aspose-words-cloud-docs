@@ -1,7 +1,7 @@
 ---
 title: "Delete a Table Row"
 type: docs
-url: /delete-a-table-row/
+url: /tables/delete-row/
 aliases: [/delete-a-table-row/]
 weight: 80
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Protect the unprotected Document"
 type: docs
-url: /protect-the-unprotected-document/
+url: /documents/protection/add/
 aliases: [/protect-the-unprotected-document/]
 weight: 20
 ---

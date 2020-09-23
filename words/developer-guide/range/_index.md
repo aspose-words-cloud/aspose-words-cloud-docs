@@ -1,7 +1,7 @@
 ---
 title: "Range"
 type: docs
-url: /working-with-range/
+url: /range/
 aliases: [/working-with-range/]
 weight: 210
 ---

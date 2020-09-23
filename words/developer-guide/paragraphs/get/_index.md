@@ -1,7 +1,7 @@
 ---
 title: "Get a particular Paragraph from a Word Document"
 type: docs
-url: /get-a-particular-paragraph-from-a-word-document/
+url: /paragraphs/get/
 aliases: [/get-a-particular-paragraph-from-a-word-document/]
 weight: 20
 ---

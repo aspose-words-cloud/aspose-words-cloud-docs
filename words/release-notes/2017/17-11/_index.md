@@ -1,7 +1,7 @@
 ---
 title: "Aspose.Words for Cloud 17.11 Release Notes"
 type: docs
-url: /aspose-words-for-cloud-17-11-release-notes/
+url: /release-notes/2017/17-11/
 aliases: [/aspose-words-for-cloud-17-11-release-notes/]
 weight: 20
 ---

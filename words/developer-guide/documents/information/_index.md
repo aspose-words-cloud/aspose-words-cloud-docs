@@ -1,7 +1,7 @@
 ---
 title: "Get Document Information"
 type: docs
-url: /get-document-information/
+url: /documents/information/
 aliases: [/get-document-information/]
 weight: 30
 ---

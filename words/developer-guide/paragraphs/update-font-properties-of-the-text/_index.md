@@ -1,7 +1,7 @@
 ---
 title: "Update Font Properties of the Text"
 type: docs
-url: /update-font-properties-of-the-text/
+url: /paragraphs/update-font-properties-of-the-text/
 aliases: [/update-font-properties-of-the-text/]
 weight: 70
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Styles"
 type: docs
-url: /working-with-styles/
+url: /styles/
 aliases: [/working-with-styles/]
 weight: 250
 ---

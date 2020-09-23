@@ -1,7 +1,7 @@
 ---
 title: "Get a Run in the Paragraph"
 type: docs
-url: /get-a-run-in-the-paragraph/
+url: /paragraphs/get-run/
 aliases: [/get-a-run-in-the-paragraph/]
 weight: 100
 ---

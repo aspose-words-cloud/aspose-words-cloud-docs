@@ -1,7 +1,7 @@
 ---
 title: "Supported Platforms"
 type: docs
-url: /supported-platforms/
+url: /getting-started/supported-platforms/
 aliases: [/supported-platforms/]
 weight: 40
 ---

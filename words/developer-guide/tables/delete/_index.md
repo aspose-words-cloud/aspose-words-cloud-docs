@@ -1,7 +1,7 @@
 ---
 title: "Delete a Table from a Word Document"
 type: docs
-url: /delete-a-table-from-a-word-document/
+url: /tables/delete/
 aliases: [/delete-a-table-from-a-word-document/]
 weight: 20
 ---

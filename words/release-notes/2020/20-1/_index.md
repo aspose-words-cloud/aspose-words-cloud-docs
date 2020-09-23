@@ -1,7 +1,7 @@
 ---
 title: "Aspose.Words Cloud 20.1 Release Notes"
 type: docs
-url: /aspose-words-cloud-20-1-release-notes/
+url: /release-notes/2020/20-1/
 aliases: [/aspose-words-cloud-20-1-release-notes/]
 weight: 70
 ---

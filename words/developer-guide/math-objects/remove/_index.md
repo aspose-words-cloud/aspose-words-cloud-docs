@@ -1,7 +1,7 @@
 ---
 title: "Remove OfficeMath Object from Document"
 type: docs
-url: /remove-officemath-object-from-document/
+url: /math-objects/remove/
 aliases: [/remove-officemath-object-from-document/]
 weight: 30
 ---

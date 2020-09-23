@@ -1,7 +1,7 @@
 ---
 title: "Paragraphs"
 type: docs
-url: /working-with-paragraphs/
+url: /paragraphs/
 aliases: [/working-with-paragraphs/]
 weight: 100
 ---

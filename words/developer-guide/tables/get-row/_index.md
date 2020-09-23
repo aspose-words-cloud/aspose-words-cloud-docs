@@ -1,7 +1,7 @@
 ---
 title: "Get a Table Row"
 type: docs
-url: /get-a-table-row/
+url: /tables/get-row/
 aliases: [/get-a-table-row/]
 weight: 70
 ---

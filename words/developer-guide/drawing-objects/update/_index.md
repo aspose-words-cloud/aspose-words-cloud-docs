@@ -1,7 +1,7 @@
 ---
 title: "Update a Drawing Object"
 type: docs
-url: /update-a-drawing-object/
+url: /drawing-objects/update/
 aliases: [/update-a-drawing-object/]
 weight: 40
 ---

@@ -2,7 +2,7 @@
 title: "Populate Template with Data"
 second_title: "Mail Merge"
 type: docs
-url: /populate-mailmerge-template-with-data/
+url: /mail-merge/populate-with-data/
 aliases: [/populate-mailmerge-template-with-data/]
 keywords: "Populate, Mail Merge, Word, Microsoft Word, Java, .NET, PHP, Ruby, Python, NodeJS, Swift, Android ,Go"
 description: "In this article you will learn that how to populate mail merge in various languages. You can download the SDK of your favorite language and start programming in a smartest way. The SDKs are available in Java, .NET, PHP, Ruby, Python, NodeJS, Swift, Android and Go languages."

@@ -1,7 +1,7 @@
 ---
 title: "Lists"
 type: docs
-url: /working-with-lists/
+url: /lists/
 aliases: [/working-with-lists/]
 weight: 230
 ---

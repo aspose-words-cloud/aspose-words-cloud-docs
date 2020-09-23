@@ -1,7 +1,7 @@
 ---
 title: "Get a Particular Drawing Object"
 type: docs
-url: /get-a-particular-drawing-object/
+url: /drawing-objects/get-object/
 aliases: [/get-a-particular-drawing-object/]
 weight: 20
 ---

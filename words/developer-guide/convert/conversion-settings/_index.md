@@ -1,7 +1,7 @@
 ---
 title: "Convert Document to Destination Format with Detailed Settings"
 type: docs
-url: /convert-document-to-destination-format-with-detailed-settings-and-save-result-to-storage/
+url: /convert/conversion-settings/
 aliases: [/convert-document-to-destination-format-with-detailed-settings-and-save-result-to-storage/]
 keywords: "microsoft word document,convert to, word to doc, save word file as pdf,convert word document to html,word doc to html,convert pdf to word,tiff file,Python, C#, Java, Ruby, PHP, NodeJS, Go, Android, Swift"
 description: "The API lets you convert word document to HTML, PDF, JPEG, or other formats with detailed settings. The list of supported formats is, BMP, DOC, DOCM, EMF, and more. The Apose.Words Cloud supports, Python, C#, Java, Ruby, PHP, NodeJS, Go, Android, Swift."

@@ -1,7 +1,7 @@
 ---
 title: "Get a Particular Section from a Word Document"
 type: docs
-url: /get-a-particular-section-from-a-word-document/
+url: /sections/get/
 aliases: [/get-a-particular-section-from-a-word-document/]
 keywords: "List of Sections,get sections,section break word,Section Break, Word, Microsoft Word, Word Documents,Java, .NET, PHP, Ruby, Python, NodeJS, Swift, Android ,Go"
 description: "This REST API allows you to get a specific section or section break that are contained in the document. Please note that The SDKs of this cloud API are available in Python, C#, Java, Ruby, PHP, Node.js, Android, Swift and Go languages."

@@ -1,7 +1,7 @@
 ---
 title: "Fields"
 type: docs
-url: /working-with-fields/
+url: /fields/
 aliases: [/working-with-fields/]
 weight: 160
 ---

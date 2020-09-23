@@ -2,7 +2,7 @@
 title: "Add"
 second_title: "Comments in a Word Document"
 type: docs
-url: /add-comment-to-a-word-document/
+url: /comments/add/
 aliases: [/add-comment-to-a-word-document/]
 weight: 30
 ---

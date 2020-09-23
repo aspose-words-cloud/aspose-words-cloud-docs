@@ -1,7 +1,7 @@
 ---
 title: "Get a Border"
 type: docs
-url: /get-a-border/
+url: /tables/get-border/
 aliases: [/get-a-border/]
 weight: 180
 ---

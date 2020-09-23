@@ -1,7 +1,7 @@
 ---
 title: "Aspose Doc Exporter for Drupal"
 type: docs
-url: /aspose-doc-exporter-aspose-words-cloud-for-drupal/
+url: /plugins/drupal/
 aliases: [/aspose-doc-exporter-aspose-words-cloud-for-drupal/, /aspose-words-cloud-for-drupal/]
 weight: 40
 ---

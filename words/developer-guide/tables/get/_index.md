@@ -1,7 +1,7 @@
 ---
 title: "Get a Table"
 type: docs
-url: /get-a-table/
+url: /tables/get/
 aliases: [/get-a-table/]
 weight: 40
 ---

@@ -2,7 +2,7 @@
 title: "Insert Images"
 second_title: "Mail Merge"
 type: docs
-url: /insert-images-during-mail-merge/
+url: /mail-merge/insert-images/
 aliases: [/insert-images-during-mail-merge/]
 weight: 60
 ---
