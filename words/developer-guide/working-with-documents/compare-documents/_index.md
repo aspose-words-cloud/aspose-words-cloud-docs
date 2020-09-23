@@ -10,7 +10,7 @@ Try Online
 
 You can try this functionality and view the results online at this link:
 
-<https://products.aspose.app/words/comparison> {{% /alert %}}
+<https://products.aspose.app/words/comparison>
 
 ## Introduction
 

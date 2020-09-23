@@ -12,14 +12,14 @@ The page contains release notes for Aspose.Words Cloud 20.7 – [API Reference]
 
 ### Words Cloud changes
 
-1. Added "Markdown" save format
+- Added "Markdown" save format
 
 ### PDF to Word conversion improvements
 
-1. Corrected KeyNotFoundException and InvalidOperationException errors while loading a PDF
-1. Implemented first version of footnote detection
-1. Corrected recognition for page headers with image and text
-1. Fixed an ObjectDisposedException when PDF is loaded from a stream
+- Corrected KeyNotFoundException and InvalidOperationException errors while loading a PDF
+- Implemented first version of footnote detection
+- Corrected recognition for page headers with image and text
+- Fixed an ObjectDisposedException when PDF is loaded from a stream
 
 ## All changes
 
