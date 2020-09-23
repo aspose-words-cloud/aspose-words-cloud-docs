@@ -1,7 +1,7 @@
 ---
 title: "Build Report from Template and jSon Data"
 type: docs
-url: /reports/build/
+url: /report/build/
 aliases: [/build-report-from-template-and-json-data/]
 keywords: "List of Sections,get sections,section break word,Section Break, Word, Microsoft Word, Word Documents,Java, .NET, PHP, Ruby, Python, NodeJS, Swift, Android ,Go"
 description: "This REST API allows you to Build Report from Template and JSON Data. Please note that the SDKs of this cloud API are available in Python, C#, Java, Ruby, PHP, Node.js, Android, Swift, and Go languages."
