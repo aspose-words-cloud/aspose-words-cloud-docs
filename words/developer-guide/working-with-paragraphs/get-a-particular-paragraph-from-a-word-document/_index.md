@@ -21,7 +21,7 @@ This REST API allows you to get a particular paragraph from a word document. The
 *{headerFooterIndex}* is the index of a section that contains headers and footers. 
 *{index}* is the index of a specific paragraph.
 
-[Swagger UI](https://apireference.aspose.cloud/words/#/Paragraphs/GetParagraph) lets you call this REST API directly from the browser. 
+The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Paragraphs/GetParagraph) lets you call this REST API directly from a browser. 
 
 ## cURL Example
 

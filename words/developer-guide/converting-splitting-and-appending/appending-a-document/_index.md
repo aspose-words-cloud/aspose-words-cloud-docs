@@ -21,7 +21,7 @@ The description of the important API parameters is given below:
 
 ## Resource URI
 
-[Swagger UI](https://apireference.aspose.cloud/words/#/Append/AppendDocument) lets you call this REST API directly from the browser. The description of the API and its parameters are also given there.
+The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Append/AppendDocument) lets you call this REST API directly from a browser.
 
 ## cURL Example
 

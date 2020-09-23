@@ -12,7 +12,7 @@ This REST API allows you to Copy Apply Style from Document Element. Please note 
 
 ## Resource URI
 
-[Swagger UI](https://apireference.aspose.cloud/words/#/Styles/GetStyles) lets you call this REST API directly from the browser.  
+The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Styles/GetStyles) lets you call this REST API directly from a browser.  
 
 ## cURL Example
 

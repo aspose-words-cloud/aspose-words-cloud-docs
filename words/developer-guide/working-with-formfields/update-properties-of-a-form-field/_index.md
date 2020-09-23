@@ -60,7 +60,7 @@ The **Request Parameters** are:
 - *paragraphs/{paragraphIndex}* - references specific paragraph.
 - *sections/{sectionIndex}/paragraphs/{paragraphIndex}* - references specific paragraph within section.
 
-[Swagger UI](https://apireference.aspose.cloud/words/#/FormFields/UpdateFormField) lets you call this REST API directly from the browser.  
+The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/FormFields/UpdateFormField) lets you call this REST API directly from a browser.  
 
 ## cURL Example
 

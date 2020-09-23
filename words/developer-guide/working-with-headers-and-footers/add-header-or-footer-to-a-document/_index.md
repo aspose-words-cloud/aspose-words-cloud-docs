@@ -21,7 +21,7 @@ The request body should contain a type of header/footer, and the allowed values 
 
 ## Resource URI
 
-[Swagger UI](https://apireference.aspose.cloud/words/#/HeadersFooters/InsertHeaderFooter) lets you call this REST API directly from the browser.  
+The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/HeadersFooters/InsertHeaderFooter) lets you call this REST API directly from a browser.  
 
 ## cURL Example
 

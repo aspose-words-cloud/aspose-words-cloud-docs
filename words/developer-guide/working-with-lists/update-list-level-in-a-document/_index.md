@@ -12,7 +12,7 @@ This REST API allows you to update a list level of documents. Please note that t
 
 ## Resource URI
 
-[Swagger UI](https://apireference.aspose.cloud/words/#/Lists/UpdateListLevel) lets you call this REST API directly from the browser.  
+The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Lists/UpdateListLevel) lets you call this REST API directly from a browser.  
 
 ## cURL Example
 

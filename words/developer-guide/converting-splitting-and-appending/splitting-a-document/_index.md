@@ -14,7 +14,7 @@ Aspose.Words Cloud has provided the simplest API to split a Word document within
 
 ## Resource URI
 
-[Swagger UI](https://apireference.aspose.cloud/words/#/Split/SplitDocument) lets you call this REST API directly from the browser. The description of the important parameters of the API is given below:
+The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Split/SplitDocument) lets you call this REST API directly from a browser. The description of the important parameters of the API is given below:
 
 |Parameter Name|Type|Description|
 | :- | :- | :- |

@@ -12,7 +12,7 @@ This REST API allows you to Update Style on Document Element. Please note that t
 
 ## Resource URI
 
-[Swagger UI](https://apireference.aspose.cloud/words/#/Styles/UpdateStyle) lets you call this REST API directly from the browser.  
+The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Styles/UpdateStyle) lets you call this REST API directly from a browser.  
 
 ## cURL Example
 

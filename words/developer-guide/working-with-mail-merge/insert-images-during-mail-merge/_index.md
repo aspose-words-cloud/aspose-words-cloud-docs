@@ -10,7 +10,7 @@ This example explains how to insert Images on a MERGEFIELD. [MailMerge](https:
 
 ## Resource URI
 
-[Swagger UI](https://apireference.aspose.cloud/words/#/MailMerge/ExecuteMailMerge) lets you call this REST API directly from the browser. The description of the APIs and its parameters are also given there.
+The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/MailMerge/ExecuteMailMerge) lets you call this REST API directly from a browser. The description of the APIs and its parameters are also given there.
 
 ## cURL Example
 

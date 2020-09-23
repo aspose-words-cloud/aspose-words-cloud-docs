@@ -12,7 +12,7 @@ This REST API allows you to Get Paragraph List Format Without Node Path in a Doc
 
 ## Resource URI
 
-[Swagger UI](https://apireference.aspose.cloud/words/#/Paragraphs/GetParagraphListFormat) lets you call this REST API directly from the browser.  
+The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Paragraphs/GetParagraphListFormat) lets you call this REST API directly from a browser.  
 
 ## cURL Example
 

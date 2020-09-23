@@ -39,7 +39,7 @@ Document classification supports classifying documents stored on Aspose Storage 
 
 ## Resource URI
 
-[Swagger UI](https://apireference.aspose.cloud/words/#/Classification/ClassifyDocument) lets you call the REST API directly from the browser. The description of the API and its parameters is also given there.
+The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Classification/ClassifyDocument) lets you call the REST API directly from the browser. The description of the API and its parameters is also given there.
 
 ## cURL Example
 

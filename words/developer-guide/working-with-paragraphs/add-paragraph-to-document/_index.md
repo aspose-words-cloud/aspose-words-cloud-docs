@@ -26,7 +26,7 @@ This REST API allows you to add a paragraph to a document. The API returns added
 *{headerFooterIndex}* is the index of a section that contains headers and footers. 
 *{index}* is the index of a specific paragraph.
 
-[Swagger UI](https://apireference.aspose.cloud/words/#/Paragraphs/InsertParagraph) lets you call this REST API directly from the browser.  
+The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Paragraphs/InsertParagraph) lets you call this REST API directly from a browser.  
 
 ## cURL Example
 

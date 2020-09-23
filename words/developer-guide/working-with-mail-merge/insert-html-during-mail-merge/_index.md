@@ -16,7 +16,7 @@ Please escape HTML characters in data source string and use "format"="html" attr
 
 ## Resource URI
 
-[Swagger UI](https://apireference.aspose.cloud/words/#/MailMerge/ExecuteMailMerge) lets you call the REST API directly from the browser. The description of the APIs and its parameters are also given there.
+The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/MailMerge/ExecuteMailMerge) lets you call the REST API directly from the browser. The description of the APIs and its parameters are also given there.
 
 ## cURL Example
 

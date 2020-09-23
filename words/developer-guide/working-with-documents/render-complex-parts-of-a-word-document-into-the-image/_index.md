@@ -32,7 +32,7 @@ The following formats are supported:
 
 ## Resource URI
 
-[Swagger UI](https://apireference.aspose.cloud/words/#/Render) lets you call following REST APIs directly from the browser:
+The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Render) lets you call following REST APIs directly from the browser:
 
 - [Renders page to a specified format](https://apireference.aspose.cloud/words/#/Render/RenderPage)
 - [Renders paragraph to a specified format](https://apireference.aspose.cloud/words/#/Render/RenderParagraph)

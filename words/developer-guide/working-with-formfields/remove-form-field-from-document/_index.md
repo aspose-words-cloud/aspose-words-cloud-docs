@@ -15,7 +15,7 @@ This REST API allows you to remove form field from a document.
 ~/{paragraph}/formfields/{formFieldIndex}
 ```
 
-[Swagger UI](https://apireference.aspose.cloud/words/#/FormFields/DeleteFormField) lets you call this REST API directly from the browser.  
+The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/FormFields/DeleteFormField) lets you call this REST API directly from a browser.  
 
 ## cURL Example
 

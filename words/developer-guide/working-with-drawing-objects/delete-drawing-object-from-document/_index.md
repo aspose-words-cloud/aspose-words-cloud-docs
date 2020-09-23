@@ -25,7 +25,7 @@ This REST API allows you to delete a drawing object from the document.
 
 *{index}* is the index of the specific drawing object.
 
-[Swagger UI](https://apireference.aspose.cloud/words/#/DrawingObjects/DeleteDrawingObject) lets you call this REST API directly from the browser. 
+The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/DrawingObjects/DeleteDrawingObject) lets you call this REST API directly from a browser. 
 
 ## cURL Example
 

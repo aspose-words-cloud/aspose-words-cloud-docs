@@ -24,7 +24,7 @@ This REST API allows you to get all drawing objects that are defined in the doc
 - *paragraphs/{paragraphIndex}* - references specific paragraph.
 - *sections/{sectionIndex}/paragraphs/{paragraphIndex}* - references specific paragraph within section.
 
-[Swagger UI](https://apireference.aspose.cloud/words/#/DrawingObjects/GetDocumentDrawingObjects) lets you call this REST API directly from the browser.  
+The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/DrawingObjects/GetDocumentDrawingObjects) lets you call this REST API directly from a browser.  
 
 ## cURL Example
 

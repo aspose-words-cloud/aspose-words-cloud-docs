@@ -31,7 +31,7 @@ This REST API allows you to get one of the OfficeMath objects that are defined 
 
 *{index}* is the index of specific office math object.
 
-[Swagger UI](https://apireference.aspose.cloud/words/#/OfficeMathObjects/GetOfficeMathObject) lets you call this REST API directly from the browser.  
+The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/OfficeMathObjects/GetOfficeMathObject) lets you call this REST API directly from a browser.  
 
 ## cURL Example
 

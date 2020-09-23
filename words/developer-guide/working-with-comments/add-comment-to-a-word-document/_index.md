@@ -20,7 +20,7 @@ The REST API allows you to add a comment to a Word Document. The API return adde
 
 ## Resource URI
 
-[Swagger UI](https://apireference.aspose.cloud/words/#/Comments/InsertComment) lets you call this REST API directly from the browser. The description of the API and its parameters are also given there.
+The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Comments/InsertComment) lets you call this REST API directly from a browser.
 
 ## cURL Example
 

@@ -26,7 +26,7 @@ This REST API allows you to get one of the runs contained in the paragraph. The 
 
 *{index}* is the index of a specific run.
 
-[Swagger UI](https://apireference.aspose.cloud/words/#/Runs/GetRun) lets you call this REST API directly from the browser. 
+The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Runs/GetRun) lets you call this REST API directly from a browser. 
 
 ## cURL Example
 

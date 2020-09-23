@@ -10,7 +10,7 @@ This REST API allows you to delete a table row.
 
 ## Resource URI
 
-[Swagger UI](https://apireference.aspose.cloud/words/#/Tables/DeleteTableRow) lets you call this REST API directly from the browser. The description of the API and its parameters are also given there.
+The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Tables/DeleteTableRow) lets you call this REST API directly from a browser.
 
 ## cURL Example
 

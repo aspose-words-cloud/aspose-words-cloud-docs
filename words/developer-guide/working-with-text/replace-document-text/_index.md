@@ -25,7 +25,7 @@ Moreover, resource properties are the following:
 
 ## Resource URI
 
-[Swagger UI](https://apireference.aspose.cloud/words/#/ReplaceText/ReplaceText) lets you call this REST API directly from the browser.  
+The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/ReplaceText/ReplaceText) lets you call this REST API directly from a browser.  
 
 ## cURL Example
 

@@ -37,7 +37,7 @@ The request is an HTTP request with multipart content (see [RFC 2046](http://to
 
 *{index}* is the index of the specific drawing object.
 
-[Swagger UI](https://apireference.aspose.cloud/words/#/DrawingObjects/UpdateDrawingObject) lets you call this REST API directly from the browser. 
+The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/DrawingObjects/UpdateDrawingObject) lets you call this REST API directly from a browser. 
 
 ## cURL Example
 

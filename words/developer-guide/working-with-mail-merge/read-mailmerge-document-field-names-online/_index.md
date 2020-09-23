@@ -16,7 +16,7 @@ This example explains how to get MailMerge Field Names in the document online. [
 
 ## Resource URI
 
-[Swagger UI](https://apireference.aspose.cloud/words/#/MailMerge/GetDocumentFieldNamesOnline) lets you call this REST API directly from the browser. The description of the API and its parameters is also given there.
+The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/MailMerge/GetDocumentFieldNamesOnline) lets you call this REST API directly from a browser. The description of the API and its parameters is also given there.
 
 ## cURL Example
 

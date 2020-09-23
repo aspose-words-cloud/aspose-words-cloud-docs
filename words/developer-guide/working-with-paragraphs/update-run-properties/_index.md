@@ -26,7 +26,7 @@ This REST API allows you to update run properties. The API returns updated run d
 
 *{index}* is the index of a specific run.
 
-[Swagger UI](https://apireference.aspose.cloud/words/#/Runs/UpdateRun) lets you call this REST API directly from the browser.  
+The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Runs/UpdateRun) lets you call this REST API directly from a browser.  
 
 ## cURL Example
 

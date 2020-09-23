@@ -25,7 +25,7 @@ This REST API allows you to get an embedded OLE file from a drawing object. The 
 
 *{index}* is the index of specific drawing object.
 
-[Swagger UI](https://apireference.aspose.cloud/words/#/DrawingObjects/GetDocumentDrawingObjectOleData) lets you call this REST API directly from the browser. 
+The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/DrawingObjects/GetDocumentDrawingObjectOleData) lets you call this REST API directly from a browser. 
 
 ## cURL Example
 

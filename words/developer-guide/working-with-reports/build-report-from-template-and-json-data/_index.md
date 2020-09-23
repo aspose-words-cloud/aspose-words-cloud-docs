@@ -12,7 +12,7 @@ This REST API allows you to Build Report from Template and JSON Data. Please not
 
 ## Resource URI
 
-[Swagger UI](https://apireference.aspose.cloud/words/#/Report/BuildReport) lets you call this REST API directly from the browser.  
+The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Report/BuildReport) lets you call this REST API directly from a browser.  
 
 ## cURL Example
 

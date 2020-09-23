@@ -10,7 +10,7 @@ This REST API allows you to get information about the document. The API returns 
 
 ## Resource URI
 
-[Swagger UI](https://apireference.aspose.cloud/words/#/WordsDocument/GetDocument) lets you call this REST API directly from the browser.  
+The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/WordsDocument/GetDocument) lets you call this REST API directly from a browser.  
 
 ## cURL Example
 

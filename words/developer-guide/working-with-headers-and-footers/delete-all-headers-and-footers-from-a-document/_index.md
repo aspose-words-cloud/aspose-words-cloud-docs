@@ -10,7 +10,7 @@ This REST API allows you to delete all Headers and Footers from a document.
 
 ## Resource URI
 
-[Swagger UI](https://apireference.aspose.cloud/words/#/HeadersFooters/DeleteHeadersFooters) lets you call this REST API directly from the browser.  
+The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/HeadersFooters/DeleteHeadersFooters) lets you call this REST API directly from a browser.  
 
 ## cURL Example
 

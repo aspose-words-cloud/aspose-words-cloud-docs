@@ -35,7 +35,7 @@ This REST API allows you to add a drawing object to the Word document. The reque
 
 *{index}* is the index of the specific drawing object.
 
-[Swagger UI](https://apireference.aspose.cloud/words/#/DrawingObjects/InsertDrawingObject) lets you call this REST API directly from the browser. 
+The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/DrawingObjects/InsertDrawingObject) lets you call this REST API directly from a browser. 
 
 ## cURL Example
 

@@ -16,7 +16,7 @@ This REST API allows you to get statistical data on the document. The request pa
 
 ## Resource URI
 
-[Swagger UI](https://apireference.aspose.cloud/words/#/Statistics/GetDocumentStatistics) lets you call this REST API directly from the browser.  
+The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Statistics/GetDocumentStatistics) lets you call this REST API directly from a browser.  
 
 ## cURL Example
 

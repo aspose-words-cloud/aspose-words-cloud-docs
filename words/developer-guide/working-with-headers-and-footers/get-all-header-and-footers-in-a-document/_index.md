@@ -10,7 +10,7 @@ This REST API allows you to get all Headers and Footers that are contained in a 
 
 ## Resource URI
 
-[Swagger UI](https://apireference.aspose.cloud/words/#/HeadersFooters/GetHeaderFooters) lets you call this REST API directly from the browser.  
+The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/HeadersFooters/GetHeaderFooters) lets you call this REST API directly from a browser.  
 
 ## cURL Example
 

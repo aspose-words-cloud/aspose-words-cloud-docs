@@ -20,7 +20,7 @@ This REST API allows you to get a list of all runs that are contained in the spe
 - *paragraphs/{paragraphIndex}* - references specific paragraph
 - *sections/{sectionIndex}/paragraphs/{paragraphIndex}* - references specific paragraph within section
 
-[Swagger UI](https://apireference.aspose.cloud/words/#/Runs/GetRuns) lets you call this REST API directly from the browser.  
+The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Runs/GetRuns) lets you call this REST API directly from a browser.  
 
 ## cURL Example
 

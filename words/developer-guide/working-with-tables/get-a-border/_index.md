@@ -19,7 +19,7 @@ The REST API allows you to get a border. The API returns a JSON/XML representati
 
 ## Resource URI
 
-[Swagger UI](https://apireference.aspose.cloud/words/#/Borders/GetBorder) lets you call this REST API directly from the browser. The description of the API and its parameters are also given there.
+The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Borders/GetBorder) lets you call this REST API directly from a browser.
 
 ## cURL Example
 

@@ -12,7 +12,7 @@ This REST API allows you to Delete Paragraph List Format in a Document. Please 
 
 ## Resource URI
 
-[Swagger UI](https://apireference.aspose.cloud/words/#/Paragraphs/DeleteParagraph) lets you call this REST API directly from the browser.  
+The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Paragraphs/DeleteParagraph) lets you call this REST API directly from a browser.  
 
 ## cURL Example
 

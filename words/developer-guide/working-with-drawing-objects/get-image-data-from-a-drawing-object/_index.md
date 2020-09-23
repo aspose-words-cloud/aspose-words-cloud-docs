@@ -25,7 +25,7 @@ This REST API allows you to get image data from a drawing object.
 
 *{index}* is the index of a specific drawing object.
 
-[Swagger UI](https://apireference.aspose.cloud/words/#/DrawingObjects/GetDocumentDrawingObjectImageData) lets you call this REST API directly from the browser. 
+The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/DrawingObjects/GetDocumentDrawingObjectImageData) lets you call this REST API directly from a browser. 
 
 ## cURL Example
 

@@ -12,7 +12,7 @@ Text classification is a lightweight version of classification API that processe
 
 ## Resource URI
 
-[Swagger UI](https://apireference.aspose.cloud/words/#/Classification/Classify) lets you call this REST API directly from the browser. The description of the API and its parameters is also given there.
+The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Classification/Classify) lets you call this REST API directly from a browser. The description of the API and its parameters is also given there.
 
 ## cURL Example
 

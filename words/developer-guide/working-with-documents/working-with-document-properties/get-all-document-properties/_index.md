@@ -10,7 +10,7 @@ This REST API allows you to get all properties of a document. The API returns a 
 
 ## Resource URI
 
-[Swagger UI](https://apireference.aspose.cloud/words/#/DocumentProperties/GetDocumentProperties) lets you call this REST API directly from the browser. The description of the API and its parameters is also given there.
+The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/DocumentProperties/GetDocumentProperties) lets you call this REST API directly from a browser. The description of the API and its parameters is also given there.
 
 ## cURL Example
 

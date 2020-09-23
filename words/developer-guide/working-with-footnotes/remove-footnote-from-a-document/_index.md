@@ -34,7 +34,7 @@ The resource properties are:
 |Text|string|This is a convenience property that allows to easily get or set the text of the footnote.|
 |Position|DocumentPosition|Reference to marked run of text.|
 |Content| |Content of footnote.|
-[Swagger UI](https://apireference.aspose.cloud/words/#/Footnotes/DeleteFootnote) lets you call this REST API directly from the browser.  
+The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Footnotes/DeleteFootnote) lets you call this REST API directly from a browser.  
 
 ## cURL Example
 

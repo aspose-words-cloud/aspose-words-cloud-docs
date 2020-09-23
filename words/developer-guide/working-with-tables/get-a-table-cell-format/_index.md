@@ -25,7 +25,7 @@ This REST API allows you to access the formatting properties of a table cell. Th
 
 ## Resource URI
 
-[Swagger UI](https://apireference.aspose.cloud/words/#/Tables/GetTableCellFormat) lets you call this REST API directly from the browser. The description of the API and its parameters are also given there.
+The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Tables/GetTableCellFormat) lets you call this REST API directly from a browser.
 
 ## cURL Example
 

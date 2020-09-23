@@ -22,7 +22,7 @@ This REST API allows you to get all paragraphs that are contained in a document 
 *{sectionIndex}* is the index of a section that contains paragraphs. If this syntax is used, only elements within the specified section are returned.
 *{headerFooterIndex}* is the index of a section that contains headers and footers. If this syntax is used, only elements within specified header/footer are returned.
 
-[Swagger UI](https://apireference.aspose.cloud/words/#/Paragraphs/GetParagraphs) lets you call this REST API directly from the browser.  
+The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Paragraphs/GetParagraphs) lets you call this REST API directly from a browser.  
 
 ## cURL Example
 

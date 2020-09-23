@@ -10,7 +10,7 @@ This REST API allows you to get a table row. The API returns a JSON/XML represen
 
 ## Resource URI
 
-[Swagger UI](https://apireference.aspose.cloud/words/#/Tables/GetTableRow) lets you call this REST API directly from the browser. The description of the API and its parameters are also given there.
+The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Tables/GetTableRow) lets you call this REST API directly from a browser.
 
 ## cURL Example
 

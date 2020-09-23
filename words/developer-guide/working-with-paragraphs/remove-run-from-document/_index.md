@@ -22,7 +22,7 @@ This REST API allows you to remove run from document.
 
 *{index}* is the index of specific run.
 
-[Swagger UI](https://apireference.aspose.cloud/words/#/Runs/DeleteRun) lets you call this REST API directly from the browser.  
+The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Runs/DeleteRun) lets you call this REST API directly from a browser.  
 
 ## cURL Example
 

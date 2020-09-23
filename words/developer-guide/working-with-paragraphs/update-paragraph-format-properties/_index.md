@@ -38,7 +38,7 @@ This REST API allows you to update paragraph page formatting properties. The API
 
 ## Resource URI
 
-[Swagger UI](https://apireference.aspose.cloud/words/#/Paragraphs/UpdateParagraphFormat) lets you call this REST API directly from the browser.  
+The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Paragraphs/UpdateParagraphFormat) lets you call this REST API directly from a browser.  
 
 ## cURL Example
 

@@ -65,7 +65,7 @@ This REST API allows you to get the font of a run. The resource properties are t
 
 *{index}* is the index of the specific run.
 
-[Swagger UI](https://apireference.aspose.cloud/words/#/Runs/GetRunFont) lets you call this REST API directly from the browser.  
+The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Runs/GetRunFont) lets you call this REST API directly from a browser.  
 
 ## cURL Example
 

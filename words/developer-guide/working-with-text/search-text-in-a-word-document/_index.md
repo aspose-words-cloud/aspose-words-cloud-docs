@@ -14,7 +14,7 @@ This REST API allows you to search text in a word document. In other words, the 
 
 ## Resource URI
 
-[Swagger UI](https://apireference.aspose.cloud/words/#/Search/Search) lets you call this REST API directly from the browser.  
+The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Search/Search) lets you call this REST API directly from a browser.  
 
 ## cURL Example
 

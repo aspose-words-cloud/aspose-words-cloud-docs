@@ -65,7 +65,7 @@ This REST API allows you to update font properties. The API returns updated font
 
 *{index}* is the index of the specific run.
 
-[Swagger UI](https://apireference.aspose.cloud/words/#/Runs/UpdateRunFont) lets you call this REST API directly from the browser.  
+The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Runs/UpdateRunFont) lets you call this REST API directly from a browser.  
 
 ## cURL Example
 
