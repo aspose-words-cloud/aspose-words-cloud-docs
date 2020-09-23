@@ -12,4 +12,3 @@ A **section** or **section break** is known as the part of a *word document* tha
 
 Please read the following articles to get an idea that how API is working with section breaks:
 
-

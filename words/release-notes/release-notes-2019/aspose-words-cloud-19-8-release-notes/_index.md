@@ -8,9 +8,9 @@ weight: 30
 
 **API changes**
 
-1. Fixed some issues with swagger
-1. Fixed some issues with Range API
+- Fixed some issues with swagger
+- Fixed some issues with Range API
 
 **PDF to Word conversion improvements**
 
-1. Removed automatic scaling inside recognized pages. Because section and page break recognition were recently improved, we don't need such scaling anymore.
+- Removed automatic scaling inside recognized pages. Because section and page break recognition were recently improved, we don't need such scaling anymore.

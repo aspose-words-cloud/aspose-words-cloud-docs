@@ -25,8 +25,6 @@ The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Append/App
 
 ## cURL Example
 
-You can use cUrl, which is a popular command-line utility for transferring data and a perfect tool for testing REST APIs.
-
 The following are a few examples of using cURL:
 
 Input Documents: [test_doc.docx](attachments/885186/1180117.docx), [test_multi_pages.docx](attachments/885186/1180118.docx)

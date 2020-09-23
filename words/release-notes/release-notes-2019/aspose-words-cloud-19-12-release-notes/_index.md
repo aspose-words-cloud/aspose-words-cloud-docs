@@ -10,8 +10,8 @@ weight: 10
 
 ### API Changes
 
-1. Fixed issue with "borderType" parameter in "border" endpoints in swagger and SDKs
-1. Increased max size of uploaded files (now it is 100mb).
+- Fixed issue with "borderType" parameter in "border" endpoints in swagger and SDKs
+- Increased max size of uploaded files (now it is 100mb).
 
 ### PDF to Word conversion improvements
 

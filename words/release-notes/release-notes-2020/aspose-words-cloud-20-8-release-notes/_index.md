@@ -12,22 +12,21 @@ The page contains release notes for Aspose.Words Cloud 20.8 – [API Reference]
 
 ### Words Cloud changes
 
-1. Added "optimize document" feature
-1. Added '**ApplyBaseDocumentHeadersAndFootersToAppendingDocuments**' option to '**DocumentEntryList**' for **AppendDocument** API
-1. **WithoutNodePath** methods were removed from SDKs
+- Added "optimize document" feature
+- Added '**ApplyBaseDocumentHeadersAndFootersToAppendingDocuments**' option to '**DocumentEntryList**' for **AppendDocument** API
+- **WithoutNodePath** methods were removed from SDKs
 
 ### PDF to Word conversion improvements
 
-1. Improved header/footer detection by removing false candidates
-1. Corrected multiple issues with footnotes recognition (numbers, alignment, continuation, etc)
-1. Reduced memory allocations for PDFs with big images (10 times less now)
-1. Fixed page height calculation that was causing empty output document
-1. Supported more formats in numbered list detection
-1. Removed false one element lists from table cells
-1. Fixed a couple of PDF processing errors
-1. Created a new option that allows skipping all images from a PDF
-1. Changed obfuscation settings for fix iOS compatibility
-
+- Improved header/footer detection by removing false candidates
+- Corrected multiple issues with footnotes recognition (numbers, alignment, continuation, etc)
+- Reduced memory allocations for PDFs with big images (10 times less now)
+- Fixed page height calculation that was causing empty output document
+- Supported more formats in numbered list detection
+- Removed false one element lists from table cells
+- Fixed a couple of PDF processing errors
+- Created a new option that allows skipping all images from a PDF
+- Changed obfuscation settings for fix iOS compatibility
 
 ## All changes
 
@@ -57,7 +56,6 @@ The page contains release notes for Aspose.Words Cloud 20.8 – [API Reference]
 ## SDK Changes
 
 ### Aspose Words Cloud (Java, PHP, Python, Ruby) SDKs 20.8
-
 
 - Added new api method
 

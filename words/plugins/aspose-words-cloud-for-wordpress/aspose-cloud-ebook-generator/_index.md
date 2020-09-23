@@ -52,11 +52,11 @@ You need to have the following installed in order to open and extend the source 
 
 - PHP Storm
 
-Please follow these simple steps to get started
+Please follow these steps to get started:
 
-1. Download/Clone the source code.
-1. Open PHP Storm and Choose **File** > **Open Project**
-1. Browse to the latest source code that you have downloaded.
+- Download/Clone the source code.
+- Open PHP Storm and Choose **File** > **Open Project**
+- Browse to the latest source code that you have downloaded.
 
 ### Source code overview
 
@@ -77,24 +77,25 @@ You can download the Aspose Cloud eBook Generator plugin from one of the followi
 
 Once downloaded, please follow these steps to install the module to your WordPress website:
 
-1. Log into your site as either Admin or another Super user level account.
-1. Navigate to the **Plugin** menu and select **Add New**.
-1. Type \*Aspose Cloud eBook Generator \*in the search box and click \*Search Plugin button. \*Or click the \*Upload \*menu and choose the ZIP folder you downloaded from the locations above.
-1. Click **Install Now**.
-1. After installation, click **Settings** to see the configuration page.
+- Log into your site as either Admin or another Super user level account.
+- Navigate to the **Plugin** menu and select **Add New**.
+- Type \*Aspose Cloud eBook Generator \*in the search box and click \*Search Plugin button. \*Or click the \*Upload \*menu and choose the ZIP folder you downloaded from the locations above.
+- Click **Install Now**.
+- After installation, click **Settings** to see the configuration page.
 
 ## Using and Video Demo
 
 ### Using
 
-After you have installed the Aspose Cloud eBook Generator plugin it is really simple to start using it on your website. Please follow these simple steps to get started.
+After you have installed the Aspose Cloud eBook Generator plugin it is really simple to start using it on your website.
+Please follow these steps to get started:
 
-1. Make sure you are logged-in to a WordPress site as Admin level account.
-1. Make sure you have set up Aspose App Key & Id on the plugin configuration page. For further details on how to get app keys,  [click here ](http://www.aspose.com/docs/display/totalcloud/Creating+a+New+App+and+Getting+App+Key).  .
-1. Navigate to the page “Aspose Cloud eBook Generator” from the admin left menu.
-1. Select Posts Types, Categories, Authors and date range of blog posts which needs to be included in the eBook
-1. Add Book Details like name, author, title, introduction, copy right etc.
-1. Select eBook Format in which eBook needs to be generated like epub, docx, pdf and click “Generate eBook” button. It will give you link to download the eBook.
+- Make sure you are logged-in to a WordPress site as Admin level account.
+- Make sure you have set up Aspose App Key & Id on the plugin configuration page. For further details on how to get app keys,  [click here ](http://www.aspose.com/docs/display/totalcloud/Creating+a+New+App+and+Getting+App+Key).  .
+- Navigate to the page “Aspose Cloud eBook Generator” from the admin left menu.
+- Select Posts Types, Categories, Authors and date range of blog posts which needs to be included in the eBook
+- Add Book Details like name, author, title, introduction, copy right etc.
+- Select eBook Format in which eBook needs to be generated like epub, docx, pdf and click “Generate eBook” button. It will give you link to download the eBook.
 
 ### Video Demo
 
@@ -102,14 +103,15 @@ Please check [the video](https://www.youtube.com/watch?v=wCFaYbT3f0s) below to
 
 ## Using
 
-After you have installed the Aspose Cloud eBook Generator plugin it is really simple to start using it on your website. Please follow these simple steps to get started.
+After you have installed the Aspose Cloud eBook Generator plugin it is really simple to start using it on your website.
+Please follow these steps to get started:
 
-1. Make sure you are logged-in to a WordPress site as Admin level account.
-1. Make sure you have set up Aspose App Key & Id on the plugin configuration page. For further details on how to get app keys,  [click here ](http://www.aspose.com/docs/display/totalcloud/Creating+a+New+App+and+Getting+App+Key).  .
-1. Navigate to the page “Aspose Cloud eBook Generator” from the admin left menu.
-1. Select Posts Types, Categories, Authors and date range of blog posts which needs to be included in the eBook
-1. Add Book Details like name, author, title, introduction, copy right etc.
-1. Select eBook Format in which eBook needs to be generated like epub, docx, pdf and click “Generate eBook” button. It will give you link to download the eBook.
+- Make sure you are logged-in to a WordPress site as Admin level account.
+- Make sure you have set up Aspose App Key & Id on the plugin configuration page. For further details on how to get app keys,  [click here ](http://www.aspose.com/docs/display/totalcloud/Creating+a+New+App+and+Getting+App+Key).  .
+- Navigate to the page “Aspose Cloud eBook Generator” from the admin left menu.
+- Select Posts Types, Categories, Authors and date range of blog posts which needs to be included in the eBook
+- Add Book Details like name, author, title, introduction, copy right etc.
+- Select eBook Format in which eBook needs to be generated like epub, docx, pdf and click “Generate eBook” button. It will give you link to download the eBook.
 
 Video
 

@@ -68,8 +68,6 @@ This article explains how to format the text. Using [PUT /words/{name}/{paragrap
 
 ## cURL Example
 
-You can use cUrl, which is a popular command-line utility for transferring data and a perfect tool for testing REST APIs.
-
 The following are a few examples of using cURL:
 
 Input Document: [SampleWordDocument.docx](attachments/885279/1180112.docx)

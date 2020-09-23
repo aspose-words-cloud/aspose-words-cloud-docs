@@ -14,8 +14,6 @@ The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/WordsDocum
 
 ## cURL Example
 
-You can use cUrl, which is a popular command-line utility for transferring data and a perfect tool for testing REST APIs.
-
 The following are a few examples of using cURL:
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
@@ -199,7 +197,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx" \
         "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx?format=pcl",
         "Rel": "alternate",
         "Type": "application/x-pcl",
-        "Title": "Download as PC\* Connection #0 to host api.aspose.cloud left intact L"
+        "Title": "Download as PCL"
       }
     ],
     "FileName": "test_multi_pages.docx",

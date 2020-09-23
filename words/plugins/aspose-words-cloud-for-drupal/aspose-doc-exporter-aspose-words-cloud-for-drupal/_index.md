@@ -52,11 +52,12 @@ You need to have the following installed in order to open and extend the source 
 
 - PHP Storm
 
-Please follow these simple steps to get started
+Please follow these steps to get started:
 
-1. Download/Clone the source code.
-1. Open PHP Storm and Choose **File** > **Open Project**
-1. Browse to the latest source code that you have downloaded,
+- Download/Clone the source code.
+- Open PHP Storm and Choose **File** > **Open Project**.
+- Browse to the latest source code that you have downloaded.
+
 ### Source code overview
 
 - Aspose_Cloud_SDK_For_PHP-master - Contains Aspose for Cloud SDK API for different operations.
@@ -77,18 +78,19 @@ You can download the Aspose DOC Exporter Module from one of the following locati
 
 Once downloaded, please follow these steps to install the module to your WordPress website:
 
-1. \*Extract the files. \*When you first get the module, it will appear in a compressed file format, either tar.gz or .zip. On Windows, use a program like 7-zip to extract it.
-1. \*Upload the folder. \*Using SFTP (file transfer protocol) or Git (version control), upload your files to “sites/all/modules” folder in your Drupal installation.
-1. **Enable the module. \*Navigate to \*Administer**, then **Site building** and finally **Modules**. Check the **Enabled** option next to the Aspose Doc Exporter module and click the **Save Configuration** button at the bottom.
-1. \*Include Aspose Keys. \*Click on the configure button next to the Aspose Doc Exporter module and then add APP SID & APP KEY. For further details on how to get app keys, [click here](http://www.aspose.com/docs/display/rest/Creating+a+New+App+and+Getting+App+Key).
+- \*Extract the files. \*When you first get the module, it will appear in a compressed file format, either tar.gz or .zip. On Windows, use a program like 7-zip to extract it.
+- \*Upload the folder. \*Using SFTP (file transfer protocol) or Git (version control), upload your files to “sites/all/modules” folder in your Drupal installation.
+- **Enable the module. \*Navigate to \*Administer**, then **Site building** and finally **Modules**. Check the **Enabled** option next to the Aspose Doc Exporter module and click the **Save Configuration** button at the bottom.
+- \*Include Aspose Keys. \*Click on the configure button next to the Aspose Doc Exporter module and then add APP SID & APP KEY. For further details on how to get app keys, [click here](http://www.aspose.com/docs/display/rest/Creating+a+New+App+and+Getting+App+Key).
 
 ### Using
 
-After you have installed Aspose DOC Exporter Plugin it is really simple to start using it on your website. Please follow these simple steps to get started.
+After you have installed Aspose DOC Exporter Plugin it is really simple to start using it on your website.
+Please follow these steps to get started:
 
-1. Make sure you are logged-in to a Drupal site as Admin level account.
-1. Make sure you have set up Aspose App Key & Id on the module configuration page. For further details on how to get app keys, [click here](http://www.aspose.com/docs/display/rest/Creating+a+New+App+and+Getting+App+Key).
-1. Navigate to the Content Page.
-1. Select  the articles or pages you want to export and then select **Aspose Export to DOC** from**Update Options**.
-1. Click **Update**.
+- Make sure you are logged-in to a Drupal site as Admin level account.
+- Make sure you have set up Aspose App Key & Id on the module configuration page. For further details on how to get app keys, [click here](http://www.aspose.com/docs/display/rest/Creating+a+New+App+and+Getting+App+Key).
+- Navigate to the Content Page.
+- Select  the articles or pages you want to export and then select **Aspose Export to DOC** from**Update Options**.
+- Click **Update**.
    This will export all selected articles or pages to a DOC document file and gives you link for downloading the DOC file.

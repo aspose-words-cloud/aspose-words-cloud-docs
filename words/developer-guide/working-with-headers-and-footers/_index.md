@@ -12,4 +12,3 @@ The ***header and footer in word*** documents are useful for including material 
 
 Please have a look at the following to know in detail:
 
-

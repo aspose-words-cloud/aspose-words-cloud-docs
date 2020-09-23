@@ -37,8 +37,6 @@ The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Footnotes/
 
 ## cURL Example
 
-You can use cUrl, which is a popular command-line utility for transferring data and a perfect tool for testing REST APIs.
-
 The following are a few examples of using cURL:
 
 *Input Document:** [Footnote.doc](attachments/885418/1180127.doc)
@@ -308,7 +306,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/Footnote.doc/footnotes" \
               "Text": " footnote text",
               "NodeId": "0.7.1.0",
               "link": {
-                "Href": "http://api.aspose.cl\* Connection #0 to host api.aspose.cloud left intact oud/v1.1/words/Footnote.doc/sections/0/paragraphs/7/footnotes/1/paragraphs/0",
+                "Href": "http://api.aspose.cloud/v1.1/words/Footnote.doc/sections/0/paragraphs/7/footnotes/1/paragraphs/0",
                 "Rel": "self",
                 "Type": null,
                 "Title": null

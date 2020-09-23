@@ -6,4 +6,3 @@ aliases: [/working-with-tables/]
 weight: 90
 ---
 
-

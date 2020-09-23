@@ -12,20 +12,19 @@ The page contains release notes for Aspose.Words Cloud 20.4 – [API Reference]
 
 ### Words Cloud changes
 
-1. Added CompareOptions to "Compare documents" endpoint
-1. Added "Password" option to OdtSaveOptions
-1. Added "Dml3DEffectsRenderingMode" to SaveOptions
-1. Added "InterpolateImages" option to PdfSaveOptions
-1. Added "UpdateLastPrintedProperty" to SaveOptions
-1. Added "UseTargetMachineFonts" option to HtmlFixedSaveOptions
+- Added CompareOptions to "Compare documents" endpoint
+- Added "Password" option to OdtSaveOptions
+- Added "Dml3DEffectsRenderingMode" to SaveOptions
+- Added "InterpolateImages" option to PdfSaveOptions
+- Added "UpdateLastPrintedProperty" to SaveOptions
+- Added "UseTargetMachineFonts" option to HtmlFixedSaveOptions
 
 ### PDF to Word conversion improvements
 
-1. Fixed all issues related to Xamarin support;
-1. Improved formulas formatting when font substitution occurs during the recognition;
-1. Got better bookmark detection when running on Linux;
-1. Corrected vector lines position and alignment with text on Linux.
-
+- Fixed all issues related to Xamarin support;
+- Improved formulas formatting when font substitution occurs during the recognition;
+- Got better bookmark detection when running on Linux;
+- Corrected vector lines position and alignment with text on Linux.
 
 ## All changes
 
@@ -56,16 +55,16 @@ The page contains release notes for Aspose.Words Cloud 20.4 – [API Reference]
 ## SDK Changes
 
 1. 'rangeEndIdentifier' now non-required for all SDKs, just like NET SDK.
-1. The same order of parameters in the modelRequests for all SDKs.
-1. Added CompareOptions property to CompareData class
-1. Added Password property to OdtSaveOptions class
-1. Added Dml3DEffectsRenderingMode property to SaveOptions class
-1. Added UpdateLastPrintedProperty property to SaveOptions class
-1. Added InterpolateImages property to PdfSaveOptions class
-1. Added UseTargetMachineFonts property to HtmlFixedSaveOptions class
-1. Added some request data classes: 
-   1. RunUpdate and RunInsert
-   1. FootnoteUpdate and FootnoteInsert
-   1. FieldUpdate and FieldInsert
-   1. CommentUpdate and CommentInsert
-   1. DocumentPropertyCreateOrUpdate
+2. The same order of parameters in the modelRequests for all SDKs.
+3. Added CompareOptions property to CompareData class
+4. Added Password property to OdtSaveOptions class
+5. Added Dml3DEffectsRenderingMode property to SaveOptions class
+6. Added UpdateLastPrintedProperty property to SaveOptions class
+7. Added InterpolateImages property to PdfSaveOptions class
+8. Added UseTargetMachineFonts property to HtmlFixedSaveOptions class
+9. Added some request data classes: 
+   - RunUpdate and RunInsert
+   - FootnoteUpdate and FootnoteInsert
+   - FieldUpdate and FieldInsert
+   - CommentUpdate and CommentInsert
+   - DocumentPropertyCreateOrUpdate

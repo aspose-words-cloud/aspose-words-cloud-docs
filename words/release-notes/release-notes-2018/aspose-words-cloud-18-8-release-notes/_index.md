@@ -44,8 +44,8 @@ New SDK is fully supported and has the following advantages over the previous ve
 
 #### Added new saveoptions
 
-1. OutlineOptions.CreateOutlinesForHeadingsInTables
-1. OPdfSaveOption.HeaderFooterBookmarksExportMode
+- OutlineOptions.CreateOutlinesForHeadingsInTables
+- OPdfSaveOption.HeaderFooterBookmarksExportMode
 
 #### Added "taxonomy" parameter to document classification
 

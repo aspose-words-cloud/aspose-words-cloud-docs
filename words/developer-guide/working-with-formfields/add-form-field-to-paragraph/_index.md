@@ -61,8 +61,6 @@ The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/FormFields
 
 ## cURL Example
 
-You can use cUrl, which is a popular command-line utility for transferring data and a perfect tool for testing REST APIs.
-
 The following are a few examples of using cURL:
 
 *Input Document:** [FormFilled.docx](attachments/885421/1180128.docx)

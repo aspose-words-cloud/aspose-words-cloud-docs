@@ -38,8 +38,6 @@ The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Fonts/GetA
 
 ## cURL Example
 
-You can use cUrl, which is a popular command-line utility for transferring data and a perfect tool for testing REST APIs.
-
 The following are a few examples of using cURL:
 
 {{< tabs tabTotal="2" tabID="2" tabName1="Request" tabName2="Response" >}}
@@ -718,7 +716,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/fonts/available" \
     },
     {
       "FontFamilyName": "Source Sans Pro Light",
-      "FullFontName": "Source Sa\* Connection #0 to host api.aspose.cloud left intact ns Pro Light Italic",
+      "FullFontName": "Source Sans Pro Light Italic",
       "Version": "Version 1.075;PS 2.0;hotconv 1.0.86;makeotf.lib2.5.63406",
       "FilePath": "C:\\Windows\\Fonts\\SourceSansPro-LightIt.otf"
     },

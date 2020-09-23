@@ -70,7 +70,8 @@ Once downloaded, please follow these steps to deploy Aspose.Words Cloud on Sales
 
 ![todo:image_alt_text](/plugins/servlet/confluence/placeholder/unknown-macro)
 
-After you have installed the Aspose.Words Cloud for Salesforce it is really simple to start using it. Please follow these simple steps to get started.
+After you have installed the Aspose.Words Cloud for Salesforce it is really simple to start using it.
+Please follow these steps to get started:
 
 - Login to your Salesforce Account on www.salesforce.com.
 - Open Build > Develop > Pages.

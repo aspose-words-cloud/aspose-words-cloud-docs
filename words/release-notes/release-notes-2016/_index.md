@@ -6,4 +6,3 @@ aliases: [/release-notes-2016/]
 weight: 50
 ---
 
-

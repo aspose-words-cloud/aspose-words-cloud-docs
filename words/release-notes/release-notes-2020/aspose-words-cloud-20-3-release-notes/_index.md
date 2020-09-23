@@ -69,7 +69,6 @@ weight: 60
 |PDF2WORD-478 |Wrong formulas block alignment in Appendix_C_CITables docx |Bug|
 |PDF2WORD-479 |Different Golds for 2018_blueprint.pdf on dev PCs and GitLab |Bug|
 
-
 ## SDKs Changes
 
 ### Aspose Words Cloud .Net SDK
@@ -118,5 +117,4 @@ Old package is abandoned and no more updated since this release [ABANDONED pack
 
 - Added RtfSaveOptionsData.SaveImagesAsWmf property
 - WordsApi class now has credentials parameters
-
 

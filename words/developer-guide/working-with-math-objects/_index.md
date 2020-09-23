@@ -6,4 +6,3 @@ aliases: [/working-with-math-objects/]
 weight: 140
 ---
 
-

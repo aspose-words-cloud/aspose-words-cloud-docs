@@ -52,11 +52,11 @@ You need to have the following installed in order to open and extend the source 
 
 - PHP Storm
 
-Please follow these simple steps to get started
+Please follow these steps to get started:
 
-1. Download/Clone the source code.
-1. Open PHP Storm and Choose **File** > **Open Project**
-1. Browse to the latest source code that you have downloaded,
+- Download/Clone the source code.
+- Open PHP Storm and Choose **File** > **Open Project**
+- Browse to the latest source code that you have downloaded,
 ### Source code overview
 
 - Aspose_Cloud_SDK_For_PHP-master  - Contains Aspose for Cloud SDK API for different operations.
@@ -77,25 +77,26 @@ You can download the Aspose DOC Importer plugin from one of the following locati
 
 Once downloaded, please follow these steps to install the module to your WordPress website:
 
-1. Log into your site as either Admin or another Super user level account.
-1. Navigate to the **Plugin** menu and select **Add New**.
-1. Type **Aspose Doc Importer** in the search box and click **Search Plugin button** Or click the **Upload** menu and choose the ZIP folder you downloaded from the locations above.
-1. Click **Install Now**.
-1. After installation, click **Settings** to see the configuration page.
+- Log into your site as either Admin or another Super user level account.
+- Navigate to the **Plugin** menu and select **Add New**.
+- Type **Aspose Doc Importer** in the search box and click **Search Plugin button** Or click the **Upload** menu and choose the ZIP folder you downloaded from the locations above.
+- Click **Install Now**.
+- After installation, click **Settings** to see the configuration page.
 
 ## Using and Video Demo
 
 ### Using
 
-After you have installed the Aspose Doc Import plugin it is really simple to start using it on your website. Please follow these simple steps to get started.
+After you have installed the Aspose Doc Import plugin it is really simple to start using it on your website.
+Please follow these steps to get started:
 
-1. Make sure you are logged-in to a WordPress site as Admin level account.
-1. Make sure you have set up Aspose App Key & Id on the plugin configuration page. For further details on how to get app keys, [click here ](/aspose-doc-exporter/#asposedocexporter-using).
-1. Navigate to the page or posts where you want to import contents from the DOC using Aspose Doc Importer plugin.
-1. Click the **Aspose Doc Importer** button.
-1. Click Select Doc File. It will show WordPress Media Gallery on popup. Either upload a DOC file or choose from the Media Library.
-1. Click the Use this Doc file for Importing button.
-1. Click the **Insert Doc to Editor** button. It inserts the text from the DOC file to the ed
+- Make sure you are logged-in to a WordPress site as Admin level account.
+- Make sure you have set up Aspose App Key & Id on the plugin configuration page. For further details on how to get app keys, [click here ](/aspose-doc-exporter/#asposedocexporter-using).
+- Navigate to the page or posts where you want to import contents from the DOC using Aspose Doc Importer plugin.
+- Click the **Aspose Doc Importer** button.
+- Click Select Doc File. It will show WordPress Media Gallery on popup. Either upload a DOC file or choose from the Media Library.
+- Click the Use this Doc file for Importing button.
+- Click the **Insert Doc to Editor** button. It inserts the text from the DOC file to the ed
 
 ### Video Demo
 

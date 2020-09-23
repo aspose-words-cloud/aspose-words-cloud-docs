@@ -12,26 +12,26 @@ The businesses are now receiving different kind of text-based documents. These d
 
 The [Taxonomy (general)](https://en.wikipedia.org/wiki/Taxonomy_\(general\)) is the practice and science of classification of things or concepts, including the principles that underlie such classification. In our case, this is a list of text categories. The Aspose.Words Cloud support two taxonomies for now:
 
-1. **IAB-2 taxonomy**: <https://www.iab.com/guidelines/taxonomy/>
-1. **Documents taxonomy:**
-   1. ADVE - advertisements, brochures
-   1. Email
-   1. Form
-   1. Letter
-   1. Memo - memorandums
-   1. News - articles, including news articles
-   1. Invoice
-   1. Report
-   1. Resume
-   1. Scientific - scientific papers
-   1. Other - the other classes of documents or cases where the classifier is not sure
+- **IAB-2 taxonomy**: <https://www.iab.com/guidelines/taxonomy/>
+- **Documents taxonomy:**
+   - ADVE - advertisements, brochures
+   - Email
+   - Form
+   - Letter
+   - Memo - memorandums
+   - News - articles, including news articles
+   - Invoice
+   - Report
+   - Resume
+   - Scientific - scientific papers
+   - Other - the other classes of documents or cases where the classifier is not sure
 
-The API important parameters are:
+The most important parameters are:
 
-1. **Parameter Name:** bestClassesCount
-   **Description:** Count of top classes for the target text
-1. **Parameter Name:** taxonomy
-   **Description:** Taxonomy to classify with. If the field is empty or "default" then IAB-2 taxonomy will be used. Documents taxonomy will be used in other cases.
+- **Parameter Name:** bestClassesCount
+- **Description:** Count of top classes for the target text
+- **Parameter Name:** taxonomy
+- **Description:** Taxonomy to classify with. If the field is empty or "default" then IAB-2 taxonomy will be used. Documents taxonomy will be used in other cases.
 
 Document classification supports classifying documents stored on Aspose Storage or any of [the supported storage](https://docs.aspose.cloud/display/storagecloud/How+to+Configure+3rd+Party+Cloud+Storages). API supports all document formats [supported by other Aspose.Words Cloud methods](https://products.aspose.cloud/words/cloud), including PDF which will be implicitly [converted to Word format](/convert-pdf-document-to-word/).
 
@@ -42,8 +42,6 @@ Document classification supports classifying documents stored on Aspose Storage 
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Classification/ClassifyDocument) lets you call the REST API directly from the browser.
 
 ## cURL Example
-
-You can use cUrl, which is a popular command-line utility for transferring data and a perfect tool for testing REST APIs.
 
 The following are a few examples of using cURL:
 

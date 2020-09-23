@@ -22,8 +22,6 @@ The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/HeadersFoo
 
 ## cURL Example
 
-You can use cUrl, which is a popular command-line utility for transferring data and a perfect tool for testing REST APIs.
-
 The following are a few examples of using cURL:
 
 *Case 1: Get a Header or Footer in a Document**

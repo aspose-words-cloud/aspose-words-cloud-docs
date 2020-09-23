@@ -54,11 +54,11 @@ You need to have the following installed in order to open and extend the source 
 
 - PHP Storm
 
-Please follow these simple steps to get started
+Please follow these steps to get started:
 
-1. Download/Clone the source code.
-1. Open PHP Storm and Choose **File** > **Open Project**
-1. Browse to the latest source code that you have downloaded.
+- Download/Clone the source code.
+- Open PHP Storm and Choose **File** > **Open Project**
+- Browse to the latest source code that you have downloaded.
 
 ### Source code overview
 
@@ -82,32 +82,33 @@ You can download the Aspose Importer Exporter Plugin from one of the following l
 
 Once downloaded, please follow these steps to install the module to your WordPress website:
 
-1. Log into your site as either Admin or another Super user level account.
-1. Navigate to the **Plugin** menu and select **Add New**.
-1. Type \*Aspose Importer Exporter \*in the search box and click \*Search Plugin button. \*Or click the \*Upload \*menu and choose the ZIP folder you downloaded from the locations above.
-1. Click **Install Now**.
-1. After installation, click **Settings** to see the configuration page.
+- Log into your site as either Admin or another Super user level account.
+- Navigate to the **Plugin** menu and select **Add New**.
+- Type \*Aspose Importer Exporter \*in the search box and click \*Search Plugin button. \*Or click the \*Upload \*menu and choose the ZIP folder you downloaded from the locations above.
+- Click **Install Now**.
+- After installation, click **Settings** to see the configuration page.
 
 ## Using and Video Demo
 
-After you have installed Aspose PDF Import Plugin it is really simple to start using it on your website. Please follow these simple steps to get started.
+After you have installed Aspose PDF Import Plugin it is really simple to start using it on your website.
+Please follow these steps to get started:
 
-1. Make sure you are logged-in to a WordPress site as Admin level account.
-1. Make sure you have set up Aspose App Key & Id on the plugin configuration page. For further details on how to get app keys, [click here ](http://www.aspose.com/docs/display/totalcloud/Creating+a+New+App+and+Getting+App+Key).
+- Make sure you are logged-in to a WordPress site as Admin level account.
+- Make sure you have set up Aspose App Key & Id on the plugin configuration page. For further details on how to get app keys, [click here ](http://www.aspose.com/docs/display/totalcloud/Creating+a+New+App+and+Getting+App+Key).
 
 ### Using Import Features of Plugin
 
-1. Navigate to the page or posts where you want to import contents from the File using Aspose Importer / Exporter Plugin.
-1. Click the \*Aspose File Importer \*button.
-1. Click **Select File**. **\*It will show WordPress Media Gallery on popup. Either upload a pdf/doc/docx file or choose from the \*Media Library**.
-1. Click the **Use this file for Importing** button.
-1. Click the \*Insert File to Editor \*button. It will insert the text from pdf/doc/docx file to Editor.
+- Navigate to the page or posts where you want to import contents from the File using Aspose Importer / Exporter Plugin.
+- Click the \*Aspose File Importer \*button.
+- Click **Select File**. **\*It will show WordPress Media Gallery on popup. Either upload a pdf/doc/docx file or choose from the \*Media Library**.
+- Click the **Use this file for Importing** button.
+- Click the \*Insert File to Editor \*button. It will insert the text from pdf/doc/docx file to Editor.
 
 ### Using Export Features of Plugin
 
-1. Navigate to the page or posts which you want to export.
-1. Select  the “Posts / Pages” you want to export and then select either **Aspose Export to DOC**or **Aspose Export to PDF** from **Bulk Actions**.
-1. Click **Apply**.
+- Navigate to the page or posts which you want to export.
+- Select  the “Posts / Pages” you want to export and then select either **Aspose Export to DOC**or **Aspose Export to PDF** from **Bulk Actions**.
+- Click **Apply**.
    This exports all selected posts or pages into selected document format and gives you link for downloading the file.
 
 ### Video Demo

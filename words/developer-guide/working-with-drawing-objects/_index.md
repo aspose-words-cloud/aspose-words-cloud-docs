@@ -6,4 +6,3 @@ aliases: [/working-with-drawing-objects/]
 weight: 130
 ---
 
-

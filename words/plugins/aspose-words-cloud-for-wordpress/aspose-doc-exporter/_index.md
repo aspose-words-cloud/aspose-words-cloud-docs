@@ -52,11 +52,11 @@ You need to have the following installed in order to open and extend the source 
 
 - PHP Storm
 
-Please follow these simple steps to get started
+Please follow these steps to get started:
 
-1. Download/Clone the source code.
-1. Open PHP Storm and Choose **File** > **Open Project**
-1. Browse to the latest source code that you have downloaded,
+- Download/Clone the source code.
+- Open PHP Storm and Choose **File** > **Open Project**.
+- Browse to the latest source code that you have downloaded.
 ### Source code overview
 
 - Aspose_Cloud_SDK_For_PHP-master - Contains Aspose for Cloud SDK API for different operations.
@@ -77,26 +77,28 @@ You can download the Aspose DOC Exporter Plugin from one of the following locati
 
 Once downloaded, please follow these steps to install the module to your WordPress website:
 
-1. Log into your site as either Admin or another Supersuser level account.
-1. Navigate to the **Plugin** menu and select **Add New**.
-1. Type **Aspose Doc Exporter \*in the search box and click \*Search Plugin button. \*Or click the**Upload \*menu and choose the ZIP folder you downloaded from the locations above.
-1. Click **Install Now**.
-1. After installation, click **Settings** to see the configuration page.
+- Log into your site as either Admin or another Supersuser level account.
+- Navigate to the **Plugin** menu and select **Add New**.
+- Type **Aspose Doc Exporter \*in the search box and click \*Search Plugin button. \*Or click the**Upload \*menu and choose the ZIP folder you downloaded from the locations above.
+- Click **Install Now**.
+- After installation, click **Settings** to see the configuration page.
 
 ## Using and Video Demo
 
 ### Using
 
-After you have installed Aspose DOC Exporter Plugin it is really simple to start using it on your website. Please follow these simple steps to get started.
+After you have installed Aspose DOC Exporter Plugin it is really simple to start using it on your website.
 
-1. Make sure you are logged-in to a WordPress site as Admin level account.
-1. Make sure you have set up Aspose App Key & Id on the plugin configuration page. For further details on how to get app keys, [click here ](https://docs.aspose.cloud/display/storagecloud/Aspose+Cloud+UI+Help+Topics).
-1. Enable "Export Post Comments"  feature from configuration page, if you want to include post comments in the exported file from configuration page.
-1. Enter customised Label for "Post Comments" to appear in the exported file from configuration page.
-1. Choose the desired Exported File Format i.e (Doc/Docx/Rtf/Txt/Odt/Dot/Dotx) from configuration page. 
-1. Navigate to the page or posts which you want to export to selected format.
-1. Select  the “Posts / Pages” you want to export and then select **Aspose Export to File** from **Bulk Actions**.
-1. Click **Apply**.
+Please follow these steps to get started:
+
+- Make sure you are logged-in to a WordPress site as Admin level account.
+- Make sure you have set up Aspose App Key & Id on the plugin configuration page. For further details on how to get app keys, [click here ](https://docs.aspose.cloud/display/storagecloud/Aspose+Cloud+UI+Help+Topics).
+- Enable "Export Post Comments"  feature from configuration page, if you want to include post comments in the exported file from configuration page.
+- Enter customised Label for "Post Comments" to appear in the exported file from configuration page.
+- Choose the desired Exported File Format i.e (Doc/Docx/Rtf/Txt/Odt/Dot/Dotx) from configuration page. 
+- Navigate to the page or posts which you want to export to selected format.
+- Select  the “Posts / Pages” you want to export and then select **Aspose Export to File** from **Bulk Actions**.
+- Click **Apply**.
    This exports all selected posts or pages with comments if enabled into selected export format and gives you link for downloading file.
 
 ### Video Demo

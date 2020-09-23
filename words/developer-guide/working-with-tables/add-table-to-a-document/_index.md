@@ -20,8 +20,6 @@ The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Tables/Ins
 
 ## cURL Example
 
-You can use cUrl, which is a popular command-line utility for transferring data and a perfect tool for testing REST APIs.
-
 The following are a few examples of using cURL:
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
@@ -283,7 +281,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/TablesGet.docx/tables" \
             ],
             "NodeId": "0.9.2.2",
             "link": {
-              "Href": "http://api.aspose.cloud/v4.0/words/TablesGet.docx/sections/0/tables/4/rows/2/cel\* Connection #0 to host api.aspose.cloud left intact ls/2",
+              "Href": "http://api.aspose.cloud/v4.0/words/TablesGet.docx/sections/0/tables/4/rows/2/cells/2",
               "Rel": "self",
               "Type": null,
               "Title": null

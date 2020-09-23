@@ -24,8 +24,8 @@ New SDK is fully supported and has the following advantages over the previous ve
 
 #### Added new saveoptions
 
-1. HtmlFixedSaveOptions.SaveFontFaceCssSeparately
-1. MtmlSaveOption.ExportCidUrlsForMhtmlResources
+- HtmlFixedSaveOptions.SaveFontFaceCssSeparately
+- MtmlSaveOption.ExportCidUrlsForMhtmlResources
 
 #### Added "paragraph format" resource
 

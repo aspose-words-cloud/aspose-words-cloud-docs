@@ -13,4 +13,3 @@ The automatic classification of the documents becomes very useful when a large n
 
 Please read the following articles to get deep inside:
 
-

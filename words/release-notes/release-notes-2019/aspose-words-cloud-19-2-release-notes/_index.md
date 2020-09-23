@@ -12,13 +12,13 @@ The page contains release notes for Aspose.Words Cloud 19.2 – [API Reference]
 
 #### Removed deprecated public property
 
-1. TextSaveOptions.ExportHeadersFooters was removed.
+- TextSaveOptions.ExportHeadersFooters was removed.
 
 #### PDF to Word conversion improvements
 
-1. images in front or behind text now placed properly;
-1. fixed spacing between words in some paragraphs;
-1. corrected a few errors related to document processing;
-1. improved recognition for tables that have no visible borders;
-1. reduced processing time for documents with multiple fonts per page;
-1. increased accuracy of processing documents with different headers/footers.
+- Images in front or behind text now placed properly.
+- Fixed spacing between words in some paragraphs.
+- Corrected a few errors related to document processing.
+- Improved recognition for tables that have no visible borders.
+- Reduced processing time for documents with multiple fonts per page.
+- Increased accuracy of processing documents with different headers/footers.

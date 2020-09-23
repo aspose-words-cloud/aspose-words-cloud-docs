@@ -30,8 +30,6 @@ The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Compare/Co
 
 ## cURL Example
 
-You can use cUrl, which is a popular command-line utility for transferring data and a perfect tool for testing REST APIs.
-
 The following are a few examples of using cURL:
 
 *Input Documents: [**compareTestDoc1.doc](attachments/885441/1180122.doc)**, [compareTestDoc2.doc](attachments/885441/1180121.doc)

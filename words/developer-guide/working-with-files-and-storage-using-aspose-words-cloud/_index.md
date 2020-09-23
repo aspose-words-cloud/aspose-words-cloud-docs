@@ -18,8 +18,6 @@ Aspose.Words Cloud provides helper functions to work with files uploaded to Asp
 
 #### cURL Example
 
-You can use cUrl, which is a popular command-line utility for transferring data and a perfect tool for testing REST APIs.
-
 The following are a few examples of using cURL:
 
 {{< tabs tabTotal="1" tabID="1" tabName1="Request" >}}

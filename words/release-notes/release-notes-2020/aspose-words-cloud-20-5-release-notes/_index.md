@@ -13,20 +13,20 @@ The page contains release notes for Aspose.Words Cloud 20.5 – [API Reference]
 ### Words Cloud changes
 
 1. Added "BuildReport" feature (uses [Linq reporting](https://docs.aspose.com/display/wordsnet/LINQ+Reporting+Engine+API))
-1. Added support of "Document.Lists"
-1. Added support of "Paragraph.ListFormat"
-1. Added support of "Document.Styles"
-1. Added support of change "Style" for document elements
-1. Added support of "ParagraphFormat.Shading" and "ParagraphFormat.Tabstops"
-1. Added support of UrlEncoded "NodePath" parameters
-1. Released "Downloadable" version of API on DockerHub
+2. Added support of "Document.Lists"
+3. Added support of "Paragraph.ListFormat"
+4. Added support of "Document.Styles"
+5. Added support of change "Style" for document elements
+6. Added support of "ParagraphFormat.Shading" and "ParagraphFormat.Tabstops"
+7. Added support of UrlEncoded "NodePath" parameters
+8. Released "Downloadable" version of API on DockerHub
 
 ### PDF to Word conversion improvements
 
 1. Fixed letters disappearance during PDF recognition;
-1. Implemented diagonal lines detection in tables;
-1. Improved space detection between words;
-1. Solved several problems with landscape page recognition.
+2. Implemented diagonal lines detection in tables;
+3. Improved space detection between words;
+4. Solved several problems with landscape page recognition.
 
 ## All changes
 
@@ -60,269 +60,269 @@ The page contains release notes for Aspose.Words Cloud 20.5 – [API Reference]
 ### Aspose Words Cloud .Net SDK 20.5
 
 1. Added methods to work with Word document lists
-   1. GetLists
-   1. GetList
-   1. InsertList
-   1. UpdateList
-   1. UpdateListLevel
-1. Added methods to work with styles
-   1. GetStyles
-   1. UpdateStyle
-   1. InsertStyle
-   1. CopyStyle
-   1. GetStyleFromDocumentElement
-   1. ApplyStyleToDocumentElement
-1. Added methods to work with paragraph list format
-   1. GetParagraphListFormat
-   1. GetParagraphListFormatWithoutNodePath
-   1. UpdateParagraphListFormat
-   1. DeleteParagraphListFormat
-1. Added methods to work with paragraph tab stops
-   1. GetParagraphTabStops
-   1. InsertOrUpdateParagraphTabStop
-   1. DeleteAllParagraphTabStops
-   1. DeleteParagraphTabStop
-1. Added methods to build reports
-   1. BuildReport
-   1. BuildReportOnline
-1. Added Shading property to ParagraphFormat
+   - GetLists
+   - GetList
+   - InsertList
+   - UpdateList
+   - UpdateListLevel
+2. Added methods to work with styles
+   - GetStyles
+   - UpdateStyle
+   - InsertStyle
+   - CopyStyle
+   - GetStyleFromDocumentElement
+   - ApplyStyleToDocumentElement
+3. Added methods to work with paragraph list format
+   - GetParagraphListFormat
+   - GetParagraphListFormatWithoutNodePath
+   - UpdateParagraphListFormat
+   - DeleteParagraphListFormat
+4. Added methods to work with paragraph tab stops
+   - GetParagraphTabStops
+   - InsertOrUpdateParagraphTabStop
+   - DeleteAllParagraphTabStops
+   - DeleteParagraphTabStop
+5. Added methods to build reports
+   - BuildReport
+   - BuildReportOnline
+6. Added Shading property to ParagraphFormat
 
 ### Aspose Words Cloud C++ SDK 20.5
 
 1. Added methods to work with Word document lists
-   1. getLists
-   1. getList
-   1. insertList
-   1. updateList
-   1. updateListLevel
-1. Added methods to work with styles
-   1. getStyles
-   1. updateStyle
-   1. insertStyle
-   1. copyStyle
-   1. getStyleFromDocumentElement
-   1. applyStyleToDocumentElement
-1. Added methods to work with paragraph list format
-   1. getParagraphListFormat
-   1. getParagraphListFormatWithoutNodePath
-   1. updateParagraphListFormat
-   1. deleteParagraphListFormat
-1. Added methods to work with paragraph tab stops
-   1. getParagraphTabStops
-   1. insertOrUpdateParagraphTabStop
-   1. deleteAllParagraphTabStops
-   1. deleteParagraphTabStop
-1. Added methods to build reports
-   1. buildReport
-   1. buildReportOnline
-1. Added Shading property to ParagraphFormat
+   - getLists
+   - getList
+   - insertList
+   - updateList
+   - updateListLevel
+2. Added methods to work with styles
+   - getStyles
+   - updateStyle
+   - insertStyle
+   - copyStyle
+   - getStyleFromDocumentElement
+   - applyStyleToDocumentElement
+3. Added methods to work with paragraph list format
+   - getParagraphListFormat
+   - getParagraphListFormatWithoutNodePath
+   - updateParagraphListFormat
+   - deleteParagraphListFormat
+4. Added methods to work with paragraph tab stops
+   - getParagraphTabStops
+   - insertOrUpdateParagraphTabStop
+   - deleteAllParagraphTabStops
+   - deleteParagraphTabStop
+5. Added methods to build reports
+   - buildReport
+   - buildReportOnline
+6. Added Shading property to ParagraphFormat
 
 ### Aspose Words Cloud Go SDK 20.5
 
 1. Added methods to work with Word document lists
-   1. GetLists
-   1. GetList
-   1. InsertList
-   1. UpdateList
-   1. UpdateListLevel
-1. Added methods to work with styles
-   1. GetStyles
-   1. UpdateStyle
-   1. InsertStyle
-   1. CopyStyle
-   1. GetStyleFromDocumentElement
-   1. ApplyStyleToDocumentElement
-1. Added methods to work with paragraph list format
-   1. GetParagraphListFormat
-   1. GetParagraphListFormatWithoutNodePath
-   1. UpdateParagraphListFormat
-   1. DeleteParagraphListFormat
-1. Added methods to work with paragraph tab stops
-   1. GetParagraphTabStops
-   1. InsertOrUpdateParagraphTabStop
-   1. DeleteAllParagraphTabStops
-   1. DeleteParagraphTabStop
-1. Added methods to build reports
-   1. BuildReport
-   1. BuildReportOnline
-1. Added Shading property to ParagraphFormat
+   - GetLists
+   - GetList
+   - InsertList
+   - UpdateList
+   - UpdateListLevel
+2. Added methods to work with styles
+   - GetStyles
+   - UpdateStyle
+   - InsertStyle
+   - CopyStyle
+   - GetStyleFromDocumentElement
+   - ApplyStyleToDocumentElement
+3. Added methods to work with paragraph list format
+   - GetParagraphListFormat
+   - GetParagraphListFormatWithoutNodePath
+   - UpdateParagraphListFormat
+   - DeleteParagraphListFormat
+4. Added methods to work with paragraph tab stops
+   - GetParagraphTabStops
+   - InsertOrUpdateParagraphTabStop
+   - DeleteAllParagraphTabStops
+   - DeleteParagraphTabStop
+5. Added methods to build reports
+   - BuildReport
+   - BuildReportOnline
+6. Added Shading property to ParagraphFormat
 
 ### Aspose Words Cloud Java SDK 20.5
 
 1. Added methods to work with Word document lists
-   1. GetLists
-   1. GetList
-   1. InsertList
-   1. UpdateList
-   1. UpdateListLevel
-1. Added methods to work with styles
-   1. GetStyles
-   1. UpdateStyle
-   1. InsertStyle
-   1. CopyStyle
-   1. GetStyleFromDocumentElement
-   1. ApplyStyleToDocumentElement
-1. Added methods to work with paragraph list format
-   1. GetParagraphListFormat
-   1. GetParagraphListFormatWithoutNodePath
-   1. UpdateParagraphListFormat
-   1. DeleteParagraphListFormat
-1. Added methods to work with paragraph tab stops
-   1. GetParagraphTabStops
-   1. InsertOrUpdateParagraphTabStop
-   1. DeleteAllParagraphTabStops
-   1. DeleteParagraphTabStop
-1. Added methods to build reports
-   1. BuildReport
-   1. BuildReportOnline
-1. Added Shading property to ParagraphFormat
+   - GetLists
+   - GetList
+   - InsertList
+   - UpdateList
+   - UpdateListLevel
+2. Added methods to work with styles
+   - GetStyles
+   - UpdateStyle
+   - InsertStyle
+   - CopyStyle
+   - GetStyleFromDocumentElement
+   - ApplyStyleToDocumentElement
+3. Added methods to work with paragraph list format
+   - GetParagraphListFormat
+   - GetParagraphListFormatWithoutNodePath
+   - UpdateParagraphListFormat
+   - DeleteParagraphListFormat
+4. Added methods to work with paragraph tab stops
+   - GetParagraphTabStops
+   - InsertOrUpdateParagraphTabStop
+   - DeleteAllParagraphTabStops
+   - DeleteParagraphTabStop
+5. Added methods to build reports
+   - BuildReport
+   - BuildReportOnline
+6. Added Shading property to ParagraphFormat
 
 ### ` `Aspose Words Cloud Node.js SDK 20.5
 
 1. Added methods to work with Word document lists
-   1. getLists
-   1. getList
-   1. insertList
-   1. updateList
-   1. updateListLevel
-1. Added methods to work with styles
-   1. getStyles
-   1. updateStyle
-   1. insertStyle
-   1. copyStyle
-   1. getStyleFromDocumentElement
-   1. applyStyleToDocumentElement
-1. Added methods to work with paragraph list format
-   1. getParagraphListFormat
-   1. getParagraphListFormatWithoutNodePath
-   1. updateParagraphListFormat
-   1. deleteParagraphListFormat
-1. Added methods to work with paragraph tab stops
-   1. getParagraphTabStops
-   1. insertOrUpdateParagraphTabStop
-   1. deleteAllParagraphTabStops
-   1. deleteParagraphTabStop
-1. Added methods to build reports
-   1. buildReport
-   1. buildReportOnline
-1. Added Shading property to ParagraphFormat
+   - getLists
+   - getList
+   - insertList
+   - updateList
+   - updateListLevel
+2. Added methods to work with styles
+   - getStyles
+   - updateStyle
+   - insertStyle
+   - copyStyle
+   - getStyleFromDocumentElement
+   - applyStyleToDocumentElement
+3. Added methods to work with paragraph list format
+   - getParagraphListFormat
+   - getParagraphListFormatWithoutNodePath
+   - updateParagraphListFormat
+   - deleteParagraphListFormat
+4. Added methods to work with paragraph tab stops
+   - getParagraphTabStops
+   - insertOrUpdateParagraphTabStop
+   - deleteAllParagraphTabStops
+   - deleteParagraphTabStop
+5. Added methods to build reports
+   - buildReport
+   - buildReportOnline
+6. Added Shading property to ParagraphFormat
 
 ### Aspose Words Cloud PHP SDK 20.5
 
 1. Added methods to work with Word document lists
-   1. GetLists
-   1. GetList
-   1. InsertList
-   1. UpdateList
-   1. UpdateListLevel
-1. Added methods to work with styles
-   1. GetStyles
-   1. UpdateStyle
-   1. InsertStyle
-   1. CopyStyle
-   1. GetStyleFromDocumentElement
-   1. ApplyStyleToDocumentElement
-1. Added methods to work with paragraph list format
-   1. GetParagraphListFormat
-   1. GetParagraphListFormatWithoutNodePath
-   1. UpdateParagraphListFormat
-   1. DeleteParagraphListFormat
-1. Added methods to work with paragraph tab stops
-   1. GetParagraphTabStops
-   1. InsertOrUpdateParagraphTabStop
-   1. DeleteAllParagraphTabStops
-   1. DeleteParagraphTabStop
-1. Added methods to build reports
-   1. BuildReport
-   1. BuildReportOnline
-1. Added Shading property to ParagraphFormat
+   - GetLists
+   - GetList
+   - InsertList
+   - UpdateList
+   - UpdateListLevel
+2. Added methods to work with styles
+   - GetStyles
+   - UpdateStyle
+   - InsertStyle
+   - CopyStyle
+   - GetStyleFromDocumentElement
+   - ApplyStyleToDocumentElement
+3. Added methods to work with paragraph list format
+   - GetParagraphListFormat
+   - GetParagraphListFormatWithoutNodePath
+   - UpdateParagraphListFormat
+   - DeleteParagraphListFormat
+4. Added methods to work with paragraph tab stops
+   - GetParagraphTabStops
+   - InsertOrUpdateParagraphTabStop
+   - DeleteAllParagraphTabStops
+   - DeleteParagraphTabStop
+5. Added methods to build reports
+   - BuildReport
+   - BuildReportOnline
+6. Added Shading property to ParagraphFormat
 
 ### Aspose Words Cloud Python SDK 20.5
 
 1. Added methods to work with Word document lists
-   1. GetLists
-   1. GetList
-   1. InsertList
-   1. UpdateList
-   1. UpdateListLevel
-1. Added methods to work with styles
-   1. GetStyles
-   1. UpdateStyle
-   1. InsertStyle
-   1. CopyStyle
-   1. GetStyleFromDocumentElement
-   1. ApplyStyleToDocumentElement
-1. Added methods to work with paragraph list format
-   1. GetParagraphListFormat
-   1. GetParagraphListFormatWithoutNodePath
-   1. UpdateParagraphListFormat
-   1. DeleteParagraphListFormat
-1. Added methods to work with paragraph tab stops
-   1. GetParagraphTabStops
-   1. InsertOrUpdateParagraphTabStop
-   1. DeleteAllParagraphTabStops
-   1. DeleteParagraphTabStop
-1. Added methods to build reports
-   1. BuildReport
-   1. BuildReportOnline
-1. Added Shading property to ParagraphFormat
+   - GetLists
+   - GetList
+   - InsertList
+   - UpdateList
+   - UpdateListLevel
+2. Added methods to work with styles
+   - GetStyles
+   - UpdateStyle
+   - InsertStyle
+   - CopyStyle
+   - GetStyleFromDocumentElement
+   - ApplyStyleToDocumentElement
+3. Added methods to work with paragraph list format
+   - GetParagraphListFormat
+   - GetParagraphListFormatWithoutNodePath
+   - UpdateParagraphListFormat
+   - DeleteParagraphListFormat
+4. Added methods to work with paragraph tab stops
+   - GetParagraphTabStops
+   - InsertOrUpdateParagraphTabStop
+   - DeleteAllParagraphTabStops
+   - DeleteParagraphTabStop
+5. Added methods to build reports
+   - BuildReport
+   - BuildReportOnline
+6. Added Shading property to ParagraphFormat
 
 ### Aspose Words Cloud Ruby SDK 20.5
 
 1. Added methods to work with Word document lists
-   1. GetLists
-   1. GetList
-   1. InsertList
-   1. UpdateList
-   1. UpdateListLevel
-1. Added methods to work with styles
-   1. GetStyles
-   1. UpdateStyle
-   1. InsertStyle
-   1. CopyStyle
-   1. GetStyleFromDocumentElement
-   1. ApplyStyleToDocumentElement
-1. Added methods to work with paragraph list format
-   1. GetParagraphListFormat
-   1. GetParagraphListFormatWithoutNodePath
-   1. UpdateParagraphListFormat
-   1. DeleteParagraphListFormat
-1. Added methods to work with paragraph tab stops
-   1. GetParagraphTabStops
-   1. InsertOrUpdateParagraphTabStop
-   1. DeleteAllParagraphTabStops
-   1. DeleteParagraphTabStop
-1. Added methods to build reports
-   1. BuildReport
-   1. BuildReportOnline
-1. Added Shading property to ParagraphFormat
+   - GetLists
+   - GetList
+   - InsertList
+   - UpdateList
+   - UpdateListLevel
+2. Added methods to work with styles
+   - GetStyles
+   - UpdateStyle
+   - InsertStyle
+   - CopyStyle
+   - GetStyleFromDocumentElement
+   - ApplyStyleToDocumentElement
+3. Added methods to work with paragraph list format
+   - GetParagraphListFormat
+   - GetParagraphListFormatWithoutNodePath
+   - UpdateParagraphListFormat
+   - DeleteParagraphListFormat
+4. Added methods to work with paragraph tab stops
+   - GetParagraphTabStops
+   - InsertOrUpdateParagraphTabStop
+   - DeleteAllParagraphTabStops
+   - DeleteParagraphTabStop
+5. Added methods to build reports
+   - BuildReport
+   - BuildReportOnline
+6. Added Shading property to ParagraphFormat
 
 ### Aspose Words Cloud Swift SDK 20.5
 
 1. Added methods to work with Word document lists
-   1. GetLists
-   1. GetList
-   1. InsertList
-   1. UpdateList
-   1. UpdateListLevel
-1. Added methods to work with styles
-   1. GetStyles
-   1. UpdateStyle
-   1. InsertStyle
-   1. CopyStyle
-   1. GetStyleFromDocumentElement
-   1. ApplyStyleToDocumentElement
-1. Added methods to work with paragraph list format
-   1. GetParagraphListFormat
-   1. GetParagraphListFormatWithoutNodePath
-   1. UpdateParagraphListFormat
-   1. DeleteParagraphListFormat
-1. Added methods to work with paragraph tab stops
-   1. GetParagraphTabStops
-   1. InsertOrUpdateParagraphTabStop
-   1. DeleteAllParagraphTabStops
-   1. DeleteParagraphTabStop
-1. Added methods to build reports
-   1. BuildReport
-   1. BuildReportOnline
-1. Added Shading property to ParagraphFormat
+   - GetLists
+   - GetList
+   - InsertList
+   - UpdateList
+   - UpdateListLevel
+2. Added methods to work with styles
+   - GetStyles
+   - UpdateStyle
+   - InsertStyle
+   - CopyStyle
+   - GetStyleFromDocumentElement
+   - ApplyStyleToDocumentElement
+3. Added methods to work with paragraph list format
+   - GetParagraphListFormat
+   - GetParagraphListFormatWithoutNodePath
+   - UpdateParagraphListFormat
+   - DeleteParagraphListFormat
+4. Added methods to work with paragraph tab stops
+   - GetParagraphTabStops
+   - InsertOrUpdateParagraphTabStop
+   - DeleteAllParagraphTabStops
+   - DeleteParagraphTabStop
+5. Added methods to build reports
+   - BuildReport
+   - BuildReportOnline
+6. Added Shading property to ParagraphFormat

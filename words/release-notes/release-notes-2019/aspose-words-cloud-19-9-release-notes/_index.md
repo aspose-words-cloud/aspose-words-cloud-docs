@@ -8,7 +8,6 @@ weight: 20
 
 ## Important Changes and New Features
 
-
 - Added ImageSaveOption.ThresholdForFloydSteinbergDithering property
 - Added DocSaveOptions.SavePictureBullet property
 - Added HtmlSaveOptions.ResolveFontNames property

@@ -17,4 +17,3 @@ weight: 50
 - [Render Complex Parts of a Word Document Into the Image](/render-complex-parts-of-a-word-document-into-the-image/)
 - [Remove all Macros from Document](/remove-all-macros-from-document/)
 
-

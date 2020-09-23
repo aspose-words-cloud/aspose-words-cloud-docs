@@ -21,7 +21,6 @@ The page contains release notes for Aspose.Words Cloud 20.7 – [API Reference]
 1. Corrected recognition for page headers with image and text
 1. Fixed an ObjectDisposedException when PDF is loaded from a stream
 
-
 ## All changes
 
 |ID|Summary|Category|
