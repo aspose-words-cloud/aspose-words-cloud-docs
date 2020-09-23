@@ -6,11 +6,7 @@ aliases: [/aspose-words-for-cloud-1-21-0-release-notes/]
 weight: 110
 ---
 
-{{% alert color="primary" %}} 
-
 This page contains release notes for [Aspose.Words for Cloud 1.21.0](http://www.aspose.com/downloads/words/cloud/new-releases/aspose.words-for-cloud-1.21.0/)
-
-{{% /alert %}} 
 
 ## Aspose.Words
 

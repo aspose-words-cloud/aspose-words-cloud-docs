@@ -6,11 +6,7 @@ aliases: [/aspose-words-cloud-18-11-release-notes/]
 weight: 10
 ---
 
-{{% alert color="primary" %}} 
-
 The page contains release notes for Aspose.Words Cloud 18.11 – [API Reference](https://apireference.aspose.cloud/words/)
-
-{{% /alert %}} 
 
 ## Important Changes and New Features
 

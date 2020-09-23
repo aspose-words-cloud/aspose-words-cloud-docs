@@ -8,14 +8,10 @@ description: "You can easily convert word document to PDF, HTML, XHTML or a spec
 weight: 10
 ---
 
-{{% alert color="primary" %}} 
-
 You can check the quality of Aspose.Words Cloud conversion and view the results online at these links:
 
 - [Conversion](https://products.aspose.app/words/conversion)
 - [Viewer](https://products.aspose.app/words/viewer)
-
-{{% /alert %}} 
 
 ## Introduction
 
@@ -56,11 +52,7 @@ The important parameters of this API are:
 |format|string|format=jpeg|Return the document in the specified format. Valid values for this parameter are given above.|
 |outPath|string|outPath=SomeFolder/result.jpeg|A path for saving operation results to the Cloud storage.|
 
-{{% alert color="primary" %}} 
-
 The format can also be specified by the request Accept header.
-
-{{% /alert %}} 
 
 ## Resource URI
 
@@ -103,13 +95,13 @@ PDF Document
 
 {{< /tab >}}
 {{< /tabs >}}
-## SDKs
+## Boost the Development Process with Aspose Words Cloud SDK Family
 
 Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Please check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words SDKs with code examples.
 
 ## SDK Examples
 
-The code examples of using this REST API with various SDKs are presented below:
+A set of short code examples, demonstrating how to use this REST API with various SDKs, is presented below:
 
 {{< tabs tabTotal="9" tabID="4" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Python" tabName5="Ruby" tabName6="Node.js" tabName7="Android" tabName8="Swift" tabName9="Go" >}}
 {{< tab tabNum="1" >}}

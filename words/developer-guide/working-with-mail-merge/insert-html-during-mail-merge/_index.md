@@ -8,11 +8,7 @@ weight: 50
 
 This example explains how to insert HTML on a MERGEFIELD. [executeMailMerge](https://apireference.aspose.cloud/words/#/MailMerge/ExecuteMailMerge) API lets you insert HTML on a merge field. The mail merges data string can be either in XML or JSON format.
 
-{{% alert color="primary" %}} 
-
 Please escape HTML characters in data source string and use "format"="html" attribute.
-
-{{% /alert %}} 
 
 ## Resource URI
 
@@ -227,13 +223,13 @@ curl -v "https://api.aspose.cloud/v4.0/words/template.doc/MailMerge?destFileName
 }
 {{< /tab >}}
 {{< /tabs >}}
-## SDKs
+## Boost the Development Process with Aspose Words Cloud SDK Family
 
 Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words SDKs with code examples. Please check [Available SDKs](/available-sdks/) article to learn how to add an SDK to your project.
 
 ## SDK Examples
 
-The code examples of using this REST API with various SDKs are presented below:
+A set of short code examples, demonstrating how to use this REST API with various SDKs, is presented below:
 
 {{< tabs tabTotal="9" tabID="3" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Python" tabName5="Ruby" tabName6="Node.js" tabName7="Android" tabName8="Swift" tabName9="Go" >}}
 {{< tab tabNum="1" >}}

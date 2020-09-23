@@ -196,7 +196,7 @@ PNG File
 {{< /tabs >}}
 ## SDK Examples
 
-The code examples of using this REST API with various SDKs are presented below:
+A set of short code examples, demonstrating how to use this REST API with various SDKs, is presented below:
 
 **Case 1: Renders Page to Specified Format**
 

@@ -6,11 +6,7 @@ aliases: [/aspose-words-for-cloud-1-28-0-release-notes/]
 weight: 40
 ---
 
-{{% alert color="primary" %}} 
-
 The page contains release notes for Aspose.Words for Cloud update 1.28.0 – [API Version 1.1](http://api.aspose.com/v1.1/swagger/ui/index)
-
-{{% /alert %}} 
 
 ## Full List of Issues Covering all Changes in this Release
 

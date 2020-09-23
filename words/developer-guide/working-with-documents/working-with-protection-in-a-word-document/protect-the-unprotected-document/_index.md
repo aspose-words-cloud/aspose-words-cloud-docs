@@ -8,11 +8,7 @@ weight: 20
 
 This REST API allows you to protect the unprotected document. 
 
-{{% alert color="primary" %}} 
-
 Password is always required. If you want to change the type of protection, then ProtectionType is required. If you want to change the password, then NewPassword is required. If you want to change both of the type of protection and the password, then both ProtectionType and NewPassword are required.
-
-{{% /alert %}} 
 
 The resource properties are given below:
 
@@ -56,24 +52,22 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/protection" \
 {
   "ProtectionData": {
     "ProtectionType": "AllowOnlyComments"
-
   },
   "DocumentLink": null,
   "Code": 200,
   "Status": "OK"
-
 }
 ```
 
 {{< /tab >}}
 {{< /tabs >}}
-## SDKs
+## Boost the Development Process with Aspose Words Cloud SDK Family
 
-Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Please check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs, supplied with short and clear code examples.
+Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Please check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs.
 
 ## SDK Examples
 
-The code examples of using this REST API with various SDKs are presented below:
+A set of short code examples, demonstrating how to use this REST API with various SDKs, is presented below:
 
 {{< tabs tabTotal="9" tabID="4" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Python" tabName5="Ruby" tabName6="Node.js" tabName7="Android" tabName8="Swift" tabName9="Go" >}}
 {{< tab tabNum="1" >}}

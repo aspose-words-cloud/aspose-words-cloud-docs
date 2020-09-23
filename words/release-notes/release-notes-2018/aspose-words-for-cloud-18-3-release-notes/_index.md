@@ -6,11 +6,7 @@ aliases: [/aspose-words-for-cloud-18-3-release-notes/]
 weight: 90
 ---
 
-{{% alert color="primary" %}} 
-
 The page contains release notes for Aspose.Words for Cloud update 18.3 – [API Reference](https://apireference.aspose.cloud/words/)
-
-{{% /alert %}} 
 
 ## Important Changes and New Features
 
@@ -18,7 +14,7 @@ The page contains release notes for Aspose.Words for Cloud update 18.3 – [API
 
 PDF to Word converter now properly converts style and destination of hyperlinks, both to URLs and local files.
 
-## SDKs
+## Boost the Development Process with Aspose Words Cloud SDK Family
 
 All currently [supported cloud SDKs](https://github.com/aspose-words-cloud) (.NET, PHP and Node.js) now have "Version" property for API Configuration classes. The attribute allows to target specific version. Supported versions are:
 

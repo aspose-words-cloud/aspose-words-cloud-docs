@@ -6,11 +6,7 @@ aliases: [/aspose-words-cloud-19-3-release-notes/]
 weight: 70
 ---
 
-{{% alert color="primary" %}} 
-
 The page contains release notes for Aspose.Words Cloud 19.3 – [API Reference](https://apireference.aspose.cloud/words/)
-
-{{% /alert %}} 
 
 ## Important Changes and New Features
 

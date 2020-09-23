@@ -41,11 +41,7 @@ This REST API allows you to read the page setup of a section. The API returns JS
 |SuppressEndnotes|bool|True if endnotes are printed at the end of the next section that doesn't suppress endnotes. Suppressed endnotes are printed before the endnotes in that section.|
 |TopMargin|double|Specifies the distance (in points) between the top edge of the page and the top boundary of the body text.|
 |VerticalAlignment|PageVerticalAlignment|Specifies the vertical alignment of text on each page in a document or section.|
-{{% alert color="primary" %}} 
-
 Please note that the SDKs of this cloud API are available in *Python, C#, Java, Ruby, PHP, Node.js, Android, Swift* and *Go* languages.
-
-{{% /alert %}} 
 
 ## Resource URI
 
@@ -118,19 +114,18 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/pa
   },
   "Code": 200,
   "Status": "OK"
-
 }
 ```
 
 {{< /tab >}}
 {{< /tabs >}}
-## SDKs
+## Boost the Development Process with Aspose Words Cloud SDK Family
 
-Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Please check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs, supplied with short and clear code examples.
+Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Please check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs.
 
 ## SDK Examples
 
-The code examples of using this REST API with various SDKs are presented below:
+A set of short code examples, demonstrating how to use this REST API with various SDKs, is presented below:
 
 {{< tabs tabTotal="9" tabID="4" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Python" tabName5="Ruby" tabName6="Node.js" tabName7="Android" tabName8="Swift" tabName9="Go" >}}
 {{< tab tabNum="1" >}}

@@ -10,11 +10,7 @@ weight: 40
 
 Our conversion APIs let you *convert PDF to Word* document. The APIs even supports encrypted PDF file to Word document conversion. The converter turns a document into a "flow" format - merges multiple paragraphs into one section, converts tables and lists into native Word tables and lists, etc. so that document can then be naturally edited in Word editing application (such as Microsoft Word).
 
-{{% alert color="primary" %}} 
-
 Aspose.Words conversion engine is deliberately focused on conversion document structure into a "flow" format. The resulting document will be "editable" but some complex formatting might appear different from the original document.
-
-{{% /alert %}} 
 
 PDF to Word conversion supports detecting headers and footers. Sections of PDF pages containing page numbers, document names, etc. will be converted as headers and footers in Word document that do not affect the rest of the page layout and are not moved while the document is being edited.
 
@@ -92,7 +88,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/2019_new_demo.pdf/saveAs" \
     },
     "AdditionalItems": [
     ]
-
   },
   "Code": 200,
   "Status": "OK"
@@ -102,13 +97,13 @@ curl -v "https://api.aspose.cloud/v4.0/words/2019_new_demo.pdf/saveAs" \
 
 {{< /tab >}}
 {{< /tabs >}}
-## SDKs
+## Boost the Development Process with Aspose Words Cloud SDK Family
 
 Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Please check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words SDKs with code examples.
 
 ## SDK Examples
 
-The code examples of using this REST API with various SDKs are presented below:
+A set of short code examples, demonstrating how to use this REST API with various SDKs, is presented below:
 
 {{< tabs tabTotal="9" tabID="4" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Python" tabName5="Ruby" tabName6="Node.js" tabName7="Android" tabName8="Swift" tabName9="Go" >}}
 {{< tab tabNum="1" >}}

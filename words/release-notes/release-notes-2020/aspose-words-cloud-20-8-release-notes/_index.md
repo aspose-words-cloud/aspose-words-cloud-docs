@@ -6,11 +6,7 @@ aliases: [/aspose-words-cloud-20-8-release-notes/]
 weight: 10
 ---
 
-{{% alert color="primary" %}} 
-
 The page contains release notes for Aspose.Words Cloud 20.8 – [API Reference](https://apireference.aspose.cloud/words/)
-
-{{% /alert %}} 
 
 ## Important Changes and New Features
 
@@ -72,6 +68,4 @@ The page contains release notes for Aspose.Words Cloud 20.8 – [API Reference]
 which is allows to optimize the document contents as well as default Aspose.Words behavior to a particular versions of MS Word
 
 - Added '**ApplyBaseDocumentHeadersAndFootersToAppendingDocuments**' option to '**DocumentEntryList**' for **AppendDocument** API
-
-
 

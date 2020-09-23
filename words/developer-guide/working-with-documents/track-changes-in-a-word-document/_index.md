@@ -12,5 +12,3 @@ The REST API has a great feature *Track changes in word* documents. Track cha
 
 Please read the following articles to explore the feature in depth:
 
-
-

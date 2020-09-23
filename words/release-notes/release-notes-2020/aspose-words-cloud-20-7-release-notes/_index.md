@@ -6,11 +6,7 @@ aliases: [/aspose-words-cloud-20-7-release-notes/]
 weight: 20
 ---
 
-{{% alert color="primary" %}} 
-
 The page contains release notes for Aspose.Words Cloud 20.7 – [API Reference](https://apireference.aspose.cloud/words/)
-
-{{% /alert %}} 
 
 ## Important Changes and New Features
 
@@ -59,6 +55,4 @@ The page contains release notes for Aspose.Words Cloud 20.7 – [API Reference]
 
 - Added "Markdown" save format
 - Added endpoint to update paragraph format without node path (PUT "/words/{name}/paragraphs/{index}/format")
-
-
 
