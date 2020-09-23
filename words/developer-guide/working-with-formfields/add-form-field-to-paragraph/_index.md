@@ -19,6 +19,7 @@ This REST API allows you to add a form Field to a paragraph. The API returns add
 |CalculateOnExit|bool|True if references to the specified form field are automatically updated whenever the field is exited.|
 |EntryMacro|string|Specifies an entry macro name for the form field.|
 |ExitMacro|string|Specifies an exit macro name for the form field.|
+
 **Text input properties**
 
 |Property Name|Type|Description|
@@ -27,6 +28,7 @@ This REST API allows you to add a form Field to a paragraph. The API returns add
 |TextInputType|TextFormFieldType|Specifies the type of a text form field.|
 |TextInputDefault|string|Specifies the default string or a calculation expression of a text form field.|
 |MaxLength|int|The maximum length for the text field. Zero when the length is not limited.|
+
 **Checkbox properties**
 
 |Property Name|Type|Description|
@@ -34,6 +36,7 @@ This REST API allows you to add a form Field to a paragraph. The API returns add
 |IsCheckBoxExactSize|bool|Specifies the boolean value that indicates whether the size of the textbox is automatic or specified explicitly.|
 |CheckBoxSize|double|Specifies the size of the checkbox in points. Has effect only when "IsCheckBoxExactSize" is true.|
 |Checked|bool|Specifies the checked status of the checkbox form field.|
+
 **DropDown properties**
 
 |Property Name|Type|Description|
@@ -46,24 +49,27 @@ The **Request Parameters** are:
 | :- | :- | :- | :- |
 |insertBeforeNode|string|Query String: insertBeforeNode="nodeId"|Form field will be inserted before node with id="nodeId".|
 
-## Resource URI
+## REST API’s Resources
 
-```html
+The following URIs are used to address REST resources:
 
+```HTML
 ~/{paragraph}/formfields/{formFieldIndex}
 ```
-
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/FormFields/InsertFormField) lets you call this REST API directly from a browser.
 
 ## cURL Example
 
-cUrl is a popular command-line utility for transferring data and a perfect tool for testing REST APIs. The following are a few examples of using cURL.
+You can use cUrl, which is a popular command-line utility for transferring data and a perfect tool for testing REST APIs.
+
+The following are a few examples of using cURL:
 
 *Input Document:** [FormFilled.docx](attachments/885421/1180128.docx)
 
 {{< tabs tabTotal="2" tabID="2" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
-```java
+
+```JAVA
 // Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
 // Place App_Key in "client_secret" and App_SID in "client_id" argument.
 curl -v "https://api.aspose.cloud/connect/token" \
@@ -83,7 +89,8 @@ curl -v "https://api.aspose.cloud/v4.0/words/FormFilled.docx/sections/0/paragrap
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
-```java
+
+```JAVA
 {
   "FormField": {
     "NodeId": "0.1.0.0.0.1",
@@ -105,7 +112,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/FormFilled.docx/sections/0/paragrap
       "Rel": "self",
       "Type": null,
       "Title": null
-
     }
   },
   "Code": 200,
@@ -115,9 +121,10 @@ curl -v "https://api.aspose.cloud/v4.0/words/FormFilled.docx/sections/0/paragrap
 
 {{< /tab >}}
 {{< /tabs >}}
+
 ## Boost the Development Process with Aspose Words Cloud SDK Family
 
-Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Please check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs.
+Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Please check out the [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs.
 
 ## SDK Examples
 

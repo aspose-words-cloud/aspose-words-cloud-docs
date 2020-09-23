@@ -10,17 +10,20 @@ weight: 40
 
 This REST API allows you to Get Paragraph List Format Without Node Path in a Document. Please note that the SDKs of this cloud API are available in *Python, C#, Java, Ruby, PHP, Node.js, Android, Swift,* and *Go* languages. 
 
-## Resource URI
+## REST API’s Resources
 
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Paragraphs/GetParagraphListFormat) lets you call this REST API directly from a browser.
 
 ## cURL Example
 
-cUrl is a popular command-line utility for transferring data and a perfect tool for testing REST APIs. The following are a few examples of using cURL.
+You can use cUrl, which is a popular command-line utility for transferring data and a perfect tool for testing REST APIs.
+
+The following are a few examples of using cURL:
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
-```java
+
+```JAVA
 // Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
 // Place App_Key in "client_secret" and App_SID in "client_id" argument.
 curl -v "https://api.aspose.cloud/connect/token" \
@@ -39,7 +42,8 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/ParagraphGetListFormat.doc/para
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
-```java
+
+```JAVA
 {
   "ListFormat": {
     "ListLevelNumber": 1,
@@ -48,7 +52,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/ParagraphGetListFormat.doc/para
     "link": {
       "Href": "https://api.aspose.cloud/v4.0/words/ParagraphGetListFormat.doc/sections/0/body/paragraphs/1/listFormat",
       "Rel": "self"
-
     }
   },
   "RequestId": "Root=1-5ee5003c-cb9aaf6c22084586e37c7428"
@@ -57,9 +60,10 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/ParagraphGetListFormat.doc/para
 
 {{< /tab >}}
 {{< /tabs >}}
+
 ## Boost the Development Process with Aspose Words Cloud SDK Family
 
-Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Please check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs.
+Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Please check out the [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs.
 
 ## SDK Examples
 

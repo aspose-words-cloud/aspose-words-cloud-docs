@@ -8,10 +8,11 @@ weight: 30
 
 This REST API allows you to remove all fields from a document, section or paragraph.  
 
-## Resource URI
+## REST API’s Resources
 
-```html
+The following URIs are used to address REST resources:
 
+```HTML
 ~/{file-name}/fields
 
 ~/{file-name}/{nodePath}/fields
@@ -35,13 +36,16 @@ The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Fields/Del
 
 ## cURL Example
 
-cUrl is a popular command-line utility for transferring data and a perfect tool for testing REST APIs. The following are a few examples of using cURL.
+You can use cUrl, which is a popular command-line utility for transferring data and a perfect tool for testing REST APIs.
+
+The following are a few examples of using cURL:
 
 *Input Document:** [GetField.docx](attachments/885406/1180126.docx)
 
 {{< tabs tabTotal="2" tabID="2" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
-```java
+
+```JAVA
 // Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
 // Place App_Key in "client_secret" and App_SID in "client_id" argument.
 curl -v "https://api.aspose.cloud/connect/token" \
@@ -60,7 +64,8 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/fields" \
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
-```java
+
+```JAVA
 {
   "Code": 200,
   "Status": "OK"
@@ -69,9 +74,10 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/fields" \
 
 {{< /tab >}}
 {{< /tabs >}}
+
 ## Boost the Development Process with Aspose Words Cloud SDK Family
 
-Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Please check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs.
+Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Please check out the [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs.
 
 ## SDK Examples
 
@@ -105,6 +111,7 @@ A set of short code examples, demonstrating how to use this REST API with variou
 {{< gist "aspose-cloud" "068ce2149de5ad69ab516209b7ae82cf" "DeleteFields.go" >}}
 {{< /tab >}}
 {{< /tabs >}}
+
 **Case 2: Delete Fields from a Section**
 
 {{< tabs tabTotal="4" tabID="6" tabName1="C#" tabName2="Android" tabName3="Swift" tabName4="Go" >}}
@@ -121,6 +128,7 @@ A set of short code examples, demonstrating how to use this REST API with variou
 {{< gist "aspose-cloud" "068ce2149de5ad69ab516209b7ae82cf" "DeleteFields.go" >}}
 {{< /tab >}}
 {{< /tabs >}}
+
 **Case 3: Delete Fields from a Paragraph**
 
 {{< tabs tabTotal="3" tabID="7" tabName1="C#" tabName2="Android" tabName3="Swift" >}}

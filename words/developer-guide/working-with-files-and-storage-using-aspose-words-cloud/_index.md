@@ -18,17 +18,20 @@ Aspose.Words Cloud provides helper functions to work with files uploaded to Asp
 
 #### cURL Example
 
-cUrl is a popular command-line utility for transferring data and a perfect tool for testing REST APIs. The following are a few examples of using cURL.
+You can use cUrl, which is a popular command-line utility for transferring data and a perfect tool for testing REST APIs.
+
+The following are a few examples of using cURL:
 
 {{< tabs tabTotal="1" tabID="1" tabName1="Request" >}}
 {{< tab tabNum="1" >}}
+
 **Create Request Token**
 
-```java
+```JAVA
 curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=[]&client_secret=[]" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
 ```
 
-```java
+```JAVA
 curl  -v -X GET "https://api.aspose.cloud/v4.0/words/storage/file/sample.docx" -H "Content-Type: application/json" -H "Authorization: Bearer 
 
 [Access Token]
@@ -50,19 +53,21 @@ The following are a few examples of using cURL.
 
 {{< tabs tabTotal="2" tabID="4" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
+
 **Create Request Token**
 
-```java
+```JAVA
 curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=[]&client_secret=[]" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
 ```
 
-```java
+```JAVA
 curl  -v -X PUT "https://api.aspose.cloud/v4.0/words/storage/file/sample.docx" -H "Content-Type:application/octet-stream" -H "Authorization: Bearer [Access Token]
 ```
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
-```java
+
+```JAVA
 {
    "uploaded":[
       "sample.docx"
@@ -89,13 +94,14 @@ The following are a few examples of using cURL.
 
 {{< tabs tabTotal="1" tabID="8" tabName1="Request" >}}
 {{< tab tabNum="1" >}}
+
 **Create Request Token**
 
-```java
+```JAVA
 curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=[]&client_secret=[]" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
 ```
 
-```java
+```JAVA
 curl -v -X PUT "https://api.aspose.cloud/v4.0/words/storage/file/copy/sample.docx/%2F?destPath=MyFolder" -H "Content-Type:application/json" -H "Authorization: Bearer [Access Token]
 ```
 
@@ -115,13 +121,14 @@ The following are a few examples of using cURL.
 
 {{< tabs tabTotal="1" tabID="11" tabName1="Request" >}}
 {{< tab tabNum="1" >}}
+
 **Create Request Token**
 
-```java
+```JAVA
 curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=[]&client_secret=[]" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
 ```
 
-```java
+```JAVA
 curl -v -X PUT "https://api.aspose.cloud/v4.0/words/storage/file/move/input.docx/%2F?destPath=MyFolder" -H "Content-Type:application/json" -H "Authorization: Bearer [Access Token]
 ```
 
@@ -141,13 +148,14 @@ The following are a few examples of using cURL.
 
 {{< tabs tabTotal="1" tabID="14" tabName1="Request" >}}
 {{< tab tabNum="1" >}}
+
 **Create Request Token**
 
-```java
+```JAVA
 curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=[]&client_secret=[]" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
 ```
 
-```java
+```JAVA
 curl -v -X DELETE "https://api.aspose.cloud/v4.0/words/storage/file/input.docx" -H "Content-Type:application/json" -H "Authorization: Bearer [Access Token]
 ```
 

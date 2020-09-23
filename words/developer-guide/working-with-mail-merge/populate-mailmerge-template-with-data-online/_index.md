@@ -28,13 +28,15 @@ The cleanup options parameter can contain a list of values from below, separated
 |RemoveTitleRowInInnerTables|Enable "RemoveTitleRow " for nested tables.|
 |RemoveStaticFields|Specifies whether static fields should be removed from the document. Static fields are fields, which results remain the same upon any document change. Fields, which do not store their results in a document and are calculated on the fly (like Aspose.Words.Fields.FieldType.FieldListNum, Aspose.Words.Fields.FieldType.FieldSymbol, etc.) are not considered to be static.|
 
-## Resource URI
+## REST API’s Resources
 
-The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/MailMerge/ExecuteMailMergeOnline) lets you call this REST API directly from a browser. The description of the API and its parameters is also given there.
+The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/MailMerge/ExecuteMailMergeOnline) lets you call this REST API directly from a browser.
 
 ## cURL Example
 
-cUrl is a popular command-line utility for transferring data and a perfect tool for testing REST APIs. The following are a few examples of using cURL.
+You can use cUrl, which is a popular command-line utility for transferring data and a perfect tool for testing REST APIs.
+
+The following are a few examples of using cURL:
 
 *Case 1: MailMerge Template**
 
@@ -46,7 +48,8 @@ cUrl is a popular command-line utility for transferring data and a perfect tool 
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
-```java
+
+```JAVA
 // Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
 // Place App_Key in "client_secret" and App_SID in "client_id" argument.
 curl -v "https://api.aspose.cloud/connect/token" \
@@ -68,12 +71,14 @@ curl -v "https://api.aspose.cloud/v4.0/words/MailMerge" \
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
-```java
+
+```JAVA
 Output Document: TestPostDocumentExecuteMailMerge.docx
 ```
 
 {{< /tab >}}
 {{< /tabs >}}
+
 **Case 2: Mustache Template**
 
 **Input Document:** [TestExecuteTemplate.doc](attachments/884965/7209026.doc)
@@ -84,7 +89,8 @@ Output Document: TestPostDocumentExecuteMailMerge.docx
 
 {{< tabs tabTotal="2" tabID="4" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
-```java
+
+```JAVA
 // Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
 // Place App_Key in "client_secret" and App_SID in "client_id" argument.
 curl -v "https://api.aspose.cloud/connect/token" \
@@ -106,17 +112,19 @@ curl -v "https://api.aspose.cloud/v4.0/words/MailMerge" \
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
-```java
+
+```JAVA
 Output Document: TestPostExecuteTemplate.docx
 ```
 
 {{< /tab >}}
 {{< /tabs >}}
+
 ## Boost the Development Process with Aspose Words Cloud SDK Family
 
-Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Please check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words SDKs with code examples.
+Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks.
 
-## SDK Examples
+Please check out the [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words SDKs with code examples.
 
 A set of short code examples, demonstrating how to use this REST API with various SDKs, is presented below:
 

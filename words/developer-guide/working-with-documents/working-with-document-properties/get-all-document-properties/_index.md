@@ -8,17 +8,20 @@ weight: 10
 
 This REST API allows you to get all properties of a document. The API returns a JSON/XML representation of the document properties (built-in and custom).
 
-## Resource URI
+## REST API’s Resources
 
-The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/DocumentProperties/GetDocumentProperties) lets you call this REST API directly from a browser. The description of the API and its parameters is also given there.
+The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/DocumentProperties/GetDocumentProperties) lets you call this REST API directly from a browser.
 
 ## cURL Example
 
-cUrl is a popular command-line utility for transferring data and a perfect tool for testing REST APIs. The following are a few examples of using cURL.
+You can use cUrl, which is a popular command-line utility for transferring data and a perfect tool for testing REST APIs.
+
+The following are a few examples of using cURL:
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
-```java
+
+```JAVA
 // Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
 // Place App_Key in "client_secret" and App_SID in "client_id" argument.
 curl -v "https://api.aspose.cloud/connect/token" \
@@ -37,7 +40,8 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentPrope
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
-```java
+
+```JAVA
  {
   "DocumentProperties": {
     "List": [
@@ -50,7 +54,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentPrope
           "Rel": "self",
           "Type": null,
           "Title": null
-
         }
       },
       {
@@ -62,7 +65,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentPrope
           "Rel": "self",
           "Type": null,
           "Title": null
-
         }
       },
       {
@@ -74,7 +76,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentPrope
           "Rel": "self",
           "Type": null,
           "Title": null
-
         }
       },
       {
@@ -86,7 +87,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentPrope
           "Rel": "self",
           "Type": null,
           "Title": null
-
         }
       },
       {
@@ -98,7 +98,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentPrope
           "Rel": "self",
           "Type": null,
           "Title": null
-
         }
       },
       {
@@ -110,7 +109,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentPrope
           "Rel": "self",
           "Type": null,
           "Title": null
-
         }
       },
       {
@@ -122,7 +120,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentPrope
           "Rel": "self",
           "Type": null,
           "Title": null
-
         }
       },
       {
@@ -134,7 +131,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentPrope
           "Rel": "self",
           "Type": null,
           "Title": null
-
         }
       },
       {
@@ -146,7 +142,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentPrope
           "Rel": "self",
           "Type": null,
           "Title": null
-
         }
       },
       {
@@ -158,7 +153,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentPrope
           "Rel": "self",
           "Type": null,
           "Title": null
-
         }
       },
       {
@@ -170,7 +164,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentPrope
           "Rel": "self",
           "Type": null,
           "Title": null
-
         }
       },
       {
@@ -182,7 +175,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentPrope
           "Rel": "self",
           "Type": null,
           "Title": null
-
         }
       },
       {
@@ -194,7 +186,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentPrope
           "Rel": "self",
           "Type": null,
           "Title": null
-
         }
       },
       {
@@ -206,7 +197,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentPrope
           "Rel": "self",
           "Type": null,
           "Title": null
-
         }
       },
       {
@@ -218,7 +208,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentPrope
           "Rel": "self",
           "Type": null,
           "Title": null
-
         }
       },
       {
@@ -230,7 +219,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentPrope
           "Rel": "self",
           "Type": null,
           "Title": null
-
         }
       },
       {
@@ -242,7 +230,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentPrope
           "Rel": "self",
           "Type": null,
           "Title": null
-
         }
       },
       {
@@ -254,7 +241,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentPrope
           "Rel": "self",
           "Type": null,
           "Title": null
-
         }
       },
       {
@@ -266,7 +252,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentPrope
           "Rel": "self",
           "Type": null,
           "Title": null
-
         }
       },
       {
@@ -278,7 +263,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentPrope
           "Rel": "self",
           "Type": null,
           "Title": null
-
         }
       }
     ],
@@ -287,7 +271,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentPrope
       "Re\* Connection #0 to host api.aspose.cloud left intact l": "self",
       "Type": null,
       "Title": null
-
     }
   },
   "Code": 200,
@@ -297,9 +280,10 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentPrope
 
 {{< /tab >}}
 {{< /tabs >}}
+
 ## Boost the Development Process with Aspose Words Cloud SDK Family
 
-Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Please check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs.
+Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Please check out the [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs.
 
 ## SDK Examples
 

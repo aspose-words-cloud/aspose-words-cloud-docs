@@ -10,13 +10,17 @@ This example explains how to insert HTML on a MERGEFIELD. [executeMailMerge](h
 
 Please escape HTML characters in data source string and use "format"="html" attribute.
 
-## Resource URI
+## REST API’s Resources
 
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/MailMerge/ExecuteMailMerge) lets you call the REST API directly from the browser. The description of the APIs and its parameters are also given there.
 
 ## cURL Example
 
-cUrl is a popular command-line utility for transferring data and a perfect tool for testing REST APIs. The following are a few examples of using cURL.Input Document: [template.doc](attachments/885367/1180109.doc)
+You can use cUrl, which is a popular command-line utility for transferring data and a perfect tool for testing REST APIs.
+
+The following are a few examples of using cURL:
+
+Input Document: [template.doc](attachments/885367/1180109.doc)
 
 Mail Merge Data: [TestExecuteMailMergeData.txt](attachments/885367/1180108.txt)
 
@@ -24,7 +28,8 @@ Output Document: [TestPostDocumentExecuteMailMerge.docx](attachments/885367/118
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
-```java
+
+```JAVA
 // Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
 // Place App_Key in "client_secret" and App_SID in "client_id" argument.
 curl -v "https://api.aspose.cloud/connect/token" \
@@ -223,6 +228,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/template.doc/MailMerge?destFileName
 }
 {{< /tab >}}
 {{< /tabs >}}
+
 ## Boost the Development Process with Aspose Words Cloud SDK Family
 
 Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words SDKs with code examples. Please check [Available SDKs](/available-sdks/) article to learn how to add an SDK to your project.
@@ -260,4 +266,5 @@ A set of short code examples, demonstrating how to use this REST API with variou
 {{< gist "aspose-cloud" "068ce2149de5ad69ab516209b7ae82cf" "PopulateMailMergeTemplateWithHTMLData.go" >}}
 {{< /tab >}}
 {{< /tabs >}}
+
 PopulateMailMergeTemplateWithHTMLData

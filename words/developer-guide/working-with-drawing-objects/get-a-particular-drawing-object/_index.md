@@ -20,10 +20,11 @@ This REST API allows you to get a particular drawing object from the document. Y
 |imageDataLink|link|Link to embedded image resource, if present.|
 |oleDataLink|link|Link to embedded OLE resource, if present.|
 
-## Resource URI
+## REST API’s Resources
 
-```html
+The following URIs are used to address REST resources:
 
+```HTML
 ~/{file-name}/drawingObjects/{index}
 ~/{file-name}/{nodePath}/drawingObjects/{index}
 ```
@@ -36,12 +37,13 @@ This REST API allows you to get a particular drawing object from the document. Y
 - *sections/{sectionIndex}/paragraphs/{paragraphIndex}* - references specific paragraph within section.
 
 *{index}* is the index of the specific drawing object.
-
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/DrawingObjects/GetDocumentDrawingObjectByIndex) lets you call this REST API directly from a browser. 
 
 ## cURL Example
 
-cUrl is a popular command-line utility for transferring data and a perfect tool for testing REST APIs. The following are a few examples of using cURL.
+You can use cUrl, which is a popular command-line utility for transferring data and a perfect tool for testing REST APIs.
+
+The following are a few examples of using cURL:
 
 *Input Document:** [test_multi_pages.docx](attachments/885442/1180124.docx)
 
@@ -49,7 +51,8 @@ cUrl is a popular command-line utility for transferring data and a perfect tool 
 
 {{< tabs tabTotal="2" tabID="2" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
-```java
+
+```JAVA
 // First get Access Token
 // Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
 // Place App_Key in "client_secret" and App_SID in "client_id" argument.
@@ -70,15 +73,17 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/drawingObject
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
-```java
+
+```JAVA
 drawingObject.png file
 ```
 
 {{< /tab >}}
 {{< /tabs >}}
+
 ## Boost the Development Process with Aspose Words Cloud SDK Family
 
-Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Please check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs.
+Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Please check out the [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs.
 
 ## SDK Examples
 

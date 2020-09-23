@@ -8,19 +8,22 @@ weight: 80
 
 This REST API allows you to delete a table row.
 
-## Resource URI
+## REST API’s Resources
 
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Tables/DeleteTableRow) lets you call this REST API directly from a browser.
 
 ## cURL Example
 
-cUrl is a popular command-line utility for transferring data and a perfect tool for testing REST APIs. The following are a few examples of using cURL.
+You can use cUrl, which is a popular command-line utility for transferring data and a perfect tool for testing REST APIs.
+
+The following are a few examples of using cURL:
 
 *Input Document:** [TablesGet.docx](attachments/885355/1180119.docx)
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
-```java
+
+```JAVA
 // Get App Key and App SID from https://dashboard.aspose.cloud/
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
@@ -38,7 +41,8 @@ curl -v "https://api.aspose.cloud/v4.0/words/TablesGet.docx/tables/1/rows/0" \
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
-```java
+
+```JAVA
 {
   "Code": 200,
   "Status": "OK"
@@ -49,7 +53,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/TablesGet.docx/tables/1/rows/0" \
 {{< /tabs >}}
 ## SDK Source
 
-Using an SDK (API client) is the quickest way for a developer to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Please check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs.
+Using an SDK (API client) is the quickest way for a developer to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Please check out the [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs.
 
 ## SDK Examples
 

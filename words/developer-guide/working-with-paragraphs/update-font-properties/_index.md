@@ -51,9 +51,9 @@ This REST API allows you to update font properties. The API returns updated font
 |Underline|Underline|Specifies the type of underline applied to the font.|
 |UnderlineColor|Color|Specifies the color of the underline applied to the font.|
 
-## Resource URI
+## REST API’s Resources
 
-```java
+```JAVA
 ~/{file-name}/{paragraphPath}/runs/{index}/font
 ```
 
@@ -64,16 +64,18 @@ This REST API allows you to update font properties. The API returns updated font
 - *sections/{sectionIndex}/paragraphs/{paragraphIndex}* - references specific paragraph within section.
 
 *{index}* is the index of the specific run.
-
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Runs/UpdateRunFont) lets you call this REST API directly from a browser.
 
 ## cURL Example
 
-cUrl is a popular command-line utility for transferring data and a perfect tool for testing REST APIs. The following are a few examples of using cURL.
+You can use cUrl, which is a popular command-line utility for transferring data and a perfect tool for testing REST APIs.
+
+The following are a few examples of using cURL:
 
 {{< tabs tabTotal="2" tabID="2" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
-```java
+
+```JAVA
 // Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
 // Place App_Key in "client_secret" and App_SID in "client_id" argument.
 curl -v "https://api.aspose.cloud/connect/token" \
@@ -93,7 +95,8 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs/0/
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
-```java
+
+```JAVA
 {
   "Font": {
     "AllCaps": false,
@@ -160,7 +163,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs/0/
       "Rel": "self",
       "Type": null,
       "Title": null
-
     }
   },
   "Code": 200,
@@ -170,9 +172,10 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs/0/
 
 {{< /tab >}}
 {{< /tabs >}}
+
 ## Boost the Development Process with Aspose Words Cloud SDK Family
 
-Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Please check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs.
+Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Please check out the [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs.
 
 ## SDK Examples
 

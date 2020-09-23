@@ -8,7 +8,7 @@ weight: 60
 
 This example explains how to insert Images on a MERGEFIELD. [MailMerge](https://apireference.aspose.cloud/words/#/MailMerge/ExecuteMailMerge) API allows you to insert images on a merge field. The mail merges data string can be either in XML or JSON format.
 
-## Resource URI
+## REST API’s Resources
 
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/MailMerge/ExecuteMailMerge) lets you call this REST API directly from a browser. The description of the APIs and its parameters are also given there.
 
@@ -22,7 +22,8 @@ Output Document: [TestMailMergeWithImages_Out.docx](attachments/885365/1180103.
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
-```java
+
+```JAVA
 // Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
 // Place App_Key in "client_secret" and App_SID in "client_id" argument.
 curl -v "https://api.aspose.cloud/connect/token" \
@@ -42,7 +43,8 @@ curl -v "https://api.aspose.cloud/v4.0/words/TestMailMergeWithImages.doc/MailMer
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
-```java
+
+```JAVA
 {
   "Document": {
     "Links": [
@@ -224,6 +226,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/TestMailMergeWithImages.doc/MailMer
 
 {{< /tab >}}
 {{< /tabs >}}
+
 ## Boost the Development Process with Aspose Words Cloud SDK Family
 
 Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words SDKs with code examples. Please check [Available SDKs](/available-sdks/) article to learn how to add an SDK to your project.

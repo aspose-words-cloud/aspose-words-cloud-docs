@@ -18,10 +18,11 @@ This REST API allows you to add a drawing object to the Word document. The reque
 |Height|double|Height of the drawing object in points.|
 |WrapType|Aspose.Words.Drawing.ShapeBase.WrapType|Specifies how to wrap text around the image.|
 
-## Resource URI
+## REST API’s Resources
 
-```html
+The following URIs are used to address REST resources:
 
+```HTML
 ~/{file-name}/drawingObjects/{index}
 ~/{file-name}/{nodePath}/drawingObjects/{index}
 ```
@@ -34,16 +35,18 @@ This REST API allows you to add a drawing object to the Word document. The reque
 - *sections/{sectionIndex}/paragraphs/{paragraphIndex}* - references specific paragraph within section.
 
 *{index}* is the index of the specific drawing object.
-
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/DrawingObjects/InsertDrawingObject) lets you call this REST API directly from a browser. 
 
 ## cURL Example
 
-cUrl is a popular command-line utility for transferring data and a perfect tool for testing REST APIs. The following are a few examples of using cURL.
+You can use cUrl, which is a popular command-line utility for transferring data and a perfect tool for testing REST APIs.
+
+The following are a few examples of using cURL:
 
 {{< tabs tabTotal="2" tabID="2" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
-```java
+
+```JAVA
 // Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
 // Place App_Key in "client_secret" and App_SID in "client_id" argument.
 curl -v "https://api.aspose.cloud/connect/token" \
@@ -64,7 +67,8 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/drawingObject
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
-```java
+
+```JAVA
 {
   "DrawingObject": {
     "RenderLinks": [
@@ -113,7 +117,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/drawingObject
       "Rel": "self",
       "Type": null,
       "Title": null
-
     }
   },
   "Code": 200,
@@ -123,9 +126,10 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/drawingObject
 
 {{< /tab >}}
 {{< /tabs >}}
+
 ## Boost the Development Process with Aspose Words Cloud SDK Family
 
-Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Please check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs.
+Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Please check out the [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs.
 
 ## SDK Examples
 

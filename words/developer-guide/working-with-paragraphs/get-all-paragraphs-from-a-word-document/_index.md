@@ -8,9 +8,9 @@ weight: 10
 
 This REST API allows you to get all paragraphs that are contained in a document or in a section.
 
-## Resource URI
+## REST API’s Resources
 
-```java
+```JAVA
 ~/{file-name}/paragraphs
 
 ~/{file-name}/sections/{sectionIndex}/paragraphs
@@ -21,16 +21,18 @@ This REST API allows you to get all paragraphs that are contained in a document 
 *{file-name}* is the name of the Word document containing elements.
 *{sectionIndex}* is the index of a section that contains paragraphs. If this syntax is used, only elements within the specified section are returned.
 *{headerFooterIndex}* is the index of a section that contains headers and footers. If this syntax is used, only elements within specified header/footer are returned.
-
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Paragraphs/GetParagraphs) lets you call this REST API directly from a browser.
 
 ## cURL Example
 
-cUrl is a popular command-line utility for transferring data and a perfect tool for testing REST APIs. The following are a few examples of using cURL.
+You can use cUrl, which is a popular command-line utility for transferring data and a perfect tool for testing REST APIs.
+
+The following are a few examples of using cURL:
 
 {{< tabs tabTotal="2" tabID="2" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
-```java
+
+```JAVA
 // Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
 // Place App_Key in "client_secret" and App_SID in "client_id" argument.
 curl -v "https://api.aspose.cloud/connect/token" \
@@ -49,7 +51,8 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs" \
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
-```java
+
+```JAVA
 {
   "Paragraphs": {
     "ParagraphLinkList": [
@@ -61,7 +64,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs" \
           "Rel": "self",
           "Type": null,
           "Title": null
-
         }
       },
       {
@@ -72,7 +74,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs" \
           "Rel": "self",
           "Type": null,
           "Title": null
-
         }
       },
       {
@@ -83,7 +84,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs" \
           "Rel": "self",
           "Type": null,
           "Title": null
-
         }
       },
       {
@@ -94,7 +94,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs" \
           "Rel": "self",
           "Type": null,
           "Title": null
-
         }
       },
       {
@@ -105,7 +104,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs" \
           "Rel": "self",
           "Type": null,
           "Title": null
-
         }
       },
       {
@@ -116,7 +114,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs" \
           "Rel": "self",
           "Type": null,
           "Title": null
-
         }
       },
       {
@@ -127,7 +124,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs" \
           "Rel": "self",
           "Type": null,
           "Title": null
-
         }
       },
       {
@@ -138,7 +134,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs" \
           "Rel": "self",
           "Type": null,
           "Title": null
-
         }
       },
       {
@@ -149,7 +144,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs" \
           "Rel": "self",
           "Type": null,
           "Title": null
-
         }
       },
       {
@@ -160,7 +154,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs" \
           "Rel": "self",
           "Type": null,
           "Title": null
-
         }
       },
       {
@@ -171,7 +164,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs" \
           "Rel": "self",
           "Type": null,
           "Title": null
-
         }
       },
       {
@@ -182,7 +174,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs" \
           "Rel": "self",
           "Type": null,
           "Title": null
-
         }
       },
       {
@@ -193,7 +184,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs" \
           "Rel": "self",
           "Type": null,
           "Title": null
-
         }
       },
       {
@@ -204,7 +194,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs" \
           "Rel": "self",
           "Type": null,
           "Title": null
-
         }
       },
       {
@@ -215,7 +204,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs" \
           "Rel": "self",
           "Type": null,
           "Title": null
-
         }
       },
       {
@@ -226,7 +214,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs" \
           "Rel": "self",
           "Type": null,
           "Title": null
-
         }
       },
       {
@@ -237,7 +224,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs" \
           "Rel": "self",
           "Type": null,
           "Title": null
-
         }
       },
       {
@@ -248,7 +234,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs" \
           "Rel": "self",
           "Type": null,
           "Title": null
-
         }
       },
       {
@@ -259,7 +244,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs" \
           "Rel": "self",
           "Type": null,
           "Title": null
-
         }
       },
       {
@@ -270,7 +254,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs" \
           "Rel": "self",
           "Type": null,
           "Title": null
-
         }
       },
       {
@@ -281,7 +264,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs" \
           "Rel": "self",
           "Type": null,
           "Title": null
-
         }
       },
       {
@@ -292,7 +274,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs" \
           "Rel": "self",
           "Type": null,
           "Title": null
-
         }
       },
       {
@@ -303,7 +284,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs" \
           "Rel": "self",
           "Type": null,
           "Title": null
-
         }
       }
     ],
@@ -312,7 +292,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs" \
       "Rel": "self",
       "Type": null,
       "Title": null
-
     }
   },
   "Code": 200,
@@ -322,9 +301,10 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs" \
 
 {{< /tab >}}
 {{< /tabs >}}
+
 ## Boost the Development Process with Aspose Words Cloud SDK Family
 
-Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Please check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs.
+Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Please check out the [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs.
 
 ## SDK Examples
 

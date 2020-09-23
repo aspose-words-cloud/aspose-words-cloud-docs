@@ -10,17 +10,22 @@ Bookmarks identify in a Microsoft Word document the locations or fragments that 
 
 Aspose.Words Cloud API allows you to obtain a bookmark collection to iterate through bookmarks or for other purposes.
 
-## Resource URI
+## REST API’s Resources
 
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Bookmarks/GetBookmarks) lets you call this REST API directly from a browser. 
 
 ## cURL Example
 
-cUrl is a popular command-line utility for transferring data and a perfect tool for testing REST APIs. The following are a few examples of using cURL.Below cURL example shows how to obtain bookmarks from a bookmark collection. You can download a template file of this example from [here](attachments/885272/1180120.docx).
+You can use cUrl, which is a popular command-line utility for transferring data and a perfect tool for testing REST APIs.
+
+The following are a few examples of using cURL:
+
+Below cURL example shows how to obtain bookmarks from a bookmark collection. You can download a template file of this example from [here](attachments/885272/1180120.docx).
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
-```java
+
+```JAVA
 // Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
 // Place App_Key in "client_secret" and App_SID in "client_id" argument.
 curl -v "https://api.aspose.cloud/connect/token" \
@@ -39,7 +44,8 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/bookmarks" \
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
-```java
+
+```JAVA
 {
   "Bookmarks": {
     "BookmarkList": [
@@ -51,7 +57,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/bookmarks" \
           "Rel": "self",
           "Type": null,
           "Title": null
-
         }
       },
       {
@@ -62,7 +67,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/bookmarks" \
           "Rel": "self",
           "Type": null,
           "Title": null
-
         }
       },
       {
@@ -73,7 +77,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/bookmarks" \
           "Rel": "self",
           "Type": null,
           "Title": null
-
         }
       }
     ],
@@ -82,7 +85,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/bookmarks" \
       "Rel": "self",
       "Type": null,
       "Title": null
-
     }
   },
   "Code": 200,
@@ -94,7 +96,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/bookmarks" \
 {{< /tabs >}}
 ## SDK Source
 
-Using an SDK (API client) is the quickest way for a developer to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Please check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs.
+Using an SDK (API client) is the quickest way for a developer to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Please check out the [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs.
 
 ## SDK Examples
 

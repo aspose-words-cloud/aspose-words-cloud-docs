@@ -4,11 +4,11 @@ type: docs
 url: /appending-a-document/
 aliases: [/appending-a-document/]
 keywords: "document append, convert word doc to html, save word file as pdf, go sdk, Python, C#, Java, Ruby, PHP, NodeJS, Go, Android, Swift"
-description: "Append Word documents in Python, C#, Java, Ruby, PHP, NodeJS, Go, Android, Swift using Aspose.Words Cloud. Recently we have introduced Go SDK for our Golang customers.Basically, appending documents is a very common task and is fully supported in Aspose.Words Cloud. The API allows you to append a document or documents, specified in the documentList parameter, to the original resource document. The changes are saved in the original resource document if the destFileName parameter is missing."
+description: "Append Word documents in Python, C#, Java, Ruby, PHP, NodeJS, Go, Android, Swift using Aspose.Words Cloud. Recently we have introduced Go SDK for our Golang customers.Basically, appending documents is a common task and is fully supported by Words Cloud API. The API allows you to append a document or documents, specified in the documentList parameter, to the original resource document. The changes are saved in the original resource document if the destFileName parameter is missing."
 weight: 10
 ---
 
-Appending documents is a very common task and is fully supported in Aspose.Words Cloud.
+Appending documents is a common task, that is fully supported by Words Cloud API.
 
 The API allows you to append a document or documents, specified in the **documentList** parameter, to the original resource document. The changes are saved in the original resource document if the **destFileName** parameter is missing.
 
@@ -19,13 +19,15 @@ The description of the important API parameters is given below:
 |Href|string|Path of the document to append.|
 |ImportFormatMode|string|Defines which formatting will be used: appended or destination document. Possible values are **KeepSourceFormatting** or **UseDestinationStyles**. |
 
-## Resource URI
+## REST API’s Resources
 
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Append/AppendDocument) lets you call this REST API directly from a browser.
 
 ## cURL Example
 
-cUrl is a popular command-line utility for transferring data and a perfect tool for testing REST APIs. The following are a few examples of using cURL.
+You can use cUrl, which is a popular command-line utility for transferring data and a perfect tool for testing REST APIs.
+
+The following are a few examples of using cURL:
 
 Input Documents: [test_doc.docx](attachments/885186/1180117.docx), [test_multi_pages.docx](attachments/885186/1180118.docx)
 
@@ -33,7 +35,8 @@ Output Document: [test_doc_output.docx](attachments/885186/1180114.docx)
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
-```java
+
+```JAVA
 // Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
 // Place App_Key in "client_secret" and App_SID in "client_id" argument.
 curl -v "https://api.aspose.cloud/connect/token" \
@@ -53,7 +56,8 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_doc.docx/appendDocument" \
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
-```java
+
+```JAVA
 {
   "Document": {
     "Links": [
@@ -228,9 +232,10 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_doc.docx/appendDocument" \
 
 {{< /tab >}}
 {{< /tabs >}}
+
 ## Boost the Development Process with Aspose Words Cloud SDK Family
 
-Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Please check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs.
+Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Please check out the [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs.
 
 ## SDK Examples
 

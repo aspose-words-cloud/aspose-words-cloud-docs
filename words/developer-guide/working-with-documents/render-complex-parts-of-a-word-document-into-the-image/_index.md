@@ -30,7 +30,7 @@ The following formats are supported:
 |svg|Scalable Vector Graphics File|
 |tiff|Tagged Image File Format|
 
-## Resource URI
+## REST API’s Resources
 
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Render) lets you call following REST APIs directly from the browser:
 
@@ -42,13 +42,16 @@ The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Render) le
 
 ## cURL Example
 
-cUrl is a popular command-line utility for transferring data and a perfect tool for testing REST APIs. The following are a few examples of using cURL.
+You can use cUrl, which is a popular command-line utility for transferring data and a perfect tool for testing REST APIs.
+
+The following are a few examples of using cURL:
 
 *Case 1: Render a page of the document in BMP format:**
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
-```java
+
+```JAVA
 // Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
 // Place App_Key in "client_secret" and App_SID in "client_id" argument.
 curl -v "https://api.aspose.cloud/connect/token" \
@@ -68,17 +71,20 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/pages/1/ren
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
-```java
+
+```JAVA
 BMP File
 ```
 
 {{< /tab >}}
 {{< /tabs >}}
+
 **Case 2: Render a paragraph in PNG format:**
 
 {{< tabs tabTotal="2" tabID="4" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
-```java
+
+```JAVA
 // Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
 // Place App_Key in "client_secret" and App_SID in "client_id" argument.
 curl -v "https://api.aspose.cloud/connect/token" \
@@ -98,17 +104,20 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs/0/
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
-```java
+
+```JAVA
 PNG File
 ```
 
 {{< /tab >}}
 {{< /tabs >}}
+
 **Case 3: Render a table in PNG format:**
 
 {{< tabs tabTotal="2" tabID="7" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
-```java
+
+```JAVA
 // Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
 // Place App_Key in "client_secret" and App_SID in "client_id" argument.
 curl -v "https://api.aspose.cloud/connect/token" \
@@ -128,17 +137,20 @@ curl -v "https://api.aspose.cloud/v4.0/words/TablesGet.docx/tables/0/render?form
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
-```java
+
+```JAVA
 PNG File
 ```
 
 {{< /tab >}}
 {{< /tabs >}}
+
 **Case 4: Render a drawingObject in PDF format:**
 
 {{< tabs tabTotal="2" tabID="10" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
-```java
+
+```JAVA
 // Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
 // Place App_Key in "client_secret" and App_SID in "client_id" argument.
 curl -v "https://api.aspose.cloud/connect/token" \
@@ -158,17 +170,20 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/drawingObject
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
-```java
+
+```JAVA
 PDF File
 ```
 
 {{< /tab >}}
 {{< /tabs >}}
+
 **Case 5: Render an OfficeMathObject in PNG format:**
 
 {{< tabs tabTotal="2" tabID="13" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
-```java
+
+```JAVA
 // Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
 // Place App_Key in "client_secret" and App_SID in "client_id" argument.
 curl -v "https://api.aspose.cloud/connect/token" \
@@ -188,7 +203,8 @@ curl -v "https://api.aspose.cloud/v4.0/words/MathObjects.docx/OfficeMathObjects/
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
-```java
+
+```JAVA
 PNG File
 ```
 
@@ -223,6 +239,7 @@ A set of short code examples, demonstrating how to use this REST API with variou
 {{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose_Words_Swift_RenderPage.swift" >}}
 {{< /tab >}}
 {{< /tabs >}}
+
 **Case 2: Renders Paragraph to Specified Format**
 
 {{< tabs tabTotal="7" tabID="17" tabName1="C#" tabName2="Java" tabName3="Python" tabName4="Ruby" tabName5="Node.js" tabName6="Android" tabName7="Swift" >}}
@@ -248,6 +265,7 @@ A set of short code examples, demonstrating how to use this REST API with variou
 {{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose_Words_Swift_RenderParagraph.swift" >}}
 {{< /tab >}}
 {{< /tabs >}}
+
 **Case 3: Renders Table to Specified Format**
 
 {{< tabs tabTotal="7" tabID="18" tabName1="C#" tabName2="Java" tabName3="Python" tabName4="Ruby" tabName5="Node.js" tabName6="Android" tabName7="Swift" >}}
@@ -273,6 +291,7 @@ A set of short code examples, demonstrating how to use this REST API with variou
 {{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose_Words_Swift_RenderTable.swift" >}}
 {{< /tab >}}
 {{< /tabs >}}
+
 **Case 4: Renders Drawing Object to Specified Format**
 
 {{< tabs tabTotal="7" tabID="19" tabName1="C#" tabName2="Java" tabName3="Python" tabName4="Ruby" tabName5="Node.js" tabName6="Android" tabName7="Swift" >}}
@@ -298,6 +317,7 @@ A set of short code examples, demonstrating how to use this REST API with variou
 {{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose_Words_Swift_RenderDrawingObject.swift" >}}
 {{< /tab >}}
 {{< /tabs >}}
+
 **Case 5: Renders Math Object to Specified Format**
 
 {{< tabs tabTotal="7" tabID="20" tabName1="C#" tabName2="Java" tabName3="Python" tabName4="Ruby" tabName5="Node.js" tabName6="Android" tabName7="Swift" >}}

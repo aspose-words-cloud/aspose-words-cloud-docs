@@ -18,17 +18,20 @@ The REST API allows you to get a comment from a Word Document. The API returns a
 |Text|string|This is a convenience property that allows you to easily specify the text of the comment.|
 |Content|list of child nodes|List of child nodes.|
 
-## Resource URI
+## REST API’s Resources
 
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Comments/GetComment) lets you call this REST API directly from a browser.
 
 ## cURL Example
 
-cUrl is a popular command-line utility for transferring data and a perfect tool for testing REST APIs. The following are a few examples of using cURL.
+You can use cUrl, which is a popular command-line utility for transferring data and a perfect tool for testing REST APIs.
+
+The following are a few examples of using cURL:
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
-```java
+
+```JAVA
 // Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
 // Place App_Key in "client_secret" and App_SID in "client_id" argument.
 curl -v "https://api.aspose.cloud/connect/token" \
@@ -47,7 +50,8 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/comments/0" \
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
-```java
+
+```JAVA
 {
   "Comment": {
     "RangeStart": {
@@ -59,7 +63,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/comments/0" \
           "Rel": "self",
           "Type": null,
           "Title": null
-
         }
       }
     },
@@ -72,7 +75,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/comments/0" \
           "Rel": "self",
           "Type": null,
           "Title": null
-
         }
       }
     },
@@ -90,7 +92,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/comments/0" \
             "Rel": "self",
             "Type": null,
             "Title": null
-
           }
         },
         {
@@ -101,7 +102,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/comments/0" \
             "Rel": "self",
             "Type": null,
             "Title": null
-
           }
         }
       ]
@@ -111,7 +111,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/comments/0" \
       "Rel": "self",
       "Type": null,
       "Title": null
-
     }
   },
   "Code": 200,
@@ -123,7 +122,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/comments/0" \
 {{< /tabs >}}
 ## SDK Source
 
-Using an SDK (API client) is the quickest way for a developer to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Please check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs.
+Using an SDK (API client) is the quickest way for a developer to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Please check out the [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs.
 
 ## SDK Examples
 

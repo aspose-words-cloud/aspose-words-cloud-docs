@@ -8,9 +8,9 @@ weight: 20
 
 This REST API allows you to get a header/footer that is contained in a document.
 
-## Resource URI
+## REST API’s Resources
 
-```java
+```JAVA
 ~/{file-name}/headersFooters/{index}
 ~/{file-name}/sections/{sectionIndex}/headersFooters/{index}
 ```
@@ -18,18 +18,20 @@ This REST API allows you to get a header/footer that is contained in a document.
 - *{file-name}* is the name of a Word document containing elements.
 - *{sectionIndex}* is the index of a section that contains headers and footers. If this syntax is used, only elements within a specified section are returned.
 - *{index}* is the index of specific header/footer.
-
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/HeadersFooters/GetHeaderFooter) lets you call this REST API directly from a browser. 
 
 ## cURL Example
 
-cUrl is a popular command-line utility for transferring data and a perfect tool for testing REST APIs. The following are a few examples of using cURL.
+You can use cUrl, which is a popular command-line utility for transferring data and a perfect tool for testing REST APIs.
+
+The following are a few examples of using cURL:
 
 *Case 1: Get a Header or Footer in a Document**
 
 {{< tabs tabTotal="2" tabID="2" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
-```java
+
+```JAVA
 // Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
 // Place App_Key in "client_secret" and App_SID in "client_id" argument.
 curl -v "https://api.aspose.cloud/connect/token" \
@@ -48,7 +50,8 @@ curl -v "https://api.aspose.cloud/v4.0/words/HeadersFooters.doc/headersfooters/0
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
-```java
+
+```JAVA
 {
   "HeaderFooter": {
     "Paragraphs": {
@@ -73,7 +76,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/HeadersFooters.doc/headersfooters/0
       "Rel": "self",
       "Type": null,
       "Title": null
-
     }
   },
   "Code": 200,
@@ -83,11 +85,13 @@ curl -v "https://api.aspose.cloud/v4.0/words/HeadersFooters.doc/headersfooters/0
 
 {{< /tab >}}
 {{< /tabs >}}
+
 **Case 2: Get a Header or Footer in a Section**
 
 {{< tabs tabTotal="2" tabID="5" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
-```java
+
+```JAVA
 // Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
 // Place App_Key in "client_secret" and App_SID in "client_id" argument.
 curl -v "https://api.aspose.cloud/connect/token" \
@@ -106,7 +110,8 @@ curl -v "https://api.aspose.cloud/v4.0/words/HeadersFooters.doc/sections/0/heade
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
-```java
+
+```JAVA
 {
   "HeaderFooter": {
     "Paragraphs": {
@@ -131,7 +136,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/HeadersFooters.doc/sections/0/heade
       "Rel": "self",
       "Type": null,
       "Title": null
-
     }
   },
   "Code": 200,
@@ -141,9 +145,10 @@ curl -v "https://api.aspose.cloud/v4.0/words/HeadersFooters.doc/sections/0/heade
 
 {{< /tab >}}
 {{< /tabs >}}
+
 ## Boost the Development Process with Aspose Words Cloud SDK Family
 
-Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Please check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs.
+Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Please check out the [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs.
 
 ## SDK Examples
 
@@ -180,6 +185,7 @@ A set of short code examples, demonstrating how to use this REST API with variou
 {{< gist "aspose-cloud" "068ce2149de5ad69ab516209b7ae82cf" "GetHeaderFooters.go" >}}
 {{< /tab >}}
 {{< /tabs >}}
+
 **Case 2: Get a Header or Footer in a Section**
 
 {{< tabs tabTotal="9" tabID="9" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Python" tabName5="Ruby" tabName6="Node.js" tabName7="Android" tabName8="Swift" tabName9="Go" >}}

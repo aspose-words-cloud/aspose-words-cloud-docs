@@ -6,8 +6,6 @@ aliases: [/working-with-range/]
 weight: 210
 ---
 
-## Overview
-
 The concept of Range is similar to [Range Object in MS Word API](https://docs.microsoft.com/en-us/office/vba/word/Concepts/Working-with-Word/working-with-range-objects). Working with a range is much closer to how a user interacts with a document in MS Word.
 
 A range is basically a contiguous area in a document. It is signified as a pair of positions (START, END), where a coordinate of START always less than a coordinate of END. It may span across multiple sections, paragraphs, etc., in other words, across different nodes of the [DOM tree](https://docs.aspose.com/display/wordsnet/Aspose.Words+Document+Object+Model). Thus, a user can ignore the underlying model of the document. Such an approach is going to make the usage of API much more friendly.
@@ -109,7 +107,8 @@ First, he needs to call [Paragraph API](https://apireference.aspose.cloud/words/
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
-```java
+
+```JAVA
 // Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
 // Place App_Key in "client_secret" and App_SID in "client_id" argument.
 curl -v "https://api.aspose.cloud/connect/token" \
@@ -128,7 +127,8 @@ curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/paragraphs" \
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
-```java
+
+```JAVA
 {
   "Paragraphs": {
     "ParagraphLinkList": [
@@ -138,7 +138,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/paragraphs" \
         "link": {
           "Href": "https://api.aspose.cloud/v4.0/words/MyDocument.docx/sections/0/paragraphs/0",
           "Rel": "self"
-
         }
       },
       {
@@ -147,7 +146,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/paragraphs" \
         "link": {
           "Href": "https://api.aspose.cloud/v4.0/words/MyDocument.docx/sections/0/paragraphs/1",
           "Rel": "self"
-
         }
       },
       {
@@ -156,14 +154,12 @@ curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/paragraphs" \
         "link": {
           "Href": "https://api.aspose.cloud/v4.0/words/MyDocument.docx/sections/0/paragraphs/2",
           "Rel": "self"
-
         }
       }
     ],
     "link": {
       "Href": "https://api.aspose.cloud/v4.0/words/MyDocument.docx/paragraphs",
       "Rel": "self"
-
     }
   }
 }
@@ -171,11 +167,13 @@ curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/paragraphs" \
 
 {{< /tab >}}
 {{< /tabs >}}
+
 He sees that the first two paragraphs correspond to id0.0 and id0.2 (NodeId in the response), so he calls Range API to get the text he requires:
 
 {{< tabs tabTotal="2" tabID="4" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
-```java
+
+```JAVA
 // cURL example to get the text from the range.
 curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/range/id0.0/id0.2:end" \
 -X GET \
@@ -186,21 +184,23 @@ curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/range/id0.0/id0.2:e
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
-```java
+
+```JAVA
 {
   "Text": "You might find it useful to extract only the text from a document. This is useful if you are passing the text to another API service. All the text in a document is contained in text runs of paragraph elements. Text can appear in three types of the document's structural elements.  The resulting dump can help you understand the structure of Google Docs files in general, or help you troubleshoot issues around the structure and content of a particular document. "
-
 }```
 
 {{< /tab >}}
 {{< /tabs >}}
+
 **Use case 2: A user wants to save the selected range as a new document.**
 
 First, he needs to call [Paragraph API](https://apireference.aspose.cloud/words/#/Paragraphs/GetParagraphs) to get a list of paragraphs that are contained in the document.
 
 {{< tabs tabTotal="2" tabID="7" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
-```java
+
+```JAVA
 // Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
 // Place App_Key in "client_secret" and App_SID in "client_id" argument.
 curl -v "https://api.aspose.cloud/connect/token" \
@@ -219,7 +219,8 @@ curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/paragraphs" \
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
-```java
+
+```JAVA
 {
   "Paragraphs": {
     "ParagraphLinkList": [
@@ -229,7 +230,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/paragraphs" \
         "link": {
           "Href": "https://api.aspose.cloud/v4.0/words/MyDocument.docx/sections/0/paragraphs/0",
           "Rel": "self"
-
         }
       },
       {
@@ -238,7 +238,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/paragraphs" \
         "link": {
           "Href": "https://api.aspose.cloud/v4.0/words/MyDocument.docx/sections/0/paragraphs/1",
           "Rel": "self"
-
         }
       },
       {
@@ -247,25 +246,25 @@ curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/paragraphs" \
         "link": {
           "Href": "https://api.aspose.cloud/v4.0/words/MyDocument.docx/sections/0/paragraphs/2",
           "Rel": "self"
-
         }
       }
     ],
     "link": {
       "Href": "https://api.aspose.cloud/v4.0/words/MyDocument.docx/paragraphs",
       "Rel": "self"
-
     }
   }
 }```
 
 {{< /tab >}}
 {{< /tabs >}}
+
 Now, he calls the following API to save the first two paragraphs (correspond to id0.0 and id0.2 in the response) as a new document:** 
 
 {{< tabs tabTotal="2" tabID="10" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
-```java
+
+```JAVA
 // cURL example to save the selected range as a new document.
 curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/range/id0.0/id0.2:end/saveas" \
 -X POST \
@@ -277,7 +276,8 @@ curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/range/id0.0/id0.2:e
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
-```java
+
+```JAVA
 {
   "Document": {
     "Links": [
@@ -451,9 +451,10 @@ curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/range/id0.0/id0.2:e
 
 {{< /tab >}}
 {{< /tabs >}}
+
 ## Boost the Development Process with Aspose Words Cloud SDK Family
 
-Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Please check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs.
+Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Please check out the [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs.
 
 ## SDK Examples
 
@@ -475,6 +476,7 @@ A set of short code examples, demonstrating how to use this REST API with variou
 {{< gist "aspose-cloud" "068ce2149de5ad69ab516209b7ae82cf" "GetParagraphsText.go" >}}
 {{< /tab >}}
 {{< /tabs >}}
+
 **Use case 2: Save the selected range as a new document.**
 
 {{< tabs tabTotal="4" tabID="14" tabName1="C#" tabName2="Android" tabName3="Swift" tabName4="Go" >}}
