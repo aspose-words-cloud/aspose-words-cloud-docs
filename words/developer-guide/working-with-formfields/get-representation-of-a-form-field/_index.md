@@ -15,6 +15,7 @@ The following URIs are used to address REST resources:
 ```HTML
 ~/{paragraph}/formfields/{formFieldIndex}
 ```
+
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/FormFields/GetFormField) lets you call this REST API directly from a browser.
 
 ## cURL Example

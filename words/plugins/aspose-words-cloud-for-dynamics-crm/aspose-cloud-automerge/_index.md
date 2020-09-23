@@ -66,7 +66,7 @@ You can download the latest source code at:
 
 Execute MailMerge on Cloud file:
 
-```java
+```JAVA
         private string ExecuteMailMerge(CloudAppConfig Config, string Xml)
 
         {
@@ -88,7 +88,6 @@ Execute MailMerge on Cloud file:
 
                     {
                         strResponse = reader.ReadToEnd();
-
                     }
                     using (MemoryStream ms = new MemoryStream(System.Text.Encoding.UTF8.GetBytes(strResponse)))
 
@@ -106,7 +105,6 @@ Execute MailMerge on Cloud file:
                         outputFileName = nodes.Current.InnerXml;
 
                         return outputFileName;
-
                     }
                 }
             }
@@ -114,7 +112,6 @@ Execute MailMerge on Cloud file:
 
             {
                 throw ex;
-
             }
         }
 ```

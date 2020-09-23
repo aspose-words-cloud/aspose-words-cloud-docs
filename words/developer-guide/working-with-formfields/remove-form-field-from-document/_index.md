@@ -15,6 +15,7 @@ The following URIs is used to address the REST resource:
 ```HTML
 ~/{paragraph}/formfields/{formFieldIndex}
 ```
+
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/FormFields/DeleteFormField) lets you call this REST API directly from a browser.
 
 ## cURL Example

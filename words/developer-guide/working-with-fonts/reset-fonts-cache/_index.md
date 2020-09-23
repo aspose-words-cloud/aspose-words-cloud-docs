@@ -15,6 +15,7 @@ The following URIs are used to address REST resources:
 ```HTML
 ~/fonts/cache
 ```
+
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Fonts/ResetCache) lets you call this REST API directly from a browser.
 
 ## cURL Example

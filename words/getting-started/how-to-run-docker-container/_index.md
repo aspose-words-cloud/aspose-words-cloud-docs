@@ -28,6 +28,7 @@ Aspose.Words Cloud team has published the Docker Container on [Docker Hub](https
 |User|Username|
 |Password|Password|
 {{% alert color="primary" %}}
+
 If "License" parameters are omitted, the app will work in trial mode. If "User" parameter is set, each request requires "Authorization" header (JWT authentication). The URL to obtain token is "/connect/token".
 
 {{% /alert %}}
@@ -35,7 +36,7 @@ If "License" parameters are omitted, the app will work in trial mode. If "User" 
 
 You can simply run the following docker command after pulling the container from [Docker Hub](https://href.li/?https://hub.docker.com/r/aspose/words-cloud).
 
-```java
+```JAVA
 docker run   -e "LicensePublicKey=public_key" -e "LicensePrivateKey=private_key" -v "/fonts:/fonts" -v "/data:/data" aspose/words.cloud
 ```
 
@@ -43,7 +44,7 @@ docker run   -e "LicensePublicKey=public_key" -e "LicensePrivateKey=private_key"
 
 You can write the following configurations in your yaml file for Docker-Compose tool:
 
-```java
+```JAVA
 AsposeWordsCloud:
       image: aspose/words.cloud
       ports: ["8082:80"]

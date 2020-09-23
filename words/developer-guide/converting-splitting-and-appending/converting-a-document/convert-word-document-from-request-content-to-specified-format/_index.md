@@ -45,7 +45,7 @@ You can check the quality of Aspose.Words Cloud conversion and view the results 
 |tiff|Tagged Image File Format|
 |wml|Wireless Markup Language File|
 |xps|XML Paper Specification File|
-The important parameters of this API are:
+The most important parameters of this API are listed in the following table:
 
 |Parameter Name|Type|Query String|Description|
 | :- | :- | :- | :- |

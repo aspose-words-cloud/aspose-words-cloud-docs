@@ -19,6 +19,7 @@ or
 
 ~/{file-name}/insertPageNumbers?destFileName={DestDocumentName}
 ```
+
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/PageNumbers/InsertPageNumbers) lets you call this REST API directly from a browser.
 
 ## cURL Example

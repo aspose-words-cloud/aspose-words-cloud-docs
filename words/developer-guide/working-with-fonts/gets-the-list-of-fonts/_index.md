@@ -28,11 +28,12 @@ and **FontInfo** properties are:
 
 ## REST API’s Resources
 
-The following URIs are used to address REST resources:
+The following URIs is used to address the REST resource:
 
 ```HTML
 ~/fonts/available
 ```
+
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Fonts/GetAvailableFonts) lets you call this REST API directly from a browser.
 
 ## cURL Example
