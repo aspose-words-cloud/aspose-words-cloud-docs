@@ -26,15 +26,15 @@ Below cURL example shows how to obtain bookmarks from a bookmark collection. You
 {{< tab tabNum="1" >}}
 
 ```JAVA
-// Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
-// Place App_Key in "client_secret" and App_SID in "client_id" argument.
+# Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
+# Place App_Key in "client_secret" and App_SID in "client_id" argument.
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
 -d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
-// cURL example to obtain bookmarks from a bookmark collection
+# cURL example to obtain bookmarks from a bookmark collection
 curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/bookmarks" \
 -X GET \
 -H "Content-Type: application/json" \

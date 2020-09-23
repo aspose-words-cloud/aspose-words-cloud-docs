@@ -24,15 +24,15 @@ The following are a few examples of using cURL:
 {{< tab tabNum="1" >}}
 
 ```JAVA
-// Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
-// Place App_Key in "client_secret" and App_SID in "client_id" argument.
+# Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
+# Place App_Key in "client_secret" and App_SID in "client_id" argument.
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
 -d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
-// cURL example to get a list of sections
+# cURL example to get a list of sections
 curl -X PUT "https://api.aspose.cloud/v4.0/words/Run.doc/styles/Heading%201/update?storage=First%20Storage" 
 
 -H  "accept: application/json" -H  "Authorization: Bearer <jwt tokon>" 
@@ -57,7 +57,6 @@ curl -X PUT "https://api.aspose.cloud/v4.0/words/Run.doc/styles/Heading%201/upda
         "Color": {
           "Web": "",
           "Alpha": 0
-
         },
         "DistanceFromText": 0,
         "LineStyle": "None",

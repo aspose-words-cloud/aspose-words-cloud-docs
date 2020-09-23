@@ -52,15 +52,15 @@ The following are a few examples of using cURL:
 {{< tab tabNum="1" >}}
 
 ```JAVA
-// Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
-// Place App_Key in "client_secret" and App_SID in "client_id" argument.
+# Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
+# Place App_Key in "client_secret" and App_SID in "client_id" argument.
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
 -d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
-// cURL example to render a page of the document in BMP format
+# cURL example to render a page of the document in BMP format
 curl -v "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/pages/1/render?format=bmp" \
 -X GET \
 -H "Content-Type: application/json" \
@@ -85,15 +85,15 @@ BMP File
 {{< tab tabNum="1" >}}
 
 ```JAVA
-// Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
-// Place App_Key in "client_secret" and App_SID in "client_id" argument.
+# Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
+# Place App_Key in "client_secret" and App_SID in "client_id" argument.
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
 -d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
-// cURL example to render a paragraph in PNG format
+# cURL example to render a paragraph in PNG format
 curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs/0/render?format=png" \
 -X GET \
 -H "Content-Type: application/json" \
@@ -118,15 +118,15 @@ PNG File
 {{< tab tabNum="1" >}}
 
 ```JAVA
-// Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
-// Place App_Key in "client_secret" and App_SID in "client_id" argument.
+# Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
+# Place App_Key in "client_secret" and App_SID in "client_id" argument.
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
 -d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
-// cURL example to render a table in PNG format
+# cURL example to render a table in PNG format
 curl -v "https://api.aspose.cloud/v4.0/words/TablesGet.docx/tables/0/render?format=png" \
 -X GET \
 -H "Content-Type: application/json" \
@@ -151,15 +151,15 @@ PNG File
 {{< tab tabNum="1" >}}
 
 ```JAVA
-// Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
-// Place App_Key in "client_secret" and App_SID in "client_id" argument.
+# Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
+# Place App_Key in "client_secret" and App_SID in "client_id" argument.
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
 -d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
-// cURL example to render a DrawingObject to PDF format
+# cURL example to render a DrawingObject to PDF format
 curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/drawingObjects/0/render?format=pdf" \
 -X GET \
 -H "Content-Type: application/json" \
@@ -184,15 +184,15 @@ PDF File
 {{< tab tabNum="1" >}}
 
 ```JAVA
-// Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
-// Place App_Key in "client_secret" and App_SID in "client_id" argument.
+# Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
+# Place App_Key in "client_secret" and App_SID in "client_id" argument.
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
 -d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
-// cURL example to render a OfficeMathObject to PNG format
+# cURL example to render a OfficeMathObject to PNG format
 curl -v "https://api.aspose.cloud/v4.0/words/MathObjects.docx/OfficeMathObjects/0/render?format=png" \
 -X GET \
 -H "Content-Type: application/json" \

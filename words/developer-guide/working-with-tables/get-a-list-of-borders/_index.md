@@ -24,15 +24,15 @@ The following are a few examples of using cURL:
 {{< tab tabNum="1" >}}
 
 ```JAVA
-// Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
-// Place App_Key in "client_secret" and App_SID in "client_id" argument.
+# Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
+# Place App_Key in "client_secret" and App_SID in "client_id" argument.
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
 -d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
-// cURL example to get a list of borders
+# cURL example to get a list of borders
 curl -v "https://api.aspose.cloud/v4.0/words/TablesGet.docx/tables/1/rows/0/borders" \
 -X GET \
 -H "Content-Type: application/json" \
@@ -51,7 +51,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/TablesGet.docx/tables/1/rows/0/bord
         "BorderType": "Top",
         "Color": {
           "Web": "#000000"
-
         },
         "DistanceFromText": 0.0,
         "LineStyle": "Single",
@@ -63,7 +62,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/TablesGet.docx/tables/1/rows/0/bord
         "BorderType": "Left",
         "Color": {
           "Web": "#000000"
-
         },
         "DistanceFromText": 0.0,
         "LineStyle": "Single",
@@ -75,7 +73,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/TablesGet.docx/tables/1/rows/0/bord
         "BorderType": "Bottom",
         "Color": {
           "Web": "#000000"
-
         },
         "DistanceFromText": 0.0,
         "LineStyle": "Single",
@@ -87,7 +84,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/TablesGet.docx/tables/1/rows/0/bord
         "BorderType": "Right",
         "Color": {
           "Web": "#000000"
-
         },
         "DistanceFromText": 0.0,
         "LineStyle": "Single",
@@ -99,7 +95,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/TablesGet.docx/tables/1/rows/0/bord
         "BorderType": "Horizontal",
         "Color": {
           "Web": "#000000"
-
         },
         "DistanceFromText": 0.0,
         "LineStyle": "Single",
@@ -111,7 +106,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/TablesGet.docx/tables/1/rows/0/bord
         "BorderType": "Vertical",
         "Color": {
           "Web": "#000000"
-
         },
         "DistanceFromText": 0.0,
         "LineStyle": "Single",

@@ -80,15 +80,15 @@ Output Document: [ResultWordDocument.docx](attachments/885279/1180113.docx)
 {{< tab tabNum="1" >}}
 
 ```JAVA
-// Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
-// Place App_Key in "client_secret" and App_SID in "client_id" argument.
+# Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
+# Place App_Key in "client_secret" and App_SID in "client_id" argument.
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
 -d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
-// cURL example to update Font Properties
+# cURL example to update Font Properties
 curl -v "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/2/runs/0/font?destFileName=ResultWordDocument.docx" \
 -X PUT \
 -d "{'Bold':true, 'Size': 31.0, 'Name': 'Calibri'}" \
@@ -111,7 +111,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/
          "Color":{
             "Web":"",
             "Alpha":0
-
          },
          "DistanceFromText":0.0,
          "LineStyle":"None",

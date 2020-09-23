@@ -35,7 +35,7 @@ curl -v "https://api.aspose.cloud/connect/token" \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
-// cURL example to get a particular document property
+# cURL example to get a particular document property
 curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/Author" \
 -X GET \
 -H "Content-Type: application/json" \

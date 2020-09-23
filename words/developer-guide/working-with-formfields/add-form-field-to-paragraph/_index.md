@@ -71,15 +71,15 @@ The following are a few examples of using cURL:
 {{< tab tabNum="1" >}}
 
 ```JAVA
-// Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
-// Place App_Key in "client_secret" and App_SID in "client_id" argument.
+# Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
+# Place App_Key in "client_secret" and App_SID in "client_id" argument.
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
 -d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
-// cURL example to add form field to paragraph
+# cURL example to add form field to paragraph
 curl -v "https://api.aspose.cloud/v4.0/words/FormFilled.docx/sections/0/paragraphs/1/formfields" \
 -X POST \
 -d "{ 'Name': 'FullName', 'Enabled': true, 'CalculateOnExit': true, 'StatusText': '', 'TextInputType': 'Regular', 'TextInputDefault': '123', 'TextInputFormat': 'UPPERCASE' }" \

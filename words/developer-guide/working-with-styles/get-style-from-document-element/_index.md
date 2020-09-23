@@ -24,15 +24,15 @@ The following are a few examples of using cURL:
 {{< tab tabNum="1" >}}
 
 ```JAVA
-// Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
-// Place App_Key in "client_secret" and App_SID in "client_id" argument.
+# Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
+# Place App_Key in "client_secret" and App_SID in "client_id" argument.
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
 -d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
-// cURL example to get a list of sections
+# cURL example to get a list of sections
 curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Heading%201/update?storage=First%20Storage" 
 
 -H  "accept: application/json" -H  "Authorization: Bearer <jwt tokon>" 
@@ -56,18 +56,15 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
           "Color": {
             "Web": "",
             "Alpha": 0
-
           },
           "DistanceFromText": 0,
           "LineStyle": "None",
           "LineWidth": 0,
           "Shadow": false
-
         },
         "Color": {
           "Web": "",
           "Alpha": 0
-
         },
         "ComplexScript": false,
         "DoubleStrikeThrough": false,
@@ -77,7 +74,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
         "HighlightColor": {
           "Web": "",
           "Alpha": 0
-
         },
         "Italic": false,
         "ItalicBi": false,
@@ -135,18 +131,15 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
           "Color": {
             "Web": "",
             "Alpha": 0
-
           },
           "DistanceFromText": 0,
           "LineStyle": "None",
           "LineWidth": 0,
           "Shadow": false
-
         },
         "Color": {
           "Web": "",
           "Alpha": 0
-
         },
         "ComplexScript": false,
         "DoubleStrikeThrough": false,
@@ -156,7 +149,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
         "HighlightColor": {
           "Web": "",
           "Alpha": 0
-
         },
         "Italic": false,
         "ItalicBi": false,
@@ -214,17 +206,14 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
           "Color": {
             "Web": "",
             "Alpha": 0
-
           },
           "DistanceFromText": 0,
           "LineStyle": "None",
           "LineWidth": 0,
           "Shadow": false
-
         },
         "Color": {
           "Web": "#000000"
-
         },
         "ComplexScript": false,
         "DoubleStrikeThrough": false,
@@ -234,7 +223,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
         "HighlightColor": {
           "Web": "",
           "Alpha": 0
-
         },
         "Italic": false,
         "ItalicBi": false,
@@ -292,18 +280,15 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
           "Color": {
             "Web": "",
             "Alpha": 0
-
           },
           "DistanceFromText": 0,
           "LineStyle": "None",
           "LineWidth": 0,
           "Shadow": false
-
         },
         "Color": {
           "Web": "",
           "Alpha": 0
-
         },
         "ComplexScript": false,
         "DoubleStrikeThrough": false,
@@ -313,7 +298,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
         "HighlightColor": {
           "Web": "",
           "Alpha": 0
-
         },
         "Italic": false,
         "ItalicBi": false,
@@ -371,18 +355,15 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
           "Color": {
             "Web": "",
             "Alpha": 0
-
           },
           "DistanceFromText": 0,
           "LineStyle": "None",
           "LineWidth": 0,
           "Shadow": false
-
         },
         "Color": {
           "Web": "",
           "Alpha": 0
-
         },
         "ComplexScript": false,
         "DoubleStrikeThrough": false,
@@ -392,7 +373,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
         "HighlightColor": {
           "Web": "",
           "Alpha": 0
-
         },
         "Italic": false,
         "ItalicBi": false,
@@ -450,18 +430,15 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
           "Color": {
             "Web": "",
             "Alpha": 0
-
           },
           "DistanceFromText": 0,
           "LineStyle": "None",
           "LineWidth": 0,
           "Shadow": false
-
         },
         "Color": {
           "Web": "",
           "Alpha": 0
-
         },
         "ComplexScript": false,
         "DoubleStrikeThrough": false,
@@ -471,7 +448,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
         "HighlightColor": {
           "Web": "",
           "Alpha": 0
-
         },
         "Italic": false,
         "ItalicBi": false,
@@ -529,18 +505,15 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
           "Color": {
             "Web": "",
             "Alpha": 0
-
           },
           "DistanceFromText": 0,
           "LineStyle": "None",
           "LineWidth": 0,
           "Shadow": false
-
         },
         "Color": {
           "Web": "",
           "Alpha": 0
-
         },
         "ComplexScript": false,
         "DoubleStrikeThrough": false,
@@ -550,7 +523,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
         "HighlightColor": {
           "Web": "",
           "Alpha": 0
-
         },
         "Italic": false,
         "ItalicBi": false,
@@ -608,18 +580,15 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
           "Color": {
             "Web": "",
             "Alpha": 0
-
           },
           "DistanceFromText": 0,
           "LineStyle": "None",
           "LineWidth": 0,
           "Shadow": false
-
         },
         "Color": {
           "Web": "",
           "Alpha": 0
-
         },
         "ComplexScript": false,
         "DoubleStrikeThrough": false,
@@ -629,7 +598,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
         "HighlightColor": {
           "Web": "",
           "Alpha": 0
-
         },
         "Italic": false,
         "ItalicBi": false,
@@ -687,18 +655,15 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
           "Color": {
             "Web": "",
             "Alpha": 0
-
           },
           "DistanceFromText": 0,
           "LineStyle": "None",
           "LineWidth": 0,
           "Shadow": false
-
         },
         "Color": {
           "Web": "",
           "Alpha": 0
-
         },
         "ComplexScript": false,
         "DoubleStrikeThrough": false,
@@ -708,7 +673,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
         "HighlightColor": {
           "Web": "",
           "Alpha": 0
-
         },
         "Italic": false,
         "ItalicBi": false,
@@ -766,18 +730,15 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
           "Color": {
             "Web": "",
             "Alpha": 0
-
           },
           "DistanceFromText": 0,
           "LineStyle": "None",
           "LineWidth": 0,
           "Shadow": false
-
         },
         "Color": {
           "Web": "",
           "Alpha": 0
-
         },
         "ComplexScript": false,
         "DoubleStrikeThrough": false,
@@ -787,7 +748,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
         "HighlightColor": {
           "Web": "",
           "Alpha": 0
-
         },
         "Italic": false,
         "ItalicBi": false,
@@ -845,18 +805,15 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
           "Color": {
             "Web": "",
             "Alpha": 0
-
           },
           "DistanceFromText": 0,
           "LineStyle": "None",
           "LineWidth": 0,
           "Shadow": false
-
         },
         "Color": {
           "Web": "",
           "Alpha": 0
-
         },
         "ComplexScript": false,
         "DoubleStrikeThrough": false,
@@ -866,7 +823,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
         "HighlightColor": {
           "Web": "",
           "Alpha": 0
-
         },
         "Italic": false,
         "ItalicBi": false,
@@ -924,18 +880,15 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
           "Color": {
             "Web": "",
             "Alpha": 0
-
           },
           "DistanceFromText": 0,
           "LineStyle": "None",
           "LineWidth": 0,
           "Shadow": false
-
         },
         "Color": {
           "Web": "",
           "Alpha": 0
-
         },
         "ComplexScript": false,
         "DoubleStrikeThrough": false,
@@ -945,7 +898,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
         "HighlightColor": {
           "Web": "",
           "Alpha": 0
-
         },
         "Italic": false,
         "ItalicBi": false,
@@ -1003,18 +955,15 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
           "Color": {
             "Web": "",
             "Alpha": 0
-
           },
           "DistanceFromText": 0,
           "LineStyle": "None",
           "LineWidth": 0,
           "Shadow": false
-
         },
         "Color": {
           "Web": "",
           "Alpha": 0
-
         },
         "ComplexScript": false,
         "DoubleStrikeThrough": false,
@@ -1024,7 +973,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
         "HighlightColor": {
           "Web": "",
           "Alpha": 0
-
         },
         "Italic": false,
         "ItalicBi": false,
@@ -1082,18 +1030,15 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
           "Color": {
             "Web": "",
             "Alpha": 0
-
           },
           "DistanceFromText": 0,
           "LineStyle": "None",
           "LineWidth": 0,
           "Shadow": false
-
         },
         "Color": {
           "Web": "",
           "Alpha": 0
-
         },
         "ComplexScript": false,
         "DoubleStrikeThrough": false,
@@ -1103,7 +1048,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
         "HighlightColor": {
           "Web": "",
           "Alpha": 0
-
         },
         "Italic": false,
         "ItalicBi": false,
@@ -1161,18 +1105,15 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
           "Color": {
             "Web": "",
             "Alpha": 0
-
           },
           "DistanceFromText": 0,
           "LineStyle": "None",
           "LineWidth": 0,
           "Shadow": false
-
         },
         "Color": {
           "Web": "",
           "Alpha": 0
-
         },
         "ComplexScript": false,
         "DoubleStrikeThrough": false,
@@ -1182,7 +1123,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
         "HighlightColor": {
           "Web": "",
           "Alpha": 0
-
         },
         "Italic": false,
         "ItalicBi": false,
@@ -1240,18 +1180,15 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
           "Color": {
             "Web": "",
             "Alpha": 0
-
           },
           "DistanceFromText": 0,
           "LineStyle": "None",
           "LineWidth": 0,
           "Shadow": false
-
         },
         "Color": {
           "Web": "",
           "Alpha": 0
-
         },
         "ComplexScript": false,
         "DoubleStrikeThrough": false,
@@ -1261,7 +1198,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
         "HighlightColor": {
           "Web": "",
           "Alpha": 0
-
         },
         "Italic": false,
         "ItalicBi": false,
@@ -1334,18 +1270,15 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
           "Color": {
             "Web": "",
             "Alpha": 0
-
           },
           "DistanceFromText": 0,
           "LineStyle": "None",
           "LineWidth": 0,
           "Shadow": false
-
         },
         "Color": {
           "Web": "",
           "Alpha": 0
-
         },
         "ComplexScript": false,
         "DoubleStrikeThrough": false,
@@ -1355,7 +1288,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
         "HighlightColor": {
           "Web": "",
           "Alpha": 0
-
         },
         "Italic": false,
         "ItalicBi": false,
@@ -1413,18 +1345,15 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
           "Color": {
             "Web": "",
             "Alpha": 0
-
           },
           "DistanceFromText": 0,
           "LineStyle": "None",
           "LineWidth": 0,
           "Shadow": false
-
         },
         "Color": {
           "Web": "",
           "Alpha": 0
-
         },
         "ComplexScript": false,
         "DoubleStrikeThrough": false,
@@ -1434,7 +1363,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
         "HighlightColor": {
           "Web": "",
           "Alpha": 0
-
         },
         "Italic": false,
         "ItalicBi": false,
@@ -1492,18 +1420,15 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
           "Color": {
             "Web": "",
             "Alpha": 0
-
           },
           "DistanceFromText": 0,
           "LineStyle": "None",
           "LineWidth": 0,
           "Shadow": false
-
         },
         "Color": {
           "Web": "",
           "Alpha": 0
-
         },
         "ComplexScript": false,
         "DoubleStrikeThrough": false,
@@ -1513,7 +1438,6 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
         "HighlightColor": {
           "Web": "",
           "Alpha": 0
-
         },
         "Italic": false,
         "ItalicBi": false,

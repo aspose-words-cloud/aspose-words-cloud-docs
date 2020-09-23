@@ -31,7 +31,7 @@ curl -v "https://api.aspose.cloud/connect/token" \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
-// cURL example to get a table row
+# cURL example to get a table row
 curl -v "https://api.aspose.cloud/v4.0/words/TablesGet.docx/tables/1/rows/0" \
 -X DELETE \
 -H "Content-Type: application/json" \
