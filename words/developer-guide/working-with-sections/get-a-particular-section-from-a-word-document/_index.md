@@ -27,7 +27,6 @@ This REST API allows you to get one of the sections contained in the document. T
 ```java
 // Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
 // Place App_Key in "client_secret" and App_SID in "client_id" argument.
-
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
 -d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
@@ -35,7 +34,6 @@ curl -v "https://api.aspose.cloud/connect/token" \
 -H "Accept: application/json"
 
 // cURL example to get a particular section from a Word Document
-
 curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0" \
 -X GET \
 -H "Content-Type: application/json" \

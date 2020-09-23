@@ -1514,7 +1514,6 @@ curl -v "https://api.aspose.cloud/connect/token" \
 -H "Accept: application/json"
 
 // cURL example to convert MS Word Document to PDF using PDFSaveOptions
-
 curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/saveAs" \
 -X PUT \
 -d "{'SaveFormat':'pdf', 'FileName': 'test_multi_pages.pdf'}" \

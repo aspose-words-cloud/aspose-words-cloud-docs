@@ -24,7 +24,6 @@ This REST API allows you to read a particular document property info by the prop
 {{< tab tabNum="1" >}}
 ```java
 // Get App Key and App SID from https://dashboard.aspose.cloud/
-
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
 -d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
@@ -32,7 +31,6 @@ curl -v "https://api.aspose.cloud/connect/token" \
 -H "Accept: application/json"
 
 // cURL example to get a particular document property
-
 curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/Author" \
 -X GET \
 -H "Content-Type: application/json" \

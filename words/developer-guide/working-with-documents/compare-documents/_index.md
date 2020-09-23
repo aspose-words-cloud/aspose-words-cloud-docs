@@ -39,7 +39,6 @@ The description of the important parameters of the API is given below:
 ```java
 // Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
 // Place App_Key in "client_secret" and App_SID in "client_id" argument.
-
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
 -d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
@@ -47,7 +46,6 @@ curl -v "https://api.aspose.cloud/connect/token" \
 -H "Accept: application/json"
 
 // cURL example to compare documents
-
 curl -v "https://api.aspose.cloud/v4.0/words/compareTestDoc1.doc/compareDocument" \
 -X PUT \
 -d "{ 'Author': 'author', 'ComparingWithDocument': 'compareTestDoc2.doc' }" \

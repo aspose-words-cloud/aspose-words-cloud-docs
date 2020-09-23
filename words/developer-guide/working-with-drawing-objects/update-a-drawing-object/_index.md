@@ -46,7 +46,6 @@ The request is an HTTP request with multipart content (see [RFC 2046](http://to
 ```java
 // Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
 // Place App_Key in "client_secret" and App_SID in "client_id" argument.
-
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
 -d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
@@ -54,7 +53,6 @@ curl -v "https://api.aspose.cloud/connect/token" \
 -H "Accept: application/json"
 
 // cURL example to update a Drawing Object in the Word Document
-
 curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/drawingObjects/0" \
 -X PUT \
 -F "json={ 'Left': 0 };type=application/json" \

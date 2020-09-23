@@ -49,7 +49,6 @@ The cleanup options parameter can contain a list of values from below, separated
 ```java
 // Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
 // Place App_Key in "client_secret" and App_SID in "client_id" argument.
-
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
 -d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
@@ -57,7 +56,6 @@ curl -v "https://api.aspose.cloud/connect/token" \
 -H "Accept: application/json"
 
 // cURL example to populate MailMerge template with Data
-
 curl -v "https://api.aspose.cloud/v4.0/words/SampleMailMergeTemplate.docx/MailMerge?withRegions=false&destFileName=TestPostDocumentExecuteMailMerge.docx" \
 -X PUT \
 -F data=@SampleMailMergeTemplateData.txt \
@@ -283,7 +281,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleMailMergeTemplate.docx/MailMe
 ```java
 // Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
 // Place App_Key in "client_secret" and App_SID in "client_id" argument.
-
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
 -d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
@@ -291,7 +288,6 @@ curl -v "https://api.aspose.cloud/connect/token" \
 -H "Accept: application/json"
 
 // cURL example to populate Mustache template with Data
-
 curl -v "https://api.aspose.cloud/v4.0/words/TestExecuteTemplate.doc/MailMerge?destFileName=TestPostExecuteTemplate.docx" \
 -X PUT \
 -F data=@TestExecuteTemplateData.txt \

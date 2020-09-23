@@ -27,7 +27,6 @@ This REST API allows you to accept all revisions in a document. The request para
 ```java
 // Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
 // Place App_Key in "client_secret" and App_SID in "client_id" argument.
-
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
 -d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
@@ -35,7 +34,6 @@ curl -v "https://api.aspose.cloud/connect/token" \
 -H "Accept: application/json"
 
 // cURL example to accept all revisions in a document
-
 curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/revisions/acceptAll" \
 -X PUT \
 -H "Content-Type: application/json" \

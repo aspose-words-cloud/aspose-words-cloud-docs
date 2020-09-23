@@ -86,87 +86,47 @@ After you have installed the Aspose.Words Cloud for Salesforce it is really simp
 
 **MailMerge.page**
 
-```java
+```HTML
 <apex:page controller="MailMergeController">
-
 <apex:form id="theForm">
-
     <apex:pageBlock title="Requirements" rendered="true">
-
         <ol>
-
             <li>Register aspose account.</li>
-
             <li>Fill in the form below and click Run Sample (all fields are required).</li>
-
         </ol>
-
     </apex:pageBlock>
-
     <apex:pageBlock title="Execute Mail Merge Template in Salesforce" rendered="true">
-
         <table>
-
             <tr>
-
                 <td><b>App SID:</b></td>
-
                 <td><apex:inputText value="{!appSID}" size="100"/></td>
-
             </tr>
-
             <tr>
-
                 <td><b>App Key:</b></td>
-
                 <td><apex:inputText value="{!appKey}" size="100"/></td>
-
             </tr>
-
             <tr>
-
                 <td><b>File Name:</b></td>
-
                 <td><apex:inputText value="{!fileName}" size="100"/></td>
-
             </tr>
-
             <tr>
-
                 <td><b>Data File Name:</b></td>
-
                 <td><apex:inputText value="{!dataFileName}" size="100"/></td>
-
             </tr>
-
             <tr>
-
                 <td><b>Save Format:</b> (pdf,tiff,html)</td>
-
                 <td><apex:inputText value="{!saveFormat}" size="100"/></td>
-
             </tr>
-
         </table>
-
         <div class="container">
-
             <apex:commandButton action="{!runSample}" value="Run Sample" /><br/>
-
             <p>
-
                 <span>Output: </span>
-
                 <apex:outputLabel >{!output}</apex:outputLabel>
-
             </p>
-
         </div>
-
     </apex:pageBlock>
-
 </apex:form>
-
 </apex:page>
 ```
 
@@ -185,17 +145,11 @@ public with sharing class MailMergeController {
 
     public PageReference runSample() {
         Product.BaseProductUri = 'http://api.aspose.com/v1.1';
-
         AsposeCloudApp.setAppInfo(appKey, appSID);
-
         MailMerge api = new MailMerge();
-
         String downloadURL = api.ExecuteMailMerege(fileName,dataFileName,saveFormat);
-
         this.output = downloadURL;
-
         return null;
-
     }
 }
 ```
@@ -214,43 +168,27 @@ public with sharing class MailMerge {
     public String ExecuteMailMerege(String FileName, String dataFile, String outFormat) {
         try {
             //build URI to get Image
-
             String strURI = Product.BaseProductUri + '/words/' + FileName + '/executeMailMerge?mailMergeDataFile=' + dataFile;
-
             String signedURI = Utils.Sign(strURI);
-
             system.debug('Signed URI = ' + signedURI);
-
             String strJSON = Utils.ProcessCommand(signedURI, 'POST', null, 'json');
-
             this.apiResponse = strJSON;
-
             system.debug(strJSON);
 
             //prepare signed download link
-
             String downloadURL = null;
-
             Map<String, Object> params = (Map<String, Object>) JSON.deserializeUntyped(strJSON);
-
             if(params.containsKey('Document')){
                 Map<String, Object> doc = (Map<String, Object>) params.get('Document');
-
                 String DocName = (String) doc.get('FileName');
-
                 strURI = Product.BaseProductUri + '/words/' + DocName + '?format=' + outFormat;
-
                 downloadURL = Utils.Sign(strURI);
-
             }
             return downloadURL;
-
         }
         catch (Exception ex) {
             system.debug(ex);
-
             return null;
-
         }
     }
 }
@@ -274,9 +212,7 @@ public with sharing class AsposeCloudApp {
     public static String AppKey { get; set; }
     public static void setAppInfo(String key, String sid) {
         AppSID=sid;
-
         AppKey=key;
-
     }
 }
 ```
@@ -290,89 +226,54 @@ public with sharing class Utils {
 
         try {
             data = data.replace(' ', '%20');
-
             URL url = new URL(data);
-
             String path = url.getPath();
-
             path = path.replace(' ', '%20');
 
             // Remove final slash here as it can be added automatically.
-
             path = path.removeEnd('/');
-
             String filePart = url.getPath() + (url.getQuery() == null ? '?' : '?' + url.getQuery()) + '&appSID=' + AsposeCloudApp.AppSID;
-
             url = new URL(url.getProtocol(), url.getHost(), url.getPort(), filePart);
 
             // compute the hmac on input data bytes
-
             Blob mac = Crypto.generateMac(HMAC_SHA1, Blob.valueOf(url.toExternalForm()), Blob.valueOf(AsposeCloudApp.AppKey));
-
             String base64 = EncodingUtil.base64Encode(mac);
-
             system.debug('base64: ' + base64);
 
             // Remove invalid symbols.
-
             String result = base64.substring(0, base64.length() - 1);
-
             result = EncodingUtil.urlEncode(result, 'UTF-8');
-
             system.debug('signature: ' + result);
-
             String encodedUrl = url.toExternalForm() + '&signature=' + result;
-
             system.debug('full URL: ' + encodedUrl);
-
             return encodedUrl;
-
         } catch (Exception ex) {
             system.debug(ex.getStackTraceString());
-
             return null;
-
         }
     }
     public static String ProcessCommand(String strURI, String strHttpCommand, Blob content, String ContentType) {
         try {
             HttpRequest request = new HttpRequest();
-
             Integer len = 0;
-
             if (strContent != null) {
                 request.setBodyAsBlob(content);
-
             }
             request.setEndpoint(strURI);
-
             request.setMethod(strHttpCommand);
-
             if (ContentType.toLowerCase() == 'xml')
-
                 request.setHeader('Content-Type', 'application/xml');
-
             else
-
                 request.setHeader('Content-Type', 'application/json');
-
             request.setHeader('Accept', 'application/json');
-
             //request.setTimeout(Timeout);
-
             Http http = new Http();
-
             HttpResponse res = http.send(request);
-
             return res.getBody();
-
         } catch (Exception ex) {
             system.debug('HTTP ERROR' + ex.getMessage());
-
             system.debug(ex.getStackTraceString());
-
             return null;
-
         }
     }
 }

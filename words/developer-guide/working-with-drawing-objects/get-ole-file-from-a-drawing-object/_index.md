@@ -34,7 +34,6 @@ This REST API allows you to get an embedded OLE file from a drawing object. The 
 ```java
 // Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
 // Place App_Key in "client_secret" and App_SID in "client_id" argument.
-
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
 -d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
@@ -42,7 +41,6 @@ curl -v "https://api.aspose.cloud/connect/token" \
 -H "Accept: application/json"
 
 // cURL example to get OLE file from a drawing object
-
 curl -v "https://api.aspose.cloud/v4.0/words/sample_EmbeddedOLE.docx/drawingObjects/0/oleData" \
 -X GET \
 -H "Content-Type: application/json" \

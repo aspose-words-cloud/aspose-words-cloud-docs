@@ -25,7 +25,6 @@ Output Document: [TestMailMergeWithImages_Out.docx](attachments/885365/1180103.
 ```java
 // Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
 // Place App_Key in "client_secret" and App_SID in "client_id" argument.
-
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
 -d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
@@ -33,7 +32,6 @@ curl -v "https://api.aspose.cloud/connect/token" \
 -H "Accept: application/json"
 
 // cURL example to insert image during mail merge
-
 curl -v "https://api.aspose.cloud/v4.0/words/TestMailMergeWithImages.doc/MailMerge?destFileName=TestMailMergeWithImages_Out.docx" \
 -X PUT \
 -F data=@MailMergeData.txt \

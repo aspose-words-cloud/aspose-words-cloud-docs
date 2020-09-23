@@ -112,7 +112,6 @@ First, he needs to call [Paragraph API](https://apireference.aspose.cloud/words/
 ```java
 // Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
 // Place App_Key in "client_secret" and App_SID in "client_id" argument.
-
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
 -d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
@@ -120,7 +119,6 @@ curl -v "https://api.aspose.cloud/connect/token" \
 -H "Accept: application/json"
 
 // cURL example to get a list of paragraphs that are contained in the document or in the section
-
 curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/paragraphs" \
 -X GET \
 -H "Content-Type: application/json" \
@@ -179,7 +177,6 @@ He sees that the first two paragraphs correspond to id0.0 and id0.2 (NodeId in t
 {{< tab tabNum="1" >}}
 ```java
 // cURL example to get the text from the range.
-
 curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/range/id0.0/id0.2:end" \
 -X GET \
 -H "Content-Type: application/json" \
@@ -206,7 +203,6 @@ First, he needs to call [Paragraph API](https://apireference.aspose.cloud/words/
 ```java
 // Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
 // Place App_Key in "client_secret" and App_SID in "client_id" argument.
-
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
 -d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
@@ -214,7 +210,6 @@ curl -v "https://api.aspose.cloud/connect/token" \
 -H "Accept: application/json"
 
 // cURL example to get a list of paragraphs that are contained in the document or in the section
-
 curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/paragraphs" \
 -X GET \
 -H "Content-Type: application/json" \
@@ -272,7 +267,6 @@ Now, he calls the following API to save the first two paragraphs (correspond to 
 {{< tab tabNum="1" >}}
 ```java
 // cURL example to save the selected range as a new document.
-
 curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/range/id0.0/id0.2:end/saveas" \
 -X POST \
 -d "{ 'DocumentName': 'SelectedRanage.docx' }" \

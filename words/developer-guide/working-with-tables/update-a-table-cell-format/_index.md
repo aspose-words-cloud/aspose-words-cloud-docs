@@ -36,7 +36,6 @@ This REST API allows you to update a table cell format properties. The descripti
 ```java
 // Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
 // Place App_Key in "client_secret" and App_SID in "client_id" argument.
-
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
 -d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
@@ -44,7 +43,6 @@ curl -v "https://api.aspose.cloud/connect/token" \
 -H "Accept: application/json"
 
 // cURL example to update table cell's format properties
-
 curl -v "https://api.aspose.cloud/v4.0/words/TablesGet.docx/tables/1/rows/0/cells/0/cellformat" \
 -X PUT \
 -d "{ 'BottomPadding': '1', 'FitText': 'true', 'HorizontalMerge': 'First', 'LeftPadding': '2', 'Orientation': 'VerticalFarEast', 'RightPadding': '3', 'TopPadding': '4.5', 'VerticalAlignment': 'Center', 'VerticalMerge': 'Previous', 'Width': '11', 'WrapText': 'false' }" \

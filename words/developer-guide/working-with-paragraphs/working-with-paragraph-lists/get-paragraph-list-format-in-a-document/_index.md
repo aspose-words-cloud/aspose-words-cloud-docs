@@ -21,7 +21,6 @@ This REST API allows you to Get Paragraph List Format in a Document. Please not
 ```java
 // Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
 // Place App_Key in "client_secret" and App_SID in "client_id" argument.
-
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
 -d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
@@ -29,7 +28,6 @@ curl -v "https://api.aspose.cloud/connect/token" \
 -H "Accept: application/json"
 
 // cURL example to get a list of sections
-
 curl -X GET "https://api.aspose.cloud/v4.0/words/ParagraphGetListFormat.doc/sections%2F0/paragraphs/1/listFormat"
 
 -H "Content-Type: application/json" \

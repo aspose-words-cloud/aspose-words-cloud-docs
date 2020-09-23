@@ -20,7 +20,6 @@ This REST API allows you to delete a table row.
 {{< tab tabNum="1" >}}
 ```java
 // Get App Key and App SID from https://dashboard.aspose.cloud/
-
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
 -d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
@@ -28,7 +27,6 @@ curl -v "https://api.aspose.cloud/connect/token" \
 -H "Accept: application/json"
 
 // cURL example to get a table row
-
 curl -v "https://api.aspose.cloud/v4.0/words/TablesGet.docx/tables/1/rows/0" \
 -X DELETE \
 -H "Content-Type: application/json" \

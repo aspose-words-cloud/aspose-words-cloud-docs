@@ -8,7 +8,9 @@ description: "Append Word documents in Python, C#, Java, Ruby, PHP, NodeJS, Go, 
 weight: 10
 ---
 
-Appending documents is a very common task and is fully supported in Aspose.Words Cloud. The API allows you to append a document or documents, specified in the **documentList** parameter, to the original resource document. The changes are saved in the original resource document if the **destFileName** parameter is missing.
+Appending documents is a very common task and is fully supported in Aspose.Words Cloud.
+
+The API allows you to append a document or documents, specified in the **documentList** parameter, to the original resource document. The changes are saved in the original resource document if the **destFileName** parameter is missing.
 
 The description of the important API parameters is given below:
 
@@ -23,16 +25,15 @@ The description of the important API parameters is given below:
 
 ## cURL Example
 
-**Input Documents: [**test_doc.docx](attachments/885186/1180117.docx), [**test_multi_pages.docx](attachments/885186/1180118.docx)**
+Input Documents: [test_doc.docx](attachments/885186/1180117.docx), [test_multi_pages.docx](attachments/885186/1180118.docx)
 
-**Output Document: [**test_doc_output.docx](attachments/885186/1180114.docx)**
+Output Document: [test_doc_output.docx](attachments/885186/1180114.docx)
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
 ```java
 // Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
 // Place App_Key in "client_secret" and App_SID in "client_id" argument.
-
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
 -d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
@@ -40,7 +41,6 @@ curl -v "https://api.aspose.cloud/connect/token" \
 -H "Accept: application/json"
 
 // cURL example to append a document
-
 curl -v "https://api.aspose.cloud/v4.0/words/test_doc.docx/appendDocument" \
 -X PUT \
 -d "{'DocumentEntries':[{'Href':'test_multi_pages.docx', 'ImportFormatMode':'KeepSourceFormatting'}]}" \

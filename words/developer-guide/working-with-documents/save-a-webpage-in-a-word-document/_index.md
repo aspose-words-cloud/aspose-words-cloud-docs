@@ -25,7 +25,6 @@ Please check [Convert Document to Destination Format with Detailed Settings and 
 ```java
 // Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
 // Place App_Key in "client_secret" and App_SID in "client_id" argument.
-
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
 -d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
@@ -33,7 +32,6 @@ curl -v "https://api.aspose.cloud/connect/token" \
 -H "Accept: application/json"
 
 // cURL example to load web page and save it to doc format
-
 curl -v "https://api.aspose.cloud/v4.0/words/loadWebDocument" \
 -X PUT \
 -d "{ 'LoadingDocumentUrl': 'https://www.le.ac.uk/oerresources/bdra/html/page_09.htm', 'SaveOptions': { 'SaveFormat': 'docx', 'FileName': 'HTMLDocument.docx', 'SaveRoutingSlip': true } }" \
