@@ -79,7 +79,7 @@ The following are a few examples of using cURL:
 {{< tabs tabTotal="2" tabID="25" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
 
-```JAVA
+```bash
 # Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
 # Place App_Key in "client_secret" and App_SID in "client_id" argument.
 curl -v "https://api.aspose.cloud/connect/token" \
@@ -100,7 +100,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/saveAs" \
 {{< /tab >}}
 {{< tab tabNum="2" >}}
 
-```JAVA
+```json
 {
   "SaveResult": {
     "SourceDocument": {

@@ -1,5 +1,6 @@
 ---
-title: "Files and Storage in Aspose Cloud"
+title: "Files and Storage"
+second_title: "Aspose Words Cloud"
 type: docs
 url: /files-and-storage/
 aliases: [/working-with-files-and-storage-using-aspose-words-cloud/]
@@ -25,11 +26,11 @@ The following are a few examples of using cURL:
 
 **Create Request Token**
 
-```JAVA
+```bash
 curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=[]&client_secret=[]" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
 ```
 
-```JAVA
+```bash
 curl  -v -X GET "https://api.aspose.cloud/v4.0/words/storage/file/sample.docx" -H "Content-Type: application/json" -H "Authorization: Bearer 
 
 [Access Token]
@@ -54,18 +55,25 @@ The following are a few examples of using cURL:
 
 **Create Request Token**
 
-```JAVA
-curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=[]&client_secret=[]" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
-```
+```bash
+# Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
+# Place App_Key in "client_secret" and App_SID in "client_id" argument.
+curl -v "https://api.aspose.cloud/connect/token" \
+-X POST \
+-d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
+-H "Content-Type: application/x-www-form-urlencoded" \
+-H "Accept: application/json"
 
-```JAVA
-curl  -v -X PUT "https://api.aspose.cloud/v4.0/words/storage/file/sample.docx" -H "Content-Type:application/octet-stream" -H "Authorization: Bearer [Access Token]
+curl  -v -X PUT "https://api.aspose.cloud/v4.0/words/storage/file/sample.docx" \
+-H "Content-Type:application/octet-stream" \
+-H "Accept: application/json" \
+-H "Authorization: Bearer <jwt token>"
 ```
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
 
-```JAVA
+```json
 {
    "uploaded":[
       "sample.docx"
@@ -95,12 +103,18 @@ The following are a few examples of using cURL:
 
 **Create Request Token**
 
-```JAVA
-curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=[]&client_secret=[]" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
-```
+```bash
+# Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
+# Place App_Key in "client_secret" and App_SID in "client_id" argument.
+curl -v "https://api.aspose.cloud/connect/token" \
+-X POST \
+-d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
+-H "Content-Type: application/x-www-form-urlencoded" \
+-H "Accept: application/json"
 
-```JAVA
-curl -v -X PUT "https://api.aspose.cloud/v4.0/words/storage/file/copy/sample.docx/%2F?destPath=MyFolder" -H "Content-Type:application/json" -H "Authorization: Bearer [Access Token]
+curl -v -X PUT "https://api.aspose.cloud/v4.0/words/storage/file/copy/sample.docx/%2F?destPath=MyFolder" \
+-H "Accept: application/json" \
+-H "Authorization: Bearer <jwt token>"
 ```
 
 {{< /tab >}}
@@ -122,12 +136,19 @@ The following are a few examples of using cURL:
 
 **Create Request Token**
 
-```JAVA
-curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=[]&client_secret=[]" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
-```
+```bash
+# Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
+# Place App_Key in "client_secret" and App_SID in "client_id" argument.
+curl -v "https://api.aspose.cloud/connect/token" \
+-X POST \
+-d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
+-H "Content-Type: application/x-www-form-urlencoded" \
+-H "Accept: application/json"
 
-```JAVA
-curl -v -X PUT "https://api.aspose.cloud/v4.0/words/storage/file/move/input.docx/%2F?destPath=MyFolder" -H "Content-Type:application/json" -H "Authorization: Bearer [Access Token]
+curl -v -X PUT "https://api.aspose.cloud/v4.0/words/storage/file/move/input.docx/%2F?destPath=MyFolder" \
+-H "Content-Type:application/json" \
+-H "Accept: application/json" \
+-H "Authorization: Bearer <jwt token>"
 ```
 
 {{< /tab >}}
@@ -149,12 +170,19 @@ The following are a few examples of using cURL:
 
 **Create Request Token**
 
-```JAVA
-curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=[]&client_secret=[]" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
-```
+```bash
+# Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
+# Place App_Key in "client_secret" and App_SID in "client_id" argument.
+curl -v "https://api.aspose.cloud/connect/token" \
+-X POST \
+-d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
+-H "Content-Type: application/x-www-form-urlencoded" \
+-H "Accept: application/json"
 
-```JAVA
-curl -v -X DELETE "https://api.aspose.cloud/v4.0/words/storage/file/input.docx" -H "Content-Type:application/json" -H "Authorization: Bearer [Access Token]
+curl -v -X DELETE "https://api.aspose.cloud/v4.0/words/storage/file/input.docx" \
+-H "Content-Type:application/json" \
+-H "Accept: application/json" \
+-H "Authorization: Bearer <jwt token>"
 ```
 
 {{< /tab >}}

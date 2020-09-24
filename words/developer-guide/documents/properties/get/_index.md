@@ -25,7 +25,7 @@ The following are a few examples of using cURL:
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
 
-```JAVA
+```bash
 // Get App Key and App SID from https://dashboard.aspose.cloud/
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
@@ -44,7 +44,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentPrope
 {{< /tab >}}
 {{< tab tabNum="2" >}}
 
-```JAVA
+```json
 {
   "DocumentProperty": {
     "Name": "Author",
