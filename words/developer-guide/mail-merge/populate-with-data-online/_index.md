@@ -40,9 +40,9 @@ The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/MailMerge/
 
 The following are a few examples of using cURL.
 
-*Case 1: MailMerge Template**
+**Case 1**: MailMerge Template
 
-You can use a sample **Input Document** [SampleMailMergeTemplate.docx](attachments/884946/1180099.docx) and a sample **Mail Merge Data**: [SampleMailMergeTemplateData.txt](attachments/884946/1180097.txt). The **Output Document** would be as follows: [TestPostDocumentExecuteMailMerge.docx](attachments/884946/8028163.docx).
+You can use a sample **Input Document** [SampleMailMergeTemplate.docx](attachments/884946/1180099.docx) and a sample **Mail Merge Data** [SampleMailMergeTemplateData.txt](attachments/884946/1180097.txt). The **Output Document** would be as follows: [TestPostDocumentExecuteMailMerge.docx](attachments/884946/8028163.docx).
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
@@ -77,9 +77,9 @@ Output Document: TestPostDocumentExecuteMailMerge.docx
 {{< /tab >}}
 {{< /tabs >}}
 
-**Case 2: Mustache Template**
+**Case 2**: Mustache Template
 
-You can use a sample **Input Document** [TestExecuteTemplate.doc](attachments/884965/7209026.doc) and a sample **Mail Merge Data** [TestExecuteTemplateData.txt](attachments/884965/7209027.txt). The output would be as follows: **Output Document**: TestPostExecuteTemplate.docx.
+You can use a sample **Input Document** [TestExecuteTemplate.doc](attachments/884965/7209026.doc) and a sample **Mail Merge Data** [TestExecuteTemplateData.txt](attachments/884965/7209027.txt). The **Output Document** would be as follows: TestPostExecuteTemplate.docx.
 
 {{< tabs tabTotal="2" tabID="4" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}

@@ -27,9 +27,7 @@ The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Append/App
 
 The following are a few examples of using cURL.
 
-Input Documents: [test_doc.docx](attachments/885186/1180117.docx), [test_multi_pages.docx](attachments/885186/1180118.docx).
-
-Output Document: [test_doc_output.docx](attachments/885186/1180114.docx).
+You can use sample **Input Documents**: [test_doc.docx](attachments/885186/1180117.docx), [test_multi_pages.docx](attachments/885186/1180118.docx). The **Output Document** would be as follows: [test_doc_output.docx](attachments/885186/1180114.docx).
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}

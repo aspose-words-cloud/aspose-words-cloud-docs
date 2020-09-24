@@ -30,9 +30,7 @@ The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Compare/Co
 
 ## cURL Example
 
-The following are a few examples of using cURL.
-
-*Input Documents: [**compareTestDoc1.doc](attachments/885441/1180122.doc)**, [compareTestDoc2.doc](attachments/885441/1180121.doc).
+The following are a few examples of using cURL. You can use a sample **Input Documents**: [compareTestDoc1.doc](attachments/885441/1180122.doc), [compareTestDoc2.doc](attachments/885441/1180121.doc).
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}

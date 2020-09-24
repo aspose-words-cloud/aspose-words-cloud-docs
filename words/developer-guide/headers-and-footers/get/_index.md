@@ -25,7 +25,7 @@ The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/HeadersFoo
 
 The following are a few examples of using cURL.
 
-*Case 1: Get a Header or Footer in a Document**
+**Case 1**: Get a Header or Footer in a Document
 
 {{< tabs tabTotal="2" tabID="2" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
@@ -85,7 +85,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/HeadersFooters.doc/headersfooters/0
 {{< /tab >}}
 {{< /tabs >}}
 
-**Case 2: Get a Header or Footer in a Section**
+**Case 2**: Get a Header or Footer in a Section
 
 {{< tabs tabTotal="2" tabID="5" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}

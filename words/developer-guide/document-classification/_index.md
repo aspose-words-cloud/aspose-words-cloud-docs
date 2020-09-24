@@ -43,7 +43,7 @@ The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Classifica
 
 ## cURL Example
 
-The following are a few examples of using cURL. You can use a sample **Input Document**: [test_multi_pages.docx](attachments/884752/1180129.docx).
+The following are a few examples of using cURL. You can use a sample **Input Document** [test_multi_pages.docx](attachments/884752/1180129.docx).
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}

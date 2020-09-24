@@ -35,7 +35,7 @@ The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Fields/Del
 
 ## cURL Example
 
-The following are a few examples of using cURL. You can use a sample **Input Document**: [GetField.docx](attachments/885406/1180126.docx).
+The following are a few examples of using cURL. You can use a sample **Input Document** [GetField.docx](attachments/885406/1180126.docx).
 
 {{< tabs tabTotal="2" tabID="2" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
@@ -78,7 +78,7 @@ Using an SDK is the best way to speed up the development. An SDK takes care of l
 
 A set of short code examples, demonstrating how to use this REST API with various SDKs, is presented below:
 
-**Case 1: Delete Fields from a Document**
+**Case 1**: Delete Fields from a Document
 
 {{< tabs tabTotal="8" tabID="5" tabName1="C#" tabName2="Java" tabName3="Python" tabName4="Ruby" tabName5="Node.js" tabName6="Android" tabName7="Swift" tabName8="Go" >}}
 {{< tab tabNum="1" >}}
@@ -107,7 +107,7 @@ A set of short code examples, demonstrating how to use this REST API with variou
 {{< /tab >}}
 {{< /tabs >}}
 
-**Case 2: Delete Fields from a Section**
+**Case 2**: Delete Fields from a Section
 
 {{< tabs tabTotal="4" tabID="6" tabName1="C#" tabName2="Android" tabName3="Swift" tabName4="Go" >}}
 {{< tab tabNum="1" >}}
@@ -124,7 +124,7 @@ A set of short code examples, demonstrating how to use this REST API with variou
 {{< /tab >}}
 {{< /tabs >}}
 
-**Case 3: Delete Fields from a Paragraph**
+**Case 3**: Delete Fields from a Paragraph
 
 {{< tabs tabTotal="3" tabID="7" tabName1="C#" tabName2="Android" tabName3="Swift" >}}
 {{< tab tabNum="1" >}}

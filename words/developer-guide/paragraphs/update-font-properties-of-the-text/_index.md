@@ -69,9 +69,7 @@ This article explains how to format the text. Using [PUT /words/{name}/{paragrap
 
 The following are a few examples of using cURL.
 
-Input Document: [SampleWordDocument.docx](attachments/885279/1180112.docx).
-
-Output Document: [ResultWordDocument.docx](attachments/885279/1180113.docx).
+You can use a sample **Input Document** [SampleWordDocument.docx](attachments/885279/1180112.docx). The **Output Document** would be as follows: [ResultWordDocument.docx](attachments/885279/1180113.docx).
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}

@@ -43,7 +43,7 @@ The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Convert/Sa
 
 ## cURL Example
 
-The following are a few examples of using cURL. You can use a sample **Input Document**: [2019_new_demo.pdf](attachments/885287/8028167.pdf). The **Output Document** would be as follows: [2019_new_demo Out.docx](attachments/885287/8028168.docx).
+The following are a few examples of using cURL. You can use a sample **Input Document** [2019_new_demo.pdf](attachments/885287/8028167.pdf). The **Output Document** would be as follows: [2019_new_demo Out.docx](attachments/885287/8028168.docx).
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}

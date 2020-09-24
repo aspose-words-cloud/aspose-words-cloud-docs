@@ -19,7 +19,7 @@ The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Tables/Ins
 
 ## cURL Example
 
-The following are a few examples of using cURL. You can use a sample **Input Document**: [TablesGet.docx](attachments/885355/1180119.docx).
+The following are a few examples of using cURL. You can use a sample **Input Document** [TablesGet.docx](attachments/885355/1180119.docx).
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}

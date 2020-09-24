@@ -44,7 +44,7 @@ The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/MailMerge/
 
 The following are a few examples of using cURL.
 
-*Case 1: MailMerge Template**
+**Case 1**: MailMerge Template
 
 You can use a sample **Input Document** [SampleMailMergeTemplate.docx](attachments/884946/1180099.docx) and a sample **Mail Merge Data** [SampleMailMergeTemplateData.txt](attachments/884946/1180097.txt). The **Output Document** would be as follows: [TestPostDocumentExecuteMailMerge.docx](attachments/884946/8028164.docx).
 
@@ -248,7 +248,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleMailMergeTemplate.docx/MailMe
 {{< /tab >}}
 {{< /tabs >}}
 
-**Case 2: Mustache Template**
+**Case 2**: Mustache Template
 
 You can use a sample **Input Document** [TestExecuteTemplate.doc](attachments/884946/8028161.doc) and a sample **Mail Merge Data** [TestExecuteTemplateData.txt](attachments/884946/8028162.txt). The **Output Document** would be as follows: [TestPostExecuteTemplate.docx](attachments/884946/8028165.docx).
 

@@ -214,7 +214,7 @@ PNG File
 
 A set of short code examples, demonstrating how to use this REST API with various SDKs, is presented below:
 
-**Case 1: Renders Page to Specified Format**
+**Case 1**: Renders Page to Specified Format
 
 {{< tabs tabTotal="7" tabID="16" tabName1="C#" tabName2="Java" tabName3="Python" tabName4="Ruby" tabName5="Node.js" tabName6="Android" tabName7="Swift" >}}
 {{< tab tabNum="1" >}}
@@ -240,7 +240,7 @@ A set of short code examples, demonstrating how to use this REST API with variou
 {{< /tab >}}
 {{< /tabs >}}
 
-**Case 2: Renders Paragraph to Specified Format**
+**Case 2**: Renders Paragraph to Specified Format
 
 {{< tabs tabTotal="7" tabID="17" tabName1="C#" tabName2="Java" tabName3="Python" tabName4="Ruby" tabName5="Node.js" tabName6="Android" tabName7="Swift" >}}
 {{< tab tabNum="1" >}}
@@ -266,7 +266,7 @@ A set of short code examples, demonstrating how to use this REST API with variou
 {{< /tab >}}
 {{< /tabs >}}
 
-**Case 3: Renders Table to Specified Format**
+**Case 3**: Renders Table to Specified Format
 
 {{< tabs tabTotal="7" tabID="18" tabName1="C#" tabName2="Java" tabName3="Python" tabName4="Ruby" tabName5="Node.js" tabName6="Android" tabName7="Swift" >}}
 {{< tab tabNum="1" >}}
@@ -292,7 +292,7 @@ A set of short code examples, demonstrating how to use this REST API with variou
 {{< /tab >}}
 {{< /tabs >}}
 
-**Case 4: Renders Drawing Object to Specified Format**
+**Case 4**: Renders Drawing Object to Specified Format
 
 {{< tabs tabTotal="7" tabID="19" tabName1="C#" tabName2="Java" tabName3="Python" tabName4="Ruby" tabName5="Node.js" tabName6="Android" tabName7="Swift" >}}
 {{< tab tabNum="1" >}}
@@ -318,7 +318,7 @@ A set of short code examples, demonstrating how to use this REST API with variou
 {{< /tab >}}
 {{< /tabs >}}
 
-**Case 5: Renders Math Object to Specified Format**
+**Case 5**: Renders Math Object to Specified Format
 
 {{< tabs tabTotal="7" tabID="20" tabName1="C#" tabName2="Java" tabName3="Python" tabName4="Ruby" tabName5="Node.js" tabName6="Android" tabName7="Swift" >}}
 {{< tab tabNum="1" >}}
