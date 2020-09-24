@@ -13,12 +13,12 @@ This REST API allows you to add run to paragraph. The API returns added run data
 ```JAVA
 ~/{file-name}/{paragraphPath}/runs/
 ```
+, where:
+- *{file-name}* is a filename of a document.
+- *{paragraphPath}* is a path to a paragraph in a document:
+  - *paragraphs/{paragraphIndex}* - references a paragraph.
+  - *sections/{sectionIndex}/paragraphs/{paragraphIndex}* - references a paragraph within a section.
 
-*{file-name}* is the name of the Word document containing elements.
-*{paragraphPath}* is the path to specific paragraph in the document. Supported syntax:
-
-- *paragraphs/{paragraphIndex}* - references specific paragraph.
-- *sections/{sectionIndex}/paragraphs/{paragraphIndex}* - references specific paragraph within section.
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Runs/InsertRun) lets you call this REST API directly from a browser.
 
 ## cURL Example

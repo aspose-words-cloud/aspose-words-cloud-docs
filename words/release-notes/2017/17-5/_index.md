@@ -12,17 +12,17 @@ The page contains release notes for Aspose.Words for Cloud update 17.5 – [API 
 
 Swagger notation was reworked to merge similar methods into one, making overall method list more consise. Specifically, the following variables are introduced into methods' paths (note that they are optional in some methods):
 
-- *\{nodePath\}* - specifies path to a node (section or paragraph). Sample syntaxes:
-  - *sections/\{sectionIndex\}* - references specific section
-  - *paragraphs/\{paragraphIndex\}* - references specific paragraph
-  - *sections/\{sectionIndex\}/paragraphs/\{paragraphIndex\}* - references specific paragraph within section.
-- *\{paragraphPath\}* - specifies path to a paragraph. Sample syntaxes:
-  - *paragraphs/\{paragraphIndex\}* - references specific paragraph
-  - *sections/\{sectionIndex\}/paragraphs/\{paragraphIndex\}* - references specific paragraph within section
-- *\{sectionPath\}* - specifies path to a section. Sample syntax:
-  - *sections/\{sectionIndex\}* - references specific section
-- *\{tablePath\}* - specifies path to a table. Sample syntax:
-  - *\{nodePath\}/tables/\{tableIndex\}* - references specific table in paragraph or section
+- *{nodePath}* - specifies path to a node (section or paragraph). Sample syntaxes:
+  - *sections/{sectionIndex}* - references specific section
+  - *paragraphs/{paragraphIndex}* - references specific paragraph
+  - *sections/{sectionIndex}/paragraphs/{paragraphIndex}* - references a paragraph within a section.
+- *{paragraphPath}* - specifies path to a paragraph. Sample syntaxes:
+  - *paragraphs/{paragraphIndex}* - references specific paragraph
+  - *sections/{sectionIndex}/paragraphs/{paragraphIndex}* - references specific paragraph within section
+- *{sectionPath}* - specifies path to a section. Sample syntax:
+  - *sections/{sectionIndex}* - references specific section
+- *{tablePath}* - specifies path to a table. Sample syntax:
+  - *{nodePath}/tables/{tableIndex}* - references specific table in paragraph or section
 
 Note that certain elements can be nested in cells or headersFooters, e.g. paragraph could be referenced by */sections/1/tables/1/rows/1/cells/1/paragraph/1*.
 

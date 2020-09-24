@@ -15,11 +15,12 @@ This REST API allows you to get a particular paragraph from a word document. The
 ~/{file-name}/sections/{sectionIndex}/paragraphs/{index}
 ~/{file-name}/sections/{sectionIndex}/headersFooters/{headerFooterIndex}/paragraphs/{index}
 ```
+, where:
+- *{file-name}* is a filename of a document.
+- *{sectionIndex}* is an index of a section.
+- *{headerFooterIndex}* is an index of a section, that contains headers and footers.
+- *{index}* is an index of a specific paragraph.
 
-*{file-name}* is the name of the Word document containing elements.
-*{sectionIndex}* is the index of a section that contains paragraphs.
-*{headerFooterIndex}* is the index of a section that contains headers and footers.
-*{index}* is the index of a specific paragraph.
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Paragraphs/GetParagraph) lets you call this REST API directly from a browser. 
 
 ## cURL Example

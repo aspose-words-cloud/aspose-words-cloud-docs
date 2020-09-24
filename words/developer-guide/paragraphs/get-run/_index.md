@@ -17,14 +17,13 @@ This REST API allows you to get one of the runs contained in the paragraph. The 
 ```JAVA
 ~/{file-name}/{paragraphPath}/runs/{index}
 ```
+, where:
+- *{file-name}* is a filename of a document.
+- *{paragraphPath}* is a path to a specific paragraph in a document:
+  - *paragraphs/{paragraphIndex}* - references a paragraph.
+  - *sections/{sectionIndex}/paragraphs/{paragraphIndex}* - references a paragraph within a section.
+- *{index}* is an index of a specific run.
 
-*{file-name}* is the name of the Word document containing elements.
-*{paragraphPath}* is the path to a specific paragraph in the document. Supported syntax:
-
-- *paragraphs/{paragraphIndex}* - references specific paragraph.
-- *sections/{sectionIndex}/paragraphs/{paragraphIndex}* - references specific paragraph within section.
-
-*{index}* is the index of a specific run.
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Runs/GetRun) lets you call this REST API directly from a browser. 
 
 ## cURL Example

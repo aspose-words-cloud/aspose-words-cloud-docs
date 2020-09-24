@@ -17,10 +17,11 @@ This REST API allows you to get all paragraphs that are contained in a document 
 
 ~/{file-name}/sections/{sectionIndex}/headersFooters/{headerFooterIndex}/paragraphs
 ```
+, where:
+- *{file-name}* is a filename of a document.
+- *{sectionIndex}* is an index of a section. If this syntax is used, only elements within the specified section are returned.
+- *{headerFooterIndex}* is an index of a section, that contains headers and footers. If this syntax is used, only elements within specified header/footer are returned.
 
-*{file-name}* is the name of the Word document containing elements.
-*{sectionIndex}* is the index of a section that contains paragraphs. If this syntax is used, only elements within the specified section are returned.
-*{headerFooterIndex}* is the index of a section that contains headers and footers. If this syntax is used, only elements within specified header/footer are returned.
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Paragraphs/GetParagraphs) lets you call this REST API directly from a browser.
 
 ## cURL Example

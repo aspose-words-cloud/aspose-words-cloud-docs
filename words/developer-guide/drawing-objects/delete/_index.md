@@ -16,15 +16,14 @@ The following URIs are used to address REST resources:
 ~/{file-name}/drawingObjects/{index}
 ~/{file-name}/{nodePath}/drawingObjects/{index}
 ```
+, where:
+- *{file-name}* is a filename of a document.
+- *{nodePath}* is a path to a node in a document. If this parameter is used, elements contained within a specified node will be processed:
+  - *sections/{sectionIndex}* - references a section.
+  - *paragraphs/{paragraphIndex}* - references a paragraph.
+  - *sections/{sectionIndex}/paragraphs/{paragraphIndex}* - references a paragraph within a section.
+- *{index}* is an index of a drawing object.
 
-*{file-name}* is the name of the Word document containing elements.
-*{nodePath}* is the path to a specific node in the document. If this URI is used, only elements contained within a specific node will be returned. Supported syntax:
-
-- *sections/{sectionIndex}* - references specific section.
-- *paragraphs/{paragraphIndex}* - references specific paragraph.
-- *sections/{sectionIndex}/paragraphs/{paragraphIndex}* - references specific paragraph within section.
-
-*{index}* is the index of the specific drawing object.
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/DrawingObjects/DeleteDrawingObject) lets you call this REST API directly from a browser. 
 
 ## cURL Example

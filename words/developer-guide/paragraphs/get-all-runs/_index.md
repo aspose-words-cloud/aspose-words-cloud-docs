@@ -13,12 +13,12 @@ This REST API allows you to get a list of all runs that are contained in the spe
 ```JAVA
 ~/{file-name}/{paragraphPath}/runs/
 ```
+, where:
+- *{file-name}* is a name of a document.
+- *{paragraphPath}* is a path to a paragraph in a document:
+  - *paragraphs/{paragraphIndex}* - references a paragraph.
+  - *sections/{sectionIndex}/paragraphs/{paragraphIndex}* - references a paragraph within section.
 
-*{file-name}* is the name of the Word document containing elements
-*{paragraphPath}* is the path to specific paragraph in the document. Supported syntax:
-
-- *paragraphs/{paragraphIndex}* - references specific paragraph
-- *sections/{sectionIndex}/paragraphs/{paragraphIndex}* - references specific paragraph within section
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Runs/GetRuns) lets you call this REST API directly from a browser.
 
 ## cURL Example

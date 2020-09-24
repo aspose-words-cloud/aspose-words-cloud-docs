@@ -56,14 +56,13 @@ This REST API allows you to get the font of a run. The resource properties are t
 ```JAVA
 ~/{file-name}/{paragraphPath}/runs/{index}/font
 ```
+, where:
+- *{file-name}* is a filename of a document.
+- *{paragraphPath}* is a path to a specific paragraph in a document:
+  - *paragraphs/{paragraphIndex}* - references a paragraph.
+  - *sections/{sectionIndex}/paragraphs/{paragraphIndex}* - references a paragraph within a section.
+- *{index}* is an index of a run.
 
-*{file-name}* is the name of the Word document containing elements.
-*{paragraphPath}* is the path to a specific paragraph in the document. Supported syntax:
-
-- *paragraphs/{paragraphIndex}* - references specific paragraph.
-- *sections/{sectionIndex}/paragraphs/{paragraphIndex}* - references specific paragraph within section.
-
-*{index}* is the index of the specific run.
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Runs/GetRunFont) lets you call this REST API directly from a browser.
 
 ## cURL Example

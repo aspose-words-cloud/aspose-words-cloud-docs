@@ -10,16 +10,15 @@ This article explains how to format the text. Using [PUT /words/{name}/{paragrap
 
 ## REST API’s Resources
 
+```JAVA
 ~/{file-name}/{paragraphPath}/runs/{index}/font
-
-*{file-name}* is the name of the Word document containing elements.
-
-*{paragraphPath}* is the path to specific paragraph in the document. Supported syntax:
-
-- *paragraphs/{paragraphIndex}* - references specific paragraph.
-- *sections/{sectionIndex}/paragraphs/{paragraphIndex}* - references specific paragraph within section.
-
-*{index}* is the index of specific run.
+```
+, where:
+- *{file-name}* is a name of a document.
+- *{paragraphPath}* is a path to a paragraph in a document:
+  - *paragraphs/{paragraphIndex}* - references a paragraph.
+  - *sections/{sectionIndex}/paragraphs/{paragraphIndex}* - references a paragraph within a section.
+- *{index}* is an index of a run.
 
 ## Resource Properties
 

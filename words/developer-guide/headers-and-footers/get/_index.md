@@ -18,6 +18,7 @@ This REST API allows you to get a header/footer that is contained in a document.
 - *{file-name}* is the name of a Word document containing elements.
 - *{sectionIndex}* is the index of a section that contains headers and footers. If this syntax is used, only elements within a specified section are returned.
 - *{index}* is the index of specific header/footer.
+
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/HeadersFooters/GetHeaderFooter) lets you call this REST API directly from a browser. 
 
 ## cURL Example
