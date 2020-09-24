@@ -23,7 +23,7 @@ Converter currently supports the following features:
 - Images conversion
   - Semi-transparent images
   - Rotated images
-  - Inline images (images that go “inside” the text, being a logical part of text paragraph)
+  - Inline images (images that go "inside" the text, being a logical part of text paragraph)
 - Encrypted PDF files
 - Properly converts style and destination of hyperlinks, both to URLs and local files
 - Headers/footers detection for PDF conversion
@@ -35,7 +35,7 @@ The following limitations apply and will be addressed in future versions:
 - Multi-column text is not supported
 - Password-protected PDF documents are not supported
 
-**Note:** We support Python, C#, Java, Ruby, PHP, NodeJS, Go, Android, Swift so far you can find the sample code below in this page:
+**Note**: We support Python, C#, Java, Ruby, PHP, NodeJS, Go, Android, Swift so far you can find the sample code below in this page:
 
 ## REST API’s Resources
 
@@ -45,9 +45,9 @@ The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Convert/Sa
 
 The following are a few examples of using cURL:
 
-*Input Document:** [2019_new_demo.pdf](attachments/885287/8028167.pdf)
+**Input Document**: [2019_new_demo.pdf](attachments/885287/8028167.pdf)
 
-**Output Document:** [2019_new_demo Out.docx](attachments/885287/8028168.docx)
+**Output Document**: [2019_new_demo Out.docx](attachments/885287/8028168.docx)
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}

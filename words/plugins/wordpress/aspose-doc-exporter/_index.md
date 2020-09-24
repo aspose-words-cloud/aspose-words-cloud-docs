@@ -12,7 +12,7 @@ WordPress is a free open source blogging tool and a content management system (C
 
 ### Aspose DOC Exporter
 
-Aspose DOC Exporter exports posts into a Word document file (DOC/DOCX). Currently this plugin works as a bulk action of post or pages or any custom post type. The Aspose Doc Exporter Plugin for WordPress allows administrators to export post contents to Microsoft Word (DOC/DOCX) document. This module demonstrates the very powerful export feature provided by Aspose.Words. It adds a simple bulk action in the drop down “**Aspose Export to File**” and as soon as the bulk action is called, it exports all posts to a Microsoft Word (DOC/DOCX) document.
+Aspose DOC Exporter exports posts into a Word document file (DOC/DOCX). Currently this plugin works as a bulk action of post or pages or any custom post type. The Aspose Doc Exporter Plugin for WordPress allows administrators to export post contents to Microsoft Word (DOC/DOCX) document. This module demonstrates the very powerful export feature provided by Aspose.Words. It adds a simple bulk action in the drop down **Aspose Export to File** and as soon as the bulk action is called, it exports all posts to a Microsoft Word (DOC/DOCX) document.
 
 ## System Requirements and Supported Platforms
 
@@ -79,7 +79,7 @@ Once downloaded, please follow these steps to install the module to your WordPre
 
 - Log into your site as either Admin or another Supersuser level account.
 - Navigate to the **Plugin** menu and select **Add New**.
-- Type **Aspose Doc Exporter \*in the search box and click \*Search Plugin button. \*Or click the**Upload \*menu and choose the ZIP folder you downloaded from the locations above.
+- Type **Aspose Doc Exporter** in the search box and click **Search Plugin** button. Or click the **Upload** menu and choose the ZIP folder you downloaded from the locations above.
 - Click **Install Now**.
 - After installation, click **Settings** to see the configuration page.
 
@@ -97,7 +97,7 @@ Please follow these steps to get started:
 - Enter customised Label for "Post Comments" to appear in the exported file from configuration page.
 - Choose the desired Exported File Format i.e (Doc/Docx/Rtf/Txt/Odt/Dot/Dotx) from configuration page. 
 - Navigate to the page or posts which you want to export to selected format.
-- Select  the “Posts / Pages” you want to export and then select **Aspose Export to File** from **Bulk Actions**.
+- Select  the "Posts / Pages" you want to export and then select **Aspose Export to File** from **Bulk Actions**.
 - Click **Apply**.
    This exports all selected posts or pages with comments if enabled into selected export format and gives you link for downloading file.
 

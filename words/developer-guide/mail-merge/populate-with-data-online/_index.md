@@ -44,7 +44,7 @@ The following are a few examples of using cURL:
 
 **Mail Merge Data:** [SampleMailMergeTemplateData.txt](attachments/884946/1180097.txt)
 
-**Output Document:** [TestPostDocumentExecuteMailMerge.docx](attachments/884946/8028163.docx)
+**Output Document**: [TestPostDocumentExecuteMailMerge.docx](attachments/884946/8028163.docx)
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
@@ -85,7 +85,7 @@ Output Document: TestPostDocumentExecuteMailMerge.docx
 
 **Mail Merge Data:** [TestExecuteTemplateData.txt](attachments/884965/7209027.txt)
 
-**Output Document:** TestPostExecuteTemplate.docx
+**Output Document**: TestPostExecuteTemplate.docx
 
 {{< tabs tabTotal="2" tabID="4" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}

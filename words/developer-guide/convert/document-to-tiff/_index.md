@@ -18,9 +18,9 @@ The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Convert/Sa
 
 The following are a few examples of using cURL:
 
-*Input Document:** [test_multi_pages.docx](attachments/885301/1180092.docx) 
+**Input Document**: [test_multi_pages.docx](attachments/885301/1180092.docx) 
 
-**Output Document:** [abc.tiff](attachments/885301/1180091.tiff)** 
+**Output Document**: [abc.tiff](attachments/885301/1180091.tiff)** 
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}

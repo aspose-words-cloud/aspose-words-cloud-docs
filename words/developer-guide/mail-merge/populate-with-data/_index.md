@@ -46,7 +46,7 @@ The following are a few examples of using cURL:
 
 **Mail Merge Data:** [SampleMailMergeTemplateData.txt](attachments/884946/1180097.txt)
 
-**Output Document:** [TestPostDocumentExecuteMailMerge.docx](attachments/884946/8028164.docx)
+**Output Document**: [TestPostDocumentExecuteMailMerge.docx](attachments/884946/8028164.docx)
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
@@ -254,7 +254,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleMailMergeTemplate.docx/MailMe
 
 **Mail Merge Data:** [TestExecuteTemplateData.txt](attachments/884946/8028162.txt)** 
 
-**Output Document:** [TestPostExecuteTemplate.docx](attachments/884946/8028165.docx)
+**Output Document**: [TestPostExecuteTemplate.docx](attachments/884946/8028165.docx)
 
 {{< tabs tabTotal="2" tabID="4" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}

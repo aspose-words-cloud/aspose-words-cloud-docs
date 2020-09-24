@@ -84,7 +84,7 @@ Once downloaded, please follow these steps to install the module to your WordPre
 
 - Log into your site as either Admin or another Super user level account.
 - Navigate to the **Plugin** menu and select **Add New**.
-- Type \*Aspose Importer Exporter \*in the search box and click \*Search Plugin button. \*Or click the \*Upload \*menu and choose the ZIP folder you downloaded from the locations above.
+- Type **Aspose Importer Exporter** in the search box and click **Search Plugin** button. Or click the **Upload** menu and choose the ZIP folder you downloaded from the locations above.
 - Click **Install Now**.
 - After installation, click **Settings** to see the configuration page.
 
@@ -99,15 +99,15 @@ Please follow these steps to get started:
 ### Using Import Features of Plugin
 
 - Navigate to the page or posts where you want to import contents from the File using Aspose Importer / Exporter Plugin.
-- Click the \*Aspose File Importer \*button.
-- Click **Select File**. **\*It will show WordPress Media Gallery on popup. Either upload a pdf/doc/docx file or choose from the \*Media Library**.
+- Click the **Aspose File Importer** button.
+- Click **Select File**. It will show WordPress Media Gallery on popup. Either upload a pdf/doc/docx file or choose from the **Media Library**.
 - Click the **Use this file for Importing** button.
-- Click the \*Insert File to Editor \*button. It will insert the text from pdf/doc/docx file to Editor.
+- Click the **Insert File to Editor** button. It will insert the text from pdf/doc/docx file to Editor.
 
 ### Using Export Features of Plugin
 
 - Navigate to the page or posts which you want to export.
-- Select  the “Posts / Pages” you want to export and then select either **Aspose Export to DOC**or **Aspose Export to PDF** from **Bulk Actions**.
+- Select  the "Posts / Pages" you want to export and then select either **Aspose Export to DOC**or **Aspose Export to PDF** from **Bulk Actions**.
 - Click **Apply**.
    This exports all selected posts or pages into selected document format and gives you link for downloading the file.
 

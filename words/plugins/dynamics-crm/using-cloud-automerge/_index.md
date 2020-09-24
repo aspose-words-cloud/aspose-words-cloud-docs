@@ -35,7 +35,7 @@ This section shows how Aspose .NET AutoMerge can be used with a workflow.
 - Open Settings -> Processes within CRM and hit New.
 - Enter Name and Entity and select category as Workflow. (Make sure your template is designed for the same entity you have selected..png)
 - Use the window to create your own workflow.
-- If you want to use “Aspose AutoMerge” functionality Go to Add Step – > Aspose AutoMerge
+- If you want to use "Aspose AutoMerge" functionality Go to Add Step – > Aspose AutoMerge
 
 ![todo:image_alt_text](using-cloud-automerge-for-dynamics-crm_5.png)
 

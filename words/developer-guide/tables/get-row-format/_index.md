@@ -23,7 +23,7 @@ The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Tables/Get
 
 The following are a few examples of using cURL:
 
-*Input Document:** [TablesGet.docx](attachments/885355/1180119.docx)
+**Input Document**: [TablesGet.docx](attachments/885355/1180119.docx)
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}

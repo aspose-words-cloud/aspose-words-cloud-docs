@@ -28,10 +28,10 @@ The [Taxonomy (general)](https://en.wikipedia.org/wiki/Taxonomy_\(general\)) i
 
 The most important parameters are:
 
-- **Parameter Name:** bestClassesCount
-- **Description:** Count of top classes for the target text
-- **Parameter Name:** taxonomy
-- **Description:** Taxonomy to classify with. If the field is empty or "default" then IAB-2 taxonomy will be used. Documents taxonomy will be used in other cases.
+- **Parameter Name**: bestClassesCount
+- **Description**: Count of top classes for the target text
+- **Parameter Name**: taxonomy
+- **Description**: Taxonomy to classify with. If the field is empty or "default" then IAB-2 taxonomy will be used. Documents taxonomy will be used in other cases.
 
 Document classification supports classifying documents stored on Aspose Storage or any of [the supported storage](https://docs.aspose.cloud/display/storagecloud/How+to+Configure+3rd+Party+Cloud+Storages). API supports all document formats [supported by other Aspose.Words Cloud methods](https://products.aspose.cloud/words/cloud), including PDF which will be implicitly [converted to Word format](/convert-pdf-document-to-word/).
 
@@ -45,7 +45,7 @@ The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Classifica
 
 The following are a few examples of using cURL:
 
-*Input Document:** [test_multi_pages.docx](attachments/884752/1180129.docx)
+**Input Document**: [test_multi_pages.docx](attachments/884752/1180129.docx)
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}

@@ -63,9 +63,9 @@ The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Convert/Co
 
 The following are a few examples of using cURL:
 
-*Input Document:** [TableDocument.doc](attachments/885335/1180089.doc)
+**Input Document**: [TableDocument.doc](attachments/885335/1180089.doc)
 
-**Output Document:** [TableDocument.pdf](attachments/885335/1180090.pdf)** 
+**Output Document**: [TableDocument.pdf](attachments/885335/1180090.pdf)** 
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}

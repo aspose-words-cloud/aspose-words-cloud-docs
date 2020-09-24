@@ -12,7 +12,7 @@ WordPress is a free open source blogging tool and a content management system (C
 
 ### Aspose Cloud eBook Generator
 
-Aspose Cloud eBook Generator Plugin for WordPress allows authors to create eBooks of their blog posts, articles, pages without requiring Microsoft Office. This module demonstrates very powerful conversion & other features provided by Aspose.Words. It adds a new page on the menu named as **“Aspose Cloud eBook Generator”** . Author / Users selects post type, from when, and which category to include in eBook and selects format type of the eBook and click on \*“Generate eBook” \*button. As soon as the button is clicked, it generates eBook to the desired format.
+Aspose Cloud eBook Generator Plugin for WordPress allows authors to create eBooks of their blog posts, articles, pages without requiring Microsoft Office. This module demonstrates very powerful conversion & other features provided by Aspose.Words. It adds a new page on the menu named as **Aspose Cloud eBook Generator** . Author / Users selects post type, from when, and which category to include in eBook and selects format type of the eBook and click on \*"Generate eBook" \*button. As soon as the button is clicked, it generates eBook to the desired format.
 
 ## System Requirements and Supported Platforms
 
@@ -79,7 +79,7 @@ Once downloaded, please follow these steps to install the module to your WordPre
 
 - Log into your site as either Admin or another Super user level account.
 - Navigate to the **Plugin** menu and select **Add New**.
-- Type \*Aspose Cloud eBook Generator \*in the search box and click \*Search Plugin button. \*Or click the \*Upload \*menu and choose the ZIP folder you downloaded from the locations above.
+- Type **Aspose Cloud eBook Generator** in the search box and click **Search Plugin** button. Or click the **Upload** menu and choose the ZIP folder you downloaded from the locations above.
 - Click **Install Now**.
 - After installation, click **Settings** to see the configuration page.
 
@@ -92,10 +92,10 @@ Please follow these steps to get started:
 
 - Make sure you are logged-in to a WordPress site as Admin level account.
 - Make sure you have set up Aspose App Key & Id on the plugin configuration page. For further details on how to get app keys,  [click here ](http://www.aspose.com/docs/display/totalcloud/Creating+a+New+App+and+Getting+App+Key).  .
-- Navigate to the page “Aspose Cloud eBook Generator” from the admin left menu.
+- Navigate to the page "Aspose Cloud eBook Generator" from the admin left menu.
 - Select Posts Types, Categories, Authors and date range of blog posts which needs to be included in the eBook
 - Add Book Details like name, author, title, introduction, copy right etc.
-- Select eBook Format in which eBook needs to be generated like epub, docx, pdf and click “Generate eBook” button. It will give you link to download the eBook.
+- Select eBook Format in which eBook needs to be generated like epub, docx, pdf and click "Generate eBook" button. It will give you link to download the eBook.
 
 ### Video Demo
 
@@ -108,10 +108,10 @@ Please follow these steps to get started:
 
 - Make sure you are logged-in to a WordPress site as Admin level account.
 - Make sure you have set up Aspose App Key & Id on the plugin configuration page. For further details on how to get app keys,  [click here ](http://www.aspose.com/docs/display/totalcloud/Creating+a+New+App+and+Getting+App+Key).  .
-- Navigate to the page “Aspose Cloud eBook Generator” from the admin left menu.
+- Navigate to the page "Aspose Cloud eBook Generator" from the admin left menu.
 - Select Posts Types, Categories, Authors and date range of blog posts which needs to be included in the eBook
 - Add Book Details like name, author, title, introduction, copy right etc.
-- Select eBook Format in which eBook needs to be generated like epub, docx, pdf and click “Generate eBook” button. It will give you link to download the eBook.
+- Select eBook Format in which eBook needs to be generated like epub, docx, pdf and click "Generate eBook" button. It will give you link to download the eBook.
 
 Video
 

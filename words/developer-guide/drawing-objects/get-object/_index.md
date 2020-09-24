@@ -43,7 +43,7 @@ The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/DrawingObj
 
 The following are a few examples of using cURL:
 
-*Input Document:** [test_multi_pages.docx](attachments/885442/1180124.docx)
+**Input Document**: [test_multi_pages.docx](attachments/885442/1180124.docx)
 
 **Output File:** [drawingObject.png](attachments/885442/1180123.png)
 

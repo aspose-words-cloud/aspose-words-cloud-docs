@@ -38,7 +38,7 @@ The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Fields/Del
 
 The following are a few examples of using cURL:
 
-*Input Document:** [GetField.docx](attachments/885406/1180126.docx)
+**Input Document**: [GetField.docx](attachments/885406/1180126.docx)
 
 {{< tabs tabTotal="2" tabID="2" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
