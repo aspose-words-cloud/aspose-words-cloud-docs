@@ -24,7 +24,7 @@ Our Aspose.Words REST APIs comes with many features crucial to organizations, su
 - Password protect Word documents or update document protection.
 - Execute Mail Merge operations.
 
-## Boost the Development Process with Aspose Words Cloud SDK Family
+Cloud SDK Family
 
 Using an SDK (API client) is the quickest way for a developer to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks.
 

@@ -107,7 +107,7 @@ Please follow these steps to get started:
 ### Using Export Features of Plugin
 
 - Navigate to the page or posts which you want to export.
-- Select  the "Posts / Pages" you want to export and then select either **Aspose Export to DOC**or **Aspose Export to PDF** from **Bulk Actions**.
+- Select  the "Posts / Pages" you want to export and then select either **Aspose Export to DOC** or **Aspose Export to PDF** from **Bulk Actions**.
 - Click **Apply**.
    This exports all selected posts or pages into selected document format and gives you link for downloading the file.
 

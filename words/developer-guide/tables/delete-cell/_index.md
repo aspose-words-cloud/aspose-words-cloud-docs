@@ -50,7 +50,8 @@ curl -v "https://api.aspose.cloud/v4.0/words/TablesGet.docx/tables/1/rows/0/cell
 
 {{< /tab >}}
 {{< /tabs >}}
-## SDK Source
+
+## Cloud SDK Family
 
 Using an SDK (API client) is the quickest way for a developer to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Please check out the [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs.
 

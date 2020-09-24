@@ -209,6 +209,7 @@ PNG File
 
 {{< /tab >}}
 {{< /tabs >}}
+
 ## SDK Examples
 
 A set of short code examples, demonstrating how to use this REST API with various SDKs, is presented below:

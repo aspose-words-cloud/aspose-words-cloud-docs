@@ -14,7 +14,7 @@ Using an SDK (API client) is the quickest way to speed up the development. An SD
 
 Our supported SDKs are 100% tested. They are open source and released to the public under the MIT License. You can use them absolutely free of charge.
 
-## Boost the Development Process with Aspose Words Cloud SDK Family
+Cloud SDK Family
 
 {{< tabs tabTotal="8" tabID="1" tabName1=".NET" tabName2="C++" tabName3="Java" tabName4="PHP" tabName5="Ruby" tabName6="Python" tabName7="Node.js" tabName8="Android" >}}
 {{< tab tabNum="1" >}}
