@@ -36,7 +36,7 @@ The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Fields/Get
 
 ## cURL Example
 
-The following are a few examples of using cURL. You can use a sample **Input Document** [GetField.docx](attachments/885406/1180126.docx).
+The following are a few examples of using cURL. You can use a sample **Input Document** [GetField.docx](/words/attachments/885406/1180126.docx).
 
 {{< tabs tabTotal="2" tabID="2" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}

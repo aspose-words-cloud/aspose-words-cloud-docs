@@ -19,7 +19,7 @@ The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Bookmarks/
 
 The following are a few examples of using cURL.
 
-Below cURL example shows how to obtain bookmarks from a bookmark collection. You can download a template file of this example from [here](attachments/885272/1180120.docx).
+Below cURL example shows how to obtain bookmarks from a bookmark collection. You can download a template file of this example from [here](/words/attachments/885272/1180120.docx).
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}

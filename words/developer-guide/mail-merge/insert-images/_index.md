@@ -15,7 +15,7 @@ The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/MailMerge/
 
 ## cURL Example
 
-You can use a sample **Input Document** [TestMailMergeWithImages.doc](attachments/885365/1180101.doc) and **Mail Merge Data** [MailMergeData.txt](attachments/885365/1180104.txt). The **Output Document** would be as follows: [TestMailMergeWithImages_Out.docx](attachments/885365/1180103.docx).
+You can use a sample **Input Document** [TestMailMergeWithImages.doc](/words/attachments/885365/1180101.doc) and **Mail Merge Data** [MailMergeData.txt](/words/attachments/885365/1180104.txt). The **Output Document** would be as follows: [TestMailMergeWithImages_Out.docx](/words/attachments/885365/1180103.docx).
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
