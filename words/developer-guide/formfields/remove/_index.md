@@ -3,7 +3,7 @@ title: "Remove Form Field from Document"
 type: docs
 url: /formfields/remove/
 aliases: [/remove-form-field-from-document/]
-weight: 50
+weight: 40
 ---
 
 This REST API allows you to remove form field from a document.

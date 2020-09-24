@@ -1,9 +1,10 @@
 ---
-title: "Get a Header or Footer in a Document"
+title: "Get"
+second_title: "Headers and Footers in a Document"
 type: docs
 url: /headers-and-footers/get/
 aliases: [/get-a-header-or-footer-in-a-document/]
-weight: 20
+weight: 40
 ---
 
 This REST API allows you to get a header/footer that is contained in a document.

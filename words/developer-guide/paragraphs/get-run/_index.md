@@ -1,9 +1,10 @@
 ---
-title: "Get a Run in the Paragraph"
+title: "Get Run"
+second_title: "Paragraphs in a Document"
 type: docs
 url: /paragraphs/get-run/
 aliases: [/get-a-run-in-the-paragraph/]
-weight: 100
+weight: 80
 ---
 
 This REST API allows you to get one of the runs contained in the paragraph. The resource properties are the following:

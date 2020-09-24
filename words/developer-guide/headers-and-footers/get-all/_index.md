@@ -1,9 +1,10 @@
 ---
-title: "Get all Header and Footers in a Document"
+title: "Get all"
+second_title: "Headers and Footers in a Document"
 type: docs
 url: /headers-and-footers/get-all/
 aliases: [/get-all-header-and-footers-in-a-document/]
-weight: 10
+weight: 50
 ---
 
 This REST API allows you to get all Headers and Footers that are contained in a document.

@@ -3,7 +3,7 @@ title: "Get a Particular Document Property"
 type: docs
 url: /documents/properties/get/
 aliases: [/get-a-particular-document-property/]
-weight: 20
+weight: 30
 ---
 
 This REST API allows you to read a particular document property info by the property name. The details of resource properties are given below:

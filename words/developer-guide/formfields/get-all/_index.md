@@ -3,7 +3,7 @@ title: "Get Form Fields from Document"
 type: docs
 url: /formfields/get-all/
 aliases: [/get-form-fields-from-document/]
-weight: 10
+weight: 20
 ---
 
 This REST API allows you to get form fields from a document or specific section/paragraph.

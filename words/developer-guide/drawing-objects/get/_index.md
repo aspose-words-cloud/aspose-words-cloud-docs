@@ -1,9 +1,10 @@
 ---
-title: "Get a Particular Drawing Object"
+title: "Get"
+second_title: "Drawing Objects in a Word Document"
 type: docs
-url: /drawing-objects/get-object/
+url: /drawing-objects/get/
 aliases: [/get-a-particular-drawing-object/]
-weight: 20
+weight: 30
 ---
 
 This REST API allows you to get a particular drawing object from the document. You can also convert a drawing object to a specified format. Moreover, the detail of resource properties are given below:

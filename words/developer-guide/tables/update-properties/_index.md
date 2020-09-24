@@ -3,7 +3,7 @@ title: "Update Table Properties"
 type: docs
 url: /tables/update-properties/
 aliases: [/update-table-properties/]
-weight: 60
+weight: 210
 ---
 
 This REST API allows you to update table properties and returns updated data in XML/JSON format. The description of the important table properties is given below:

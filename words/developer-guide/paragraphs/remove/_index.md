@@ -1,9 +1,10 @@
 ---
-title: "Remove Paragraph from Document"
+title: "Remove"
+second_title: "Paragraphs in a Document"
 type: docs
 url: /paragraphs/remove/
 aliases: [/remove-paragraph-from-document/]
-weight: 40
+weight: 90
 ---
 
 This REST API allows you to remove a paragraph from the document.

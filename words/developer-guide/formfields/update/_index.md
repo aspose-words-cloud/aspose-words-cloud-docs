@@ -3,7 +3,7 @@ title: "Update Properties of a Form Field"
 type: docs
 url: /formfields/update/
 aliases: [/update-properties-of-a-form-field/]
-weight: 40
+weight: 50
 ---
 
 This REST API allows you to update properties of a form field, returns updated form field data in XML/JSON format. The resource properties are:

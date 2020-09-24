@@ -1,9 +1,10 @@
 ---
-title: "Delete Field From Document"
+title: "Delete"
+second_title: "Fields in a Document"
 type: docs
 url: /fields/delete/
 aliases: [/delete-field-from-document/]
-weight: 70
+weight: 20
 ---
 
 This REST API allows you to delete a field from a document, section or paragraph.

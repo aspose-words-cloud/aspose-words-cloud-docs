@@ -1,9 +1,10 @@
 ---
-title: "Delete Drawing Object From Document"
+title: "Delete"
+second_title: "Drawing Objects in a Word Document"
 type: docs
 url: /drawing-objects/delete/
 aliases: [/delete-drawing-object-from-document/]
-weight: 50
+weight: 20
 ---
 
 This REST API allows you to delete a drawing object from the document.

@@ -1,9 +1,10 @@
 ---
 title: "Update Font Properties"
+second_title: "Paragraphs in a Document"
 type: docs
 url: /paragraphs/update-font-properties/
 aliases: [/update-font-properties/]
-weight: 140
+weight: 110
 ---
 
 This REST API allows you to update font properties. The API returns updated font data in XML/JSON format. The resource properties are the following:

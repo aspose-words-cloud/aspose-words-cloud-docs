@@ -3,7 +3,7 @@ title: "Add Cell to Table Row"
 type: docs
 url: /tables/add-cell/
 aliases: [/add-cell-to-table-row/]
-weight: 140
+weight: 20
 ---
 
 This REST API allows you to add a cell to a table row. The description of important API parameters is given below:

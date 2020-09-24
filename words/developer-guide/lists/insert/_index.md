@@ -1,11 +1,12 @@
 ---
-title: "Insert List in a Document"
+title: "Insert"
+second_title: "Lists in a Document"
 type: docs
 url: /lists/insert/
 aliases: [/insert-list-in-a-document/]
 keywords: "List of Sections,get sections,section break word,Section Break, Word, Microsoft Word, Word Documents,Java, .NET, PHP, Ruby, Python, NodeJS, Swift, Android ,Go"
 description: "This REST API allows you to insert a list in a document. Please note that the SDKs of this cloud API are available in Python, C#, Java, Ruby, PHP, Node.js, Android, Swift, and Go languages."
-weight: 10
+weight: 30
 ---
 
 This REST API allows you to insert a list in a document. Please note that the SDKs of this cloud API are available in *Python, C#, Java, Ruby, PHP, Node.js, Android, Swift,* and *Go* languages.

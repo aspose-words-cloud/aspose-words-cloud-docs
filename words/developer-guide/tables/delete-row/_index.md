@@ -3,7 +3,7 @@ title: "Delete a Table Row"
 type: docs
 url: /tables/delete-row/
 aliases: [/delete-a-table-row/]
-weight: 80
+weight: 60
 ---
 
 This REST API allows you to delete a table row.

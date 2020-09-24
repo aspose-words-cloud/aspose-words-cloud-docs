@@ -1,9 +1,10 @@
 ---
-title: "Update Paragraph Format Properties"
+title: "Update Properties"
+second_title: "Paragraphs in a Document"
 type: docs
 url: /paragraphs/update/
 aliases: [/update-paragraph-format-properties/]
-weight: 60
+weight: 130
 ---
 
 This REST API allows you to update paragraph page formatting properties. The API returns updated data in the XML/JSON format. The resource properties are:

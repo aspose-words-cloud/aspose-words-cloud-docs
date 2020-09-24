@@ -1,11 +1,11 @@
 ---
-title: "Document Classification"
+title: "Classification"
 type: docs
-url: /document-classification/
+url: /classification/
 aliases: [/document-classification/, /document-and-text-classification/]
 keywords: "Document Classification, Taxanomy, IAB-2 taxonomy, Document Taxonomy, Word, Microsoft Word, Java, .NET, PHP, Ruby, Python, NodeJS, Swift, Android ,Go"
 description: "The businesses are now receiving different kind of text-based documents. These documents might be brochures, emails, letters, support tickets and many more. It becomes more challenging when executives or any concerned people need an immediate insight from the all text-based documents. The organizations know well that their data should be accumulated categorically. Hence, they are creating taxonomies. When the data is indexed in a taxonomy, users can find what they actually required.The Taxonomy (general) is the practice and science of classification of things or concepts, including the principles that underlie such classification. In our case, this is a list of text categories. The Aspose.Words Cloud support two taxonomies for now: IAB-2 taxonomy: Documents taxonomy:ADVE - advertisements, brochuresEmailFormLetterMemo - memorandumsNews - articles, including news articlesInvoiceReportResumeScientific - scientific papersOther - the other classes of documents or cases where the classifier is not sure"
-weight: 40
+weight: 20
 ---
 
 The businesses are now receiving different kind of text-based documents. These documents might be brochures, emails, letters, support tickets and many more. It becomes more challenging when executives or any concerned people need an immediate insight from the all text-based documents. The organizations know well that their data should be accumulated categorically. Hence, they are creating taxonomies. When the data is indexed in a taxonomy, users can find what they actually required.

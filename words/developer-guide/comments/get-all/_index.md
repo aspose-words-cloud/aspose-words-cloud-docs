@@ -4,7 +4,7 @@ second_title: "Comments in a Word Document"
 type: docs
 url: /comments/get-all/
 aliases: [/get-all-comments-from-a-word-document/]
-weight: 10
+weight: 40
 ---
 
 The REST API allows you to get all comments from a Word Document.

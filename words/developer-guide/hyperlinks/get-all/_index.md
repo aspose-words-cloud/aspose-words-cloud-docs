@@ -1,5 +1,6 @@
 ---
-title: "Get all Hyperlinks from a Document"
+title: "Get all"
+second_title: "Hyperlinks in a Document"
 type: docs
 url: /hyperlinks/get-all/
 aliases: [/get-all-hyperlinks-from-a-document/]

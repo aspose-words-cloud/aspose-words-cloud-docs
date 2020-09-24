@@ -1,9 +1,10 @@
 ---
-title: "Get Image Data from a Drawing Object"
+title: "Get Image Data"
+second_title: "Drawing Objects in a Word Document"
 type: docs
 url: /drawing-objects/get-image-data/
 aliases: [/get-image-data-from-a-drawing-object/]
-weight: 60
+weight: 50
 ---
 
 This REST API allows you to get image data from a drawing object.

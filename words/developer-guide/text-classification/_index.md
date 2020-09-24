@@ -3,7 +3,7 @@ title: "Text Classification"
 type: docs
 url: /text-classification/
 aliases: [/text-classification/]
-weight: 41
+weight: 270
 ---
 
 Aspose.Words Cloud supports [text and document classification](https://en.wikipedia.org/wiki/Document_classification) into the [Interactive Advertising Bureau (IAB) taxonomy](https://www.iab.com/guidelines/taxonomy/) categories. Document classification is often used in various business processes to automate the flow of documents through the organization.

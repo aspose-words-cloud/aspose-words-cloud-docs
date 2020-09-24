@@ -3,7 +3,7 @@ title: "Get Representation of a Form Field"
 type: docs
 url: /formfields/get/
 aliases: [/get-representation-of-a-form-field/]
-weight: 20
+weight: 30
 ---
 
 This REST API allows you to get one of the form fields contained in the paragraph.

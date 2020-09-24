@@ -1,9 +1,10 @@
 ---
-title: "Get all Drawing Objects from a Word Document"
+title: "Get all"
+second_title: "Drawing Objects in a Word Document"
 type: docs
-url: /drawing-objects/get-all-objects/
+url: /drawing-objects/get-all/
 aliases: [/get-all-drawing-objects-from-a-word-document/]
-weight: 10
+weight: 40
 ---
 
 This REST API allows you to get all drawing objects that are defined in the document or in a specific element.

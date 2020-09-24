@@ -3,7 +3,7 @@ title: "Compare Documents"
 type: docs
 url: /documents/compare/
 aliases: [/compare-documents/]
-weight: 80
+weight: 10
 ---
 
 Try Online

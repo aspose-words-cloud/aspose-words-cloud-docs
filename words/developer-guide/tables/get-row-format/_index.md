@@ -3,7 +3,7 @@ title: "Get a Table Row Format"
 type: docs
 url: /tables/get-row-format/
 aliases: [/get-a-table-row-format/]
-weight: 100
+weight: 140
 ---
 
 This REST API allows you to get a table row format properties. The description of important row properties is:

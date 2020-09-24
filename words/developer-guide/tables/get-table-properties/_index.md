@@ -3,7 +3,7 @@ title: "Get Table Properties"
 type: docs
 url: /tables/get-table-properties/
 aliases: [/get-table-properties/]
-weight: 50
+weight: 150
 ---
 
 This REST API allows you to get properties of a table. The description of the important table properties is given below:

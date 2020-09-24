@@ -1,9 +1,10 @@
 ---
-title: "Update a Drawing Object"
+title: "Update"
+second_title: "Drawing Objects in a Word Document"
 type: docs
 url: /drawing-objects/update/
 aliases: [/update-a-drawing-object/]
-weight: 40
+weight: 70
 ---
 
 This REST API allows you to update a drawing object in the Word document. The API returns updated object data in the XML/JSON format.

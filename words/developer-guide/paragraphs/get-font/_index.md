@@ -1,9 +1,10 @@
 ---
 title: "Get Font of Run"
+second_title: "Paragraphs in a Document"
 type: docs
 url: /paragraphs/get-font/
 aliases: [/get-font-of-run/]
-weight: 130
+weight: 70
 ---
 
 This REST API allows you to get the font of a run. The resource properties are the following:

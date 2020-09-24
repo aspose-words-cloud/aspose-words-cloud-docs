@@ -3,7 +3,7 @@ title: "Delete a Table Cell"
 type: docs
 url: /tables/delete-cell/
 aliases: [/delete-a-table-cell/]
-weight: 130
+weight: 40
 ---
 
 This REST API allows you to delete a table cell.

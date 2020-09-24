@@ -1,9 +1,10 @@
 ---
-title: "Get all Runs in the Paragraph"
+title: "Get all Runs"
+second_title: "Paragraphs in a Document"
 type: docs
 url: /paragraphs/get-all-runs/
 aliases: [/get-all-runs-in-the-paragraph/]
-weight: 80
+weight: 50
 ---
 
 This REST API allows you to get a list of all runs that are contained in the specific paragraph.

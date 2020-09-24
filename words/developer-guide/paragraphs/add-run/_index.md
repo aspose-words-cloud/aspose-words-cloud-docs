@@ -1,9 +1,10 @@
 ---
-title: "Add Run to Paragraph"
+title: "Add Run"
+second_title: "Paragraphs in a Document"
 type: docs
 url: /paragraphs/add-run/
 aliases: [/add-run-to-paragraph/]
-weight: 90
+weight: 20
 ---
 
 This REST API allows you to add run to paragraph. The API returns added run data in XML/JSON format.

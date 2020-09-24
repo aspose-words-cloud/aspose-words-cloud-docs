@@ -3,7 +3,7 @@ title: "Add New or Update Existing Document Property"
 type: docs
 url: /documents/properties/add-or-update/
 aliases: [/add-new-or-update-existing-document-property/]
-weight: 30
+weight: 10
 ---
 
 This REST API allows you to add new or update existing document property. The details of resource properties are given below:

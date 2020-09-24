@@ -1,9 +1,10 @@
 ---
-title: "Get a particular Paragraph from a Word Document"
+title: "Get"
+second_title: "Paragraphs in a Document"
 type: docs
 url: /paragraphs/get/
 aliases: [/get-a-particular-paragraph-from-a-word-document/]
-weight: 20
+weight: 30
 ---
 
 This REST API allows you to get a particular paragraph from a word document. The API returns a JSON/XML representation of one of the paragraphs.

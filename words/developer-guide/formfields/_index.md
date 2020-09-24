@@ -3,7 +3,7 @@ title: "FormFields"
 type: docs
 url: /formfields/
 aliases: [/working-with-formfields/]
-weight: 180
+weight: 110
 ---
 
 - [Get Form Fields from Document](/get-form-fields-from-document/).

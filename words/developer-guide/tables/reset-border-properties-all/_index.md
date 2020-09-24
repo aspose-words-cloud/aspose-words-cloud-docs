@@ -3,7 +3,7 @@ title: "Reset Borders Properties to Default Values"
 type: docs
 url: /tables/reset-border-properties-all/
 aliases: [/reset-borders-properties-to-default-values/]
-weight: 200
+weight: 170
 ---
 
 The REST API allows you to reset borders properties to default values.

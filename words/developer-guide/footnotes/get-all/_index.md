@@ -3,7 +3,7 @@ title: "Get Footnotes from Document"
 type: docs
 url: /footnotes/get-all/
 aliases: [/get-footnotes-from-document/]
-weight: 10
+weight: 30
 ---
 
 This REST API allows you to get a list of footnotes that are contained in the document.

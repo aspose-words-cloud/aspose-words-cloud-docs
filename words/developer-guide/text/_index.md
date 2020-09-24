@@ -3,7 +3,7 @@ title: "Text"
 type: docs
 url: /text/
 aliases: [/working-with-text/]
-weight: 150
+weight: 260
 ---
 
 - [Search Text in a Word Document](/search-text-in-a-word-document/).

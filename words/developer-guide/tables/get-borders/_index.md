@@ -3,7 +3,7 @@ title: "Get a List of Borders"
 type: docs
 url: /tables/get-borders/
 aliases: [/get-a-list-of-borders/]
-weight: 170
+weight: 80
 ---
 
 The REST API allows you to get a list of borders.

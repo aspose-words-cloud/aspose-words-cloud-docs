@@ -3,7 +3,7 @@ title: "Update a Table Row Format"
 type: docs
 url: /tables/update-row-format/
 aliases: [/update-a-table-row-format/]
-weight: 110
+weight: 190
 ---
 
 This REST API allows you to update a table row format properties. The description of important row properties is:

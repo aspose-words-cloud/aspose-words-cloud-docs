@@ -3,7 +3,7 @@ title: "Add Form Field to Paragraph"
 type: docs
 url: /formfields/add/
 aliases: [/add-form-field-to-paragraph/]
-weight: 30
+weight: 10
 ---
 
 This REST API allows you to add a form Field to a paragraph. The API returns added form field data in XML/JSON format. The resource properties are:

@@ -1,9 +1,10 @@
 ---
 title: "Update Font Properties of the Text"
+second_title: "Paragraphs in a Document"
 type: docs
 url: /paragraphs/update-font-properties-of-the-text/
 aliases: [/update-font-properties-of-the-text/]
-weight: 70
+weight: 120
 ---
 
 This article explains how to format the text. Using [PUT /words/{name}/{paragraphPath}/runs/{index}/font](https://apireference.aspose.cloud/words/#/Runs/UpdateRunFont) API you can update font properties of the text.

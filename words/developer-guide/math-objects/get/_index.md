@@ -3,7 +3,7 @@ title: "Get a OfficeMath Object from Document"
 type: docs
 url: /math-objects/get/
 aliases: [/get-a-officemath-object-from-document/]
-weight: 20
+weight: 10
 ---
 
 This REST API allows you to get one of the OfficeMath objects that are defined in the document. The Resource Properties are:

@@ -3,7 +3,7 @@ title: "Fields"
 type: docs
 url: /fields/
 aliases: [/working-with-fields/]
-weight: 160
+weight: 70
 ---
 
 - [Get all Fields from a Document](/get-all-fields-from-a-document/).

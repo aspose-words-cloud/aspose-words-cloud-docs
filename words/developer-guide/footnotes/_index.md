@@ -3,7 +3,7 @@ title: "Footnotes"
 type: docs
 url: /footnotes/
 aliases: [/working-with-footnotes/]
-weight: 80
+weight: 100
 ---
 
 - [Get Footnotes from Document](/get-footnotes-from-document/).

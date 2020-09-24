@@ -3,7 +3,7 @@ title: "Delete a Document Property"
 type: docs
 url: /documents/properties/delete/
 aliases: [/delete-a-document-property/]
-weight: 40
+weight: 20
 ---
 
 This REST API allows you to delete a document property. Built-In Document Property resources cannot be removed and return an HTTP 400 error response.

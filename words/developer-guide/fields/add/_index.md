@@ -1,9 +1,10 @@
 ---
-title: "Add Field to a Document"
+title: "Add"
+second_title: "Fields in a Document"
 type: docs
 url: /fields/add/
 aliases: [/add-field-to-a-document/]
-weight: 50
+weight: 10
 ---
 
 This REST API allows you to add a field to a document, section or paragraph. The API returns added field data in XML/JSON format. The request parameters are:

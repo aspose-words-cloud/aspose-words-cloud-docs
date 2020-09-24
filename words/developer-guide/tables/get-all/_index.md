@@ -3,7 +3,7 @@ title: "Get a List of Tables that are Contained in the Document"
 type: docs
 url: /tables/get-all/
 aliases: [/get-a-list-of-tables-that-are-contained-in-the-document/]
-weight: 10
+weight: 90
 ---
 
 This REST API allows you to get a list of all tables that are contained in the document.

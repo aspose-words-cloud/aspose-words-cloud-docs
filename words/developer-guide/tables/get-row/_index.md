@@ -3,7 +3,7 @@ title: "Get a Table Row"
 type: docs
 url: /tables/get-row/
 aliases: [/get-a-table-row/]
-weight: 70
+weight: 130
 ---
 
 This REST API allows you to get a table row. The API returns a JSON/XML representation of one of the table rows.

@@ -1,9 +1,10 @@
 ---
-title: "Get all the Formatting for a Paragraph"
+title: "Get all the Formatting"
+second_title: "Paragraphs in a Document"
 type: docs
 url: /paragraphs/get-all-formatting/
 aliases: [/get-all-the-formatting-for-a-paragraph/]
-weight: 50
+weight: 60
 ---
 
 This REST API allows you to get all the formatting of a paragraph. The resource properties are:

@@ -1,9 +1,10 @@
 ---
 title: "Update Field Properties"
+second_title: "Fields in a Document"
 type: docs
 url: /fields/update-field-properties/
 aliases: [/update-field-properties/]
-weight: 60
+weight: 70
 ---
 
 This REST API allows you to update field properties. The API returns updated field data in XML/JSON format.

@@ -3,7 +3,7 @@ title: "Get a Table Cell"
 type: docs
 url: /tables/get-cell/
 aliases: [/get-a-table-cell/]
-weight: 120
+weight: 110
 ---
 
 This REST API allows you to get a table cell. The API returns a JSON/XML representation of one of the cells contained in the table.

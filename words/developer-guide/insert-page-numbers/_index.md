@@ -1,11 +1,11 @@
 ---
-title: "Insert Page Numbers"
+title: "Page Numbers"
 type: docs
 url: /insert-page-numbers/
 aliases: [/insert-page-numbers-in-a-document/]
 keywords: "page numbers in word, microsoft word page numbers, how to add page numbers in word,add page numbers to word"
 description: "This REST API allows you to insert page numbers in word documents. This article reveals that how to add page numbers in word documents with formatted and arranged manners using most frequently used options."
-weight: 170
+weight: 180
 ---
 
 This REST API allows you to insert *page numbers in word* documents. This article reveals that how to add page numbers in word documents with formatted and arranged manners using most frequently used options.

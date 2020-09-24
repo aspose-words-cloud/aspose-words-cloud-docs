@@ -1,9 +1,10 @@
 ---
-title: "Get all Paragraphs from a Word Document"
+title: "Get all"
+second_title: "Paragraphs in a Document"
 type: docs
 url: /paragraphs/get-all/
 aliases: [/get-all-paragraphs-from-a-word-document/]
-weight: 10
+weight: 40
 ---
 
 This REST API allows you to get all paragraphs that are contained in a document or in a section.

@@ -3,7 +3,7 @@ title: "Get a Table"
 type: docs
 url: /tables/get/
 aliases: [/get-a-table/]
-weight: 40
+weight: 100
 ---
 
 This REST API allows you to get JSON/XML representation of one of the tables.

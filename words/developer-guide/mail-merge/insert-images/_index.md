@@ -4,7 +4,7 @@ second_title: "Mail Merge"
 type: docs
 url: /mail-merge/insert-images/
 aliases: [/insert-images-during-mail-merge/]
-weight: 60
+weight: 20
 ---
 
 This example explains how to insert Images on a MERGEFIELD. [MailMerge](https://apireference.aspose.cloud/words/#/MailMerge/ExecuteMailMerge) API allows you to insert images on a merge field. The mail merges data string can be either in XML or JSON format.

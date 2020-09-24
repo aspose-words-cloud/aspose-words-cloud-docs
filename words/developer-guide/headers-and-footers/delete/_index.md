@@ -1,9 +1,10 @@
 ---
-title: "Delete Header or Footer from a Document"
+title: "Delete"
+second_title: "Headers and Footers in a Document"
 type: docs
 url: /headers-and-footers/delete/
 aliases: [/delete-header-or-footer-from-a-document/]
-weight: 50
+weight: 20
 ---
 
 This REST API allows you to delete Header/Footer from a document.

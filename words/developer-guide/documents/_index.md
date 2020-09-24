@@ -1,5 +1,5 @@
 ---
-title: "Work with Documents"
+title: "Documents"
 type: docs
 url: /documents/
 aliases: [/working-with-documents/]

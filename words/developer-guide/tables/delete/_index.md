@@ -3,7 +3,7 @@ title: "Delete a Table from a Word Document"
 type: docs
 url: /tables/delete/
 aliases: [/delete-a-table-from-a-word-document/]
-weight: 20
+weight: 50
 ---
 
 This REST API allows you to delete a table from a Word document.

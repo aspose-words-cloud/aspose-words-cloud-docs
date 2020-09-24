@@ -1,9 +1,10 @@
 ---
-title: "Remove Fields from a Document"
+title: "Remove"
+second_title: "Fields in a Document"
 type: docs
 url: /fields/remove/
 aliases: [/remove-fields-from-a-document/]
-weight: 30
+weight: 50
 ---
 
 This REST API allows you to remove all fields from a document, section or paragraph.  

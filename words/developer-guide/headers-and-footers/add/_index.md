@@ -1,9 +1,10 @@
 ---
-title: "Add Header or Footer to a Document"
+title: "Add"
+second_title: "Headers and Footers in a Document"
 type: docs
 url: /headers-and-footers/add/
 aliases: [/add-header-or-footer-to-a-document/]
-weight: 30
+weight: 10
 ---
 
 This REST API allows you to add Header or Footer to a document. The API returns the added object's data in XML/JSON format.

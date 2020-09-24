@@ -6,7 +6,7 @@ url: /mail-merge/read-field-names-online/
 aliases: [/read-mailmerge-document-field-names-online/]
 keywords: "Read, mustache template, online, Mail Merge, Word, Microsoft Word, Java, .NET, PHP, Ruby, Python, NodeJS, Swift, Android ,Go"
 description: "In this article you will learn that how to get MailMerge Field Names in the document online in various languages. You can download the SDK of your favorite language and start programming in a smartest way. The Cloud SDKs are available in Python, C#, Java, C++, Ruby, PHP, Node.js, Swift and Go programming languages."
-weight: 40
+weight: 60
 ---
 
 This example explains how to get MailMerge Field Names in the document online. [This API](https://apireference.aspose.cloud/words/#/MailMerge/GetDocumentFieldNamesOnline) assumes we send the document in the request body.

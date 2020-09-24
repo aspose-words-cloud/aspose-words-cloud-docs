@@ -3,7 +3,7 @@ title: "Get a Table Cell Format"
 type: docs
 url: /tables/get-cell-format/
 aliases: [/get-a-table-cell-format/]
-weight: 150
+weight: 120
 ---
 
 This REST API allows you to access the formatting properties of a table cell. The description of important cell properties is:

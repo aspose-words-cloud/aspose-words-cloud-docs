@@ -4,7 +4,7 @@ second_title: "Comments in a Word Document"
 type: docs
 url: /comments/delete/
 aliases: [/delete-comment-from-word-document/]
-weight: 50
+weight: 20
 ---
 
 The REST API allows you to delete a comment from a Word Document.

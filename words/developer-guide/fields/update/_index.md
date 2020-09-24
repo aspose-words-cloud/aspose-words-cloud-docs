@@ -1,9 +1,10 @@
 ---
-title: "Update Fields in a Document"
+title: "Update"
+second_title: "Fields in a Document"
 type: docs
 url: /fields/update/
 aliases: [/update-fields-in-a-document/]
-weight: 20
+weight: 60
 ---
 
 This REST API allows you to update (reevaluate) fields in a document.

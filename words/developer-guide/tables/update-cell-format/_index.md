@@ -3,7 +3,7 @@ title: "Update a Table Cell Format"
 type: docs
 url: /tables/update-cell-format/
 aliases: [/update-a-table-cell-format/]
-weight: 160
+weight: 180
 ---
 
 This REST API allows you to update a table cell format properties. The description of important cell properties is:

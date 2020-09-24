@@ -1,9 +1,10 @@
 ---
-title: "Get Field from a Document"
+title: "Get"
+second_title: "Fields in a Document"
 type: docs
 url: /fields/get/
 aliases: [/get-field-from-a-document/]
-weight: 40
+weight: 30
 ---
 
 This REST API allows you to get a field from a document, section or paragraph.

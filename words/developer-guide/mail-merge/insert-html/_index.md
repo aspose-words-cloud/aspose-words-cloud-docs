@@ -4,7 +4,7 @@ second_title: "Mail Merge"
 type: docs
 url: /mail-merge/insert-html/
 aliases: [/insert-html-during-mail-merge/]
-weight: 50
+weight: 10
 ---
 
 This example explains how to insert HTML on a MERGEFIELD. [executeMailMerge](https://apireference.aspose.cloud/words/#/MailMerge/ExecuteMailMerge) API lets you insert HTML on a merge field. The mail merges data string can be either in XML or JSON format.

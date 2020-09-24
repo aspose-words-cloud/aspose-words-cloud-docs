@@ -1,9 +1,10 @@
 ---
-title: "Remove Run from Document"
+title: "Remove Run"
+second_title: "Paragraphs in a Document"
 type: docs
 url: /paragraphs/remove-run/
 aliases: [/remove-run-from-document/]
-weight: 120
+weight: 100
 ---
 
 This REST API allows you to remove run from document.

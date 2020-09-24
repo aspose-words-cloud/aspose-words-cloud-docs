@@ -3,7 +3,7 @@ title: "Add a Row To a Table"
 type: docs
 url: /tables/add-row/
 aliases: [/add-a-row-to-a-table/]
-weight: 90
+weight: 10
 ---
 
 This REST API allows you to add a row to a table. The API returns added row's data in XML/JSON format. The description of important API parameters is given below:

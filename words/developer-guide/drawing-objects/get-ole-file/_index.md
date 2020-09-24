@@ -1,9 +1,10 @@
 ---
-title: "Get OLE file from a Drawing Object"
+title: "Get OLE file"
+second_title: "Drawing Objects in a Word Document"
 type: docs
 url: /drawing-objects/get-ole-file/
 aliases: [/get-ole-file-from-a-drawing-object/]
-weight: 70
+weight: 60
 ---
 
 This REST API allows you to get an embedded OLE file from a drawing object. The API response contains an embedded OLE file of the first drawing object of the document. However, returns an error if the drawing object does not have an embedded OLE file.
