@@ -1,5 +1,6 @@
 ---
-title: "Reject all Revisions in a Document"
+title: "Reject all"
+second_title: "Revisions in a Word Document"
 type: docs
 url: /documents/track-changes/reject-all/
 aliases: [/reject-all-revisions-in-a-document/]

@@ -11,7 +11,7 @@ This REST API allows you to update the bookmark text and returns updated bookmar
 
 |Property Name|Type|Description|
 | :- | :- | :- |
-|Name|string|Name of the selected bookmark |
+|Name|string|Name of the selected bookmark|
 |Text|string|The text contained within this bookmark|
 
 ## REST API’s Resources

@@ -1,5 +1,5 @@
 ---
-title: "Split a Document"
+title: "Split"
 type: docs
 url: /split/
 aliases: [/splitting-a-document/]
@@ -22,66 +22,6 @@ The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Split/Spli
 |from|int|The start page number for splitting, if it is not specified, splitting starts from the first page of the document.|
 |to|int|The last page number for splitting, if it is not specified, splitting ends at the last page of the document.|
 |zipOutput|bool|ZipOutput or not.|
-
-The **valid formats** are:
-
-|format Parameter Value|Format of the returned Page|
-| :- | :- |
-|bmp|Bitmap Picture|
-|doc|...|
-|docm|...|
-|docx|...|
-|dot|...|
-|dotm|...|
-|dotx|...|
-|emf|Enhanced Metafile Format|
-|epub|...|
-|flatopc/fopc|...|
-|flatopc_macro/fopc_macro|...|
-|flatopc_template/fopc_template|...|
-|flatopc_template_macro/fopc_template_macro|...|
-|jpeg/jpg|Joint Photographic Experts Group Image Format|
-|html|...|
-|htmlfixed|...|
-|mhtml/mht|...|
-|odt|...|
-|openxps|...|
-|ott|...|
-|pcl|Printer Command Language Format|
-|pdf|Portable Document Format|
-|png|Portable Networks Graphic Image Format|
-|ps|...|
-|rtf|...|
-|svg|...|
-|text/txt|...|
-|tiff/tif|Tagged Image File Format|
-|wordml/wml|...|
-|xps|...|
-|xamlfixed|...|
-
-**Example 1**
-
-Split all pages from the document into PDF format:
-
-PUT <https://api.aspose.cloud/v4.0/words/TestSplitDocument.doc/split?format=pdf>
-
-**Example 2**
-
-Split pages 2-3 from the document into PDF format:
-
-PUT <https://api.aspose.cloud/v4.0/words/TestSplitDocument.doc/split?from=2&to=3&format=pdf>
-
-**Example 3**
-
-Split pages 2-3 from the document into JPEG format where the input document is saved in a particular folder, not on the root of the storage:
-
-PUT <https://api.aspose.cloud/v4.0/words/TestSplitDocument.doc/split?from=2&to=3&format=jpeg&folder=SomeFolder>
-
-**Example 4**
-
-Split all pages from the document into PDF format and zip files:
-
-PUT <https://api.aspose.cloud/v4.0/words/TestSplitDocument.doc/split?format=pdf&zipOutput=true>
 
 ## cURL Example
 

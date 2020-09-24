@@ -1,5 +1,5 @@
 ---
-title: "Convert a Document"
+title: "Convert"
 type: docs
 url: /convert/
 aliases: [/converting-a-document/, /converting-splitting-and-appending/]
@@ -18,8 +18,8 @@ The ability to easily and reliably convert documents from one format to another 
 |[PUT /words/{name}/saveAs/tiff](https://apireference.aspose.cloud/words/#/Convert/SaveAsTiff)|Convert a document to tiff with detailed settings and save the result to storage.|
 
 The following articles explain each API in detail and contain cURL and SDK Examples of each API:
-- [Convert document from request content to specified format](/convert-word-document-from-request-content-to-specified-format/).
-- [Convert document to destination format with detailed settings and save result to storage](/convert-document-to-destination-format-with-detailed-settings-and-save-result-to-storage/).
-- [Convert document to tiff with detailed settings and save result to storage](/convert-document-to-tiff-with-detailed-settings/).
-- [Convert PDF file to a Word Document](/convert-pdf-document-to-word/).
+- [Convert document from request content to specified format](/convert/specified-format/).
+- [Convert document to tiff with detailed settings and save result to storage](/convert/document-to-tiff/).
+- [Convert PDF file to a Word Document](/convert/pdf-to-word/).
+- [Convert document to destination format with detailed settings and save result to storage](/convert/conversion-settings/).
 

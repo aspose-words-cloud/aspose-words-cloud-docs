@@ -1,5 +1,5 @@
 ---
-title: "Build Report Online"
+title: "Generate Report Online"
 type: docs
 url: /report/build-online/
 aliases: [/build-report-online/]

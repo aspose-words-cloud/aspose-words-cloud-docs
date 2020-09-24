@@ -1,11 +1,12 @@
 ---
-title: "Convert PDF to Word"
+title: "PDF to Word"
+second_title: "Convert Documents"
 type: docs
 url: /convert/pdf-to-word/
 aliases: [/convert-pdf-document-to-word/]
 keywords: "convert pdf to word, dotm file, go sdk, Python, Ruby, Java, C#, Node.js, PHP, Android, Swift and Go"
 description: "Convert PDF to Word documents. Aspose Words Cloud provide various SDKs to convert PDF to Word."
-weight: 40
+weight: 20
 ---
 
 Our conversion APIs let you *convert PDF to Word* document. The APIs even supports encrypted PDF file to Word document conversion. The converter turns a document into a "flow" format - merges multiple paragraphs into one section, converts tables and lists into native Word tables and lists, etc. so that document can then be naturally edited in Word editing application (such as Microsoft Word).

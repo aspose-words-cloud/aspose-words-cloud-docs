@@ -1,5 +1,6 @@
 ---
-title: "Convert Document to TIFF with Detailed Settings"
+title: "Document to TIFF"
+second_title: "Convert Documents"
 type: docs
 url: /convert/document-to-tiff/
 aliases: [/convert-document-to-tiff-with-detailed-settings/]

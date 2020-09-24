@@ -1,5 +1,6 @@
 ---
-title: "Accept all Revisions in a Document"
+title: "Accept all"
+second_title: "Revisions in a Word Document"
 type: docs
 url: /documents/track-changes/accept-all/
 aliases: [/accept-all-revisions-in-a-document/]

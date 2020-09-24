@@ -1,5 +1,5 @@
 ---
-title: "Merge Documents"
+title: "Merge"
 type: docs
 url: /merge/
 aliases: [/appending-a-document/]
