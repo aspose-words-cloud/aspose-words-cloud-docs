@@ -37,8 +37,8 @@ Please feel free to contact us if you find any issues in installing or using thi
 
 We believe the key to success lies in our ability to support and establish mutually beneficial long-term relationships with our customers. Our experts are here to answer your questions, help you troubleshoot issues, improve your experience and increase satisfaction with our products. If you have any questions and need support on Aspose Importer Exporter plugin you can log them using any of the following platforms.
 
-- [WordPress Plugin Support Forum](https://wordpress.org/support/plugin/aspose-importer-exporter)
-- [Github](https://github.com/asposeforcloud/Aspose_Cloud_for_WordPress/issues)
+- [WordPress Plugin Support Forum](https://wordpress.org/support/plugin/aspose-importer-exporter).
+- [Github](https://github.com/asposeforcloud/Aspose_Cloud_for_WordPress/issues).
 
 ### Extend and Contribute
 
@@ -46,7 +46,7 @@ Aspose Importer Exporter Plugin for WordPress is open source and its source code
 
 ### Source Code
 
-- [Github](https://github.com/asposeforcloud/Aspose_Cloud_for_WordPress)
+- [Github](https://github.com/asposeforcloud/Aspose_Cloud_for_WordPress).
 
 ### How to configure the source code
 
@@ -75,8 +75,8 @@ Please follow these steps to get started:
 
 You can download the Aspose Importer Exporter Plugin from one of the following locations:
 
-- Download from [WordPress](https://wordpress.org/plugins/aspose-importer-exporter/)
-- Download from [Github](https://github.com/asposeforcloud/Aspose_Cloud_for_WordPress/releases/tag/6.0)
+- Download from [WordPress](https://wordpress.org/plugins/aspose-importer-exporter/).
+- Download from [Github](https://github.com/asposeforcloud/Aspose_Cloud_for_WordPress/releases/tag/6.0).
 
 ### Installing
 

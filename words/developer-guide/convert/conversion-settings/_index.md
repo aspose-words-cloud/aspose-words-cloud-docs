@@ -215,7 +215,7 @@ The **BmpSaveOptions** XML definition is presented below:
 </BmpSaveOptions>
 ```
 
-## Saving a Document (DOC, DOT)
+## Saving a Document (DOC, DOT).
 
 The **DocSaveOptions** XML definition is presented below:
 

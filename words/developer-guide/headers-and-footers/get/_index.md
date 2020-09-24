@@ -22,7 +22,7 @@ The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/HeadersFoo
 
 ## cURL Example
 
-The following are a few examples of using cURL:
+The following are a few examples of using cURL.
 
 *Case 1: Get a Header or Footer in a Document**
 

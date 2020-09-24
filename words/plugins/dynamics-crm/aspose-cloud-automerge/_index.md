@@ -50,10 +50,10 @@ We offer free support. Anyone who uses our product, whether they have bought the
 
 You can log any issues or suggestions related to Aspose Cloud AutoMerge using any of the following platforms:
 
-- [Codeplex](https://goo.gl/7Gv4MP)
-- [Github](https://goo.gl/od35Lg)
-- [Sourceforge](https://goo.gl/jTKXSa)
-- [Bitbucket](https://goo.gl/Squzfh)
+- [Codeplex](https://goo.gl/7Gv4MP).
+- [Github](https://goo.gl/od35Lg).
+- [Sourceforge](https://goo.gl/jTKXSa).
+- [Bitbucket](https://goo.gl/Squzfh).
 
 ### Extend and Contribute
 
@@ -124,25 +124,25 @@ Execute MailMerge on Cloud file:
 
 You can download Aspose Cloud AutoMerge 2.0.0.2015 for CRM from one of the following locations:
 
-- [Codeplex](http://goo.gl/9LLjhP)
-- [Github](http://goo.gl/Az00wC)
-- [Sourceforge](http://goo.gl/jWo7jY)
-- [Bitbucket](http://goo.gl/mC5Psb)
+- [Codeplex](http://goo.gl/9LLjhP).
+- [Github](http://goo.gl/Az00wC).
+- [Sourceforge](http://goo.gl/jWo7jY).
+- [Bitbucket](http://goo.gl/mC5Psb).
 
 You can download Aspose Cloud AutoMerge 2.0.0.2013 for CRM from one of the following locations:
 
-- [Codeplex](http://goo.gl/7Uy3v6)
-- [Github](http://goo.gl/Kg4G6E)
-- [Sourceforge](http://goo.gl/jWo7jY)
-- [Bitbucket](http://goo.gl/mC5Psb)
+- [Codeplex](http://goo.gl/7Uy3v6).
+- [Github](http://goo.gl/Kg4G6E).
+- [Sourceforge](http://goo.gl/jWo7jY).
+- [Bitbucket](http://goo.gl/mC5Psb).
 
 You can download Aspose Cloud AutoMerge 1.0.0 for CRM from one of the following locations:
 
-- [Codeplex](http://goo.gl/VfcGTd)
-- [Github](http://goo.gl/7QOJlI)
-- [Sourceforge](http://goo.gl/2rEubq)
-- [Bitbucket](http://goo.gl/blUMuZ)
-- [Code.MSDN](http://goo.gl/p0QEnp)
+- [Codeplex](http://goo.gl/VfcGTd).
+- [Github](http://goo.gl/7QOJlI).
+- [Sourceforge](http://goo.gl/2rEubq).
+- [Bitbucket](http://goo.gl/blUMuZ).
+- [Code.MSDN](http://goo.gl/p0QEnp).
 
 #### Installing Aspose Cloud AutoMerge
 
@@ -166,4 +166,4 @@ It is simple to install Aspose Cloud AutoMerge. Please follow below Instructions
 
 ### Using
 
-﻿[Using Cloud AutoMerge for Dynamics CRM](/using-cloud-automerge-for-dynamics-crm/)
+﻿[Using Cloud AutoMerge for Dynamics CRM](/using-cloud-automerge-for-dynamics-crm/).

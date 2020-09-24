@@ -26,7 +26,7 @@ The [Taxonomy (general)](https://en.wikipedia.org/wiki/Taxonomy_\(general\)) i
    - Scientific - scientific papers
    - Other - the other classes of documents or cases where the classifier is not sure
 
-The most important parameters are:
+The following is a description of the most important parameters:
 
 - **Parameter Name**: bestClassesCount
 - **Description**: Count of top classes for the target text
@@ -35,7 +35,7 @@ The most important parameters are:
 
 Document classification supports classifying documents stored on Aspose Storage or any of [the supported storage](https://docs.aspose.cloud/display/storagecloud/How+to+Configure+3rd+Party+Cloud+Storages). API supports all document formats [supported by other Aspose.Words Cloud methods](https://products.aspose.cloud/words/cloud), including PDF which will be implicitly [converted to Word format](/convert-pdf-document-to-word/).
 
-**Note:** The SDKs in C#, Java, PHP, Ruby, Python, Node.js, Android, Swift and Go are available for download. Also the sample code are given below for each of the SDKs:
+**Note**: The SDKs in C#, Java, PHP, Ruby, Python, Node.js, Android, Swift and Go are available for download. Also the sample code are given below for each of the SDKs:
 
 ## REST API’s Resources
 
@@ -43,9 +43,7 @@ The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Classifica
 
 ## cURL Example
 
-The following are a few examples of using cURL:
-
-**Input Document**: [test_multi_pages.docx](attachments/884752/1180129.docx)
+The following are a few examples of using cURL. You can use a sample **Input Document**: [test_multi_pages.docx](attachments/884752/1180129.docx).
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}

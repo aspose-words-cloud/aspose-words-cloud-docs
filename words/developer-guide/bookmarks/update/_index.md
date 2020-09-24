@@ -16,7 +16,7 @@ This REST API allows you to update the bookmark text and returns updated bookmar
 
 ## REST API’s Resources
 
-[Aspose.Words Cloud APIs Swagger UI](https://apireference.aspose.cloud/words/#/Bookmarks/UpdateBookmark) lets you call this REST API directly from a browser. 
+[Aspose.Words Cloud APIs Swagger UI](https://apireference.aspose.cloud/words/#/Bookmarks/UpdateBookmark) lets you call this REST API directly from a browser.
 
 ## cURL Example
 

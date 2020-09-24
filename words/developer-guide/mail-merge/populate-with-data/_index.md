@@ -5,11 +5,15 @@ type: docs
 url: /mail-merge/populate-with-data/
 aliases: [/populate-mailmerge-template-with-data/]
 keywords: "Populate, Mail Merge, Word, Microsoft Word, Java, .NET, PHP, Ruby, Python, NodeJS, Swift, Android ,Go"
-description: "In this article you will learn that how to populate mail merge in various languages. You can download the SDK of your favorite language and start programming in a smartest way. The SDKs are available in Java, .NET, PHP, Ruby, Python, NodeJS, Swift, Android and Go languages."
+description: "In this article you will learn that how to populate mail merge in various languages. You can download the SDK of your favorite language and start programming in a smartest way. The Cloud SDKs are available in Python, C#, Java, C++, Ruby, PHP, Node.js, Swift and Go programming languages."
 weight: 10
 ---
 
- In this article you will learn that how to populate mail merge or mustache template with data in various languages. You can download an SDK of your favorite language and start programming in a smartest way. The SDKs are available in Java, .NET, PHP, Ruby, Python, NodeJS, Swift, Android and Go languages. [This API](https://apireference.aspose.cloud/words/#/MailMerge/ExecuteMailMerge) represents a controller for executing the mail merge. Description of some important parameters of the API is given below:
+In this article you will learn that how to populate mail merge or mustache template with data in various languages. You can download an SDK of your favorite language and start programming in a smartest way. The Cloud SDKs are available in Python, C#, Java, C++, Ruby, PHP, Node.js, Swift and Go programming languages.
+
+[This API](https://apireference.aspose.cloud/words/#/MailMerge/ExecuteMailMerge) represents a controller for executing the mail merge.
+
+The following is a description of the most important parameters:
 
 |Parameter Name|Description|
 | :- | :- |
@@ -38,15 +42,11 @@ The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/MailMerge/
 
 ## cURL Example
 
-The following are a few examples of using cURL:
+The following are a few examples of using cURL.
 
 *Case 1: MailMerge Template**
 
-**Input Document:** [SampleMailMergeTemplate.docx](attachments/884946/1180099.docx)
-
-**Mail Merge Data:** [SampleMailMergeTemplateData.txt](attachments/884946/1180097.txt)
-
-**Output Document**: [TestPostDocumentExecuteMailMerge.docx](attachments/884946/8028164.docx)
+You can use a sample **Input Document** [SampleMailMergeTemplate.docx](attachments/884946/1180099.docx) and a sample **Mail Merge Data** [SampleMailMergeTemplateData.txt](attachments/884946/1180097.txt). The **Output Document** would be as follows: [TestPostDocumentExecuteMailMerge.docx](attachments/884946/8028164.docx).
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
@@ -250,11 +250,9 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleMailMergeTemplate.docx/MailMe
 
 **Case 2: Mustache Template**
 
-**Input Document:** [TestExecuteTemplate.doc](attachments/884946/8028161.doc)
+You can use a sample **Input Document**: [TestExecuteTemplate.doc](attachments/884946/8028161.doc).
 
-**Mail Merge Data:** [TestExecuteTemplateData.txt](attachments/884946/8028162.txt)** 
-
-**Output Document**: [TestPostExecuteTemplate.docx](attachments/884946/8028165.docx)
+**Mail Merge Data**: [TestExecuteTemplateData.txt](attachments/884946/8028162.txt). The **Output Document** would be as follows: [TestPostExecuteTemplate.docx](attachments/884946/8028165.docx).
 
 {{< tabs tabTotal="2" tabID="4" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}

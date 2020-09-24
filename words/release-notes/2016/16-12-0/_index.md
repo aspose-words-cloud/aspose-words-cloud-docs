@@ -6,7 +6,7 @@ aliases: [/aspose-words-for-cloud-16-12-0-release-notes/]
 weight: 10
 ---
 
-The page contains release notes for Aspose.Words for Cloud update 16.12.0 – [API Version 1.1](http://api.aspose.com/v1.1/swagger/ui/index)
+The page contains release notes for Aspose.Words for Cloud update 16.12.0 – [API Version 1.1](http://api.aspose.com/v1.1/swagger/ui/index).
 
 ## Full List of Issues Covering all Changes in this Release
 

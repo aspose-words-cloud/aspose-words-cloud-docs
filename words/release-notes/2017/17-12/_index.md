@@ -6,7 +6,7 @@ aliases: [/aspose-words-for-cloud-17-12-release-notes/]
 weight: 10
 ---
 
-The page contains release notes for Aspose.Words for Cloud update 17.12 – [API Reference](https://apireference.aspose.cloud/words/)
+The page contains release notes for Aspose.Words for Cloud update 17.12 – [API Reference](https://apireference.aspose.cloud/words/).
 
 ## Full List of Issues Covering all Changes in this Release
 
@@ -29,7 +29,7 @@ This release improves support for images in [PDF to Word conversion](/working-w
 
 - Semi-transparent images
 - Rotated images
-- Inline images (images that go "inside" the text, being a logical part of text paragraph)
+- Inline images (images that go "inside" the text, being a logical part of text paragraph).
 
 The following restrictions still apply:
 

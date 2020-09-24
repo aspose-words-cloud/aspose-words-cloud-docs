@@ -11,7 +11,7 @@ This REST API allows you to read a specific bookmark by name.
 
 ## REST API’s Resources
 
-The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Bookmarks/GetBookmarkByName) lets you call this REST API directly from a browser. 
+The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Bookmarks/GetBookmarkByName) lets you call this REST API directly from a browser.
 
 ## cURL Example
 

@@ -13,11 +13,11 @@ Aspose.Words Cloud API allows you to obtain a bookmark collection to iterate thr
 
 ## REST API’s Resources
 
-The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Bookmarks/GetBookmarks) lets you call this REST API directly from a browser. 
+The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Bookmarks/GetBookmarks) lets you call this REST API directly from a browser.
 
 ## cURL Example
 
-The following are a few examples of using cURL:
+The following are a few examples of using cURL.
 
 Below cURL example shows how to obtain bookmarks from a bookmark collection. You can download a template file of this example from [here](attachments/885272/1180120.docx).
 

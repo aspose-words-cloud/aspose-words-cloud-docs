@@ -35,8 +35,8 @@ It is supported up to 7 version of Drupal and It requires PHP version to be > = 
 
 We believe the key to success lies in our ability to support and establish mutually beneficial long-term relationships with our customers. Our experts are here to answer your questions, help you troubleshoot issues, improve your experience and increase satisfaction with our products. If you have any questions and need support on Aspose DOC Exporter plugin you can log them using any of the following platforms.
 
-- [WordPress Plugin Support Forum](https://www.drupal.org/project/aspose_doc_exporter/)
-- [Github](https://github.com/asposeforcloud/Aspose_Cloud_for_Drupal/issues)
+- [WordPress Plugin Support Forum](https://www.drupal.org/project/aspose_doc_exporter/).
+- [Github](https://github.com/asposeforcloud/Aspose_Cloud_for_Drupal/issues).
 
 ### Extend and contribute
 
@@ -44,7 +44,7 @@ We believe the key to success lies in our ability to support and establish mutua
 
 ### Source Code
 
-- [Github](https://github.com/asposeforcloud/Aspose_Cloud_for_WordPress)
+- [Github](https://github.com/asposeforcloud/Aspose_Cloud_for_WordPress).
 
 ### How to configure the source code
 
@@ -71,8 +71,8 @@ Please follow these steps to get started:
 
 You can download the Aspose DOC Exporter Module from one of the following locations:
 
-- Download from [Drupal](https://www.drupal.org/project/aspose_doc_exporter/)
-- Download from [Github](https://github.com/asposeforcloud/Aspose_Cloud_for_Drupal/releases/tag/1.0)
+- Download from [Drupal](https://www.drupal.org/project/aspose_doc_exporter/).
+- Download from [Github](https://github.com/asposeforcloud/Aspose_Cloud_for_Drupal/releases/tag/1.0).
 
 #### Installing
 

@@ -41,7 +41,7 @@ It supports salesforce's "Force.com" platform.
 
 We believe the key to success lies in our ability to support and establish mutually beneficial long-term relationships with our customers. Our experts are here to answer your questions, help you troubleshoot issues, improve your experience and increase satisfaction with our products. If you have any questions and need support on Aspose Cloud for Salesforce you can log them using any of the following platforms.
 
-- [Github](https://github.com/asposemarketplace/Aspose_for_Salesforce/issues)
+- [Github](https://github.com/asposemarketplace/Aspose_for_Salesforce/issues).
 
 ## Installation and Usage
 
@@ -51,7 +51,7 @@ We believe the key to success lies in our ability to support and establish mutua
 
 You can download the Aspose.Words Cloud for Salesforce from one of the following locations:
 
-- Download from [Github](https://github.com/asposemarketplace/Aspose_for_SalesForce/archive/master.zip)
+- Download from [Github](https://github.com/asposemarketplace/Aspose_for_SalesForce/archive/master.zip).
 
 #### Installing
 
@@ -68,7 +68,7 @@ Once downloaded, please follow these steps to deploy Aspose.Words Cloud on Sales
 
 ### Using and Video Demo
 
-![todo:image_alt_text](/plugins/servlet/confluence/placeholder/unknown-macro)
+![todo:image_alt_text](/plugins/servlet/confluence/placeholder/unknown-macro).
 
 After you have installed the Aspose.Words Cloud for Salesforce it is really simple to start using it.
 Please follow these steps to get started:
@@ -261,7 +261,7 @@ public with sharing class Utils {
             }
             request.setEndpoint(strURI);
             request.setMethod(strHttpCommand);
-            if (ContentType.toLowerCase() == 'xml')
+            if (ContentType.toLowerCase() == 'xml').
                 request.setHeader('Content-Type', 'application/xml');
             else
                 request.setHeader('Content-Type', 'application/json');

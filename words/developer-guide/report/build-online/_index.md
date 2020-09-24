@@ -8,7 +8,7 @@ description: "This REST API allows you to Build Report Online. Please note that 
 weight: 20
 ---
 
- This REST API allows you to Build Report Online. Please note that the SDKs of this cloud API are available in *Python, C#, Java, Ruby, PHP, Node.js, Android, Swift,* and *Go* languages.
+This REST API allows you to Build Report Online. Please note that the SDKs of this cloud API are available in *Python, C#, Java, Ruby, PHP, Node.js, Android, Swift,* and *Go* languages.
 
 ## REST API’s Resources
 

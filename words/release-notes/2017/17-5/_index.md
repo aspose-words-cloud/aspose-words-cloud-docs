@@ -6,7 +6,7 @@ aliases: [/aspose-words-for-cloud-17-5-release-notes/]
 weight: 80
 ---
 
-The page contains release notes for Aspose.Words for Cloud update 17.5 – [API Version 1.1](http://api.aspose.com/v1.1/swagger/ui/index)
+The page contains release notes for Aspose.Words for Cloud update 17.5 – [API Version 1.1](http://api.aspose.com/v1.1/swagger/ui/index).
 
 #### Swagger Notation Optimization
 

@@ -10,7 +10,7 @@ weight: 10
 
 This REST API allows you to get a list of sections or section breaks that are contained in the document.
 
-Please note that the SDKs of this Cloud API are available in Python, C#, Java, C++, Ruby, PHP, Node.js, Swift and Go programming languages.
+The Cloud SDKs are available in Python, C#, Java, C++, Ruby, PHP, Node.js, Swift and Go programming languages.
 
 ## REST API’s Resources
 

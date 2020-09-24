@@ -6,7 +6,7 @@ aliases: [/aspose-words-for-cloud-17-10-release-notes/]
 weight: 30
 ---
 
-The page contains release notes for Aspose.Words for Cloud update 17.10 – [API Version 1.1](https://apireference.aspose.cloud/)
+The page contains release notes for Aspose.Words for Cloud update 17.10 – [API Version 1.1](https://apireference.aspose.cloud/).
 
 ## Full List of Issues Covering all Changes in this Release
 

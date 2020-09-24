@@ -73,15 +73,15 @@ The following operations can be defined on a range:
 
 Get the text from all nodes in the range. You may use one of the following two APIs to get the text from the range:
 
-- [GET /words/{name}/range/{rangeStartIdentifier}/{rangeEndIdentifier}](https://apireference.aspose.cloud/words/#/RangeApi/GetRangeText)
-- [GET /words/{name}/range/{rangeStartIdentifier}](https://apireference.aspose.cloud/words/#/RangeApi/GetRangeText2)
+- [GET /words/{name}/range/{rangeStartIdentifier}/{rangeEndIdentifier}](https://apireference.aspose.cloud/words/#/RangeApi/GetRangeText).
+- [GET /words/{name}/range/{rangeStartIdentifier}](https://apireference.aspose.cloud/words/#/RangeApi/GetRangeText2).
 
 ### Remove the text from the range
 
 With the following APIs you can remove the text from the range. Text from all nodes inside the range would be removed.
 
-- [DELETE /words/{name}/range/{rangeStartIdentifier}/{rangeEndIdentifier}](https://apireference.aspose.cloud/words/#/RangeApi/RemoveRange)
-- [DELETE /words/{name}/range/{rangeStartIdentifier}](https://apireference.aspose.cloud/words/#/RangeApi/RemoveRange2)
+- [DELETE /words/{name}/range/{rangeStartIdentifier}/{rangeEndIdentifier}](https://apireference.aspose.cloud/words/#/RangeApi/RemoveRange).
+- [DELETE /words/{name}/range/{rangeStartIdentifier}](https://apireference.aspose.cloud/words/#/RangeApi/RemoveRange2).
 
 ### Replace the content in the range
 
@@ -89,15 +89,15 @@ The replacement should be done according to MS Word rules. For example, several 
 
 Content in the range can be replaced with one of the following two APIs:
 
-- [POST /words/{name}/range/{rangeStartIdentifier}/{rangeEndIdentifier}](https://apireference.aspose.cloud/words/#/RangeApi/ReplaceWithText)
-- [POST /words/{name}/range/{rangeStartIdentifier}](https://apireference.aspose.cloud/words/#/RangeApi/ReplaceWithText2)
+- [POST /words/{name}/range/{rangeStartIdentifier}/{rangeEndIdentifier}](https://apireference.aspose.cloud/words/#/RangeApi/ReplaceWithText).
+- [POST /words/{name}/range/{rangeStartIdentifier}](https://apireference.aspose.cloud/words/#/RangeApi/ReplaceWithText2).
 
 ### Save the selected range as a new document
 
 The range should be saved as a separate document. The original document must not be changed. The said task can be achieved with one of the following two APIs:
 
-- [POST /words/{name}/range/{rangeStartIdentifier}/{rangeEndIdentifier}/SaveAs](https://apireference.aspose.cloud/words/#/RangeApi/SaveAsRange)
-- [POST /words/{name}/range/{rangeStartIdentifier}/SaveAs](https://apireference.aspose.cloud/words/#/RangeApi/SaveAsRange2)
+- [POST /words/{name}/range/{rangeStartIdentifier}/{rangeEndIdentifier}/SaveAs](https://apireference.aspose.cloud/words/#/RangeApi/SaveAsRange).
+- [POST /words/{name}/range/{rangeStartIdentifier}/SaveAs](https://apireference.aspose.cloud/words/#/RangeApi/SaveAsRange2).
 
 ## Use cases
 
@@ -259,7 +259,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/paragraphs" \
 {{< /tab >}}
 {{< /tabs >}}
 
-Now, he calls the following API to save the first two paragraphs (correspond to id0.0 and id0.2 in the response) as a new document:** 
+Now, he calls the following API to save the first two paragraphs (correspond to id0.0 and id0.2 in the response) as a new document:
 
 {{< tabs tabTotal="2" tabID="10" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}

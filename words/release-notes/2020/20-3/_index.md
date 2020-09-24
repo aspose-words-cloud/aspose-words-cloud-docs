@@ -13,8 +13,8 @@ weight: 60
 - Added RtfSaveOptionsData.SaveImagesAsWmf property
 - Added SDK for Swift
 - Added SDK for Go
-- PHP SDK. From now in packagist sdk has different package name aspose-words-cloud [new link here](https://packagist.org/packages/aspose-cloud/aspose-words-cloud)
-  Old package is abandoned and no more updated since this release [ABANDONED package](https://packagist.org/packages/aspose/words-sdk-php)
+- PHP SDK. From now in packagist sdk has different package name aspose-words-cloud [new link here](https://packagist.org/packages/aspose-cloud/aspose-words-cloud).
+  Old package is abandoned and no more updated since this release [ABANDONED package](https://packagist.org/packages/aspose/words-sdk-php).
 
 ### PDF to Word conversion improvements
 
@@ -104,8 +104,8 @@ weight: 60
 
 #### Important update
 
-From now in packagist sdk has different package name aspose-words-cloud [new link here](https://packagist.org/packages/aspose-cloud/aspose-words-cloud)
-Old package is abandoned and no more updated since this release [ABANDONED package](https://packagist.org/packages/aspose/words-sdk-php)
+From now in packagist sdk has different package name aspose-words-cloud [new link here](https://packagist.org/packages/aspose-cloud/aspose-words-cloud).
+Old package is abandoned and no more updated since this release [ABANDONED package](https://packagist.org/packages/aspose/words-sdk-php).
 
 ### Aspose Words Cloud Python SDK
 

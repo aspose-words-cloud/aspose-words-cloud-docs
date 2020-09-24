@@ -35,8 +35,8 @@ Please feel free to contact us if you find any issues in installing or using thi
 
 We believe the key to success lies in our ability to support and establish mutually beneficial long-term relationships with our customers. Our experts are here to answer your questions, help you troubleshoot issues, improve your experience and increase satisfaction with our products. If you have any questions and need support on Aspose DOC Importer plugin you can log them using any of the following platforms.
 
-- [WordPress Plugin Support Forum](https://wordpress.org/support/plugin/aspose-doc-importer)
-- [Forum](https://forum.aspose.cloud/)
+- [WordPress Plugin Support Forum](https://wordpress.org/support/plugin/aspose-doc-importer).
+- [Forum](https://forum.aspose.cloud/).
 
 ### Extend and Contribute
 
@@ -44,7 +44,7 @@ Aspose Doc Importer Plugin for WordPress is open source and its source code is a
 
 ### Source Code
 
-- [Github](https://github.com/asposeforcloud/Aspose_Cloud_for_WordPress)
+- [Github](https://github.com/asposeforcloud/Aspose_Cloud_for_WordPress).
 
 ### How to configure the source code
 
@@ -70,8 +70,8 @@ Please follow these steps to get started:
 
 You can download the Aspose DOC Importer plugin from one of the following locations:
 
-- Download from [WordPress](https://wordpress.org/plugins/aspose-doc-importer/)
-- Download from [Github](https://github.com/asposeforcloud/Aspose_Cloud_for_WordPress/)
+- Download from [WordPress](https://wordpress.org/plugins/aspose-doc-importer/).
+- Download from [Github](https://github.com/asposeforcloud/Aspose_Cloud_for_WordPress/).
 
 ### Installing
 

@@ -6,13 +6,13 @@ aliases: [/aspose-words-cloud-20-5-release-notes/]
 weight: 40
 ---
 
-The page contains release notes for Aspose.Words Cloud 20.5 – [API Reference](https://apireference.aspose.cloud/words/)
+The page contains release notes for Aspose.Words Cloud 20.5 – [API Reference](https://apireference.aspose.cloud/words/).
 
 ## Important Changes and Enhancements
 
 ### Words Cloud changes
 
-1. Added "BuildReport" feature (uses [Linq reporting](https://docs.aspose.com/display/wordsnet/LINQ+Reporting+Engine+API))
+1. Added "BuildReport" feature (uses [Linq reporting](https://docs.aspose.com/display/wordsnet/LINQ+Reporting+Engine+API)).
 2. Added support of "Document.Lists"
 3. Added support of "Paragraph.ListFormat"
 4. Added support of "Document.Styles"

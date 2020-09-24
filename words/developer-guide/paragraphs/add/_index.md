@@ -22,8 +22,8 @@ This REST API allows you to add a paragraph to a document. The API returns added
 ```
 
 *{file-name}* is the name of the Word document containing elements.
-*{sectionIndex}* is the index of a section that contains paragraphs. 
-*{headerFooterIndex}* is the index of a section that contains headers and footers. 
+*{sectionIndex}* is the index of a section that contains paragraphs.
+*{headerFooterIndex}* is the index of a section that contains headers and footers.
 *{index}* is the index of a specific paragraph.
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Paragraphs/InsertParagraph) lets you call this REST API directly from a browser.
 

@@ -40,9 +40,7 @@ The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Footnotes/
 
 ## cURL Example
 
-The following are a few examples of using cURL:
-
-**Input Document**: [Footnote.doc](attachments/885418/1180127.doc)
+The following are a few examples of using cURL. You can use a sample **Input Document**: [Footnote.doc](attachments/885418/1180127.doc).
 
 {{< tabs tabTotal="2" tabID="2" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}

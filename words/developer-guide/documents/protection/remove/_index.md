@@ -6,7 +6,7 @@ aliases: [/remove-the-protection-from-the-document/]
 weight: 30
 ---
 
-This REST API allows you to remove the protection from the document (unprotects the document). 
+This REST API allows you to remove the protection from the document (unprotects the document).
 
 Password is required.
 

@@ -6,7 +6,7 @@ aliases: [/aspose-words-for-cloud-18-5-release-notes/]
 weight: 70
 ---
 
-The page contains release notes for Aspose.Words for Cloud update 18.5 – [API Reference](https://apireference.aspose.cloud/words/)
+The page contains release notes for Aspose.Words for Cloud update 18.5 – [API Reference](https://apireference.aspose.cloud/words/).
 
 ## Important Changes and New Features
 
@@ -22,8 +22,8 @@ PDF to Word conversion now supports detecting headers and footers. Sections of P
 
 The following methods now support **documentFileName** parameter:
 
-- [PUT /convert](https://apireference.aspose.cloud/words/#!/Convert/PutConvertDocument)
-- [PUT /executeMailMerge](https://apireference.aspose.cloud/words/#!/MailMerge/PutExecuteMailMergeOnline)
-- [PUT /executeTemplate](https://apireference.aspose.cloud/words/#!/MailMerge/PutExecuteTemplateOnline)
+- [PUT /convert](https://apireference.aspose.cloud/words/#!/Convert/PutConvertDocument).
+- [PUT /executeMailMerge](https://apireference.aspose.cloud/words/#!/MailMerge/PutExecuteMailMergeOnline).
+- [PUT /executeTemplate](https://apireference.aspose.cloud/words/#!/MailMerge/PutExecuteTemplateOnline).
 
 This new attribute is handy when resulting document has dynamic field for document name, and allows to specify that via API or SDK.

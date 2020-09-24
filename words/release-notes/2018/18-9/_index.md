@@ -6,7 +6,7 @@ aliases: [/aspose-words-cloud-18-9-release-notes/]
 weight: 30
 ---
 
-The page contains release notes for Aspose.Words Cloud 18.9 – [API Reference](https://apireference.aspose.cloud/words/)
+The page contains release notes for Aspose.Words Cloud 18.9 – [API Reference](https://apireference.aspose.cloud/words/).
 
 ## Important Changes and New Features
 
@@ -31,5 +31,5 @@ New SDK is fully supported and has the following advantages over the previous ve
 
 It provides access to the paragraph formatting properties:
 
-- [Represents all the formatting for a paragraph](https://apireference.aspose.cloud/words/#!/Paragraphs/GetDocumentParagraphFormat)
-- [Updates paragraph format properties, returns updated format properties](https://apireference.aspose.cloud/words/#!/Paragraphs/PostDocumentParagraphFormat)
+- [Represents all the formatting for a paragraph](https://apireference.aspose.cloud/words/#!/Paragraphs/GetDocumentParagraphFormat).
+- [Updates paragraph format properties, returns updated format properties](https://apireference.aspose.cloud/words/#!/Paragraphs/PostDocumentParagraphFormat).

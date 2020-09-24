@@ -47,7 +47,7 @@ curl  -v -X GET "https://api.aspose.cloud/v4.0/words/storage/file/sample.docx" -
 
 #### cURL Example
 
-The following are a few examples of using cURL.
+The following are a few examples of using cURL:
 
 {{< tabs tabTotal="2" tabID="4" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
@@ -88,7 +88,7 @@ curl  -v -X PUT "https://api.aspose.cloud/v4.0/words/storage/file/sample.docx" -
 
 #### cURL Example
 
-The following are a few examples of using cURL.
+The following are a few examples of using cURL:
 
 {{< tabs tabTotal="1" tabID="8" tabName1="Request" >}}
 {{< tab tabNum="1" >}}
@@ -115,7 +115,7 @@ curl -v -X PUT "https://api.aspose.cloud/v4.0/words/storage/file/copy/sample.doc
 
 #### cURL Example
 
-The following are a few examples of using cURL.
+The following are a few examples of using cURL:
 
 {{< tabs tabTotal="1" tabID="11" tabName1="Request" >}}
 {{< tab tabNum="1" >}}
@@ -142,7 +142,7 @@ curl -v -X PUT "https://api.aspose.cloud/v4.0/words/storage/file/move/input.docx
 
 #### cURL Example
 
-The following are a few examples of using cURL.
+The following are a few examples of using cURL:
 
 {{< tabs tabTotal="1" tabID="14" tabName1="Request" >}}
 {{< tab tabNum="1" >}}

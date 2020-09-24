@@ -6,7 +6,7 @@ aliases: [/render-complex-parts-of-a-word-document-into-the-image/]
 weight: 90
 ---
 
-This REST API allows you to render complex portions of a document to any supported format. The following elements can be rendered: 
+This REST API allows you to render complex portions of a document to any supported format. The following elements can be rendered:
 
 - page
 - paragraph
@@ -33,19 +33,19 @@ The following formats are supported:
 
 ## REST API’s Resources
 
-The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Render) lets you call following REST APIs directly from the browser:
+The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Render) lets you call the following REST APIs directly from a browser:
 
-- [Renders page to a specified format](https://apireference.aspose.cloud/words/#/Render/RenderPage)
-- [Renders paragraph to a specified format](https://apireference.aspose.cloud/words/#/Render/RenderParagraph)
-- [Renders table to a specified format](https://apireference.aspose.cloud/words/#/Render/RenderTable)
-- [Renders drawing object to a specified format](https://apireference.aspose.cloud/words/#/Render/RenderDrawingObject)
-- [Renders math object to a specified format](https://apireference.aspose.cloud/words/#/Render/RenderMathObject)
+- [Renders page to a specified format](https://apireference.aspose.cloud/words/#/Render/RenderPage).
+- [Renders paragraph to a specified format](https://apireference.aspose.cloud/words/#/Render/RenderParagraph).
+- [Renders table to a specified format](https://apireference.aspose.cloud/words/#/Render/RenderTable).
+- [Renders drawing object to a specified format](https://apireference.aspose.cloud/words/#/Render/RenderDrawingObject).
+- [Renders math object to a specified format](https://apireference.aspose.cloud/words/#/Render/RenderMathObject).
 
 ## cURL Example
 
-The following are a few examples of using cURL:
+The following are a few examples of using cURL.
 
-*Case 1: Render a page of the document in BMP format:**
+**Case 1**: Render a page of the document in BMP format:
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
@@ -78,7 +78,7 @@ BMP File
 {{< /tab >}}
 {{< /tabs >}}
 
-**Case 2: Render a paragraph in PNG format:**
+**Case 2**: Render a paragraph in PNG format:
 
 {{< tabs tabTotal="2" tabID="4" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
@@ -111,7 +111,7 @@ PNG File
 {{< /tab >}}
 {{< /tabs >}}
 
-**Case 3: Render a table in PNG format:**
+**Case 3**: Render a table in PNG format:
 
 {{< tabs tabTotal="2" tabID="7" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
@@ -144,7 +144,7 @@ PNG File
 {{< /tab >}}
 {{< /tabs >}}
 
-**Case 4: Render a drawingObject in PDF format:**
+**Case 4**: Render a drawingObject in PDF format:
 
 {{< tabs tabTotal="2" tabID="10" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
@@ -177,7 +177,7 @@ PDF File
 {{< /tab >}}
 {{< /tabs >}}
 
-**Case 5: Render an OfficeMathObject in PNG format:**
+**Case 5**: Render an OfficeMathObject in PNG format:
 
 {{< tabs tabTotal="2" tabID="13" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
