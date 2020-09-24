@@ -13,7 +13,7 @@ The page contains release notes for Aspose.Words for Cloud update 17.11 – [API
 |Key|Summary|Category|
 | :- | :- | :- |
 |WORDSCLOUD-241|DOCX to PDF conversion issue with SmartArt rendering|Bug|
-|WORDSCLOUD-266|` `Horizontal and Vertical Merge properties of Cell are updated incorrectly|Bug|
+|WORDSCLOUD-266|Horizontal and Vertical Merge properties of Cell are updated incorrectly|Bug|
 |WORDSCLOUD-308|Footer missing in converting from Word to PDF|Bug|
 
 ## Important changes and new Features
@@ -29,9 +29,9 @@ New SDK is fully supported and has the following advantages over the previous ve
 
 The SDK is not backward compatible with the previous generation because of the last item. It should be straightforward to convert program code to using Request/Response objects, if you need any help on migration please ask at [Free Support Forums](https://forum.aspose.cloud/c/words).
 
-#### PDF to Word: Image Conversion Support
+### PDF to Word: Image Conversion Support
 
-This release introduces support for images in [PDF to Word conversion](/working-with-pdf-documents/). Some limitations still apply:
+This release introduces support for images in [PDF to Word conversion](/words/convert/pdf-to-word/). Some limitations still apply:
 
 - Semi-transparent images are not converted properly
 - Rotated images are not supported

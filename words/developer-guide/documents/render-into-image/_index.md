@@ -3,7 +3,7 @@ title: "Render Complex Parts of a Word Document Into the Image"
 type: docs
 url: /documents/render-into-image/
 aliases: [/render-complex-parts-of-a-word-document-into-the-image/]
-weight: 60
+weight: 80
 ---
 
 This REST API allows you to render complex portions of a document to any supported format. The following elements can be rendered:

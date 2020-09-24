@@ -3,7 +3,7 @@ title: "Remove all Macros from Document"
 type: docs
 url: /documents/remove-macros/
 aliases: [/remove-all-macros-from-document/]
-weight: 50
+weight: 70
 ---
 
 This REST API allows you to remove all macros that are contained in the document.

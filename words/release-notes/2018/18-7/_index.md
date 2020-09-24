@@ -18,4 +18,4 @@ The page contains release notes for Aspose.Words Cloud 18.7 – [API Reference]
 
 **Added new API "GetAvailableFonts"**
 
-Please check [Gets the List of Fonts](/gets-the-list-of-fonts/) article.
+Please check [Gets the List of Fonts](/words/fonts/gets-the-list-of-fonts/) article.

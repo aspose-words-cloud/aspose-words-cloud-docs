@@ -22,9 +22,7 @@ Major features of this Addon are:
 - Upload the document on Cloud Storage.
 - Delete document when not required (usually used after uploading to Cloud or sending via email).
 
-## System Requirements and Supported Platforms
-
-### System Requirements
+## System Requirements
 
 In order to install and use Aspose Cloud AutoMerge for Microsoft Dynamics CRM you need to have one of the following CRM version installed
 
@@ -34,7 +32,7 @@ In order to install and use Aspose Cloud AutoMerge for Microsoft Dynamics CRM yo
 
 Please feel free to contact us if you find any issues in installing or using this Add-on.
 
-### Supported Platforms
+## Supported Platforms
 
 This addon will work with all version of Microsoft Dynamics CRM:
 
@@ -42,9 +40,7 @@ This addon will work with all version of Microsoft Dynamics CRM:
 - Microsoft Dynamics CRM 2015.
 - Microsoft Dynamics CRM Online.
 
-## Support,Extend and Contribute
-
-### Support
+## Support
 
 We offer free support. Anyone who uses our product, whether they have bought them or are using an evaluation, deserves our full attention and respect.
 
@@ -55,7 +51,7 @@ You can log any issues or suggestions related to Aspose Cloud AutoMerge using an
 - [Sourceforge](https://goo.gl/jTKXSa).
 - [Bitbucket](https://goo.gl/Squzfh).
 
-### Extend and Contribute
+## Extend and Contribute
 
 You can download the latest source code at:
 
@@ -116,11 +112,7 @@ Execute MailMerge on Cloud file:
         }
 ```
 
-## Installation and Usage
-
-### Downloading,Installing or Uninstalling
-
-#### Downloading
+## Downloading
 
 You can download Aspose Cloud AutoMerge 2.0.0.2015 for CRM from one of the following locations:
 
@@ -144,7 +136,7 @@ You can download Aspose Cloud AutoMerge 1.0.0 for CRM from one of the following 
 - [Bitbucket](http://goo.gl/blUMuZ).
 - [Code.MSDN](http://goo.gl/p0QEnp).
 
-#### Installing Aspose Cloud AutoMerge
+## Installing Aspose Cloud AutoMerge
 
 It is simple to install Aspose Cloud AutoMerge. Please follow below Instructions:
 
@@ -154,16 +146,12 @@ It is simple to install Aspose Cloud AutoMerge. Please follow below Instructions
 - Click Next and wait for the solution to import.
 - Click close when the solution is imported successfully.
 
-#### Applying License
+## Applying License
 
 - Create an account on <http://cloud.aspose.com/> and Save its AppSID and AppKey.
 - It will be later used in workflow configuration.
 
-#### Uninstalling Aspose Cloud AutoMerge
+## Uninstalling Aspose Cloud AutoMerge
 
 - Go to solution and select "Aspose Cloud AutoMerge".
 - Press the Delete button.
-
-### Using
-
-﻿[Using Cloud AutoMerge for Dynamics CRM](/using-cloud-automerge-for-dynamics-crm/).

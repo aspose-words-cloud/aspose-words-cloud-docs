@@ -1,8 +1,8 @@
 ---
-title: "Working with Protection in a Word Document"
+title: "Protection"
 type: docs
 url: /documents/protection/
 aliases: [/working-with-protection-in-a-word-document/]
-weight: 100
+weight: 60
 ---
 

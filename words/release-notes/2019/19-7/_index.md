@@ -10,12 +10,12 @@ The page contains release notes for Aspose.Words Cloud 19.7 – [API Reference]
 
 ## Important Changes and New Features
 
-#### API changes
+### API changes
 
 - Fixed some issues with Swagger.
-- Added RangeAPI features, please check [Working with Range](/working-with-range/) for details.
+- Added RangeAPI features, please check [Working with Range](/words/range/) for details.
 
-#### PDF to Word conversion improvements
+### PDF to Word conversion improvements
 
 - Improved section detection logic: now it scans recognized colontitles and adds page breaks only when necessary.
 - Fixed incorrect header detection on pages with tables.

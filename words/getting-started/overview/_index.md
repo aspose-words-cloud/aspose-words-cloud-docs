@@ -30,7 +30,7 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 Please check out the [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words SDKs together with working examples to get you started in no time.
 
-Please check [Available SDKs](/available-sdks/) article to learn how to add an SDK to your project.
+Please check [Available SDKs](/words/available-sdks/) article to learn how to add an SDK to your project.
 
 ## API Explorer
 

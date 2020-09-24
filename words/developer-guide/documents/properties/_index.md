@@ -1,8 +1,8 @@
 ---
-title: "Working with Document Properties"
+title: "Document Properties"
 type: docs
 url: /documents/properties/
 aliases: [/working-with-document-properties/]
-weight: 90
+weight: 30
 ---
 
