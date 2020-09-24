@@ -1,5 +1,6 @@
 ---
-title: "Aspose.Words Cloud 18.6 Release Notes"
+title: "18.6 Release Notes"
+second_title: "Aspose Words Cloud"
 type: docs
 url: /release-notes/2018/18-6/
 aliases: [/aspose-words-cloud-18-6-release-notes/]
