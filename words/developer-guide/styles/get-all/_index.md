@@ -30,7 +30,7 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyleFromDocumentElement
 -H  "Content-Type: application/json" 
 ```
 
-<p style="margin:0;font-size:80%;font-style:italic">To get jwt token use this <a href="/getting-started/available-sdks/#curl">instruction</a></p>
+<p style="margin:0;font-size:80%;font-style:italic">To get jwt token use this <a href="/words/getting-started/available-sdks/#curl">instruction</a></p>
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}

@@ -50,7 +50,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/fields" \
 -H "Authorization: Bearer <jwt token>"
 ```
 
-<p style="margin:0;font-size:80%;font-style:italic">To get jwt token use this <a href="/getting-started/available-sdks/#curl">instruction</a></p>
+<p style="margin:0;font-size:80%;font-style:italic">To get jwt token use this <a href="/words/getting-started/available-sdks/#curl">instruction</a></p>
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}

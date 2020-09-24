@@ -5,4 +5,3 @@ url: /release-notes/2015/
 aliases: [/release-notes-2015/]
 weight: 60
 ---
-
