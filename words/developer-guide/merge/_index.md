@@ -33,14 +33,6 @@ You can use sample **Input Documents**: [test_doc.docx](attachments/885186/11801
 {{< tab tabNum="1" >}}
 
 ```bash
-# Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
-# Place App_Key in "client_secret" and App_SID in "client_id" argument.
-curl -v "https://api.aspose.cloud/connect/token" \
--X POST \
--d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
--H "Content-Type: application/x-www-form-urlencoded" \
--H "Accept: application/json"
-
 # cURL example to append a document
 curl -v "https://api.aspose.cloud/v4.0/words/test_doc.docx/appendDocument" \
 -X PUT \
@@ -49,6 +41,8 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_doc.docx/appendDocument" \
 -H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>"
 ```
+
+<p style="margin:0;font-size:80%;font-style:italic">To get jwt token use this <a href="/getting-started/available-sdks/#curl">instruction</a></p>
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}

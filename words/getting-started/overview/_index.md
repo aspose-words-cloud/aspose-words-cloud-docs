@@ -32,10 +32,10 @@ Please check out the [GitHub repository](https://github.com/aspose-words-cloud) 
 
 Please check [Available SDKs](/available-sdks/) article to learn how to add an SDK to your project.
 
-### API Explorer
+## API Explorer
 
 [Aspose.Words Cloud API Reference](https://apireference.aspose.cloud/words/) is the easiest way to try out our APIs right away in your browser! It allows you to effortlessly interact and try out every single operation our APIs exposes.
 
-### Security and Authentication
+## Security and Authentication
 
 The Aspose.Words Cloud APIs are secure and require [JWT token-based authentication](https://docs.aspose.cloud/display/storagecloud/JSON+Web+Token+Authentication).
