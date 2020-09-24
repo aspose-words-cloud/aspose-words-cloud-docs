@@ -20,8 +20,8 @@ weight: 20
         </ul>            
         <p>Watermarks</p>
         <ul>
-            <li><a href="/words/watermark/insert-image">Insert a Watermark Image into a Word Document</a></li>
-            <li><a href="/words/watermark/insert-text">Insert a Watermark Text into a Word Document</a></li>
+            <li><a href="/words/watermark/insert-image/">Insert a Watermark Image into a Word Document</a></li>
+            <li><a href="/words/watermark/insert-text/">Insert a Watermark Text into a Word Document</a></li>
         </ul>
     </div>
     <div class="col-md-6">

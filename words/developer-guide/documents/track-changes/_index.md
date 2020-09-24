@@ -13,4 +13,4 @@ The REST API has a great feature *Track changes in word* documents. Track cha
 
 Please read the following articles to explore the feature in depth:
 - [Accept all revisions](/words/documents/track-changes/accept-all/)
-- [Remove all revisions](/words/documents/track-changes/remove-all/)
+- [Reject all revisions](/words/documents/track-changes/reject-all/)
