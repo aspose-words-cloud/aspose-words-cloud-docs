@@ -8,7 +8,7 @@ weight: 60
 
 ## Important Changes and Enhancements
 
-### API changes
+## API
 
 - Added RtfSaveOptionsData.SaveImagesAsWmf property
 - Added SDK for Swift
@@ -16,7 +16,7 @@ weight: 60
 - PHP SDK. From now in packagist sdk has different package name aspose-words-cloud [new link here](https://packagist.org/packages/aspose-cloud/aspose-words-cloud).
   Old package is abandoned and no more updated since this release [ABANDONED package](https://packagist.org/packages/aspose/words-sdk-php).
 
-### PDF to Word conversion improvements
+## PDF
 
 - Improved space detection between words in text paragraphs;
 - Fixed position in text for images rotated by 45 degrees;
@@ -71,49 +71,49 @@ weight: 60
 
 ## SDKs Changes
 
-### Aspose Words Cloud .Net SDK
+## Aspose
 
 - XmlColor.Alpha isn't a required property
 - RtfSaveOptionsData.SaveImageAsWmf property is added
 
-### Aspose Words Cloud C++ SDK
+## Aspose
 
 - Alpha property of XmlColor class isn't a required now
 - SaveImageAsWmf property is added to RtfSaveOptionsData class.
 
-### Aspose Words Cloud Go SDK
+## Aspose
 
 - XmlColor.Alpha isn't a required property
 - RtfSaveOptionsData.SaveImageAsWmf property is added
 
-### Aspose Words Cloud Java SDK
+## Aspose
 
 - Added RtfSaveOptionsData.SaveImagesAsWmf property
 - WordsApi class now has credentials parameters
 - Methods which used to work with File now work with byte[]
 
-### ` `Aspose Words Cloud Node.js SDK
+## ` `Aspose
 
 - XmlColor.Alpha isn't a required property
 - RtfSaveOptionsData.SaveImageAsWmf property is added
 
-### Aspose Words Cloud PHP SDK
+## Aspose
 
 - Added RtfSaveOptionsData.SaveImagesAsWmf property
 - WordsApi class now has credentials parameters
 
-#### Important update
+## Important
 
 From now in packagist sdk has different package name aspose-words-cloud [new link here](https://packagist.org/packages/aspose-cloud/aspose-words-cloud).
 Old package is abandoned and no more updated since this release [ABANDONED package](https://packagist.org/packages/aspose/words-sdk-php).
 
-### Aspose Words Cloud Python SDK
+## Aspose
 
 - Added RtfSaveOptionsData.SaveImagesAsWmf property
 - WordsApi class now has credentials parameters
 - All methods which are used files, now operate with bytes array
 
-### ` `Aspose Words Cloud Ruby SDK
+## ` `Aspose
 
 - Added RtfSaveOptionsData.SaveImagesAsWmf property
 - WordsApi class now has credentials parameters

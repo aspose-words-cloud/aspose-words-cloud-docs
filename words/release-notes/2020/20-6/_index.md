@@ -10,7 +10,7 @@ The page contains release notes for Aspose.Words Cloud 20.6 – [API Reference]
 
 ## Important Changes and New Features
 
-### Words Cloud changes
+## Words
 
 1. Added OoxmlSaveOption CompressionLevel property
 2. Added group of methods without nodePath property
@@ -25,7 +25,7 @@ The page contains release notes for Aspose.Words Cloud 20.6 – [API Reference]
 3. In methods InsertOrUpdateParagraphTabStop, DeleteParagraphTabStop order of parameters has changed NodePath was moved to one position next, like if it was second before, now it's
 4. Fixed swagger specification for "insert drawing object" and "update drawing object" methods
 
-### PDF to Word conversion improvements
+## PDF
 
 - Implemented clipping path detection for W and W\* operators
 - Added support for PDF files with early EOFs
@@ -48,7 +48,7 @@ The page contains release notes for Aspose.Words Cloud 20.6 – [API Reference]
 |PDF2WORD-500 |Can't open doc-1.pdf because there is no "end of stream" marker |Bug|
 |PDF2WORD-501 |Duplicated bottom text line after PDF conversion |Bug|
 
-### API Changes for Aspose.Words Cloud SDKs (.Net, Java, PHP, Ruby, Node.js, Python, Go and Swift)
+## API
 
 1. Added new methods:
    - deleteAllParagraphTabStopsWithoutNodePath

@@ -10,7 +10,7 @@ The page contains release notes for Aspose.Words Cloud 20.5 – [API Reference]
 
 ## Important Changes and Enhancements
 
-### Words Cloud changes
+## Words
 
 1. Added "BuildReport" feature (uses [Linq reporting](https://docs.aspose.com/display/wordsnet/LINQ+Reporting+Engine+API)).
 2. Added support of "Document.Lists"
@@ -21,7 +21,7 @@ The page contains release notes for Aspose.Words Cloud 20.5 – [API Reference]
 7. Added support of UrlEncoded "NodePath" parameters
 8. Released "Downloadable" version of API on DockerHub
 
-### PDF to Word conversion improvements
+## PDF
 
 1. Fixed letters disappearance during PDF recognition;
 2. Implemented diagonal lines detection in tables;
@@ -57,7 +57,7 @@ The page contains release notes for Aspose.Words Cloud 20.5 – [API Reference]
 
 ## SDK Changes
 
-### Aspose Words Cloud .Net SDK 20.5
+## Aspose
 
 1. Added methods to work with Word document lists
    - GetLists
@@ -87,7 +87,7 @@ The page contains release notes for Aspose.Words Cloud 20.5 – [API Reference]
    - BuildReportOnline
 6. Added Shading property to ParagraphFormat
 
-### Aspose Words Cloud C++ SDK 20.5
+## Aspose
 
 1. Added methods to work with Word document lists
    - getLists
@@ -117,7 +117,7 @@ The page contains release notes for Aspose.Words Cloud 20.5 – [API Reference]
    - buildReportOnline
 6. Added Shading property to ParagraphFormat
 
-### Aspose Words Cloud Go SDK 20.5
+## Aspose
 
 1. Added methods to work with Word document lists
    - GetLists
@@ -147,7 +147,7 @@ The page contains release notes for Aspose.Words Cloud 20.5 – [API Reference]
    - BuildReportOnline
 6. Added Shading property to ParagraphFormat
 
-### Aspose Words Cloud Java SDK 20.5
+## Aspose
 
 1. Added methods to work with Word document lists
    - GetLists
@@ -177,7 +177,7 @@ The page contains release notes for Aspose.Words Cloud 20.5 – [API Reference]
    - BuildReportOnline
 6. Added Shading property to ParagraphFormat
 
-### ` `Aspose Words Cloud Node.js SDK 20.5
+## ` `Aspose
 
 1. Added methods to work with Word document lists
    - getLists
@@ -207,7 +207,7 @@ The page contains release notes for Aspose.Words Cloud 20.5 – [API Reference]
    - buildReportOnline
 6. Added Shading property to ParagraphFormat
 
-### Aspose Words Cloud PHP SDK 20.5
+## Aspose
 
 1. Added methods to work with Word document lists
    - GetLists
@@ -237,7 +237,7 @@ The page contains release notes for Aspose.Words Cloud 20.5 – [API Reference]
    - BuildReportOnline
 6. Added Shading property to ParagraphFormat
 
-### Aspose Words Cloud Python SDK 20.5
+## Aspose
 
 1. Added methods to work with Word document lists
    - GetLists
@@ -267,7 +267,7 @@ The page contains release notes for Aspose.Words Cloud 20.5 – [API Reference]
    - BuildReportOnline
 6. Added Shading property to ParagraphFormat
 
-### Aspose Words Cloud Ruby SDK 20.5
+## Aspose
 
 1. Added methods to work with Word document lists
    - GetLists
@@ -297,7 +297,7 @@ The page contains release notes for Aspose.Words Cloud 20.5 – [API Reference]
    - BuildReportOnline
 6. Added Shading property to ParagraphFormat
 
-### Aspose Words Cloud Swift SDK 20.5
+## Aspose
 
 1. Added methods to work with Word document lists
    - GetLists

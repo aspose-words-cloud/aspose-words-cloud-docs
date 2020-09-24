@@ -29,7 +29,7 @@ New SDK is fully supported and has the following advantages over the previous ve
 
 The SDK is not backward compatible with the previous generation because of the last item. It should be straightforward to convert program code to using Request/Response objects, if you need any help on migration please ask at [Free Support Forums](https://forum.aspose.cloud/c/words).
 
-### PDF to Word: Image Conversion Support
+## PDF
 
 This release introduces support for images in [PDF to Word conversion](/words/convert/pdf-to-word/). Some limitations still apply:
 

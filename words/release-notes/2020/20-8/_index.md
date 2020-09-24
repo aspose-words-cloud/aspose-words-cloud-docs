@@ -10,13 +10,13 @@ The page contains release notes for Aspose.Words Cloud 20.8 – [API Reference]
 
 ## Important Changes and New Features
 
-### Words Cloud changes
+## Words
 
 - Added "optimize document" feature
 - Added '**ApplyBaseDocumentHeadersAndFootersToAppendingDocuments**' option to '**DocumentEntryList**' for **AppendDocument** API
 - **WithoutNodePath** methods were removed from SDKs
 
-### PDF to Word conversion improvements
+## PDF
 
 - Improved header/footer detection by removing false candidates
 - Corrected multiple issues with footnotes recognition (numbers, alignment, continuation, etc)
@@ -55,7 +55,7 @@ The page contains release notes for Aspose.Words Cloud 20.8 – [API Reference]
 
 ## SDK Changes
 
-### Aspose Words Cloud (Java, PHP, Python, Ruby) SDKs 20.8
+## Aspose
 
 - Added new api method
 

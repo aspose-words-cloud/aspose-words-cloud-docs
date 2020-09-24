@@ -10,13 +10,13 @@ The page contains release notes for Aspose.Words Cloud update 18.6 – [API Ref
 
 ## Important Changes and New Features
 
-#### Added New SaveOptions
+## Added
 
 - SaveOptions.UpdateLastSavedTime
 - OdtSaveOptions.MeasureUnit
 - HtmlSaveOptions.CssClassNamePrefix
 
-#### Support for Preserving Bookmarks in PDF to Word Conversion
+## Support
 
 PDF to Word converter now retains Bookmarks when you convert PDF document to Word
 

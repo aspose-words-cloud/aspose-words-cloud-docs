@@ -8,11 +8,11 @@ weight: 70
 
 ## Important Changes and Enhancements
 
-### API changes
+## API
 
 - Property "ColorMode" moved from SaveOptionsData to FixedPageSaveOptionsData
 
-### PDF to Word conversion improvements
+## PDF
 
 - Corrected document layout on first saving;
 - Added recognition for ICC based color spaces from PDF documents;

@@ -10,11 +10,11 @@ The page contains release notes for Aspose.Words Cloud 20.7 – [API Reference]
 
 ## Important Changes and New Features
 
-### Words Cloud changes
+## Words
 
 - Added "Markdown" save format
 
-### PDF to Word conversion improvements
+## PDF
 
 - Corrected KeyNotFoundException and InvalidOperationException errors while loading a PDF
 - Implemented first version of footnote detection
@@ -44,13 +44,13 @@ The page contains release notes for Aspose.Words Cloud 20.7 – [API Reference]
 
 ## SDK Changes
 
-### Aspose Words Cloud SDKs( Java, PHP, Python, Ruby)
+## Aspose
 
 - Added "Markdown" save format
 - UpdateParagraphFormatRequest now takes ParagraphFormatUpdateDto
 - ParagraphFormat's hierarchy changed: ParagraphFormatBase model was introduced and contains all common properties
 
-### Aspose Words Cloud SDKs( C++, Go, .NET, Node, Swift)
+## Aspose
 
 - Added "Markdown" save format
 - Added endpoint to update paragraph format without node path (PUT "/words/{name}/paragraphs/{index}/format")

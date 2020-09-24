@@ -21,16 +21,16 @@ The page contains release notes for Aspose.Words for Cloud update 17.7. – [API
 
 ## Important Changes and New Features
 
-#### Working with PDF documents
+## Working
 
 This release introduces support for reading PDF documents for the purpose of converting them to Word formats such as DOCX, DOC and working with them the same way as you would work with Word documents. User experience is consistent with other Aspose.Words API, now you can just specify PDF document name as input to Aspose.Words APIs.
 Further information and limitations for PDF to Word conversion are available in [Working with PDF Documents](https://docs.aspose.com/display/wordscloud/Working+with+PDF+Documents).
 
-#### New saving options
+## New
 
 New saving format PCL and PDF saving option DisplayDocTitle are available through Aspose.Words for Cloud APIs.
 
-#### Formfields API update
+## Formfields
 
 New API for getting all form fields in Word document is available:
 
@@ -38,11 +38,11 @@ GET /v{version}/words/{name}/{paragraphPath}/formfields
 
 Other form field API descriptions were updated to match common Aspose.Words notation.
 
-#### Swagger documentation improvements
+## Swagger
 
 Publically available Swagger description and UI has received updates and fixes that make trying out and integrating APIs easier than ever.
 
-#### Deprecated parameters
+## Deprecated
 
 *replaceResourcesHostTo* parameter is now deprecated and will be removed in future versions of the API. Please contact Support if you are using it.
 

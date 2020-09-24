@@ -10,7 +10,7 @@ The page contains release notes for Aspose.Words Cloud 19.3 – [API Reference]
 
 ## Important Changes and New Features
 
-#### PDF to Word conversion improvements
+## PDF
 
 1. corrected left margin for lists after images;
 1. more fixes related to tables without visible borders;

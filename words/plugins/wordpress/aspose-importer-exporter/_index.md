@@ -6,19 +6,17 @@ aliases: [/aspose-importer-exporter/]
 weight: 30
 ---
 
-### WHat is WordPress?
+## WHat is WordPress?
 
 WordPress is a free open source blogging tool and a content management system (CMS) based on PHP and MySQL, which runs on a web hosting service. Features include a plugin architecture and a template system. WordPress is used by more than 22.0% of the top 10 million websites as of August 2013. WordPress is the most popular blogging system in use on the Web, at more than 60 million websites. It’s probably the easiest and most powerful blogging and website content management system (or CMS) in existence today.
 
-### Aspose Importer Exporter
+## Aspose Importer Exporter
 
 Aspose Importer / Exporter Plugin allows developers to get/read contents of different documents like PDF, DOC, and DOCX without requiring any other software such as Adobe Acrobat, a PDF reader or Microsoft Word. This plugin also exports posts to PDF, DOC, and DOCX. This plugin demonstrates the powerful import & export feature provided by [Aspose.Pdf](http://www.aspose.com/pdf-component-suite.aspx) & Aspose.Words. It adds a simple **Aspose File Importer** button on posts & pages. When users click the button, they get two options: importing from a local file or from  Aspose Cloud Storage.  The user selects a file (PDF, DOC, or DOCX), clicks **Insert File to Editor** and the text is inserted into the editor from the selected file. This plugin uses WordPress Media Up-loader to upload local files. You can also select files from WordPress Media Gallery.
 
 For the export feature, the plugin works as a bulk action of post or pages or any custom post type. In bulk action, two new options -- **Aspose PDF Exporter** & **Aspose DOC Exporter** are added. When an option is selected, it generates a DOC or PDF pdf file containing all selected posts or page content.
 
-## System Requirements and Supported Platforms
-
-### System Requirements
+## System Requirements
 
 In order to install and use Aspose Importer Exporter Plugin you need to have below listed items.
 
@@ -27,28 +25,26 @@ In order to install and use Aspose Importer Exporter Plugin you need to have bel
 
 Please feel free to contact us if you find any issues in installing or using this plugin.
 
-### Supported Platforms
+## Supported Platforms
 
 - It is supported up to 4..1.1 version of WordPress and It requires PHP version to be > = 5.3
 
-## Support, Extend and Contribute
-
-### Support
+## Support
 
 We believe the key to success lies in our ability to support and establish mutually beneficial long-term relationships with our customers. Our experts are here to answer your questions, help you troubleshoot issues, improve your experience and increase satisfaction with our products. If you have any questions and need support on Aspose Importer Exporter plugin you can log them using any of the following platforms.
 
 - [WordPress Plugin Support Forum](https://wordpress.org/support/plugin/aspose-importer-exporter).
 - [Github](https://github.com/asposeforcloud/Aspose_Cloud_for_WordPress/issues).
 
-### Extend and Contribute
+## Extend and Contribute
 
 Aspose Importer Exporter Plugin for WordPress is open source and its source code is available on the major social coding websites listed below. Developers are encouraged to download the source code and contribute by suggesting or adding new feature or improving the existing ones, so that others could also benefit from it.
 
-### Source Code
+## Source Code
 
 - [Github](https://github.com/asposeforcloud/Aspose_Cloud_for_WordPress).
 
-### How to configure the source code
+## How to configure the source code
 
 You need to have the following installed in order to open and extend the source code
 
@@ -60,7 +56,7 @@ Please follow these steps to get started:
 - Open PHP Storm and Choose **File** > **Open Project**
 - Browse to the latest source code that you have downloaded.
 
-### Source code overview
+## Source code overview
 
 - Aspose_Cloud_SDK_For_PHP-master - Contains Aspose for Cloud SDK API for different operations.
 - Aspose_Importer_Exporter.php - Contains main plugin code.
@@ -69,16 +65,14 @@ Please follow these steps to get started:
 - asposePdfConverter.php - Contains code for exporting posts into pdf.
 - getAsposeFileContent.php - Contains code for importing content from pdf / doc files into posts.
 
-## Downloading and Installing
-
-### Downloading
+## Downloading
 
 You can download the Aspose Importer Exporter Plugin from one of the following locations:
 
 - Download from [WordPress](https://wordpress.org/plugins/aspose-importer-exporter/).
 - Download from [Github](https://github.com/asposeforcloud/Aspose_Cloud_for_WordPress/releases/tag/6.0).
 
-### Installing
+## Installing
 
 Once downloaded, please follow these steps to install the module to your WordPress website:
 
@@ -96,7 +90,7 @@ Please follow these steps to get started:
 - Make sure you are logged-in to a WordPress site as Admin level account.
 - Make sure you have set up Aspose App Key & Id on the plugin configuration page. For further details on how to get app keys, [click here ](http://www.aspose.com/docs/display/totalcloud/Creating+a+New+App+and+Getting+App+Key).
 
-### Using Import Features of Plugin
+## Using Import Features of Plugin
 
 - Navigate to the page or posts where you want to import contents from the File using Aspose Importer / Exporter Plugin.
 - Click the **Aspose File Importer** button.
@@ -104,13 +98,13 @@ Please follow these steps to get started:
 - Click the **Use this file for Importing** button.
 - Click the **Insert File to Editor** button. It will insert the text from pdf/doc/docx file to Editor.
 
-### Using Export Features of Plugin
+## Using Export Features of Plugin
 
 - Navigate to the page or posts which you want to export.
 - Select  the "Posts / Pages" you want to export and then select either **Aspose Export to DOC** or **Aspose Export to PDF** from **Bulk Actions**.
 - Click **Apply**.
    This exports all selected posts or pages into selected document format and gives you link for downloading the file.
 
-### Video Demo
+## Video Demo
 
 Please check [the video](https://www.youtube.com/watch?v=Nbku98H3hqM) below to see it in action.

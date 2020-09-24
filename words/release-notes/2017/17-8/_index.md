@@ -19,10 +19,10 @@ The page contains release notes for Aspose.Words for Cloud update 17.8. – [API
 
 ## Important Changes and New Features
 
-#### htmlfixed format
+## htmlfixed format
 
 *htmlfixed* format is now supported for /convert and /split methods, allowing saving document in the HTML format using absolutely positioned elements.
 
-#### Swagger documentation improvements
+## Swagger
 
 Publicly available Swagger description and UI now allows file upload for methods that receive file as input, such as PUT /convert, PUT /executeTemplate and PUT /executeMailMerge.

@@ -10,7 +10,7 @@ The page contains release notes for Aspose.Words for Cloud update 18.3 – [API
 
 ## Important Changes and New Features
 
-#### Hyperlinks support for PDF to Word conversion
+## Hyperlinks
 
 PDF to Word converter now properly converts style and destination of hyperlinks, both to URLs and local files.
 
@@ -22,7 +22,7 @@ All currently [supported cloud SDKs](https://github.com/aspose-words-cloud) (.NE
 - v2 (stable) - updated once a quater
 - v3 (frozen) - previous version of "stable", updated once a quater
 
-#### Dropping support of deprecated PDF save option properties
+## Dropping
 
 Some PDF save options that have been deprecated in Aspose.Words .NET are now not available in Aspose.Words Cloud REST API as well. Full list of properties is as follows:
 

@@ -10,10 +10,10 @@ The page contains release notes for Aspose.Words Cloud 18.11 – [API Reference
 
 ## Important Changes and New Features
 
-#### Table Detection and Recognition of Table with Merged Cells
+## Table
 
 If a table contains merged cells and its layout is not very complex, such table will be processed properly.
 
-#### Support images as List Markers
+## Support
 
 Image list markers will not disappear after processing anymore.

@@ -10,10 +10,10 @@ The page contains release notes for Aspose.Words Cloud 19.1 – [API Reference]
 
 ## Important Changes and New Features
 
-#### Added new SaveOptions properties
+## Added
 
 HtmlSaveOptions.ResolveFontNames and MetafileRenderingOptions.ScaleWmfFontsToMetafileSize
 
-#### PDF to Word conversion improvements
+## PDF
 
 Accuracy of table recognition has been improved. From now on, vector graphics remains vector after conversion, raster graphics is no more used for this purpose.

@@ -10,7 +10,7 @@ The page contains release notes for Aspose.Words Cloud 20.4 – [API Reference]
 
 ## Important Changes and Enhancements
 
-### Words Cloud changes
+## Words
 
 - Added CompareOptions to "Compare documents" endpoint
 - Added "Password" option to OdtSaveOptions
@@ -19,7 +19,7 @@ The page contains release notes for Aspose.Words Cloud 20.4 – [API Reference]
 - Added "UpdateLastPrintedProperty" to SaveOptions
 - Added "UseTargetMachineFonts" option to HtmlFixedSaveOptions
 
-### PDF to Word conversion improvements
+## PDF
 
 - Fixed all issues related to Xamarin support;
 - Improved formulas formatting when font substitution occurs during the recognition;
