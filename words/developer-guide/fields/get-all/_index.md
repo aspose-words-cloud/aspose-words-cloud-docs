@@ -31,6 +31,7 @@ The resource properties are:
 |FieldCode|string|Returns field code.|
 |LocaleId|int|Gets or sets LCID of the field.|
 |Result|string|Returns field result.|
+
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Fields/GetFields) lets you call this REST API directly from a browser.
 
 ## cURL Example

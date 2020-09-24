@@ -18,6 +18,7 @@ weight: 10
 |cleanup|<p>If the cleanup parameter is omitted, cleanup options will be None.</p><p> </p>|
 |useWholeParagraphAsRegion|Specifies a value indicating whether paragraphs with TableStart or TableEnd field should be fully included in the mail merge region or particular range between TableStart and TableEnd fields. The default value is true.|
 | | |
+
 The cleanup options parameter can contain a list of values from below, separated by ",":
 
 |Value|Description|

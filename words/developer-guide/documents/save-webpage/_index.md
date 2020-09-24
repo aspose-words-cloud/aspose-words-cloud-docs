@@ -12,6 +12,7 @@ This REST API allows you to load a new document from the web into the file with 
 | :- | :- | :- |
 |LoadingDocumentUrl|string|Web document URL|
 |SaveOptions|SaveOptions|Save options|
+
 Please check [Convert Document to Destination Format with Detailed Settings and Save Result to Storage](/convert-document-to-destination-format-with-detailed-settings-and-save-result-to-storage/) article to know the SaveOptions of different formats.
 
 ## REST API’s Resources

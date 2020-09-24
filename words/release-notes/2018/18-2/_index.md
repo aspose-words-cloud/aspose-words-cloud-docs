@@ -44,6 +44,7 @@ Some save options that have been deprecated in Aspose.Words .NET are now not ava
 |XpsSaveOptions.HeadingsOutlineLevels|XpsSaveOptions.OutlineOptions.HeadingsOutlineLevels|
 |XpsSaveOptions.BookmarksOutlineLevel|XpsSaveOptions.OutlineOptions.DefaultBookmarksOutlineLevel|
 |XpsSaveOptions.MetafileRenderingMode|XpsSaveOptions.MetafileRenderingOptions.RenderingMode|
+
 See [Aspose.Words .NET 18.2 Release Notes](https://docs.aspose.com/display/wordsnet/Aspose.Words+for+.NET+18.2+Release+Notes) for more details.
 
 Please note that other deprecated save options may be dropped in the future as well, specifically in PdfSaveOptions class.

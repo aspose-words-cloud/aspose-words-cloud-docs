@@ -17,6 +17,7 @@ The request parameters are the following:
 |IsMatchCase|bool|Flag, true means the search is case-sensitive; false means the search is not case-sensitive. Not used if "IsOldValueRegex" is set.|
 |IsMatchWholeWord|bool|The flag means that only whole word matched are replaced. Not used if "IsOldValueRegex" is set.|
 |IsOldValueRegex|bool|The flag means that "OldValue" contains regex expression.|
+
 Moreover, resource properties are the following:
 
 |Property Name|Type|Description|

@@ -22,6 +22,7 @@ The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Split/Spli
 |from|int|The start page number for splitting, if it is not specified, splitting starts from the first page of the document.|
 |to|int|The last page number for splitting, if it is not specified, splitting ends at the last page of the document.|
 |zipOutput|bool|ZipOutput or not.|
+
 The **valid formats** are:
 
 |format Parameter Value|Format of the returned Page|

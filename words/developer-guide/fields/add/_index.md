@@ -37,6 +37,7 @@ The resource properties are:
 |FieldCode|string|Returns field code.|
 |LocaleId|int|Specifies LCID of the field.|
 |Result|string|Returns field result.|
+
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Fields/InsertField) lets you call this REST API directly from a browser.
 
 ## cURL Example

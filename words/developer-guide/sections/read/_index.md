@@ -41,6 +41,7 @@ This REST API allows you to read the page setup of a section. The API returns JS
 |SuppressEndnotes|bool|True if endnotes are printed at the end of the next section that doesn't suppress endnotes. Suppressed endnotes are printed before the endnotes in that section.|
 |TopMargin|double|Specifies the distance (in points) between the top edge of the page and the top boundary of the body text.|
 |VerticalAlignment|PageVerticalAlignment|Specifies the vertical alignment of text on each page in a document or section.|
+
 Please note that the SDKs of this cloud API are available in *Python, C#, Java, Ruby, PHP, Node.js, Android, Swift* and *Go* languages.
 
 ## REST API’s Resources

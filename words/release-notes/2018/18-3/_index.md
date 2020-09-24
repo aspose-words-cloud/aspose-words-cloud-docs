@@ -36,4 +36,5 @@ Some PDF save options that have been deprecated in Aspose.Words .NET are now not
 |PdfSaveOptions.MetafileRenderingMode|PdfSaveOptions.MetafileRenderingOptions.RenderingMode|
 |PdfSaveOptions.DownsampleImages|PdfSaveOptions.DownsampleOptions.DownsampleImages|
 |PdfSaveOptions.DownsampleResolution|PdfSaveOptions.DownsampleOptions.Resolution|
+
 See [Aspose.Words .NET 18.3 Release Notes](https://docs.aspose.com/display/wordsnet/Aspose.Words+for+.NET+18.3+Release+Notes) for more details.

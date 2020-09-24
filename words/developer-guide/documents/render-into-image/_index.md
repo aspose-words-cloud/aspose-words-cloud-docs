@@ -19,6 +19,7 @@ The request parameters are the following:
 |Parameter Name|Type|Query String/HTTPBody|Description|
 | :- | :- | :- | :- |
 |format|string|Query String: format=jpeg|Return the document in the specified format. Valid values for this parameter are given below.|
+
 The following formats are supported:
 
 |format parameter value|Format of the returned Presentation|

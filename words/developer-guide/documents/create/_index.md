@@ -22,6 +22,7 @@ This REST API allows you to create a new Word Document. The document is created 
 |FlatOpcTemplateMacroEnabled|".flatopc_template_macro", ".fopc_template_macro"|Office Open XML WordprocessingML Macro-Enabled Template stored in a flat XML file instead of a ZIP package.|
 |WordML|".wordml", ".wml"|Microsoft Word 2003 WordprocessingML format.|
 |Rtf|".rtf"|RTF format. All characters above 7-bits are escaped as hexadecimal or Unicode characters|
+
 and the request parameters are the following:
 
 |Parameter Name|Query String/HTTPBody|Description|
