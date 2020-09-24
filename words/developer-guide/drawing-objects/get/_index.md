@@ -41,7 +41,7 @@ The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/DrawingObj
 
 ## cURL Example
 
-The following are a few examples of using cURL. You can use a sample **Input Document** [test_multi_pages.docx](/words/attachments/885442/1180124.docx). The **Output File** would be as follows: [drawingObject.png](/words/attachments/885442/1180123.png).
+The following are a few examples of using cURL. You can use a sample **Input Document** [test_multi_pages.docx](test_multi_pages.docx). The **Output File** would be as follows: [drawingObject.png](drawingObject.png).
 
 {{< tabs tabTotal="2" tabID="2" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}

@@ -46,7 +46,7 @@ The following are a few examples of using cURL.
 
 **Case 1**: MailMerge Template
 
-You can use a sample **Input Document** [SampleMailMergeTemplate.docx](/words/attachments/884946/1180099.docx) and a sample **Mail Merge Data** [SampleMailMergeTemplateData.txt](/words/attachments/884946/1180097.txt). The **Output Document** would be as follows: [TestPostDocumentExecuteMailMerge.docx](/words/attachments/884946/8028164.docx).
+You can use a sample **Input Document** [SampleMailMergeTemplate.docx](/words/mail-merge/SampleMailMergeTemplate.docx) and a sample **Mail Merge Data** [SampleMailMergeTemplateData.txt](/words/mail-merge/SampleMailMergeTemplateData.txt). The **Output Document** would be as follows: [TestPostDocumentExecuteMailMerge.docx](/words/mail-merge/TestPostDocumentExecuteMailMerge.docx).
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
@@ -244,20 +244,12 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleMailMergeTemplate.docx/MailMe
 
 **Case 2**: Mustache Template
 
-You can use a sample **Input Document** [TestExecuteTemplate.doc](/words/attachments/884946/8028161.doc) and a sample **Mail Merge Data** [TestExecuteTemplateData.txt](/words/attachments/884946/8028162.txt). The **Output Document** would be as follows: [TestPostExecuteTemplate.docx](/words/attachments/884946/8028165.docx).
+You can use a sample **Input Document** [TestExecuteTemplate.doc](/words/mail-merge/TestExecuteTemplate.doc) and a sample **Mail Merge Data** [TestExecuteTemplateData.txt](/words/mail-merge/TestExecuteTemplateData.txt). The **Output Document** would be as follows: TestPostDocumentExecuteMailMergeResult.docx.
 
 {{< tabs tabTotal="2" tabID="4" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
 
-```JAVA
-# Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
-# Place App_Key in "client_secret" and App_SID in "client_id" argument.
-curl -v "https://api.aspose.cloud/connect/token" \
--X POST \
--d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
--H "Content-Type: application/x-www-form-urlencoded" \
--H "Accept: application/json"
-
+```bash
 # cURL example to populate Mustache template with Data
 curl -v "https://api.aspose.cloud/v4.0/words/TestExecuteTemplate.doc/MailMerge?destFileName=TestPostExecuteTemplate.docx" \
 -X PUT \
@@ -267,10 +259,12 @@ curl -v "https://api.aspose.cloud/v4.0/words/TestExecuteTemplate.doc/MailMerge?d
 -H "Authorization: Bearer <jwt token>"
 ```
 
+<p style="margin:0;font-size:80%;font-style:italic">To get jwt token use this <a href="/words/getting-started/available-sdks/#curl">instruction</a></p>
+
 {{< /tab >}}
 {{< tab tabNum="2" >}}
 
-```JAVA
+```json
 {
   "Document": {
     "Links": [

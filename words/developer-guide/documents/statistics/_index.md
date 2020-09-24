@@ -3,7 +3,7 @@ title: "Get Document Statistics"
 type: docs
 url: /documents/statistics/
 aliases: [/get-document-statistics/]
-weight: 50
+weight: 40
 ---
 
 This REST API allows you to get statistical data on the document. The request parameters are the following:

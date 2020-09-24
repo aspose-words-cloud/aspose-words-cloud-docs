@@ -62,7 +62,7 @@ The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Convert/Co
 
 ## cURL Example
 
-The following are a few examples of using cURL. You can use a sample **Input Document** [TableDocument.doc](/words/attachments/885335/1180089.doc). The **Output Document** would be as follows: [TableDocument.pdf](/words/attachments/885335/1180090.pdf).
+The following are a few examples of using cURL. You can use a sample **Input Document** [TableDocument.doc](TableDocument.doc). The **Output Document** would be as follows: [TableDocument.pdf](TableDocument.pdf).
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}

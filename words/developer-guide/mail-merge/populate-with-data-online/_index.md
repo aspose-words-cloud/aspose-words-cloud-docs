@@ -42,7 +42,7 @@ The following are a few examples of using cURL.
 
 **Case 1**: MailMerge Template
 
-You can use a sample **Input Document** [SampleMailMergeTemplate.docx](/words/attachments/884946/1180099.docx) and a sample **Mail Merge Data** [SampleMailMergeTemplateData.txt](/words/attachments/884946/1180097.txt). The **Output Document** would be as follows: [TestPostDocumentExecuteMailMerge.docx](/words/attachments/884946/8028163.docx).
+You can use a sample **Input Document** [SampleMailMergeTemplate.docx](/words/mail-merge/SampleMailMergeTemplate.docx) and a sample **Mail Merge Data** [SampleMailMergeTemplateData.txt](/words/mail-merge/SampleMailMergeTemplateData.txt). The **Output Document** would be as follows: [TestPostDocumentExecuteMailMerge.docx](/words/mail-merge/TestPostDocumentExecuteMailMerge.docx).
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
@@ -73,7 +73,7 @@ Output Document: TestPostDocumentExecuteMailMerge.docx
 
 **Case 2**: Mustache Template
 
-You can use a sample **Input Document** [TestExecuteTemplate.doc](/words/attachments/884965/7209026.doc) and a sample **Mail Merge Data** [TestExecuteTemplateData.txt](/words/attachments/884965/7209027.txt). The **Output Document** would be as follows: TestPostExecuteTemplate.docx.
+You can use a sample **Input Document** [TestExecuteTemplate.doc](/words/mail-merge/TestExecuteTemplate.doc) and a sample **Mail Merge Data** [TestExecuteTemplateData.txt](/words/mail-merge/TestExecuteTemplateData.txt). The **Output Document** would be as follows: TestPostExecuteTemplate.docx.
 
 {{< tabs tabTotal="2" tabID="4" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}

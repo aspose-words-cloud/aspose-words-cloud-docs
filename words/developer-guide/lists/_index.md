@@ -3,7 +3,7 @@ title: "Lists"
 type: docs
 url: /lists/
 aliases: [/working-with-lists/]
-weight: 140
+weight: 150
 ---
 
 **Working With Lists**

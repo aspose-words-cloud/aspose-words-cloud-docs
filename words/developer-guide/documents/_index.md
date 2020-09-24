@@ -3,6 +3,6 @@ title: "Documents"
 type: docs
 url: /documents/
 aliases: [/working-with-documents/]
-weight: 50
+weight: 60
 ---
 

@@ -15,20 +15,12 @@ The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/MailMerge/
 
 ## cURL Example
 
-You can use a sample **Input Document** [TestMailMergeWithImages.doc](/words/attachments/885365/1180101.doc) and **Mail Merge Data** [MailMergeData.txt](/words/attachments/885365/1180104.txt). The **Output Document** would be as follows: [TestMailMergeWithImages_Out.docx](/words/attachments/885365/1180103.docx).
+You can use a sample **Input Document** [TestMailMergeWithImages.doc](TestMailMergeWithImages.doc) and **Mail Merge Data** [MailMergeData.txt](MailMergeData.txt). The **Output Document** would be as follows: [TestMailMergeWithImages_Out.docx](TestMailMergeWithImages_Out.docx).
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
 
-```JAVA
-# Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
-# Place App_Key in "client_secret" and App_SID in "client_id" argument.
-curl -v "https://api.aspose.cloud/connect/token" \
--X POST \
--d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
--H "Content-Type: application/x-www-form-urlencoded" \
--H "Accept: application/json"
-
+```bash
 # cURL example to insert image during mail merge
 curl -v "https://api.aspose.cloud/v4.0/words/TestMailMergeWithImages.doc/MailMerge?destFileName=TestMailMergeWithImages_Out.docx" \
 -X PUT \
@@ -38,10 +30,12 @@ curl -v "https://api.aspose.cloud/v4.0/words/TestMailMergeWithImages.doc/MailMer
 -H "Authorization: Bearer <jwt token>"
 ```
 
+<p style="margin:0;font-size:80%;font-style:italic">To get jwt token use this <a href="/words/getting-started/available-sdks/#curl">instruction</a></p>
+
 {{< /tab >}}
 {{< tab tabNum="2" >}}
 
-```JAVA
+```json
 {
   "Document": {
     "Links": [
@@ -226,7 +220,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/TestMailMergeWithImages.doc/MailMer
 
 ## Cloud SDK Family
 
-Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words SDKs with code examples. Please check [Available SDKs](/available-sdks/) article to learn how to add an SDK to your project.
+Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words SDKs with code examples. Please check [Available SDKs](/words/getting-started/available-sdks/) article to learn how to add an SDK to your project.
 
 ## SDK Examples
 

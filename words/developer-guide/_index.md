@@ -33,7 +33,7 @@ weight: 20
         </ul>
         <p>Compare & Render Documents</p>
         <ul>
-            <li><a href="/words/documents/compare/">Compare Documents</a></li>
+            <li><a href="/words/compare/">Compare Documents</a></li>
             <li><a href="/words/documents/render-into-image/">Render Complex Parts of a Word Document Into the Image</a></li>
         </ul>
     </div>

@@ -3,7 +3,7 @@ title: "Range"
 type: docs
 url: /range/
 aliases: [/working-with-range/]
-weight: 200
+weight: 210
 ---
 
 The concept of Range is similar to [Range Object in MS Word API](https://docs.microsoft.com/en-us/office/vba/word/Concepts/Working-with-Word/working-with-range-objects). Working with a range is much closer to how a user interacts with a document in MS Word.

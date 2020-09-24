@@ -3,7 +3,7 @@ title: "Get Document Information"
 type: docs
 url: /documents/information/
 aliases: [/get-document-information/]
-weight: 40
+weight: 30
 ---
 
 This REST API allows you to get information about the document. The API returns a JSON/XML representation of the document unless a specific Accept header is provided in which case it will return the document in the specified format. The different representations of a document are basically the formats to which the document can be converted. So to achieve a conversion, all a user has to do is to use one of these links.

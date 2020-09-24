@@ -3,6 +3,6 @@ title: "Protection"
 type: docs
 url: /documents/protection/
 aliases: [/working-with-protection-in-a-word-document/]
-weight: 60
+weight: 50
 ---
 

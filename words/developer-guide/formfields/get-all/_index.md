@@ -27,7 +27,7 @@ The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/FormFields
 
 ## cURL Example
 
-The following are a few examples of using cURL. You can use a sample **Input Document** [FormFilled.docx](/words/attachments/885421/1180128.docx).
+The following are a few examples of using cURL. You can use a sample **Input Document** [FormFilled.docx](/words/formfields/FormFilled.docx).
 
 {{< tabs tabTotal="2" tabID="2" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}

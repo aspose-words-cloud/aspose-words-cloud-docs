@@ -5,7 +5,7 @@ url: /merge/
 aliases: [/appending-a-document/]
 keywords: "document append, convert word doc to html, save word file as pdf, go sdk, Python, C#, Java, Ruby, PHP, NodeJS, Go, Android, Swift"
 description: "Append Word documents in Python, C#, Java, Ruby, PHP, NodeJS, Go, Android, Swift using Aspose.Words Cloud. Recently we have introduced Go SDK for our Golang customers.Basically, appending documents is a common task and is fully supported by Words Cloud API. The API allows you to append a document or documents, specified in the documentList parameter, to the original resource document. The changes are saved in the original resource document if the destFileName parameter is missing."
-weight: 170
+weight: 180
 ---
 
 Appending documents is a common task, that is fully supported by Words Cloud API.
@@ -27,7 +27,7 @@ The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Append/App
 
 The following are a few examples of using cURL.
 
-You can use sample **Input Documents**: [test_doc.docx](/words/attachments/885186/1180117.docx), [test_multi_pages.docx](/words/attachments/885186/1180118.docx). The **Output Document** would be as follows: [test_doc_output.docx](/words/attachments/885186/1180114.docx).
+You can use sample **Input Documents**: [test_doc.docx](test_doc.docx), [test_multi_pages.docx](test_multi_pages.docx). The **Output Document** would be as follows: [test_doc_output.docx](test_doc_output.docx).
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
