@@ -63,44 +63,45 @@ weight: 20
 
 {{< /tab >}}
 {{< tab tabNum="4" >}}
-
-<div class="col-md-4">
-    <p>Text Search & Replace</p>
-    <ul>
-        <li><a href="/text/search/">Search Text in a Word Document</a></li>
-        <li><a href="/text/replace/">Replace Document Text</a></li>
-    </ul>
-    <p>Paragraphs</p>
-    <ul>
-        <li><a href="/paragraphs/add/">Add a Paragraph to Document</a></li>
-        <li><a href="/paragraphs/update/">Update Paragraph Format Properties</a></li>
-        <li><a href="/paragraphs/update-font-properties-of-the-text/">Update Font Properties of the Text</a></li>
-        <li><a href="/paragraphs/update-font-properties/">Update Font Properties</a></li>
-    </ul>
-</div>
-<div class="col-md-4">
-    <p>Fields</p>
-    <ul>
-        <li><a href="/fields/add/">Add a Field to a Document</a></li>
-        <li><a href="/fields/update/">Update Field Properties</a></li>
-    </ul>
-    <p>Form Fields</p>
-    <ul>
-        <li><a href="/formfields/add/">Add a Form Field to Paragraph</a></li>
-        <li><a href="/formfields/update/">Update Properties of a Form Field</a></li>
-    </ul>
-</div>
-<div class="col-md-4">
-    <p>Footnotes</p>
-    <ul>
-        <li><a href="/footnotes/add/">Add Footnote to Document</a></li>
-        <li><a href="/footnotes/update/">Update Footnote Properties</a></li>
-    </ul>
-    <p>Comments</p>
-    <ul>
-        <li><a href="/comments/add/">Add Comments to a Word Document</a></li>
-        <li><a href="/comments/update/">Update the Comment in a Word Document</a></li>
-    </ul>
+<div class="row">
+    <div class="col-md-4">
+        <p>Text Search & Replace</p>
+        <ul>
+            <li><a href="/text/search/">Search Text in a Word Document</a></li>
+            <li><a href="/text/replace/">Replace Document Text</a></li>
+        </ul>
+        <p>Paragraphs</p>
+        <ul>
+            <li><a href="/paragraphs/add/">Add a Paragraph to Document</a></li>
+            <li><a href="/paragraphs/update/">Update Paragraph Format Properties</a></li>
+            <li><a href="/paragraphs/update-font-properties-of-the-text/">Update Font Properties of the Text</a></li>
+            <li><a href="/paragraphs/update-font-properties/">Update Font Properties</a></li>
+        </ul>
+    </div>
+    <div class="col-md-4">
+        <p>Fields</p>
+        <ul>
+            <li><a href="/fields/add/">Add a Field to a Document</a></li>
+            <li><a href="/fields/update/">Update Field Properties</a></li>
+        </ul>
+        <p>Form Fields</p>
+        <ul>
+            <li><a href="/formfields/add/">Add a Form Field to Paragraph</a></li>
+            <li><a href="/formfields/update/">Update Properties of a Form Field</a></li>
+        </ul>
+    </div>
+    <div class="col-md-4">
+        <p>Footnotes</p>
+        <ul>
+            <li><a href="/footnotes/add/">Add Footnote to Document</a></li>
+            <li><a href="/footnotes/update/">Update Footnote Properties</a></li>
+        </ul>
+        <p>Comments</p>
+        <ul>
+            <li><a href="/comments/add/">Add Comments to a Word Document</a></li>
+            <li><a href="/comments/update/">Update the Comment in a Word Document</a></li>
+        </ul>
+    </div>
 </div>
 
 {{< /tab >}}
