@@ -20,13 +20,6 @@ The following are a few examples of using cURL. You can use a sample **Input Doc
 {{< tab tabNum="1" >}}
 
 ```bash
-// Get App Key and App SID from https://dashboard.aspose.cloud/
-curl -v "https://api.aspose.cloud/connect/token" \
--X POST \
--d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
--H "Content-Type: application/x-www-form-urlencoded" \
--H "Accept: application/json"
-
 # cURL example to get a table row
 curl -v "https://api.aspose.cloud/v4.0/words/TablesGet.docx/tables/1/rows/0" \
 -X DELETE \
@@ -34,6 +27,8 @@ curl -v "https://api.aspose.cloud/v4.0/words/TablesGet.docx/tables/1/rows/0" \
 -H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>"
 ```
+
+<p style="margin:0;font-size:80%;font-style:italic">To get jwt token use this <a href="/getting-started/available-sdks/#curl">instruction</a></p>
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}

@@ -27,14 +27,13 @@ The following are a few examples of using cURL:
 **Create Request Token**
 
 ```bash
-curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=[]&client_secret=[]" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
+curl -v -X GET "https://api.aspose.cloud/v4.0/words/storage/file/sample.docx" \
+-H "Content-Type: application/json" \
+-H "Accept: application/json" \
+-H "Authorization: Bearer <jwt token>"
 ```
 
-```bash
-curl  -v -X GET "https://api.aspose.cloud/v4.0/words/storage/file/sample.docx" -H "Content-Type: application/json" -H "Authorization: Bearer 
-
-[Access Token]
-```
+<p style="margin:0;font-size:80%;font-style:italic">To get jwt token use this <a href="/getting-started/available-sdks/#curl">instruction</a></p>
 
 {{< /tab >}}
 {{< /tabs >}}
@@ -56,19 +55,13 @@ The following are a few examples of using cURL:
 **Create Request Token**
 
 ```bash
-# Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
-# Place App_Key in "client_secret" and App_SID in "client_id" argument.
-curl -v "https://api.aspose.cloud/connect/token" \
--X POST \
--d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
--H "Content-Type: application/x-www-form-urlencoded" \
--H "Accept: application/json"
-
 curl  -v -X PUT "https://api.aspose.cloud/v4.0/words/storage/file/sample.docx" \
 -H "Content-Type:application/octet-stream" \
 -H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>"
 ```
+
+<p style="margin:0;font-size:80%;font-style:italic">To get jwt token use this <a href="/getting-started/available-sdks/#curl">instruction</a></p>
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
@@ -104,18 +97,12 @@ The following are a few examples of using cURL:
 **Create Request Token**
 
 ```bash
-# Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
-# Place App_Key in "client_secret" and App_SID in "client_id" argument.
-curl -v "https://api.aspose.cloud/connect/token" \
--X POST \
--d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
--H "Content-Type: application/x-www-form-urlencoded" \
--H "Accept: application/json"
-
 curl -v -X PUT "https://api.aspose.cloud/v4.0/words/storage/file/copy/sample.docx/%2F?destPath=MyFolder" \
 -H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>"
 ```
+
+<p style="margin:0;font-size:80%;font-style:italic">To get jwt token use this <a href="/getting-started/available-sdks/#curl">instruction</a></p>
 
 {{< /tab >}}
 {{< /tabs >}}
@@ -137,19 +124,13 @@ The following are a few examples of using cURL:
 **Create Request Token**
 
 ```bash
-# Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
-# Place App_Key in "client_secret" and App_SID in "client_id" argument.
-curl -v "https://api.aspose.cloud/connect/token" \
--X POST \
--d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
--H "Content-Type: application/x-www-form-urlencoded" \
--H "Accept: application/json"
-
 curl -v -X PUT "https://api.aspose.cloud/v4.0/words/storage/file/move/input.docx/%2F?destPath=MyFolder" \
 -H "Content-Type:application/json" \
 -H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>"
 ```
+
+<p style="margin:0;font-size:80%;font-style:italic">To get jwt token use this <a href="/getting-started/available-sdks/#curl">instruction</a></p>
 
 {{< /tab >}}
 {{< /tabs >}}
@@ -171,19 +152,13 @@ The following are a few examples of using cURL:
 **Create Request Token**
 
 ```bash
-# Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
-# Place App_Key in "client_secret" and App_SID in "client_id" argument.
-curl -v "https://api.aspose.cloud/connect/token" \
--X POST \
--d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
--H "Content-Type: application/x-www-form-urlencoded" \
--H "Accept: application/json"
-
 curl -v -X DELETE "https://api.aspose.cloud/v4.0/words/storage/file/input.docx" \
 -H "Content-Type:application/json" \
 -H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>"
 ```
+
+<p style="margin:0;font-size:80%;font-style:italic">To get jwt token use this <a href="/getting-started/available-sdks/#curl">instruction</a></p>
 
 {{< /tab >}}
 {{< /tabs >}}

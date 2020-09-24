@@ -29,14 +29,6 @@ The following are a few examples of using cURL. You can use a sample **Input Doc
 {{< tab tabNum="1" >}}
 
 ```bash
-# Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
-# Place App_Key in "client_secret" and App_SID in "client_id" argument.
-curl -v "https://api.aspose.cloud/connect/token" \
--X POST \
--d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
--H "Content-Type: application/x-www-form-urlencoded" \
--H "Accept: application/json"
-
 # cURL example to get a list of all runs defined in given paragraph
 curl -v "https://api.aspose.cloud/v4.0/words/GetField.docx/sections/0/paragraphs/0/runs" \
 -X GET \
@@ -44,6 +36,8 @@ curl -v "https://api.aspose.cloud/v4.0/words/GetField.docx/sections/0/paragraphs
 -H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>"
 ```
+
+<p style="margin:0;font-size:80%;font-style:italic">To get jwt token use this <a href="/getting-started/available-sdks/#curl">instruction</a></p>
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
