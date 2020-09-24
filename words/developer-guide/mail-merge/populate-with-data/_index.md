@@ -250,9 +250,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleMailMergeTemplate.docx/MailMe
 
 **Case 2: Mustache Template**
 
-You can use a sample **Input Document**: [TestExecuteTemplate.doc](attachments/884946/8028161.doc).
-
-**Mail Merge Data**: [TestExecuteTemplateData.txt](attachments/884946/8028162.txt). The **Output Document** would be as follows: [TestPostExecuteTemplate.docx](attachments/884946/8028165.docx).
+You can use a sample **Input Document** [TestExecuteTemplate.doc](attachments/884946/8028161.doc) and a sample **Mail Merge Data** [TestExecuteTemplateData.txt](attachments/884946/8028162.txt). The **Output Document** would be as follows: [TestPostExecuteTemplate.docx](attachments/884946/8028165.docx).
 
 {{< tabs tabTotal="2" tabID="4" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
