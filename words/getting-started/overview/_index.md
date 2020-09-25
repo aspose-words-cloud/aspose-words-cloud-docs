@@ -10,7 +10,7 @@ weight: 10
 
 Aspose.Words Cloud is a REST API to create, manipulate, convert, render and perform a wide variety of other operations on Word documents in the Cloud.
 
-Our Aspose.Words REST APIs comes with many features crucial to organizations, such as:
+Aspose.Words REST API comes with many features such as:
 
 - Convert Word documents to different formats including DOC, DOT, DOCX, DOCM, DOTX, DOTM, FlatOpc, RTF, PDF, HTML, ODT, OTT, TXT, EPUB, XPS, PCL, TIFF, PNG, JPEG, BMP, SVG.
 - Convert PDF to Word document formats.
@@ -24,7 +24,7 @@ Our Aspose.Words REST APIs comes with many features crucial to organizations, su
 
 ## Cloud SDK Family
 
-Using an SDK (API client) is the quickest way for a developer to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks.
+Using an SDK is the quickest way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks.
 
 Please check out the [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words SDKs together with working examples to get you started in no time.
 

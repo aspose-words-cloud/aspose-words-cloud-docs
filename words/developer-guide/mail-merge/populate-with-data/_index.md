@@ -5,11 +5,11 @@ type: docs
 url: /mail-merge/populate-with-data/
 aliases: [/populate-mailmerge-template-with-data/]
 keywords: "Populate, Mail Merge, Word, Microsoft Word, Java, .NET, PHP, Ruby, Python, NodeJS, Swift, Android ,Go"
-description: "In this article you will learn that how to populate mail merge in various languages. You can download the SDK of your favorite language and start programming in a smartest way. The Cloud SDKs are available in Python, C#, Java, C++, Ruby, PHP, Node.js, Swift and Go programming languages."
+description: "In this article you will learn that how to populate mail merge in various languages."
 weight: 30
 ---
 
-In this article you will learn that how to populate mail merge or mustache template with data in various languages. You can download an SDK of your favorite language and start programming in a smartest way. The Cloud SDKs are available in Python, C#, Java, C++, Ruby, PHP, Node.js, Swift and Go programming languages.
+In this article you will learn that how to populate mail merge or mustache template with data in various languages.
 
 [This API](https://apireference.aspose.cloud/words/#/MailMerge/ExecuteMailMerge) represents a controller for executing the mail merge.
 
@@ -17,7 +17,7 @@ The following is a description of the most important parameters:
 
 |Parameter Name|Description|
 | :- | :- |
-|withRegions|<p>Merge with regions or not. False by default.</p><p>Flag 'withRegions' can be omitted, in this case, a simple mail merge will be executed. If the flag is present and value is 'true' - mail merge with regions will be executed.</p>|
+|withRegions|<p>Merge with regions or not. False by default.</p><p>Flag 'withRegions' can be omitted, in this case, a simple mail merge will be executed. If the flag is present and value is `true` - mail merge with regions will be executed.</p>|
 |mailMergeDataFile|If mailMergeDataFile parameter exists, the data is taken from the server path (the parameter must contain the full path to the server file). However, if the mailMergeDataFile parameter is omitted, the data is expected in the requested content.|
 |cleanup|<p>If the cleanup parameter is omitted, cleanup options will be None.</p><p> </p>|
 |useWholeParagraphAsRegion|Specifies a value indicating whether paragraphs with TableStart or TableEnd field should be fully included in the mail merge region or particular range between TableStart and TableEnd fields. The default value is true.|

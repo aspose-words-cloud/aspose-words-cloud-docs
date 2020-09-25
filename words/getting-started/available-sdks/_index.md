@@ -8,7 +8,7 @@ weight: 50
 
 Aspose.Words Cloud is a modern REST API, that allows easy integration into existing systems.
 
-Using an SDK (API client) is the quickest way to speed up the development. An SDK takes care of low-level details by making requests and handling responses and lets you focus on writing code specific to your particular project.
+Using an SDK is the quickest way to speed up the development. An SDK takes care of low-level details by making requests and handling responses and lets you focus on writing code specific to your particular project.
 
 ## SDK Benefits
 

@@ -36,7 +36,7 @@ You can also use cURL command-line utility to test this REST API. The following 
 # cURL example to update table cell's format properties
 curl -v "https://api.aspose.cloud/v4.0/words/TablesGet.docx/tables/1/rows/0/cells/0/cellformat" \
 -X PUT \
--d "{ 'BottomPadding': '1', 'FitText': 'true', 'HorizontalMerge': 'First', 'LeftPadding': '2', 'Orientation': 'VerticalFarEast', 'RightPadding': '3', 'TopPadding': '4.5', 'VerticalAlignment': 'Center', 'VerticalMerge': 'Previous', 'Width': '11', 'WrapText': 'false' }" \
+-d "{ 'BottomPadding': '1', 'FitText': 'true', 'HorizontalMerge': 'First', 'LeftPadding': '2', 'Orientation': 'VerticalFarEast', 'RightPadding': '3', 'TopPadding': '4.5', 'VerticalAlignment': 'Center', 'VerticalMerge': 'Previous', 'Width': '11', 'WrapText': `false` }" \
 -H "Content-Type: application/json" \
 -H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>"
@@ -82,7 +82,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/TablesGet.docx/tables/1/rows/0/cell
 
 ## Cloud SDK Family
 
-Using an SDK (API client) is the quickest way for a developer to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Please check out the [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs.
+Using an SDK is the quickest way for a developer to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Please check out the [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs.
 
 The following set of **Code Examples** for various SDKs demonstrates how to use this REST API in your projects:
 

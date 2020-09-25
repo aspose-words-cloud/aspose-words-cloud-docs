@@ -28,7 +28,7 @@ You can also use cURL command-line utility to test this REST API. The following 
 # cURL example to update a table row's format properties
 curl -v "https://api.aspose.cloud/v4.0/words/TablesGet.docx/tables/1/rows/0/rowformat" \
 -X PUT \
--d "{ 'Height': '10', 'HeightRule': 'Exactly', 'AllowBreakAcrossPages': 'false', 'HeadingFormat': 'true' }" \
+-d "{ 'Height': '10', 'HeightRule': 'Exactly', 'AllowBreakAcrossPages': 'false', 'HeadingFormat': `true` }" \
 -H "Content-Type: application/json" \
 -H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>"
@@ -63,7 +63,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/TablesGet.docx/tables/1/rows/0/rowf
 
 ## Cloud SDK Family
 
-Using an SDK (API client) is the quickest way for a developer to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Please check out the [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs.
+Using an SDK is the quickest way for a developer to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Please check out the [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs.
 
 The following set of **Code Examples** for various SDKs demonstrates how to use this REST API in your projects:
 
