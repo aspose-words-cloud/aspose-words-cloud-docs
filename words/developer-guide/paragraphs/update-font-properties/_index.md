@@ -58,6 +58,7 @@ This REST API allows you to update font properties. The API returns updated font
 ~/{file-name}/{paragraphPath}/runs/{index}/font
 ```
 , where:
+
 - *{file-name}* is a filename of a document.
 - *{paragraphPath}* is a path to a specific paragraph in a document:
   - *paragraphs/{paragraphIndex}* - references a paragraph.

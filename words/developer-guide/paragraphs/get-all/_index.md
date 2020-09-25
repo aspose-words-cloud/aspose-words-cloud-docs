@@ -19,6 +19,7 @@ This REST API allows you to get all paragraphs that are contained in a document 
 ~/{file-name}/sections/{sectionIndex}/headersFooters/{headerFooterIndex}/paragraphs
 ```
 , where:
+
 - *{file-name}* is a filename of a document.
 - *{sectionIndex}* is an index of a section. If this syntax is used, only elements within the specified section are returned.
 - *{headerFooterIndex}* is an index of a section, that contains headers and footers. If this syntax is used, only elements within specified header/footer are returned.

@@ -17,6 +17,7 @@ This REST API allows you to get image data from a drawing object.
 ~/{file-name}/{nodePath}/drawingObjects/{index}/imageData
 ```
 , where:
+
 - *{file-name}* is a filename of a document.
 - *{nodePath}* is a path to a node in a document. If this parameter is used, elements contained within a specified node will be processed:
   - *sections/{sectionIndex}* - references a section.

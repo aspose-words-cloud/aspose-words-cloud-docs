@@ -15,6 +15,7 @@ This REST API allows you to get a list of all runs that are contained in the spe
 ~/{file-name}/{paragraphPath}/runs/
 ```
 , where:
+
 - *{file-name}* is a name of a document.
 - *{paragraphPath}* is a path to a paragraph in a document:
   - *paragraphs/{paragraphIndex}* - references a paragraph.

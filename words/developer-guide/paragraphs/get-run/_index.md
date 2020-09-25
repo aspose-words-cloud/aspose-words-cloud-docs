@@ -19,6 +19,7 @@ This REST API allows you to get one of the runs contained in the paragraph. The 
 ~/{file-name}/{paragraphPath}/runs/{index}
 ```
 , where:
+
 - *{file-name}* is a filename of a document.
 - *{paragraphPath}* is a path to a specific paragraph in a document:
   - *paragraphs/{paragraphIndex}* - references a paragraph.

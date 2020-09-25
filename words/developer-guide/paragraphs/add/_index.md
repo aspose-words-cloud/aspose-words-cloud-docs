@@ -22,6 +22,7 @@ This REST API allows you to add a paragraph to a document. The API returns added
 ~/{file-name}/sections/{sectionIndex}/headersFooters/{headerFooterIndex}/paragraphs/{index}
 ```
 , where:
+
 - *{file-name}* is a filename of a document.
 - *{sectionIndex}* is an index of a section.
 - *{headerFooterIndex}* is an index of a section, that contains headers and footers.

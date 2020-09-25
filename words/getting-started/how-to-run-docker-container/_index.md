@@ -28,9 +28,8 @@ Aspose.Words Cloud team has published the Docker Container on [Docker Hub](https
 |User|Username|
 |Password|Password|
 
-{{% alert color="primary" %}}
-
 If "License" parameters are omitted, the app will work in trial mode. If "User" parameter is set, each request requires "Authorization" header (JWT authentication). The URL to obtain token is "/connect/token".
+
 
 ### Run a Docker container using command line
 

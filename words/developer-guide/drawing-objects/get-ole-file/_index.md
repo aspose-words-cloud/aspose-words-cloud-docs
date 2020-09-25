@@ -17,6 +17,7 @@ This REST API allows you to get an embedded OLE file from a drawing object. The 
 ~/{file-name}/{nodePath}/drawingObjects/{index}/oleData
 ```
 , where:
+
 - *{file-name}* is a filename of a document.
 - *{nodePath}* is a path to a node in a document. If this parameter is used, elements contained within a specified node will be processed:
   - *sections/{sectionIndex}* - references a section.

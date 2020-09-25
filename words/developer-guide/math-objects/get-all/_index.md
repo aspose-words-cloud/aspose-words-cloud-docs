@@ -16,6 +16,7 @@ This REST API allows you to get all OfficeMath objects that are defined in the 
 ~/{file-name}/{nodePath}/officeMathObjects
 ```
 , where:
+
 - *{file-name}* is a filename of a document.
 - *{nodePath}* is a path to a node in a document. If this parameter is used, elements contained within a specified node will be processed:
   - *sections/{sectionIndex}* - references a section.

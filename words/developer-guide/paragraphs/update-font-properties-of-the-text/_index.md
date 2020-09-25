@@ -15,6 +15,7 @@ This article explains how to format the text. Using [PUT /words/{name}/{paragrap
 ~/{file-name}/{paragraphPath}/runs/{index}/font
 ```
 , where:
+
 - *{file-name}* is a name of a document.
 - *{paragraphPath}* is a path to a paragraph in a document:
   - *paragraphs/{paragraphIndex}* - references a paragraph.

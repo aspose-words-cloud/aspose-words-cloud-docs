@@ -15,6 +15,7 @@ This REST API allows you to remove run from document.
 ~/{file-name}/{paragraphPath}/runs/{index}
 ```
 , where:
+
 - *{file-name}* is a filename of a document.
 - *{paragraphPath}* is a path to a paragraph in a document:
   - *paragraphs/{paragraphIndex}* - references a paragraph.
