@@ -23,6 +23,7 @@ This REST API allows you to add a drawing object to the Word document. The reque
 
 The following URIs are used to address REST resources:
 
+{{% alert color="primary" %}}
 ```HTML
 ~/{file-name}/drawingObjects/{index}
 ~/{file-name}/{nodePath}/drawingObjects/{index}
@@ -35,6 +36,7 @@ The following URIs are used to address REST resources:
   - *paragraphs/{paragraphIndex}* - references a paragraph.
   - *sections/{sectionIndex}/paragraphs/{paragraphIndex}* - references a paragraph within a section.
 - *{index}* is an index of a drawing object.
+{{% /alert %}}
 
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/DrawingObjects/InsertDrawingObject) lets you call this REST API directly from a browser. 
 
