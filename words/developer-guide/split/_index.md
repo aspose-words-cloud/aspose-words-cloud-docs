@@ -71,9 +71,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_doc.docx/split?from=2&to=3&for
 
 Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Please check out the [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs.
 
-## SDK Examples
-
-A set of short code examples, demonstrating how to use this REST API with various SDKs, is presented below:
+The following set of *Code Examples* for various SDKs demonstrates how to use this REST API:
 
 ### Split all Pages to new PDFs
 

@@ -67,9 +67,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/fields" \
 
 Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Please check out the [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs.
 
-## SDK Examples
-
-A set of short code examples, demonstrating how to use this REST API with various SDKs, is presented below:
+The following set of *Code Examples* for various SDKs demonstrates how to use this REST API:
 
 **Case 1**: Delete Fields from a Document
 

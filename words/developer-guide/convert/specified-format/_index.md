@@ -9,14 +9,14 @@ description: "You can easily convert word document to PDF, HTML, XHTML or a spec
 weight: 10
 ---
 
-You can check the quality of Aspose.Words Cloud conversion and view the results online at these links:
+Document conversion Cloud API lets you convert Word document to another format. The API request contains a document to convert and the response contains the conversion result, or if outPath parameter specified - the API saves the result to the Cloud storage and return OK status code. 
 
-- [Conversion](https://products.aspose.app/words/conversion).
-- [Viewer](https://products.aspose.app/words/viewer).
+You can check the quality of Aspose.Words Cloud conversion and view the results online:
 
-## Introduction
+- [Conversion](https://products.aspose.app/words/conversion)
+- [Viewer](https://products.aspose.app/words/viewer)
 
-[PUT /words/convert](https://apireference.aspose.cloud/words/#/Convert/ConvertDocument) API lets you convert MS Word document to another format. The API request contains a document to convert and the response contains the conversion result, or if outPath parameter specified - the API saves the result to the Cloud storage and return OK status code. The list of supported formats are:
+The list of supported formats is provided below:
 
 |format Parameter Value|Format of the returned Presentation|
 | :- | :- |
@@ -92,9 +92,9 @@ PDF Document
 
 Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks.
 
-Please check out the [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words SDKs with code examples.
+Please check out the [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words SDKs.
 
-A set of short code examples, demonstrating how to use this REST API with various SDKs, is presented below:
+The following set of *Code Examples* for various SDKs demonstrates how to use this REST API:
 
 {{< tabs tabTotal="9" tabID="4" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Python" tabName5="Ruby" tabName6="Node.js" tabName7="Android" tabName8="Swift" tabName9="Go" >}}
 {{< tab tabNum="1" >}}

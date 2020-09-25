@@ -7,14 +7,6 @@ aliases: [/compare-documents/]
 weight: 40
 ---
 
-Try Online
-
-You can try this functionality and view the results online at this link:
-
-<https://products.aspose.app/words/comparison>
-
-## Introduction
-
 The REST API compares the input document with another document producing changes as a number of edit and format revisions. The changes are saved in the original resource document.
 
 The description of the important parameters of the API is given below:
@@ -29,7 +21,7 @@ The description of the important parameters of the API is given below:
 
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Compare/CompareDocument) lets you call this REST API directly from a browser.
 
-You can also use cURL command-line utility to test this REST API. The following are a few examples of using cURL, supplied with a sample **Input Documents**: [compareTestDoc1.doc](compareTestDoc1.doc), [compareTestDoc2.doc](compareTestDoc2.doc).
+You can also use cURL command-line utility to test this REST API. The following are a few examples of using cURL, supplied with sample **Input Documents**: [compareTestDoc1.doc](compareTestDoc1.doc) and [compareTestDoc2.doc](compareTestDoc2.doc).
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
@@ -228,9 +220,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/compareTestDoc1.doc/compareDocument
 
 Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Please check out the [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs.
 
-## SDK Examples
-
-A set of short code examples, demonstrating how to use this REST API with various SDKs, is presented below:
+The following set of *Code Examples* for various SDKs demonstrates how to use this REST API:
 
 {{< tabs tabTotal="8" tabID="4" tabName1="C#" tabName2="Java" tabName3="Python" tabName4="Ruby" tabName5="Node.js" tabName6="Android" tabName7="Swift" tabName8="Go" >}}
 {{< tab tabNum="1" >}}
