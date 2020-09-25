@@ -31,7 +31,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/classify?bestClassesCount=3" \
 -H "Authorization: Bearer <jwt token>"
 ```
 
-<p style="margin:0;font-size:80%;font-style:italic">To get jwt token use this <a href="/words/getting-started/available-sdks/#curl">instruction</a></p>
+To get a JWT-token, please, follow these [instructions](/words/getting-started/available-sdks/#curl).
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
