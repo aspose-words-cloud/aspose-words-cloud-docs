@@ -42,16 +42,16 @@ The following limitations apply and will be addressed in future versions:
 
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Convert/SaveAs) lets you call this REST API directly from a browser.
 
-You can also use cURL command-line utility to test this REST API. The following are a few examples of using cURL, supplied with a sample **Input Document** [2019_new_demo.pdf](2019_new_demo.pdf). The **Output Document** would be as follows: [2019_new_demo Out.docx](2019_new_demo Out.docx).
+You can also use cURL command-line utility to test this REST API. The following are a few examples of using cURL, supplied with a sample **Input Document** [demo.pdf](demo.pdf). The **Output Document** would be as follows: [demo.docx](demo.docx).
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
 
 ```bash
 # cURL example to convert PDF Document to Word
-curl -v "https://api.aspose.cloud/v4.0/words/2019_new_demo.pdf/saveAs" \
+curl -v "https://api.aspose.cloud/v4.0/words/demo.pdf/saveAs" \
 -X PUT \
--d "{'SaveFormat':'docx', 'FileName': '2019_new_demo Out.docx'}" \
+-d "{'SaveFormat':'docx', 'FileName': 'demo.docx'}" \
 -H "Content-Type: application/json" \
 -H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>"
@@ -66,13 +66,13 @@ curl -v "https://api.aspose.cloud/v4.0/words/2019_new_demo.pdf/saveAs" \
 {
   "SaveResult": {
     "SourceDocument": {
-      "Href": "http://api.aspose.cloud/v4.0/words/2019_new_demo.pdf",
+      "Href": "http://api.aspose.cloud/v4.0/words/demo.pdf",
       "Rel": "self",
       "Type": null,
       "Title": null
     },
     "DestDocument": {
-      "Href": "2019_new_demo Out.docx",
+      "Href": "demo.docx",
       "Rel": "saved",
       "Type": null,
       "Title": null
@@ -125,3 +125,8 @@ The following set of **Code Examples** for various SDKs demonstrates how to use 
 {{< gist "aspose-cloud" "068ce2149de5ad69ab516209b7ae82cf" "ConvertPDFDocumentToWord.go" >}}
 {{< /tab >}}
 {{< /tabs >}}
+
+## See also
+
+- Product page description: <a href="https://products.aspose.cloud/words/python/convert" target="_blank">Python</a>, <a href="https://products.aspose.cloud/words/net/convert" target="_blank">C#</a>, <a href="https://products.aspose.cloud/words/java/convert" target="_blank">Java</a>, <a href="https://products.aspose.cloud/words/nodejs/convert" target="_blank">Node.js</a>, <a href="https://products.aspose.cloud/words/php/convert" target="_blank">PHP</a>, <a href="https://products.aspose.cloud/words/go/convert" target="_blank">Go</a>
+- <a href="https://products.aspose.app/words/conversion" target="_blank">Free online conversion app
