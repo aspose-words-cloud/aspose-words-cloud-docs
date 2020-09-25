@@ -15,7 +15,7 @@ Aspose.Words Cloud API allows you to obtain a bookmark collection to iterate thr
 
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Bookmarks/GetBookmarks) lets you call this REST API directly from a browser.
 
-You can also use cURL command-line utility to test this REST API. The following are a few examples of using cURL, supplied with a sample document [here](test_multi_pages.docx).
+You can also use cURL command-line utility to test this REST API. The following are a few examples of using cURL, supplied with a sample document [test_multi_pages.docx](test_multi_pages.docx).
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
@@ -88,7 +88,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/bookmarks" \
 
 Using an SDK (API client) is the quickest way for a developer to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Please check out the [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs.
 
-The following set of *Code Examples* for various SDKs demonstrates how to use this REST API:
+The following set of **Code Examples** for various SDKs demonstrates how to use this REST API in your projects:
 
 {{< tabs tabTotal="8" tabID="4" tabName1="C#" tabName2="Java" tabName3="Python" tabName4="Ruby" tabName5="Node.js" tabName6="Android" tabName7="Swift" tabName8="Go" >}}
 {{< tab tabNum="1" >}}

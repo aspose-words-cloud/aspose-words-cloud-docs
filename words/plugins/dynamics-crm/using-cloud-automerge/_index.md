@@ -6,9 +6,7 @@ aliases: [/using-cloud-automerge-for-dynamics-crm/]
 weight: 20
 ---
 
-## Create Template and Upload
-
-Below are the steps to create and upload Template in CRM
+Below are the steps to create and upload Template in CRM:
 
 - Open word and create a template.
 - Insert MailMerge fields for data comming from CRM.

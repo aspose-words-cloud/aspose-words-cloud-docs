@@ -6,8 +6,6 @@ aliases: [/aspose-words-cloud-for-dynamics-crm/]
 weight: 30
 ---
 
-## What is Microsoft Dynamics CRM?
-
 Microsoft Dynamics CRM is a customer relationship management software package developed by Microsoft. Out of the box, the product focuses mainly on Sales, Marketing, and Service (help desk) sectors, but Microsoft has been marketing Dynamics CRM as an XRM platform and has been encouraging partners to use its proprietary (.NET based) framework to customize it. It is part of the Microsoft Dynamics family of business applications.
 
 Dynamics CRM is a server-client application, which, like Microsoft SharePoint, is primarily an IIS-based web application which also supports extensive web services interfaces. Clients access Dynamics CRM either by using a Browser or by a thick client plug-in to Microsoft Outlook.

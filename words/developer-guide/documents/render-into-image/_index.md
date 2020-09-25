@@ -202,7 +202,7 @@ PNG File
 {{< /tab >}}
 {{< /tabs >}}
 
-The following set of *Code Examples* for various SDKs demonstrates how to use this REST API:
+The following set of **Code Examples** for various SDKs demonstrates how to use this REST API in your projects:
 
 **Case 1**: Renders Page to Specified Format
 

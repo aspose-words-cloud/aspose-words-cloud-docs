@@ -8,8 +8,6 @@ description: "Manipulation of Microsoft Word documents to different formats incl
 weight: 10
 ---
 
-## Aspose.Words Cloud
-
 Aspose.Words Cloud is a REST API to create, manipulate, convert, render and perform a wide variety of other operations on Word documents in the Cloud.
 
 Our Aspose.Words REST APIs comes with many features crucial to organizations, such as:

@@ -220,7 +220,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/TestMailMergeWithImages.doc/MailMer
 
 Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words SDKs. Please check [Available SDKs](/words/getting-started/available-sdks/) article to learn how to add an SDK to your project.
 
-The following set of *Code Examples* for various SDKs demonstrates how to use this REST API:
+The following set of **Code Examples** for various SDKs demonstrates how to use this REST API in your projects:
 
 {{< tabs tabTotal="8" tabID="4" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Python" tabName5="Ruby" tabName6="Node.js" tabName7="Android" tabName8="Swift" >}}
 {{< tab tabNum="1" >}}

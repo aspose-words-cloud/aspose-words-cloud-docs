@@ -89,7 +89,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/GetField.docx/sections/0/paragraphs
 
 Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Please check out the [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs.
 
-The following set of *Code Examples* for various SDKs demonstrates how to use this REST API:
+The following set of **Code Examples** for various SDKs demonstrates how to use this REST API in your projects:
 
 {{< tabs tabTotal="8" tabID="5" tabName1="C#" tabName2="Java" tabName3="Python" tabName4="Ruby" tabName5="Node.js" tabName6="Android" tabName7="Swift" tabName8="Go" >}}
 {{< tab tabNum="1" >}}

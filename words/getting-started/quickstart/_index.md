@@ -6,6 +6,8 @@ aliases: [/quickstart/]
 weight: 20
 ---
 
+This article provides an introductory information on how to get started with Aspose.Words Cloud API and SDKs.
+
 ## Create an account
 
 For details on how to create a new account please check [Create a new Account](https://docs.aspose.cloud/display/storagecloud/Creating+and+Managing+Account).
