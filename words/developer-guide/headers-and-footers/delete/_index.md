@@ -31,7 +31,7 @@ The following are a few examples of using cURL:
 }
 ```
 
-<p style="margin:0;font-size:80%;font-style:italic">To get jwt token use this <a href="/words/getting-started/available-sdks/#curl">instruction</a></p>
+<p style="margin:0;font-size:80%;font-style:italic">To get a jwt token use this <a href="/words/getting-started/available-sdks/#curl">instruction</a></p>
 
 {{< /tab >}}
 {{< /tabs >}}
