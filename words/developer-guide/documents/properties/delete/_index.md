@@ -8,13 +8,11 @@ weight: 20
 
 This REST API allows you to delete a document property. Built-In Document Property resources cannot be removed and return an HTTP 400 error response.
 
-## REST API’s Resources
+## REST API
 
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/DocumentProperties/DeleteDocumentProperty) lets you call this REST API directly from a browser.
 
-## cURL Example
-
-The following are a few examples of using cURL:
+You can also use cURL command-line utility to test this REST API. The following are a few examples of using cURL.
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}

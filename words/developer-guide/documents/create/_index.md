@@ -29,13 +29,11 @@ and the request parameters are the following:
 | :- | :- | :- |
 |fileName|Query String: fileName=documentName.docx|The file name.|
 
-## REST API’s Resources
+## REST API
 
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/WordsDocument/CreateDocument) lets you call this REST API directly from a browser.
 
-## cURL Example
-
-The following are a few examples of using cURL:
+You can also use cURL command-line utility to test this REST API. The following are a few examples of using cURL.
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}

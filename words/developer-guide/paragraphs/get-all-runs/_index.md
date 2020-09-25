@@ -9,7 +9,7 @@ weight: 50
 
 This REST API allows you to get a list of all runs that are contained in the specific paragraph.
 
-## REST API’s Resources
+## REST API
 
 ```JAVA
 ~/{file-name}/{paragraphPath}/runs/
@@ -22,9 +22,7 @@ This REST API allows you to get a list of all runs that are contained in the spe
 
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Runs/GetRuns) lets you call this REST API directly from a browser.
 
-## cURL Example
-
-The following are a few examples of using cURL. You can use a sample **Input Document** [GetField.docx](GetField.docx).
+You can also use cURL command-line utility to test this REST API. The following are a few examples of using cURL, supplied with a sample **Input Document** [GetField.docx](GetField.docx).
 
 {{< tabs tabTotal="2" tabID="2" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}

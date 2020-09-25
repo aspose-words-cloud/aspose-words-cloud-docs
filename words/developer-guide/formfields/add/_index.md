@@ -50,7 +50,7 @@ The **Request Parameters** are:
 | :- | :- | :- | :- |
 |insertBeforeNode|string|Query String: insertBeforeNode="nodeId"|Form field will be inserted before node with id="nodeId".|
 
-## REST API’s Resources
+## REST API
 
 The following URI is used to address the REST resource:
 
@@ -60,9 +60,7 @@ The following URI is used to address the REST resource:
 
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/FormFields/InsertFormField) lets you call this REST API directly from a browser.
 
-## cURL Example
-
-The following are a few examples of using cURL. You can use a sample **Input Document** [FormFilled.docx](/words/formfields/FormFilled.docx).
+You can also use cURL command-line utility to test this REST API. The following are a few examples of using cURL, supplied with a sample **Input Document** [FormFilled.docx](/words/formfields/FormFilled.docx).
 
 {{< tabs tabTotal="2" tabID="2" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}

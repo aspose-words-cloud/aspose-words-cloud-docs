@@ -9,7 +9,7 @@ weight: 60
 
 This REST API allows you to get an embedded OLE file from a drawing object. The API response contains an embedded OLE file of the first drawing object of the document. However, returns an error if the drawing object does not have an embedded OLE file.
 
-## REST API’s Resources
+## REST API
 
 ```JAVA
 ~/{file-name}/drawingObjects/{index}/oleData
@@ -26,9 +26,7 @@ This REST API allows you to get an embedded OLE file from a drawing object. The 
 
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/DrawingObjects/GetDocumentDrawingObjectOleData) lets you call this REST API directly from a browser. 
 
-## cURL Example
-
-The following are a few examples of using cURL:
+You can also use cURL command-line utility to test this REST API. The following are a few examples of using cURL.
 
 {{< tabs tabTotal="2" tabID="2" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}

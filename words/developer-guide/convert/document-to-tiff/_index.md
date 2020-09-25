@@ -11,13 +11,11 @@ weight: 30
 
 [PUT /words/{name}/saveAs/tiff](https://apireference.aspose.cloud/words/#/Convert/SaveAsTiff) API lets you convert MS Word document to *TIFF file* with additional settings and save the result to storage. The resulting image save to the same folder and storage where the original document is. A relative path can be used here for some sub-folder of the document folder.
 
-## REST API’s Resources
+## REST API
 
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Convert/SaveAsTiff) lets you call this REST API directly from a browser.
 
-## cURL Example
-
-The following are a few examples of using cURL. You can use a sample **Input Document** [test_multi_pages.docx](test_multi_pages.docx). The **Output Document** would be as follows: [abc.tiff](abc.tiff).
+You can also use cURL command-line utility to test this REST API. The following are a few examples of using cURL, supplied with a sample **Input Document** [test_multi_pages.docx](test_multi_pages.docx). The **Output Document** would be as follows: [abc.tiff](abc.tiff).
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}

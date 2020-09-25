@@ -15,7 +15,7 @@ This REST API allows you to get one of the OfficeMath objects that are defined 
 |Justification|OfficeMathJustification|Specifies the justification of the equation. See possible values and more info at [.NET API Reference.](https://apireference.aspose.com/net/words/aspose.words.math/officemathjustification)|
 |MathObjectType|MathObjectType|Specifies type of an Office Math object. See possible values and more info at [.NET API Reference.](https://apireference.aspose.com/net/words/aspose.words.math/mathobjecttype)|
 
-## REST API’s Resources
+## REST API
 
 ```JAVA
 ~/{file-name}/officeMathObjects/{index}
@@ -31,9 +31,7 @@ This REST API allows you to get one of the OfficeMath objects that are defined 
 
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/OfficeMathObjects/GetOfficeMathObject) lets you call this REST API directly from a browser.
 
-## cURL Example
-
-The following are a few examples of using cURL:
+You can also use cURL command-line utility to test this REST API. The following are a few examples of using cURL.
 
 {{< tabs tabTotal="2" tabID="2" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}

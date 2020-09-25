@@ -12,7 +12,7 @@ While working with your documents, you may come across scenarios where you want 
 
 Aspose.Words Cloud has provided the simplest API to split a Word document within MS Word documents or other file formats.
 
-## REST API’s Resources
+## REST API
 
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Split/SplitDocument) lets you call this REST API directly from a browser. The description of the important parameters of the API is given below:
 
@@ -23,9 +23,7 @@ The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Split/Spli
 |to|int|The last page number for splitting, if it is not specified, splitting ends at the last page of the document.|
 |zipOutput|bool|ZipOutput or not.|
 
-## cURL Example
-
-The following are a few examples of using cURL:
+You can also use cURL command-line utility to test this REST API. The following are a few examples of using cURL.
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}

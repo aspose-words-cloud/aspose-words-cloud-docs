@@ -19,13 +19,11 @@ The REST API allows you to add a comment to a Word Document. The API return adde
 |Text|string|This is a convenience property that allows you to easily get or set the text of the comment.|
 |Content|list of child nodes|List of child nodes.|
 
-## REST API’s Resources
+## REST API
 
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Comments/InsertComment) lets you call this REST API directly from a browser.
 
-## cURL Example
-
-The following are a few examples of using cURL:
+You can also use cURL command-line utility to test this REST API. The following are a few examples of using cURL.
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}

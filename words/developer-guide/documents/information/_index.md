@@ -8,13 +8,11 @@ weight: 30
 
 This REST API allows you to get information about the document. The API returns a JSON/XML representation of the document unless a specific Accept header is provided in which case it will return the document in the specified format. The different representations of a document are basically the formats to which the document can be converted. So to achieve a conversion, all a user has to do is to use one of these links.
 
-## REST API’s Resources
+## REST API
 
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/WordsDocument/GetDocument) lets you call this REST API directly from a browser.
 
-## cURL Example
-
-The following are a few examples of using cURL:
+You can also use cURL command-line utility to test this REST API. The following are a few examples of using cURL.
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}

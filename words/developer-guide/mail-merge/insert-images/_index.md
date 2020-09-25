@@ -9,13 +9,11 @@ weight: 20
 
 This example explains how to insert Images on a MERGEFIELD. [MailMerge](https://apireference.aspose.cloud/words/#/MailMerge/ExecuteMailMerge) API allows you to insert images on a merge field. The mail merges data string can be either in XML or JSON format.
 
-## REST API’s Resources
+## REST API
 
-The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/MailMerge/ExecuteMailMerge) lets you call this REST API directly from a browser. The description of the APIs and its parameters are also given there.
+The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/MailMerge/ExecuteMailMerge) lets you call this REST API directly from a browser.
 
-## cURL Example
-
-You can use a sample **Input Document** [TestMailMergeWithImages.doc](TestMailMergeWithImages.doc) and **Mail Merge Data** [MailMergeData.txt](MailMergeData.txt). The **Output Document** would be as follows: [TestMailMergeWithImages_Out.docx](TestMailMergeWithImages_Out.docx).
+You can also use cURL command-line utility to test this REST API. The following are a few examples of using cURL, supplied with a sample **Input Document** [TestMailMergeWithImages.doc](TestMailMergeWithImages.doc) and **Mail Merge Data** [MailMergeData.txt](MailMergeData.txt). The **Output Document** would be as follows: [TestMailMergeWithImages_Out.docx](TestMailMergeWithImages_Out.docx).
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}

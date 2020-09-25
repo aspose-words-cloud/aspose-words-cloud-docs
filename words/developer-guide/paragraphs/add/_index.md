@@ -14,7 +14,7 @@ This REST API allows you to add a paragraph to a document. The API returns added
 |insertBeforeNode|string|Query String: insertBeforeNode="nodeId"|Paragraph will be inserted before node with id="nodeId".|
 |text|string|Request body|A paragraph will be inserted with text "text".|
 
-## REST API’s Resources
+## REST API
 
 ```JAVA
 ~/{file-name}/paragraph/{index}
@@ -29,9 +29,7 @@ This REST API allows you to add a paragraph to a document. The API returns added
 
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Paragraphs/InsertParagraph) lets you call this REST API directly from a browser.
 
-## cURL Example
-
-The following are a few examples of using cURL:
+You can also use cURL command-line utility to test this REST API. The following are a few examples of using cURL.
 
 {{< tabs tabTotal="2" tabID="2" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}

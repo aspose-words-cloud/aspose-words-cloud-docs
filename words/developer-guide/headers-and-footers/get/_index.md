@@ -9,7 +9,7 @@ weight: 40
 
 This REST API allows you to get a header/footer that is contained in a document.
 
-## REST API’s Resources
+## REST API
 
 ```JAVA
 ~/{file-name}/headersFooters/{index}
@@ -22,9 +22,7 @@ This REST API allows you to get a header/footer that is contained in a document.
 
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/HeadersFooters/GetHeaderFooter) lets you call this REST API directly from a browser. 
 
-## cURL Example
-
-The following are a few examples of using cURL.
+You can also use cURL command-line utility to test this REST API. The following are a few examples of using cURL.
 
 **Case 1**: Get a Header or Footer in a Document
 

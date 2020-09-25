@@ -56,13 +56,11 @@ The most important parameters of this API are listed in the following table:
 
 The format can also be specified by the request Accept header.
 
-## REST API’s Resources
+## REST API
 
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Convert/ConvertDocument) lets you call this REST API directly from a browser.
 
-## cURL Example
-
-The following are a few examples of using cURL. You can use a sample **Input Document** [TableDocument.doc](TableDocument.doc). The **Output Document** would be as follows: [TableDocument.pdf](TableDocument.pdf).
+You can also use cURL command-line utility to test this REST API. The following are a few examples of using cURL, supplied with a sample **Input Document** [TableDocument.doc](TableDocument.doc). The **Output Document** would be as follows: [TableDocument.pdf](TableDocument.pdf).
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}

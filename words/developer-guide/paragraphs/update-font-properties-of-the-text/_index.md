@@ -9,7 +9,7 @@ weight: 120
 
 This article explains how to format the text. Using [PUT /words/{name}/{paragraphPath}/runs/{index}/font](https://apireference.aspose.cloud/words/#/Runs/UpdateRunFont) API you can update font properties of the text.
 
-## REST API’s Resources
+## REST API
 
 ```JAVA
 ~/{file-name}/{paragraphPath}/runs/{index}/font
@@ -66,9 +66,7 @@ This article explains how to format the text. Using [PUT /words/{name}/{paragrap
 |Underline|Underline|Specifies the type of underline applied to the font.|
 |UnderlineColor|Color|Specifies the color of the underline applied to the font.|
 
-## cURL Example
-
-The following are a few examples of using cURL.
+You can also use cURL command-line utility to test this REST API. The following are a few examples of using cURL.
 
 You can use a sample **Input Document** [SampleWordDocument.docx](SampleWordDocument.docx). The **Output Document** would be as follows: [ResultWordDocument.docx](ResultWordDocument.docx).
 

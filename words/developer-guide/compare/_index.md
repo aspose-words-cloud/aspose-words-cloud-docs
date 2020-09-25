@@ -25,13 +25,11 @@ The description of the important parameters of the API is given below:
 |Author|string|Initials of the author to use for revisions.|
 |DateTime|string|The date and time to use for revisions. Default is the current server time.|
 
-## REST API’s Resources
+## REST API
 
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Compare/CompareDocument) lets you call this REST API directly from a browser.
 
-## cURL Example
-
-The following are a few examples of using cURL. You can use a sample **Input Documents**: [compareTestDoc1.doc](compareTestDoc1.doc), [compareTestDoc2.doc](compareTestDoc2.doc).
+You can also use cURL command-line utility to test this REST API. The following are a few examples of using cURL, supplied with a sample **Input Documents**: [compareTestDoc1.doc](compareTestDoc1.doc), [compareTestDoc2.doc](compareTestDoc2.doc).
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}

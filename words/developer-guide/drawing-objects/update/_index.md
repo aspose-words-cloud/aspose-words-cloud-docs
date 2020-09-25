@@ -21,7 +21,7 @@ The request is an HTTP request with multipart content (see [RFC 2046](http://to
 |Height|double|Height of the drawing object in points.|
 |WrapType|Aspose.Words.Drawing.ShapeBase.WrapType|Specifies how to wrap text around the image.|
 
-## REST API’s Resources
+## REST API
 
 The following URIs are used to address REST resources:
 
@@ -39,9 +39,7 @@ The following URIs are used to address REST resources:
 
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/DrawingObjects/UpdateDrawingObject) lets you call this REST API directly from a browser. 
 
-## cURL Example
-
-The following are a few examples of using cURL:
+You can also use cURL command-line utility to test this REST API. The following are a few examples of using cURL.
 
 {{< tabs tabTotal="2" tabID="2" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}

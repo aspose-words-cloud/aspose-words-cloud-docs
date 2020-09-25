@@ -11,15 +11,11 @@ Bookmarks identify in a Microsoft Word document the locations or fragments that 
 
 Aspose.Words Cloud API allows you to obtain a bookmark collection to iterate through bookmarks or for other purposes.
 
-## REST API’s Resources
+## REST API
 
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Bookmarks/GetBookmarks) lets you call this REST API directly from a browser.
 
-## cURL Example
-
-The following are a few examples of using cURL.
-
-Below cURL example shows how to obtain bookmarks from a bookmark collection. You can download a template file of this example from [here](test_multi_pages.docx).
+You can also use cURL command-line utility to test this REST API. The following are a few examples of using cURL, supplied with a sample document [here](test_multi_pages.docx).
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}

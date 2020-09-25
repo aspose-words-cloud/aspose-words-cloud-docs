@@ -11,13 +11,11 @@ This example explains how to insert HTML on a MERGEFIELD. [executeMailMerge](h
 
 Please escape HTML characters in data source string and use "format"="html" attribute.
 
-## REST API’s Resources
+## REST API
 
-The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/MailMerge/ExecuteMailMerge) lets you call the REST API directly from the browser. The description of the APIs and its parameters are also given there.
+The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/MailMerge/ExecuteMailMerge) lets you call the REST API directly from the browser.
 
-## cURL Example
-
-The following are a few examples of using cURL. You can use a sample **Input Document** [template.doc](template.doc) and **Mail Merge Data**: [TestExecuteMailMergeData.txt](TestExecuteMailMergeData.txt). The **Output Document** would be as follows [TestPostDocumentExecuteMailMerge.docx](TestPostDocumentExecuteMailMerge.docx).
+You can also use cURL command-line utility to test this REST API. The following are a few examples of using cURL, supplied with a sample **Input Document** [template.doc](template.doc) and **Mail Merge Data** [TestExecuteMailMergeData.txt](TestExecuteMailMergeData.txt). The **Output Document** would be as follows [TestPostDocumentExecuteMailMerge.docx](TestPostDocumentExecuteMailMerge.docx).
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}

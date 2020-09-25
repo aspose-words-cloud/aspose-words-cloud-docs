@@ -38,13 +38,11 @@ The following limitations apply and will be addressed in future versions:
 
 **Note**: We support Python, C#, Java, Ruby, PHP, NodeJS, Go, Android, Swift so far you can find the sample code below in this page:
 
-## REST API’s Resources
+## REST API
 
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Convert/SaveAs) lets you call this REST API directly from a browser.
 
-## cURL Example
-
-The following are a few examples of using cURL. You can use a sample **Input Document** [2019_new_demo.pdf](2019_new_demo.pdf). The **Output Document** would be as follows: [2019_new_demo Out.docx](2019_new_demo Out.docx).
+You can also use cURL command-line utility to test this REST API. The following are a few examples of using cURL, supplied with a sample **Input Document** [2019_new_demo.pdf](2019_new_demo.pdf). The **Output Document** would be as follows: [2019_new_demo Out.docx](2019_new_demo Out.docx).
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}

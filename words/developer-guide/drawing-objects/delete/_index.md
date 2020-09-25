@@ -9,7 +9,7 @@ weight: 20
 
 This REST API allows you to delete a drawing object from the document.
 
-## REST API’s Resources
+## REST API
 
 The following URIs are used to address REST resources:
 
@@ -27,9 +27,7 @@ The following URIs are used to address REST resources:
 
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/DrawingObjects/DeleteDrawingObject) lets you call this REST API directly from a browser. 
 
-## cURL Example
-
-The following are a few examples of using cURL:
+You can also use cURL command-line utility to test this REST API. The following are a few examples of using cURL.
 
 {{< tabs tabTotal="2" tabID="2" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}

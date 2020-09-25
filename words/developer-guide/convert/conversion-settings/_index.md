@@ -69,13 +69,11 @@ The most important parameters of this API are listed in the following table:
 
 All elements, except **SaveFormat** and **FileName**, can be omitted. If we omit an element, then the element will contain default value.
 
-## REST API’s Resources
+## REST API
 
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Convert/SaveAs) lets you call this REST API directly from a browser.
 
-## cURL Example
-
-The following are a few examples of using cURL:
+You can also use cURL command-line utility to test this REST API. The following are a few examples of using cURL.
 
 {{< tabs tabTotal="2" tabID="25" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}

@@ -37,13 +37,11 @@ Document classification supports classifying documents stored on Aspose Storage 
 
 **Note**: The SDKs in C#, Java, PHP, Ruby, Python, Node.js, Android, Swift and Go are available for download. Also the sample code are given below for each of the SDKs:
 
-## REST API’s Resources
+## REST API
 
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Classification/ClassifyDocument) lets you call the REST API directly from the browser.
 
-## cURL Example
-
-The following are a few examples of using cURL. You can use a sample **Input Document** [test_multi_pages.docx](test_multi_pages.docx).
+You can also use cURL command-line utility to test this REST API. The following are a few examples of using cURL, supplied with a sample **Input Document** [test_multi_pages.docx](test_multi_pages.docx).
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}

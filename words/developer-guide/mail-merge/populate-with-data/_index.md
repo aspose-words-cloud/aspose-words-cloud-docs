@@ -36,13 +36,11 @@ The cleanup options parameter can contain a list of values from below, separated
 |RemoveTitleRowInInnerTables|Enable "RemoveTitleRow " for nested tables.|
 |RemoveStaticFields|Specifies whether static fields should be removed from the document. Static fields are fields, which results remain the same upon any document change. Fields, which do not store their results in a document and are calculated on the fly (like Aspose.Words.Fields.FieldType.FieldListNum, Aspose.Words.Fields.FieldType.FieldSymbol, etc.) are not considered to be static.|
 
-## REST API’s Resources
+## REST API
 
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/MailMerge/ExecuteMailMerge) lets you call this REST API directly from a browser.
 
-## cURL Example
-
-The following are a few examples of using cURL.
+You can also use cURL command-line utility to test this REST API. The following are a few examples of using cURL.
 
 **Case 1**: MailMerge Template
 

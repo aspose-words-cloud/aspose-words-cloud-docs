@@ -19,13 +19,11 @@ The description of the important API parameters is given below:
 |Href|string|Path of the document to append.|
 |ImportFormatMode|string|Defines which formatting will be used: appended or destination document. Possible values are **KeepSourceFormatting** or **UseDestinationStyles**. |
 
-## REST API’s Resources
+## REST API
 
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Append/AppendDocument) lets you call this REST API directly from a browser.
 
-## cURL Example
-
-The following are a few examples of using cURL.
+You can also use cURL command-line utility to test this REST API. The following are a few examples of using cURL.
 
 You can use sample **Input Documents**: [test_doc.docx](test_doc.docx), [test_multi_pages.docx](test_multi_pages.docx). The **Output Document** would be as follows: [test_doc_output.docx](test_doc_output.docx).
 

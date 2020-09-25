@@ -14,13 +14,11 @@ This REST API allows you to update the bookmark text and returns updated bookmar
 |Name|string|Name of the selected bookmark|
 |Text|string|The text contained within this bookmark|
 
-## REST API’s Resources
+## REST API
 
 [Aspose.Words Cloud APIs Swagger UI](https://apireference.aspose.cloud/words/#/Bookmarks/UpdateBookmark) lets you call this REST API directly from a browser.
 
-## cURL Example
-
-The following are a few examples of using cURL:
+You can also use cURL command-line utility to test this REST API. The following are a few examples of using cURL.
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}

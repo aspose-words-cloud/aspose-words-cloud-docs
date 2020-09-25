@@ -21,7 +21,7 @@ This REST API allows you to get a particular drawing object from the document. Y
 |imageDataLink|link|Link to embedded image resource, if present.|
 |oleDataLink|link|Link to embedded OLE resource, if present.|
 
-## REST API’s Resources
+## REST API
 
 The following URIs are used to address REST resources:
 
@@ -39,9 +39,7 @@ The following URIs are used to address REST resources:
 
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/DrawingObjects/GetDocumentDrawingObjectByIndex) lets you call this REST API directly from a browser. 
 
-## cURL Example
-
-The following are a few examples of using cURL. You can use a sample **Input Document** [test_multi_pages.docx](test_multi_pages.docx). The **Output File** would be as follows: [drawingObject.png](drawingObject.png).
+You can also use cURL command-line utility to test this REST API. The following are a few examples of using cURL, supplied with a sample **Input Document** [test_multi_pages.docx](test_multi_pages.docx). The **Output File** would be as follows: [drawingObject.png](drawingObject.png).
 
 {{< tabs tabTotal="2" tabID="2" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}

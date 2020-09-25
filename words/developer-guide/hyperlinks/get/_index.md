@@ -15,13 +15,11 @@ This REST API allows you to get a hyperlink from a document. The resource proper
 |DisplayText|string|Text of the hyperlink as it is presented in a Word document.|
 |Value|string|Destination of the hyperlink.|
 
-## REST API’s Resources
+## REST API
 
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Hyperlinks/GetDocumentHyperlinkByIndex) lets you call this REST API directly from a browser.
 
-## cURL Example
-
-The following are a few examples of using cURL:
+You can also use cURL command-line utility to test this REST API. The following are a few examples of using cURL.
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}

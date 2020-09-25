@@ -10,7 +10,7 @@ weight: 190
 
 This REST API allows you to insert *page numbers in word* documents. This article reveals that how to add page numbers in word documents with formatted and arranged manners using most frequently used options.
 
-## REST API’s Resources
+## REST API
 
 ```JAVA
 ~/{file-name}/insertPageNumbers
@@ -22,9 +22,7 @@ or
 
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/PageNumbers/InsertPageNumbers) lets you call this REST API directly from a browser.
 
-## cURL Example
-
-The following are a few examples of using cURL:
+You can also use cURL command-line utility to test this REST API. The following are a few examples of using cURL.
 
 {{< tabs tabTotal="2" tabID="2" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}

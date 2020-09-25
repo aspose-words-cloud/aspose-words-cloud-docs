@@ -31,7 +31,7 @@ The following formats are supported:
 |svg|Scalable Vector Graphics File|
 |tiff|Tagged Image File Format|
 
-## REST API’s Resources
+## REST API
 
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Render) lets you call the following REST APIs directly from a browser:
 
@@ -41,9 +41,7 @@ The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Render) le
 - [Renders drawing object to a specified format](https://apireference.aspose.cloud/words/#/Render/RenderDrawingObject).
 - [Renders math object to a specified format](https://apireference.aspose.cloud/words/#/Render/RenderMathObject).
 
-## cURL Example
-
-The following are a few examples of using cURL.
+You can also use cURL command-line utility to test this REST API. The following are a few examples of using cURL.
 
 **Case 1**: Render a page of the document in BMP format:
 

@@ -52,7 +52,7 @@ This REST API allows you to update font properties. The API returns updated font
 |Underline|Underline|Specifies the type of underline applied to the font.|
 |UnderlineColor|Color|Specifies the color of the underline applied to the font.|
 
-## REST API’s Resources
+## REST API
 
 ```JAVA
 ~/{file-name}/{paragraphPath}/runs/{index}/font
@@ -66,9 +66,7 @@ This REST API allows you to update font properties. The API returns updated font
 
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Runs/UpdateRunFont) lets you call this REST API directly from a browser.
 
-## cURL Example
-
-The following are a few examples of using cURL:
+You can also use cURL command-line utility to test this REST API. The following are a few examples of using cURL.
 
 {{< tabs tabTotal="2" tabID="2" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}

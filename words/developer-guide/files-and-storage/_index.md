@@ -17,9 +17,7 @@ Aspose.Words Cloud provides helper functions to work with files uploaded to Asp
 | :- | :- | :- | :- |
 |/words/storage/file/{path}|GET|Download a File from Storage|[DownloadFile](https://apireference.aspose.cloud/words/#/File/DownloadFile)|
 
-### cURL Example
-
-The following are a few examples of using cURL:
+You can use cURL command-line utility to test this REST API. The following are a few examples of using cURL.
 
 {{< tabs tabTotal="1" tabID="1" tabName1="Request" >}}
 {{< tab tabNum="1" >}}
@@ -43,8 +41,6 @@ curl -v -X GET "https://api.aspose.cloud/v4.0/words/storage/file/sample.docx" \
 |API|Type|Description|Swagger Link|
 | :- | :- | :- | :- |
 |/words/storage/file/{path}|PUT|Upload a file to Cloud Storage|[UploadFile](https://apireference.aspose.cloud/words/#/File/UploadFile)|
-
-### cURL Example
 
 The following are a few examples of using cURL:
 
@@ -84,8 +80,6 @@ curl  -v -X PUT "https://api.aspose.cloud/v4.0/words/storage/file/sample.docx" \
 | :- | :- | :- | :- |
 |/words/storage/file/copy/{srcPath}|PUT|Duplicate a file to a new location on Cloud Storage|[CopyFile](https://apireference.aspose.cloud/words/#/File/CopyFile)|
 
-### cURL Example
-
 The following are a few examples of using cURL:
 
 {{< tabs tabTotal="1" tabID="8" tabName1="Request" >}}
@@ -109,8 +103,6 @@ curl -v -X PUT "https://api.aspose.cloud/v4.0/words/storage/file/copy/sample.doc
 |API|Type|Description|Swagger Link|
 | :- | :- | :- | :- |
 |/words/storage/file/MOVE/{srcPath}|PUT|Move a file to a new location on Cloud Storage|[MoveFile](https://apireference.aspose.cloud/words/#/File/MoveFile)|
-
-### cURL Example
 
 The following are a few examples of using cURL:
 
@@ -136,8 +128,6 @@ curl -v -X PUT "https://api.aspose.cloud/v4.0/words/storage/file/move/input.docx
 |API|Type|Description|Swagger Link|
 | :- | :- | :- | :- |
 |/words/storage/file/{path}|DELETE|Delete a file from Cloud Storage|[DeleteFile](https://apireference.aspose.cloud/words/#/File/DeleteFile)|
-
-### cURL Example
 
 The following are a few examples of using cURL:
 

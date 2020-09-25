@@ -40,13 +40,11 @@ This REST API allows you to update the section page setup properties. The API re
 |TopMargin|double|Specifies the distance (in points) between the top edge of the page and the top boundary of the body text.|
 |VerticalAlignment|PageVerticalAlignment|Specifies the vertical alignment of text on each page in a document or section.|
 
-## REST API’s Resources
+## REST API
 
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Sections/UpdateSectionPageSetup) lets you call this REST API directly from a browser.
 
-## cURL Example
-
-The following are a few examples of using cURL:
+You can also use cURL command-line utility to test this REST API. The following are a few examples of using cURL.
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}

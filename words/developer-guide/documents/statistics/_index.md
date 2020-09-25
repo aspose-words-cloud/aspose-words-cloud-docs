@@ -14,13 +14,11 @@ This REST API allows you to get statistical data on the document. The request pa
 |includeFootnotes|bool|Query String: includeFootnotes=true|Support including/excluding footnotes from the WordCount. The default value is "false".|
 |includeTextInShapes|bool|Query String: includeTextInShapes=true|Support including/excluding shape's text from the WordCount. The default value is "false".|
 
-## REST API’s Resources
+## REST API
 
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Statistics/GetDocumentStatistics) lets you call this REST API directly from a browser.
 
-## cURL Example
-
-The following are a few examples of using cURL:
+You can also use cURL command-line utility to test this REST API. The following are a few examples of using cURL.
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}

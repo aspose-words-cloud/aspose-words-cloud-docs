@@ -9,7 +9,7 @@ weight: 50
 
 This REST API allows you to get image data from a drawing object.
 
-## REST API’s Resources
+## REST API
 
 ```JAVA
 ~/{file-name}/drawingObjects/{index}/imageData
@@ -26,9 +26,7 @@ This REST API allows you to get image data from a drawing object.
 
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/DrawingObjects/GetDocumentDrawingObjectImageData) lets you call this REST API directly from a browser. 
 
-## cURL Example
-
-The following are a few examples of using cURL:
+You can also use cURL command-line utility to test this REST API. The following are a few examples of using cURL.
 
 {{< tabs tabTotal="2" tabID="2" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}

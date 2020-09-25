@@ -9,7 +9,7 @@ weight: 50
 
 This REST API allows you to remove all fields from a document, section or paragraph.  
 
-## REST API’s Resources
+## REST API
 
 The following URIs are used to address REST resources:
 
@@ -34,9 +34,7 @@ The resource properties are:
 
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Fields/DeleteFields) lets you call this REST API directly from a browser.
 
-## cURL Example
-
-The following are a few examples of using cURL. You can use a sample **Input Document** [GetField.docx](/words/fields/GetField.docx).
+You can also use cURL command-line utility to test this REST API. The following are a few examples of using cURL, supplied with a sample **Input Document** [GetField.docx](/words/fields/GetField.docx).
 
 {{< tabs tabTotal="2" tabID="2" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}

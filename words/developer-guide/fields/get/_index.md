@@ -9,7 +9,7 @@ weight: 30
 
 This REST API allows you to get a field from a document, section or paragraph.
 
-## REST API’s Resources
+## REST API
 
 The following URIs are used to address REST resources:
 
@@ -35,9 +35,7 @@ The resource properties are:
 
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Fields/GetField) lets you call this REST API directly from a browser.
 
-## cURL Example
-
-The following are a few examples of using cURL:
+You can also use cURL command-line utility to test this REST API. The following are a few examples of using cURL.
 
 {{< tabs tabTotal="2" tabID="2" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
