@@ -32,7 +32,7 @@ curl -X PUT "https://api.aspose.cloud/v4.0/words/Run.doc/styles/Heading%201/upda
 -d "{\"IsQuickStyle\":true,\"Name\":\"My Style\"}"
 ```
 
-To get a JWT-token, please, follow these [instructions](/words/getting-started/available-sdks/#curl).
+To get a **JWT** token, please, follow these [instructions](/words/getting-started/available-sdks/#curl).
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}

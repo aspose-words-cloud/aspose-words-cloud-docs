@@ -28,7 +28,7 @@ curl -X PUT "https://api.aspose.cloud/v4.0/words/TestApplyStyleToDocumentElement
 -H  "Content-Type: application/json" -d "{\"StyleName\":\"Heading 1\"}"
 ```
 
-To get a JWT-token, please, follow these [instructions](/words/getting-started/available-sdks/#curl).
+To get a **JWT** token, please, follow these [instructions](/words/getting-started/available-sdks/#curl).
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
