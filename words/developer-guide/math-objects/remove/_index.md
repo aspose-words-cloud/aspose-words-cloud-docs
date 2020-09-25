@@ -26,7 +26,7 @@ The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/OfficeMath
 
 ## cURL Example
 
-The following are a few examples of using cURL:
+The following are a few examples of using cURL. To get a **JWT** token, please, follow these [instructions](/words/getting-started/available-sdks/#curl).
 
 {{< tabs tabTotal="2" tabID="2" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
@@ -39,8 +39,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/MathObjects.docx/OfficeMathObjects/
 -H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>"
 ```
-
-To get a **JWT** token, please, follow these [instructions](/words/getting-started/available-sdks/#curl).
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}

@@ -41,7 +41,7 @@ The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/DrawingObj
 
 ## cURL Example
 
-The following are a few examples of using cURL. You can use a sample **Input Document** [test_multi_pages.docx](test_multi_pages.docx). The **Output File** would be as follows: [drawingObject.png](drawingObject.png).
+The following are a few examples of using cURL. To get a **JWT** token, please, follow these [instructions](/words/getting-started/available-sdks/#curl). You can use a sample **Input Document** [test_multi_pages.docx](test_multi_pages.docx). The **Output File** would be as follows: [drawingObject.png](drawingObject.png).
 
 {{< tabs tabTotal="2" tabID="2" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
@@ -55,8 +55,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/drawingObject
 -H "Authorization: Bearer <jwt token>" \
 -o drawingObject.png
 ```
-
-To get a **JWT** token, please, follow these [instructions](/words/getting-started/available-sdks/#curl).
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}

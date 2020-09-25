@@ -17,7 +17,7 @@ The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Bookmarks/
 
 ## cURL Example
 
-The following are a few examples of using cURL.
+The following are a few examples of using cURL. To get a **JWT** token, please, follow these [instructions](/words/getting-started/available-sdks/#curl).
 
 Below cURL example shows how to obtain bookmarks from a bookmark collection. You can download a template file of this example from [here](test_multi_pages.docx).
 
@@ -32,8 +32,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/bookmarks" \
 -H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>"
 ```
-
-To get a **JWT** token, please, follow these [instructions](/words/getting-started/available-sdks/#curl).
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}

@@ -17,7 +17,7 @@ The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/MailMerge/
 
 ## cURL Example
 
-The following are a few examples of using cURL. You can use a sample **Input Document** [template.doc](template.doc) and **Mail Merge Data**: [TestExecuteMailMergeData.txt](TestExecuteMailMergeData.txt). The **Output Document** would be as follows [TestPostDocumentExecuteMailMerge.docx](TestPostDocumentExecuteMailMerge.docx).
+The following are a few examples of using cURL. To get a **JWT** token, please, follow these [instructions](/words/getting-started/available-sdks/#curl). You can use a sample **Input Document** [template.doc](template.doc) and **Mail Merge Data**: [TestExecuteMailMergeData.txt](TestExecuteMailMergeData.txt). The **Output Document** would be as follows [TestPostDocumentExecuteMailMerge.docx](TestPostDocumentExecuteMailMerge.docx).
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
@@ -31,8 +31,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/template.doc/MailMerge?destFileName
 -H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>"
 ```
-
-To get a **JWT** token, please, follow these [instructions](/words/getting-started/available-sdks/#curl).
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}

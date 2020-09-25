@@ -44,7 +44,7 @@ The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Convert/Sa
 
 ## cURL Example
 
-The following are a few examples of using cURL. You can use a sample **Input Document** [2019_new_demo.pdf](2019_new_demo.pdf). The **Output Document** would be as follows: [2019_new_demo Out.docx](2019_new_demo Out.docx).
+The following are a few examples of using cURL. To get a **JWT** token, please, follow these [instructions](/words/getting-started/available-sdks/#curl). You can use a sample **Input Document** [2019_new_demo.pdf](2019_new_demo.pdf). The **Output Document** would be as follows: [2019_new_demo Out.docx](2019_new_demo Out.docx).
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
@@ -58,8 +58,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/2019_new_demo.pdf/saveAs" \
 -H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>"
 ```
-
-To get a **JWT** token, please, follow these [instructions](/words/getting-started/available-sdks/#curl).
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}

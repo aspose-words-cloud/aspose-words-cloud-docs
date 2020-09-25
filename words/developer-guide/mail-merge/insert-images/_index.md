@@ -30,8 +30,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/TestMailMergeWithImages.doc/MailMer
 -H "Authorization: Bearer <jwt token>"
 ```
 
-To get a **JWT** token, please, follow these [instructions](/words/getting-started/available-sdks/#curl).
-
 {{< /tab >}}
 {{< tab tabNum="2" >}}
 

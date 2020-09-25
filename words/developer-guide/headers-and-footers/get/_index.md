@@ -24,7 +24,7 @@ The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/HeadersFoo
 
 ## cURL Example
 
-The following are a few examples of using cURL.
+The following are a few examples of using cURL. To get a **JWT** token, please, follow these [instructions](/words/getting-started/available-sdks/#curl).
 
 **Case 1**: Get a Header or Footer in a Document
 
@@ -39,8 +39,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/HeadersFooters.doc/headersfooters/0
 -H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>"
 ```
-
-To get a **JWT** token, please, follow these [instructions](/words/getting-started/available-sdks/#curl).
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}

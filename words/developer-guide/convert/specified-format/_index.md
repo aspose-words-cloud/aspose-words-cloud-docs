@@ -62,7 +62,7 @@ The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Convert/Co
 
 ## cURL Example
 
-The following are a few examples of using cURL. You can use a sample **Input Document** [TableDocument.doc](TableDocument.doc). The **Output Document** would be as follows: [TableDocument.pdf](TableDocument.pdf).
+The following are a few examples of using cURL. To get a **JWT** token, please, follow these [instructions](/words/getting-started/available-sdks/#curl). You can use a sample **Input Document** [TableDocument.doc](TableDocument.doc). The **Output Document** would be as follows: [TableDocument.pdf](TableDocument.pdf).
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
@@ -77,8 +77,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/convert?format=pdf" \
 -H "Authorization: Bearer <jwt token>" \
 -o TableDocument.pdf
 ```
-
-To get a **JWT** token, please, follow these [instructions](/words/getting-started/available-sdks/#curl).
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}

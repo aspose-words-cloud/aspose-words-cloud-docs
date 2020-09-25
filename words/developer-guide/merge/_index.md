@@ -25,7 +25,7 @@ The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Append/App
 
 ## cURL Example
 
-The following are a few examples of using cURL.
+The following are a few examples of using cURL. To get a **JWT** token, please, follow these [instructions](/words/getting-started/available-sdks/#curl).
 
 You can use sample **Input Documents**: [test_doc.docx](test_doc.docx), [test_multi_pages.docx](test_multi_pages.docx). The **Output Document** would be as follows: [test_doc_output.docx](test_doc_output.docx).
 
@@ -41,8 +41,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_doc.docx/appendDocument" \
 -H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>"
 ```
-
-To get a **JWT** token, please, follow these [instructions](/words/getting-started/available-sdks/#curl).
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}

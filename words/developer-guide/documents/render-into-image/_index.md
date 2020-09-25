@@ -43,7 +43,7 @@ The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Render) le
 
 ## cURL Example
 
-The following are a few examples of using cURL.
+The following are a few examples of using cURL. To get a **JWT** token, please, follow these [instructions](/words/getting-started/available-sdks/#curl).
 
 **Case 1**: Render a page of the document in BMP format:
 
@@ -59,8 +59,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/pages/1/ren
 -H "Authorization: Bearer <jwt token>" \
 -o SampleWordDocument.bmp
 ```
-
-To get a **JWT** token, please, follow these [instructions](/words/getting-started/available-sdks/#curl).
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
