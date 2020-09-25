@@ -59,12 +59,14 @@ curl -v "https://api.aspose.cloud/v4.0/words/MailMerge" \
 -o TestPostDocumentExecuteMailMerge.docx
 ```
 
-To get a **JWT** token, please, follow these [instructions](/words/getting-started/available-sdks/#curl).
+To get a JWT-token, please, follow these [instructions](/words/getting-started/available-sdks/#curl).
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
 
-[TestPostDocumentExecuteMailMerge.docx](TestPostDocumentExecuteMailMerge.docx)
+```json
+Output Document: TestPostDocumentExecuteMailMerge.docx
+```
 
 {{< /tab >}}
 {{< /tabs >}}
@@ -99,7 +101,9 @@ curl -v "https://api.aspose.cloud/v4.0/words/MailMerge" \
 {{< /tab >}}
 {{< tab tabNum="2" >}}
 
-[TestPostExecuteTemplate.docx](TestPostExecuteTemplate.docx)
+```JAVA
+Output Document: TestPostExecuteTemplate.docx
+```
 
 {{< /tab >}}
 {{< /tabs >}}

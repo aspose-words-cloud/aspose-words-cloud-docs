@@ -31,7 +31,7 @@ curl -v -X GET "https://api.aspose.cloud/v4.0/words/storage/file/sample.docx" \
 -H "Authorization: Bearer <jwt token>"
 ```
 
-To get a **JWT** token, please, follow these [instructions](/words/getting-started/available-sdks/#curl).
+To get a JWT-token, please, follow these [instructions](/words/getting-started/available-sdks/#curl).
 
 {{< /tab >}}
 {{< /tabs >}}
@@ -58,7 +58,7 @@ curl  -v -X PUT "https://api.aspose.cloud/v4.0/words/storage/file/sample.docx" \
 -H "Authorization: Bearer <jwt token>"
 ```
 
-To get a **JWT** token, please, follow these [instructions](/words/getting-started/available-sdks/#curl).
+To get a JWT-token, please, follow these [instructions](/words/getting-started/available-sdks/#curl).
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
@@ -97,7 +97,7 @@ curl -v -X PUT "https://api.aspose.cloud/v4.0/words/storage/file/copy/sample.doc
 -H "Authorization: Bearer <jwt token>"
 ```
 
-To get a **JWT** token, please, follow these [instructions](/words/getting-started/available-sdks/#curl).
+To get a JWT-token, please, follow these [instructions](/words/getting-started/available-sdks/#curl).
 
 {{< /tab >}}
 {{< /tabs >}}
@@ -124,7 +124,7 @@ curl -v -X PUT "https://api.aspose.cloud/v4.0/words/storage/file/move/input.docx
 -H "Authorization: Bearer <jwt token>"
 ```
 
-To get a **JWT** token, please, follow these [instructions](/words/getting-started/available-sdks/#curl).
+To get a JWT-token, please, follow these [instructions](/words/getting-started/available-sdks/#curl).
 
 {{< /tab >}}
 {{< /tabs >}}
@@ -151,7 +151,7 @@ curl -v -X DELETE "https://api.aspose.cloud/v4.0/words/storage/file/input.docx" 
 -H "Authorization: Bearer <jwt token>"
 ```
 
-To get a **JWT** token, please, follow these [instructions](/words/getting-started/available-sdks/#curl).
+To get a JWT-token, please, follow these [instructions](/words/getting-started/available-sdks/#curl).
 
 {{< /tab >}}
 {{< /tabs >}}

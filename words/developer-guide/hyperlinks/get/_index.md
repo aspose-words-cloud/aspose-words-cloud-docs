@@ -35,7 +35,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_doc.docx/hyperlinks/0" \
 -H "Authorization: Bearer <jwt token>"
 ```
 
-To get a **JWT** token, please, follow these [instructions](/words/getting-started/available-sdks/#curl).
+To get a JWT-token, please, follow these [instructions](/words/getting-started/available-sdks/#curl).
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
