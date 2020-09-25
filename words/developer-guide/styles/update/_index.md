@@ -16,7 +16,7 @@ The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Styles/Upd
 
 ## cURL Example
 
-The following are a few examples of using cURL. To get a **JWT** token, please, follow these [instructions](/words/getting-started/available-sdks/#curl).
+The following are a few examples of using cURL:
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
@@ -31,6 +31,8 @@ curl -X PUT "https://api.aspose.cloud/v4.0/words/Run.doc/styles/Heading%201/upda
 
 -d "{\"IsQuickStyle\":true,\"Name\":\"My Style\"}"
 ```
+
+To get a **JWT** token, please, follow these [instructions](/words/getting-started/available-sdks/#curl).
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}

@@ -16,7 +16,7 @@ The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Styles/Get
 
 ## cURL Example
 
-The following are a few examples of using cURL. To get a **JWT** token, please, follow these [instructions](/words/getting-started/available-sdks/#curl).
+The following are a few examples of using cURL:
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
@@ -29,6 +29,8 @@ curl -X GET "https://api.aspose.cloud/v4.0/words/TestGetStyles.docx/style/Headin
 
 -H  "Content-Type: application/json" 
 ```
+
+To get a **JWT** token, please, follow these [instructions](/words/getting-started/available-sdks/#curl).
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}

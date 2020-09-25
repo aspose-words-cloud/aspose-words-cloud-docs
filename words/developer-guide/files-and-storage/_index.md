@@ -19,7 +19,7 @@ Aspose.Words Cloud provides helper functions to work with files uploaded to Asp
 
 ### cURL Example
 
-The following are a few examples of using cURL. To get a **JWT** token, please, follow these [instructions](/words/getting-started/available-sdks/#curl).
+The following are a few examples of using cURL:
 
 {{< tabs tabTotal="1" tabID="1" tabName1="Request" >}}
 {{< tab tabNum="1" >}}
@@ -30,6 +30,8 @@ curl -v -X GET "https://api.aspose.cloud/v4.0/words/storage/file/sample.docx" \
 -H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>"
 ```
+
+To get a **JWT** token, please, follow these [instructions](/words/getting-started/available-sdks/#curl).
 
 {{< /tab >}}
 {{< /tabs >}}
@@ -55,6 +57,8 @@ curl  -v -X PUT "https://api.aspose.cloud/v4.0/words/storage/file/sample.docx" \
 -H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>"
 ```
+
+To get a **JWT** token, please, follow these [instructions](/words/getting-started/available-sdks/#curl).
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
@@ -93,6 +97,8 @@ curl -v -X PUT "https://api.aspose.cloud/v4.0/words/storage/file/copy/sample.doc
 -H "Authorization: Bearer <jwt token>"
 ```
 
+To get a **JWT** token, please, follow these [instructions](/words/getting-started/available-sdks/#curl).
+
 {{< /tab >}}
 {{< /tabs >}}
 
@@ -118,6 +124,8 @@ curl -v -X PUT "https://api.aspose.cloud/v4.0/words/storage/file/move/input.docx
 -H "Authorization: Bearer <jwt token>"
 ```
 
+To get a **JWT** token, please, follow these [instructions](/words/getting-started/available-sdks/#curl).
+
 {{< /tab >}}
 {{< /tabs >}}
 
@@ -142,6 +150,8 @@ curl -v -X DELETE "https://api.aspose.cloud/v4.0/words/storage/file/input.docx" 
 -H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>"
 ```
+
+To get a **JWT** token, please, follow these [instructions](/words/getting-started/available-sdks/#curl).
 
 {{< /tab >}}
 {{< /tabs >}}

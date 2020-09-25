@@ -37,7 +37,7 @@ The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Footnotes/
 
 ## cURL Example
 
-The following are a few examples of using cURL. To get a **JWT** token, please, follow these [instructions](/words/getting-started/available-sdks/#curl). You can use a sample **Input Document** [Footnote.doc](/words/footnotes/Footnote.doc).
+The following are a few examples of using cURL. You can use a sample **Input Document** [Footnote.doc](/words/footnotes/Footnote.doc).
 
 {{< tabs tabTotal="2" tabID="2" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
@@ -50,6 +50,8 @@ curl -v "https://api.aspose.cloud/v4.0/words/Footnote.doc/footnotes" \
 -H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>"
 ```
+
+To get a **JWT** token, please, follow these [instructions](/words/getting-started/available-sdks/#curl).
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}

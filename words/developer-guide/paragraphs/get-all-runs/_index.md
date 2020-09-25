@@ -24,7 +24,7 @@ The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Runs/GetRu
 
 ## cURL Example
 
-The following are a few examples of using cURL. To get a **JWT** token, please, follow these [instructions](/words/getting-started/available-sdks/#curl). You can use a sample **Input Document** [GetField.docx](GetField.docx).
+The following are a few examples of using cURL. You can use a sample **Input Document** [GetField.docx](GetField.docx).
 
 {{< tabs tabTotal="2" tabID="2" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
@@ -37,6 +37,8 @@ curl -v "https://api.aspose.cloud/v4.0/words/GetField.docx/sections/0/paragraphs
 -H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>"
 ```
+
+To get a **JWT** token, please, follow these [instructions](/words/getting-started/available-sdks/#curl).
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
