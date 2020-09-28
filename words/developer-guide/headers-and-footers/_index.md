@@ -5,7 +5,6 @@ url: /headers-and-footers/
 aliases: [/working-with-headers-and-footers/]
 keywords: "header and footer in Word"
 description: "Work with headers and footers in a Word document"
-showChildPages: true
 weight: 130
 ---
 
@@ -13,3 +12,4 @@ The ***header and footer in word*** documents are useful for including material 
 
 Please have a look at the following to know in detail:
 
+{{<list-children-pages>}}

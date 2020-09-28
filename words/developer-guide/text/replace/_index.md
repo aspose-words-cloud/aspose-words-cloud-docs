@@ -1,5 +1,6 @@
 ---
-title: "Replace Document Text"
+title: "Replace"
+second_title: "Text in a Word Document"
 type: docs
 url: /text/replace/
 aliases: [/replace-document-text/]
@@ -100,3 +101,4 @@ The following set of **Code Examples** for various SDKs demonstrates how to use 
 {{< gist "aspose-cloud" "068ce2149de5ad69ab516209b7ae82cf" "ReplaceText.go" >}}
 {{< /tab >}}
 {{< /tabs >}}
+

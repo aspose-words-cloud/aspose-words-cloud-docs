@@ -13,3 +13,5 @@ Document or text classification is to classify the text documents into one or ma
 The automatic classification of the documents becomes very useful when a large number of documents require to be manageable and arranged in short or no time. The Aspose.Words Cloud API automatically assigns one or more categories to your articles, responses, emails or any other text-based documents. The SDKs of this cloud API are available in Python, C#, Java, Ruby, PHP, Node.js, Android, Swift and Go languages.
 
 Please read the following articles to get deep inside:
+
+{{<list-children-pages>}}
