@@ -9,7 +9,7 @@ weight: 30
 
 This REST API retrieves a `DrawingObject`. You can also convert a `DrawingObject` to a required format.
 
-The important parameters are described in the following table:
+The important properties are described below:
 
 |Property Name|Type|Description|
 | :- | :- | :- |

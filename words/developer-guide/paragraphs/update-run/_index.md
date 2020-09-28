@@ -9,7 +9,7 @@ weight: 140
 
 This REST API updates run properties. 
 
-The resource properties are the following:
+The important properties are described below:
 
 |Property Name|Type|Description|
 | :- | :- | :- |

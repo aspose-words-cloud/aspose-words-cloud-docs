@@ -5,7 +5,7 @@ type: docs
 url: /merge/
 aliases: [/appending-a-document/]
 keywords: "document append, merge"
-description: "Merge documents (DOCX, PDF, RTF, etc) easily using Cloud API. Use Python, .NET, Node.js, Golang and other SDKs to merge documents."
+description: "Merge documents (DOCX, PDF, RTF, etc) easily using Cloud API."
 weight: 180
 ---
 

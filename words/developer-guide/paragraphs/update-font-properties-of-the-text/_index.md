@@ -22,7 +22,7 @@ This article explains how to format the text. Using [PUT /words/{name}/{paragrap
   - *sections/{sectionIndex}/paragraphs/{paragraphIndex}* - references a paragraph within a section.
 - *{index}* is an index of a run.
 
-## Resource Properties
+The important properties are described below:
 
 |Property Name|Type|Description|
 | :- | :- | :- |

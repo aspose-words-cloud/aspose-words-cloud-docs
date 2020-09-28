@@ -8,7 +8,7 @@ weight: 120
 
 This REST API retrieves `Cell` formatting properties from a table. 
 
-The description of important cell properties is:
+The important properties are described below:
 
 |Property Name|Type|Description|
 | :- | :- | :- |

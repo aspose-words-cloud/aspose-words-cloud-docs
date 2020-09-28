@@ -8,7 +8,7 @@ weight: 140
 
 This REST API gets `Row` format properties from a table.
 
-The important parameters are described in the following table:
+The important properties are described below:
 
 |Property Name|Type|Description|
 | :- | :- | :- |

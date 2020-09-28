@@ -32,7 +32,7 @@ The following URIs are used to address REST resources:
   - *sections/{sectionIndex}/paragraphs/{paragraphIndex}* - references a paragraph within a section.
 - *{index}* is the index of a specific field.
 
-The resource properties are:
+The important properties are described below:
 
 |Property Name|Type|Description|
 | :- | :- | :- |

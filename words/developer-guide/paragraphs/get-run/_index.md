@@ -9,7 +9,7 @@ weight: 80
 
 This REST API retrieves a `Run`, contained in a `Paragraph`.
 
-The resource properties are the following:
+The important properties are described below:
 
 |Property Name|Type|Description|
 | :- | :- | :- |

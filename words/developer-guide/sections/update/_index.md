@@ -8,7 +8,7 @@ weight: 40
 
 This REST API updates a section page setup properties.
 
-The resource properties are the following:
+The important properties are described below:
 
 |Property Name|Type|Description|
 | :- | :- | :- |

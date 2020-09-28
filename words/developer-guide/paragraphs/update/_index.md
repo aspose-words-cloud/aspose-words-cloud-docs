@@ -9,7 +9,7 @@ weight: 130
 
 This REST API updates paragraph page formatting properties.
 
-The resource properties are:
+The important properties are described below:
 
 |Property Name|Type|Description|
 | :- | :- | :- |

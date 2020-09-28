@@ -25,7 +25,7 @@ The following URIs are used to address REST resources:
   - *paragraphs/{paragraphIndex}* - references a paragraph.
   - *sections/{sectionIndex}/paragraphs/{paragraphIndex}* - references a paragraph within a section.
 
-The resource properties are:
+The important properties are described below:
 
 |Property Name|Type|Description|
 | :- | :- | :- |

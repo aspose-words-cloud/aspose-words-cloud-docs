@@ -10,7 +10,7 @@ weight: 20
 
 This REST API retrieves a section.
 
-The resource properties are the following:
+The important properties are described below:
 
 |Property Name|Type|Description|
 | :- | :- | :- |

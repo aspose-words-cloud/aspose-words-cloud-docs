@@ -8,7 +8,7 @@ weight: 10
 
 This REST API retrieves an `OfficeMath` object.
 
-The resource properties are:
+The important properties are described below:
 
 |Property Name|Type|Description|
 | :- | :- | :- |

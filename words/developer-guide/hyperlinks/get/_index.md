@@ -9,7 +9,7 @@ weight: 10
 
 This REST API retrieves a `Hyperlink`.
 
-The resource properties are:
+The important properties are described below:
 
 |Property Name|Type|Description|
 | :- | :- | :- |

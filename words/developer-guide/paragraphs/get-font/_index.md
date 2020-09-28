@@ -9,7 +9,7 @@ weight: 70
 
 This REST API retrieves a `Font` of a `Run`. 
 
-The resource properties are the following:
+The important properties are described below:
 
 |Property Name|Type|Description|
 | :- | :- | :- |

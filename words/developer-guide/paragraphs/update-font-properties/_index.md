@@ -9,7 +9,7 @@ weight: 110
 
 This REST API updates font properties.
 
-The resource properties are the following:
+The important properties are described below:
 
 |Property Name|Type|Description|
 | :- | :- | :- |

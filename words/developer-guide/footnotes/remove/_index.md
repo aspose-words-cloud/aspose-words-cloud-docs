@@ -25,7 +25,7 @@ The following URIs are used to address REST resources:
   - *sections/{sectionIndex}/paragraphs/{paragraphIndex}* - references a paragraph within a section.
 - *{index}* is an index of a footnote.
 
-The resource properties are:
+The important properties are described below:
 
 |Property Name|Type|Description|
 | :- | :- | :- |

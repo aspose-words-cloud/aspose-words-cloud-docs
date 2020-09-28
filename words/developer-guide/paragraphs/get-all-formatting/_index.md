@@ -9,7 +9,7 @@ weight: 60
 
 This REST API retrieves all formatting for a `Paragraph`.
 
-The resource properties are:
+The important properties are described below:
 
 |Property Name|Type|Description|
 | :- | :- | :- |
