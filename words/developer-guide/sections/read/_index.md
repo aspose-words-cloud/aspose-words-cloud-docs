@@ -3,8 +3,8 @@ title: "Read the Page Setup of a Section"
 type: docs
 url: /sections/read/
 aliases: [/read-the-page-setup-of-a-section/]
-keywords: "page setup word,get sections,section break word,Section Break, Word, Microsoft Word, Word Documents,Java, .NET, PHP, Ruby, Python, NodeJS, Swift, Android ,Go"
-description: "This REST API allows you to read the page setup of a section. The API returns JSON/XML representation of the section page setup. Please note that the SDKs of this cloud API are available in Python, C#, Java, Ruby, PHP, Node.js, Android, Swift and Go languages."
+keywords: "page setup word,get sections,section break word,Section Break, Word, Microsoft Word, Word Documents, Java, .NET, PHP, Ruby, Python, NodeJS, Swift, Android, Go"
+description: "read the page setup of a section. The API returns JSON/XML representation of the section page setup."
 weight: 30
 ---
 

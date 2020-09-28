@@ -4,12 +4,12 @@ second_title: "Mail Merge"
 type: docs
 url: /mail-merge/populate-with-data-online/
 aliases: [/populate-mailmerge-template-with-data-online/]
-keywords: "Populate, mustache template, online, Mail Merge, Word, Microsoft Word, Java, .NET, PHP, Ruby, Python, NodeJS, Swift, Android ,Go"
-description: "In this article, you will learn how to populate a mail merge or mustache template with data online in various languages. You can download the SDK of your favorite language and start programming in the smartest way. The Cloud SDKs are available in Python, C#, Java, C++, Ruby, PHP, Node.js, Swift and Go programming languages."
+keywords: "Populate, mustache template, online, Mail Merge, Word, Microsoft Word, Java, .NET, PHP, Ruby, Python, NodeJS, Swift, Android, Go"
+description: "Populate a mail merge or mustache template with data online. You can download the SDK of your favorite language and start programming in the smartest way."
 weight: 40
 ---
 
-In this article, you will learn how to populate a mail merge or mustache template with data online in various languages. You can download the SDK of your favorite language and start programming in the smartest way. The Cloud SDKs are available in Python, C#, Java, C++, Ruby, PHP, Node.js, Swift and Go programming languages. You can send both template file and mail merge data file in the request body and the API returns populated document in API response. [This API](https://apireference.aspose.cloud/words/#/MailMerge/ExecuteMailMergeOnline) represents a controller for executing a mail merge.
+In this article, you will learn how to populate a mail merge or mustache template with data online. You can download the SDK of your favorite language and start programming in the smartest way. You can send both template file and mail merge data file in the request body and the API returns populated document in API response. [This API](https://apireference.aspose.cloud/words/#/MailMerge/ExecuteMailMergeOnline) represents a controller for executing a mail merge.
 
 The following is a description of the most important parameters:
 

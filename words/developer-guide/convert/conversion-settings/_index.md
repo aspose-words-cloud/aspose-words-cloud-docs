@@ -4,8 +4,8 @@ second_title: "Convert Documents"
 type: docs
 url: /convert/conversion-settings/
 aliases: [/convert-document-to-destination-format-with-detailed-settings-and-save-result-to-storage/]
-keywords: "convert document, convert word, convert to, doc, docx, pdf, word to pdf, pdf to word, save word file as pdf, convert word document to html,word doc to html, convert pdf to word, Python, C#, Java, Ruby, PHP, NodeJS, Go, Android, Swift"
-description: "The API lets you convert word document to HTML, PDF, JPEG, or other formats with detailed settings."
+keywords: "convert document, convert word, convert to, doc, docx, pdf, word to pdf, pdf to word, save word file as pdf, convert word document to html, word doc to html, convert PDF to Word, Python, C#, Java, Ruby, PHP, NodeJS, Go, Android, Swift"
+description: "Convert Word document to HTML, PDF, JPEG or other formats with detailed settings."
 weight: 40
 ---
 

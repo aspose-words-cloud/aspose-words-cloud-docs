@@ -8,7 +8,7 @@ weight: 10
 
 This REST API adds a new or updates an existing document property.
 
-The details of resource properties are given below:
+A document property is described by the following format:
 
 |Property Name|Description|
 | :- | :- |

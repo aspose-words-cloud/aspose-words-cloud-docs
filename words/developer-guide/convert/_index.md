@@ -3,12 +3,14 @@ title: "Convert"
 type: docs
 url: /convert/
 aliases: [/converting-a-document/, /converting-splitting-and-appending/]
-keywords: "convert to, word to doc,save word file as pdf,convert word document to html,word doc to html,convert pdf to word,tiff file,Python, C#, Java, Ruby, PHP, NodeJS, Go, Android, Swift"
-description: "By using Aspose.Words Cloud you can convert word document to PDF or whatever the format you want (please see the supported formats).You can perform this operation in various languages. Currently we support Python, C#, Java, Ruby, PHP, NodeJS, Go, Android, Swift. The ability to easily and reliably convert documents from one format to another is one of the four main feature areas of Aspose.Words Cloud. It can convert pdf to word, save word doc as image such as tiff file"
+keywords: "convert to, word to doc,save word file as pdf,convert word document to html,word doc to html,convert PDF to Word,tiff file,Python, C#, Java, Ruby, PHP, NodeJS, Go, Android, Swift"
+description: "Convert word document to PDF or whatever the format you want (please see the supported formats).You can perform this operation. The ability to easily and reliably convert documents from one format to another is one of the four main feature areas of Aspose.Words Cloud. It can convert PDF to Word, save Word doc as image such as tiff file"
 weight: 50
 ---
 
-The ability to easily and reliably convert documents from one format to another is one of the four main feature areas of Aspose.Words Cloud. It has provided the following simplest APIs to convert a Word document to other file formats:
+The ability to easily and reliably convert documents from one format to another is one of the four main feature areas of Aspose.Words Cloud.
+
+The following APIs to convert a Word document to other file formats are provided:
 
 |API|Description|
 | :- | :- |

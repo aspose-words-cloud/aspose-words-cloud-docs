@@ -3,7 +3,7 @@ title: "Split"
 type: docs
 url: /split/
 aliases: [/splitting-a-document/]
-keywords: "Split Word document, word to doc,save word file as pdf,convert word document to html,word doc to html,convert pdf to word,tiff file,Python, C#, Java, Ruby, PHP, NodeJS, Go, Android, Swift"
+keywords: "Split Word document, word to doc,save word file as pdf,convert word document to html,word doc to html,convert PDF to Word,tiff file,Python, C#, Java, Ruby, PHP, NodeJS, Go, Android, Swift"
 description: "Split Word documents. Aspose Words Cloud provide various SDKs to split files."
 weight: 240
 ---

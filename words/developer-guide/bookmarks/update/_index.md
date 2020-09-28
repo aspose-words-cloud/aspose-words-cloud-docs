@@ -9,7 +9,7 @@ weight: 30
 
 This REST API updates a `Bookmark`.
 
-The description of the important parameters of the API is given below:
+The important properties are described below:
 
 |Property Name|Type|Description|
 | :- | :- | :- |

@@ -3,8 +3,8 @@ title: "Get a List of Sections from a Word Document"
 type: docs
 url: /sections/get-all/
 aliases: [/get-a-list-of-sections-from-a-word-document/]
-keywords: "List of Sections,get sections,section break word,Section Break, Word, Microsoft Word, Word Documents,Java, .NET, PHP, Ruby, Python, NodeJS, Swift, Android ,Go"
-description: "This REST API allows you to get a list of sections or section breaks that are contained in the document. Please note that the SDKs of this cloud API are available in Python, C#, Java, Ruby, PHP, Node.js, Android, Swift and Go languages."
+keywords: "List of Sections,get sections,section break word,Section Break, Word, Microsoft Word, Word Documents, Java, .NET, PHP, Ruby, Python, NodeJS, Swift, Android, Go"
+description: "get a list of sections or section breaks that are contained in the document."
 weight: 10
 ---
 

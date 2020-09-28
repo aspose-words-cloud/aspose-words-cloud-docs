@@ -8,7 +8,7 @@ weight: 190
 
 This REST API updates `Row` formatting properties.
 
-The important parameters are described in the following table:
+The important properties are described below:
 
 |Property Name|Type|Description|
 | :- | :- | :- |

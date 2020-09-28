@@ -4,12 +4,12 @@ second_title: "Mail Merge"
 type: docs
 url: /mail-merge/populate-with-data/
 aliases: [/populate-mailmerge-template-with-data/]
-keywords: "Populate, Mail Merge, Word, Microsoft Word, Java, .NET, PHP, Ruby, Python, NodeJS, Swift, Android ,Go"
-description: "In this article you will learn that how to populate mail merge in various languages."
+keywords: "Populate, Mail Merge, Word, Microsoft Word, Java, .NET, PHP, Ruby, Python, NodeJS, Swift, Android, Go"
+description: "Populate Mail Merge template with data."
 weight: 30
 ---
 
-In this article you will learn that how to populate mail merge or mustache template with data in various languages.
+In this article you will learn that how to populate mail merge or mustache template with data.
 
 [This API](https://apireference.aspose.cloud/words/#/MailMerge/ExecuteMailMerge) represents a controller for executing the mail merge.
 

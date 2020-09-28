@@ -20,7 +20,7 @@ The request parameters are the following:
 |IsMatchWholeWord|bool|The flag means that only whole word matched are replaced. Not used if "IsOldValueRegex" is set.|
 |IsOldValueRegex|bool|The flag means that "OldValue" contains regex expression.|
 
-Moreover, resource properties are the following:
+The important properties are described below:
 
 |Property Name|Type|Description|
 | :- | :- | :- |

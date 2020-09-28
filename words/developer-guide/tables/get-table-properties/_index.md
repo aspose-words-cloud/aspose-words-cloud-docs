@@ -8,7 +8,7 @@ weight: 150
 
 This REST API get properties of a `Table`. 
 
-The description of the important table properties is given below:
+The important properties are described below:
 
 |Property Name|Type|Description|
 | :- | :- | :- |

@@ -3,7 +3,7 @@ title: "Document Classification"
 type: docs
 url: /classification/document
 aliases: [/document-classification/]
-keywords: "Document Classification, Taxanomy, IAB-2 taxonomy, Document Taxonomy, Word, Microsoft Word, Java, .NET, PHP, Ruby, Python, NodeJS, Swift, Android ,Go"
+keywords: "Document Classification, Taxanomy, IAB-2 taxonomy, Document Taxonomy, Word, Microsoft Word, Java, .NET, PHP, Ruby, Python, NodeJS, Swift, Android, Go"
 description: ""
 weight: 10
 ---

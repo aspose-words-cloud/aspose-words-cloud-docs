@@ -8,7 +8,7 @@ weight: 210
 
 This REST API updates `Table` properties.
 
-The description of the important table properties is given below:
+The important properties are described below:
 
 |Property Name|Type|Description|
 | :- | :- | :- |

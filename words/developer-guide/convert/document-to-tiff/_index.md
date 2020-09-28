@@ -5,11 +5,11 @@ type: docs
 url: /convert/document-to-tiff/
 aliases: [/convert-document-to-tiff-with-detailed-settings/]
 keywords: "tiff file, microsoft word document,convert to, word to doc, save word file as pdf,convert word document to html,tiff file,Python, C#, Java, Ruby, PHP, NodeJS, Go, Android, Swift"
-description: "API lets you convert MS Word document to the TIFF file with additional settings and save the result to storage. The API SDKs are available in Python, C#, Java, Ruby, PHP, NodeJS, Go, Android, Swift. The resulting image save to the same folder and storage where the original document is. A relative path can be used here for some sub-folder of the document folder."
+description: "Convert Word document to the TIFF file with additional settings."
 weight: 30
 ---
 
-[PUT /words/{name}/saveAs/tiff](https://apireference.aspose.cloud/words/#/Convert/SaveAsTiff) API lets you convert MS Word document to *TIFF file* with additional settings and save the result to storage. The resulting image save to the same folder and storage where the original document is. A relative path can be used here for some sub-folder of the document folder.
+[PUT /words/{name}/saveAs/tiff](https://apireference.aspose.cloud/words/#/Convert/SaveAsTiff) API lets you convert MS Word document to **TIFF** file with additional settings and save the result to the storage. The resulting image save to the same folder and storage where the original document is. A relative path can be used here for some sub-folder of the document folder.
 
 ## REST API
 

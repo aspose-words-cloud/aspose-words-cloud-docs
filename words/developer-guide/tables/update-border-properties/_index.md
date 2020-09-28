@@ -8,7 +8,7 @@ weight: 200
 
 This REST API updates `Border` properties of a table.
 
-The details of resource properties are given below:
+The important properties are described below:
 
 |Property Name|Type|Description|
 | :- | :- | :- |

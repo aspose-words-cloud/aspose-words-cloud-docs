@@ -3,8 +3,8 @@ title: "Delete a Paragraph Tab Stop in a Document"
 type: docs
 url: /paragraphs/tab-stop/delete-a-paragraph-tab-stop-in-a-document/
 aliases: [/delete-a-paragraph-tab-stop-in-a-document/]
-keywords: "List of Sections,get sections,section break word,Section Break, Word, Microsoft Word, Word Documents,Java, .NET, PHP, Ruby, Python, NodeJS, Swift, Android ,Go"
-description: "This REST API allows you to Delete all Paragraph Tab Stops in a Document. Please note that the SDKs of this cloud API are available in Python, C#, Java, Ruby, PHP, Node.js, Android, Swift, and Go languages."
+keywords: "List of Sections,get sections,section break word,Section Break, Word, Microsoft Word, Word Documents, Java, .NET, PHP, Ruby, Python, NodeJS, Swift, Android, Go"
+description: "Delete all Paragraph Tab Stops in a Document."
 weight: 10
 ---
 

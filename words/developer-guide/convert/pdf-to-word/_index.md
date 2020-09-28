@@ -4,8 +4,8 @@ second_title: "Convert Documents"
 type: docs
 url: /convert/pdf-to-word/
 aliases: [/convert-pdf-document-to-word/]
-keywords: "convert pdf to word, dotm file, go sdk, Python, Ruby, Java, C#, Node.js, PHP, Android, Swift and Go"
-description: "Convert PDF to Word documents. Aspose Words Cloud provide various SDKs to convert PDF to Word."
+keywords: "convert PDF to Word, dotm file, go sdk, Python, Ruby, Java, C#, Node.js, PHP, Android, Swift and Go"
+description: "Convert PDF to Word document."
 weight: 20
 ---
 

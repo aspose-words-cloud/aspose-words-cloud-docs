@@ -8,7 +8,7 @@ weight: 180
 
 This REST API updates `Cell` formatting properties.
 
-The description of important cell properties is:
+The important properties are described below:
 
 |Property Name|Type|Description|
 | :- | :- | :- |

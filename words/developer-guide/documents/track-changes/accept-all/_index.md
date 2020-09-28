@@ -5,7 +5,7 @@ type: docs
 url: /documents/track-changes/accept-all/
 aliases: [/accept-all-revisions-in-a-document/]
 keywords: "word revision tracking, track changes, track changes in word"
-description: "This REST API allows you to accept word revision tracking."
+description: "Accept Word document revision tracking."
 weight: 10
 ---
 
