@@ -1,14 +1,15 @@
 ---
 title: "Merge"
+second_title: "Documents Cloud API"
 type: docs
 url: /merge/
 aliases: [/appending-a-document/]
-keywords: "document append, convert word doc to html, save word file as pdf, go sdk, Python, C#, Java, Ruby, PHP, NodeJS, Go, Android, Swift"
-description: "Append Word documents in Python, C#, Java, Ruby, PHP, NodeJS, Go, Android, Swift using Aspose.Words Cloud. Recently we have introduced Go SDK for our Golang customers.Basically, appending documents is a common task and is fully supported by Words Cloud API. The API allows you to append a document or documents, specified in the documentList parameter, to the original resource document. The changes are saved in the original resource document if the destFileName parameter is missing."
+keywords: "document append, merge"
+description: "Merge documents (DOCX, PDF, RTF, etc) easily using Cloud API. Use Python, .NET, Node.js, Golang and other SDKs to merge documents."
 weight: 180
 ---
 
-Appending documents is a common task, that is fully supported by Words Cloud API.
+Merging documents is a common task, that is fully supported by Words Cloud API.
 
 The API allows you to append a document or documents, specified in the **documentList** parameter, to the original resource document. The changes are saved in the original resource document if the **destFileName** parameter is missing.
 
@@ -235,7 +236,7 @@ The following set of **Code Examples** for various SDKs demonstrates how to use 
 {{< gist "aspose-cloud" "7d6af3eba6f989851e6475842125f31d" "AppendaDocument.java" >}}
 {{< /tab >}}
 {{< tab tabNum="3" >}}
-{{< gist "" "163e730223a72524d163ef9c017f1b1a" "AppendaDocument.php" >}}
+{{< gist "aspose-cloud" "163e730223a72524d163ef9c017f1b1a" "AppendaDocument.php" >}}
 {{< /tab >}}
 {{< tab tabNum="4" >}}
 {{< gist "aspose-cloud" "fb014f439299bbee24472cb0efa6d50b" "AppendaDocument.py" >}}
@@ -256,3 +257,8 @@ The following set of **Code Examples** for various SDKs demonstrates how to use 
 {{< gist "aspose-cloud" "068ce2149de5ad69ab516209b7ae82cf" "Aspose_Cloud_Words_AppendaDocument.go" >}}
 {{< /tab >}}
 {{< /tabs >}}
+
+## See also
+
+- Product page description: <a href="https://products.aspose.cloud/words/python/merge" target="_blank">Python</a>, <a href="https://products.aspose.cloud/words/net/merge" target="_blank">C#</a>, <a href="https://products.aspose.cloud/words/java/merge" target="_blank">Java</a>, <a href="https://products.aspose.cloud/words/nodejs/merge" target="_blank">Node.js</a>, <a href="https://products.aspose.cloud/words/php/merge" target="_blank">PHP</a>, <a href="https://products.aspose.cloud/words/go/merge" target="_blank">Go</a>
+- <a href="https://products.aspose.app/words/merger" target="_blank">Free online merger app

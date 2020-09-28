@@ -1,5 +1,6 @@
 ---
-title: "Update List Level in a Document"
+title: "Update List Level"
+second_title: "Lists in a Document"
 type: docs
 url: /lists/update-level/
 aliases: [/update-list-level-in-a-document/]
