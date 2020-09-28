@@ -1,5 +1,6 @@
 ---
-title: "Replace Document Text"
+title: "Replace"
+second_title: "Text in a Word Document"
 type: docs
 url: /text/replace/
 aliases: [/replace-document-text/]

@@ -1,5 +1,5 @@
 ---
-title: "Generate Report from Template and json Data"
+title: "Generate Report from Template and JSON Data"
 type: docs
 url: /report/build/
 aliases: [/build-report-from-template-and-json-data/]

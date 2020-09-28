@@ -1,5 +1,6 @@
 ---
-title: "Search Text in a Word Document"
+title: "Search"
+second_title: "Text in a Word Document"
 type: docs
 url: /text/search/
 aliases: [/search-text-in-a-word-document/]
