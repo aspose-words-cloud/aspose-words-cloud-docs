@@ -3,6 +3,7 @@ title: "Pricing Plan"
 type: docs
 url: /getting-started/pricing-plan/
 aliases: [/pricing-plan/]
+description: "pricing plan"
 weight: 70
 ---
 

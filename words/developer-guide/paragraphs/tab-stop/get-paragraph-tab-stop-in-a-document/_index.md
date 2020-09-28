@@ -3,12 +3,12 @@ title: "Get Paragraph Tab Stop in a Document"
 type: docs
 url: /paragraphs/tab-stop/get-paragraph-tab-stop-in-a-document/
 aliases: [/get-paragraph-tab-stop-in-a-document/]
-keywords: "List of Sections,get sections,section break word,Section Break, Word, Microsoft Word, Word Documents"
-description: "Get Paragraph Tab Stop in a Document."
+keywords: ""
+description: "Get a paragraph's tab stop in a Word document"
 weight: 30
 ---
 
-This REST API retrieves a paragraph tab stop.
+This REST API retrieves a paragraph's tab stop.
 
 ## REST API
 

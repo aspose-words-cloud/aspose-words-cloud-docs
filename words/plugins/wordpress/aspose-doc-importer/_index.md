@@ -3,6 +3,7 @@ title: "Aspose Doc Importer"
 type: docs
 url: /plugins/wordpress/aspose-doc-importer/
 aliases: [/aspose-doc-importer/]
+description: "Learn how to work with the Aspose DOC Importer plugin for WordPress"
 weight: 10
 ---
 

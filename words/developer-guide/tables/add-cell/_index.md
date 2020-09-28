@@ -3,10 +3,11 @@ title: "Add Cell to Table Row"
 type: docs
 url: /tables/add-cell/
 aliases: [/add-cell-to-table-row/]
+description: "Add a cell to a table's row in a Word document"
 weight: 20
 ---
 
-This REST API adds a cell to a table row.
+This REST API adds a `Cell` to a table's row.
 
 The description of important API parameters is given below:
 

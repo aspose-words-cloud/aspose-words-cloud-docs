@@ -4,6 +4,7 @@ second_title: "Fields in a Document"
 type: docs
 url: /fields/delete/
 aliases: [/delete-field-from-document/]
+description: "Delete a field from a Word document"
 weight: 20
 ---
 

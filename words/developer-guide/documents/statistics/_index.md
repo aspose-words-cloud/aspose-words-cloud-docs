@@ -3,6 +3,7 @@ title: "Get Document Statistics"
 type: docs
 url: /documents/statistics/
 aliases: [/get-document-statistics/]
+description: "Get statistical information from a Word document."
 weight: 40
 ---
 

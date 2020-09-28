@@ -3,8 +3,8 @@ title: "Overview"
 type: docs
 url: /getting-started/overview/
 aliases: [/overview/]
-keywords: "create, manipulate, word, docs, dotm, convert PDF to Word, Microsoft Word save as PDF, convert word doc to html, combine multiple Word documents into one, combine Word documents, split word document, create mail merge,mail merge template, Python, RUBY, PHP, C++, C#, Go, NodeJS, Pearl, Java, Android"
-description: "Manipulation of Microsoft Word documents to different formats including DOC, DOT, DOCX, DOCM, DOTX, DOTM, FlatOpc, RTF, WordprocessingML, PDF, HtmlFixed, ODT, OTT, TXT, HTML, EPUB, XPS, PCL, TIFF, PNG, JPEG, BMP, SVG. You can also convert PDF to Word Document, combine Word documents, combine multiple Word documents into one, split word document, create mail merge, execute mail merge template."
+keywords: "create, manipulate, word, docs, dotm, convert PDF to Word, Microsoft Word save as PDF, convert word doc to html, combine multiple Word documents into one, combine Word documents, split Word document, create mail merge, mail merge template"
+description: "Overview"
 weight: 10
 ---
 

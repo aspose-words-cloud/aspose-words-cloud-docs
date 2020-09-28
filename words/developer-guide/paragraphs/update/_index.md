@@ -4,10 +4,11 @@ second_title: "Paragraphs in a Document"
 type: docs
 url: /paragraphs/update/
 aliases: [/update-paragraph-format-properties/]
+description: "Update paragraph formatting properties in a Word document"
 weight: 130
 ---
 
-This REST API updates paragraph page formatting properties.
+This REST API updates `Paragraph` formatting properties.
 
 The important properties are described below:
 

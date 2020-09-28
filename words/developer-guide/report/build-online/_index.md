@@ -3,8 +3,8 @@ title: "Generate Report Online"
 type: docs
 url: /report/build-online/
 aliases: [/build-report-online/]
-keywords: "List of Sections,get sections,section break word,Section Break, Word, Microsoft Word, Word Documents"
-description: "Build Report Online."
+keywords: ""
+description: "Generate a report online"
 weight: 20
 ---
 

@@ -4,6 +4,7 @@ second_title: "Drawing Objects in a Word Document"
 type: docs
 url: /drawing-objects/delete/
 aliases: [/delete-drawing-object-from-document/]
+description: "Delete drawing objects from a Word document"
 weight: 20
 ---
 

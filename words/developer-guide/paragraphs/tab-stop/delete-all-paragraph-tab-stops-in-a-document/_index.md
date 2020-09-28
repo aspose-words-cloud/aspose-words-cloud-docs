@@ -3,12 +3,12 @@ title: "Delete all Paragraph Tab Stops in a Document"
 type: docs
 url: /paragraphs/tab-stop/delete-all-paragraph-tab-stops-in-a-document/
 aliases: [/delete-all-paragraph-tab-stops-in-a-document/]
-keywords: "List of Sections,get sections,section break word,Section Break, Word, Microsoft Word, Word Documents"
-description: "Delete all Paragraph Tab Stops in a Document."
+keywords: ""
+description: "Delete all paragraph's tab stops from a Word document"
 weight: 20
 ---
 
-This REST API deletes all paragraph tab stops.
+This REST API deletes all paragraph's tab stops.
 
 ## REST API
 

@@ -4,6 +4,7 @@ second_title: "Bookmarks in a Word Document"
 type: docs
 url: /bookmarks/get/
 aliases: [/getting-bookmarks-from-a-document/]
+description: "Get bookmarks in a Word document"
 weight: 10
 ---
 

@@ -5,11 +5,11 @@ type: docs
 url: /mail-merge/populate-with-data-online/
 aliases: [/populate-mailmerge-template-with-data-online/]
 keywords: "Populate, mustache template, online, Mail Merge, Word, Microsoft Word"
-description: "Populate a mail merge or mustache template with data online. You can download the SDK of your favorite language and start programming in the smartest way."
+description: "Populate a mail merge or mustache template with data online"
 weight: 40
 ---
 
-In this article, you will learn how to populate a mail merge or mustache template with data online. You can download the SDK of your favorite language and start programming in the smartest way. You can send both template file and mail merge data file in the request body and the API returns populated document in API response. [This API](https://apireference.aspose.cloud/words/#/MailMerge/ExecuteMailMergeOnline) represents a controller for executing a mail merge.
+In this article, you will learn how to populate a **Mail Merge** or mustache template with data online. You can download the SDK of your favorite language and start programming in the smartest way. You can send both template file and mail merge data file in the request body and the API returns populated document in API response. [This API](https://apireference.aspose.cloud/words/#/MailMerge/ExecuteMailMergeOnline) represents a controller for executing a mail merge.
 
 The following is a description of the most important parameters:
 

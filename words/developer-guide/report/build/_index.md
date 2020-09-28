@@ -1,10 +1,10 @@
 ---
-title: "Generate Report from Template and json Data"
+title: "Generate Report from Template and JSON Data"
 type: docs
 url: /report/build/
 aliases: [/build-report-from-template-and-json-data/]
-keywords: "List of Sections,get sections,section break word,Section Break, Word, Microsoft Word, Word Documents"
-description: "Build Report from Template and JSON Data."
+keywords: ""
+description: "Generate a report from a template and a JSON data source"
 weight: 10
 ---
 

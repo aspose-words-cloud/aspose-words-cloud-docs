@@ -4,6 +4,7 @@ second_title: "Bookmarks in a Word Document"
 type: docs
 url: /bookmarks/update/
 aliases: [/updating-the-boorkmark-text-in-a-document/]
+description: "Update bookmarks in a Word document"
 weight: 30
 ---
 

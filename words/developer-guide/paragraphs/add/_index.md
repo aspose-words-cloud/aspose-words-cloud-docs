@@ -4,6 +4,7 @@ second_title: "Paragraphs in a Document"
 type: docs
 url: /paragraphs/add/
 aliases: [/add-paragraph-to-document/]
+description: "Add a paragraphs to a Word document"
 weight: 10
 ---
 

@@ -3,10 +3,11 @@ title: "Get a Table Cell"
 type: docs
 url: /tables/get-cell/
 aliases: [/get-a-table-cell/]
+description: "Get a table's cell in a Word document"
 weight: 110
 ---
 
-This REST API retrieves a `Cell` from a table.
+This REST API retrieves a table's `Cell`.
 
 ## REST API
 

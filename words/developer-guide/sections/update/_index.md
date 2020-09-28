@@ -3,10 +3,11 @@ title: "Update the Page Setup of a Section"
 type: docs
 url: /sections/update/
 aliases: [/update-the-page-setup-of-a-section/]
+description: "Update page setup properties of a section in a Word document"
 weight: 40
 ---
 
-This REST API updates a section page setup properties.
+This REST API updates page setup properties of a section.
 
 The important properties are described below:
 

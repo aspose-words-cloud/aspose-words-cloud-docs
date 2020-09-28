@@ -5,11 +5,11 @@ type: docs
 url: /mail-merge/populate-with-data/
 aliases: [/populate-mailmerge-template-with-data/]
 keywords: "Populate, Mail Merge, Word, Microsoft Word"
-description: "Populate Mail Merge template with data."
+description: "Populate mail merge or mustache template with data"
 weight: 30
 ---
 
-In this article you will learn that how to populate mail merge or mustache template with data.
+In this article you will learn that how to populate **Mail Merge** or mustache template with data.
 
 [This API](https://apireference.aspose.cloud/words/#/MailMerge/ExecuteMailMerge) represents a controller for executing the mail merge.
 

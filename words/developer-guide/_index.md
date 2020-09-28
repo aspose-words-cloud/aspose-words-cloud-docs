@@ -2,6 +2,7 @@
 title: "Developer Guide"
 type: docs
 url: /developer-guide/
+description: "Developer Guide"
 weight: 20
 ---
 

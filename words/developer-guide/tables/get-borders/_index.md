@@ -3,10 +3,11 @@ title: "Get a List of Borders"
 type: docs
 url: /tables/get-borders/
 aliases: [/get-a-list-of-borders/]
+description: "Get a list of table's borders in a Word document"
 weight: 80
 ---
 
-This REST API retrieves a collection of `Border` items.
+This REST API retrieves a collection of tables's `Border` items.
 
 ## REST API
 

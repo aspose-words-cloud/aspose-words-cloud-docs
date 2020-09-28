@@ -3,12 +3,12 @@ title: "Delete Paragraph List Format in a Document"
 type: docs
 url: /paragraphs/lists/delete-paragraph-list-format-in-a-document/
 aliases: [/delete-paragraph-list-format-in-a-document/]
-keywords: "List of Sections,get sections,section break word,Section Break, Word, Microsoft Word, Word Documents"
-description: "Delete Paragraph List Format in a Document."
+keywords: ""
+description: "Delete paragraph's list formatting in a Word document"
 weight: 10
 ---
 
-This REST API deletes paragraph list format in a document.
+This REST API deletes paragraph's list formatting.
 
 ## REST API
 

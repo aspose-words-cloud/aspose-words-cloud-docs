@@ -3,6 +3,7 @@ title: "Protect the unprotected Document"
 type: docs
 url: /documents/protection/add/
 aliases: [/protect-the-unprotected-document/]
+description: "Add protection to a Word document"
 weight: 20
 ---
 

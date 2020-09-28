@@ -4,6 +4,7 @@ second_title: "Headers and Footers in a Document"
 type: docs
 url: /headers-and-footers/add/
 aliases: [/add-header-or-footer-to-a-document/]
+description: "Add headers and footers into a Word document"
 weight: 10
 ---
 

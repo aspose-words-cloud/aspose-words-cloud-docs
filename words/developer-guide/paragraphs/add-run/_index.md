@@ -4,6 +4,7 @@ second_title: "Paragraphs in a Document"
 type: docs
 url: /paragraphs/add-run/
 aliases: [/add-run-to-paragraph/]
+description: "Add a run to a paragraph in a Word document"
 weight: 20
 ---
 

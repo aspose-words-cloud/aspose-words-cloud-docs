@@ -4,6 +4,7 @@ second_title: "Headers and Footers in a Document"
 type: docs
 url: /headers-and-footers/get-all/
 aliases: [/get-all-header-and-footers-in-a-document/]
+description: "Get all headers and footers in a Word document"
 weight: 50
 ---
 

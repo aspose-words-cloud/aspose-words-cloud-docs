@@ -3,12 +3,12 @@ title: "Get a Particular Section from a Word Document"
 type: docs
 url: /sections/get/
 aliases: [/get-a-particular-section-from-a-word-document/]
-keywords: "List of Sections,get sections,section break word,Section Break, Word, Microsoft Word, Word Documents"
-description: "Gets a specific section or a section break."
+keywords: ""
+description: "Get a section from a Word document"
 weight: 20
 ---
 
-This REST API retrieves a section.
+This REST API retrieves a `Section`.
 
 The important properties are described below:
 

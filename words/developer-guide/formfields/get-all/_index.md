@@ -3,6 +3,7 @@ title: "Get Form Fields from Document"
 type: docs
 url: /formfields/get-all/
 aliases: [/get-form-fields-from-document/]
+description: "Get all form fields from a Word document"
 weight: 20
 ---
 

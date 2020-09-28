@@ -3,10 +3,11 @@ title: "Update a Table Row Format"
 type: docs
 url: /tables/update-row-format/
 aliases: [/update-a-table-row-format/]
+description: "Update table's row formatting properties in a Word document"
 weight: 190
 ---
 
-This REST API updates `Row` formatting properties.
+This REST API updates table's row formatting properties.
 
 The important properties are described below:
 

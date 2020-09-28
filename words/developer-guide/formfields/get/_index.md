@@ -3,6 +3,7 @@ title: "Get Representation of a Form Field"
 type: docs
 url: /formfields/get/
 aliases: [/get-representation-of-a-form-field/]
+description: "Get a form field from a paragraph in a Word document"
 weight: 30
 ---
 

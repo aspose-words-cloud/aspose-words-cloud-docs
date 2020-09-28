@@ -4,6 +4,7 @@ second_title: "Fields in a Document"
 type: docs
 url: /fields/update/
 aliases: [/update-fields-in-a-document/]
+description: "Update a field in a Word document"
 weight: 60
 ---
 

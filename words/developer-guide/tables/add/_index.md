@@ -3,6 +3,7 @@ title: "Add Table to a Document"
 type: docs
 url: /tables/add/
 aliases: [/add-table-to-a-document/]
+description: "Add a table to a Word document"
 weight: 30
 ---
 

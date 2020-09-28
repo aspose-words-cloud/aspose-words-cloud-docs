@@ -4,8 +4,8 @@ second_title: "Lists in a Document"
 type: docs
 url: /lists/get/
 aliases: [/get-a-list-from-document/]
-keywords: "List of Sections,get sections,section break word,Section Break, Word, Microsoft Word, Word Documents"
-description: "Get a list."
+keywords: ""
+description: "Get a list in a Word document"
 weight: 10
 ---
 

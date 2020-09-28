@@ -4,6 +4,7 @@ second_title: "Drawing Objects in a Word Document"
 type: docs
 url: /drawing-objects/get-all/
 aliases: [/get-all-drawing-objects-from-a-word-document/]
+description: "Get all drawing objects from a Word document"
 weight: 40
 ---
 

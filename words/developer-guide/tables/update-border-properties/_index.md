@@ -3,10 +3,11 @@ title: "Update Border Properties"
 type: docs
 url: /tables/update-border-properties/
 aliases: [/update-border-properties/]
+description: "Update table's border properties in a Word document"
 weight: 200
 ---
 
-This REST API updates `Border` properties of a table.
+This REST API updates table's border properties.
 
 The important properties are described below:
 

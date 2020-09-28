@@ -4,6 +4,7 @@ second_title: "Fields in a Document"
 type: docs
 url: /fields/update-field-properties/
 aliases: [/update-field-properties/]
+description: "Update field properties in a document"
 weight: 70
 ---
 

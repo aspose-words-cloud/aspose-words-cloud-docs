@@ -4,6 +4,7 @@ second_title: "Comments in a Word Document"
 type: docs
 url: /comments/get-all/
 aliases: [/get-all-comments-from-a-word-document/]
+description: "Get all comments from a Word document"
 weight: 40
 ---
 
@@ -19,7 +20,7 @@ You can also use cURL command-line utility to test this REST API. The following 
 {{< tab tabNum="1" >}}
 
 ```bash
-# cURL example to get all comments from a word document
+# cURL example to get all comments from a Word document
 curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/comments" \
 -X GET \
 -H "Content-Type: application/json" \

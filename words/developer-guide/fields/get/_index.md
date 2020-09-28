@@ -4,6 +4,7 @@ second_title: "Fields in a Document"
 type: docs
 url: /fields/get/
 aliases: [/get-field-from-a-document/]
+description: "Get a field from a Word document"
 weight: 30
 ---
 

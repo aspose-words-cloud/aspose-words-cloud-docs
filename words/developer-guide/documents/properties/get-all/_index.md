@@ -3,6 +3,7 @@ title: "Get All Document Properties"
 type: docs
 url: /documents/properties/get-all/
 aliases: [/get-all-document-properties/]
+description: "Get all document properties from a Word document"
 weight: 40
 ---
 

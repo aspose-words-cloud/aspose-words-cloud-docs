@@ -3,6 +3,7 @@ title: "Fonts"
 type: docs
 url: /fonts/
 aliases: [/working-with-fonts/]
+description: "Learn how to work with fonts in a Word document"
 weight: 100
 ---
 

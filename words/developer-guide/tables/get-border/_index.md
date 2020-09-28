@@ -3,10 +3,11 @@ title: "Get a Border"
 type: docs
 url: /tables/get-border/
 aliases: [/get-a-border/]
+description: "Get a table's border in a Word document"
 weight: 70
 ---
 
-This REST API retrieves a `Border`.
+This REST API retrieves a table's `Border`.
 
 The most important properties are described below:
 

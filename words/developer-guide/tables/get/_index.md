@@ -3,6 +3,7 @@ title: "Get a Table"
 type: docs
 url: /tables/get/
 aliases: [/get-a-table/]
+description: "Get a table in a Word document"
 weight: 100
 ---
 

@@ -4,10 +4,11 @@ second_title: "Paragraphs in a Document"
 type: docs
 url: /paragraphs/update-font-properties/
 aliases: [/update-font-properties/]
+description: "Update paragraph font properties in a Word document"
 weight: 110
 ---
 
-This REST API updates font properties.
+This REST API updates paragraph font properties.
 
 The important properties are described below:
 

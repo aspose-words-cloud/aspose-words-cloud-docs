@@ -3,6 +3,7 @@ title: "Get Footnotes from Document"
 type: docs
 url: /footnotes/get-all/
 aliases: [/get-footnotes-from-document/]
+description: "Get footnotes from a Word document"
 weight: 30
 ---
 

@@ -3,8 +3,8 @@ title: "Get a List of Sections from a Word Document"
 type: docs
 url: /sections/get-all/
 aliases: [/get-a-list-of-sections-from-a-word-document/]
-keywords: "List of Sections,get sections,section break word,Section Break, Word, Microsoft Word, Word Documents"
-description: "Gets a list of sections or section breaks."
+keywords: ""
+description: "Get a list of sections in a Word document"
 weight: 10
 ---
 

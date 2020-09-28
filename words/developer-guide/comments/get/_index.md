@@ -4,6 +4,7 @@ second_title: "Comments in a Word Document"
 type: docs
 url: /comments/get/
 aliases: [/get-comment-from-word-document/]
+description: "Get a comment from a Word document"
 weight: 30
 ---
 

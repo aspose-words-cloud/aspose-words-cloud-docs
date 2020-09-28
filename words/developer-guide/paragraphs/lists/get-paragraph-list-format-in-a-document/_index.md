@@ -3,12 +3,12 @@ title: "Get Paragraph List Format in a Document"
 type: docs
 url: /paragraphs/lists/get-paragraph-list-format-in-a-document/
 aliases: [/get-paragraph-list-format-in-a-document/]
-keywords: "List of Sections,get sections,section break word,Section Break, Word, Microsoft Word, Word Documents"
-description: "Get Paragraph List Format in a Document."
+keywords: ""
+description: "Get paragraph's list formatting in a Word document"
 weight: 20
 ---
 
-This REST API retrieves paragraph list format.
+This REST API retrieves paragraph's list formatting.
 
 ## REST API
 

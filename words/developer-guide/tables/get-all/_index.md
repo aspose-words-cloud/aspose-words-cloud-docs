@@ -3,10 +3,11 @@ title: "Get a List of Tables that are Contained in the Document"
 type: docs
 url: /tables/get-all/
 aliases: [/get-a-list-of-tables-that-are-contained-in-the-document/]
+description: "Get a list of tables in a Word document"
 weight: 90
 ---
 
-This REST API get a list of all tables.
+This REST API gets a list of tables.
 
 ## REST API
 

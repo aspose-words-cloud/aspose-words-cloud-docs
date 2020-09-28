@@ -4,6 +4,7 @@ second_title: "Comments in a Word Document"
 type: docs
 url: /comments/delete/
 aliases: [/delete-comment-from-word-document/]
+description: "Delete a comment from a Word document"
 weight: 20
 ---
 

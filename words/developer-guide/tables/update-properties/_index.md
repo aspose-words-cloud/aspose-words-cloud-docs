@@ -3,6 +3,7 @@ title: "Update Table Properties"
 type: docs
 url: /tables/update-properties/
 aliases: [/update-table-properties/]
+description: "Update table properties in a Word document"
 weight: 210
 ---
 

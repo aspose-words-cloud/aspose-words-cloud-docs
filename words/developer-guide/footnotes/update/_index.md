@@ -3,6 +3,7 @@ title: "Update Footnote Properties"
 type: docs
 url: /footnotes/update/
 aliases: [/update-footnote-properties/]
+description: "Update footnote properties in a Word document"
 weight: 50
 ---
 

@@ -4,6 +4,7 @@ second_title: "Fields in a Document"
 type: docs
 url: /fields/remove/
 aliases: [/remove-fields-from-a-document/]
+description: "Remove all fields from a Word document"
 weight: 50
 ---
 

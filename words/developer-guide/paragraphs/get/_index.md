@@ -4,6 +4,7 @@ second_title: "Paragraphs in a Document"
 type: docs
 url: /paragraphs/get/
 aliases: [/get-a-particular-paragraph-from-a-word-document/]
+description: "Get a paragraph in a Word document"
 weight: 30
 ---
 

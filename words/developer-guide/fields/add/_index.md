@@ -4,6 +4,7 @@ second_title: "Fields in a Document"
 type: docs
 url: /fields/add/
 aliases: [/add-field-to-a-document/]
+description: "Add a field into a Word document"
 weight: 10
 ---
 

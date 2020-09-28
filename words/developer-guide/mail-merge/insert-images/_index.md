@@ -4,6 +4,7 @@ second_title: "Mail Merge"
 type: docs
 url: /mail-merge/insert-images/
 aliases: [/insert-images-during-mail-merge/]
+description: "Insert images into a MERGEFIELD in a Word document"
 weight: 20
 ---
 

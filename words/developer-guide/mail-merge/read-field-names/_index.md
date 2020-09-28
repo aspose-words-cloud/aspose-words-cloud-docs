@@ -5,17 +5,15 @@ type: docs
 url: /mail-merge/read-field-names/
 aliases: [/read-mailmerge-document-field-names/]
 keywords: "Read, mustache template, online, Mail Merge, Word, Microsoft Word"
-description: "Get MailMerge Field Names in a document."
+description: "Get MailMerge field names in a Word document"
 weight: 50
 ---
 
-This example explains how to get MailMerge Field Names in a document.
+This example explains how to get **Mail Merge** field names.
 
 The following is a description of the most important parameters:
 
 - **useNonMergeFields**. Result includes "mustache" field names if UseNonMergeFields is true
-
-**Note**: The Cloud SDKs are available in Python, C#, Java, C++, Ruby, PHP, Node.js, Swift and Go programming languages.
 
 ## REST API
 

@@ -4,8 +4,8 @@ second_title: "Convert Documents"
 type: docs
 url: /convert/specified-format/
 aliases: [/convert-word-document-from-request-content-to-specified-format/]
-keywords: "convert to, word to doc,save word file as pdf,convert word document to html,word doc to html,convert PDF to Word,tiff file, Python, C#, Java, Ruby, PHP, NodeJS, Go, Android, Swift"
-description: "You can easily convert word document to PDF, HTML, XHTML or a specified format from a URL request content. The API request contains a document to convert and the response contains the conversion result, or if the output parameter specified - the API saves the result to the Cloud storage and return OK status code. "
+keywords: "convert to, word to doc, save Word file as PDF, convert Word document to HTML, Word doc to HTML, convert PDF to Word, TIFF file"
+description: "Convert Word document to another format"
 weight: 10
 ---
 

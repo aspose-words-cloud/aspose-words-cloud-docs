@@ -4,6 +4,7 @@ second_title: "Fields in a Document"
 type: docs
 url: /fields/get-all/
 aliases: [/get-all-fields-from-a-document/]
+description: "Get all fields from a Word document"
 weight: 40
 ---
 

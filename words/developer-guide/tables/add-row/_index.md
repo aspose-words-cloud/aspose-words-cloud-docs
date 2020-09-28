@@ -3,10 +3,11 @@ title: "Add a Row To a Table"
 type: docs
 url: /tables/add-row/
 aliases: [/add-a-row-to-a-table/]
+description: "Add a row to a table in a Word document"
 weight: 10
 ---
 
-This REST API adds a row to a `Table`.
+This REST API adds a `Row` to a `Table`.
 
 The description of important API parameters is given below:
 

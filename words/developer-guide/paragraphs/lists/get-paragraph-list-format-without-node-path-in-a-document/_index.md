@@ -3,12 +3,12 @@ title: "Get Paragraph List Format Without Node Path in a Document"
 type: docs
 url: /paragraphs/lists/get-paragraph-list-format-without-node-path-in-a-document/
 aliases: [/get-paragraph-list-format-without-node-path-in-a-document/]
-keywords: "List of Sections,get sections,section break word,Section Break, Word, Microsoft Word, Word Documents"
-description: "Get Paragraph List Format Without Node Path in a Document."
+keywords: ""
+description: "Get paragraph's list formatting without node path in a Word document"
 weight: 30
 ---
 
-This REST API get a paragraph list format without node path.
+This REST API gets paragraph's list formatting without node path.
 
 ## REST API
 

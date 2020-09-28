@@ -5,7 +5,7 @@ type: docs
 url: /documents/track-changes/accept-all/
 aliases: [/accept-all-revisions-in-a-document/]
 keywords: "word revision tracking, track changes, track changes in word"
-description: "Accept Word document revision tracking."
+description: "Accept all revisions in a Word document"
 weight: 10
 ---
 

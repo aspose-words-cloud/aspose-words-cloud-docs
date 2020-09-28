@@ -3,6 +3,7 @@ title: "Supported Platforms"
 type: docs
 url: /getting-started/supported-platforms/
 aliases: [/supported-platforms/]
+description: "Aspose.Words Cloud API can be used with any language: C#, C++, Java, PHP, Ruby, Python, Node.js, Golang and many more."
 weight: 40
 ---
 

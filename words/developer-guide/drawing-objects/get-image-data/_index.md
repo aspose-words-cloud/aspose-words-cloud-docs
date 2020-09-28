@@ -4,6 +4,7 @@ second_title: "Drawing Objects in a Word Document"
 type: docs
 url: /drawing-objects/get-image-data/
 aliases: [/get-image-data-from-a-drawing-object/]
+description: "Get image data from a drawing object in a Word document"
 weight: 50
 ---
 

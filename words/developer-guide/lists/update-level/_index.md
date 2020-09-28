@@ -4,12 +4,12 @@ second_title: "Lists in a Document"
 type: docs
 url: /lists/update-level/
 aliases: [/update-list-level-in-a-document/]
-keywords: "List of Sections,get sections,section break word,Section Break, Word, Microsoft Word, Word Documents"
-description: "Update a list level of documents."
+keywords: ""
+description: "Update a list's level in a Word document"
 weight: 50
 ---
 
-This REST API updates a `List` level.
+This REST API updates a `List`'s level.
 
 ## REST API
 

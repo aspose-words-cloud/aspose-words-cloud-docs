@@ -3,10 +3,11 @@ title: "Delete a Table Cell"
 type: docs
 url: /tables/delete-cell/
 aliases: [/delete-a-table-cell/]
+description: "Delete a table's cell from a Word document"
 weight: 40
 ---
 
-This REST API delete a table cell.
+This REST API delete a table's `Cell`.
 
 ## REST API
 

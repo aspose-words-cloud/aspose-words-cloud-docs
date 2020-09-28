@@ -1,14 +1,14 @@
 ---
-title: "Insert OR Update Paragraph Tab Stop in a Document"
+title: "Insert or Update Paragraph Tab Stop in a Document"
 type: docs
 url: /paragraphs/tab-stop/insert-or-update-paragraph-tab-stop-in-a-document/
 aliases: [/insert-or-update-paragraph-tab-stop-in-a-document/]
-keywords: "List of Sections,get sections,section break word,Section Break, Word, Microsoft Word, Word Documents"
-description: "Insert OR Update Paragraph Tab Stop in a Document."
+keywords: ""
+description: "Insert or update a paragraph's tab stop in a Word document"
 weight: 40
 ---
 
-This REST API inserts or updates a paragraph tab stop.
+This REST API inserts or updates a paragraph's tab stop.
 
 ## REST API
 

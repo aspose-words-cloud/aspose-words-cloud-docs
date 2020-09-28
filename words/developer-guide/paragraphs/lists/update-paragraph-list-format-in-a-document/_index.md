@@ -3,12 +3,12 @@ title: "Update Paragraph List Format in a Document"
 type: docs
 url: /paragraphs/lists/update-paragraph-list-format-in-a-document/
 aliases: [/update-paragraph-list-format-in-a-document/]
-keywords: "List of Sections,get sections,section break word,Section Break, Word, Microsoft Word, Word Documents"
-description: "Updates a paragraph list format in a document."
+keywords: ""
+description: "Update a paragraph's list format in a Word document"
 weight: 40
 ---
 
-This REST API updates a paragraph list format.
+This REST API updates a paragraph's list format.
 
 ## REST API
 

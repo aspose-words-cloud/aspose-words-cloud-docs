@@ -4,8 +4,8 @@ second_title: "Lists in a Document"
 type: docs
 url: /lists/insert/
 aliases: [/insert-list-in-a-document/]
-keywords: "List of Sections,get sections,section break word,Section Break, Word, Microsoft Word, Word Documents"
-description: "Inserts a list in a document."
+keywords: ""
+description: "Insert a list into a Word document"
 weight: 30
 ---
 

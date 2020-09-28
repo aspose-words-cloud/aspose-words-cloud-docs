@@ -3,6 +3,7 @@ title: "Aspose Importer Exporter"
 type: docs
 url: /plugins/wordpress/aspose-importer-exporter/
 aliases: [/aspose-importer-exporter/]
+description: "Learn how to work with the Aspose Importer/Exporter plugin for WordPress"
 weight: 30
 ---
 

@@ -3,6 +3,7 @@ title: "Replace Document Text"
 type: docs
 url: /text/replace/
 aliases: [/replace-document-text/]
+description: "Replace document text in a Word document"
 weight: 10
 ---
 

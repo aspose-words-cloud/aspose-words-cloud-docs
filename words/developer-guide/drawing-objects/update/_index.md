@@ -4,6 +4,7 @@ second_title: "Drawing Objects in a Word Document"
 type: docs
 url: /drawing-objects/update/
 aliases: [/update-a-drawing-object/]
+description: "Update a drawing object in a Word document"
 weight: 70
 ---
 

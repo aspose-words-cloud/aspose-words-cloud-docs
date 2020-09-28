@@ -4,10 +4,11 @@ second_title: "Paragraphs in a Document"
 type: docs
 url: /paragraphs/get-font/
 aliases: [/get-font-of-run/]
+description: "Get a font of a run, contained within a paragraph, in a Word document"
 weight: 70
 ---
 
-This REST API retrieves a `Font` of a `Run`. 
+This REST API retrieves a `Font` of a `Run`, contained within a `Paragraph`.
 
 The important properties are described below:
 

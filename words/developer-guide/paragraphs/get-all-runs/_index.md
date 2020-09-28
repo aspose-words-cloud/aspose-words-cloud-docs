@@ -4,6 +4,7 @@ second_title: "Paragraphs in a Document"
 type: docs
 url: /paragraphs/get-all-runs/
 aliases: [/get-all-runs-in-the-paragraph/]
+description: "Get all runs from a paragraph in a Word document"
 weight: 50
 ---
 

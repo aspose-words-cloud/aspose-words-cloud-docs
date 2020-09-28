@@ -4,6 +4,7 @@ second_title: "Drawing Objects in a Word Document"
 type: docs
 url: /drawing-objects/get-ole-file/
 aliases: [/get-ole-file-from-a-drawing-object/]
+description: "Get an embedded OLE file from a drawing object in a Word document"
 weight: 60
 ---
 

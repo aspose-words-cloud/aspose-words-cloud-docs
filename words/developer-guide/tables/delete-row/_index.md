@@ -3,10 +3,11 @@ title: "Delete a Table Row"
 type: docs
 url: /tables/delete-row/
 aliases: [/delete-a-table-row/]
+description: "Delete a table's row from a Word document"
 weight: 60
 ---
 
-This REST API deletes a table row.
+This REST API deletes a table's `Row`.
 
 ## REST API
 

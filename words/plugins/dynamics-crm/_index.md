@@ -3,6 +3,7 @@ title: "Aspose.Words Cloud for Dynamics CRM"
 type: docs
 url: /plugins/dynamics-crm/
 aliases: [/aspose-words-cloud-for-dynamics-crm/]
+description: "aspose.words cloud for dynamics crm"
 weight: 30
 ---
 

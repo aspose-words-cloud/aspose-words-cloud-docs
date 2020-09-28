@@ -3,10 +3,11 @@ title: "Get a Table Row Format"
 type: docs
 url: /tables/get-row-format/
 aliases: [/get-a-table-row-format/]
+description: "Get table's `Row` formatting properties in a Word document"
 weight: 140
 ---
 
-This REST API gets `Row` format properties from a table.
+This REST API retrieves table's `Row` formatting properties.
 
 The important properties are described below:
 

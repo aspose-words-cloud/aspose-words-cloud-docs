@@ -3,6 +3,7 @@ title: "Quickstart"
 type: docs
 url: /getting-started/quickstart/
 aliases: [/quickstart/]
+description: "quickstart"
 weight: 20
 ---
 

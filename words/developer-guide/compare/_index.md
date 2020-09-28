@@ -4,6 +4,7 @@ second_title: "Documents"
 type: docs
 url: /compare/
 aliases: [/compare-documents/]
+description: "Learn how to compare word documents"
 weight: 40
 ---
 

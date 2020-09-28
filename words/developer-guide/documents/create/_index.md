@@ -3,6 +3,7 @@ title: "Create a New Word Document"
 type: docs
 url: /documents/create/
 aliases: [/create-a-new-word-document/]
+description: "Create a new word document"
 weight: 10
 ---
 

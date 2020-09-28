@@ -3,6 +3,7 @@ title: "Text Classification"
 type: docs
 url: /classification/text
 aliases: [/text-classification/]
+description: "Classify the text documents into one or many categories."
 weight: 20
 ---
 

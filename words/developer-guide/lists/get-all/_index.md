@@ -4,12 +4,12 @@ second_title: "Lists in a Document"
 type: docs
 url: /lists/get-all/
 aliases: [/get-all-lists-from-document/]
-keywords: "List of Sections, get sections, section break word, section break, Word, Microsoft Word, Word Documents"
-description: "Get all lists of documents."
+keywords: ""
+description: "Get all lists in a Word document"
 weight: 20
 ---
 
-This REST API retrieves all `Lists` items from a document.
+This REST API retrieves all `List` items from a document.
 
 ## REST API
 

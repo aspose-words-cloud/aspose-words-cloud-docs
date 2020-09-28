@@ -3,6 +3,7 @@ title: "Save a Webpage in a Word Document"
 type: docs
 url: /documents/save-webpage/
 aliases: [/save-a-webpage-in-a-word-document/]
+description: "Save a web page into a Word document"
 weight: 80
 ---
 

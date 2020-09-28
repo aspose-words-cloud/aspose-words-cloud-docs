@@ -3,6 +3,7 @@ title: "Remove all Macros from Document"
 type: docs
 url: /documents/remove-macros/
 aliases: [/remove-all-macros-from-document/]
+description: "Remove all macros from a Word document"
 weight: 60
 ---
 

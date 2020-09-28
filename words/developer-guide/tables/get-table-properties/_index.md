@@ -3,10 +3,11 @@ title: "Get Table Properties"
 type: docs
 url: /tables/get-table-properties/
 aliases: [/get-table-properties/]
+description: "Get table properties in a Word document"
 weight: 150
 ---
 
-This REST API get properties of a `Table`. 
+This REST API retrieves `Table` properties. 
 
 The important properties are described below:
 

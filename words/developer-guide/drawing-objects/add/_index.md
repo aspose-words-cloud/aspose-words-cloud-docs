@@ -4,6 +4,7 @@ second_title: "Drawing Objects in a Word Document"
 type: docs
 url: /drawing-objects/add/
 aliases: [/add-a-drawing-object-to-word-document/]
+description: "Add drawing objects into a Word document"
 weight: 10
 ---
 

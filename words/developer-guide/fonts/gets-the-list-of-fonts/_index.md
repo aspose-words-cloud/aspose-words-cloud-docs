@@ -3,6 +3,7 @@ title: "Gets the List of Fonts"
 type: docs
 url: /fonts/gets-the-list-of-fonts/
 aliases: [/gets-the-list-of-fonts/]
+description: "Get a list of fonts from a Word document"
 weight: 10
 ---
 

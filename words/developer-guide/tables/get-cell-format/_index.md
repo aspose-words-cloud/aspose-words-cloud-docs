@@ -3,10 +3,11 @@ title: "Get a Table Cell Format"
 type: docs
 url: /tables/get-cell-format/
 aliases: [/get-a-table-cell-format/]
+description: "Get table's cell formatting properties in a Word document"
 weight: 120
 ---
 
-This REST API retrieves `Cell` formatting properties from a table. 
+This REST API retrieves table's `Cell` formatting properties.
 
 The important properties are described below:
 

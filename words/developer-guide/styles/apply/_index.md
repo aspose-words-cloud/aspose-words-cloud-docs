@@ -3,12 +3,12 @@ title: "Apply Style from Document Element"
 type: docs
 url: /styles/apply/
 aliases: [/apply-style-from-document-element/]
-keywords: "List of Sections,get sections,section break word,Section Break, Word, Microsoft Word, Word Documents"
-description: "Apply Style from Document Element."
+keywords: ""
+description: "Apply a style from an element in a Word document"
 weight: 10
 ---
 
-This REST API applies style from a document element.
+This REST API applies a style from a document element.
 
 ## REST API
 

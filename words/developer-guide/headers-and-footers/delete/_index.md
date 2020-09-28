@@ -4,10 +4,11 @@ second_title: "Headers and Footers in a Document"
 type: docs
 url: /headers-and-footers/delete/
 aliases: [/delete-header-or-footer-from-a-document/]
+description: "Delete headers and footers from a Word document"
 weight: 20
 ---
 
-This REST API deletes a Header or a Footer.
+This REST API deletes a Header and a Footer from a document.
 
 ## REST API
 

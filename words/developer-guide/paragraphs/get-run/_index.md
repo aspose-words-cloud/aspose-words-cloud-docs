@@ -4,10 +4,11 @@ second_title: "Paragraphs in a Document"
 type: docs
 url: /paragraphs/get-run/
 aliases: [/get-a-run-in-the-paragraph/]
+description: "Get a run from a paragraphs in a Word document"
 weight: 80
 ---
 
-This REST API retrieves a `Run`, contained in a `Paragraph`.
+This REST API retrieves a `Run` from a `Paragraph`.
 
 The important properties are described below:
 

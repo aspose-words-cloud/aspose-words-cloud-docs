@@ -5,11 +5,11 @@ type: docs
 url: /mail-merge/read-field-names-online/
 aliases: [/read-mailmerge-document-field-names-online/]
 keywords: "Read, mustache template, online, Mail Merge, Word, Microsoft Word"
-description: "Gets MailMerge Field Names in a document online."
+description: "Get Mail Merge field names in a Word document online"
 weight: 60
 ---
 
-This example explains how to get MailMerge Field Names in the document online. [This API](https://apireference.aspose.cloud/words/#/MailMerge/GetDocumentFieldNamesOnline) assumes we send the document in the request body.
+This example explains how to retrieve Mail Merge field names from a document online. [This API](https://apireference.aspose.cloud/words/#/MailMerge/GetDocumentFieldNamesOnline) assumes we send the document in the request body.
 
 The following is a description of the most important parameters:
 

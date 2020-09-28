@@ -3,6 +3,7 @@ title: "How to Run Docker Container"
 type: docs
 url: /getting-started/how-to-run-docker-container/
 aliases: [/how-to-run-docker-container/]
+description: "how to run docker container"
 weight: 100
 ---
 

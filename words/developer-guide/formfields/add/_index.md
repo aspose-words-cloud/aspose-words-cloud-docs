@@ -3,6 +3,7 @@ title: "Add Form Field to Paragraph"
 type: docs
 url: /formfields/add/
 aliases: [/add-form-field-to-paragraph/]
+description: "Add a form field to a paragraph in a Word document"
 weight: 10
 ---
 

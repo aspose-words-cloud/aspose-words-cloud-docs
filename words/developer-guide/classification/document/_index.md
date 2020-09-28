@@ -4,7 +4,7 @@ type: docs
 url: /classification/document
 aliases: [/document-classification/]
 keywords: "Document Classification, Taxanomy, IAB-2 taxonomy, Document Taxonomy, Word, Microsoft Word"
-description: ""
+description: "Learn how to work with document classification"
 weight: 10
 ---
 

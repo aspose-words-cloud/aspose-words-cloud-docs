@@ -4,6 +4,7 @@ second_title: "Paragraphs in a Document"
 type: docs
 url: /paragraphs/get-all-formatting/
 aliases: [/get-all-the-formatting-for-a-paragraph/]
+description: "Get all formatting for a paragraphs in a Word document"
 weight: 60
 ---
 

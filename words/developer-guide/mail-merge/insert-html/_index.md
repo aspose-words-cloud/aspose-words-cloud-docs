@@ -4,6 +4,7 @@ second_title: "Mail Merge"
 type: docs
 url: /mail-merge/insert-html/
 aliases: [/insert-html-during-mail-merge/]
+description: "Insert HTML into a MERGEFIELD in a Word document"
 weight: 10
 ---
 

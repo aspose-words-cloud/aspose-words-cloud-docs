@@ -3,6 +3,7 @@ title: "Aspose.Words Cloud for SalesForce"
 type: docs
 url: /plugins/salesforce/
 aliases: [/aspose-words-cloud-for-salesforce/]
+description: "aspose.words cloud for salesforce"
 weight: 20
 ---
 

@@ -3,6 +3,7 @@ title: "Update Properties of a Form Field"
 type: docs
 url: /formfields/update/
 aliases: [/update-properties-of-a-form-field/]
+description: "Update properties of a form field in a Word document"
 weight: 50
 ---
 

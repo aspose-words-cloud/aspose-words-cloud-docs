@@ -4,10 +4,11 @@ second_title: "Paragraphs in a Document"
 type: docs
 url: /paragraphs/remove-run/
 aliases: [/remove-run-from-document/]
+description: "Remove a run from a paragraph in a Word document"
 weight: 100
 ---
 
-This REST API removes a `Run`.
+This REST API removes a `Run` from a `Paragraph`.
 
 ## REST API
 

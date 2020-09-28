@@ -4,10 +4,11 @@ second_title: "Paragraphs in a Document"
 type: docs
 url: /paragraphs/update-run/
 aliases: [/update-run-properties/]
+description: "Update Run properties in a document"
 weight: 140
 ---
 
-This REST API updates run properties. 
+This REST API updates `Run` properties. 
 
 The important properties are described below:
 

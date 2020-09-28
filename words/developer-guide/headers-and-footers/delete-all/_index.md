@@ -4,6 +4,7 @@ second_title: "Headers and Footers in a Document"
 type: docs
 url: /headers-and-footers/delete-all/
 aliases: [/delete-all-headers-and-footers-from-a-document/]
+description: "Delete all headers and footers from a Word document"
 weight: 30
 ---
 

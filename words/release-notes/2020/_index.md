@@ -3,6 +3,7 @@ title: "Release Notes - 2020"
 type: docs
 url: /release-notes/2020/
 aliases: [/release-notes-2020/]
+description: "release notes - 2020"
 weight: 10
 ---
 

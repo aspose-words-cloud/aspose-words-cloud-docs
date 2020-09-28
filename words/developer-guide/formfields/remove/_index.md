@@ -3,6 +3,7 @@ title: "Remove Form Field from Document"
 type: docs
 url: /formfields/remove/
 aliases: [/remove-form-field-from-document/]
+description: "Remove a form field from a Word document"
 weight: 40
 ---
 

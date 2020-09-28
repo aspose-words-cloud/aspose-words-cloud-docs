@@ -4,6 +4,7 @@ second_title: "Hyperlinks in a Document"
 type: docs
 url: /hyperlinks/get-all/
 aliases: [/get-all-hyperlinks-from-a-document/]
+description: "Get all hyperlinks in a Word document"
 weight: 20
 ---
 

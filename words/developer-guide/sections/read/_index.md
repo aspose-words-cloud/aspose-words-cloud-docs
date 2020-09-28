@@ -4,7 +4,7 @@ type: docs
 url: /sections/read/
 aliases: [/read-the-page-setup-of-a-section/]
 keywords: "page setup word,get sections,section break word,Section Break, Word, Microsoft Word, Word Documents"
-description: "Reads a page setup of a section."
+description: "Read a page setup of a section in a Word document"
 weight: 30
 ---
 

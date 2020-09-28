@@ -3,10 +3,11 @@ title: "Update a Table Cell Format"
 type: docs
 url: /tables/update-cell-format/
 aliases: [/update-a-table-cell-format/]
+description: "Update table's cell formatting properties in a Word document"
 weight: 180
 ---
 
-This REST API updates `Cell` formatting properties.
+This REST API updates table's cell formatting properties.
 
 The important properties are described below:
 

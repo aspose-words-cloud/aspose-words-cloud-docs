@@ -3,6 +3,7 @@ title: "Aspose Cloud AutoMerge"
 type: docs
 url: /plugins/dynamics-crm/aspose-cloud-automerge/
 aliases: [/aspose-cloud-automerge/]
+description: "aspose cloud automerge"
 weight: 10
 ---
 

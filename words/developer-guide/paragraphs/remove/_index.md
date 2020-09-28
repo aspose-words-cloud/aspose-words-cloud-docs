@@ -4,6 +4,7 @@ second_title: "Paragraphs in a Document"
 type: docs
 url: /paragraphs/remove/
 aliases: [/remove-paragraph-from-document/]
+description: "Remove a paragraph from a Word document"
 weight: 90
 ---
 

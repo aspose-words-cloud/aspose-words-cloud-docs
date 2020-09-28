@@ -3,10 +3,11 @@ title: "Get a Table Row"
 type: docs
 url: /tables/get-row/
 aliases: [/get-a-table-row/]
+description: "Get a table's row in a Word document"
 weight: 130
 ---
 
-This REST API retrieves a `Row` from a table.
+This REST API retrieves a table's `Row`.
 
 ## REST API
 

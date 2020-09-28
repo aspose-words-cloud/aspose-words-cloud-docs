@@ -3,6 +3,7 @@ title: "Get Document Information"
 type: docs
 url: /documents/information/
 aliases: [/get-document-information/]
+description: "Get Word document information"
 weight: 30
 ---
 

@@ -3,6 +3,7 @@ title: "Reset Fonts Cache"
 type: docs
 url: /fonts/reset-fonts-cache/
 aliases: [/reset-fonts-cache/]
+description: "Reset fonts cache"
 weight: 20
 ---
 

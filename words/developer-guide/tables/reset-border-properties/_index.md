@@ -3,10 +3,11 @@ title: "Reset Border Properties to Default Values"
 type: docs
 url: /tables/reset-border-properties/
 aliases: [/reset-border-properties-to-default-values/]
+description: "Reset table's border properties to default values in a Word document"
 weight: 160
 ---
 
-This REST API resets properties of a table's `Border` to default values.
+This REST API resets table's border properties to default values.
 
 ## REST API
 

@@ -3,6 +3,7 @@ title: "Get a Particular Document Property"
 type: docs
 url: /documents/properties/get/
 aliases: [/get-a-particular-document-property/]
+description: "Get a particular document property from a Word document"
 weight: 30
 ---
 

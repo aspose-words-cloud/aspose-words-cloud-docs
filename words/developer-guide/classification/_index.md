@@ -3,8 +3,9 @@ title: "Classification"
 type: docs
 url: /classification/
 aliases: [/document-and-text-classification/]
-weight: 20
+description: "Classify the text documents into one or many categories."
 showChildPages: true
+weight: 20
 ---
 
 Document or text classification is to classify the text documents into one or many categories in an automated way. It involves classifying text by applying various techniques like analyzing sentiments, labeling the topics and detecting the intents on your text-based documents at different levels.

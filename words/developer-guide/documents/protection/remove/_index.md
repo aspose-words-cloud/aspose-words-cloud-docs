@@ -3,6 +3,7 @@ title: "Remove the Protection from the Document"
 type: docs
 url: /documents/protection/remove/
 aliases: [/remove-the-protection-from-the-document/]
+description: "Remove a protection from a Word document"
 weight: 30
 ---
 

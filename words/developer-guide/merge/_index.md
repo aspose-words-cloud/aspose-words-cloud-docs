@@ -5,7 +5,7 @@ type: docs
 url: /merge/
 aliases: [/appending-a-document/]
 keywords: "document append, merge"
-description: "Merge documents (DOCX, PDF, RTF, etc) easily using Cloud API."
+description: "Learn how to merge word documents"
 weight: 180
 ---
 

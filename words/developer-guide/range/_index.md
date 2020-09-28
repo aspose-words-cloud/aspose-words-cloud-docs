@@ -3,6 +3,7 @@ title: "Range"
 type: docs
 url: /range/
 aliases: [/working-with-range/]
+description: "Learn how to work with a Range in a Word document"
 weight: 210
 ---
 

@@ -3,6 +3,7 @@ title: "Supported File Formats"
 type: docs
 url: /getting-started/supported-file-formats/
 aliases: [/supported-file-formats/]
+description: "supported file formats"
 weight: 30
 ---
 

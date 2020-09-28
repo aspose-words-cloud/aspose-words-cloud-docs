@@ -3,6 +3,7 @@ title: "Aspose Doc Exporter"
 type: docs
 url: /plugins/wordpress/aspose-doc-exporter/
 aliases: [/aspose-doc-exporter/]
+description: "aspose doc exporter"
 weight: 20
 ---
 

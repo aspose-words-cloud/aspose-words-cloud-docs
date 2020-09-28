@@ -3,6 +3,7 @@ title: "Delete a Document Property"
 type: docs
 url: /documents/properties/delete/
 aliases: [/delete-a-document-property/]
+description: "Delete a document property from a Word document"
 weight: 20
 ---
 
