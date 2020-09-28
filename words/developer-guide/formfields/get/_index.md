@@ -6,7 +6,7 @@ aliases: [/get-representation-of-a-form-field/]
 weight: 30
 ---
 
-This REST API allows you to get one of the form fields contained in the paragraph.
+This REST API retrieves a form field from a paragraph.
 
 ## REST API
 

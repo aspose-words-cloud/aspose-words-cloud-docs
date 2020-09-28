@@ -7,7 +7,9 @@ aliases: [/update-paragraph-format-properties/]
 weight: 130
 ---
 
-This REST API allows you to update paragraph page formatting properties. The API returns updated data in the XML/JSON format. The resource properties are:
+This REST API updates paragraph page formatting properties.
+
+The resource properties are:
 
 |Property Name|Type|Description|
 | :- | :- | :- |

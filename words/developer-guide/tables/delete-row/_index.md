@@ -6,7 +6,7 @@ aliases: [/delete-a-table-row/]
 weight: 60
 ---
 
-This REST API allows you to delete a table row.
+This REST API deletes a table row.
 
 ## REST API
 

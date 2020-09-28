@@ -8,7 +8,7 @@ description: "This REST API allows you to Get Paragraph Tab Stop in a Document. 
 weight: 30
 ---
 
-This REST API allows you to get a paragraph tab stop in a Document. Please note that the SDKs of this cloud API are available in *Python, C#, Java, Ruby, PHP, Node.js, Android, Swift,* and *Go* languages. 
+This REST API retrieves a paragraph tab stop.
 
 ## REST API
 

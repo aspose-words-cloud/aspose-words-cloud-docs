@@ -6,7 +6,9 @@ aliases: [/get-document-statistics/]
 weight: 40
 ---
 
-This REST API allows you to get statistical data on the document. The request parameters are the following:
+This REST API retrieves statistical information from a document.
+
+The request parameters are the following:
 
 |Parameter Name|Type|Query String/HTTPBody|Description|
 | :- | :- | :- | :- |

@@ -9,7 +9,7 @@ description: "This REST API allows you to insert a list in a document. Please no
 weight: 30
 ---
 
-This REST API allows you to insert a list in a document. Please note that the SDKs of this cloud API are available in *Python, C#, Java, Ruby, PHP, Node.js, Android, Swift,* and *Go* languages.
+This REST API inserts a `List`.
 
 ## REST API
 

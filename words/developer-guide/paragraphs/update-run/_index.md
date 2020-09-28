@@ -7,7 +7,9 @@ aliases: [/update-run-properties/]
 weight: 140
 ---
 
-This REST API allows you to update run properties. The API returns updated run data in XML/JSON format. The resource properties are the following:
+This REST API updates run properties. 
+
+The resource properties are the following:
 
 |Property Name|Type|Description|
 | :- | :- | :- |

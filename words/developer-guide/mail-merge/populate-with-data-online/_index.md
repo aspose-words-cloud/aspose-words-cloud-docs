@@ -15,7 +15,7 @@ The following is a description of the most important parameters:
 
 |Parameter Name|Description|
 | :- | :- |
-|withRegions|<p>Merge with regions or not. False by default.</p><p>Flag 'withRegions' can be omitted, in this case, a simple mail merge will be executed. If the flag is present and value is `true` - mail merge with regions will be executed.</p>|
+|withRegions|<p>Merge with regions or not. False by default.</p><p>Flag 'withRegions' can be omitted, in this case, a simple mail merge will be executed. If the flag is present and value is 'true' - mail merge with regions will be executed.</p>|
 |cleanup|If the cleanup parameter is omitted, cleanup options will be None.|
 |useWholeParagraphAsRegion|Specifies a value indicating whether a paragraph with TableStart or TableEnd field should be fully included in the mail merge region or particular range between TableStart and TableEnd fields. The default value is true.|
 

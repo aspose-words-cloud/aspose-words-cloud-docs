@@ -8,7 +8,7 @@ description: "This REST API allows you to Update Style on Document Element. Plea
 weight: 60
 ---
 
-This REST API allows you to Update Style on Document Element. Please note that the SDKs of this cloud API are available in *Python, C#, Java, Ruby, PHP, Node.js, Android, Swift,* and *Go* languages.
+This REST API updates a `Style` of a document element.
 
 ## REST API
 

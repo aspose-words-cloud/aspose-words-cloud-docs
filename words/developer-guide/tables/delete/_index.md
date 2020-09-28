@@ -6,7 +6,7 @@ aliases: [/delete-a-table-from-a-word-document/]
 weight: 50
 ---
 
-This REST API allows you to delete a table from a Word document.
+This REST API deletes a `Table`.
 
 ## REST API
 

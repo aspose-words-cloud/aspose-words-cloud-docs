@@ -6,7 +6,7 @@ aliases: [/remove-all-macros-from-document/]
 weight: 60
 ---
 
-This REST API allows you to remove all macros that are contained in the document.
+This REST API removes all macros.
 
 ## REST API
 

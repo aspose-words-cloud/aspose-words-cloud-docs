@@ -6,7 +6,9 @@ aliases: [/create-a-new-word-document/]
 weight: 10
 ---
 
-This REST API allows you to create a new Word Document. The document is created with a format that is recognized from file extensions. The supported formats are:
+This REST API creates a new `Document` with a format, specified by file extension.
+
+The supported formats are:
 
 |Format|Extension|Description|
 | :- | :- | :- |

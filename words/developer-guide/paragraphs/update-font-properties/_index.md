@@ -7,7 +7,9 @@ aliases: [/update-font-properties/]
 weight: 110
 ---
 
-This REST API allows you to update font properties. The API returns updated font data in XML/JSON format. The resource properties are the following:
+This REST API updates font properties.
+
+The resource properties are the following:
 
 |Property Name|Type|Description|
 | :- | :- | :- |
@@ -76,7 +78,7 @@ You can also use cURL command-line utility to test this REST API. The following 
 # cURL example to update font properties
 curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs/0/runs/0/font" \
 -X PUT \
--d "{ 'AllCaps': 'false', 'Bidi': 'false', 'Bold': 'false', 'BoldBi': 'false', 'Border': { 'LineStyle': 'None', 'LineWidth': '0', 'DistanceFromText': '0', 'Shadow': `false` }, 'ComplexScript': 'false', 'DoubleStrikeThrough': 'false', 'Emboss': 'false', 'Engrave': 'false', 'Hidden': 'false', 'Italic': 'true', 'ItalicBi': 'false', 'Kerning': '0', 'LocaleId': '1033', 'LocaleIdBi': '1025', 'LocaleIdFarEast': '1033', 'Name': 'Calibri', 'NameAscii': 'Calibri', 'NameBi': 'Times New Roman', 'NameFarEast': 'Calibri', 'NameOther': 'Calibri', 'NoProofing': 'false', 'Outline': 'false, 'Position': '0', 'Scaling': '100', 'Shadow': 'false', 'Size': '11', 'SizeBi': '11', 'SmallCaps': 'false', 'Spacing': '0', 'StrikeThrough': 'false', 'StyleIdentifier': 'DefaultParagraphFont', 'StyleName': 'Default Paragraph Font', 'Subscript': 'false', 'Superscript': 'false', 'TextEffect': 'None', 'Underline': 'Dash' }" \
+-d "{ 'AllCaps': 'false', 'Bidi': 'false', 'Bold': 'false', 'BoldBi': 'false', 'Border': { 'LineStyle': 'None', 'LineWidth': '0', 'DistanceFromText': '0', 'Shadow': 'false' }, 'ComplexScript': 'false', 'DoubleStrikeThrough': 'false', 'Emboss': 'false', 'Engrave': 'false', 'Hidden': 'false', 'Italic': 'true', 'ItalicBi': 'false', 'Kerning': '0', 'LocaleId': '1033', 'LocaleIdBi': '1025', 'LocaleIdFarEast': '1033', 'Name': 'Calibri', 'NameAscii': 'Calibri', 'NameBi': 'Times New Roman', 'NameFarEast': 'Calibri', 'NameOther': 'Calibri', 'NoProofing': 'false', 'Outline': 'false, 'Position': '0', 'Scaling': '100', 'Shadow': 'false', 'Size': '11', 'SizeBi': '11', 'SmallCaps': 'false', 'Spacing': '0', 'StrikeThrough': 'false', 'StyleIdentifier': 'DefaultParagraphFont', 'StyleName': 'Default Paragraph Font', 'Subscript': 'false', 'Superscript': 'false', 'TextEffect': 'None', 'Underline': 'Dash' }" \
 -H "Content-Type: application/json" \
 -H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>"

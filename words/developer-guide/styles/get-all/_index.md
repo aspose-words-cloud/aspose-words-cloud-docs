@@ -8,7 +8,7 @@ description: "This REST API allows you to Get Styles from Document. Please note 
 weight: 40
 ---
 
-This REST API allows you to Get Styles from Document. Please note that the SDKs of this cloud API are available in *Python, C#, Java, Ruby, PHP, Node.js, Android, Swift,* and *Go* languages.
+This REST API retrieves all `Style` items from a document.
 
 ## REST API
 

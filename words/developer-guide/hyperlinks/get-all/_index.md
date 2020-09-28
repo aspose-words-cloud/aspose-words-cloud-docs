@@ -7,7 +7,7 @@ aliases: [/get-all-hyperlinks-from-a-document/]
 weight: 20
 ---
 
-This REST API allows you to get all hyperlink from a document.
+This REST API retrieves all `Hyperlink` items from a document.
 
 ## REST API
 

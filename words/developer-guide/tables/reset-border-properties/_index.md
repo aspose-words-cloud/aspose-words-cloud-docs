@@ -6,7 +6,7 @@ aliases: [/reset-border-properties-to-default-values/]
 weight: 160
 ---
 
-The REST API allows you to reset border properties to default values.
+This REST API resets properties of a table's `Border` to default values.
 
 ## REST API
 

@@ -7,7 +7,7 @@ aliases: [/get-all-comments-from-a-word-document/]
 weight: 40
 ---
 
-The REST API allows you to get all comments from a Word Document.
+This REST API retrieves a collection of `Comment` items from a document.
 
 ## REST API
 

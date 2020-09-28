@@ -6,7 +6,9 @@ aliases: [/get-a-particular-document-property/]
 weight: 30
 ---
 
-This REST API allows you to read a particular document property info by the property name. The details of resource properties are given below:
+This REST API reads a document property info, specified by property name.
+
+The details of resource properties are given below:
 
 |Property Name|Description|
 | :- | :- |

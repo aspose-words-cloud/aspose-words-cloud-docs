@@ -6,7 +6,9 @@ aliases: [/update-the-page-setup-of-a-section/]
 weight: 40
 ---
 
-This REST API allows you to update the section page setup properties. The API returns updated data in XML/JSON format. The resource properties are the following:
+This REST API updates a section page setup properties.
+
+The resource properties are the following:
 
 |Property Name|Type|Description|
 | :- | :- | :- |

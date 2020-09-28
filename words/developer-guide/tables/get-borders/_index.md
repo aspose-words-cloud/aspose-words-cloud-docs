@@ -6,7 +6,7 @@ aliases: [/get-a-list-of-borders/]
 weight: 80
 ---
 
-The REST API allows you to get a list of borders.
+This REST API retrieves a collection of `Border` items.
 
 ## REST API
 

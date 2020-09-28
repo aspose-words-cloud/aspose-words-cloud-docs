@@ -7,7 +7,7 @@ aliases: [/delete-drawing-object-from-document/]
 weight: 20
 ---
 
-This REST API allows you to delete a drawing object from the document.
+This REST API deletes a `DrawingObject`.
 
 ## REST API
 

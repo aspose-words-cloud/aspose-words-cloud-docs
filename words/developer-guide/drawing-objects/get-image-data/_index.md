@@ -7,7 +7,7 @@ aliases: [/get-image-data-from-a-drawing-object/]
 weight: 50
 ---
 
-This REST API allows you to get image data from a drawing object.
+This REST API retrieves image data from a `DrawingObject`.
 
 ## REST API
 

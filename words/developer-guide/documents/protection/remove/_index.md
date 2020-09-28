@@ -6,11 +6,9 @@ aliases: [/remove-the-protection-from-the-document/]
 weight: 30
 ---
 
-This REST API allows you to remove the protection from the document (unprotects the document).
+This REST API removes a protection.
 
-Password is required.
-
-The resource properties are given below:
+The important properties are described below:
 
 |Property Name|Type|Description|
 | :- | :- | :- |

@@ -6,7 +6,9 @@ aliases: [/render-complex-parts-of-a-word-document-into-the-image/]
 weight: 70
 ---
 
-This REST API allows you to render complex portions of a document to any supported format. The following elements can be rendered:
+This REST API renders complex parts of a document to a specified image format. 
+
+The following elements can be rendered:
 
 - page
 - paragraph

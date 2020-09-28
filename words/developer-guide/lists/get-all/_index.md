@@ -9,7 +9,7 @@ description: "This REST API allows you to get all lists of documents. Please not
 weight: 20
 ---
 
-This REST API allows you to get all lists of documents. Please note that the SDKs of this cloud API are available in *Python, C#, Java, Ruby, PHP, Node.js, Android, Swift,* and *Go* languages.
+This REST API retrieves all `Lists` items from a document.
 
 ## REST API
 

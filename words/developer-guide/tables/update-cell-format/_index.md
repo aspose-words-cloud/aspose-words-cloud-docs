@@ -6,7 +6,9 @@ aliases: [/update-a-table-cell-format/]
 weight: 180
 ---
 
-This REST API allows you to update a table cell format properties. The description of important cell properties is:
+This REST API updates `Cell` formatting properties.
+
+The description of important cell properties is:
 
 |Property Name|Type|Description|
 | :- | :- | :- |
@@ -36,7 +38,7 @@ You can also use cURL command-line utility to test this REST API. The following 
 # cURL example to update table cell's format properties
 curl -v "https://api.aspose.cloud/v4.0/words/TablesGet.docx/tables/1/rows/0/cells/0/cellformat" \
 -X PUT \
--d "{ 'BottomPadding': '1', 'FitText': 'true', 'HorizontalMerge': 'First', 'LeftPadding': '2', 'Orientation': 'VerticalFarEast', 'RightPadding': '3', 'TopPadding': '4.5', 'VerticalAlignment': 'Center', 'VerticalMerge': 'Previous', 'Width': '11', 'WrapText': `false` }" \
+-d "{ 'BottomPadding': '1', 'FitText': 'true', 'HorizontalMerge': 'First', 'LeftPadding': '2', 'Orientation': 'VerticalFarEast', 'RightPadding': '3', 'TopPadding': '4.5', 'VerticalAlignment': 'Center', 'VerticalMerge': 'Previous', 'Width': '11', 'WrapText': 'false' }" \
 -H "Content-Type: application/json" \
 -H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>"

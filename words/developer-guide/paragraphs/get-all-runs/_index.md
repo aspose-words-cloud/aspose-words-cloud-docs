@@ -7,7 +7,7 @@ aliases: [/get-all-runs-in-the-paragraph/]
 weight: 50
 ---
 
-This REST API allows you to get a list of all runs that are contained in the specific paragraph.
+This REST API retrieves a collection of `Run` items in a `Paragraph`.
 
 ## REST API
 

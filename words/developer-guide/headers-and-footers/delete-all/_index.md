@@ -7,7 +7,7 @@ aliases: [/delete-all-headers-and-footers-from-a-document/]
 weight: 30
 ---
 
-This REST API allows you to delete all Headers and Footers from a document.
+This REST API deletes all Headers and Footers.
 
 ## REST API
 

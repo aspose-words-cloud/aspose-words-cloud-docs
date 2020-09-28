@@ -7,7 +7,9 @@ aliases: [/get-all-the-formatting-for-a-paragraph/]
 weight: 60
 ---
 
-This REST API allows you to get all the formatting of a paragraph. The resource properties are:
+This REST API retrieves all formatting for a `Paragraph`.
+
+The resource properties are:
 
 |Property Name|Type|Description|
 | :- | :- | :- |

@@ -6,7 +6,7 @@ aliases: [/get-footnote-from-a-document/]
 weight: 20
 ---
 
-This REST API allows you to get footnote from a document.
+This REST API retrieves a `Footnote`.
 
 ## REST API
 

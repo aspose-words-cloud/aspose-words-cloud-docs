@@ -7,7 +7,7 @@ aliases: [/delete-field-from-document/]
 weight: 20
 ---
 
-This REST API allows you to delete a field from a document, section or paragraph.
+This REST API deletes a `Field`.
 
 ## REST API
 

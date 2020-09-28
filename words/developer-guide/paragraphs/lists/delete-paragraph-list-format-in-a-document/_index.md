@@ -8,7 +8,7 @@ description: "This REST API allows you to Delete Paragraph List Format in a Docu
 weight: 10
 ---
 
-This REST API allows you to Delete Paragraph List Format in a Document. Please note that the SDKs of this cloud API are available in *Python, C#, Java, Ruby, PHP, Node.js, Android, Swift,* and *Go* languages. 
+This REST API deletes paragraph list format in a document.
 
 ## REST API
 

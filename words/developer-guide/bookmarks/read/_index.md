@@ -7,7 +7,7 @@ aliases: [/reading-a-bookmark-by-name/]
 weight: 20
 ---
 
-This REST API allows you to read a specific bookmark by name.
+This REST API reads a `Bookmark`, specified by name.
 
 ## REST API
 

@@ -6,7 +6,9 @@ aliases: [/update-a-table-row-format/]
 weight: 190
 ---
 
-This REST API allows you to update a table row format properties. The description of important row properties is:
+This REST API updates `Row` formatting properties.
+
+The important parameters are described in the following table:
 
 |Property Name|Type|Description|
 | :- | :- | :- |
@@ -28,7 +30,7 @@ You can also use cURL command-line utility to test this REST API. The following 
 # cURL example to update a table row's format properties
 curl -v "https://api.aspose.cloud/v4.0/words/TablesGet.docx/tables/1/rows/0/rowformat" \
 -X PUT \
--d "{ 'Height': '10', 'HeightRule': 'Exactly', 'AllowBreakAcrossPages': 'false', 'HeadingFormat': `true` }" \
+-d "{ 'Height': '10', 'HeightRule': 'Exactly', 'AllowBreakAcrossPages': 'false', 'HeadingFormat': 'true' }" \
 -H "Content-Type: application/json" \
 -H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>"

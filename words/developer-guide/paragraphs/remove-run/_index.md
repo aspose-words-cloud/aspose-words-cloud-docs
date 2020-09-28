@@ -7,7 +7,7 @@ aliases: [/remove-run-from-document/]
 weight: 100
 ---
 
-This REST API allows you to remove run from document.
+This REST API removes a `Run`.
 
 ## REST API
 

@@ -47,7 +47,7 @@ The list of supported formats is provided below:
 |wml|Wireless Markup Language File|
 |xps|XML Paper Specification File|
 
-The most important parameters of this API are listed in the following table:
+The important parameters are described in the following table:
 
 |Parameter Name|Type|Query String|Description|
 | :- | :- | :- | :- |

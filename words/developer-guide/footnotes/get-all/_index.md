@@ -6,7 +6,7 @@ aliases: [/get-footnotes-from-document/]
 weight: 30
 ---
 
-This REST API allows you to get a list of footnotes that are contained in the document.
+This REST API retrieves a collection of `Footnote` items.
 
 ## REST API
 

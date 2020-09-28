@@ -7,7 +7,7 @@ aliases: [/get-all-header-and-footers-in-a-document/]
 weight: 50
 ---
 
-This REST API allows you to get all Headers and Footers that are contained in a document.
+This REST API retrieves all Headers and Footers.
 
 ## REST API
 

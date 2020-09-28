@@ -6,7 +6,7 @@ aliases: [/get-a-list-of-tables-that-are-contained-in-the-document/]
 weight: 90
 ---
 
-This REST API allows you to get a list of all tables that are contained in the document.
+This REST API get a list of all tables.
 
 ## REST API
 

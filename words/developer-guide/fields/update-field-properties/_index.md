@@ -7,7 +7,7 @@ aliases: [/update-field-properties/]
 weight: 70
 ---
 
-This REST API allows you to update field properties. The API returns updated field data in XML/JSON format.
+This REST API updates `Field` properties.
 
 ## REST API
 

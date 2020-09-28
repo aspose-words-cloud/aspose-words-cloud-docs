@@ -7,7 +7,7 @@ aliases: [/delete-comment-from-word-document/]
 weight: 20
 ---
 
-The REST API allows you to delete a comment from a Word Document.
+This REST API deletes a `Comment`.
 
 ## REST API
 

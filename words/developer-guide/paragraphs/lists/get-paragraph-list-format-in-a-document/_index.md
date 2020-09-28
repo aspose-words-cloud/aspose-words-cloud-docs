@@ -8,7 +8,7 @@ description: "This REST API allows you to Get Paragraph List Format in a Documen
 weight: 20
 ---
 
-This REST API allows you to Get Paragraph List Format in a Document. Please note that the SDKs of this cloud API are available in *Python, C#, Java, Ruby, PHP, Node.js, Android, Swift,* and *Go* languages. 
+This REST API retrieves paragraph list format.
 
 ## REST API
 

@@ -9,7 +9,7 @@ description: "This REST API allows you to update a list of documents. Please not
 weight: 40
 ---
 
-This REST API allows you to update a list of documents. Please note that the SDKs of this cloud API are available in *Python, C#, Java, Ruby, PHP, Node.js, Android, Swift,* and *Go* languages.
+This REST API updates a `List`.
 
 ## REST API
 

@@ -8,7 +8,7 @@ description: "This REST API allows you to Get Paragraph List Format Without Node
 weight: 30
 ---
 
-This REST API allows you to Get Paragraph List Format Without Node Path in a Document. Please note that the SDKs of this cloud API are available in *Python, C#, Java, Ruby, PHP, Node.js, Android, Swift,* and *Go* languages. 
+This REST API get a paragraph list format without node path.
 
 ## REST API
 

@@ -6,7 +6,9 @@ aliases: [/get-a-border/]
 weight: 70
 ---
 
-The REST API allows you to get a border. The API returns a JSON/XML representation of the border. The details of resource properties are given below:
+This REST API retrieves a `Border`.
+
+The most important properties are described below:
 
 |Property Name|Type|Description|
 | :- | :- | :- |

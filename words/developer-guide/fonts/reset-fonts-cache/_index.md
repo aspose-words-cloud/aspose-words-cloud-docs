@@ -6,7 +6,7 @@ aliases: [/reset-fonts-cache/]
 weight: 20
 ---
 
-This REST API allows you to clear/reset the fonts cache.
+This REST API clears (resets) a fonts cache.
 
 ## REST API
 

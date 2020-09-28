@@ -6,7 +6,9 @@ aliases: [/add-table-to-a-document/]
 weight: 30
 ---
 
-This REST API allows you to add a table to a document, and returns added table's data in XML/JSON format. The important API parameters are:
+This REST API adds a `Table` to a document.
+
+The important API parameters are:
 
 |Parameter Name|Type|Description|
 | :- | :- | :- |

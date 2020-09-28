@@ -6,7 +6,7 @@ aliases: [/get-form-fields-from-document/]
 weight: 20
 ---
 
-This REST API allows you to get form fields from a document or specific section/paragraph.
+This REST API retrieves form fields from a document, a section or a paragraph.
 
 ## REST API
 

@@ -6,7 +6,9 @@ aliases: [/update-border-properties/]
 weight: 200
 ---
 
-The REST API allows you to update the properties of the table border. It returns updated border data in XML/JSON format. The details of resource properties are given below:
+This REST API updates `Border` properties of a table.
+
+The details of resource properties are given below:
 
 |Property Name|Type|Description|
 | :- | :- | :- |
@@ -30,7 +32,7 @@ You can also use cURL command-line utility to test this REST API. The following 
 # cURL example to update border properties
 curl -v "https://api.aspose.cloud/v4.0/words/TablesGet.docx/tables/1/rows/0/cells/0/borders/left" \
 -X PUT \
--d "{ 'Color': { 'Web': 'Lime' }, 'DistanceFromText': '9.66', 'LineStyle': 'DotDash', 'LineWidth': '3', 'Shadow': `true` }" \
+-d "{ 'Color': { 'Web': 'Lime' }, 'DistanceFromText': '9.66', 'LineStyle': 'DotDash', 'LineWidth': '3', 'Shadow': 'true' }" \
 -H "Content-Type: application/json" \
 -H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>"

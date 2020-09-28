@@ -6,7 +6,7 @@ aliases: [/delete-the-watermark-from-a-word-document/]
 weight: 10
 ---
 
-This REST API allows you to delete the last watermark (if it exists) from the document.
+This REST API deletes a `Watermark`.
 
 ## REST API
 

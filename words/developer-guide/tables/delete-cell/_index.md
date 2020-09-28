@@ -6,7 +6,7 @@ aliases: [/delete-a-table-cell/]
 weight: 40
 ---
 
-This REST API allows you to delete a table cell.
+This REST API delete a table cell.
 
 ## REST API
 

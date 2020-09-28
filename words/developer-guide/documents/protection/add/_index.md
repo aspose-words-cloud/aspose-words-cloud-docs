@@ -6,11 +6,11 @@ aliases: [/protect-the-unprotected-document/]
 weight: 20
 ---
 
-This REST API allows you to protect the unprotected document.
+This REST API adds a protection to a document.
 
-Password is always required. If you want to change the type of protection, then ProtectionType is required. If you want to change the password, then NewPassword is required. If you want to change both of the type of protection and the password, then both ProtectionType and NewPassword are required.
+A password is always required. If you want to change the type of protection, then ProtectionType is required. If you want to change the password, then NewPassword is required. If you want to change both of the type of protection and the password, then both ProtectionType and NewPassword are required.
 
-The resource properties are given below:
+The important properties are described below:
 
 |Property Name|Type|Description|
 | :- | :- | :- |

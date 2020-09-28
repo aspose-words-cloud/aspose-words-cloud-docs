@@ -8,7 +8,7 @@ description: "This REST API allows you to Insert OR Update Paragraph Tab Stop in
 weight: 40
 ---
 
-This REST API allows you to Insert or update the paragraph tab stop in a document. Please note that the SDKs of this cloud API are available in *Python, C#, Java, Ruby, PHP, Node.js, Android, Swift,* and *Go* languages. 
+This REST API inserts or updates a paragraph tab stop.
 
 ## REST API
 

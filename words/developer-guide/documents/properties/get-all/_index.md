@@ -6,7 +6,7 @@ aliases: [/get-all-document-properties/]
 weight: 40
 ---
 
-This REST API allows you to get all properties of a document. The API returns a JSON/XML representation of the document properties (built-in and custom).
+This REST API retrieves all built-in and custom properties of a document.
 
 ## REST API
 

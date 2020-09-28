@@ -7,7 +7,9 @@ aliases: [/add-paragraph-to-document/]
 weight: 10
 ---
 
-This REST API allows you to add a paragraph to a document. The API returns added paragraph data in XML/JSON format. The request parameters are the following:
+This REST API adds a `Paragraph`.
+
+The request parameters are the following:
 
 |Parameter Name|Type|Query String/HTTPBody|Description|
 | :- | :- | :- | :- |

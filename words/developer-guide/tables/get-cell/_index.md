@@ -6,7 +6,7 @@ aliases: [/get-a-table-cell/]
 weight: 110
 ---
 
-This REST API allows you to get a table cell. The API returns a JSON/XML representation of one of the cells contained in the table.
+This REST API retrieves a `Cell` from a table.
 
 ## REST API
 

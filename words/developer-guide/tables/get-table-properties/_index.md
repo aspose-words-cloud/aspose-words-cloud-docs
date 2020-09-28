@@ -6,7 +6,9 @@ aliases: [/get-table-properties/]
 weight: 150
 ---
 
-This REST API allows you to get properties of a table. The description of the important table properties is given below:
+This REST API get properties of a `Table`. 
+
+The description of the important table properties is given below:
 
 |Property Name|Type|Description|
 | :- | :- | :- |

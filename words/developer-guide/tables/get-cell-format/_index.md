@@ -6,7 +6,9 @@ aliases: [/get-a-table-cell-format/]
 weight: 120
 ---
 
-This REST API allows you to access the formatting properties of a table cell. The description of important cell properties is:
+This REST API retrieves `Cell` formatting properties from a table. 
+
+The description of important cell properties is:
 
 |Property Name|Type|Description|
 | :- | :- | :- |

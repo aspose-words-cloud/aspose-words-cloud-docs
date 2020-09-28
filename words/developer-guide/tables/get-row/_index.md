@@ -6,7 +6,7 @@ aliases: [/get-a-table-row/]
 weight: 130
 ---
 
-This REST API allows you to get a table row. The API returns a JSON/XML representation of one of the table rows.
+This REST API retrieves a `Row` from a table.
 
 ## REST API
 

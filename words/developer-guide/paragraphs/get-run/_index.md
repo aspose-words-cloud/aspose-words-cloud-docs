@@ -7,7 +7,9 @@ aliases: [/get-a-run-in-the-paragraph/]
 weight: 80
 ---
 
-This REST API allows you to get one of the runs contained in the paragraph. The resource properties are the following:
+This REST API retrieves a `Run`, contained in a `Paragraph`.
+
+The resource properties are the following:
 
 |Property Name|Type|Description|
 | :- | :- | :- |

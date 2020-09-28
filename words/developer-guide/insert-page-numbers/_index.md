@@ -8,7 +8,7 @@ description: "This REST API allows you to insert page numbers in word document
 weight: 190
 ---
 
-This REST API allows you to insert *page numbers in word* documents. This article reveals that how to add page numbers in word documents with formatted and arranged manners using most frequently used options.
+This REST API inserts page numbers to a document.
 
 ## REST API
 

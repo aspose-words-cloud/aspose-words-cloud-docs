@@ -8,7 +8,9 @@ description: "This REST API allows you to get a specific section or section brea
 weight: 20
 ---
 
-This REST API allows you to get one of the sections contained in the document. The resource properties are the following:
+This REST API retrieves a section.
+
+The resource properties are the following:
 
 |Property Name|Type|Description|
 | :- | :- | :- |

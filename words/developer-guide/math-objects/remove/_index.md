@@ -6,7 +6,7 @@ aliases: [/remove-officemath-object-from-document/]
 weight: 30
 ---
 
-This REST API allows you to remove OfficeMath Object from document.
+This REST API removes an `OfficeMath` object.
 
 ## REST API
 

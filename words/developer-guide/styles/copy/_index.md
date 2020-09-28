@@ -8,7 +8,7 @@ description: "This REST API allows you to Copy Style from Document Element. Plea
 weight: 20
 ---
 
-This REST API allows you to Copy Style from Document Element. Please note that the SDKs of this cloud API are available in *Python, C#, Java, Ruby, PHP, Node.js, Android, Swift,* and *Go* languages.
+This REST API copies a `Style` from a document element.
 
 ## REST API
 

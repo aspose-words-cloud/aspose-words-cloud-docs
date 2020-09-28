@@ -7,7 +7,7 @@ aliases: [/get-all-paragraphs-from-a-word-document/]
 weight: 40
 ---
 
-This REST API allows you to get all paragraphs that are contained in a document or in a section.
+This REST API retrieves a collection `Paragraph` items from a document.
 
 ## REST API
 

@@ -6,7 +6,9 @@ aliases: [/update-table-properties/]
 weight: 210
 ---
 
-This REST API allows you to update table properties and returns updated data in XML/JSON format. The description of the important table properties is given below:
+This REST API updates `Table` properties.
+
+The description of the important table properties is given below:
 
 |Property Name|Type|Description|
 | :- | :- | :- |

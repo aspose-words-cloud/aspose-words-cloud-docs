@@ -7,7 +7,11 @@ aliases: [/add-a-drawing-object-to-word-document/]
 weight: 10
 ---
 
-This REST API allows you to add a drawing object to the Word document. The request is an HTTP request with multipart content (see [RFC 2046](http://tools.ietf.org/html/rfc2046#page-17) or [RFC 1341](http://www.w3.org/Protocols/rfc1341/7_2_Multipart.html)). The first part of the multipart content contains the drawing object data and the second contains a binary image. Moreover, the detail of resource properties are given below:
+This REST API adds a `DrawingObject`.
+
+The request is an HTTP request with multipart content (see [RFC 2046](http://tools.ietf.org/html/rfc2046#page-17) or [RFC 1341](http://www.w3.org/Protocols/rfc1341/7_2_Multipart.html)). The first part of the multipart content contains the drawing object data and the second contains a binary image.
+
+The important parameters are described in the following table:
 
 |Parameter Name|Type|Description|
 | :- | :- | :- |
@@ -23,7 +27,6 @@ This REST API allows you to add a drawing object to the Word document. The reque
 
 The following URIs are used to address REST resources:
 
-{{% alert color="primary" %}}
 ```HTML
 ~/{file-name}/drawingObjects/{index}
 ~/{file-name}/{nodePath}/drawingObjects/{index}
@@ -36,7 +39,6 @@ The following URIs are used to address REST resources:
   - *paragraphs/{paragraphIndex}* - references a paragraph.
   - *sections/{sectionIndex}/paragraphs/{paragraphIndex}* - references a paragraph within a section.
 - *{index}* is an index of a drawing object.
-{{% /alert %}}
 
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/DrawingObjects/InsertDrawingObject) lets you call this REST API directly from a browser. 
 

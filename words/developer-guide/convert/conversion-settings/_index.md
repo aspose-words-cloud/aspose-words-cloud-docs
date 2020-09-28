@@ -52,7 +52,7 @@ The following table lists the file formats, that Words Cloud API supports for da
 |xamlflow|XamlFlowSaveOptions|
 |xps|XpsSaveOptions|
 
-The most important parameters of this API are listed in the following table:
+The important parameters are described in the following table:
 
 |Parameter Name|Description|Default Value|
 | :- | :- | :- |
@@ -168,9 +168,9 @@ The **BmpSaveOptions** XML definition is presented below:
    <FileName>{string}</FileName>
    <ColorMode>{Normal | Grayscale }</ColorMode><!-- the default is 'Normal' -->
    <!-- specific part -->
-   <UseAntiAliasing>{true/false}</UseAntiAliasing><!-- the default is `false` -->
-   <UseHighQualityRendering>{true/false}</UseHighQualityRendering><!-- the default is `false` -->
-   <UseGdiEmfRenderer>{true/false}</UseGdiEmfRenderer><!-- the default is `true` -->
+   <UseAntiAliasing>{true/false}</UseAntiAliasing><!-- the default is 'false' -->
+   <UseHighQualityRendering>{true/false}</UseHighQualityRendering><!-- the default is 'false' -->
+   <UseGdiEmfRenderer>{true/false}</UseGdiEmfRenderer><!-- the default is 'true' -->
    <ImageBrightness>{float_number}</ImageBrightness><!-- the default is 0.5 -->
    <ImageColorMode>{BlackAndWhite/Grayscale/None}</ImageColorMode><!-- the default is 'None' -->
    <ImageContrast>{float_number}</ImageContrast><!-- the default is 0.5 -->
@@ -192,10 +192,10 @@ The **BmpSaveOptions** XML definition is presented below:
    <MetafileRenderingOptions><!-- always present -->
       <EmfPlusDualRenderingMode>{EmfPlusWithFallback/EmfPlus/Emf}<EmfPlusDualRenderingMode><!-- the default is 'EmfPlusWithFallback' -->
       <RenderingMode>{VectorWithFallback/Vector/Bitmap}<RenderingMode><!-- the default is 'Bitmap' -->
-      <UseEmfEmbeddedToWmf>{true/false}</UseEmfEmbeddedToWmf><!-- the default is `true` -->
+      <UseEmfEmbeddedToWmf>{true/false}</UseEmfEmbeddedToWmf><!-- the default is 'true' -->
       <EmulateRasterOperations>{true/false}</EmulateRasterOperations> <!-- Gets or sets a value determining whether or not the raster operations should be emulated. -->
    </MetafileRenderingOptions>
-   <OptimizeOutput>{true/false}</OptimizeOutput><!-- the default is `false` -->
+   <OptimizeOutput>{true/false}</OptimizeOutput><!-- the default is 'false' -->
    <PageIndex>{number}</PageIndex><!-- the default is '0' -->
    <PaperColor>{color}</PaperColor><!-- the default is 'WHITE' -->
    <PixelFormat>{Format16BppArgb1555/Format16BppRgb555/Format16BppRgb565/Format24BppRgb/Format32BppArgb/Format32BppPArgb/Format32BppRgb/Format48BppRgb/Format64BppArgb/Format64BppPArgb}</PixelFormat><!-- the default is 'Format32BppArgb' -->
@@ -219,7 +219,7 @@ The **DocSaveOptions** XML definition is presented below:
    <FileName>{string}</FileName>
    <!-- specific part -->
    <Password>{string}</Password><!-- the default is "" -->
-   <SaveRoutingSlip>{true/false}</SaveRoutingSlip><!-- the default is `true` -->
+   <SaveRoutingSlip>{true/false}</SaveRoutingSlip><!-- the default is 'true' -->
 </DocSaveOptions>
 ```
 
@@ -233,7 +233,7 @@ The **OoxmlSaveOptions** XML definition is presented below:
    <SaveFormat>{string}</SaveFormat>
    <FileName>{string}</FileName>
    <!-- specific part -->
-   <PrettyFormat>{true/false}</PrettyFormat><!-- the default is `false` -->
+   <PrettyFormat>{true/false}</PrettyFormat><!-- the default is 'false' -->
    <Compliance>{Ecma376_2006/Iso29500_2008_Transitional}</Compliance><!-- the default is 'Ecma376_2006' -->
    <Password>{string}</Password><!-- the default is "" -->
 </OoxmlSaveOptions>
@@ -269,10 +269,10 @@ The **EmfSaveOptions** XML definition is presented below:
    <MetafileRenderingOptions><!-- always present -->
       <EmfPlusDualRenderingMode>{EmfPlusWithFallback/EmfPlus/Emf}<EmfPlusDualRenderingMode><!-- the default is 'EmfPlusWithFallback' -->
       <RenderingMode>{VectorWithFallback/Vector/Bitmap}<RenderingMode><!-- the default is 'Bitmap' -->
-      <UseEmfEmbeddedToWmf>{true/false}</UseEmfEmbeddedToWmf><!-- the default is `true` -->
+      <UseEmfEmbeddedToWmf>{true/false}</UseEmfEmbeddedToWmf><!-- the default is 'true' -->
    </MetafileRenderingOptions>
    <NumeralFormat>{European/ArabicIndic/EasternArabicIndic/Context/System}</NumeralFormat><!-- the default is 'European' -->
-   <OptimizeOutput>{true/false}</OptimizeOutput><!-- the default is `false` -->
+   <OptimizeOutput>{true/false}</OptimizeOutput><!-- the default is 'false' -->
    <PageIndex>{number}</PageIndex><!-- the default is '0' -->
    <PaperColor>{color}</PaperColor><!-- the default is 'WHITE' -->
    <PixelFormat>{Format16BppArgb1555/Format16BppRgb555/Format16BppRgb565/Format24BppRgb/Format32BppArgb/Format32BppPArgb/Format32BppRgb/Format48BppRgb/Format64BppArgb/Format64BppPArgb}</PixelFormat><!-- the default is 'Format32BppArgb' -->
@@ -282,7 +282,7 @@ The **EmfSaveOptions** XML definition is presented below:
    <HorizontalResolution>{float_number}</Resolution><!-- the default is '96' -->
    <VerticalResolution>{float_number}</Resolution><!-- the default is '96' -->
    <Scale>{float_number}</Scale><!-- defaulHtmlSaveOptionst value = 1.0 -->
-   <UseGdiEmfRenderer>{true/false}</UseGdiEmfRenderer><!-- the default is `true` -->
+   <UseGdiEmfRenderer>{true/false}</UseGdiEmfRenderer><!-- the default is 'true' -->
 </EmfSaveOptions>
 ```
 
@@ -296,34 +296,34 @@ The **EpubSaveOptions** XML definition is presented below:
    <SaveFormat>{string}</SaveFormat>
    <FileName>{string}</FileName>
    <!-- specific part -->
-   <PrettyFormat>{true/false}</PrettyFormat><!-- the default is `false` -->
-   <AllowNegativeIndent>{true/false}</AllowNegativeIndent><!-- the default is `false` -->
+   <PrettyFormat>{true/false}</PrettyFormat><!-- the default is 'false' -->
+   <AllowNegativeIndent>{true/false}</AllowNegativeIndent><!-- the default is 'false' -->
    <CssStyleSheetType>{Embedded/External/Inline}</CssStyleSheetType><!-- the default is 'External' -->
    <DocumentSplitCriteria>{ColumnBreak/HeadingParagraph/None/PageBreak/SectionBreak}</DocumentSplitCriteria><!-- the default is 'HeadingParagraph' -->
    <DocumentSplitHeadingLevel>{number}</DocumentSplitHeadingLevel><!-- the default is '2' -->
    <Encoding>{string}</Encoding><!-- the default is "UTF-8" -->
    <EpubNavigationMapLevel>{number}</EpubNavigationMapLevel><!-- the default is '3' -->
-   <ExportDocumentProperties>{true/false}</ExportDocumentProperties><!-- the default is `false` -->
-   <ExportFontsAsBase64>{true/false}</ExportFontsAsBase64><!-- the default is `false` -->
+   <ExportDocumentProperties>{true/false}</ExportDocumentProperties><!-- the default is 'false' -->
+   <ExportFontsAsBase64>{true/false}</ExportFontsAsBase64><!-- the default is 'false' -->
    <ExportFontResources>{true/false}</ExportFontResources><!-- the default is false -->   <ExportHeadersFootersMode>{FirstSectionHeaderLastSectionFooter/None/PerSection}</ExportHeadersFootersMode><!-- the default is 'None' -->
-   <ExportImagesAsBase64>{true/false}</ExportImagesAsBase64><!-- the default is `false` -->
-   <ExportLanguageInformation>{true/false}</ExportLanguageInformation><!-- the default is `false` -->
+   <ExportImagesAsBase64>{true/false}</ExportImagesAsBase64><!-- the default is 'false' -->
+   <ExportLanguageInformation>{true/false}</ExportLanguageInformation><!-- the default is 'false' -->
    <ExportListLabels>{Auto/AsInlineText/ByHtmlTags}</ExportListLabels><!-- the default is 'Auto' -->
-   <ExportMetafileAsRaster>{true/false}</ExportMetafileAsRaster><!-- the default is `true` -->
-   <ExportOriginalUrlForLinkedImages>{true/false}</ExportOriginalUrlForLinkedImages><!-- the default is `false` -->
-   <ExportPageSetup>{true/false}</ExportPageSetup><!-- the default is `false` -->
-   <ExportRelativeFontSize>{true/false}</ExportRelativeFontSize><!-- the default is `false` -->
-   <ExportRoundtripInformation>{true/false}</ExportRoundtripInformation><!-- the default is `true` -->
-   <ExportTextBoxAsSvg>{true/false}</ExportTextBoxAsSvg><!-- the default is `false` -->
-   <ExportTextInputFormFieldAsText>{true/false}</ExportTextInputFormFieldAsText><!-- the default is `false` -->
-   <ExportTocPageNumbers>{true/false}</ExportTocPageNumbers><!-- the default is `false` -->
+   <ExportMetafileAsRaster>{true/false}</ExportMetafileAsRaster><!-- the default is 'true' -->
+   <ExportOriginalUrlForLinkedImages>{true/false}</ExportOriginalUrlForLinkedImages><!-- the default is 'false' -->
+   <ExportPageSetup>{true/false}</ExportPageSetup><!-- the default is 'false' -->
+   <ExportRelativeFontSize>{true/false}</ExportRelativeFontSize><!-- the default is 'false' -->
+   <ExportRoundtripInformation>{true/false}</ExportRoundtripInformation><!-- the default is 'true' -->
+   <ExportTextBoxAsSvg>{true/false}</ExportTextBoxAsSvg><!-- the default is 'false' -->
+   <ExportTextInputFormFieldAsText>{true/false}</ExportTextInputFormFieldAsText><!-- the default is 'false' -->
+   <ExportTocPageNumbers>{true/false}</ExportTocPageNumbers><!-- the default is 'false' -->
    <FontResourcesSubsettingSizeThreshold>{number}</FontResourcesSubsettingSizeThreshold><!-- the default is '0' -->
    <HtmlVersion>{Xhtml| Html5}</HtmlVersion><!-- the default is "Xhtml" -->
    <ImageResolution>{number}</ImageResolution><!-- the default is '96' -->
    <OfficeMathOutputMode>{Image/MathML/Text}</OfficeMathOutputMode><!-- the default is 'Image' -->
    <ResourceFolder>{string}</ResourceFolder><!-- the default is an empty string -->
    <ResourceFolderAlias>{string}</ResourceFolderAlias><!-- the default is an empty string -->
-   <ScaleImageToShapeSize>{true/false}</ScaleImageToShapeSize><!-- the default is `true` -->
+   <ScaleImageToShapeSize>{true/false}</ScaleImageToShapeSize><!-- the default is 'true' -->
    <TableWidthOutputMode>{All/None/RelativeOnly}</TableWidthOutputMode><!-- the default is 'All' -->
 </EpubSaveOptions>
 ```
@@ -339,9 +339,9 @@ The **GifSaveOptions** XML definition is presented below:
    <FileName>{string}</FileName>
    <ColorMode>{Normal | Grayscale }</ColorMode><!-- the default is 'Normal' -->
    <!-- specific part -->
-   <UseAntiAliasing>{true/false}</UseAntiAliasing><!-- the default is `false` -->
-   <UseHighQualityRendering>{true/false}</UseHighQualityRendering><!-- the default is `false` -->
-   <UseGdiEmfRenderer>{true/false}</UseGdiEmfRenderer><!-- the default is `true` -->
+   <UseAntiAliasing>{true/false}</UseAntiAliasing><!-- the default is 'false' -->
+   <UseHighQualityRendering>{true/false}</UseHighQualityRendering><!-- the default is 'false' -->
+   <UseGdiEmfRenderer>{true/false}</UseGdiEmfRenderer><!-- the default is 'true' -->
    <ImageBrightness>{float_number}</ImageBrightness><!-- the default is 0.5 -->
    <ImageColorMode>{BlackAndWhite/Grayscale/None}</ImageColorMode><!-- the default is 'None' -->
    <ImageContrast>{float_number}</ImageContrast><!-- the default is 0.5 -->
@@ -363,10 +363,10 @@ The **GifSaveOptions** XML definition is presented below:
    <MetafileRenderingOptions><!-- always present -->
       <EmfPlusDualRenderingMode>{EmfPlusWithFallback/EmfPlus/Emf}<EmfPlusDualRenderingMode><!-- the default is 'EmfPlusWithFallback' -->
       <RenderingMode>{VectorWithFallback/Vector/Bitmap}<RenderingMode><!-- the default is 'Bitmap' -->
-      <UseEmfEmbeddedToWmf>{true/false}</UseEmfEmbeddedToWmf><!-- the default is `true` -->
+      <UseEmfEmbeddedToWmf>{true/false}</UseEmfEmbeddedToWmf><!-- the default is 'true' -->
       <ScaleWmfFontsToMetafileSize>{true/false}</ScaleWmfFontsToMetafileSize> <!-- Gets or sets a value determining whether or not to scale fonts in WMF metafile according to metafile size on the page. -->
    </MetafileRenderingOptions>
-   <OptimizeOutput>{true/false}</OptimizeOutput><!-- the default is `false` -->
+   <OptimizeOutput>{true/false}</OptimizeOutput><!-- the default is 'false' -->
    <PageIndex>{number}</PageIndex><!-- the default is '0' -->
    <PaperColor>{color}</PaperColor><!-- the default is 'WHITE' -->
    <PixelFormat>{Format16BppArgb1555/Format16BppRgb555/Format16BppRgb565/Format24BppRgb/Format32BppArgb/Format32BppPArgb/Format32BppRgb/Format48BppRgb/Format64BppArgb/Format64BppPArgb}</PixelFormat><!-- the default is 'Format32BppArgb' -->
@@ -389,30 +389,30 @@ The **HtmlSaveOptions** XML definition is presented below:
    <SaveFormat>{string}</SaveFormat>
    <FileName>{string}</FileName>
    <!-- specific part -->
-   <PrettyFormat>{true/false}</PrettyFormat><!-- the default is `false` -->
-   <AllowNegativeIndent>{true/false}</AllowNegativeIndent><!-- the default is `false` -->
+   <PrettyFormat>{true/false}</PrettyFormat><!-- the default is 'false' -->
+   <AllowNegativeIndent>{true/false}</AllowNegativeIndent><!-- the default is 'false' -->
    <CssStyleSheetFileName>{string}</CssStyleSheetFileName><!-- the default is "" -->
    <CssStyleSheetType>{Embedded/External/Inline}</CssStyleSheetType><!-- the default is 'Inline' -->
    <DocumentSplitCriteria>{ColumnBreak/HeadingParagraph/None/PageBreak/SectionBreak}</DocumentSplitCriteria><!-- the default is 'None' -->
    <DocumentSplitHeadingLevel>{number}</DocumentSplitHeadingLevel><!-- the default is '2' -->
    <Encoding>{string}</Encoding><!-- the default is "UTF-8" -->
-   <ExportDocumentProperties>{true/false}</ExportDocumentProperties><!-- the default is `false` -->
-   <ExportFontsAsBase64>{true/false}</ExportFontsAsBase64><!-- the default is `false` -->
-   <ExportFontResources>{true/false}</ExportFontResources><!-- the default is `false` -->
+   <ExportDocumentProperties>{true/false}</ExportDocumentProperties><!-- the default is 'false' -->
+   <ExportFontsAsBase64>{true/false}</ExportFontsAsBase64><!-- the default is 'false' -->
+   <ExportFontResources>{true/false}</ExportFontResources><!-- the default is 'false' -->
    <ExportHeadersFootersMode>{FirstSectionHeaderLastSectionFooter/None/PerSection}</ExportHeadersFootersMode><!-- the default is 'PerSection' -->
-   <ExportImagesAsBase64>{true/false}</ExportImagesAsBase64><!-- the default is `false` -->
-   <ExportLanguageInformation>{true/false}</ExportLanguageInformation><!-- the default is `false` -->
+   <ExportImagesAsBase64>{true/false}</ExportImagesAsBase64><!-- the default is 'false' -->
+   <ExportLanguageInformation>{true/false}</ExportLanguageInformation><!-- the default is 'false' -->
    <ExportListLabels>{Auto/AsInlineText/ByHtmlTags}</ExportListLabels><!-- the default is 'Auto' -->
-   <ExportMetafileAsRaster>{true/false}</ExportMetafileAsRaster><!-- the default is `true` -->
-   <ExportOriginalUrlForLinkedImages>{true/false}</ExportOriginalUrlForLinkedImages><!-- the default is `false` -->
-   <ExportPageSetup>{true/false}</ExportPageSetup><!-- the default is `false` -->
-   <ExportPageMargins>{true/false}</ExportPageMargins><!-- the default is `false` -->
-   <ExportRelativeFontSize>{true/false}</ExportRelativeFontSize><!-- the default is `false` -->
-   <ExportRoundtripInformation>{true/false}</ExportRoundtripInformation><!-- the default is `true` -->
-   <ExportTextBoxAsSvg>{true/false}</ExportTextBoxAsSvg><!-- the default is `false` -->
-   <ExportTextInputFormFieldAsText>{true/false}</ExportTextInputFormFieldAsText><!-- the default is `false` -->
-   <ExportTocPageNumbers>{true/false}</ExportTocPageNumbers><!-- the default is `false` -->
-   <ExportXhtmlTransitional>{true/false}</ExportXhtmlTransitional><!-- the default is `false` -->
+   <ExportMetafileAsRaster>{true/false}</ExportMetafileAsRaster><!-- the default is 'true' -->
+   <ExportOriginalUrlForLinkedImages>{true/false}</ExportOriginalUrlForLinkedImages><!-- the default is 'false' -->
+   <ExportPageSetup>{true/false}</ExportPageSetup><!-- the default is 'false' -->
+   <ExportPageMargins>{true/false}</ExportPageMargins><!-- the default is 'false' -->
+   <ExportRelativeFontSize>{true/false}</ExportRelativeFontSize><!-- the default is 'false' -->
+   <ExportRoundtripInformation>{true/false}</ExportRoundtripInformation><!-- the default is 'true' -->
+   <ExportTextBoxAsSvg>{true/false}</ExportTextBoxAsSvg><!-- the default is 'false' -->
+   <ExportTextInputFormFieldAsText>{true/false}</ExportTextInputFormFieldAsText><!-- the default is 'false' -->
+   <ExportTocPageNumbers>{true/false}</ExportTocPageNumbers><!-- the default is 'false' -->
+   <ExportXhtmlTransitional>{true/false}</ExportXhtmlTransitional><!-- the default is 'false' -->
    <FontResourcesSubsettingSizeThreshold>{number}</FontResourcesSubsettingSizeThreshold><!-- the default is '0' -->
    <FontsFolder>{string}</FontsFolder><!-- the default is "" -->
    <FontsFolderAlias>{string}</FontsFolderAlias><!-- the default is "" -->
@@ -423,9 +423,9 @@ The **HtmlSaveOptions** XML definition is presented below:
    <OfficeMathOutputMode>{Image/MathML/Text}</OfficeMathOutputMode><!-- the default is 'Image' -->
    <ResourceFolder>{string}</ResourceFolder><!-- the default is an empty string -->
    <ResourceFolderAlias>{string}</ResourceFolderAlias><!-- the default is an empty string -->
-   <ScaleImageToShapeSize>{true/false}</ScaleImageToShapeSize><!-- the default is `true` -->
+   <ScaleImageToShapeSize>{true/false}</ScaleImageToShapeSize><!-- the default is 'true' -->
    <TableWidthOutputMode>{All/None/RelativeOnly}</TableWidthOutputMode><!-- the default is 'All' -->
-   <ExportDropDownFormFieldAsText>{true/false}</ExportDropDownFormFieldAsText><!-- the default is `false` -->
+   <ExportDropDownFormFieldAsText>{true/false}</ExportDropDownFormFieldAsText><!-- the default is 'false' -->
    <ResolveFontNames>{true/false}</ResolveFontNames> <!-- Specifies whether font family names used in the document are resolved and substituted according to FontSettings when being written into HTML-based formats. -->
 </HtmlSaveOptions>
 ```
@@ -441,27 +441,27 @@ The **HtmlFixedSaveOptions** XML definition is presented below:
    <SaveFormat>{string}</SaveFormat>
    <FileName>{string}</FileName>
    <!-- specific part -->
-   <ExportEmbeddedCss>{true/false}</ExportEmbeddedCss><!-- the default is `false` -->
-   <ExportEmbeddedFonts>{true/false}</ExportEmbeddedFonts><!-- the default is `false` -->
-   <ExportEmbeddedImages>{true/false}</ExportEmbeddedImages><!-- the default is `false` -->
-   <ExportFormFields>{true/false}</ExportFormFields><!-- the default is `false` -->
+   <ExportEmbeddedCss>{true/false}</ExportEmbeddedCss><!-- the default is 'false' -->
+   <ExportEmbeddedFonts>{true/false}</ExportEmbeddedFonts><!-- the default is 'false' -->
+   <ExportEmbeddedImages>{true/false}</ExportEmbeddedImages><!-- the default is 'false' -->
+   <ExportFormFields>{true/false}</ExportFormFields><!-- the default is 'false' -->
    <Encoding>ASCII</Encoding><!-- the default is 'UTF8' -->
    <FontFormat>{Tft/Woff}</FontFormat><!-- the default is 'Woff' -->
    <JpegQuality>{number}</JpegQuality><!-- the default is '95' -->
    <MetafileRenderingOptions><!-- always present -->
       <EmfPlusDualRenderingMode>{EmfPlusWithFallback/EmfPlus/Emf}<EmfPlusDualRenderingMode><!-- the default is 'EmfPlusWithFallback' -->
       <RenderingMode>{VectorWithFallback/Vector/Bitmap}<RenderingMode><!-- the default is 'VectorWithFallback' -->
-      <UseEmfEmbeddedToWmf>{true/false}</UseEmfEmbeddedToWmf><!-- the default is `true` -->
+      <UseEmfEmbeddedToWmf>{true/false}</UseEmfEmbeddedToWmf><!-- the default is 'true' -->
    </MetafileRenderingOptions>
    <NumeralFormat>{European/ArabicIndic/EasternArabicIndic/Context/System}</NumeralFormat><!-- the default is 'European' -->
-   <OptimizeOutput>{true/false}</OptimizeOutput><!-- the default is `false` -->
+   <OptimizeOutput>{true/false}</OptimizeOutput><!-- the default is 'false' -->
    <PageCount>{number}</PageCount><!-- the default is Int32.MaxValue -->
    <PageIndex>{number}</PageIndex><!-- the default is '0' -->
    <PageHorizontalAlignment>{Left/Center/Right}</PageHorizontalAlignment><!-- the default is "Center" -->
    <PageMargins>{double}</PageMargins><!-- the default is '10' -->
    <ResourcesFolder>{string}</ResourcesFolder><!-- the default is "" -->
    <ResourcesFolderAlias>{string}</ResourcesFolderAlias><!-- the default is "" -->
-   <ShowPageBorder>{true/false}</ShowPageBorder><!-- the default is `true` -->
+   <ShowPageBorder>{true/false}</ShowPageBorder><!-- the default is 'true' -->
 </HtmlFixedSaveOptions>
 ```
 
@@ -475,9 +475,9 @@ The **JpegSaveOptions** XML definition is presented below:
    <SaveFormat>{string}</SaveFormat>
    <FileName>{string}</FileName>
    <!-- specific part -->
-   <UseAntiAliasing>{true/false}</UseAntiAliasing><!-- the default is `false` -->
-   <UseHighQualityRendering>{true/false}</UseHighQualityRendering><!-- the default is `false` -->
-   <UseGdiEmfRenderer>{true/false}</UseGdiEmfRenderer><!-- the default is `true` -->
+   <UseAntiAliasing>{true/false}</UseAntiAliasing><!-- the default is 'false' -->
+   <UseHighQualityRendering>{true/false}</UseHighQualityRendering><!-- the default is 'false' -->
+   <UseGdiEmfRenderer>{true/false}</UseGdiEmfRenderer><!-- the default is 'true' -->
    <ImageBrightness>{float_number}</ImageBrightness><!-- the default is 0.5 -->
    <ImageColorMode>{BlackAndWhite/Grayscale/None}</ImageColorMode><!-- the default is 'None' -->
    <ImageContrast>{float_number}</ImageContrast><!-- the default is 0.5 -->
@@ -499,10 +499,10 @@ The **JpegSaveOptions** XML definition is presented below:
    <MetafileRenderingOptions><!-- always present -->
       <EmfPlusDualRenderingMode>{EmfPlusWithFallback/EmfPlus/Emf}<EmfPlusDualRenderingMode><!-- the default is 'EmfPlusWithFallback' -->
       <RenderingMode>{VectorWithFallback/Vector/Bitmap}<RenderingMode><!-- the default is 'Bitmap' -->
-      <UseEmfEmbeddedToWmf>{true/false}</UseEmfEmbeddedToWmf><!-- the default is `true` -->
+      <UseEmfEmbeddedToWmf>{true/false}</UseEmfEmbeddedToWmf><!-- the default is 'true' -->
    </MetafileRenderingOptions>
    <NumeralFormat>{European/ArabicIndic/EasternArabicIndic/Context/System}</NumeralFormat><!-- the default is 'European' -->
-   <OptimizeOutput>{true/false}</OptimizeOutput><!-- the default is `false` -->
+   <OptimizeOutput>{true/false}</OptimizeOutput><!-- the default is 'false' -->
    <PageIndex>{number}</PageIndex><!-- the default is '0' -->
    <PaperColor>{color}</PaperColor><!-- the default is 'WHITE' -->
    <PixelFormat>{Format16BppArgb1555/Format16BppRgb555/Format16BppRgb565/Format24BppRgb/Format32BppArgb/Format32BppPArgb/Format32BppRgb/Format48BppRgb/Format64BppArgb/Format64BppPArgb}</PixelFormat><!-- the default is 'Format32BppArgb' -->
@@ -525,33 +525,33 @@ The **MhtmlSaveOptions** XML definition is presented below:
  <SaveFormat>{string}</SaveFormat>
  <FileName>{string}</FileName>
  <!-- specific part -->
- <PrettyFormat>{true/false}</PrettyFormat><!-- the default is `false` -->
- <AllowNegativeIndent>{true/false}</AllowNegativeIndent><!-- the default is `false` -->
+ <PrettyFormat>{true/false}</PrettyFormat><!-- the default is 'false' -->
+ <AllowNegativeIndent>{true/false}</AllowNegativeIndent><!-- the default is 'false' -->
  <CssStyleSheetType>{Embedded/External/Inline}</CssStyleSheetType><!-- the default is 'Inline' -->
  <Encoding>{string}</Encoding><!-- the default is "UTF-8" -->
- <ExportDocumentProperties>{true/false}</ExportDocumentProperties><!-- the default is `false` -->
- <ExportFontsAsBase64>{true/false}</ExportFontsAsBase64><!-- the default is `false` -->
- <ExportFontResources>{true/false}</ExportFontResources><!-- the default is `false` -->
+ <ExportDocumentProperties>{true/false}</ExportDocumentProperties><!-- the default is 'false' -->
+ <ExportFontsAsBase64>{true/false}</ExportFontsAsBase64><!-- the default is 'false' -->
+ <ExportFontResources>{true/false}</ExportFontResources><!-- the default is 'false' -->
  <ExportHeadersFootersMode>{FirstSectionHeaderLastSectionFooter/None/PerSection}</ExportHeadersFootersMode><!-- the default is 'PerSection' -->
- <ExportImagesAsBase64>{true/false}</ExportImagesAsBase64><!-- the default is `false` -->
- <ExportLanguageInformation>{true/false}</ExportLanguageInformation><!-- the default is `false` -->
+ <ExportImagesAsBase64>{true/false}</ExportImagesAsBase64><!-- the default is 'false' -->
+ <ExportLanguageInformation>{true/false}</ExportLanguageInformation><!-- the default is 'false' -->
  <ExportListLabels>{Auto/AsInlineText/ByHtmlTags}</ExportListLabels><!-- the default is 'Auto' -->
- <ExportMetafileAsRaster>{true/false}</ExportMetafileAsRaster><!-- the default is `true` -->
- <ExportOriginalUrlForLinkedImages>{true/false}</ExportOriginalUrlForLinkedImages><!-- the default is `false` -->
- <ExportPageSetup>{true/false}</ExportPageSetup><!-- the default is `false` -->
- <ExportRelativeFontSize>{true/false}</ExportRelativeFontSize><!-- the default is `false` -->
- <ExportRoundtripInformation>{true/false}</ExportRoundtripInformation><!-- the default is `true` -->
- <ExportTextBoxAsSvg>{true/false}</ExportTextBoxAsSvg><!-- the default is `false` -->
- <ExportTextInputFormFieldAsText>{true/false}</ExportTextInputFormFieldAsText><!-- the default is `false` -->
- <ExportTocPageNumbers>{true/false}</ExportTocPageNumbers><!-- the default is `false` -->
- <ExportXhtmlTransitional>{true/false}</ExportXhtmlTransitional><!-- the default is `false` -->
+ <ExportMetafileAsRaster>{true/false}</ExportMetafileAsRaster><!-- the default is 'true' -->
+ <ExportOriginalUrlForLinkedImages>{true/false}</ExportOriginalUrlForLinkedImages><!-- the default is 'false' -->
+ <ExportPageSetup>{true/false}</ExportPageSetup><!-- the default is 'false' -->
+ <ExportRelativeFontSize>{true/false}</ExportRelativeFontSize><!-- the default is 'false' -->
+ <ExportRoundtripInformation>{true/false}</ExportRoundtripInformation><!-- the default is 'true' -->
+ <ExportTextBoxAsSvg>{true/false}</ExportTextBoxAsSvg><!-- the default is 'false' -->
+ <ExportTextInputFormFieldAsText>{true/false}</ExportTextInputFormFieldAsText><!-- the default is 'false' -->
+ <ExportTocPageNumbers>{true/false}</ExportTocPageNumbers><!-- the default is 'false' -->
+ <ExportXhtmlTransitional>{true/false}</ExportXhtmlTransitional><!-- the default is 'false' -->
  <FontResourcesSubsettingSizeThreshold>{number}</FontResourcesSubsettingSizeThreshold><!-- the default is '0' -->
  <HtmlVersion>{Xhtml| Html5}</HtmlVersion><!-- the default is "Xhtml" -->
  <ImageResolution>{number}</ImageResolution><!-- the default is '96' -->
  <OfficeMathOutputMode>{Image/MathML/Text}</OfficeMathOutputMode><!-- the default is 'Image' -->
  <ResourceFolder>{string}</ResourceFolder><!-- the default is an empty string -->
  <ResourceFolderAlias>{string}</ResourceFolderAlias><!-- the default is an empty string -->
- <ScaleImageToShapeSize>{true/false}</ScaleImageToShapeSize><!-- the default is `true` -->
+ <ScaleImageToShapeSize>{true/false}</ScaleImageToShapeSize><!-- the default is 'true' -->
  <TableWidthOutputMode>{All/None/RelativeOnly}</TableWidthOutputMode><!-- the default is 'All' -->
 </MhtmlSaveOptions>
 ```
@@ -566,8 +566,8 @@ The **OdtSaveOptions** XML definition is presented below:
    <SaveFormat>{string}</SaveFormat>
    <FileName>{string}</FileName>
    <!-- specific part -->
-   <PrettyFormat>{true/false}</PrettyFormat><!-- the default is `false` -->
-   <IsStrictSchema11>{true/false}</IsStrictSchema11><!-- the default is `false` -->
+   <PrettyFormat>{true/false}</PrettyFormat><!-- the default is 'false' -->
+   <IsStrictSchema11>{true/false}</IsStrictSchema11><!-- the default is 'false' -->
 </OdtSaveOptions>
 ```
 
@@ -583,16 +583,16 @@ The **PclSaveOptions** XML definition is presented below:
    <MetafileRenderingOptions><!-- always present -->
       <EmfPlusDualRenderingMode>{EmfPlusWithFallback/EmfPlus/Emf}<EmfPlusDualRenderingMode><!-- the default is 'EmfPlusWithFallback' -->
       <RenderingMode>{VectorWithFallback/Vector/Bitmap}<RenderingMode><!-- the default is 'VectorWithFallback' -->
-      <UseEmfEmbeddedToWmf>{true/false}</UseEmfEmbeddedToWmf><!-- the default is `true` -->
+      <UseEmfEmbeddedToWmf>{true/false}</UseEmfEmbeddedToWmf><!-- the default is 'true' -->
    </MetafileRenderingOptions>
   <NumeralFormat>{European/ArabicIndic/EasternArabicIndic/Context/System}</NumeralFormat><!-- the default is 'European' -->
-  <OptimizeOutput>{true/false}</OptimizeOutput><!-- the default is `false` -->
+  <OptimizeOutput>{true/false}</OptimizeOutput><!-- the default is 'false' -->
   <PageCount>{number}</PageCount><!-- the default is Int32.MaxValue -->
   <PageIndex>{number}</PageIndex><!-- the default is '0' -->
   <DmlRenderingMode>{Fallback | DrawingML}</DmlRenderingMode><!-- the default is 'Fallback' -->
    <DmlEffectsRenderingMode>{Simplified | None | Fine}</DmlEffectsRenderingMode><!-- the default is 'Simplified' -->
   <FalllbackFontName>{string}</FalllbackFontName>
-  <RasterizeTransformedElements>{true/false}</RasterizeTransformedElements><!-- the default is `true` -->
+  <RasterizeTransformedElements>{true/false}</RasterizeTransformedElements><!-- the default is 'true' -->
 </PclSaveOptions>
 ```
 
@@ -607,7 +607,7 @@ The **PdfSaveOptions** XML definition is presented below:
    <FileName>{string}</FileName>
    <!-- specific part -->
    <Compliance>{Pdf15/PdfA1b}</Compliance><!-- the default is 'Pdf15' -->
-   <CreateNoteHyperlinks>{true/false}</CreateNoteHyperlinks><!-- the default is `false` -->
+   <CreateNoteHyperlinks>{true/false}</CreateNoteHyperlinks><!-- the default is 'false' -->
    <CustomPropertiesExport>{None|Standart|Metadata}</CustomPropertiesExport><!-- the default is 'None' -->
    <DigitalSignatureDetails><!-- the default is 'null' -->
       <Certificate>{certificate_filename}</Certificate><!-- the default is 'null' -->
@@ -616,32 +616,32 @@ The **PdfSaveOptions** XML definition is presented below:
       <Reason>{string}</Reason><!-- the default is 'null' -->
       <SignatureDate>{date_string}</SignatureDate><!-- the default is current time -->
    </DigitalSignatureDetails>
-   <DisplayDocTitle>{true/false}</DisplayDocTitle><!-- the default is `false` -->
+   <DisplayDocTitle>{true/false}</DisplayDocTitle><!-- the default is 'false' -->
    <DownsampleOptions>
-      <DownsampleImages>{true/false}</DownsampleImages><!-- the default is `true` -->
+      <DownsampleImages>{true/false}</DownsampleImages><!-- the default is 'true' -->
  	  <Resolution>{number}</Resolution><!-- the default is 220  -->
       <ResolutionThreshold>{number}</ResolutionThreshold><!-- the default is '0' -->
    </DownsampleOptions>
-   <EmbedFullFonts>{true/false}</EmbedFullFonts><!-- the default is `false` -->
-   <FontEmbeddingMode>{true/false}</FontEmbeddingMode><!-- the default is `true` -->
+   <EmbedFullFonts>{true/false}</EmbedFullFonts><!-- the default is 'false' -->
+   <FontEmbeddingMode>{true/false}</FontEmbeddingMode><!-- the default is 'true' -->
    <EncryptionDetails><!-- the default is 'null' -->
       <EncryptionAlgorithm>{RC4_128/RC4_40}</EncryptionAlgorithm><!-- the default is 'RC4_40' -->
       <OwnerPassword>{string}</OwnerPassword><!-- the default is 'null' -->
       <Permissions>{AllowAll/ContentCopy/ContentCopyForAccessibility/DisallowAll/DocumentAssembly/FillIn/HighResolutionPrinting/ModifyAnnotations/ModifyContents/Printing}</Permissions><!-- the default is 'DisallowAll' -->
       <UserPassword>{string}</UserPassword><!-- the default is 'null' -->
    </EncryptionDetails>
-   <CustomPropertiesExport>{true/false}</CustomPropertiesExport><!-- the default is `false` -->
-   <ExportDocumentStructure>{true/false}</ExportDocumentStructure><!-- the default is `false` -->
+   <CustomPropertiesExport>{true/false}</CustomPropertiesExport><!-- the default is 'false' -->
+   <ExportDocumentStructure>{true/false}</ExportDocumentStructure><!-- the default is 'false' -->
    <ImageCompression>{Auto/Jpeg}</ImageCompression><!-- the default is 'Auto' -->
    <JpegQuality>{number}</JpegQuality><!-- the default is '100' -->
    <MetafileRenderingOptions><!-- always present -->
       <EmfPlusDualRenderingMode>{EmfPlusWithFallback/EmfPlus/Emf}<EmfPlusDualRenderingMode><!-- the default is 'EmfPlusWithFallback' -->
       <RenderingMode>{VectorWithFallback/Vector/Bitmap}<RenderingMode><!-- the default is 'VectorWithFallback' -->
-      <UseEmfEmbeddedToWmf>{true/false}</UseEmfEmbeddedToWmf><!-- the default is `true` -->
+      <UseEmfEmbeddedToWmf>{true/false}</UseEmfEmbeddedToWmf><!-- the default is 'true' -->
    </MetafileRenderingOptions>
    <NumeralFormat>{European/ArabicIndic/EasternArabicIndic/Context/System}</NumeralFormat><!-- the default is 'European' -->
-   <OpenHyperlinksInNewWindow>{true/false}<OpenHyperlinksInNewWindow><!-- the default is `false` -->
-   <OptimizeOutput>{true/false}</OptimizeOutput><!-- the default is `false` -->
+   <OpenHyperlinksInNewWindow>{true/false}<OpenHyperlinksInNewWindow><!-- the default is 'false' -->
+   <OptimizeOutput>{true/false}</OptimizeOutput><!-- the default is 'false' -->
    <OutlineOptions><!-- always present -->
       <BookmarksOutlineLevels><!-- the default is empty  list, i.e. <BookmarksOutlineLevels/> -->
          <BookmarksOutlineLevel name="{string}">{number}</BookmarksOutlineLevel>
@@ -656,16 +656,16 @@ The **PdfSaveOptions** XML definition is presented below:
    <PageCount>{number}</PageCount><!-- the default is Int32.MaxValue -->
    <PageIndex>{number}</PageIndex><!-- the default is '0' -->
    <PageMode>{UseNone/UseOutlines/UseThumbs/FullScreen/UseOC}</PageMode><!-- the default is 'UseOutlines' -->
-   <PreserveFormFields>{true/false}</PreserveFormFields><!-- the default is `false` -->
+   <PreserveFormFields>{true/false}</PreserveFormFields><!-- the default is 'false' -->
    <DmlRenderingMode>{Fallback | DrawingML}</DmlRenderingMode><!-- the default is 'Fallback' -->
    <DmlEffectsRenderingMode>{Simplified | None | Fine}</DmlEffectsRenderingMode><!-- the default is 'Simplified' -->
    <TextCompression>{Flate/None}</TextCompression><!-- the default is 'Flate' -->
-   <UseBookFoldPrintingSettings>{true/false}</UseBookFoldPrintingSettings><!-- the default is `false` -->
-   <UseCoreFonts>{true/false}</UseCoreFonts><!-- the default is `false` -->
+   <UseBookFoldPrintingSettings>{true/false}</UseBookFoldPrintingSettings><!-- the default is 'false' -->
+   <UseCoreFonts>{true/false}</UseCoreFonts><!-- the default is 'false' -->
    <ZoomBehavior>{None/ZoomFactor/FitPage/FitWidth/FitHeight/FitBox}<ZoomBehavior><!-- the default is 'None' -->
    <ZoomFactor>{number}</ZoomFactor><!-- the default is '0' -->
    <ImageColorSpaceExportMode>{Auto | SimpleCmyk}</ImageColorSpaceExportMode><!-- the default is 'Auto' -->
-   <EscapeUri>{true/false}</EscapeUri> <!-- A flag specifying whether URI should be escaped before writing. The default value is `true` -->
+   <EscapeUri>{true/false}</EscapeUri> <!-- A flag specifying whether URI should be escaped before writing. The default value is 'true' -->
 </PdfSaveOptions>
 ```
 
@@ -679,9 +679,9 @@ The **PngSaveOptions** XML definition is presented below:
    <SaveFormat>{string}</SaveFormat>
    <FileName>{string}</FileName>
    <!-- specific part -->
-   <UseAntiAliasing>{true/false}</UseAntiAliasing><!-- the default is `false` -->
-   <UseHighQualityRendering>{true/false}</UseHighQualityRendering><!-- the default is `false` -->
-   <UseGdiEmfRenderer>{true/false}</UseGdiEmfRenderer><!-- the default is `true` -->
+   <UseAntiAliasing>{true/false}</UseAntiAliasing><!-- the default is 'false' -->
+   <UseHighQualityRendering>{true/false}</UseHighQualityRendering><!-- the default is 'false' -->
+   <UseGdiEmfRenderer>{true/false}</UseGdiEmfRenderer><!-- the default is 'true' -->
    <ImageBrightness>{float_number}</ImageBrightness><!-- the default is 0.5 -->
    <ImageColorMode>{BlackAndWhite/Grayscale/None}</ImageColorMode><!-- the default is 'None' -->
    <ImageContrast>{float_number}</ImageContrast><!-- the default is 0.5 -->
@@ -702,10 +702,10 @@ The **PngSaveOptions** XML definition is presented below:
    <MetafileRenderingOptions><!-- always present -->
       <EmfPlusDualRenderingMode>{EmfPlusWithFallback/EmfPlus/Emf}<EmfPlusDualRenderingMode><!-- the default is 'EmfPlusWithFallback' -->
       <RenderingMode>{VectorWithFallback/Vector/Bitmap}<RenderingMode><!-- the default is 'Bitmap' -->
-      <UseEmfEmbeddedToWmf>{true/false}</UseEmfEmbeddedToWmf><!-- the default is `true` -->
+      <UseEmfEmbeddedToWmf>{true/false}</UseEmfEmbeddedToWmf><!-- the default is 'true' -->
    </MetafileRenderingOptions>
    <NumeralFormat>{European/ArabicIndic/EasternArabicIndic/Context/System}</NumeralFormat><!-- the default is 'European' -->
-   <OptimizeOutput>{true/false}</OptimizeOutput><!-- the default is `false` -->
+   <OptimizeOutput>{true/false}</OptimizeOutput><!-- the default is 'false' -->
    <PageIndex>{number}</PageIndex><!-- the default is '0' -->
    <PaperColor>{color}</PaperColor><!-- the default is 'WHITE' -->
    <PixelFormat>{Format16BppArgb1555/Format16BppRgb555/Format16BppRgb565/Format24BppRgb/Format32BppArgb/Format32BppPArgb/Format32BppRgb/Format48BppRgb/Format64BppArgb/Format64BppPArgb}</PixelFormat><!-- the default is 'Format32BppArgb' -->
@@ -732,13 +732,13 @@ The **PsSaveOptions** XML definition is presented below:
    <MetafileRenderingOptions><!-- always present -->
       <RenderingMode>{VectorWithFallback/Vector/Bitmap}<RenderingMode><!-- the default is 'VectorWithFallback' -->
       <EmfPlusDualRenderingMode>{EmfPlusWithFallback/EmfPlus/Emf}<EmfPlusDualRenderingMode><!-- the default is 'EmfPlusWithFallback' -->
-      <UseEmfEmbeddedToWmf>{true/false}</UseEmfEmbeddedToWmf><!-- the default is `true` -->
+      <UseEmfEmbeddedToWmf>{true/false}</UseEmfEmbeddedToWmf><!-- the default is 'true' -->
    </MetafileRenderingOptions>
    <NumeralFormat>{European/ArabicIndic/EasternArabicIndic/Context/System}</NumeralFormat><!-- the default is 'European' -->
-   <OptimizeOutput>{true/false}</OptimizeOutput><!-- the default is `false` -->
+   <OptimizeOutput>{true/false}</OptimizeOutput><!-- the default is 'false' -->
    <PageCount>{number}</PageCount><!-- the default is Int32.MaxValue -->
    <PageIndex>{number}</PageIndex><!-- the default is '0' -->
-   <UseBookFoldPrintingSettings>{true/false}</UseBookFoldPrintingSettings><!-- the default is `false` -->
+   <UseBookFoldPrintingSettings>{true/false}</UseBookFoldPrintingSettings><!-- the default is 'false' -->
 </PsSaveOptions>
 ```
 
@@ -752,9 +752,9 @@ The **RtfSaveOptions** XML definition is presented below:
    <SaveFormat>{string}</SaveFormat>
    <FileName>{string}</FileName>
    <!-- specific part -->
-   <PrettyFormat>{true/false}</PrettyFormat><!-- the default is `false` -->
-   <ExportCompactSize>{true/false}</ExportCompactSize><!-- the default is `false` -->
-   <ExportImagesForOldReaders>{true/false}</ExportImagesForOldReaders><!-- the default is `true` -->
+   <PrettyFormat>{true/false}</PrettyFormat><!-- the default is 'false' -->
+   <ExportCompactSize>{true/false}</ExportCompactSize><!-- the default is 'false' -->
+   <ExportImagesForOldReaders>{true/false}</ExportImagesForOldReaders><!-- the default is 'true' -->
 </RtfSaveOptions> 
 ```
 
@@ -768,23 +768,23 @@ The **SvgSaveOptions** XML definition is presented below:
    <SaveFormat>{string}</SaveFormat>
    <FileName>{string}</FileName>
    <!-- specific part -->
-   <ExportEmbeddedImages>{true/false}</ExportEmbeddedImages><!-- the default is `false` -->
-   <FitToViewPort>{true/false}</FitToViewPort><!-- the default is `false` -->
+   <ExportEmbeddedImages>{true/false}</ExportEmbeddedImages><!-- the default is 'false' -->
+   <FitToViewPort>{true/false}</FitToViewPort><!-- the default is 'false' -->
    <JpegQuality>{number}</JpegQuality><!-- the default is '95' -->
    <MetafileRenderingOptions><!-- always present -->
       <RenderingMode>{VectorWithFallback/Vector/Bitmap}<RenderingMode><!-- the default is 'VectorWithFallback' -->
       <EmfPlusDualRenderingMode>{EmfPlusWithFallback/EmfPlus/Emf}<EmfPlusDualRenderingMode><!-- the default is 'EmfPlusWithFallback' -->
-      <UseEmfEmbeddedToWmf>{true/false}</UseEmfEmbeddedToWmf><!-- the default is `true` -->
+      <UseEmfEmbeddedToWmf>{true/false}</UseEmfEmbeddedToWmf><!-- the default is 'true' -->
    </MetafileRenderingOptions>
    <NumeralFormat>{European/ArabicIndic/EasternArabicIndic/Context/System}</NumeralFormat><!-- the default is 'European' -->
-   <OptimizeOutput>{true/false}</OptimizeOutput><!-- the default is `false` -->
+   <OptimizeOutput>{true/false}</OptimizeOutput><!-- the default is 'false' -->
    <PageCount>{number}</PageCount><!-- the default is Int32.MaxValue -->
    <PageIndex>{number}</PageIndex><!-- the default is '0' -->
    <DmlRenderingMode>{Fallback | DrawingML}</DmlRenderingMode><!-- the default is 'Fallback' -->
    <DmlEffectsRenderingMode>{Simplified | None | Fine}</DmlEffectsRenderingMode><!-- the default is 'Simplified' -->
    <ResourcesFolder>{string}</ResourcesFolder><!-- the default is "" -->
    <ResourcesFolderAlias>{string}</ResourcesFolderAlias><!-- the default is "" -->
-   <ShowPageBorder>{true/false}</ShowPageBorder><!-- the default is `true` -->
+   <ShowPageBorder>{true/false}</ShowPageBorder><!-- the default is 'true' -->
    <TextOutputMode>{UsePlacedGlyphs/UseSvgFonts/UseTargetMachineFonts}</TextOutputMode><!-- the default is 'UseTargetMachineFonts' -->
 </SvgSaveOptions>
 ```
@@ -799,9 +799,9 @@ The **TiffSaveOptions** XML definition is presented below:
    <SaveFormat>{string}</SaveFormat>
    <FileName>{string}</FileName>
    <!-- specific part -->
-   <UseAntiAliasing>{true/false}</UseAntiAliasing><!-- the default is `false` -->
-   <UseHighQualityRendering>{true/false}</UseHighQualityRendering><!-- the default is `false` -->
-   <UseGdiEmfRenderer>{true/false}</UseGdiEmfRenderer><!-- the default is `true` -->
+   <UseAntiAliasing>{true/false}</UseAntiAliasing><!-- the default is 'false' -->
+   <UseHighQualityRendering>{true/false}</UseHighQualityRendering><!-- the default is 'false' -->
+   <UseGdiEmfRenderer>{true/false}</UseGdiEmfRenderer><!-- the default is 'true' -->
    <ImageBrightness>{float_number}</ImageBrightness><!-- the default is 0.5 -->
    <ImageColorMode>{BlackAndWhite/Grayscale/None}</ImageColorMode><!-- the default is 'None' -->
    <ImageContrast>{float_number}</ImageContrast><!-- the default is 0.5 -->
@@ -822,10 +822,10 @@ The **TiffSaveOptions** XML definition is presented below:
    <MetafileRenderingOptions><!-- always present -->
       <EmfPlusDualRenderingMode>{EmfPlusWithFallback/EmfPlus/Emf}<EmfPlusDualRenderingMode><!-- the default is 'EmfPlusWithFallback' -->
       <RenderingMode>{VectorWithFallback/Vector/Bitmap}<RenderingMode><!-- the default is 'Bitmap' -->
-      <UseEmfEmbeddedToWmf>{true/false}</UseEmfEmbeddedToWmf><!-- the default is `true` -->
+      <UseEmfEmbeddedToWmf>{true/false}</UseEmfEmbeddedToWmf><!-- the default is 'true' -->
    </MetafileRenderingOptions>
    <NumeralFormat>{European/ArabicIndic/EasternArabicIndic/Context/System}</NumeralFormat><!-- the default is 'European' -->
-   <OptimizeOutput>{true/false}</OptimizeOutput><!-- the default is `false` -->
+   <OptimizeOutput>{true/false}</OptimizeOutput><!-- the default is 'false' -->
    <PageCount>{number}</PageCount><!-- the default is Int32.MaxValue -->
    <PageIndex>{number}</PageIndex><!-- the default is '0' -->
    <PaperColor>{color}</PaperColor><!-- the default is 'WHITE' -->
@@ -852,10 +852,10 @@ The **TextSaveOptions** XML definition is presented below:
    <FileName>{string}</FileName>
    <!-- specific part -->
    <Encoding>{string}</Encoding><!-- the default is "UTF-8" -->
-   <ForcePageBreaks>{true/false}</ForcePageBreaks"><!-- the default is `false` -->
+   <ForcePageBreaks>{true/false}</ForcePageBreaks"><!-- the default is 'false' -->
    <ParagraphBreak>{string}</ParagraphBreak><!-- the default is "\r\n" -->
-   <PreserveTableLayout>{true/false}</PreserveTableLayout><!-- the default is `false` -->
-   <SimplifyListLabels>{true/false}</SimplifyListLabels><!-- the default is `false` -->
+   <PreserveTableLayout>{true/false}</PreserveTableLayout><!-- the default is 'false' -->
+   <SimplifyListLabels>{true/false}</SimplifyListLabels><!-- the default is 'false' -->
 </TextSaveOptions>
 ```
 
@@ -869,7 +869,7 @@ The **WordMLSaveOptions** XML definition is presented below:
    <SaveFormat>{string}</SaveFormat>
    <FileName>{string}</FileName>
    <!-- specific part -->
-   <PrettyFormat>{true/false}</PrettyFormat><!-- the default is `false` -->
+   <PrettyFormat>{true/false}</PrettyFormat><!-- the default is 'false' -->
 </WordMLSaveOptions>
 ```
 
@@ -885,7 +885,7 @@ The **XamlFixedSaveOptions** XML definition is presented below:
    <JpegQuality>{number}</JpegQuality><!-- the default is '95' -->
    <!-- specific part -->
    <NumeralFormat>{European/ArabicIndic/EasternArabicIndic/Context/System}</NumeralFormat><!-- the default is 'European' -->
-   <OptimizeOutput>{true/false}</OptimizeOutput><!-- the default is `false` -->
+   <OptimizeOutput>{true/false}</OptimizeOutput><!-- the default is 'false' -->
    <PageCount>{number}</PageCount><!-- the default is Int32.MaxValue -->
    <PageIndex>{number}</PageIndex><!-- the default is '0' -->
    <DmlRenderingMode>{Fallback | DrawingML}</DmlRenderingMode><!-- the default is 'Fallback' -->
@@ -926,10 +926,10 @@ The **XpsSaveOptions** XML definition is presented below:
    <MetafileRenderingOptions><!-- always present -->
       <RenderingMode>{VectorWithFallback/Vector/Bitmap}<RenderingMode><!-- the default is 'VectorWithFallback' -->
       <EmfPlusDualRenderingMode>{EmfPlusWithFallback/EmfPlus/Emf}<EmfPlusDualRenderingMode><!-- the default is 'EmfPlusWithFallback' -->
-      <UseEmfEmbeddedToWmf>{true/false}</UseEmfEmbeddedToWmf><!-- the default is `true` -->
+      <UseEmfEmbeddedToWmf>{true/false}</UseEmfEmbeddedToWmf><!-- the default is 'true' -->
    </MetafileRenderingOptions>
    <NumeralFormat>{European/ArabicIndic/EasternArabicIndic/Context/System}</NumeralFormat><!-- the default is 'European' -->
-   <OptimizeOutput>{true/false}</OptimizeOutput><!-- the default is `false` -->
+   <OptimizeOutput>{true/false}</OptimizeOutput><!-- the default is 'false' -->
    <OutlineOptions><!-- always present -->
       <BookmarksOutlineLevels><!-- the default is empty  list, i.e. <BookmarksOutlineLevels/> -->
          <BookmarksOutlineLevel name="{string}">{number}</BookmarksOutlineLevel>
@@ -946,7 +946,7 @@ The **XpsSaveOptions** XML definition is presented below:
    <PageIndex>{number}</PageIndex><!-- the default is '0' -->
    <DmlRenderingMode>{Fallback | DrawingML}</DmlRenderingMode><!-- the default is 'Fallback' -->
    <DmlEffectsRenderingMode>{Simplified | None | Fine}</DmlEffectsRenderingMode><!-- the default is 'Simplified' -->
-   <UseBookFoldPrintingSettings>{true/false}</UseBookFoldPrintingSettings><!-- default is `false` -->
+   <UseBookFoldPrintingSettings>{true/false}</UseBookFoldPrintingSettings><!-- default is 'false' -->
 </XpsSaveOptions>
 ```
 

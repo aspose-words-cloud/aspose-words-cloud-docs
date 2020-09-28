@@ -6,13 +6,15 @@ aliases: [/add-new-or-update-existing-document-property/]
 weight: 10
 ---
 
-This REST API allows you to add new or update existing document property. The details of resource properties are given below:
+This REST API adds a new or updates an existing document property.
+
+The details of resource properties are given below:
 
 |Property Name|Description|
 | :- | :- |
-|Name|The name of the property.  <br>Two properties cannot have the same name; attempts to create one would return a 400 BadRequest.  <br>BuiltIn property names cannot be changed; attempts to create one would return a 400 BadRequest|
+|Name|The name of the property.|
 |Value|The value of the property.|
-|BuiltIn|A value indicating whether the property is a built-in type. Values - 1 = True, 0 = No.|
+|BuiltIn|A value indicating whether the property is a built-in type. Values - 1 = True, 0 = False.|
 
 ## REST API
 

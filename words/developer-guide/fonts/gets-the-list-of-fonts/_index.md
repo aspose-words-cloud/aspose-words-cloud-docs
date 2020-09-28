@@ -6,7 +6,7 @@ aliases: [/gets-the-list-of-fonts/]
 weight: 10
 ---
 
-This REST API allows you to get the list of fonts, available for document processing. It consists of 3 groups:
+This REST API retrieves a collection of `Font` items, which consists of three groups:
 
 - SystemFonts - Represents all TrueType fonts installed on the server.
 - AdditionalFonts - Set of fonts, which have been added by the aspose team to the server additionally.

@@ -8,7 +8,7 @@ description: "This REST API allows you to Build Report from Template and JSON Da
 weight: 10
 ---
 
-This REST API allows you to Build Report from Template and JSON Data. Please note that the SDKs of this cloud API are available in *Python, C#, Java, Ruby, PHP, Node.js, Android, Swift,* and *Go* languages.
+This REST API generates a report from a template and a JSON data source.
 
 ## REST API
 

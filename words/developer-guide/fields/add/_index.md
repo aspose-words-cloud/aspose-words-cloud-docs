@@ -7,7 +7,9 @@ aliases: [/add-field-to-a-document/]
 weight: 10
 ---
 
-This REST API allows you to add a field to a document, section or paragraph. The API returns added field data in XML/JSON format. The request parameters are:
+This REST API adds a `Field`. 
+
+The request parameters are:
 
 |Parameter Name|Type|Query String/HTTPBody|Description|
 | :- | :- | :- | :- |

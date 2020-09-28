@@ -8,7 +8,7 @@ description: "This REST API allows you to Delete all Paragraph Tab Stops in a Do
 weight: 10
 ---
 
-This REST API allows you to delete all Paragraph Tab Stops in a Document. Please note that the SDKs of this cloud API are available in *Python, C#, Java, Ruby, PHP, Node.js, Android, Swift,* and *Go* languages. 
+This REST API deletes a paragraph tab stop.
 
 ## REST API
 

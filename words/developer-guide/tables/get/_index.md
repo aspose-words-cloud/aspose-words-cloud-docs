@@ -6,7 +6,7 @@ aliases: [/get-a-table/]
 weight: 100
 ---
 
-This REST API allows you to get JSON/XML representation of one of the tables.
+This REST API retrieves a `Table`.
 
 ## REST API
 

@@ -8,7 +8,7 @@ description: "This REST API allows you to Get Style from Document Element. Pleas
 weight: 30
 ---
 
-This REST API allows you to Get Style from Document Element. Please note that the SDKs of this cloud API are available in *Python, C#, Java, Ruby, PHP, Node.js, Android, Swift,* and *Go* languages.
+This REST API retrieves a `Style` from a document element.
 
 ## REST API
 

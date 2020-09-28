@@ -6,7 +6,9 @@ aliases: [/get-document-protection-info/]
 weight: 10
 ---
 
-This REST API allows you to get document protection info. The resource properties are given below:
+This REST API retrieves protection information.
+
+The important properties are described below:
 
 |Property Name|Type|Description|
 | :- | :- | :- |
