@@ -3,7 +3,7 @@ title: "Delete a Paragraph Tab Stop in a Document"
 type: docs
 url: /paragraphs/tab-stop/delete-a-paragraph-tab-stop-in-a-document/
 aliases: [/delete-a-paragraph-tab-stop-in-a-document/]
-keywords: "List of Sections,get sections,section break word,Section Break, Word, Microsoft Word, Word Documents, Java, .NET, PHP, Ruby, Python, NodeJS, Swift, Android, Go"
+keywords: "List of Sections,get sections,section break word,Section Break, Word, Microsoft Word, Word Documents"
 description: "Delete all Paragraph Tab Stops in a Document."
 weight: 10
 ---

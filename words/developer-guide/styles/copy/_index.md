@@ -3,7 +3,7 @@ title: "Copy Style from Document Element"
 type: docs
 url: /styles/copy/
 aliases: [/copy-style-from-document-element/]
-keywords: "List of Sections,get sections,section break word,Section Break, Word, Microsoft Word, Word Documents, Java, .NET, PHP, Ruby, Python, NodeJS, Swift, Android, Go"
+keywords: "List of Sections,get sections,section break word,Section Break, Word, Microsoft Word, Word Documents"
 description: "Copy Style from Document Element."
 weight: 20
 ---

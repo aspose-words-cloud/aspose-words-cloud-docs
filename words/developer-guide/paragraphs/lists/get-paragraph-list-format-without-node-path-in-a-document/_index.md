@@ -3,7 +3,7 @@ title: "Get Paragraph List Format Without Node Path in a Document"
 type: docs
 url: /paragraphs/lists/get-paragraph-list-format-without-node-path-in-a-document/
 aliases: [/get-paragraph-list-format-without-node-path-in-a-document/]
-keywords: "List of Sections,get sections,section break word,Section Break, Word, Microsoft Word, Word Documents, Java, .NET, PHP, Ruby, Python, NodeJS, Swift, Android, Go"
+keywords: "List of Sections,get sections,section break word,Section Break, Word, Microsoft Word, Word Documents"
 description: "Get Paragraph List Format Without Node Path in a Document."
 weight: 30
 ---

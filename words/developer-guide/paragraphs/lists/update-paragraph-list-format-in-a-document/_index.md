@@ -3,8 +3,8 @@ title: "Update Paragraph List Format in a Document"
 type: docs
 url: /paragraphs/lists/update-paragraph-list-format-in-a-document/
 aliases: [/update-paragraph-list-format-in-a-document/]
-keywords: "List of Sections,get sections,section break word,Section Break, Word, Microsoft Word, Word Documents, Java, .NET, PHP, Ruby, Python, NodeJS, Swift, Android, Go"
-description: "get Update Paragraph List Format in a Document."
+keywords: "List of Sections,get sections,section break word,Section Break, Word, Microsoft Word, Word Documents"
+description: "Updates a paragraph list format in a document."
 weight: 40
 ---
 

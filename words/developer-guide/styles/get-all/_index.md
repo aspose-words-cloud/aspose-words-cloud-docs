@@ -3,7 +3,7 @@ title: "Get Styles from Document"
 type: docs
 url: /styles/get-all/
 aliases: [/get-styles-from-document/]
-keywords: "List of Sections,get sections,section break word,Section Break, Word, Microsoft Word, Word Documents, Java, .NET, PHP, Ruby, Python, NodeJS, Swift, Android, Go"
+keywords: "List of Sections,get sections,section break word,Section Break, Word, Microsoft Word, Word Documents"
 description: "Get Styles from Document."
 weight: 40
 ---

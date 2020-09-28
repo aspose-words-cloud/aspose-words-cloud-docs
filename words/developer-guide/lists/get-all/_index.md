@@ -4,7 +4,7 @@ second_title: "Lists in a Document"
 type: docs
 url: /lists/get-all/
 aliases: [/get-all-lists-from-document/]
-keywords: "List of Sections, get sections, section break word, section break, Word, Microsoft Word, Word Documents, Java, .NET, PHP, Ruby, Python, NodeJS, Swift, Android, Go"
+keywords: "List of Sections, get sections, section break word, section break, Word, Microsoft Word, Word Documents"
 description: "Get all lists of documents."
 weight: 20
 ---

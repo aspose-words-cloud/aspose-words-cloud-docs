@@ -4,7 +4,7 @@ second_title: "Mail Merge"
 type: docs
 url: /mail-merge/populate-with-data/
 aliases: [/populate-mailmerge-template-with-data/]
-keywords: "Populate, Mail Merge, Word, Microsoft Word, Java, .NET, PHP, Ruby, Python, NodeJS, Swift, Android, Go"
+keywords: "Populate, Mail Merge, Word, Microsoft Word"
 description: "Populate Mail Merge template with data."
 weight: 30
 ---

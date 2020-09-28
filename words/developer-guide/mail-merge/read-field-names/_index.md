@@ -4,7 +4,7 @@ second_title: "Mail Merge"
 type: docs
 url: /mail-merge/read-field-names/
 aliases: [/read-mailmerge-document-field-names/]
-keywords: "Read, mustache template, online, Mail Merge, Word, Microsoft Word, Java, .NET, PHP, Ruby, Python, NodeJS, Swift, Android, Go"
+keywords: "Read, mustache template, online, Mail Merge, Word, Microsoft Word"
 description: "Get MailMerge Field Names in a document."
 weight: 50
 ---

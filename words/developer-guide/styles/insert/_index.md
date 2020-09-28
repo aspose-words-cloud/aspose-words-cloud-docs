@@ -3,7 +3,7 @@ title: "Insert Style on Document Element"
 type: docs
 url: /styles/insert/
 aliases: [/insert-style-on-document-element/]
-keywords: "List of Sections,get sections,section break word,Section Break, Word, Microsoft Word, Word Documents, Java, .NET, PHP, Ruby, Python, NodeJS, Swift, Android, Go"
+keywords: "List of Sections,get sections,section break word,Section Break, Word, Microsoft Word, Word Documents"
 description: "Insert Style on Document Element."
 weight: 50
 ---

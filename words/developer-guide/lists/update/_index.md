@@ -4,7 +4,7 @@ second_title: "Lists in a Document"
 type: docs
 url: /lists/update/
 aliases: [/update-list-in-a-document/]
-keywords: "List of Sections,get sections,section break word,Section Break, Word, Microsoft Word, Word Documents, Java, .NET, PHP, Ruby, Python, NodeJS, Swift, Android, Go"
+keywords: "List of Sections,get sections,section break word,Section Break, Word, Microsoft Word, Word Documents"
 description: "Update a list of documents."
 weight: 40
 ---

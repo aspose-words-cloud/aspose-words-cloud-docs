@@ -3,8 +3,8 @@ title: "Get a Particular Section from a Word Document"
 type: docs
 url: /sections/get/
 aliases: [/get-a-particular-section-from-a-word-document/]
-keywords: "List of Sections,get sections,section break word,Section Break, Word, Microsoft Word, Word Documents, Java, .NET, PHP, Ruby, Python, NodeJS, Swift, Android, Go"
-description: "get a specific section or section break that are contained in the document."
+keywords: "List of Sections,get sections,section break word,Section Break, Word, Microsoft Word, Word Documents"
+description: "Gets a specific section or a section break."
 weight: 20
 ---
 

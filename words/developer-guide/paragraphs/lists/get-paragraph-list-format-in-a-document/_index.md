@@ -3,7 +3,7 @@ title: "Get Paragraph List Format in a Document"
 type: docs
 url: /paragraphs/lists/get-paragraph-list-format-in-a-document/
 aliases: [/get-paragraph-list-format-in-a-document/]
-keywords: "List of Sections,get sections,section break word,Section Break, Word, Microsoft Word, Word Documents, Java, .NET, PHP, Ruby, Python, NodeJS, Swift, Android, Go"
+keywords: "List of Sections,get sections,section break word,Section Break, Word, Microsoft Word, Word Documents"
 description: "Get Paragraph List Format in a Document."
 weight: 20
 ---

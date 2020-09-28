@@ -4,7 +4,7 @@ second_title: "Mail Merge"
 type: docs
 url: /mail-merge/populate-with-data-online/
 aliases: [/populate-mailmerge-template-with-data-online/]
-keywords: "Populate, mustache template, online, Mail Merge, Word, Microsoft Word, Java, .NET, PHP, Ruby, Python, NodeJS, Swift, Android, Go"
+keywords: "Populate, mustache template, online, Mail Merge, Word, Microsoft Word"
 description: "Populate a mail merge or mustache template with data online. You can download the SDK of your favorite language and start programming in the smartest way."
 weight: 40
 ---
