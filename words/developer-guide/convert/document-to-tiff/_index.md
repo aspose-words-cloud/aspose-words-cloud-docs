@@ -4,7 +4,7 @@ second_title: "Convert Documents"
 type: docs
 url: /convert/document-to-tiff/
 aliases: [/convert-document-to-tiff-with-detailed-settings/]
-keywords: "tiff file, microsoft word document,convert to, word to doc, save word file as pdf,convert word document to html,tiff file,Python, C#, Java, Ruby, PHP, NodeJS, Go, Android, Swift"
+keywords: "tiff file, Microsoft Word document,convert to, word to doc, save word file as pdf,convert word document to html,tiff file,Python, C#, Java, Ruby, PHP, NodeJS, Go, Android, Swift"
 description: "Convert Word document to the TIFF file with additional settings."
 weight: 30
 ---

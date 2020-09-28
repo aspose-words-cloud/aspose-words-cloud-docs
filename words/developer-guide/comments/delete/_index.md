@@ -19,7 +19,7 @@ You can also use cURL command-line utility to test this REST API. The following 
 {{< tab tabNum="1" >}}
 
 ```bash
-# cURL example to delete a comment from word document
+# cURL example to delete a comment from a Word document
 curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/comments/0" \
 -X DELETE \
 -H "Content-Type: application/json" \

@@ -3,8 +3,8 @@ title: "Page Numbers"
 type: docs
 url: /insert-page-numbers/
 aliases: [/insert-page-numbers-in-a-document/]
-keywords: "page numbers in word, microsoft word page numbers, how to add page numbers in word,add page numbers to word"
-description: "Insert page numbers in word documents. This article reveals that how to add page numbers in word documents with formatted and arranged manners using most frequently used options."
+keywords: "page numbers in word, Microsoft Word page numbers, how to add page numbers in Word, add page numbers to Word"
+description: "Insert page numbers in Word documents. This article reveals that how to add page numbers in Word documents with formatted and arranged manners using most frequently used options."
 weight: 190
 ---
 
