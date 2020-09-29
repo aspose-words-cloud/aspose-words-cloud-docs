@@ -1,10 +1,11 @@
 ---
-title: "Aspose.Words Cloud for Dynamics CRM"
+title: "Dynamics CRM"
+second_title: "Aspose Words Cloud"
 type: docs
 url: /plugins/dynamics-crm/
 aliases: [/aspose-words-cloud-for-dynamics-crm/]
 description: "Aspose.Words Cloud for Dynamics CRM"
-weight: 30
+weight: 20
 ---
 
 Microsoft Dynamics CRM is a customer relationship management software package developed by Microsoft. Out of the box, the product focuses mainly on Sales, Marketing, and Service (help desk) sectors, but Microsoft has been marketing Dynamics CRM as an XRM platform and has been encouraging partners to use its proprietary (.NET based) framework to customize it. It is part of the Microsoft Dynamics family of business applications.

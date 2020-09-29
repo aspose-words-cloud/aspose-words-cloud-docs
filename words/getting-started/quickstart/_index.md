@@ -11,11 +11,11 @@ This article provides introductory information on how to get started with Aspose
 
 ## Create an account
 
-For details on how to create a new account please check [Create a new Account](https://docs.aspose.cloud/display/storagecloud/Creating+and+Managing+Account).
+For details on how to create a new account please check [Create a new Account](https://docs.aspose.cloud/storage/creating-and-managing-account/).
 
 ## Create an API Client App
 
-Before you can make any requests to Aspose Cloud APIs you need to [create an API Client App](https://docs.aspose.cloud/display/storagecloud/Create+New+App+and+Get+App+Key+and+SID).
+Before you can make any requests to Aspose Cloud APIs you need to [create an API Client App](https://docs.aspose.cloud/storage/create-new-app-and-get-app-key-and-sid/).
 
 This will give you **App SID** and **App Key** credentials, which you can use to invoke Aspose Cloud APIs.
 

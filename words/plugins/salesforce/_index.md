@@ -1,10 +1,11 @@
 ---
-title: "Aspose.Words Cloud for SalesForce"
+title: "SalesForce"
+second_title: "Aspose Words Cloud"
 type: docs
 url: /plugins/salesforce/
 aliases: [/aspose-words-cloud-for-salesforce/]
 description: "Aspose.Words Cloud for Salesforce"
-weight: 20
+weight: 30
 ---
 
 Apex is a strongly typed, object-oriented programming language that allows developers to execute flow and transaction control statements on the Force.com platform server in conjunction with calls to the Force.com​ API.
