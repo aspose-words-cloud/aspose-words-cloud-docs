@@ -3,7 +3,7 @@ title: "How to Run the Examples"
 type: docs
 url: /getting-started/how-to-run-the-examples/
 aliases: [/how-to-run-the-examples/]
-description: "how to run the examples"
+description: "How to run the examples"
 weight: 60
 ---
 

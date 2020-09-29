@@ -3,14 +3,14 @@ title: "Using Cloud AutoMerge for Dynamics CRM"
 type: docs
 url: /plugins/dynamics-crm/using-cloud-automerge/
 aliases: [/using-cloud-automerge-for-dynamics-crm/]
-description: "using cloud automerge for dynamics crm"
+description: "Using Cloud AutoMerge for Dynamics CRM"
 weight: 20
 ---
 
 Below are the steps to create and upload Template in CRM:
 
 - Open word and create a template.
-- Insert MailMerge fields for data comming from CRM.
+- Insert MailMerge fields for data coming from CRM.
 
 ![todo:image_alt_text](/words/plugins/dynamics-crm/using-cloud-automerge/using-cloud-automerge-for-dynamics-crm_1.png).
 

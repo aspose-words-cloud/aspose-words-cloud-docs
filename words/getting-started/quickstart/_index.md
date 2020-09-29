@@ -3,11 +3,11 @@ title: "Quickstart"
 type: docs
 url: /getting-started/quickstart/
 aliases: [/quickstart/]
-description: "quickstart"
+description: "Learn how to get started quickly with Aspose.Words Cloud API and SDKs."
 weight: 20
 ---
 
-This article provides an introductory information on how to get started with Aspose.Words Cloud API and SDKs.
+This article provides introductory information on how to get started with Aspose.Words Cloud API and SDKs.
 
 ## Create an account
 

@@ -4,7 +4,7 @@ second_title: "Bookmarks in a Word Document"
 type: docs
 url: /bookmarks/read/
 aliases: [/reading-a-bookmark-by-name/]
-description: "Read bookmarks in a Word document"
+description: "Read a bookmark in a Word document"
 weight: 20
 ---
 

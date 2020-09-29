@@ -3,7 +3,7 @@ title: "Supported File Formats"
 type: docs
 url: /getting-started/supported-file-formats/
 aliases: [/supported-file-formats/]
-description: "supported file formats"
+description: "A complete list of file formats supported by the Aspose.Words Cloud API"
 weight: 30
 ---
 

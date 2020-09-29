@@ -33,7 +33,7 @@ You can also use cURL command-line utility to test this REST API. The following 
 {{< tab tabNum="1" >}}
 
 ```bash
-# cURL example to get a list of paragraphs that are contained in the document or in the section
+# cURL example to get a list of paragraphs that are contained in a document or in a section
 curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs" \
 -X GET \
 -H "Content-Type: application/json" \

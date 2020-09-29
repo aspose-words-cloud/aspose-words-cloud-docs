@@ -3,7 +3,7 @@ title: "Aspose.Words Cloud for SalesForce"
 type: docs
 url: /plugins/salesforce/
 aliases: [/aspose-words-cloud-for-salesforce/]
-description: "aspose.words cloud for salesforce"
+description: "Aspose.Words Cloud for Salesforce"
 weight: 20
 ---
 
@@ -11,7 +11,7 @@ Apex is a strongly typed, object-oriented programming language that allows devel
 
 ## Aspose.Words Cloud for Salesforce
 
-Aspose.Words for Salesforce allows APEX and Force.com developers to work with Apose’s REST API. Integrating Aspose.Words Cloud for Salesforce into your Salesforce app is simple and effective. It’s a cloud solution, so you don’t have to install anything, and it integrates with other cloud services too. Aspose.Words Cloud for Salesforce provides you the ability to use all the document processing features right inside the Salesforce platform painlessly.
+Aspose.Words for Salesforce allows APEX and Force.com developers to work with Aspose’s REST API. Integrating Aspose.Words Cloud for Salesforce into your Salesforce app is simple and effective. It’s a cloud solution, so you don’t have to install anything, and it integrates with other cloud services too. Aspose.Words Cloud for Salesforce provides you the ability to use all the document processing features right inside the Salesforce platform painlessly.
 
 Aspose.Words Cloud for Salesforce is a series of examples we provide to our users to easily manipulate documents on Salesforce platform using Aspose Cloud APIs.
 

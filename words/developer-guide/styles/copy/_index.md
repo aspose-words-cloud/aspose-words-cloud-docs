@@ -4,7 +4,7 @@ type: docs
 url: /styles/copy/
 aliases: [/copy-style-from-document-element/]
 keywords: ""
-description: "copy style from an element in a Word document"
+description: "Copy a style from an element in a Word document"
 weight: 20
 ---
 

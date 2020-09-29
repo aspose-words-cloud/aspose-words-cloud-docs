@@ -4,7 +4,7 @@ second_title: "Aspose Words Cloud"
 type: docs
 url: /release-notes/2016/1-24-0/
 aliases: [/aspose-words-for-cloud-1-24-0-release-notes/]
-description: "Aspose Words Cloud 1.24.0 release notes"
+description: "Aspose.Words Cloud 1.24.0 Release Notes"
 weight: 80
 ---
 

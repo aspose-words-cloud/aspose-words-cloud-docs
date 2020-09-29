@@ -17,54 +17,69 @@ A range can be specified in one of the three ways:
 
 ### Position in a document based on nodes IDs
 
+```HTML
 /range/{startId}/{endId}
-- {startId} - id of the node from which the range starts (included). Required.
-- {endId} - id of the node at which the range ends (excluded). Optional. If missed, the end of the range corresponds to the end of the node with id = startId, i.e. the range is limited by the bounds of "startId node".
+```
 
-#### Example
+, where:
 
-A range consisting of the second and third paragraphs.
+- *{startId}* - id of the node from which the range starts (included). Required.
+- *{endId}* - id of the node at which the range ends (excluded). Optional. If missed, the end of the range corresponds to the end of the node with id = startId, i.e. the range is limited by the bounds of "startId node".
 
+The following is an example of a range consisting of the second and third paragraphs:
+
+```HTML
 /range/id0.1/id0.3
+```
 
 ### Position in a document based on nodes pseudo names
 
+```HTML
 /range/{startPseudoName}/{endPseudoName}
-- {startPseudoName} - a pseudo name of the node from which the range starts (included). Required.
-- {endPseudoName} - a pseudo name of the node at which the range ends (excluded). Optional. If missed, the end of the range corresponds to the end of the node with pseudoname = startPseudoName, i.e. the range is limited by the bounds of "startPseudoName node".
+```
 
-**Available pseudonames**
+, where:
 
-- TableN for tables.
-- ImageN for images.
+- *{startPseudoName}* - a pseudo name of the node from which the range starts (included). Required.
+- *{endPseudoName}* - a pseudo name of the node at which the range ends (excluded). Optional. If missed, the end of the range corresponds to the end of the node with pseudoname = startPseudoName, i.e. the range is limited by the bounds of "startPseudoName node".
 
-#### Example
+The following **PseudoNames** are available:
 
-A range consisting of the text from the first table and after the table till the second table.
+- *TableN* for tables.
+- *ImageN* for images.
 
+An example of a range, consisting of the text from the first table and after the table till the second table, is presented below:
+
+```HTML
 /range/table0/table1
+```
 
 ### Positions inside nodes
 
 A certain position inside a node can be specified with a selector that is separated from a node identifier with a colon.
 
+```HTML
 /range/{startIdentifier}:{startSelector}/{endIdentifier}:{endSelector}
-- {startIdentifier} - an identifier (id or a pseudo name) of the node from which the range starts (included). Required.
-- {endIdentifier} - an identifier (id or a pseudo name) of the node at which the range ends (excluded). Optional. If missed, the end of the range corresponds to the end of the node with identifier = startIdentifier, i.e. the range is limited by the bounds of "startIdentifier node".
-- {startSelector} - a selector that specifies a certain position inside the start node (included). Optional. If missed, the start of the range corresponds to the beginning of the start node.
-- {endSelector} - a selector that specifies a certain position inside the end node (excluded). Optional. If missed, the end of the range corresponds to the element before the beginning of the end node.
+```
+
+, where:
+
+- *{startIdentifier}* - an identifier (id or a pseudo name) of the node from which the range starts (included). Required.
+- *{endIdentifier}* - an identifier (id or a pseudo name) of the node at which the range ends (excluded). Optional. If missed, the end of the range corresponds to the end of the node with identifier = startIdentifier, i.e. the range is limited by the bounds of "startIdentifier node".
+- *{startSelector}* - a selector that specifies a certain position inside the start node (included). Optional. If missed, the start of the range corresponds to the beginning of the start node.
+- *{endSelector}* - a selector that specifies a certain position inside the end node (excluded). Optional. If missed, the end of the range corresponds to the element before the beginning of the end node.
 
 Selectors cannot be used without a node identifier.
 
-**Available selectors**
+The following **Selectors** are available:
 
-end - specifies the end of the node ("end" here is supposed to be a virtual node after the last child node, i.e. it means that the whole content of the node should be included for an end node).
+- *end* - specifies the end of the node ("end" here is supposed to be a virtual node after the last child node, i.e. it means that the whole content of the node should be included for an end node).
 
-#### Example
+An example of a range, consisting of all nodes starting from the end of the 1st table till the beginning of the 6th paragraph, is presented below:
 
-A range consisting of all nodes starting from the end of the 1st table till the beginning of the 6th paragraph.
-
+```HTML
 /range/table0:end/id0.5
+```
 
 ## Operations with a Range
 
@@ -102,9 +117,11 @@ The range should be saved as a separate document. The original document must not
 
 ## Use cases
 
-**Use case 1: A user wants to get a text from the first two paragraphs in the document.**
+Some of the common use cases are presented below.
 
-First, he needs to call [Paragraph API](https://apireference.aspose.cloud/words/#/Paragraphs/GetParagraphs) to get a list of paragraphs that are contained in the document.
+### Use case 1. A user wants to get a text from the first two paragraphs in the document
+
+First, he needs to call [Paragraph API](https://apireference.aspose.cloud/words/#/Paragraphs/GetParagraphs) to get a list of paragraphs that are contained in a document.
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
@@ -118,7 +135,7 @@ curl -v "https://api.aspose.cloud/connect/token" \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
-# cURL example to get a list of paragraphs that are contained in the document or in the section
+# cURL example to get a list of paragraphs that are contained in a document or in a section
 curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/paragraphs" \
 -X GET \
 -H "Content-Type: application/json" \
@@ -188,15 +205,15 @@ curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/range/id0.0/id0.2:e
 
 ```JAVA
 {
-  "Text": "You might find it useful to extract only the text from a document. This is useful if you are passing the text to another API service. All the text in a document is contained in text runs of paragraph elements. Text can appear in three types of the document's structural elements.  The resulting dump can help you understand the structure of Google Docs files in general, or help you troubleshoot issues around the structure and content of a particular document. "
-}```
+  "Text": "You might find it useful to extract only the text from a document. This is useful if you are passing the text to another API service. All the text in a document is contained in text runs of paragraph elements. Text can appear in three types of the document's structural elements.  The resulting dump can help you understand the structure of Google Docs files in general, or help you troubleshoot issues around the structure and content of a particular document."
+}```
 
 {{< /tab >}}
 {{< /tabs >}}
 
-**Use case 2: A user wants to save the selected range as a new document.**
+### Use case 2. A user wants to save the selected range as a new document
 
-First, he needs to call [Paragraph API](https://apireference.aspose.cloud/words/#/Paragraphs/GetParagraphs) to get a list of paragraphs that are contained in the document.
+First, he needs to call [Paragraph API](https://apireference.aspose.cloud/words/#/Paragraphs/GetParagraphs) to get a list of paragraphs that are contained in a document.
 
 {{< tabs tabTotal="2" tabID="7" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
@@ -210,7 +227,7 @@ curl -v "https://api.aspose.cloud/connect/token" \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
-# cURL example to get a list of paragraphs that are contained in the document or in the section
+# cURL example to get a list of paragraphs that are contained in a document or in a section
 curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/paragraphs" \
 -X GET \
 -H "Content-Type: application/json" \
@@ -255,7 +272,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/paragraphs" \
       "Rel": "self"
     }
   }
-}```
+}```
 
 {{< /tab >}}
 {{< /tabs >}}
@@ -448,7 +465,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/range/id0.0/id0.2:e
       }
     }
   }
-}```
+}```
 
 {{< /tab >}}
 {{< /tabs >}}
@@ -457,9 +474,9 @@ curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/range/id0.0/id0.2:e
 
 Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Please check out the [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs.
 
-The following set of **Code Examples** for various SDKs demonstrates how to use this REST API in your projects:
+The following set of **Code Examples** for various SDKs demonstrates how to use this REST API in your projects.
 
-**Use case 1: Get text from the first two paragraphs in the document.**
+### Use case 1. Get text from the first two paragraphs in the document.
 
 {{< tabs tabTotal="4" tabID="13" tabName1="C#" tabName2="Android" tabName3="Swift" tabName4="Go" >}}
 {{< tab tabNum="1" >}}
@@ -476,7 +493,7 @@ The following set of **Code Examples** for various SDKs demonstrates how to use 
 {{< /tab >}}
 {{< /tabs >}}
 
-**Use case 2: Save the selected range as a new document.**
+### Use case 2. Save the selected range as a new document.
 
 {{< tabs tabTotal="4" tabID="14" tabName1="C#" tabName2="Android" tabName3="Swift" tabName4="Go" >}}
 {{< tab tabNum="1" >}}

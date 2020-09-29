@@ -2,7 +2,7 @@
 title: "Plugins"
 type: docs
 url: /plugins/
-description: "plugins"
+description: "Aspose.Words Cloud Plugins"
 weight: 30
 ---
 
