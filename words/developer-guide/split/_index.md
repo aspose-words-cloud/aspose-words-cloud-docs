@@ -11,7 +11,7 @@ weight: 240
 
 Splitting a large Word document into multiple smaller documents is a common document automation task. You must have been in a situation when you have a massive DOCX, DOC, RTF file, requiring urgent team work. In this case, it is pretty necessary to split your document into several parts to speed up the collaborative workflow.
 
-Splitting a Word document by hand with manual copying and pasting may be along, labor-intensive, sub-optimal approach.
+Splitting a Word document by hand with manual copying and pasting may be a long, labor-intensive, sub-optimal approach.
 
 Instead you can improve your efficiency dramatically with this API by splitting Word document into multiple files, while specifying operation parameters as you need. You can easily split your DOCX, DOC by odd and even page numbers, by a specific page or every page, and much more.
 
