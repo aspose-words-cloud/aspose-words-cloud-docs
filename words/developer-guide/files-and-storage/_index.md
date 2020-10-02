@@ -20,6 +20,7 @@ Aspose.Words Cloud provides helper functions to work with files uploaded to Asp
 
 You can use cURL command-line utility to test this REST API. The following are a few examples of using cURL.
 
+{{< nosnippet >}}
 {{< tabs tabTotal="1" tabID="1" tabName1="Request" >}}
 {{< tab tabNum="1" >}}
 
@@ -34,6 +35,7 @@ curl -v -X GET "https://api.aspose.cloud/v4.0/words/storage/file/sample.docx" \
 
 {{< /tab >}}
 {{< /tabs >}}
+{{< /nosnippet >}}
 
 ## Uploading a file from Cloud Storage
 
@@ -45,6 +47,7 @@ curl -v -X GET "https://api.aspose.cloud/v4.0/words/storage/file/sample.docx" \
 
 The following are a few examples of using cURL:
 
+{{< nosnippet >}}
 {{< tabs tabTotal="2" tabID="4" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
 
@@ -72,6 +75,7 @@ curl  -v -X PUT "https://api.aspose.cloud/v4.0/words/storage/file/sample.docx" \
 
 {{< /tab >}}
 {{< /tabs >}}
+{{< /nosnippet >}}
 
 ## Copying a file to a new location on Cloud Storage
 
@@ -83,6 +87,7 @@ curl  -v -X PUT "https://api.aspose.cloud/v4.0/words/storage/file/sample.docx" \
 
 The following are a few examples of using cURL:
 
+{{< nosnippet >}}
 {{< tabs tabTotal="1" tabID="8" tabName1="Request" >}}
 {{< tab tabNum="1" >}}
 
@@ -96,6 +101,7 @@ curl -v -X PUT "https://api.aspose.cloud/v4.0/words/storage/file/copy/sample.doc
 
 {{< /tab >}}
 {{< /tabs >}}
+{{< /nosnippet >}}
 
 ## Moving a file to a new location on Cloud Storage
 
@@ -107,6 +113,7 @@ curl -v -X PUT "https://api.aspose.cloud/v4.0/words/storage/file/copy/sample.doc
 
 The following are a few examples of using cURL:
 
+{{< nosnippet >}}
 {{< tabs tabTotal="1" tabID="11" tabName1="Request" >}}
 {{< tab tabNum="1" >}}
 
@@ -121,6 +128,7 @@ curl -v -X PUT "https://api.aspose.cloud/v4.0/words/storage/file/move/input.docx
 
 {{< /tab >}}
 {{< /tabs >}}
+{{< /nosnippet >}}
 
 ## Deleting a file on Cloud Storage
 
@@ -132,6 +140,7 @@ curl -v -X PUT "https://api.aspose.cloud/v4.0/words/storage/file/move/input.docx
 
 The following are a few examples of using cURL:
 
+{{< nosnippet >}}
 {{< tabs tabTotal="1" tabID="14" tabName1="Request" >}}
 {{< tab tabNum="1" >}}
 
@@ -146,3 +155,4 @@ curl -v -X DELETE "https://api.aspose.cloud/v4.0/words/storage/file/input.docx" 
 
 {{< /tab >}}
 {{< /tabs >}}
+{{< /nosnippet >}}

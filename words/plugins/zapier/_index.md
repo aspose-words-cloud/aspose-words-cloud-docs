@@ -7,13 +7,14 @@ description: "Instructions to connect Aspose Words Cloud with Zapier."
 weight: 50
 ---
 
-Connect Aspose.Words Cloud to hundreds of other apps with Zapier
+Connect Aspose.Words Cloud to hundreds of other apps with Zapier.
 
 [Zapier](https://zapier.com/apps/asposewords/integrations) lets you connect Aspose.Words Cloud to 2,000+ other web services. Automated connections called Zaps, set up in minutes with no coding, can automate your day-to-day tasks and build workflows between apps that otherwise wouldn't be possible.
 
 Each Zap has one app as the **Trigger**, where your information comes from and which causes one or more **Actions** in other apps, where your data gets sent automatically. 
 
 ## Getting Started with Zapier
+
 Sign up for a free [Zapier](https://zapier.com/apps/asposewords/integrations) account, from there you can jump right in. To help you hit the ground running, here are some popular pre-made Zaps.
 
 <script src="https://zapier.com/zapbook/embed/widget.js?services=asposewords&container=true&limit=5,"></script>

@@ -123,6 +123,7 @@ Some of the common use cases are presented below.
 
 First, he needs to call [Paragraph API](https://apireference.aspose.cloud/words/#/Paragraphs/GetParagraphs) to get a list of paragraphs that are contained in a document.
 
+{{< nosnippet >}}
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
 
@@ -185,9 +186,11 @@ curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/paragraphs" \
 
 {{< /tab >}}
 {{< /tabs >}}
+{{< /nosnippet >}}
 
 He sees that the first two paragraphs correspond to id0.0 and id0.2 (NodeId in the response), so he calls Range API to get the text he requires:
 
+{{< nosnippet >}}
 {{< tabs tabTotal="2" tabID="4" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
 
@@ -210,11 +213,13 @@ curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/range/id0.0/id0.2:e
 
 {{< /tab >}}
 {{< /tabs >}}
+{{< /nosnippet >}}
 
 ### Use case 2. A user wants to save the selected range as a new document
 
 First, he needs to call [Paragraph API](https://apireference.aspose.cloud/words/#/Paragraphs/GetParagraphs) to get a list of paragraphs that are contained in a document.
 
+{{< nosnippet >}}
 {{< tabs tabTotal="2" tabID="7" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
 
@@ -276,9 +281,11 @@ curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/paragraphs" \
 
 {{< /tab >}}
 {{< /tabs >}}
+{{< /nosnippet >}}
 
 Now, he calls the following API to save the first two paragraphs (correspond to id0.0 and id0.2 in the response) as a new document:
 
+{{< nosnippet >}}
 {{< tabs tabTotal="2" tabID="10" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
 
@@ -469,6 +476,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/range/id0.0/id0.2:e
 
 {{< /tab >}}
 {{< /tabs >}}
+{{< /nosnippet >}}
 
 ## Cloud SDK Family
 
@@ -478,6 +486,7 @@ The following set of **Code Examples** for various SDKs demonstrates how to use 
 
 ### Use case 1. Get text from the first two paragraphs in the document.
 
+{{< nosnippet >}}
 {{< tabs tabTotal="4" tabID="13" tabName1="C#" tabName2="Android" tabName3="Swift" tabName4="Go" >}}
 {{< tab tabNum="1" >}}
 {{< gist "aspose-cloud" "19215e2ac3d61ca0fd78d1ca2f1c1023" "GetParagraphsText.cs" >}}
@@ -492,9 +501,11 @@ The following set of **Code Examples** for various SDKs demonstrates how to use 
 {{< gist "aspose-cloud" "068ce2149de5ad69ab516209b7ae82cf" "GetParagraphsText.go" >}}
 {{< /tab >}}
 {{< /tabs >}}
+{{< /nosnippet >}}
 
 ### Use case 2. Save the selected range as a new document.
 
+{{< nosnippet >}}
 {{< tabs tabTotal="4" tabID="14" tabName1="C#" tabName2="Android" tabName3="Swift" tabName4="Go" >}}
 {{< tab tabNum="1" >}}
 {{< gist "aspose-cloud" "19215e2ac3d61ca0fd78d1ca2f1c1023" "SaveTheSelectedRanageAsANewDocument.cs" >}}
@@ -509,3 +520,4 @@ The following set of **Code Examples** for various SDKs demonstrates how to use 
 {{< gist "aspose-cloud" "068ce2149de5ad69ab516209b7ae82cf" "SaveTheSelectedRanageAsANewDocument.go" >}}
 {{< /tab >}}
 {{< /tabs >}}
+{{< /nosnippet >}}

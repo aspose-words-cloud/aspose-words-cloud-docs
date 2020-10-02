@@ -44,6 +44,7 @@ The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Convert/Sa
 
 You can also use cURL command-line utility to test this REST API. The following are a few examples of using cURL, supplied with a sample **Input Document** [demo.pdf](demo.pdf). The **Output Document** would be as follows: [demo.docx](demo.docx).
 
+{{< nosnippet >}}
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
 
@@ -87,6 +88,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/demo.pdf/saveAs" \
 
 {{< /tab >}}
 {{< /tabs >}}
+{{< /nosnippet >}}
 
 ## Cloud SDK Family
 
@@ -96,6 +98,7 @@ Please check out the [GitHub repository](https://github.com/aspose-words-cloud) 
 
 The following set of **Code Examples** for various SDKs demonstrates how to use this REST API in your projects:
 
+{{< nosnippet >}}
 {{< tabs tabTotal="9" tabID="4" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Python" tabName5="Ruby" tabName6="Node.js" tabName7="Android" tabName8="Swift" tabName9="Go" >}}
 {{< tab tabNum="1" >}}
 {{< gist "aspose-cloud" "9fa2e714041dd6cf1071eb307b623416" "ConvertPDFDocumentToWord.cs" >}}
@@ -125,6 +128,7 @@ The following set of **Code Examples** for various SDKs demonstrates how to use 
 {{< gist "aspose-cloud" "068ce2149de5ad69ab516209b7ae82cf" "ConvertPDFDocumentToWord.go" >}}
 {{< /tab >}}
 {{< /tabs >}}
+{{< /nosnippet >}}
 
 ## See also
 

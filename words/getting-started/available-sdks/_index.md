@@ -17,6 +17,7 @@ Our supported SDKs are 100% tested. They are open source and released to the pub
 
 ## Cloud SDK Family
 
+{{< nosnippet >}}
 {{< tabs tabTotal="10" tabID="1" tabName1=".NET" tabName2="C++" tabName3="Java" tabName4="PHP" tabName5="Ruby" tabName6="Python" tabName7="Node.js" tabName8="Android" >}}
 {{< tab tabNum="1" >}}
 
@@ -75,6 +76,7 @@ You can download the Android SDK from the [GitHub repository](https://github.com
 
 {{< /tab >}}
 {{< /tabs >}}
+{{< /nosnippet >}}
 
 ## cURL
 
@@ -82,6 +84,7 @@ cURL is a cross platform command-line tool for getting or sending data including
 
 To make these requests you need to get **JSON Web Token** (JWT).
 
+{{< nosnippet >}}
 {{< tabs tabTotal="2" tabID="2" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
 
@@ -107,3 +110,4 @@ curl -v "https://api.aspose.cloud/connect/token" \
 ```
 {{< /tab >}}
 {{< /tabs >}}
+{{< /nosnippet >}}

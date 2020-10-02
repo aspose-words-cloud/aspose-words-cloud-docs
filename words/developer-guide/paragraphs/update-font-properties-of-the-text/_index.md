@@ -72,6 +72,7 @@ You can also use cURL command-line utility to test this REST API. The following 
 
 You can use a sample **Input Document** [SampleWordDocument.docx](SampleWordDocument.docx). The **Output Document** would be as follows: [ResultWordDocument.docx](ResultWordDocument.docx).
 
+{{< nosnippet >}}
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
 
@@ -166,6 +167,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/
 
 {{< /tab >}}
 {{< /tabs >}}
+{{< /nosnippet >}}
 
 ## Cloud SDK Family
 
@@ -175,6 +177,7 @@ Please check out the [GitHub repository](https://github.com/aspose-words-cloud) 
 
 The following set of **Code Examples** for various SDKs demonstrates how to use this REST API in your projects:
 
+{{< nosnippet >}}
 {{< tabs tabTotal="8" tabID="4" tabName1="C#" tabName2="Java" tabName3="Python" tabName4="Ruby" tabName5="Node.js" tabName6="Android" tabName7="Swift" tabName8="Go" >}}
 {{< tab tabNum="1" >}}
 {{< gist "aspose-cloud" "19215e2ac3d61ca0fd78d1ca2f1c1023" "UpdateDocumentParagraphRunFont.cs" >}}
@@ -201,3 +204,4 @@ The following set of **Code Examples** for various SDKs demonstrates how to use 
 {{< gist "aspose-cloud" "068ce2149de5ad69ab516209b7ae82cf" "UpdateDocumentParagraphRunFont.go" >}}
 {{< /tab >}}
 {{< /tabs >}}
+{{< /nosnippet >}}

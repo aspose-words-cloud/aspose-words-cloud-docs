@@ -46,6 +46,7 @@ You can also use cURL command-line utility to test this REST API. The following 
 
 You can use a sample **Input Document** [SampleMailMergeTemplate.docx](/words/mail-merge/SampleMailMergeTemplate.docx) and a sample **Mail Merge Data** [SampleMailMergeTemplateData.txt](/words/mail-merge/SampleMailMergeTemplateData.txt). The **Output Document** would be as follows: [TestPostDocumentExecuteMailMerge.docx](/words/mail-merge/TestPostDocumentExecuteMailMerge.docx).
 
+{{< nosnippet >}}
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
 
@@ -239,11 +240,13 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleMailMergeTemplate.docx/MailMe
 
 {{< /tab >}}
 {{< /tabs >}}
+{{< /nosnippet >}}
 
 **Case 2**: Mustache Template
 
 You can use a sample **Input Document** [TestExecuteTemplate.doc](/words/mail-merge/TestExecuteTemplate.doc) and a sample **Mail Merge Data** [TestExecuteTemplateData.txt](/words/mail-merge/TestExecuteTemplateData.txt). The **Output Document** would be as follows: TestPostDocumentExecuteMailMergeResult.docx.
 
+{{< nosnippet >}}
 {{< tabs tabTotal="2" tabID="4" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
 
@@ -437,6 +440,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/TestExecuteTemplate.doc/MailMerge?d
 
 {{< /tab >}}
 {{< /tabs >}}
+{{< /nosnippet >}}
 
 ## Cloud SDK Family
 
@@ -446,6 +450,7 @@ Please check out the [GitHub repository](https://github.com/aspose-words-cloud) 
 
 The following set of **Code Examples** for various SDKs demonstrates how to use this REST API in your projects:
 
+{{< nosnippet >}}
 {{< tabs tabTotal="9" tabID="7" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Python" tabName5="Ruby" tabName6="Node.js" tabName7="Android" tabName8="Swift" tabName9="Go" >}}
 {{< tab tabNum="1" >}}
 {{< gist "aspose-cloud" "9fa2e714041dd6cf1071eb307b623416" "PostDocumentExecuteMailMerge.cs" >}}
@@ -475,3 +480,4 @@ The following set of **Code Examples** for various SDKs demonstrates how to use 
 {{< gist "aspose-cloud" "068ce2149de5ad69ab516209b7ae82cf" "PostDocumentExecuteMailMerge.go" >}}
 {{< /tab >}}
 {{< /tabs >}}
+{{< /nosnippet >}}

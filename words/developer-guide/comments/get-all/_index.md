@@ -16,6 +16,7 @@ The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Comments/G
 
 You can also use cURL command-line utility to test this REST API. The following are a few examples of using cURL.
 
+{{< nosnippet >}}
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
 
@@ -112,6 +113,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/comments" \
 
 {{< /tab >}}
 {{< /tabs >}}
+{{< /nosnippet >}}
 
 ## Cloud SDK Family
 
@@ -119,6 +121,7 @@ Using an SDK is the quickest way for a developer to speed up the development. An
 
 The following set of **Code Examples** for various SDKs demonstrates how to use this REST API in your projects:
 
+{{< nosnippet >}}
 {{< tabs tabTotal="8" tabID="4" tabName1="C#" tabName2="Java" tabName3="Python" tabName4="Ruby" tabName5="Node.js" tabName6="Android" tabName7="Swift" tabName8="Go" >}}
 {{< tab tabNum="1" >}}
 {{< gist "aspose-cloud" "19215e2ac3d61ca0fd78d1ca2f1c1023" "GetComments.cs" >}}
@@ -145,3 +148,4 @@ The following set of **Code Examples** for various SDKs demonstrates how to use 
 {{< gist "aspose-cloud" "068ce2149de5ad69ab516209b7ae82cf" "GetComments.go" >}}
 {{< /tab >}}
 {{< /tabs >}}
+{{< /nosnippet >}}

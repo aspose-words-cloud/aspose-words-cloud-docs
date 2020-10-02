@@ -48,6 +48,7 @@ You can also use cURL command-line utility to test this REST API. The following 
 
 **Case 1**: Render a page of the document in BMP format:
 
+{{< nosnippet >}}
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
 
@@ -72,9 +73,11 @@ BMP File
 
 {{< /tab >}}
 {{< /tabs >}}
+{{< /nosnippet >}}
 
 **Case 2**: Render a paragraph in PNG format:
 
+{{< nosnippet >}}
 {{< tabs tabTotal="2" tabID="4" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
 
@@ -105,9 +108,11 @@ PNG File
 
 {{< /tab >}}
 {{< /tabs >}}
+{{< /nosnippet >}}
 
 **Case 3**: Render a table in PNG format:
 
+{{< nosnippet >}}
 {{< tabs tabTotal="2" tabID="7" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
 
@@ -138,9 +143,11 @@ PNG File
 
 {{< /tab >}}
 {{< /tabs >}}
+{{< /nosnippet >}}
 
 **Case 4**: Render a drawingObject in PDF format:
 
+{{< nosnippet >}}
 {{< tabs tabTotal="2" tabID="10" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
 
@@ -171,9 +178,11 @@ PDF File
 
 {{< /tab >}}
 {{< /tabs >}}
+{{< /nosnippet >}}
 
 **Case 5**: Render an OfficeMathObject in PNG format:
 
+{{< nosnippet >}}
 {{< tabs tabTotal="2" tabID="13" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
 
@@ -204,11 +213,13 @@ PNG File
 
 {{< /tab >}}
 {{< /tabs >}}
+{{< /nosnippet >}}
 
 The following set of **Code Examples** for various SDKs demonstrates how to use this REST API in your projects:
 
 **Case 1**: Renders Page to Specified Format
 
+{{< nosnippet >}}
 {{< tabs tabTotal="7" tabID="16" tabName1="C#" tabName2="Java" tabName3="Python" tabName4="Ruby" tabName5="Node.js" tabName6="Android" tabName7="Swift" >}}
 {{< tab tabNum="1" >}}
 {{< gist "aspose-cloud" "19215e2ac3d61ca0fd78d1ca2f1c1023" "RendersPageToSpecifiedFormat.cs" >}}
@@ -232,9 +243,11 @@ The following set of **Code Examples** for various SDKs demonstrates how to use 
 {{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose_Words_Swift_RenderPage.swift" >}}
 {{< /tab >}}
 {{< /tabs >}}
+{{< /nosnippet >}}
 
 **Case 2**: Renders Paragraph to Specified Format
 
+{{< nosnippet >}}
 {{< tabs tabTotal="7" tabID="17" tabName1="C#" tabName2="Java" tabName3="Python" tabName4="Ruby" tabName5="Node.js" tabName6="Android" tabName7="Swift" >}}
 {{< tab tabNum="1" >}}
 {{< gist "aspose-cloud" "19215e2ac3d61ca0fd78d1ca2f1c1023" "RenderParagraph.cs" >}}
@@ -258,9 +271,11 @@ The following set of **Code Examples** for various SDKs demonstrates how to use 
 {{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose_Words_Swift_RenderParagraph.swift" >}}
 {{< /tab >}}
 {{< /tabs >}}
+{{< /nosnippet >}}
 
 **Case 3**: Renders Table to Specified Format
 
+{{< nosnippet >}}
 {{< tabs tabTotal="7" tabID="18" tabName1="C#" tabName2="Java" tabName3="Python" tabName4="Ruby" tabName5="Node.js" tabName6="Android" tabName7="Swift" >}}
 {{< tab tabNum="1" >}}
 {{< gist "aspose-cloud" "19215e2ac3d61ca0fd78d1ca2f1c1023" "RenderTable.cs" >}}
@@ -284,9 +299,11 @@ The following set of **Code Examples** for various SDKs demonstrates how to use 
 {{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose_Words_Swift_RenderTable.swift" >}}
 {{< /tab >}}
 {{< /tabs >}}
+{{< /nosnippet >}}
 
 **Case 4**: Renders Drawing Object to Specified Format
 
+{{< nosnippet >}}
 {{< tabs tabTotal="7" tabID="19" tabName1="C#" tabName2="Java" tabName3="Python" tabName4="Ruby" tabName5="Node.js" tabName6="Android" tabName7="Swift" >}}
 {{< tab tabNum="1" >}}
 {{< gist "aspose-cloud" "19215e2ac3d61ca0fd78d1ca2f1c1023" "RenderDrawingObjectToSpecifiedFormat.cs" >}}
@@ -310,9 +327,11 @@ The following set of **Code Examples** for various SDKs demonstrates how to use 
 {{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose_Words_Swift_RenderDrawingObject.swift" >}}
 {{< /tab >}}
 {{< /tabs >}}
+{{< /nosnippet >}}
 
 **Case 5**: Renders Math Object to Specified Format
 
+{{< nosnippet >}}
 {{< tabs tabTotal="7" tabID="20" tabName1="C#" tabName2="Java" tabName3="Python" tabName4="Ruby" tabName5="Node.js" tabName6="Android" tabName7="Swift" >}}
 {{< tab tabNum="1" >}}
 {{< gist "aspose-cloud" "19215e2ac3d61ca0fd78d1ca2f1c1023" "RenderMathObject.cs" >}}
@@ -336,3 +355,4 @@ The following set of **Code Examples** for various SDKs demonstrates how to use 
 {{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose_Words_Swift_RenderMathObject.swift" >}}
 {{< /tab >}}
 {{< /tabs >}}
+{{< /nosnippet >}}

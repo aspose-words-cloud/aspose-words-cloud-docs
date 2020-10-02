@@ -27,6 +27,7 @@ You can also use cURL command-line utility to test this REST API. The following 
 
 **Case 1**: Get a Header or Footer in a Document
 
+{{< nosnippet >}}
 {{< tabs tabTotal="2" tabID="2" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
 
@@ -78,9 +79,11 @@ curl -v "https://api.aspose.cloud/v4.0/words/HeadersFooters.doc/headersfooters/0
 
 {{< /tab >}}
 {{< /tabs >}}
+{{< /nosnippet >}}
 
 **Case 2**: Get a Header or Footer in a Section
 
+{{< nosnippet >}}
 {{< tabs tabTotal="2" tabID="5" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
 
@@ -138,6 +141,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/HeadersFooters.doc/sections/0/heade
 
 {{< /tab >}}
 {{< /tabs >}}
+{{< /nosnippet >}}
 
 ## Cloud SDK Family
 
@@ -147,6 +151,7 @@ The following set of **Code Examples** for various SDKs demonstrates how to use 
 
 **Case 1: Get a Header or Footer in a Document**
 
+{{< nosnippet >}}
 {{< tabs tabTotal="9" tabID="8" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Python" tabName5="Ruby" tabName6="Node.js" tabName7="Android" tabName8="Swift" tabName9="Go" >}}
 {{< tab tabNum="1" >}}
 {{< gist "aspose-cloud" "19215e2ac3d61ca0fd78d1ca2f1c1023" "GetHeaderFooter.cs" >}}
@@ -176,9 +181,11 @@ The following set of **Code Examples** for various SDKs demonstrates how to use 
 {{< gist "aspose-cloud" "068ce2149de5ad69ab516209b7ae82cf" "GetHeaderFooters.go" >}}
 {{< /tab >}}
 {{< /tabs >}}
+{{< /nosnippet >}}
 
 **Case 2: Get a Header or Footer in a Section**
 
+{{< nosnippet >}}
 {{< tabs tabTotal="9" tabID="9" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Python" tabName5="Ruby" tabName6="Node.js" tabName7="Android" tabName8="Swift" tabName9="Go" >}}
 {{< tab tabNum="1" >}}
 {{< gist "aspose-cloud" "19215e2ac3d61ca0fd78d1ca2f1c1023" "GetHeaderFooterOfSection.cs" >}}
@@ -208,3 +215,4 @@ The following set of **Code Examples** for various SDKs demonstrates how to use 
 {{< gist "aspose-cloud" "068ce2149de5ad69ab516209b7ae82cf" "GetHeaderFooterOfSection.go" >}}
 {{< /tab >}}
 {{< /tabs >}}
+{{< /nosnippet >}}

@@ -25,6 +25,7 @@ The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Split/Spli
 
 You can also use cURL command-line utility to test this REST API. The following are a few examples of using cURL.
 
+{{< nosnippet >}}
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
 
@@ -66,6 +67,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_doc.docx/split?from=2&to=3&for
 
 {{< /tab >}}
 {{< /tabs >}}
+{{< /nosnippet >}}
 
 ## Cloud SDK Family
 
@@ -77,6 +79,7 @@ The following set of **Code Examples** for various SDKs demonstrates how to use 
 
 **Split all pages**
 
+{{< nosnippet >}}
 {{< tabs tabTotal="9" tabID="4" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Python" tabName5="Ruby" tabName6="Node.js" tabName7="Android" tabName8="Swift" tabName9="Go" >}}
 {{< tab tabNum="1" >}}
 {{< gist "aspose-cloud" "9fa2e714041dd6cf1071eb307b623416" "SplitAllPagesToNewPDFs.cs" >}}
@@ -106,10 +109,12 @@ The following set of **Code Examples** for various SDKs demonstrates how to use 
 {{< gist "aspose-cloud" "068ce2149de5ad69ab516209b7ae82cf" "SplitAllPagesToNewPDFs.go" >}}
 {{< /tab >}}
 {{< /tabs >}}
+{{< /nosnippet >}}
 ### Split specific pages to new PDFs
 
 **Split specific pages**
 
+{{< nosnippet >}}
 {{< tabs tabTotal="9" tabID="5" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Python" tabName5="Ruby" tabName6="Node.js" tabName7="Android" tabName8="Swift" tabName9="Go" >}}
 {{< tab tabNum="1" >}}
 {{< gist "aspose-cloud" "9fa2e714041dd6cf1071eb307b623416" "SplitSpecificPagesToNewPDFs.cs" >}}
@@ -139,10 +144,12 @@ The following set of **Code Examples** for various SDKs demonstrates how to use 
 {{< gist "aspose-cloud" "068ce2149de5ad69ab516209b7ae82cf" "SplitSpecificPagesToNewPDFs.go" >}}
 {{< /tab >}}
 {{< /tabs >}}
+{{< /nosnippet >}}
 ### Split specific pages to any Supported Format
 
 **split document to any format**
 
+{{< nosnippet >}}
 {{< tabs tabTotal="9" tabID="6" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Python" tabName5="Ruby" tabName6="Node.js" tabName7="Android" tabName8="Swift" tabName9="Go" >}}
 {{< tab tabNum="1" >}}
 {{< gist "aspose-cloud" "9fa2e714041dd6cf1071eb307b623416" "SplitSpecificPagesToPNGs.cs" >}}
@@ -172,6 +179,7 @@ The following set of **Code Examples** for various SDKs demonstrates how to use 
 {{< gist "aspose-cloud" "068ce2149de5ad69ab516209b7ae82cf" "SplitSpecificPagesToPNGs.go" >}}
 {{< /tab >}}
 {{< /tabs >}}
+{{< /nosnippet >}}
 [ ](https://gist.github.com/aspose-words/d7482a8f2824fb669f7c31d8518ad13e#file-examples-ruby-splitresource-split_specific_pages_to_any_supported_format-rb).
 
 ## See also
