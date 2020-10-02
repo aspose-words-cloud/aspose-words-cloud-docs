@@ -9,9 +9,9 @@ description: "Learn how to merge word documents"
 weight: 180
 ---
 
-Merging documents is a common task, that is fully supported by Words Cloud API.
+Merging multiple Word documents (DOCX, DOC) into a single document (PDF, DOCX or HTML) is a common document automation task, that allows you to considerably reduce paper usage. Using this API you can append and combine multiple Word files into one, that is easier to review, print, send and share. For example, you can combine a batch of DOCX files and merge them into a single immutable PDF document.
 
-The API allows you to append a document or documents, specified in the **documentList** parameter, to the original resource document. The changes are saved in the original resource document if the **destFileName** parameter is missing.
+To append Word documents to the source document,  you need to specify their names in the `documentList` parameter. The resulting changes are saved in the source document if the `destFileName` parameter is missing.
 
 The description of the important API parameters is given below:
 

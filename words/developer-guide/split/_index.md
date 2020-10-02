@@ -9,9 +9,11 @@ description: "Split a Word document"
 weight: 240
 ---
 
-While working with your documents, you may come across scenarios where you want to split the large documents into smaller ones. You can split the documents into separate documents within the MS Word document or different file formats. Splitting one large document into smaller documents of different file formats is an important aspect of document manipulation tasks. It involves a series of steps that need to be performed for getting the desired results. Aspose.Words Cloud eliminates the need for such complicated tasks and makes it hassle-free for you. Please note that we support Python, C#, Java, Ruby, PHP, NodeJS, Go, Android and Swift languages so far.
+Splitting a large Word document into multiple smaller documents is a common document automation task. You must have been in a situation when you have a massive DOCX, DOC, RTF file, requiring urgent team work. In this case, it is pretty necessary to split your document into several parts to speed up the collaborative workflow.
 
-Aspose.Words Cloud has provided the simplest API to split a Word document within MS Word documents or other file formats.
+Splitting a Word document by hand with manual copying and pasting may be along, labor-intensive, sub-optimal approach.
+
+Instead you can improve your efficiency dramatically with this API by splitting Word document into multiple files, while specifying operation parameters as you need. You can easily split your DOCX, DOC by odd and even page numbers, by a specific page or every page, and much more.
 
 ## REST API
 
