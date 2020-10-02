@@ -1,5 +1,6 @@
 ---
 title: "Get Document Statistics"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /documents/statistics/
 aliases: [/get-document-statistics/]

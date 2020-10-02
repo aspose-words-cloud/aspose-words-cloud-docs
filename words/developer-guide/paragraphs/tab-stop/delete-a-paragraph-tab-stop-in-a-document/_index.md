@@ -1,5 +1,6 @@
 ---
 title: "Delete a Paragraph Tab Stop in a Document"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /paragraphs/tab-stop/delete-a-paragraph-tab-stop-in-a-document/
 aliases: [/delete-a-paragraph-tab-stop-in-a-document/]

@@ -1,5 +1,6 @@
 ---
 title: "Sections"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /sections/
 aliases: [/working-with-sections/]

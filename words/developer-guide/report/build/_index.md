@@ -1,5 +1,6 @@
 ---
 title: "Generate Report from Template and JSON Data"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /report/build/
 aliases: [/build-report-from-template-and-json-data/]

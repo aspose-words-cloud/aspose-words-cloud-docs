@@ -1,5 +1,6 @@
 ---
 title: "Get a Table Row Format"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /tables/get-row-format/
 aliases: [/get-a-table-row-format/]

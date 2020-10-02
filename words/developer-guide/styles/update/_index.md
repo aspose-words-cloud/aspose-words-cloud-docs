@@ -1,5 +1,6 @@
 ---
 title: "Update Style on Document Element"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /styles/update/
 aliases: [/update-style-on-document-element/]

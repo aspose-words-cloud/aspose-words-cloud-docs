@@ -1,5 +1,6 @@
 ---
 title: "Update a Table Row Format"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /tables/update-row-format/
 aliases: [/update-a-table-row-format/]

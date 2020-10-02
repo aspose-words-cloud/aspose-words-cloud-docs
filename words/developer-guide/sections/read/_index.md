@@ -1,5 +1,6 @@
 ---
 title: "Read the Page Setup of a Section"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /sections/read/
 aliases: [/read-the-page-setup-of-a-section/]

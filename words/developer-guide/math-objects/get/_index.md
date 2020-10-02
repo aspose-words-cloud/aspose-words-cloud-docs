@@ -1,5 +1,6 @@
 ---
 title: "Get a OfficeMath Object from Document"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /math-objects/get/
 aliases: [/get-a-officemath-object-from-document/]

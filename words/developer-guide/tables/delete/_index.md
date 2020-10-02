@@ -1,5 +1,6 @@
 ---
 title: "Delete a Table from a Word Document"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /tables/delete/
 aliases: [/delete-a-table-from-a-word-document/]

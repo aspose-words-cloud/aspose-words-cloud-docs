@@ -1,5 +1,6 @@
 ---
 title: "Remove OfficeMath Object from Document"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /math-objects/remove/
 aliases: [/remove-officemath-object-from-document/]

@@ -1,5 +1,6 @@
 ---
 title: "Get a Particular Document Property"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /documents/properties/get/
 aliases: [/get-a-particular-document-property/]

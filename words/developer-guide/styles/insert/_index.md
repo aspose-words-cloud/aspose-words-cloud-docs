@@ -1,5 +1,6 @@
 ---
 title: "Insert Style on Document Element"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /styles/insert/
 aliases: [/insert-style-on-document-element/]

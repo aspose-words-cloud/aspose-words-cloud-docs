@@ -1,5 +1,6 @@
 ---
 title: "Get a List of Borders"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /tables/get-borders/
 aliases: [/get-a-list-of-borders/]

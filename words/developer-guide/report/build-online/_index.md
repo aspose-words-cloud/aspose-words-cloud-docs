@@ -1,5 +1,6 @@
 ---
 title: "Generate Report Online"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /report/build-online/
 aliases: [/build-report-online/]

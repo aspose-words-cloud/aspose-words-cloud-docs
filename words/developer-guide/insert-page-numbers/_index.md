@@ -1,5 +1,6 @@
 ---
 title: "Page Numbers"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /insert-page-numbers/
 aliases: [/insert-page-numbers-in-a-document/]

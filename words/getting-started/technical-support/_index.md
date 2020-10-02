@@ -1,5 +1,6 @@
 ---
 title: "Technical Support"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /getting-started/technical-support/
 aliases: [/technical-support/]

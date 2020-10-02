@@ -1,5 +1,6 @@
 ---
 title: "Get a Table Cell"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /tables/get-cell/
 aliases: [/get-a-table-cell/]

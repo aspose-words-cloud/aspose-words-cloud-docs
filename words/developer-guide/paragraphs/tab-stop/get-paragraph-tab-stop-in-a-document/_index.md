@@ -1,5 +1,6 @@
 ---
 title: "Get Paragraph Tab Stop in a Document"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /paragraphs/tab-stop/get-paragraph-tab-stop-in-a-document/
 aliases: [/get-paragraph-tab-stop-in-a-document/]

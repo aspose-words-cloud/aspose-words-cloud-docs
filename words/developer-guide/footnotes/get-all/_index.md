@@ -1,5 +1,6 @@
 ---
 title: "Get Footnotes from Document"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /footnotes/get-all/
 aliases: [/get-footnotes-from-document/]

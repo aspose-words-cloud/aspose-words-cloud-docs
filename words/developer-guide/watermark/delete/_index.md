@@ -1,5 +1,6 @@
 ---
 title: "Delete the watermark from a Word Document"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /watermark/delete/
 aliases: [/delete-the-watermark-from-a-word-document/]

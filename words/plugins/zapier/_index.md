@@ -1,6 +1,6 @@
 ---
 title: "Zapier"
-second_title: "Aspose Words Cloud"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /plugins/zapier/
 description: "Instructions to connect Aspose Words Cloud with Zapier."

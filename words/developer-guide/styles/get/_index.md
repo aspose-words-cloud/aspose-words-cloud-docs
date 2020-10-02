@@ -1,5 +1,6 @@
 ---
 title: "Get Style from Document Element"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /styles/get/
 aliases: [/get-style-from-document-element/]

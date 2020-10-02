@@ -1,5 +1,6 @@
 ---
 title: "Delete Paragraph List Format in a Document"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /paragraphs/lists/delete-paragraph-list-format-in-a-document/
 aliases: [/delete-paragraph-list-format-in-a-document/]

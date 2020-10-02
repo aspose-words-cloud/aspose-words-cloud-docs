@@ -1,5 +1,6 @@
 ---
 title: "Add New or Update Existing Document Property"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /documents/properties/add-or-update/
 aliases: [/add-new-or-update-existing-document-property/]

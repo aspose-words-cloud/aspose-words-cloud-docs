@@ -1,5 +1,6 @@
 ---
 title: "Pricing Plan"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /getting-started/pricing-plan/
 aliases: [/pricing-plan/]

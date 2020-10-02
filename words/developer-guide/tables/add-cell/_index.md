@@ -1,5 +1,6 @@
 ---
 title: "Add Cell to Table Row"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /tables/add-cell/
 aliases: [/add-cell-to-table-row/]

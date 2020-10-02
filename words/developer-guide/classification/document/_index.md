@@ -1,5 +1,6 @@
 ---
 title: "Document Classification"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /classification/document
 aliases: [/document-classification/]

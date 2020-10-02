@@ -1,5 +1,6 @@
 ---
 title: "Update Footnote Properties"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /footnotes/update/
 aliases: [/update-footnote-properties/]

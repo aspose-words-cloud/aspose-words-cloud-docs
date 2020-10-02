@@ -1,5 +1,6 @@
 ---
 title: "Get Paragraph List Format in a Document"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /paragraphs/lists/get-paragraph-list-format-in-a-document/
 aliases: [/get-paragraph-list-format-in-a-document/]

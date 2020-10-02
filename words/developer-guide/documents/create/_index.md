@@ -1,5 +1,6 @@
 ---
 title: "Create a New Word Document"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /documents/create/
 aliases: [/create-a-new-word-document/]

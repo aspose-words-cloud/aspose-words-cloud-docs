@@ -1,5 +1,6 @@
 ---
 title: "Update Table Properties"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /tables/update-properties/
 aliases: [/update-table-properties/]

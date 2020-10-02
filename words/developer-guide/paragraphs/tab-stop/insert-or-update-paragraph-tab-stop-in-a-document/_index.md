@@ -1,5 +1,6 @@
 ---
 title: "Insert or Update Paragraph Tab Stop in a Document"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /paragraphs/tab-stop/insert-or-update-paragraph-tab-stop-in-a-document/
 aliases: [/insert-or-update-paragraph-tab-stop-in-a-document/]

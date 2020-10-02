@@ -1,5 +1,6 @@
 ---
 title: "Release Notes - 2020"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /release-notes/2020/
 aliases: [/release-notes-2020/]

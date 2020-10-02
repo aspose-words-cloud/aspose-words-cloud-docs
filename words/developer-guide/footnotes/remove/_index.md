@@ -1,5 +1,6 @@
 ---
 title: "Remove Footnote from a Document"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /footnotes/remove/
 aliases: [/remove-footnote-from-a-document/]

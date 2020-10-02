@@ -1,5 +1,6 @@
 ---
 title: "Headers and Footers"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /headers-and-footers/
 aliases: [/working-with-headers-and-footers/]

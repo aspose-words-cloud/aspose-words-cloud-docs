@@ -1,5 +1,6 @@
 ---
 title: "Get Document Protection Info"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /documents/protection/get/
 aliases: [/get-document-protection-info/]

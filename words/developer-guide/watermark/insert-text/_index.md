@@ -1,5 +1,6 @@
 ---
 title: "Insert a Watermark Text into a Word Document"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /watermark/insert-text/
 aliases: [/insert-a-watermark-text-into-a-word-document/]

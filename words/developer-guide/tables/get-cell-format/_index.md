@@ -1,5 +1,6 @@
 ---
 title: "Get a Table Cell Format"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /tables/get-cell-format/
 aliases: [/get-a-table-cell-format/]

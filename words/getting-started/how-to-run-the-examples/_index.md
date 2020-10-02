@@ -1,5 +1,6 @@
 ---
 title: "How to Run the Examples"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /getting-started/how-to-run-the-examples/
 aliases: [/how-to-run-the-examples/]

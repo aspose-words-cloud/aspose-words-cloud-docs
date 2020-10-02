@@ -1,5 +1,6 @@
 ---
 title: "Remove all Macros from Document"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /documents/remove-macros/
 aliases: [/remove-all-macros-from-document/]

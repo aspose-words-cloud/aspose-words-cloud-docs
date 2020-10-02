@@ -1,5 +1,6 @@
 ---
 title: "Apply Style from Document Element"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /styles/apply/
 aliases: [/apply-style-from-document-element/]

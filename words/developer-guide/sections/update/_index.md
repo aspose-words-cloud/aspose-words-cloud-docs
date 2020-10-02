@@ -1,5 +1,6 @@
 ---
 title: "Update the Page Setup of a Section"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /sections/update/
 aliases: [/update-the-page-setup-of-a-section/]

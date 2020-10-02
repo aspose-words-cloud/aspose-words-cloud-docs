@@ -1,5 +1,6 @@
 ---
 title: "Reset Border Properties to Default Values"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /tables/reset-border-properties/
 aliases: [/reset-border-properties-to-default-values/]

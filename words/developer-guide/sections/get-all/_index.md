@@ -1,5 +1,6 @@
 ---
 title: "Get a List of Sections from a Word Document"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /sections/get-all/
 aliases: [/get-a-list-of-sections-from-a-word-document/]

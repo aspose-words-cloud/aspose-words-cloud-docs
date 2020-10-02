@@ -1,5 +1,6 @@
 ---
 title: "Add Footnote to Document"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /footnotes/add/
 aliases: [/add-footnote-to-document/]

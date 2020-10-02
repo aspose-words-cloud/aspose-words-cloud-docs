@@ -1,5 +1,6 @@
 ---
 title: "Footnotes"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /footnotes/
 aliases: [/working-with-footnotes/]

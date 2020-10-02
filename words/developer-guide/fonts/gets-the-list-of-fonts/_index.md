@@ -1,5 +1,6 @@
 ---
 title: "Gets the List of Fonts"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /fonts/gets-the-list-of-fonts/
 aliases: [/gets-the-list-of-fonts/]

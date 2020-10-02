@@ -1,5 +1,6 @@
 ---
 title: "Update Paragraph List Format in a Document"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /paragraphs/lists/update-paragraph-list-format-in-a-document/
 aliases: [/update-paragraph-list-format-in-a-document/]

@@ -1,5 +1,6 @@
 ---
 title: "Protect the unprotected Document"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /documents/protection/add/
 aliases: [/protect-the-unprotected-document/]

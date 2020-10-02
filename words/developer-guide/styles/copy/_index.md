@@ -1,5 +1,6 @@
 ---
 title: "Copy Style from Document Element"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /styles/copy/
 aliases: [/copy-style-from-document-element/]

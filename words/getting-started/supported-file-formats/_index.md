@@ -1,5 +1,6 @@
 ---
 title: "Supported File Formats"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /getting-started/supported-file-formats/
 aliases: [/supported-file-formats/]

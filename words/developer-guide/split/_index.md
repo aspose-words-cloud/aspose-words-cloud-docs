@@ -1,5 +1,6 @@
 ---
 title: "Split"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /split/
 aliases: [/splitting-a-document/]

@@ -1,5 +1,6 @@
 ---
 title: "Remove the Protection from the Document"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /documents/protection/remove/
 aliases: [/remove-the-protection-from-the-document/]

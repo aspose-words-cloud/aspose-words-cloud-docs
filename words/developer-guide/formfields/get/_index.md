@@ -1,5 +1,6 @@
 ---
 title: "Get Representation of a Form Field"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /formfields/get/
 aliases: [/get-representation-of-a-form-field/]

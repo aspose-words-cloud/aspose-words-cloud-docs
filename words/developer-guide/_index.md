@@ -1,5 +1,6 @@
 ---
 title: "Developer Guide"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /developer-guide/
 description: "Developer Guide"

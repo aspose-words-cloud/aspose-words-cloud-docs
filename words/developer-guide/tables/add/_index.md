@@ -1,5 +1,6 @@
 ---
 title: "Add Table to a Document"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /tables/add/
 aliases: [/add-table-to-a-document/]

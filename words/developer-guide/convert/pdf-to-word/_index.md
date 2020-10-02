@@ -1,6 +1,6 @@
 ---
 title: "PDF to Word"
-second_title: "Convert Documents"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /convert/pdf-to-word/
 aliases: [/convert-pdf-document-to-word/]

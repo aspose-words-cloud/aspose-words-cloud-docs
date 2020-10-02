@@ -1,5 +1,6 @@
 ---
 title: "Range"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /range/
 aliases: [/working-with-range/]
@@ -209,7 +210,8 @@ curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/range/id0.0/id0.2:e
 ```JAVA
 {
   "Text": "You might find it useful to extract only the text from a document. This is useful if you are passing the text to another API service. All the text in a document is contained in text runs of paragraph elements. Text can appear in three types of the document's structural elements.  The resulting dump can help you understand the structure of Google Docs files in general, or help you troubleshoot issues around the structure and content of a particular document."
-}```
+}
+```
 
 {{< /tab >}}
 {{< /tabs >}}
@@ -277,7 +279,8 @@ curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/paragraphs" \
       "Rel": "self"
     }
   }
-}```
+}
+```
 
 {{< /tab >}}
 {{< /tabs >}}
@@ -472,7 +475,8 @@ curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/range/id0.0/id0.2:e
       }
     }
   }
-}```
+}
+```
 
 {{< /tab >}}
 {{< /tabs >}}

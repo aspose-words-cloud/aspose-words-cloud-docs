@@ -1,5 +1,6 @@
 ---
 title: "Get All Document Properties"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /documents/properties/get-all/
 aliases: [/get-all-document-properties/]

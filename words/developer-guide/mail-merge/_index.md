@@ -1,5 +1,6 @@
 ---
 title: "Mail Merge"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /mail-merge/
 aliases: [/working-with-mail-merge/]

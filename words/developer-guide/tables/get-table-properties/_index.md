@@ -1,5 +1,6 @@
 ---
 title: "Get Table Properties"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /tables/get-table-properties/
 aliases: [/get-table-properties/]

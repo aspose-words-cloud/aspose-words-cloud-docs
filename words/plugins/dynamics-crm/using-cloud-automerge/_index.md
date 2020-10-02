@@ -1,5 +1,6 @@
 ---
 title: "Using Cloud AutoMerge for Dynamics CRM"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /plugins/dynamics-crm/using-cloud-automerge/
 aliases: [/using-cloud-automerge-for-dynamics-crm/]

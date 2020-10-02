@@ -1,5 +1,6 @@
 ---
 title: "Text"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /text/
 aliases: [/working-with-text/]

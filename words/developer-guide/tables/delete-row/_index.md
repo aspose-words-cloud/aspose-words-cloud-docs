@@ -1,5 +1,6 @@
 ---
 title: "Delete a Table Row"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /tables/delete-row/
 aliases: [/delete-a-table-row/]

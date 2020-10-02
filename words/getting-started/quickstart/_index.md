@@ -1,5 +1,6 @@
 ---
 title: "Quickstart"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /getting-started/quickstart/
 aliases: [/quickstart/]

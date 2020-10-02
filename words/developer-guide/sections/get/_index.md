@@ -1,5 +1,6 @@
 ---
 title: "Get a Particular Section from a Word Document"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /sections/get/
 aliases: [/get-a-particular-section-from-a-word-document/]

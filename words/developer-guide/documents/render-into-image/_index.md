@@ -1,5 +1,6 @@
 ---
 title: "Render Complex Parts of a Word Document Into the Image"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /documents/render-into-image/
 aliases: [/render-complex-parts-of-a-word-document-into-the-image/]

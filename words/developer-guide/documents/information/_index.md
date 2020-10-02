@@ -1,5 +1,6 @@
 ---
 title: "Get Document Information"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /documents/information/
 aliases: [/get-document-information/]

@@ -1,5 +1,6 @@
 ---
 title: "Delete a Document Property"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /documents/properties/delete/
 aliases: [/delete-a-document-property/]
