@@ -1,6 +1,6 @@
 ---
 title: "Merge"
-second_title: "Documents Cloud API"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /merge/
 aliases: [/appending-a-document/]
