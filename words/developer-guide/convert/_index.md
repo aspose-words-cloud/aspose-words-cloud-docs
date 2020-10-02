@@ -9,7 +9,9 @@ description: "Convert word document from one format to another"
 weight: 50
 ---
 
-The ability to easily and reliably convert documents from one format to another is one of the four main feature areas of Aspose.Words Cloud.
+If you have originally created a document in a certain format, like DOCX, DOC or RTF, you may sometimes find it useful to convert the document to another format so you can take advantage of some special features, provided by it. For example, you may want to convert a Word document to PDF in order to share it with others and protect the contents from any unauthorized modifications at the same time.
+
+Document conversion is a complex process. The ability to convert Word documents from one format to another with a precise quality is a leading feature area of Aspose.Words Cloud.
 
 The following APIs to convert a Word document to other file formats are provided:
 
