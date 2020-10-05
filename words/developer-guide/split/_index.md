@@ -13,6 +13,8 @@ Splitting a large Word document into multiple smaller documents is a common docu
 
 Splitting a Word document by hand with manual copying and pasting may be a long, labor-intensive, sub-optimal approach. Instead you can improve your efficiency dramatically with this API by splitting Word document into multiple files, while specifying operation parameters as you need.
 
+Using this API you can easily split a DOCX, DOC, DOTX, DOT, RTF, ODT, OTT, TXT document and save the results to DOCX, DOC, PDF, ODT, RTF, HTML, JPEG, PNG and many other file formats.
+
 ## REST API
 
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Split/SplitDocument) lets you call this REST API directly from a browser. The description of the important parameters of the API is given below:

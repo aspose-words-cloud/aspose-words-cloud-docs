@@ -4,14 +4,16 @@ second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /convert/
 aliases: [/converting-a-document/, /converting-splitting-and-appending/]
-keywords: "convert to, word to doc, save Word file as PDF, convert Word document to HTML, Word doc to HTML, convert PDF to Word, TIFF file"
+keywords: "convert to, word to doc, save Word file as PDF, convert Word document to HTML, Word doc to HTML, convert PDF to Word"
 description: "Convert word document from one format to another"
 weight: 50
 ---
 
-If you have originally created a document in a certain format, like DOCX, DOC or RTF, you may sometimes find it useful to convert the document to another format so you can take advantage of some special features, provided by it. For example, you may want to convert a Word document to PDF in order to share it with others and protect the contents from any unauthorized modifications at the same time.
+If you have originally created a document in a certain format, like DOCX, DOC, ODT or RTF, you may sometimes find it useful to convert the document to another format so you can take advantage of special features provided by it. For example, you may want to convert a Word document to PDF to protect your contents from any unauthorized modifications and make it easy to read and share simultaneously. Or, for instance, you may want to convert a PDF to DOCX to extract the original text.
 
-Document conversion is a complex process. The ability to convert Word documents from one format to another with a precise quality is a leading feature area of Aspose.Words Cloud.
+Document conversion is a complex process. Many factors contribute to the complexity and therefore, should be taken into account during the transformation process. The ability to convert Word documents from one format to another with a precise professional quality is a top feature of Aspose.Words Cloud. 
+
+It works perfectly for any document format conversions. You can both import and export documents in: DOCX, DOC, PDF, RTF, DOT, DOTX, ODT, OTT, HTML, MHTML, XML, TXT. The export-only formats are: PS, XPS, OpenXPS, PNG, JPEG, BMP, SVG, TIFF, EMF, PCL, EPUB.
 
 The following APIs to convert a Word document to other file formats are provided:
 
