@@ -11,7 +11,7 @@ weight: 180
 
 Merging multiple Word documents into a single document is a common document automation task, that allows you to considerably reduce paper usage. Using this API you can append and combine multiple Word files into one, that is easier to review, print, send and share. For example, you can combine a batch of DOCX files and merge them into a single immutable PDF document.
 
-Using this API you can combine multiple DOCX, DOC, DOTX, DOT, RTF, ODT, OTT, TXT, HTML files with top quality and download the result in DOCX, PDF, HTML, EPUB, PNG, JPG and other formats.
+The API allows you to merge DOCX, DOC, DOTX, DOT, RTF, ODT, OTT, TXT, HTML files with top quality and download the result in DOCX, PDF, HTML, EPUB, PNG, JPG and other formats.
 
 To append Word documents to the source document,  you need to specify their names in the `documentList` parameter. The resulting changes are saved in the source document if the `destFileName` parameter is missing.
 
