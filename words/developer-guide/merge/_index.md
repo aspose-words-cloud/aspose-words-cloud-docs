@@ -9,10 +9,12 @@ description: "Learn how to merge Word documents"
 weight: 180
 ---
 
-Merging multiple Word documents into a single document is a common document automation task, that allows you to considerably reduce paper usage. Using this API you can append and combine multiple Word files into one, that is easier to review, print, send and share. For example, you can combine a batch of DOCX files and merge them into a single immutable PDF document.
+Aspose provides a powerful API to merge and combine multiple documents into one. It's a common document automation task with several practical applications, that may enable greater consistency, streamline document workflows and reduce paper usage.
 
-The API allows you to merge DOCX, DOC, DOTX, DOT, RTF, ODT, OTT, TXT, HTML files with top quality and download the result in DOCX, PDF, HTML, EPUB, PNG, JPG and other formats.
+With this API you can join several Word documents into one, that is easier to review, print and share. For example, you can merge a number of DOCX files and save them into a single consolidated PDF.
 
+The API supports a variety of input and output formats and allows you to combine multiple DOCX, DOC, DOTX, DOT, RTF, ODT, OTT, TXT, HTML files and download the result in DOCX, PDF, HTML, EPUB, PNG, JPG and other formats. 
+ 
 To append Word documents to the source document,  you need to specify their names in the `documentList` parameter. The resulting changes are saved in the source document if the `destFileName` parameter is missing.
 
 The description of the important API parameters is given below:
