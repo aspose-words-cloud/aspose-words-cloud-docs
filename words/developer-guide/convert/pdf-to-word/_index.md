@@ -1,11 +1,11 @@
 ---
 title: "PDF to Word"
-second_title: ""
+second_title: "Convert"
 type: docs
 url: /convert/pdf-to-word/
 aliases: [/convert-pdf-document-to-word/]
 keywords: "convert PDF to Word, dotm file, go sdk"
-description: "Convert a PDF to a Word document"
+description: "API to convert PDF to Word document. Basic advantages of Aspose conversion engine."
 weight: 20
 ---
 
