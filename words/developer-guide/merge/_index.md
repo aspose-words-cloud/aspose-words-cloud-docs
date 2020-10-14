@@ -5,13 +5,13 @@ type: docs
 url: /merge/
 aliases: [/appending-a-document/]
 keywords: "document append, merge"
-description: "Learn how to merge Word documents"
+description: "Merge Word documents. Merge DOCX, PDF, RTF into one with a single request."
 weight: 180
 ---
 
 Aspose provides a powerful API to merge and combine multiple documents into one. It's a common document automation task with several practical applications, that may enable greater consistency, streamline document workflows and reduce paper usage.
 
-With this API you can join several Word documents into one, that is easier to review, print and share. For example, you can merge a number of DOCX files and save them into a single consolidated PDF.
+With this API you can join several Word documents into one, that is easier to review, print and share. For example, you can merge DOCX files and save them into a single consolidated PDF.
 
 The API supports a variety of input and output formats and allows you to combine multiple DOCX, DOC, DOTX, DOT, RTF, ODT, OTT, TXT, HTML files and download the result in DOCX, PDF, HTML, EPUB, PNG, JPG and other formats. 
  
