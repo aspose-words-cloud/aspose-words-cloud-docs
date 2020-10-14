@@ -10,9 +10,7 @@ weight: 90
 
 Aspose.Words Cloud provides helper functions to work with files uploaded to Aspose.Words Cloud Storage or any other Cloud Storage of your choice. If you need any help getting started with setting third party storage please refer to [Aspose Cloud UI Help Topics](https://docs.aspose.cloud/display/totalcloud/Aspose+Cloud+UI+Help+Topics).
 
-## Download a file from Cloud Storage
-
-### API Information
+## Downloading a file from the Cloud Storage
 
 |API|Type|Description|Swagger Link|
 | :- | :- | :- | :- |
@@ -37,9 +35,7 @@ curl -v -X GET "https://api.aspose.cloud/v4.0/words/storage/file/sample.docx" \
 {{< /tabs >}}
 {{< /nosnippet >}}
 
-## Uploading a file from Cloud Storage
-
-### API Information
+## Uploading a file to the Cloud Storage
 
 |API|Type|Description|Swagger Link|
 | :- | :- | :- | :- |
@@ -77,9 +73,7 @@ curl  -v -X PUT "https://api.aspose.cloud/v4.0/words/storage/file/sample.docx" \
 {{< /tabs >}}
 {{< /nosnippet >}}
 
-## Copying a file to a new location on Cloud Storage
-
-### API Information
+## Copying a file to a new location in the Cloud Storage
 
 |API|Type|Description|Swagger Link|
 | :- | :- | :- | :- |
@@ -103,9 +97,7 @@ curl -v -X PUT "https://api.aspose.cloud/v4.0/words/storage/file/copy/sample.doc
 {{< /tabs >}}
 {{< /nosnippet >}}
 
-## Moving a file to a new location on Cloud Storage
-
-### API Information
+## Moving a file to a new location in the Cloud Storage
 
 |API|Type|Description|Swagger Link|
 | :- | :- | :- | :- |
@@ -130,9 +122,7 @@ curl -v -X PUT "https://api.aspose.cloud/v4.0/words/storage/file/move/input.docx
 {{< /tabs >}}
 {{< /nosnippet >}}
 
-## Deleting a file on Cloud Storage
-
-### API Information
+## Deleting a file from the Cloud Storage
 
 |API|Type|Description|Swagger Link|
 | :- | :- | :- | :- |
