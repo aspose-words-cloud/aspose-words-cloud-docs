@@ -4,17 +4,16 @@ second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /split/
 aliases: [/splitting-a-document/]
-keywords: "Split Word document, word to doc, save Word file as PDF, convert Word document to HTML, DOC to HTML, PDF to Word, TIFF file"
-description: "Split a Word document"
+keywords: ""
+description: "Split Word documents. Split DOCX into small PDF, Word files with ease."
 weight: 240
 ---
 
-
 Aspose provides a powerful API to split Word documents into parts. It's a common document automation task when you need to break a large document into a number of smaller ones to handle them separately.
 
-For example, you must have been in a situation when you have a massive DOCX file, requiring urgent team work. In this case, it is pretty necessary to divide Word document into sub-documents to speed up the collaborative workflow.
+For example, you must have been in a situation when you have a massive DOCX file, requiring urgent team work. In this case, it is pretty necessary to divide a Word document into sub-documents to speed up the collaborative workflow.
 
-Splitting a Word document by hand with manual copying and pasting may be a long, labor-intensive, sub-optimal approach. Instead you can improve your efficiency dramatically with this API by breaking Word document into files, while specifying operation parameters as you need.
+Task to split a DOCX document by hand with manual copying and pasting may be a long, labor-intensive, sub-optimal approach. Instead, you can improve your efficiency dramatically with this API by breaking Word document into files, while specifying operation parameters as you need.
 
 Using this API you can easily split a DOCX, DOC, DOTX, DOT, RTF, ODT, OTT, TXT document and save the results to DOCX, DOC, PDF, ODT, RTF, HTML, JPEG, PNG and many other file formats.
 
