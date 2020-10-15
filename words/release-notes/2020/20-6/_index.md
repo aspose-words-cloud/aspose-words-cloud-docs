@@ -35,7 +35,7 @@ The page contains release notes for Aspose.Words Cloud 20.6 – [API Reference]
 - Corrected space detection between links on the same row
 - Fixed a rare concurrency error in font loading code
 
-## ` `All changes
+## All changes
 
 |ID|Summary|Category|
 | :- | :- | :- |
