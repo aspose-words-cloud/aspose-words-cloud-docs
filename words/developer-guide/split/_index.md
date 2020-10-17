@@ -9,7 +9,7 @@ description: "Split Word documents. Split DOCX into small PDF, Word files with e
 weight: 240
 ---
 
-Aspose provides a powerful API to split Word documents into parts. It's a common document automation task when you need to break a large document into a number of smaller ones to handle them separately.
+Aspose provides a powerful API to split Word documents. It's a common document automation task when you need to break a large document into a number of smaller ones to handle them separately.
 
 For example, you must have been in a situation when you have a massive DOCX file, requiring urgent team work. In this case, it is pretty necessary to divide a Word document into sub-documents to speed up the collaborative workflow.
 
@@ -43,7 +43,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_doc.docx/split?from=2&to=3&for
 -H "Content-Length: 0" \
 -H "Authorization: Bearer <jwt token>"
 ```
-
 <p style="margin:0;font-size:80%;font-style:italic">To get a jwt token use this <a href="/words/getting-started/available-sdks/#curl">instruction</a></p>
 
 {{< /tab >}}
@@ -80,9 +79,9 @@ Using an SDK is the best way to speed up the development. An SDK takes care of l
 
 The following set of **Code Examples** for various SDKs demonstrates how to use this REST API in your projects:
 
-### Split all Pages to new PDFs
+### Split DOCX to PDFs
 
-**Split all pages**
+**Split all pages in a Word document**
 
 {{< nosnippet >}}
 {{< tabs tabTotal="9" tabID="4" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Python" tabName5="Ruby" tabName6="Node.js" tabName7="Android" tabName8="Swift" tabName9="Go" >}}
@@ -115,9 +114,10 @@ The following set of **Code Examples** for various SDKs demonstrates how to use 
 {{< /tab >}}
 {{< /tabs >}}
 {{< /nosnippet >}}
-### Split specific pages to new PDFs
 
-**Split specific pages**
+### Split specific pages to PDFs
+
+**Split specific pages of a Word document**
 
 {{< nosnippet >}}
 {{< tabs tabTotal="9" tabID="5" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Python" tabName5="Ruby" tabName6="Node.js" tabName7="Android" tabName8="Swift" tabName9="Go" >}}
@@ -150,9 +150,10 @@ The following set of **Code Examples** for various SDKs demonstrates how to use 
 {{< /tab >}}
 {{< /tabs >}}
 {{< /nosnippet >}}
+
 ### Split specific pages to any Supported Format
 
-**split document to any format**
+**Split a Word document to any format**
 
 {{< nosnippet >}}
 {{< tabs tabTotal="9" tabID="6" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Python" tabName5="Ruby" tabName6="Node.js" tabName7="Android" tabName8="Swift" tabName9="Go" >}}
@@ -185,9 +186,8 @@ The following set of **Code Examples** for various SDKs demonstrates how to use 
 {{< /tab >}}
 {{< /tabs >}}
 {{< /nosnippet >}}
-[ ](https://gist.github.com/aspose-words/d7482a8f2824fb669f7c31d8518ad13e#file-examples-ruby-splitresource-split_specific_pages_to_any_supported_format-rb).
 
 ## See also
 
 - Product page description: <a href="https://products.aspose.cloud/words/python/split" target="_blank">Python</a>, <a href="https://products.aspose.cloud/words/net/split" target="_blank">C#</a>, <a href="https://products.aspose.cloud/words/java/split" target="_blank">Java</a>, <a href="https://products.aspose.cloud/words/nodejs/split" target="_blank">Node.js</a>, <a href="https://products.aspose.cloud/words/php/split" target="_blank">PHP</a>, <a href="https://products.aspose.cloud/words/go/split" target="_blank">Go</a>
-- <a href="https://products.aspose.app/words/splitter" target="_blank">Free online splitter app
+- <a href="https://products.aspose.app/words/splitter" target="_blank" rel="noopener">Free online splitter app</a>

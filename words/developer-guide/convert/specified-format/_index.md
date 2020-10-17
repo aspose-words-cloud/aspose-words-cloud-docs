@@ -76,7 +76,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/convert?format=pdf" \
 -H "Authorization: Bearer <jwt token>" \
 -o TableDocument.pdf
 ```
-
 <p style="margin:0;font-size:80%;font-style:italic">To get a jwt token use this <a href="/words/getting-started/available-sdks/#curl">instruction</a></p>
 
 {{< /tab >}}

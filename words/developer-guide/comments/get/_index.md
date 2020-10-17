@@ -1,6 +1,6 @@
 ---
-title: "Get"
-second_title: "Comments in a Word Document"
+title: "Get comments"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /comments/get/
 aliases: [/get-comment-from-word-document/]
@@ -17,7 +17,7 @@ The important properties are described below:
 |RangeStart|link|Link to comment range start.|
 |RangeEnd|link|Link to comment range end.|
 |Author|string|Specifies the author's name for comment. It cannot be null.|
-|Initial|string|Specifies the initials of the user associated with a specific comment. It cannot be null.|
+|Initial|string|Specifies the initials of the user associated with a specific comment. It cannot be null.|
 |DateTime|DateTime|Gets the date and time that the comment was made.|
 |Text|string|This is a convenience property that allows you to easily specify the text of the comment.|
 |Content|list of child nodes|List of child nodes.|
@@ -40,7 +40,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/comments/0" \
 -H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>"
 ```
-
 <p style="margin:0;font-size:80%;font-style:italic">To get a jwt token use this <a href="/words/getting-started/available-sdks/#curl">instruction</a></p>
 
 {{< /tab >}}

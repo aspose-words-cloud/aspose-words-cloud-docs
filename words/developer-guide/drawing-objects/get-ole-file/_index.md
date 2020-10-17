@@ -45,7 +45,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/sample_EmbeddedOLE.docx/drawingObje
 -H "Authorization: Bearer <jwt token>" \
 -o Object.ole
 ```
-
 <p style="margin:0;font-size:80%;font-style:italic">To get a jwt token use this <a href="/words/getting-started/available-sdks/#curl">instruction</a></p>
 
 {{< /tab >}}

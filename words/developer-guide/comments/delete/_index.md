@@ -1,6 +1,6 @@
 ---
-title: "Delete"
-second_title: "Comments in a Word Document"
+title: "Delete comments"
+second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /comments/delete/
 aliases: [/delete-comment-from-word-document/]
@@ -28,7 +28,6 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/comments/0" \
 -H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>"
 ```
-
 <p style="margin:0;font-size:80%;font-style:italic">To get a jwt token use this <a href="/words/getting-started/available-sdks/#curl">instruction</a></p>
 
 {{< /tab >}}
