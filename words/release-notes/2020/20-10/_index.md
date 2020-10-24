@@ -12,11 +12,11 @@ The page contains release notes for Aspose.Words Cloud 20.10 – [API Reference
 
 ## Important Changes and New Features
 
-## Words
+## Words Cloud Changes
 
 - Various fixes and improvements
 
-## PDF
+## PDF to Word conversion improvements
 
 - Reduced amount of the wrong paragraph splits by improving text line comparison logic
 - Reworked page numbering detection to support more patterns and number formats (including Roman numerals)
