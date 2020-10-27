@@ -31,7 +31,7 @@ curl -X POST "https://api.aspose.cloud/v4.0/words/TestCopyStyle.docx/styles/copy
 
 -H  "Content-Type: application/json" -d "{\"StyleName\":\"Heading 1\"}"
 ```
-<p style="margin:-32px;font-size:80%;font-style:italic">To get a jwt token use this <a href="/words/getting-started/available-sdks/#curl">instruction</a></p>
+<p style="margin-top:-32px;font-size:80%;font-style:italic">To get a jwt token use this <a href="/words/getting-started/available-sdks/#curl">instruction</a></p>
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}

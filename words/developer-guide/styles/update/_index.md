@@ -31,7 +31,7 @@ curl -X PUT "https://api.aspose.cloud/v4.0/words/Run.doc/styles/Heading%201/upda
 
 -d "{\"IsQuickStyle\":true,\"Name\":\"My Style\"}"
 ```
-<p style="margin:-32px;font-size:80%;font-style:italic">To get a jwt token use this <a href="/words/getting-started/available-sdks/#curl">instruction</a></p>
+<p style="margin-top:-32px;font-size:80%;font-style:italic">To get a jwt token use this <a href="/words/getting-started/available-sdks/#curl">instruction</a></p>
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
