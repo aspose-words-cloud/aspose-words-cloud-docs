@@ -28,7 +28,7 @@ curl -v -X GET "https://api.aspose.cloud/v4.0/words/storage/file/sample.docx" \
 -H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>"
 ```
-<p style="margin:0;font-size:80%;font-style:italic">To get a jwt token use this <a href="/words/getting-started/available-sdks/#curl">instruction</a></p>
+<p style="margin:-32px;font-size:80%;font-style:italic">To get a jwt token use this <a href="/words/getting-started/available-sdks/#curl">instruction</a></p>
 
 {{< /tab >}}
 {{< /tabs >}}
@@ -52,7 +52,7 @@ curl  -v -X PUT "https://api.aspose.cloud/v4.0/words/storage/file/sample.docx" \
 -H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>"
 ```
-<p style="margin:0;font-size:80%;font-style:italic">To get a jwt token use this <a href="/words/getting-started/available-sdks/#curl">instruction</a></p>
+<p style="margin:-32px;font-size:80%;font-style:italic">To get a jwt token use this <a href="/words/getting-started/available-sdks/#curl">instruction</a></p>
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
@@ -88,7 +88,7 @@ curl -v -X PUT "https://api.aspose.cloud/v4.0/words/storage/file/copy/sample.doc
 -H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>"
 ```
-<p style="margin:0;font-size:80%;font-style:italic">To get a jwt token use this <a href="/words/getting-started/available-sdks/#curl">instruction</a></p>
+<p style="margin:-32px;font-size:80%;font-style:italic">To get a jwt token use this <a href="/words/getting-started/available-sdks/#curl">instruction</a></p>
 
 {{< /tab >}}
 {{< /tabs >}}
@@ -112,7 +112,7 @@ curl -v -X PUT "https://api.aspose.cloud/v4.0/words/storage/file/move/input.docx
 -H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>"
 ```
-<p style="margin:0;font-size:80%;font-style:italic">To get a jwt token use this <a href="/words/getting-started/available-sdks/#curl">instruction</a></p>
+<p style="margin:-32px;font-size:80%;font-style:italic">To get a jwt token use this <a href="/words/getting-started/available-sdks/#curl">instruction</a></p>
 
 {{< /tab >}}
 {{< /tabs >}}
@@ -136,7 +136,7 @@ curl -v -X DELETE "https://api.aspose.cloud/v4.0/words/storage/file/input.docx" 
 -H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>"
 ```
-<p style="margin:0;font-size:80%;font-style:italic">To get a jwt token use this <a href="/words/getting-started/available-sdks/#curl">instruction</a></p>
+<p style="margin:-32px;font-size:80%;font-style:italic">To get a jwt token use this <a href="/words/getting-started/available-sdks/#curl">instruction</a></p>
 
 {{< /tab >}}
 {{< /tabs >}}
