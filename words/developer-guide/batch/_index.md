@@ -31,7 +31,7 @@ It may happen that one of the inner calls in a batch returns an error. In such a
 
 {{% alert style="info" %}}
 
-If you want to obtain the precise faultless processing logic, writing a concurrent batch request may not be very simple. Since correctness is the central issue of any concurrent model, you need to design order-independent access to cloud storage files carefully.
+Since correctness is the central issue of any concurrent model, writing a concurrent batch request may not be very simple. If you want to obtain the precise faultless processing logic, you need to design order-independent access to cloud storage files carefully.
 
 {{% /alert %}}
 
