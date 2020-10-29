@@ -38,6 +38,10 @@ weight: 20
             <li><a href="/words/compare/">Compare Documents</a></li>
             <li><a href="/words/documents/render-into-image/">Render Complex Parts of a Word Document Into the Image</a></li>
         </ul>
+		<p>Batch Requests</p>
+        <ul>
+            <li><a href="/words/batch/">Batch Requests</a></li>
+        </ul>
     </div>
 </div>
 
