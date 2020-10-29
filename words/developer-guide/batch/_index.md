@@ -31,13 +31,13 @@ It may happen that one of the inner calls in a batch returns an error. In such a
 
 {{% alert style="info" %}}
 
-Please keep in mind that writing a concurrent batch request may not be very simple to obtain the precise faultless processing logic. Since correctness is the central issue of any concurrent model, you need to design order-independent access to cloud storage files carefully.
+If you want to obtain the precise faultless processing logic, writing a concurrent batch request may not be very simple. Since correctness is the central issue of any concurrent model, you need to design order-independent access to cloud storage files carefully.
 
 {{% /alert %}}
 
 ### Sequential Request Processing
 
-In some practical scenarios, it is required to execute a series of operations in a certain order step-by-step. A developer is supposed to do it by creating a chain of sequentially connected inner requests, using the ***dependsOn*** parameter.
+In some practical scenarios it is required to execute a series of operations in a certain order step-by-step. A developer is supposed to do it by creating a chain of sequentially connected inner requests, using the ***dependsOn*** parameter.
 
 Sequential request processing is currently under development and will be activated in the immediate future.
 
