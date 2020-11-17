@@ -54,8 +54,8 @@ The page contains release notes for Aspose.Words Cloud 20.11 – [API Reference
 | PDF2WORD-597    | Text lines don't join on JMemo documents                                      | Bug         |
 | PDF2WORD-598    | Pages numbers aren't recognized in "X/Y" format                               | Bug         |
 | PDF2WORD-599    | Wrong paragraph merging                                                       | Bug         |
-| PDF2WORD-600    | Generate correct Bidi settings for RTL text blocks                            | Bug         |
-| PDF2WORD-601    | Read RTL text properties from PDFs                                            | Bug         |
+| PDF2WORD-600    | Generate correct Bidi settings for RTL text blocks                            | Task        |
+| PDF2WORD-601    | Read RTL text properties from PDFs                                            | Task        |
 | PDF2WORD-605    | Fix `scn` operator processing to avoid getting `IndexOutOfRangeException`     | Bug         |
 | PDF2WORD-608    | Increase PDF name buffer to 127 bytes                                         | Task        |
 | PDF2WORD-609    | Two pages with images are filled with black instead of white                  | Bug         |
