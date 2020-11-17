@@ -4,7 +4,7 @@ second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /getting-started/pricing-plan/
 aliases: [/pricing-plan/]
-description: "Aspose.Words Cloud pricing plan"
+description: "Aspose Words Cloud pricing plan"
 weight: 70
 ---
 

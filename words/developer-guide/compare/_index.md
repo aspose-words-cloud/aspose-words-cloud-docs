@@ -8,7 +8,7 @@ description: "Learn how to compare Word documents"
 weight: 40
 ---
 
-While collaborating documents with others, one of the exciting features of Aspose Words Cloud is the ability to compare Word documents (DOCX, DOC, RTF, ODT) and keep track of changes, that include text additions, deletions and format modifications. To create a document with tracked changes, you need to compare a Word document with its revised edition.
+While collaborating documents with others, one of the exciting features of Aspose.Words Cloud is the ability to compare Word documents (DOCX, DOC, RTF, ODT) and keep track of changes, that include text additions, deletions and format modifications. To create a document with tracked changes, you need to compare a Word document with its revised edition.
 
 The REST API compares the original Word document with the revised one and allows to see the difference. The result is written to the output document that contains track changes as a number of edit and format revisions. If the output document is not specified — the revisions are saved to the original document.
 

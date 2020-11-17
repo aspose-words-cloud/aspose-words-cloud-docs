@@ -4,7 +4,7 @@ second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /getting-started/quickstart/
 aliases: [/quickstart/]
-description: "Learn how to get started quickly with Aspose.Words Cloud API and SDKs."
+description: "Learn how to get started quickly with Aspose Words Cloud API and SDKs."
 weight: 20
 ---
 

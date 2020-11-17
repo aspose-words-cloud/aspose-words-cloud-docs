@@ -3,7 +3,7 @@ title: "Evaluate Aspose.Words"
 type: docs
 url: /getting-started/evaluate-aspose-words/
 aliases: [/evaluate-aspose-words/]
-description: "Evaluate Aspose.Words Cloud API"
+description: "Evaluate Aspose Words Cloud API"
 weight: 90
 ---
 
