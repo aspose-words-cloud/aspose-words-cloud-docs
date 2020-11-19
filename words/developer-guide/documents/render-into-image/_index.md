@@ -45,7 +45,7 @@ The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Render) le
 - [Renders drawing object to a specified format](https://apireference.aspose.cloud/words/#/Render/RenderDrawingObject).
 - [Renders math object to a specified format](https://apireference.aspose.cloud/words/#/Render/RenderMathObject).
 
-You can also use cURL command-line utility to test this REST API. The following are a few examples of using cURL.
+You can use `cURL` command-line tool to easily interact with Aspose.Words web services. The following example demonstrates how to make calls to Cloud API with cURL.
 
 **Case 1**: Render a page of the document in BMP format:
 
@@ -215,7 +215,7 @@ PNG File
 {{< /tabs >}}
 {{< /nosnippet >}}
 
-The following set of **Code Examples** for various SDKs demonstrates how to use this REST API in your projects:
+The following code examples demonstrate how to make calls to Aspose.Words web services using various SDKs:
 
 **Case 1**: Renders Page to Specified Format
 

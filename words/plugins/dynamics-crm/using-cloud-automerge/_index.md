@@ -52,8 +52,8 @@ Select this option to create a new document based on the template.
 
 - **Enable Logging**: It will log all the steps performed by the plugin. (we leave this functionality to be fulfilled by the user themselves in the source code, If you would like to use our Log functionality un-comment the code in Log function.png)
 - **Product URI**: This contains the cloud product URI through which all the requests are processed.
-- **App SID**: It is the application AppSID From the Cloud storage of Aspose.
-- **App Key**: It is the App password Key from the cloud storage of Aspose.
+- **App SID**: It is the application AppSID From Cloud storage of Aspose.
+- **App Key**: It is the App password Key from cloud storage of Aspose.
 - **Document Template**: Use this lookup field to select Template. This template would be the base of your generated document.
 - **Delete Template From Cloud Storage**: If you already own Aspose License for Aspose.Words use this attribute to use the license to generate full version of the document.
 - **Delete Generated Document From Cloud Storage**: If you already own Aspose License for Aspose.Words use this attribute to use the license to generate full version of the document.

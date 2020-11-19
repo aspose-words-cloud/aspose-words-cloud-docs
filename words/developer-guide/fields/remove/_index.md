@@ -34,9 +34,9 @@ The important properties are described below:
 |LocaleId|int|Gets or sets LCID of the field.|
 |Result|string|Returns field result.|
 
-The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Fields/DeleteFields) lets you call this REST API directly from a browser.
+The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Fields/DeleteFields) defines a publicly accessible programming interface and lets you carry out REST interactions directly from a web browser.
 
-You can also use cURL command-line utility to test this REST API. The following are a few examples of using cURL, supplied with a sample **Input Document** [GetField.docx](/words/fields/GetField.docx).
+You can use `cURL` command-line tool to easily interact with Aspose.Words web services. The following example demonstrates how to make calls to Cloud API with cURL. Feel free to download and explore sample input [GetField.docx](/words/fields/GetField.docx) file that is designed to act as a demonstration and let you to figure out the details quickly.
 
 {{< nosnippet >}}
 {{< tabs tabTotal="2" tabID="2" tabName1="Request" tabName2="Response" >}}
@@ -70,7 +70,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/fields" \
 
 Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Please check out the [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs.
 
-The following set of **Code Examples** for various SDKs demonstrates how to use this REST API in your projects:
+The following code examples demonstrate how to make calls to Aspose.Words web services using various SDKs:
 
 **Case 1**: Delete Fields from a Document
 

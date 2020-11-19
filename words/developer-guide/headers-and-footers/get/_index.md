@@ -21,9 +21,9 @@ This REST API retrieves a Header or a Footer.
 - *{sectionIndex}* is the index of a section that contains headers and footers. If this syntax is used, only elements within a specified section are returned.
 - *{index}* is the index of specific header/footer.
 
-The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/HeadersFooters/GetHeaderFooter) lets you call this REST API directly from a browser. 
+The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/HeadersFooters/GetHeaderFooter) defines a publicly accessible programming interface and lets you carry out REST interactions directly from a web browser. 
 
-You can also use cURL command-line utility to test this REST API. The following are a few examples of using cURL.
+You can use `cURL` command-line tool to easily interact with Aspose.Words web services. The following example demonstrates how to make calls to Cloud API with cURL.
 
 **Case 1**: Get a Header or Footer in a Document
 
@@ -146,7 +146,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/HeadersFooters.doc/sections/0/heade
 
 Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Please check out the [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs.
 
-The following set of **Code Examples** for various SDKs demonstrates how to use this REST API in your projects:
+The following code examples demonstrate how to make calls to Aspose.Words web services using various SDKs:
 
 **Case 1: Get a Header or Footer in a Document**
 

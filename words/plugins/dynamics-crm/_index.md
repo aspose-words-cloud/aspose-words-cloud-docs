@@ -18,7 +18,7 @@ Aspose for Cloud is a cloud-based document generation, conversion and automation
 
 ## Aspose Cloud for Microsoft Dynamics CRM
 
-Aspose Cloud services are best used with Microsoft Dynamics CRM Online where we can use the cloud storage to save and process our files. Easily download files from cloud storage and process them. You can download the file on local storage after processing or Attach to Notes with any entity inside CRM. You can also upload your file to cloud storage using Aspose Cloud services.
+Aspose Cloud services are best used with Microsoft Dynamics CRM Online where we can use cloud storage to save and process our files. Easily download files from cloud storage and process them. You can download the file on local storage after processing or Attach to Notes with any entity inside CRM. You can also upload your file to cloud storage using Aspose Cloud services.
 
 We have created the following Plugins for Microsoft Dynamics CRM using Aspose.Words for Cloud
 

@@ -19,7 +19,7 @@ Using this API you can easily split a DOCX, DOC, DOTX, DOT, RTF, ODT, OTT, TXT d
 
 ## REST API
 
-The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Split/SplitDocument) lets you call this REST API directly from a browser. The description of the important parameters of the API is given below:
+The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Split/SplitDocument) defines a publicly accessible programming interface and lets you carry out REST interactions directly from a web browser. The description of the important parameters of the API is given below:
 
 |Parameter Name|Type|Description|
 | :- | :- | :- |
@@ -28,7 +28,7 @@ The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Split/Spli
 |to|int|The last page number for splitting, if it is not specified, splitting ends at the last page of the document.|
 |zipOutput|bool|ZipOutput or not.|
 
-You can also use cURL command-line utility to test this REST API. The following are a few examples of using cURL.
+You can use `cURL` command-line tool to easily interact with Aspose.Words web services. The following example demonstrates how to make calls to Cloud API with cURL.
 
 {{< nosnippet >}}
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
@@ -77,7 +77,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_doc.docx/split?from=2&to=3&for
 
 Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Please check out the [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs.
 
-The following set of **Code Examples** for various SDKs demonstrates how to use this REST API in your projects:
+The following code examples demonstrate how to make calls to Aspose.Words web services using various SDKs:
 
 ### Split DOCX to PDFs
 

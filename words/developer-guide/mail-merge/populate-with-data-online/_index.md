@@ -34,13 +34,13 @@ The cleanup options parameter can contain a list of values from below, separated
 
 ## REST API
 
-The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/MailMerge/ExecuteMailMergeOnline) lets you call this REST API directly from a browser.
+The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/MailMerge/ExecuteMailMergeOnline) defines a publicly accessible programming interface and lets you carry out REST interactions directly from a web browser.
 
-You can also use cURL command-line utility to test this REST API. The following are a few examples of using cURL.
+You can use `cURL` command-line tool to easily interact with Aspose.Words web services. The following example demonstrates how to make calls to Cloud API with cURL.
 
 **Case 1**: MailMerge Template
 
-You can use a sample **Input Document** [SampleMailMergeTemplate.docx](/words/mail-merge/SampleMailMergeTemplate.docx) and a sample **Mail Merge Data** [SampleMailMergeTemplateData.txt](/words/mail-merge/SampleMailMergeTemplateData.txt). The **Output Document** would be as follows: [TestPostDocumentExecuteMailMerge.docx](/words/mail-merge/TestPostDocumentExecuteMailMerge.docx).
+Feel free to download and explore sample input [SampleMailMergeTemplate.docx](/words/mail-merge/SampleMailMergeTemplate.docx), [SampleMailMergeTemplateData.txt](/words/mail-merge/SampleMailMergeTemplateData.txt) and output [TestPostDocumentExecuteMailMerge.docx](/words/mail-merge/TestPostDocumentExecuteMailMerge.docx) files that are designed to act as a demonstration and let you to figure out the details quickly.
 
 {{< nosnippet >}}
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
@@ -72,7 +72,7 @@ Output Document: TestPostDocumentExecuteMailMerge.docx
 
 **Case 2**: Mustache Template
 
-You can use a sample **Input Document** [TestExecuteTemplate.doc](/words/mail-merge/TestExecuteTemplate.doc) and a sample **Mail Merge Data** [TestExecuteTemplateData.txt](/words/mail-merge/TestExecuteTemplateData.txt). The **Output Document** would be as follows: TestPostExecuteTemplate.docx.
+Feel free to download and explore sample input [TestExecuteTemplate.doc](/words/mail-merge/TestExecuteTemplate.doc), [TestExecuteTemplateData.txt](/words/mail-merge/TestExecuteTemplateData.txt) and output [TestPostExecuteTemplate.docx](/words/mail-merge/TestPostExecuteTemplate.docx) files that are designed to act as a demonstration and let you to figure out the details quickly.
 
 {{< nosnippet >}}
 {{< tabs tabTotal="2" tabID="4" tabName1="Request" tabName2="Response" >}}
@@ -115,7 +115,7 @@ Using an SDK is the best way to speed up the development. An SDK takes care of l
 
 Please check out the [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words SDKs.
 
-The following set of **Code Examples** for various SDKs demonstrates how to use this REST API in your projects:
+The following code examples demonstrate how to make calls to Aspose.Words web services using various SDKs:
 
 {{< nosnippet >}}
 {{< tabs tabTotal="9" tabID="7" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Python" tabName5="Ruby" tabName6="Node.js" tabName7="Android" tabName8="Swift" tabName9="Go" >}}

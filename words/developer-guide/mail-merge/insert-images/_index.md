@@ -14,7 +14,7 @@ This example explains how to insert Images on a MERGEFIELD. [MailMerge](https:
 
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/MailMerge/ExecuteMailMerge) lets you call this REST API directly from a browser.
 
-You can also use cURL command-line utility to test this REST API. The following are a few examples of using cURL, supplied with a sample **Input Document** [TestMailMergeWithImages.doc](TestMailMergeWithImages.doc) and **Mail Merge Data** [MailMergeData.txt](MailMergeData.txt). The **Output Document** would be as follows: [TestMailMergeWithImages_Out.docx](TestMailMergeWithImages_Out.docx).
+You can use `cURL` command-line tool to easily interact with Aspose.Words web services. The following example demonstrates how to make calls to Cloud API with cURL. Feel free to download and explore sample input [TestMailMergeWithImages.doc](TestMailMergeWithImages.doc) and [MailMergeData.txt](MailMergeData.txt) files that are designed to act as a demonstration and let you to figure out the details quickly. The output document would be as follows: [TestMailMergeWithImages_Out.docx](TestMailMergeWithImages_Out.docx) .
 
 {{< nosnippet >}}
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
@@ -222,7 +222,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/TestMailMergeWithImages.doc/MailMer
 
 Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Check out our [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words SDKs. Please check [Available SDKs](/words/getting-started/available-sdks/) article to learn how to add an SDK to your project.
 
-The following set of **Code Examples** for various SDKs demonstrates how to use this REST API in your projects:
+The following code examples demonstrate how to make calls to Aspose.Words web services using various SDKs:
 
 {{< nosnippet >}}
 {{< tabs tabTotal="8" tabID="4" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Python" tabName5="Ruby" tabName6="Node.js" tabName7="Android" tabName8="Swift" >}}
