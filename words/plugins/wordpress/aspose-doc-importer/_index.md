@@ -83,7 +83,7 @@ After you have installed the Aspose Doc Import plugin it is really simple to sta
 Please follow these steps to get started:
 
 - Make sure you are logged-in to a WordPress site as Admin level account.
-- Make sure you have set up Aspose App Key & Id on the plugin configuration page. For further details on how to get app keys, [click here](https://docs.aspose.cloud/display/storagecloud/Aspose+Cloud+UI+Help+Topics).
+- Make sure you have set up Aspose Client Id & Secret on the plugin configuration page. For further details on how to get app keys, [click here](https://docs.aspose.cloud/display/storagecloud/Aspose+Cloud+UI+Help+Topics).
 - Navigate to the page or posts where you want to import contents from the DOC using Aspose Doc Importer plugin.
 - Click the **Aspose Doc Importer** button.
 - Click Select Doc File. It will show WordPress Media Gallery on popup. Either upload a DOC file or choose from the Media Library.

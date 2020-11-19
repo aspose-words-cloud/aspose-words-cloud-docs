@@ -16,7 +16,7 @@ Built-in document property resources cannot be removed and return an **HTTP 400*
 
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/DocumentProperties/DeleteDocumentProperty) defines a publicly accessible programming interface and lets you carry out REST interactions directly from a web browser.
 
-You can use `cURL` command-line tool to easily interact with Aspose.Words web services. The following example demonstrates how to make calls to Cloud API with cURL.
+You can use `cURL` command-line tool to easily interact with Aspose.Words web services. The following example shows how to make calls to Cloud API with cURL.
 
 {{< nosnippet >}}
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}

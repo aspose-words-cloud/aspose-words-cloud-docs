@@ -40,11 +40,11 @@ The cleanup options parameter can contain a list of values from below, separated
 
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/MailMerge/ExecuteMailMerge) defines a publicly accessible programming interface and lets you carry out REST interactions directly from a web browser.
 
-You can use `cURL` command-line tool to easily interact with Aspose.Words web services. The following example demonstrates how to make calls to Cloud API with cURL.
+You can use `cURL` command-line tool to easily interact with Aspose.Words web services. The following example shows how to make calls to Cloud API with cURL.
 
 **Case 1**: MailMerge Template
 
-Feel free to download and explore sample input [SampleMailMergeTemplate.docx](/words/mail-merge/SampleMailMergeTemplate.docx), [SampleMailMergeTemplateData.txt](/words/mail-merge/SampleMailMergeTemplateData.txt) and output [TestPostDocumentExecuteMailMerge.docx](/words/mail-merge/TestPostDocumentExecuteMailMerge.docx) files that are designed to act as a demonstration and let you to figure out the details quickly.
+Feel free to download and explore sample input [SampleMailMergeTemplate.docx](/words/mail-merge/SampleMailMergeTemplate.docx), [SampleMailMergeTemplateData.txt](/words/mail-merge/SampleMailMergeTemplateData.txt) and output [TestPostDocumentExecuteMailMerge.docx](/words/mail-merge/TestPostDocumentExecuteMailMerge.docx) files designed to act as a demonstration and let you figure out the details quickly.
 
 {{< nosnippet >}}
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
@@ -243,7 +243,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleMailMergeTemplate.docx/MailMe
 
 **Case 2**: Mustache Template
 
-Feel free to download and explore sample input [TestExecuteTemplate.doc](/words/mail-merge/TestExecuteTemplate.doc), [TestExecuteTemplateData.txt](/words/mail-merge/TestExecuteTemplateData.txt) and output [TestPostDocumentExecuteMailMergeResult.docx](/words/mail-merge/TestPostDocumentExecuteMailMergeResult.docx) files that are designed to act as a demonstration and let you to figure out the details quickly.
+Feel free to download and explore sample input [TestExecuteTemplate.doc](/words/mail-merge/TestExecuteTemplate.doc), [TestExecuteTemplateData.txt](/words/mail-merge/TestExecuteTemplateData.txt) and output [TestPostDocumentExecuteMailMergeResult.docx](/words/mail-merge/TestPostDocumentExecuteMailMergeResult.docx) files designed to act as a demonstration and let you figure out the details quickly.
 
 {{< nosnippet >}}
 {{< tabs tabTotal="2" tabID="4" tabName1="Request" tabName2="Response" >}}

@@ -47,7 +47,7 @@ There is a restriction on the usage of multi-column text that will be addressed 
 
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Convert/SaveAs) defines a publicly accessible programming interface and lets you run PDF to Word conversions directly from a web browser.
 
-You can also use cURL command-line utility to convert PDF to Word document. The following code demonstrates how to convert PDF to DOCX with cURL. Feel free to download and explore sample input [demo.pdf](demo.pdf) and output [demo.docx](demo.docx) files that are designed to act as a demonstration and let you to figure out the details quickly.
+You can also use cURL command-line utility to convert PDF to Word document. The following code demonstrates how to convert PDF to DOCX with cURL. Feel free to download and explore sample input [demo.pdf](demo.pdf) and output [demo.docx](demo.docx) files designed to act as a demonstration and let you figure out the details quickly.
 
 {{< nosnippet >}}
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}

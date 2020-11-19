@@ -84,7 +84,7 @@ After you have installed Aspose DOC Exporter Plugin it is really simple to start
 Please follow these steps to get started:
 
 - Make sure you are logged-in to a WordPress site as Admin level account.
-- Make sure you have set up Aspose App Key & Id on the plugin configuration page. For further details on how to get app keys, [click here ](https://docs.aspose.cloud/display/storagecloud/Aspose+Cloud+UI+Help+Topics).
+- Make sure you have set up Aspose Client Id & Secret on the plugin configuration page. For further details on how to get app keys, [click here ](https://docs.aspose.cloud/display/storagecloud/Aspose+Cloud+UI+Help+Topics).
 - Enable "Export Post Comments"  feature from configuration page, if you want to include post comments in the exported file from configuration page.
 - Enter customised Label for "Post Comments" to appear in the exported file from configuration page.
 - Choose the desired Exported File Format i.e (Doc/Docx/Rtf/Txt/Odt/Dot/Dotx) from configuration page. 

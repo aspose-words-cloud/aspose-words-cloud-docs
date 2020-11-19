@@ -31,7 +31,7 @@ The important properties are described below:
 
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Runs/GetRun) defines a publicly accessible programming interface and lets you carry out REST interactions directly from a web browser. 
 
-You can use `cURL` command-line tool to easily interact with Aspose.Words web services. The following example demonstrates how to make calls to Cloud API with cURL.
+You can use `cURL` command-line tool to easily interact with Aspose.Words web services. The following example shows how to make calls to Cloud API with cURL.
 
 {{< nosnippet >}}
 {{< tabs tabTotal="2" tabID="2" tabName1="Request" tabName2="Response" >}}

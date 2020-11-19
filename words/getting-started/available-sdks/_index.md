@@ -90,8 +90,8 @@ To make these requests you need to get **JSON Web Token** (JWT).
 {{< tab tabNum="1" >}}
 
 ```bash
-# Please get your APP_KEY and APP_SID credentials from https://dashboard.aspose.cloud/#/apps.
-# Place APP_SID in "client_id" argument and APP_KEY in "client_secret" argument.
+# Please get your `Client Id` and `Secret` credentials from https://dashboard.aspose.cloud/#/apps.
+# Place `Client Id` in client_id argument. Place `Secret` in client_secret argument.
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
 -d "grant_type=client_credentials&client_id=xxxxx&client_secret=xxxxx" \

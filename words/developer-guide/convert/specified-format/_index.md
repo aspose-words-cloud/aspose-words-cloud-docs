@@ -60,7 +60,7 @@ The format can also be specified by the request Accept header.
 
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Convert/ConvertDocument) defines a publicly accessible programming interface and lets you carry out REST interactions directly from a web browser.
 
-You can use `cURL` command-line tool to easily interact with Aspose.Words web services. The following example demonstrates how to make calls to Cloud API with cURL. Feel free to download and explore sample input [TableDocument.doc](TableDocument.doc) and output [TableDocument.pdf](TableDocument.pdf) files that are designed to act as a demonstration and let you to figure out the details quickly.
+You can use `cURL` command-line tool to easily interact with Aspose.Words web services. The following example shows how to make calls to Cloud API with cURL. Feel free to download and explore sample input [TableDocument.doc](TableDocument.doc) and output [TableDocument.pdf](TableDocument.pdf) files designed to act as a demonstration and let you figure out the details quickly.
 
 {{< nosnippet >}}
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}

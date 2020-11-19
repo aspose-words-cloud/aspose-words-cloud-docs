@@ -28,7 +28,7 @@ The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Split/Spli
 |to|int|The last page number for splitting, if it is not specified, splitting ends at the last page of the document.|
 |zipOutput|bool|ZipOutput or not.|
 
-You can use `cURL` command-line tool to easily interact with Aspose.Words web services. The following example demonstrates how to make calls to Cloud API with cURL.
+You can use `cURL` command-line tool to easily interact with Aspose.Words web services. The following example shows how to make calls to Cloud API with cURL.
 
 {{< nosnippet >}}
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
@@ -81,7 +81,7 @@ The following code examples demonstrate how to make calls to Aspose.Words web se
 
 ### Split DOCX to PDFs
 
-**Split all pages in a Word document**
+The following code examples demonstrate how to split all pages in a Word document.
 
 {{< nosnippet >}}
 {{< tabs tabTotal="9" tabID="4" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Python" tabName5="Ruby" tabName6="Node.js" tabName7="Android" tabName8="Swift" tabName9="Go" >}}
@@ -117,7 +117,7 @@ The following code examples demonstrate how to make calls to Aspose.Words web se
 
 ### Split specific pages to PDFs
 
-**Split specific pages of a Word document**
+The following code examples demonstrate how to split specific pages of a Word document.
 
 {{< nosnippet >}}
 {{< tabs tabTotal="9" tabID="5" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Python" tabName5="Ruby" tabName6="Node.js" tabName7="Android" tabName8="Swift" tabName9="Go" >}}
@@ -153,7 +153,7 @@ The following code examples demonstrate how to make calls to Aspose.Words web se
 
 ### Split specific pages to any Supported Format
 
-**Split a Word document to any format**
+The following code examples demonstrate how to split a Word document to any format.
 
 {{< nosnippet >}}
 {{< tabs tabTotal="9" tabID="6" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Python" tabName5="Ruby" tabName6="Node.js" tabName7="Android" tabName8="Swift" tabName9="Go" >}}

@@ -23,7 +23,7 @@ This REST API retrieves a Header or a Footer.
 
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/HeadersFooters/GetHeaderFooter) defines a publicly accessible programming interface and lets you carry out REST interactions directly from a web browser. 
 
-You can use `cURL` command-line tool to easily interact with Aspose.Words web services. The following example demonstrates how to make calls to Cloud API with cURL.
+You can use `cURL` command-line tool to easily interact with Aspose.Words web services. The following example shows how to make calls to Cloud API with cURL.
 
 **Case 1**: Get a Header or Footer in a Document
 
@@ -87,8 +87,8 @@ curl -v "https://api.aspose.cloud/v4.0/words/HeadersFooters.doc/headersfooters/0
 {{< tab tabNum="1" >}}
 
 ```JAVA
-# Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
-# Place App_Key in "client_secret" and App_SID in "client_id" argument.
+# Please get your `Client Id` and `Secret` credentials from https://dashboard.aspose.cloud/#/apps.
+# Place `Client Id` in client_id argument. Place `Secret` in client_secret argument.
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
 -d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \

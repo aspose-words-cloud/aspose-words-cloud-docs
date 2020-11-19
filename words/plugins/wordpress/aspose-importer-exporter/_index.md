@@ -87,7 +87,7 @@ After you have installed Aspose PDF Import Plugin it is really simple to start u
 Please follow these steps to get started:
 
 - Make sure you are logged-in to a WordPress site as Admin level account.
-- Make sure you have set up Aspose App Key & Id on the plugin configuration page. For further details on how to get app keys, [click here ](http://www.aspose.com/docs/display/totalcloud/Creating+a+New+App+and+Getting+App+Key).
+- Make sure you have set up Aspose Client Id & Secret on the plugin configuration page. For further details on how to get app keys, [click here ](http://www.aspose.com/docs/display/totalcloud/Creating+a+New+App+and+Getting+App+Key).
 
 ## Using Import Features of Plugin
 

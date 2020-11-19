@@ -81,7 +81,7 @@ Once downloaded, please follow these steps to install the module to your WordPre
 - Extract the files. When you first get the module, it will appear in a compressed file format, either tar.gz or .zip. On Windows, use a program like 7-zip to extract it.
 - Upload the folder. Using SFTP (file transfer protocol) or Git (version control), upload your files to "sites/all/modules" folder in your Drupal installation.
 - **Enable the module**. Navigate to **Administer**, then **Site building** and finally **Modules**. Check the **Enabled** option next to the Aspose Doc Exporter module and click the **Save Configuration** button at the bottom.
-- Include Aspose Keys. Click on the configure button next to the **Aspose Doc Exporter** module and then add **APP SID** & **APP KEY**. For further details on how to get app keys, [click here](http://www.aspose.com/docs/display/rest/Creating+a+New+App+and+Getting+App+Key).
+- Include Aspose Keys. Click on the configure button next to the **Aspose Doc Exporter** module and then add `Client Id` and `Secret` credentials. For further details on how to get app keys, [click here](http://www.aspose.com/docs/display/rest/Creating+a+New+App+and+Getting+App+Key).
 
 ### Using
 
@@ -89,7 +89,7 @@ After you have installed Aspose DOC Exporter Plugin it is really simple to start
 Please follow these steps to get started:
 
 - Make sure you are logged-in to a Drupal site as Admin level account.
-- Make sure you have set up Aspose App Key & Id on the module configuration page. For further details on how to get app keys, [click here](http://www.aspose.com/docs/display/rest/Creating+a+New+App+and+Getting+App+Key).
+- Make sure you have set up Aspose Client Id & Secret on the module configuration page. For further details on how to get app keys, [click here](http://www.aspose.com/docs/display/rest/Creating+a+New+App+and+Getting+App+Key).
 - Navigate to the Content Page.
 - Select  the articles or pages you want to export and then select **Aspose Export to DOC** from **Update Options**.
 - Click **Update**.

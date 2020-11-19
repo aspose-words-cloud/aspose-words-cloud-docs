@@ -18,7 +18,7 @@ For details on how to create a new account please check [Create a new Account](
 
 Before you can make any requests to Aspose Cloud APIs you need to [create an API Client App](https://docs.aspose.cloud/storage/create-new-app-and-get-app-key-and-sid/).
 
-This will give you **App SID** and **App Key** credentials, which you can use to invoke Aspose Cloud APIs.
+This will give you `Client Id` and `Secret` credentials, which you can use to invoke Aspose Cloud APIs.
 
 ## Install the SDK of your choice
 
@@ -26,7 +26,7 @@ Using an SDK is the quickest way to speed up the development. An SDK takes care 
 
 ## Make an API request from the SDK of your choice
 
-Use the **App SID** and **App Key** from the API app client you created in step one and replace in the corresponding code. The following example demonstrates how to convert an HTML document to DOCX format.
+Use the `Client Id` and `Secret` credentials from the API app client you created in step one and replace in the corresponding code. The following example demonstrates how to convert an HTML document to DOCX format.
 
 The GitHub repository for Aspose.Words Cloud has a complete set of examples, demonstrating our API capabilities.
 

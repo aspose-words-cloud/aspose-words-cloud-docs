@@ -45,7 +45,7 @@ The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Render) le
 - [Renders drawing object to a specified format](https://apireference.aspose.cloud/words/#/Render/RenderDrawingObject).
 - [Renders math object to a specified format](https://apireference.aspose.cloud/words/#/Render/RenderMathObject).
 
-You can use `cURL` command-line tool to easily interact with Aspose.Words web services. The following example demonstrates how to make calls to Cloud API with cURL.
+You can use `cURL` command-line tool to easily interact with Aspose.Words web services. The following example shows how to make calls to Cloud API with cURL.
 
 **Case 1**: Render a page of the document in BMP format:
 
@@ -82,8 +82,8 @@ BMP File
 {{< tab tabNum="1" >}}
 
 ```JAVA
-# Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
-# Place App_Key in "client_secret" and App_SID in "client_id" argument.
+# Please get your `Client Id` and `Secret` credentials from https://dashboard.aspose.cloud/#/apps.
+# Place `Client Id` in client_id argument. Place `Secret` in client_secret argument.
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
 -d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
@@ -117,8 +117,8 @@ PNG File
 {{< tab tabNum="1" >}}
 
 ```JAVA
-# Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
-# Place App_Key in "client_secret" and App_SID in "client_id" argument.
+# Please get your `Client Id` and `Secret` credentials from https://dashboard.aspose.cloud/#/apps.
+# Place `Client Id` in client_id argument. Place `Secret` in client_secret argument.
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
 -d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
@@ -152,8 +152,8 @@ PNG File
 {{< tab tabNum="1" >}}
 
 ```JAVA
-# Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
-# Place App_Key in "client_secret" and App_SID in "client_id" argument.
+# Please get your `Client Id` and `Secret` credentials from https://dashboard.aspose.cloud/#/apps.
+# Place `Client Id` in client_id argument. Place `Secret` in client_secret argument.
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
 -d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
@@ -187,8 +187,8 @@ PDF File
 {{< tab tabNum="1" >}}
 
 ```JAVA
-# Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
-# Place App_Key in "client_secret" and App_SID in "client_id" argument.
+# Please get your `Client Id` and `Secret` credentials from https://dashboard.aspose.cloud/#/apps.
+# Place `Client Id` in client_id argument. Place `Secret` in client_secret argument.
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
 -d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \

@@ -14,7 +14,7 @@ This example explains how to insert Images on a MERGEFIELD. [MailMerge](https:
 
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/MailMerge/ExecuteMailMerge) lets you call this REST API directly from a browser.
 
-You can use `cURL` command-line tool to easily interact with Aspose.Words web services. The following example demonstrates how to make calls to Cloud API with cURL. Feel free to download and explore sample input [TestMailMergeWithImages.doc](TestMailMergeWithImages.doc) and [MailMergeData.txt](MailMergeData.txt) files that are designed to act as a demonstration and let you to figure out the details quickly. The output document would be as follows: [TestMailMergeWithImages_Out.docx](TestMailMergeWithImages_Out.docx) .
+You can use `cURL` command-line tool to easily interact with Aspose.Words web services. The following example shows how to make calls to Cloud API with cURL. Feel free to download and explore sample input [TestMailMergeWithImages.doc](TestMailMergeWithImages.doc) and [MailMergeData.txt](MailMergeData.txt) files designed to act as a demonstration and let you figure out the details quickly. The output document would be as follows: [TestMailMergeWithImages_Out.docx](TestMailMergeWithImages_Out.docx) .
 
 {{< nosnippet >}}
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}

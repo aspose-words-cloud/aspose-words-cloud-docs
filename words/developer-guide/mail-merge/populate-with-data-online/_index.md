@@ -36,11 +36,11 @@ The cleanup options parameter can contain a list of values from below, separated
 
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/MailMerge/ExecuteMailMergeOnline) defines a publicly accessible programming interface and lets you carry out REST interactions directly from a web browser.
 
-You can use `cURL` command-line tool to easily interact with Aspose.Words web services. The following example demonstrates how to make calls to Cloud API with cURL.
+You can use `cURL` command-line tool to easily interact with Aspose.Words web services. The following example shows how to make calls to Cloud API with cURL.
 
 **Case 1**: MailMerge Template
 
-Feel free to download and explore sample input [SampleMailMergeTemplate.docx](/words/mail-merge/SampleMailMergeTemplate.docx), [SampleMailMergeTemplateData.txt](/words/mail-merge/SampleMailMergeTemplateData.txt) and output [TestPostDocumentExecuteMailMerge.docx](/words/mail-merge/TestPostDocumentExecuteMailMerge.docx) files that are designed to act as a demonstration and let you to figure out the details quickly.
+Feel free to download and explore sample input [SampleMailMergeTemplate.docx](/words/mail-merge/SampleMailMergeTemplate.docx), [SampleMailMergeTemplateData.txt](/words/mail-merge/SampleMailMergeTemplateData.txt) and output [TestPostDocumentExecuteMailMerge.docx](/words/mail-merge/TestPostDocumentExecuteMailMerge.docx) files designed to act as a demonstration and let you figure out the details quickly.
 
 {{< nosnippet >}}
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
@@ -72,15 +72,15 @@ Output Document: TestPostDocumentExecuteMailMerge.docx
 
 **Case 2**: Mustache Template
 
-Feel free to download and explore sample input [TestExecuteTemplate.doc](/words/mail-merge/TestExecuteTemplate.doc), [TestExecuteTemplateData.txt](/words/mail-merge/TestExecuteTemplateData.txt) and output [TestPostExecuteTemplate.docx](/words/mail-merge/TestPostExecuteTemplate.docx) files that are designed to act as a demonstration and let you to figure out the details quickly.
+Feel free to download and explore sample input [TestExecuteTemplate.doc](/words/mail-merge/TestExecuteTemplate.doc), [TestExecuteTemplateData.txt](/words/mail-merge/TestExecuteTemplateData.txt) and output [TestPostExecuteTemplate.docx](/words/mail-merge/TestPostExecuteTemplate.docx) files designed to act as a demonstration and let you figure out the details quickly.
 
 {{< nosnippet >}}
 {{< tabs tabTotal="2" tabID="4" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
 
 ```JAVA
-# Please get your App_Key and App_SID credentials from https://dashboard.aspose.cloud/#/apps.
-# Place App_Key in "client_secret" and App_SID in "client_id" argument.
+# Please get your `Client Id` and `Secret` credentials from https://dashboard.aspose.cloud/#/apps.
+# Place `Client Id` in client_id argument. Place `Secret` in client_secret argument.
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
 -d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
