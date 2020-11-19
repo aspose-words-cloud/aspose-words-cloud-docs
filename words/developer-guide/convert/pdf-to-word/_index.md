@@ -4,18 +4,24 @@ second_title: "Convert"
 type: docs
 url: /convert/pdf-to-word/
 aliases: [/convert-pdf-document-to-word/]
-keywords: "convert PDF to Word, dotm file, go sdk"
-description: "API to convert PDF to Word document. Basic advantages of Aspose conversion engine."
+keywords: "convert PDF to Word, PDF to Word conversion, PDF to DOC, PDF to DOCX in Python, C#, Java, C++, Ruby, PHP, NodeJS, Go, Android, Swift, Dart"
+description: "Cloud API to programmatically convert PDF to Word documents. Robust conversion engine to save PDF in DOC, DOCX and other formats with Python, C#, Java, C++, Ruby, PHP, NodeJS, Go, Android, Swift, Dart"
 weight: 20
 ---
 
-Сonvert **PDF to Word** documents. The converter engine turns a PDF document into a "flow" Word file format with high precision and quality. It merges multiple paragraphs into one section, converts tables and lists into native Word tables and lists, etc. so that document can then be naturally edited in Microsoft Word.
+Aspose provides a high fidelity API to programmatically convert PDF to Word document formats and in the opposite directions with professional quality. The combined use of Adobe and Microsoft Office technologies has a lot to offer to the end-user.
 
-Aspose.Words conversion engine is deliberately focused on conversion document structure into a "flow" format. The resulting document will be "editable" but some complex formatting might appear different from the original document.
+These major document formats, including DOCX, DOC, RTF, ОDT and PDF, are capable of encapsulating almost any type of data including text, tables, raster and vector graphics, video, audio, and also support a wide range of formatting features.
 
-PDF to Word conversion supports detecting headers and footers. Sections of PDF pages containing page numbers, document names, etc. will be converted as headers and footers in Word document that do not affect the rest of the page layout and are not moved while the document is being edited.
+Despite similarities, PDF and Word documents have considerable differences in the operational capabilities.
 
-Converter currently supports the following features:
+PDF documents support multilevel security options and are difficult to extract information. PDF format is the best choice when the document’s author allows others to read and print document copies only. Word document formats, in contrast, are great for collaborative development, but they aren't always the best choice for distributing as they can be easily modified without author's permission.
+
+You may require to convert an immutable PDF to an editable DOCX or DOC document and it is also a fine solution if you need to extract text from a PDF file easily.
+
+Aspose conversion engine transforms a PDF to Word-based document format, that can be naturally edited with any mainstream word processor. However, some complex formatting might appear slightly different from the original document. PDF to Word conversion supports detecting headers and footers. Sections of PDF pages containing page numbers, document names, etc. will be converted as Word's headers and footers. These headers and footers do not affect the rest of the page layout and are not moved while the document is being edited.
+
+Aspose PDF to Word conversion engine currently supports the following features:
 
 - Text and paragraphs
 - Text formatting (font, size, foreground/background, options like bold, italic, underline)
@@ -31,24 +37,24 @@ Converter currently supports the following features:
 - Bookmarks
 - Basic vector graphics
 
-The following limitations apply and will be addressed in future versions:
+{{% alert style="info" %}}
 
-- Multi-column text is not supported
+There is a restriction on the usage of multi-column text that will be addressed in future API versions. Multi-column text is currently not supported by PDF to Word conversion API.
 
-**Note**: We support Python, C#, Java, Ruby, PHP, NodeJS, Go, Android, Swift to convert PDF to Word. You can find the sample code below in this page.
+{{% /alert %}}
 
 ## REST API
 
-The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Convert/SaveAs) lets you call this REST API directly from a browser.
+The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Convert/SaveAs) defines a publicly accessible programming interface and lets you run PDF to Word conversions directly from a web browser.
 
-You can also use cURL command-line utility to test this REST API. The following are a few examples of using cURL, supplied with a sample **Input Document** [demo.pdf](demo.pdf). The **Output Document** would be as follows: [demo.docx](demo.docx).
+You can also use cURL command-line utility to convert PDF to Word document. The following code demonstrates how to convert PDF to DOCX with cURL. Feel free to download and explore both input [demo.pdf](demo.pdf) and output [demo.docx](demo.docx) sample documents to figure things out.
 
 {{< nosnippet >}}
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
 
 ```bash
-# cURL example to convert PDF Document to Word
+# cURL example to convert PDF document to Word
 curl -v "https://api.aspose.cloud/v4.0/words/demo.pdf/saveAs" \
 -X PUT \
 -d "{'SaveFormat':'docx', 'FileName': 'demo.docx'}" \
@@ -94,7 +100,7 @@ Using an SDK is the best way to speed up the development. An SDK takes care of l
 
 Please check out the [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words SDKs.
 
-The following set of **Code Examples** for various SDKs demonstrates how to use this REST API in your projects:
+The following code examples demonstrate how to convert PDF to Word programmatically using various Aspose.Words SDKs:
 
 {{< nosnippet >}}
 {{< tabs tabTotal="9" tabID="4" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Python" tabName5="Ruby" tabName6="Node.js" tabName7="Android" tabName8="Swift" tabName9="Go" >}}
@@ -130,5 +136,6 @@ The following set of **Code Examples** for various SDKs demonstrates how to use 
 
 ## See also
 
-- Product page description: <a href="https://products.aspose.cloud/words/python/convert" target="_blank">Python</a>, <a href="https://products.aspose.cloud/words/net/convert" target="_blank">C#</a>, <a href="https://products.aspose.cloud/words/java/convert" target="_blank">Java</a>, <a href="https://products.aspose.cloud/words/nodejs/convert" target="_blank">Node.js</a>, <a href="https://products.aspose.cloud/words/php/convert" target="_blank">PHP</a>, <a href="https://products.aspose.cloud/words/go/convert" target="_blank">Go</a>
-- <a href="https://products.aspose.app/words/conversion/pdf-to-word" target="_blank">Free online PDF to Word conversion</a>
+- Product page description: <a href="https://products.aspose.cloud/words/python/convert" target="_blank">Python</a>, <a href="https://products.aspose.cloud/words/net/convert" target="_blank">C#</a>, <a href="https://products.aspose.cloud/words/java/convert" target="_blank">Java</a>, <a href="https://products.aspose.cloud/words/nodejs/convert" target="_blank">Node.js</a>, <a href="https://products.aspose.cloud/words/php/convert" target="_blank">PHP</a>, <a href="https://products.aspose.cloud/words/go/convert" target="_blank">Go</a>,
+"https://products.aspose.cloud/words/go/dart" target="_blank">Dart</a>
+- <a href="https://products.aspose.app/words/conversion/pdf-to-word" target="_blank">Free online PDF to Word Converter app</a>
