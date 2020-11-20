@@ -79,7 +79,7 @@ Please check out the [GitHub repository](https://github.com/aspose-words-cloud) 
 The following code examples demonstrate how to convert Word to PDF programmatically using various Aspose.Words SDKs:
 
 {{< nosnippet >}}
-{{< tabs tabTotal="9" tabID="4" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Python" tabName5="Ruby" tabName6="Node.js" tabName7="Android" tabName8="Swift" tabName9="Go" >}}
+{{< tabs tabTotal="10" tabID="4" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Python" tabName5="Ruby" tabName6="Node.js" tabName7="Android" tabName8="Swift" tabName9="Go" tabName10="Dart" >}}
 {{< tab tabNum="1" >}}
 {{< gist "aspose-words-cloud-gists" "374e1e3dd4bca8f696f29d913645f549" "ConvertWordDocumentToPDF.cs" >}}
 {{< /tab >}}
@@ -107,6 +107,9 @@ The following code examples demonstrate how to convert Word to PDF programmatica
 {{< tab tabNum="9" >}}
 {{< gist "aspose-words-cloud-gists" "625ca80adffd779e8f6e3611551e14d5" "config.json" >}}
 {{< gist "aspose-words-cloud-gists" "625ca80adffd779e8f6e3611551e14d5" "ConvertWordDocumentToPDF.go" >}}
+{{< /tab >}}
+{{< tab tabNum="10" >}}
+{{< gist "aspose-words-cloud-gists" "6aae628cf2b878b78fea177c3171c6bf" "ConvertWordDocumentToPDF.dart" >}}
 {{< /tab >}}
 {{< /tabs >}}
 {{< /nosnippet >}}
