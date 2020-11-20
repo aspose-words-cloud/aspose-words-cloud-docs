@@ -15,7 +15,7 @@ weight: 30
 
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Convert/SaveAsTiff) defines a publicly accessible programming interface and lets you carry out REST interactions directly from a web browser.
 
-You can use `cURL` command-line tool to easily interact with Aspose.Words web services. The following example shows how to make calls to Cloud API with cURL. Feel free to download and explore sample input [test_multi_pages.docx](test_multi_pages.docx) and output [abc.tiff](abc.tiff) files designed to act as a demonstration and let you figure out the details quickly.
+You can use **cURL** command-line tool to access Aspose.Words web services easily. The following example shows how to make calls to Cloud API with cURL. Feel free to download and explore sample input [test_multi_pages.docx](test_multi_pages.docx) and output [abc.tiff](abc.tiff) files designed to act as a demonstration and let you figure out the details quickly.
 
 {{< nosnippet >}}
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}

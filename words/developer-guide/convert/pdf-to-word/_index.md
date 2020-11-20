@@ -9,7 +9,7 @@ description: "Cloud API to programmatically convert PDF to Word documents. Robus
 weight: 20
 ---
 
-Aspose provides a high fidelity API to programmatically convert PDF to Word document formats and in the opposite directions with professional quality. The combined use of Adobe and Microsoft Office technologies has a lot to offer to the end-user.
+Aspose provides a high fidelity API to programmatically convert PDF documents to Word format and in the opposite directions with professional quality. The combined use of Adobe and Microsoft Office technologies has a lot to offer to the end-user.
 
 These major document formats, including DOCX, DOC, RTF, ОDT and PDF, are capable of encapsulating almost any type of data including text, tables, raster and vector graphics, video, audio, and also support a wide range of formatting features.
 
@@ -47,7 +47,7 @@ There is a restriction on the usage of multi-column text that will be addressed 
 
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Convert/SaveAs) defines a publicly accessible programming interface and lets you run PDF to Word conversions directly from a web browser.
 
-You can also use cURL command-line utility to convert PDF to Word document. The following code demonstrates how to convert PDF to DOCX with cURL. Feel free to download and explore sample input [demo.pdf](demo.pdf) and output [demo.docx](demo.docx) files designed to act as a demonstration and let you figure out the details quickly.
+You can use **cURL** command-line tool to access Aspose.Words web services and convert PDF documents to Word format easily. The following code demonstrates how to convert PDF to DOCX with cURL. Feel free to download and explore sample input [demo.pdf](demo.pdf) and output [demo.docx](demo.docx) files designed to act as a demonstration and let you figure out the details quickly.
 
 {{< nosnippet >}}
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
@@ -137,5 +137,5 @@ The following code examples demonstrate how to convert PDF to Word programmatica
 ## See also
 
 - Product page description: <a href="https://products.aspose.cloud/words/python/convert" target="_blank">Python</a>, <a href="https://products.aspose.cloud/words/net/convert" target="_blank">C#</a>, <a href="https://products.aspose.cloud/words/java/convert" target="_blank">Java</a>, <a href="https://products.aspose.cloud/words/nodejs/convert" target="_blank">Node.js</a>, <a href="https://products.aspose.cloud/words/php/convert" target="_blank">PHP</a>, <a href="https://products.aspose.cloud/words/go/convert" target="_blank">Go</a>,
-<a href="https://products.aspose.cloud/words/go/dart/convert" target="_blank">Dart</a>
+<a href="https://products.aspose.cloud/words/dart/convert" target="_blank">Dart</a>
 - <a href="https://products.aspose.app/words/conversion/pdf-to-word" target="_blank">Free online PDF to Word Converter app</a>

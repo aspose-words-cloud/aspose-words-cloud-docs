@@ -65,15 +65,17 @@ The important parameters are described in the following table:
 |UpdateSdtContent|Gets or sets a value determining whether the content of Aspose.Words.Markup.StructuredDocumentTag" is updated before saving.|True|
 |UpdateFields|Gets or sets a value determining if fields should be updated before saving the document to a fixed page format.|True|
 
-**NOTE**
+{{% alert style="info" %}}
 
 All elements, except **SaveFormat** and **FileName**, can be omitted. If we omit an element, then the element will contain default value.
+
+{{% /alert %}}
 
 ## REST API
 
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Convert/SaveAs) defines a publicly accessible programming interface and lets you carry out REST interactions directly from a web browser.
 
-You can use `cURL` command-line tool to easily interact with Aspose.Words web services. The following example shows how to make calls to Cloud API with cURL.
+You can use **cURL** command-line tool to access Aspose.Words web services easily. The following example shows how to make calls to Cloud API with cURL.
 
 {{< nosnippet >}}
 {{< tabs tabTotal="2" tabID="25" tabName1="Request" tabName2="Response" >}}
