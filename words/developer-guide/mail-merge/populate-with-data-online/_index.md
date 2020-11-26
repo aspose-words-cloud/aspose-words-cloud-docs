@@ -79,7 +79,7 @@ Feel free to download and explore sample input [TestExecuteTemplate.doc](/words/
 {{< tab tabNum="1" >}}
 
 ```JAVA
-# Please get your `Client Id` and `Secret` credentials from https://dashboard.aspose.cloud/#/apps.
+# Please get your `Client Id` and `Secret` credentials from https://dashboard.aspose.cloud/applications.
 # Place `Client Id` in client_id argument. Place `Secret` in client_secret argument.
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \

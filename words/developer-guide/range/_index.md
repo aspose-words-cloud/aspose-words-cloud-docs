@@ -129,7 +129,7 @@ First, he needs to call [Paragraph API](https://apireference.aspose.cloud/words/
 {{< tab tabNum="1" >}}
 
 ```JAVA
-# Please get your `Client Id` and `Secret` credentials from https://dashboard.aspose.cloud/#/apps.
+# Please get your `Client Id` and `Secret` credentials from https://dashboard.aspose.cloud/applications.
 # Place `Client Id` in client_id argument. Place `Secret` in client_secret argument.
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
@@ -226,7 +226,7 @@ First, he needs to call [Paragraph API](https://apireference.aspose.cloud/words/
 {{< tab tabNum="1" >}}
 
 ```JAVA
-# Please get your `Client Id` and `Secret` credentials from https://dashboard.aspose.cloud/#/apps.
+# Please get your `Client Id` and `Secret` credentials from https://dashboard.aspose.cloud/applications.
 # Place `Client Id` in client_id argument. Place `Secret` in client_secret argument.
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
