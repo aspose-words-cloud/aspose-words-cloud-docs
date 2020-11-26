@@ -491,18 +491,18 @@ The following set of **Code Examples** for various SDKs demonstrates how to use 
 ### Use case 1. Get text from the first two paragraphs in the document.
 
 {{< nosnippet >}}
-{{< tabs tabTotal="4" tabID="13" tabName1="C#" tabName2="Android" tabName3="Swift" tabName4="Go" >}}
+{{< tabs tabTotal="4" tabID="13" tabName1="C#" tabName2="Golang" tabName3="Android" tabName4="Swift" >}}
 {{< tab tabNum="1" >}}
-{{< gist "aspose-cloud" "19215e2ac3d61ca0fd78d1ca2f1c1023" "GetParagraphsText.cs" >}}
+{{< gist "aspose-words-cloud-gists" "374e1e3dd4bca8f696f29d913645f549" "GetParagraphsText.cs" >}}
 {{< /tab >}}
 {{< tab tabNum="2" >}}
-{{< gist "aspose-cloud" "5240b25c9a3e98fb21785ad771a3876b" "Aspose_Cloud_Words_GetParagraphsText.java" >}}
+{{< gist "aspose-words-cloud-gists" "625ca80adffd779e8f6e3611551e14d5" "GetParagraphsText.go" >}}
 {{< /tab >}}
 {{< tab tabNum="3" >}}
-{{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose_Words_Swift_GetParagraphsText.swift" >}}
+{{< gist "aspose-words-cloud-gists" "fde11f9e52383a88af20b937c5e9b3d9" "Aspose_Cloud_Words_GetParagraphsText.java" >}}
 {{< /tab >}}
 {{< tab tabNum="4" >}}
-{{< gist "aspose-cloud" "068ce2149de5ad69ab516209b7ae82cf" "GetParagraphsText.go" >}}
+{{< gist "aspose-words-cloud-gists" "790dbd2edd5d36f170732366f52cac4c" "Aspose_Words_Swift_GetParagraphsText.swift" >}}
 {{< /tab >}}
 {{< /tabs >}}
 {{< /nosnippet >}}
@@ -510,18 +510,18 @@ The following set of **Code Examples** for various SDKs demonstrates how to use 
 ### Use case 2. Save the selected range as a new document.
 
 {{< nosnippet >}}
-{{< tabs tabTotal="4" tabID="14" tabName1="C#" tabName2="Android" tabName3="Swift" tabName4="Go" >}}
+{{< tabs tabTotal="4" tabID="14" tabName1="C#" tabName2="Golang" tabName3="Android" tabName4="Swift" >}}
 {{< tab tabNum="1" >}}
-{{< gist "aspose-cloud" "19215e2ac3d61ca0fd78d1ca2f1c1023" "SaveTheSelectedRanageAsANewDocument.cs" >}}
+{{< gist "aspose-words-cloud-gists" "374e1e3dd4bca8f696f29d913645f549" "SaveTheSelectedRanageAsANewDocument.cs" >}}
 {{< /tab >}}
 {{< tab tabNum="2" >}}
-{{< gist "aspose-cloud" "5240b25c9a3e98fb21785ad771a3876b" "Aspose_Cloud_Words_SaveTheSelectedRanageAsANewDocument.java" >}}
+{{< gist "aspose-words-cloud-gists" "625ca80adffd779e8f6e3611551e14d5" "SaveTheSelectedRanageAsANewDocument.go" >}}
 {{< /tab >}}
 {{< tab tabNum="3" >}}
-{{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose_Words_Swift_SaveTheSelectedRanageAsANewDocument.swift" >}}
+{{< gist "aspose-words-cloud-gists" "fde11f9e52383a88af20b937c5e9b3d9" "Aspose_Cloud_Words_SaveTheSelectedRanageAsANewDocument.java" >}}
 {{< /tab >}}
 {{< tab tabNum="4" >}}
-{{< gist "aspose-cloud" "068ce2149de5ad69ab516209b7ae82cf" "SaveTheSelectedRanageAsANewDocument.go" >}}
+{{< gist "aspose-words-cloud-gists" "790dbd2edd5d36f170732366f52cac4c" "Aspose_Words_Swift_SaveTheSelectedRanageAsANewDocument.swift" >}}
 {{< /tab >}}
 {{< /tabs >}}
 {{< /nosnippet >}}

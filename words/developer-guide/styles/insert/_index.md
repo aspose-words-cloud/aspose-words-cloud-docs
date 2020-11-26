@@ -15,7 +15,7 @@ This REST API inserts a `Style` to a document element.
 
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Styles/InsertStyle) defines a publicly accessible programming interface and lets you carry out REST interactions directly from a web browser.
 
-You can use `cURL` command-line tool to easily interact with Aspose.Words web services. The following example shows how to make calls to Cloud API with cURL.
+You can use **cURL** command-line tool to access Aspose.Words web services easily. The following example shows how to make calls to Cloud API with cURL.
 
 {{< nosnippet >}}
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
@@ -70,33 +70,18 @@ Using an SDK is the best way to speed up the development. An SDK takes care of l
 The following code examples demonstrate how to make calls to Aspose.Words web services using various SDKs:
 
 {{< nosnippet >}}
-{{< tabs tabTotal="9" tabID="4" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Python" tabName5="Ruby" tabName6="Node.js" tabName7="Android" tabName8="Swift" tabName9="Go" >}}
+{{< tabs tabTotal="4" tabID="4" tabName1="Node.js" tabName2="C#" tabName3="PHP" tabName4="Golang" >}}
 {{< tab tabNum="1" >}}
-{{< gist "aspose-cloud" "9fa2e714041dd6cf1071eb307b623416" "InsertStyle.cs" >}}
+{{< gist "aspose-words-cloud-gists" "a9510e4b51613f1138e7c1ec09634c4a" "InsertStyle.js" >}}
 {{< /tab >}}
 {{< tab tabNum="2" >}}
-{{< gist "aspose-cloud" "7d6af3eba6f989851e6475842125f31d" "InsertStyle.java" >}}
+{{< gist "aspose-words-cloud-gists" "374e1e3dd4bca8f696f29d913645f549" "InsertStyle.cs" >}}
 {{< /tab >}}
 {{< tab tabNum="3" >}}
-{{< gist "aspose-cloud" "163e730223a72524d163ef9c017f1b1a" "InsertStyle.php" >}}
+{{< gist "aspose-words-cloud-gists" "e2a72445b96362dc0117f06ab54bb94a" "InsertStyle.php" >}}
 {{< /tab >}}
 {{< tab tabNum="4" >}}
-{{< gist "aspose-cloud" "fb014f439299bbee24472cb0efa6d50b" "InsertStyle.py" >}}
-{{< /tab >}}
-{{< tab tabNum="5" >}}
-{{< gist "aspose-cloud" "3f3f4f7033ae386af05042ee2ad3aa06" "InsertStyle.rb" >}}
-{{< /tab >}}
-{{< tab tabNum="6" >}}
-{{< gist "aspose-cloud" "715d05011a94ac77f67b21213de5da7f" "InsertStyle.js" >}}
-{{< /tab >}}
-{{< tab tabNum="7" >}}
-{{< gist "aspose-cloud" "5240b25c9a3e98fb21785ad771a3876b" "InsertStyle.java" >}}
-{{< /tab >}}
-{{< tab tabNum="8" >}}
-{{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "InsertStyle.swift" >}}
-{{< /tab >}}
-{{< tab tabNum="9" >}}
-{{< gist "aspose-cloud" "068ce2149de5ad69ab516209b7ae82cf" "insertStyle.go" >}}
+{{< gist "aspose-words-cloud-gists" "625ca80adffd779e8f6e3611551e14d5" "insertStyle.go" >}}
 {{< /tab >}}
 {{< /tabs >}}
 {{< /nosnippet >}}

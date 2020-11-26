@@ -45,7 +45,7 @@ The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Render) le
 - [Renders drawing object to a specified format](https://apireference.aspose.cloud/words/#/Render/RenderDrawingObject).
 - [Renders math object to a specified format](https://apireference.aspose.cloud/words/#/Render/RenderMathObject).
 
-You can use `cURL` command-line tool to easily interact with Aspose.Words web services. The following example shows how to make calls to Cloud API with cURL.
+You can use **cURL** command-line tool to access Aspose.Words web services easily. The following example shows how to make calls to Cloud API with cURL.
 
 **Case 1**: Render a page of the document in BMP format:
 
@@ -220,27 +220,18 @@ The following code examples demonstrate how to make calls to Aspose.Words web se
 **Case 1**: Renders Page to Specified Format
 
 {{< nosnippet >}}
-{{< tabs tabTotal="7" tabID="16" tabName1="C#" tabName2="Java" tabName3="Python" tabName4="Ruby" tabName5="Node.js" tabName6="Android" tabName7="Swift" >}}
+{{< tabs tabTotal="4" tabID="16" tabName1="Java" tabName2="C#" tabName3="Android" tabName4="Swift" >}}
 {{< tab tabNum="1" >}}
-{{< gist "aspose-cloud" "19215e2ac3d61ca0fd78d1ca2f1c1023" "RendersPageToSpecifiedFormat.cs" >}}
+{{< gist "aspose-words-cloud-gists" "caede439bfd2e57c3010befe504faff4" "RenderPage.java" >}}
 {{< /tab >}}
 {{< tab tabNum="2" >}}
-{{< gist "aspose-cloud" "7d6af3eba6f989851e6475842125f31d" "RenderPage.java" >}}
+{{< gist "aspose-words-cloud-gists" "374e1e3dd4bca8f696f29d913645f549" "RendersPageToSpecifiedFormat.cs" >}}
 {{< /tab >}}
 {{< tab tabNum="3" >}}
-{{< gist "aspose-cloud" "303ca1faad43f8d1b672fbeac98ad2e0" "render_page_to_specified_format.py" >}}
+{{< gist "aspose-words-cloud-gists" "fde11f9e52383a88af20b937c5e9b3d9" "Aspose_Cloud_Words_RenderPage.java" >}}
 {{< /tab >}}
 {{< tab tabNum="4" >}}
-{{< gist "aspose-cloud" "5af73b7a7c08a9072ac1c05b0914df3f" "render_page.rb" >}}
-{{< /tab >}}
-{{< tab tabNum="5" >}}
-{{< gist "aspose-cloud" "e5e9b0139962cb912eac42c9df06a1a2" "renderPage.js" >}}
-{{< /tab >}}
-{{< tab tabNum="6" >}}
-{{< gist "aspose-cloud" "5240b25c9a3e98fb21785ad771a3876b" "Aspose_Cloud_Words_RenderPage.java" >}}
-{{< /tab >}}
-{{< tab tabNum="7" >}}
-{{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose_Words_Swift_RenderPage.swift" >}}
+{{< gist "aspose-words-cloud-gists" "790dbd2edd5d36f170732366f52cac4c" "Aspose_Words_Swift_RenderPage.swift" >}}
 {{< /tab >}}
 {{< /tabs >}}
 {{< /nosnippet >}}
@@ -248,27 +239,18 @@ The following code examples demonstrate how to make calls to Aspose.Words web se
 **Case 2**: Renders Paragraph to Specified Format
 
 {{< nosnippet >}}
-{{< tabs tabTotal="7" tabID="17" tabName1="C#" tabName2="Java" tabName3="Python" tabName4="Ruby" tabName5="Node.js" tabName6="Android" tabName7="Swift" >}}
+{{< tabs tabTotal="4" tabID="17" tabName1="Java" tabName2="C#" tabName3="Android" tabName4="Swift" >}}
 {{< tab tabNum="1" >}}
-{{< gist "aspose-cloud" "19215e2ac3d61ca0fd78d1ca2f1c1023" "RenderParagraph.cs" >}}
+{{< gist "aspose-words-cloud-gists" "caede439bfd2e57c3010befe504faff4" "RenderParagraph.java" >}}
 {{< /tab >}}
 {{< tab tabNum="2" >}}
-{{< gist "aspose-cloud" "7d6af3eba6f989851e6475842125f31d" "RenderParagraph.java" >}}
+{{< gist "aspose-words-cloud-gists" "374e1e3dd4bca8f696f29d913645f549" "RenderParagraph.cs" >}}
 {{< /tab >}}
 {{< tab tabNum="3" >}}
-{{< gist "aspose-cloud" "303ca1faad43f8d1b672fbeac98ad2e0" "render_paragraph_to_specified_format.py" >}}
+{{< gist "aspose-words-cloud-gists" "fde11f9e52383a88af20b937c5e9b3d9" "Aspose_Cloud_Words_RenderParagraph.java" >}}
 {{< /tab >}}
 {{< tab tabNum="4" >}}
-{{< gist "aspose-cloud" "5af73b7a7c08a9072ac1c05b0914df3f" "render_paragraph.rb" >}}
-{{< /tab >}}
-{{< tab tabNum="5" >}}
-{{< gist "aspose-cloud" "e5e9b0139962cb912eac42c9df06a1a2" "renderParagraph.js" >}}
-{{< /tab >}}
-{{< tab tabNum="6" >}}
-{{< gist "aspose-cloud" "5240b25c9a3e98fb21785ad771a3876b" "Aspose_Cloud_Words_RenderParagraph.java" >}}
-{{< /tab >}}
-{{< tab tabNum="7" >}}
-{{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose_Words_Swift_RenderParagraph.swift" >}}
+{{< gist "aspose-words-cloud-gists" "790dbd2edd5d36f170732366f52cac4c" "Aspose_Words_Swift_RenderParagraph.swift" >}}
 {{< /tab >}}
 {{< /tabs >}}
 {{< /nosnippet >}}
@@ -276,27 +258,18 @@ The following code examples demonstrate how to make calls to Aspose.Words web se
 **Case 3**: Renders Table to Specified Format
 
 {{< nosnippet >}}
-{{< tabs tabTotal="7" tabID="18" tabName1="C#" tabName2="Java" tabName3="Python" tabName4="Ruby" tabName5="Node.js" tabName6="Android" tabName7="Swift" >}}
+{{< tabs tabTotal="4" tabID="18" tabName1="Java" tabName2="C#" tabName3="Android" tabName4="Swift" >}}
 {{< tab tabNum="1" >}}
-{{< gist "aspose-cloud" "19215e2ac3d61ca0fd78d1ca2f1c1023" "RenderTable.cs" >}}
+{{< gist "aspose-words-cloud-gists" "caede439bfd2e57c3010befe504faff4" "RenderTable.java" >}}
 {{< /tab >}}
 {{< tab tabNum="2" >}}
-{{< gist "aspose-cloud" "7d6af3eba6f989851e6475842125f31d" "RenderTable.java" >}}
+{{< gist "aspose-words-cloud-gists" "374e1e3dd4bca8f696f29d913645f549" "RenderTable.cs" >}}
 {{< /tab >}}
 {{< tab tabNum="3" >}}
-{{< gist "aspose-cloud" "303ca1faad43f8d1b672fbeac98ad2e0" "render_table_to_specified_format.py" >}}
+{{< gist "aspose-words-cloud-gists" "fde11f9e52383a88af20b937c5e9b3d9" "Aspose_Cloud_Words_RenderTable.java" >}}
 {{< /tab >}}
 {{< tab tabNum="4" >}}
-{{< gist "aspose-cloud" "5af73b7a7c08a9072ac1c05b0914df3f" "render_table.rb" >}}
-{{< /tab >}}
-{{< tab tabNum="5" >}}
-{{< gist "aspose-cloud" "e5e9b0139962cb912eac42c9df06a1a2" "renderTable.js" >}}
-{{< /tab >}}
-{{< tab tabNum="6" >}}
-{{< gist "aspose-cloud" "5240b25c9a3e98fb21785ad771a3876b" "Aspose_Cloud_Words_RenderTable.java" >}}
-{{< /tab >}}
-{{< tab tabNum="7" >}}
-{{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose_Words_Swift_RenderTable.swift" >}}
+{{< gist "aspose-words-cloud-gists" "790dbd2edd5d36f170732366f52cac4c" "Aspose_Words_Swift_RenderTable.swift" >}}
 {{< /tab >}}
 {{< /tabs >}}
 {{< /nosnippet >}}
@@ -304,27 +277,18 @@ The following code examples demonstrate how to make calls to Aspose.Words web se
 **Case 4**: Renders Drawing Object to Specified Format
 
 {{< nosnippet >}}
-{{< tabs tabTotal="7" tabID="19" tabName1="C#" tabName2="Java" tabName3="Python" tabName4="Ruby" tabName5="Node.js" tabName6="Android" tabName7="Swift" >}}
+{{< tabs tabTotal="4" tabID="19" tabName1="Java" tabName2="C#" tabName3="Android" tabName4="Swift" >}}
 {{< tab tabNum="1" >}}
-{{< gist "aspose-cloud" "19215e2ac3d61ca0fd78d1ca2f1c1023" "RenderDrawingObjectToSpecifiedFormat.cs" >}}
+{{< gist "aspose-words-cloud-gists" "caede439bfd2e57c3010befe504faff4" "RenderDrawingObject.java" >}}
 {{< /tab >}}
 {{< tab tabNum="2" >}}
-{{< gist "aspose-cloud" "7d6af3eba6f989851e6475842125f31d" "RenderDrawingObject.java" >}}
+{{< gist "aspose-words-cloud-gists" "374e1e3dd4bca8f696f29d913645f549" "RenderDrawingObjectToSpecifiedFormat.cs" >}}
 {{< /tab >}}
 {{< tab tabNum="3" >}}
-{{< gist "aspose-cloud" "303ca1faad43f8d1b672fbeac98ad2e0" "render_drawing_object_to_specified_format.py" >}}
+{{< gist "aspose-words-cloud-gists" "fde11f9e52383a88af20b937c5e9b3d9" "Aspose_Cloud_Words_RenderDrawingObject.java" >}}
 {{< /tab >}}
 {{< tab tabNum="4" >}}
-{{< gist "aspose-cloud" "5af73b7a7c08a9072ac1c05b0914df3f" "render_drawing_object.rb" >}}
-{{< /tab >}}
-{{< tab tabNum="5" >}}
-{{< gist "aspose-cloud" "e5e9b0139962cb912eac42c9df06a1a2" "renderDrawingObject.js" >}}
-{{< /tab >}}
-{{< tab tabNum="6" >}}
-{{< gist "aspose-cloud" "5240b25c9a3e98fb21785ad771a3876b" "Aspose_Cloud_Words_RenderDrawingObject.java" >}}
-{{< /tab >}}
-{{< tab tabNum="7" >}}
-{{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose_Words_Swift_RenderDrawingObject.swift" >}}
+{{< gist "aspose-words-cloud-gists" "790dbd2edd5d36f170732366f52cac4c" "Aspose_Words_Swift_RenderDrawingObject.swift" >}}
 {{< /tab >}}
 {{< /tabs >}}
 {{< /nosnippet >}}
@@ -332,27 +296,18 @@ The following code examples demonstrate how to make calls to Aspose.Words web se
 **Case 5**: Renders Math Object to Specified Format
 
 {{< nosnippet >}}
-{{< tabs tabTotal="7" tabID="20" tabName1="C#" tabName2="Java" tabName3="Python" tabName4="Ruby" tabName5="Node.js" tabName6="Android" tabName7="Swift" >}}
+{{< tabs tabTotal="4" tabID="20" tabName1="Java" tabName2="C#" tabName3="Android" tabName4="Swift" >}}
 {{< tab tabNum="1" >}}
-{{< gist "aspose-cloud" "19215e2ac3d61ca0fd78d1ca2f1c1023" "RenderMathObject.cs" >}}
+{{< gist "aspose-words-cloud-gists" "caede439bfd2e57c3010befe504faff4" "RenderMathObject.java" >}}
 {{< /tab >}}
 {{< tab tabNum="2" >}}
-{{< gist "aspose-cloud" "7d6af3eba6f989851e6475842125f31d" "RenderMathObject.java" >}}
+{{< gist "aspose-words-cloud-gists" "374e1e3dd4bca8f696f29d913645f549" "RenderMathObject.cs" >}}
 {{< /tab >}}
 {{< tab tabNum="3" >}}
-{{< gist "aspose-cloud" "303ca1faad43f8d1b672fbeac98ad2e0" "render_math_object_to_specified_format.py" >}}
+{{< gist "aspose-words-cloud-gists" "fde11f9e52383a88af20b937c5e9b3d9" "Aspose_Cloud_Words_RenderMathObject.java" >}}
 {{< /tab >}}
 {{< tab tabNum="4" >}}
-{{< gist "aspose-cloud" "5af73b7a7c08a9072ac1c05b0914df3f" "render_math_object.rb" >}}
-{{< /tab >}}
-{{< tab tabNum="5" >}}
-{{< gist "aspose-cloud" "e5e9b0139962cb912eac42c9df06a1a2" "renderMathObject.js" >}}
-{{< /tab >}}
-{{< tab tabNum="6" >}}
-{{< gist "aspose-cloud" "5240b25c9a3e98fb21785ad771a3876b" "Aspose_Cloud_Words_RenderMathObject.java" >}}
-{{< /tab >}}
-{{< tab tabNum="7" >}}
-{{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose_Words_Swift_RenderMathObject.swift" >}}
+{{< gist "aspose-words-cloud-gists" "790dbd2edd5d36f170732366f52cac4c" "Aspose_Words_Swift_RenderMathObject.swift" >}}
 {{< /tab >}}
 {{< /tabs >}}
 {{< /nosnippet >}}

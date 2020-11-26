@@ -28,7 +28,7 @@ The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Split/Spli
 |to|int|The last page number for splitting, if it is not specified, splitting ends at the last page of the document.|
 |zipOutput|bool|ZipOutput or not.|
 
-You can use `cURL` command-line tool to easily interact with Aspose.Words web services. The following example shows how to make calls to Cloud API with cURL.
+You can use **cURL** command-line tool to access Aspose.Words web services easily. The following example shows how to make calls to Cloud API with cURL.
 
 {{< nosnippet >}}
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
@@ -84,33 +84,33 @@ The following code examples demonstrate how to make calls to Aspose.Words web se
 The following code examples demonstrate how to split all pages in a Word document.
 
 {{< nosnippet >}}
-{{< tabs tabTotal="9" tabID="4" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Python" tabName5="Ruby" tabName6="Node.js" tabName7="Android" tabName8="Swift" tabName9="Go" >}}
+{{< tabs tabTotal="9" tabID="4" tabName1="Python" tabName2="Java" tabName3="Node.js" tabName4="C#" tabName5="PHP" tabName6="Golang" tabName7="Ruby" tabName8="Android" tabName9="Swift" >}}
 {{< tab tabNum="1" >}}
-{{< gist "aspose-cloud" "9fa2e714041dd6cf1071eb307b623416" "SplitAllPagesToNewPDFs.cs" >}}
+{{< gist "aspose-words-cloud-gists" "e26813ced70692c544820cd8011ee7e0" "SplitAllPagesToNewPDFs.py" >}}
 {{< /tab >}}
 {{< tab tabNum="2" >}}
-{{< gist "aspose-cloud" "7d6af3eba6f989851e6475842125f31d" "SplitAllPagesToNewPDFs.java" >}}
+{{< gist "aspose-words-cloud-gists" "caede439bfd2e57c3010befe504faff4" "SplitAllPagesToNewPDFs.java" >}}
 {{< /tab >}}
 {{< tab tabNum="3" >}}
-{{< gist "" "163e730223a72524d163ef9c017f1b1a" "SplitAllPagesToNewPDFs.php" >}}
+{{< gist "aspose-words-cloud-gists" "a9510e4b51613f1138e7c1ec09634c4a" "SplitAllPagesToNewPDFs.js" >}}
 {{< /tab >}}
 {{< tab tabNum="4" >}}
-{{< gist "" "fb014f439299bbee24472cb0efa6d50b" "SplitAllPagesToNewPDFs.py" >}}
+{{< gist "aspose-words-cloud-gists" "374e1e3dd4bca8f696f29d913645f549" "SplitAllPagesToNewPDFs.cs" >}}
 {{< /tab >}}
 {{< tab tabNum="5" >}}
-{{< gist "" "3f3f4f7033ae386af05042ee2ad3aa06" "SplitAllPagesToNewPDFs.rb" >}}
+{{< gist "aspose-words-cloud-gists" "e2a72445b96362dc0117f06ab54bb94a" "SplitAllPagesToNewPDFs.php" >}}
 {{< /tab >}}
 {{< tab tabNum="6" >}}
-{{< gist "aspose-cloud" "715d05011a94ac77f67b21213de5da7f" "SplitAllPagesToNewPDFs.js" >}}
+{{< gist "aspose-words-cloud-gists" "625ca80adffd779e8f6e3611551e14d5" "SplitAllPagesToNewPDFs.go" >}}
 {{< /tab >}}
 {{< tab tabNum="7" >}}
-{{< gist "aspose-cloud" "5240b25c9a3e98fb21785ad771a3876b" "Aspose_Cloud_Words_SplitAllPagesToNewPDFs.java" >}}
+{{< gist "aspose-words-cloud-gists" "339f3835a4c0a536c81ec941de29baf7" "SplitAllPagesToNewPDFs.rb" >}}
 {{< /tab >}}
 {{< tab tabNum="8" >}}
-{{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose_Words_Swift_SplitAllPagesToNewPDFs.swift" >}}
+{{< gist "aspose-words-cloud-gists" "fde11f9e52383a88af20b937c5e9b3d9" "Aspose_Cloud_Words_SplitAllPagesToNewPDFs.java" >}}
 {{< /tab >}}
 {{< tab tabNum="9" >}}
-{{< gist "aspose-cloud" "068ce2149de5ad69ab516209b7ae82cf" "SplitAllPagesToNewPDFs.go" >}}
+{{< gist "aspose-words-cloud-gists" "790dbd2edd5d36f170732366f52cac4c" "Aspose_Words_Swift_SplitAllPagesToNewPDFs.swift" >}}
 {{< /tab >}}
 {{< /tabs >}}
 {{< /nosnippet >}}
@@ -120,33 +120,33 @@ The following code examples demonstrate how to split all pages in a Word documen
 The following code examples demonstrate how to split specific pages of a Word document.
 
 {{< nosnippet >}}
-{{< tabs tabTotal="9" tabID="5" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Python" tabName5="Ruby" tabName6="Node.js" tabName7="Android" tabName8="Swift" tabName9="Go" >}}
+{{< tabs tabTotal="9" tabID="5" tabName1="Python" tabName2="Java" tabName3="Node.js" tabName4="C#" tabName5="PHP" tabName6="Golang" tabName7="Ruby" tabName8="Android" tabName9="Swift" >}}
 {{< tab tabNum="1" >}}
-{{< gist "aspose-cloud" "9fa2e714041dd6cf1071eb307b623416" "SplitSpecificPagesToNewPDFs.cs" >}}
+{{< gist "aspose-words-cloud-gists" "e26813ced70692c544820cd8011ee7e0" "SplitSpecificPagesToNewPDFs.py" >}}
 {{< /tab >}}
 {{< tab tabNum="2" >}}
-{{< gist "aspose-cloud" "7d6af3eba6f989851e6475842125f31d" "SplitSpecificPagesToNewPDFs.java" >}}
+{{< gist "aspose-words-cloud-gists" "caede439bfd2e57c3010befe504faff4" "SplitSpecificPagesToNewPDFs.java" >}}
 {{< /tab >}}
 {{< tab tabNum="3" >}}
-{{< gist "" "163e730223a72524d163ef9c017f1b1a" "SplitSpecificPagesToNewPDFs.php" >}}
+{{< gist "aspose-words-cloud-gists" "a9510e4b51613f1138e7c1ec09634c4a" "SplitSpecificPagesToNewPDFs.js" >}}
 {{< /tab >}}
 {{< tab tabNum="4" >}}
-{{< gist "" "fb014f439299bbee24472cb0efa6d50b" "SplitSpecificPagesToNewPDFs.py" >}}
+{{< gist "aspose-words-cloud-gists" "374e1e3dd4bca8f696f29d913645f549" "SplitSpecificPagesToNewPDFs.cs" >}}
 {{< /tab >}}
 {{< tab tabNum="5" >}}
-{{< gist "" "3f3f4f7033ae386af05042ee2ad3aa06" "SplitSpecificPagesToNewPDFs.rb" >}}
+{{< gist "aspose-words-cloud-gists" "e2a72445b96362dc0117f06ab54bb94a" "SplitSpecificPagesToNewPDFs.php" >}}
 {{< /tab >}}
 {{< tab tabNum="6" >}}
-{{< gist "aspose-cloud" "715d05011a94ac77f67b21213de5da7f" "SplitSpecificPagesToNewPDFs.js" >}}
+{{< gist "aspose-words-cloud-gists" "625ca80adffd779e8f6e3611551e14d5" "SplitSpecificPagesToNewPDFs.go" >}}
 {{< /tab >}}
 {{< tab tabNum="7" >}}
-{{< gist "aspose-cloud" "5240b25c9a3e98fb21785ad771a3876b" "Aspose_Cloud_Words_SplitSpecificPagesToNewPDFs.java" >}}
+{{< gist "aspose-words-cloud-gists" "339f3835a4c0a536c81ec941de29baf7" "SplitSpecificPagesToNewPDFs.rb" >}}
 {{< /tab >}}
 {{< tab tabNum="8" >}}
-{{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose_Words_Swift_SplitSpecificPagesToNewPDFs.swift" >}}
+{{< gist "aspose-words-cloud-gists" "fde11f9e52383a88af20b937c5e9b3d9" "Aspose_Cloud_Words_SplitSpecificPagesToNewPDFs.java" >}}
 {{< /tab >}}
 {{< tab tabNum="9" >}}
-{{< gist "aspose-cloud" "068ce2149de5ad69ab516209b7ae82cf" "SplitSpecificPagesToNewPDFs.go" >}}
+{{< gist "aspose-words-cloud-gists" "790dbd2edd5d36f170732366f52cac4c" "Aspose_Words_Swift_SplitSpecificPagesToNewPDFs.swift" >}}
 {{< /tab >}}
 {{< /tabs >}}
 {{< /nosnippet >}}
@@ -156,33 +156,33 @@ The following code examples demonstrate how to split specific pages of a Word do
 The following code examples demonstrate how to split a Word document to any format.
 
 {{< nosnippet >}}
-{{< tabs tabTotal="9" tabID="6" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Python" tabName5="Ruby" tabName6="Node.js" tabName7="Android" tabName8="Swift" tabName9="Go" >}}
+{{< tabs tabTotal="9" tabID="6" tabName1="Python" tabName2="Java" tabName3="Node.js" tabName4="C#" tabName5="PHP" tabName6="Golang" tabName7="Ruby" tabName8="Android" tabName9="Swift" >}}
 {{< tab tabNum="1" >}}
-{{< gist "aspose-cloud" "9fa2e714041dd6cf1071eb307b623416" "SplitSpecificPagesToPNGs.cs" >}}
+{{< gist "aspose-words-cloud-gists" "e26813ced70692c544820cd8011ee7e0" "SplitSpecificPagesToPNGs.py" >}}
 {{< /tab >}}
 {{< tab tabNum="2" >}}
-{{< gist "aspose-cloud" "7d6af3eba6f989851e6475842125f31d" "SplitSpecificPagesToPNGs.java" >}}
+{{< gist "aspose-words-cloud-gists" "caede439bfd2e57c3010befe504faff4" "SplitSpecificPagesToPNGs.java" >}}
 {{< /tab >}}
 {{< tab tabNum="3" >}}
-{{< gist "" "163e730223a72524d163ef9c017f1b1a" "SplitSpecificPagesToPNGs.php" >}}
+{{< gist "aspose-words-cloud-gists" "a9510e4b51613f1138e7c1ec09634c4a" "SplitSpecificPagesToPNGs.js" >}}
 {{< /tab >}}
 {{< tab tabNum="4" >}}
-{{< gist "" "fb014f439299bbee24472cb0efa6d50b" "SplitSpecificPagesToPNGs.py" >}}
+{{< gist "aspose-words-cloud-gists" "374e1e3dd4bca8f696f29d913645f549" "SplitSpecificPagesToPNGs.cs" >}}
 {{< /tab >}}
 {{< tab tabNum="5" >}}
-{{< gist "" "3f3f4f7033ae386af05042ee2ad3aa06" "SplitSpecificPagesToPNGs.rb" >}}
+{{< gist "aspose-words-cloud-gists" "e2a72445b96362dc0117f06ab54bb94a" "SplitSpecificPagesToPNGs.php" >}}
 {{< /tab >}}
 {{< tab tabNum="6" >}}
-{{< gist "aspose-cloud" "715d05011a94ac77f67b21213de5da7f" "SplitSpecificPagesToPNGs.js" >}}
+{{< gist "aspose-words-cloud-gists" "625ca80adffd779e8f6e3611551e14d5" "SplitSpecificPagesToPNGs.go" >}}
 {{< /tab >}}
 {{< tab tabNum="7" >}}
-{{< gist "aspose-cloud" "5240b25c9a3e98fb21785ad771a3876b" "Aspose_Cloud_Words_SplitSpecificPagesToPNGs.java" >}}
+{{< gist "aspose-words-cloud-gists" "339f3835a4c0a536c81ec941de29baf7" "SplitSpecificPagesToPNGs.rb" >}}
 {{< /tab >}}
 {{< tab tabNum="8" >}}
-{{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose_Words_Swift_SplitSpecificPagesToPNGs.swift" >}}
+{{< gist "aspose-words-cloud-gists" "fde11f9e52383a88af20b937c5e9b3d9" "Aspose_Cloud_Words_SplitSpecificPagesToPNGs.java" >}}
 {{< /tab >}}
 {{< tab tabNum="9" >}}
-{{< gist "aspose-cloud" "068ce2149de5ad69ab516209b7ae82cf" "SplitSpecificPagesToPNGs.go" >}}
+{{< gist "aspose-words-cloud-gists" "790dbd2edd5d36f170732366f52cac4c" "Aspose_Words_Swift_SplitSpecificPagesToPNGs.swift" >}}
 {{< /tab >}}
 {{< /tabs >}}
 {{< /nosnippet >}}

@@ -57,7 +57,12 @@ Select this option to create a new document based on the template.
 - **Document Template**: Use this lookup field to select Template. This template would be the base of your generated document.
 - **Delete Template From Cloud Storage**: If you already own Aspose License for Aspose.Words use this attribute to use the license to generate full version of the document.
 - **Delete Generated Document From Cloud Storage**: If you already own Aspose License for Aspose.Words use this attribute to use the license to generate full version of the document.
-  Please Note that the document is generated at this stage and attached to the Primary record of the workflow. (In this case, created document is attached to the Contact.png)
+
+{{% alert style="info" %}}
+
+Please note that the document is generated at this stage and attached to the Primary record of the workflow. (In this case, created document is attached to the Contact.png)
+
+{{% /alert %}}
 
 ## Attach to Email
 

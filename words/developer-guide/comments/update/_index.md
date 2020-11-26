@@ -26,7 +26,7 @@ The important properties are described below:
 
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Comments/UpdateComment) defines a publicly accessible programming interface and lets you carry out REST interactions directly from a web browser.
 
-You can use `cURL` command-line tool to easily interact with Aspose.Words web services. The following example shows how to make calls to Cloud API with cURL.
+You can use **cURL** command-line tool to access Aspose.Words web services easily. The following example shows how to make calls to Cloud API with cURL.
 
 {{< nosnippet >}}
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
@@ -92,30 +92,21 @@ Using an SDK is the quickest way for a developer to speed up the development. An
 The following code examples demonstrate how to make calls to Aspose.Words web services using various SDKs:
 
 {{< nosnippet >}}
-{{< tabs tabTotal="8" tabID="4" tabName1="C#" tabName2="Java" tabName3="Python" tabName4="Ruby" tabName5="Node.js" tabName6="Android" tabName7="Swift" tabName8="Go" >}}
+{{< tabs tabTotal="5" tabID="4" tabName1="Java" tabName2="C#" tabName3="Golang" tabName4="Android" tabName5="Swift" >}}
 {{< tab tabNum="1" >}}
-{{< gist "aspose-cloud" "19215e2ac3d61ca0fd78d1ca2f1c1023" "PostComment.cs" >}}
+{{< gist "aspose-words-cloud-gists" "caede439bfd2e57c3010befe504faff4" "PostComment.java" >}}
 {{< /tab >}}
 {{< tab tabNum="2" >}}
-{{< gist "aspose-cloud" "7d6af3eba6f989851e6475842125f31d" "PostComment.java" >}}
+{{< gist "aspose-words-cloud-gists" "374e1e3dd4bca8f696f29d913645f549" "PostComment.cs" >}}
 {{< /tab >}}
 {{< tab tabNum="3" >}}
-{{< gist "aspose-cloud" "303ca1faad43f8d1b672fbeac98ad2e0" "update_comment.py" >}}
+{{< gist "aspose-words-cloud-gists" "625ca80adffd779e8f6e3611551e14d5" "UpdateComment.go" >}}
 {{< /tab >}}
 {{< tab tabNum="4" >}}
-{{< gist "aspose-cloud" "5af73b7a7c08a9072ac1c05b0914df3f" "post_comment.rb" >}}
+{{< gist "aspose-words-cloud-gists" "fde11f9e52383a88af20b937c5e9b3d9" "Aspose_Cloud_Words_PostComment.java" >}}
 {{< /tab >}}
 {{< tab tabNum="5" >}}
-{{< gist "aspose-cloud" "e5e9b0139962cb912eac42c9df06a1a2" "postComment.js" >}}
-{{< /tab >}}
-{{< tab tabNum="6" >}}
-{{< gist "aspose-cloud" "5240b25c9a3e98fb21785ad771a3876b" "Aspose_Cloud_Words_PostComment.java" >}}
-{{< /tab >}}
-{{< tab tabNum="7" >}}
-{{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose_Words_Swift_PostComment.swift" >}}
-{{< /tab >}}
-{{< tab tabNum="8" >}}
-{{< gist "aspose-cloud" "068ce2149de5ad69ab516209b7ae82cf" "UpdateComment.go" >}}
+{{< gist "aspose-words-cloud-gists" "790dbd2edd5d36f170732366f52cac4c" "Aspose_Words_Swift_PostComment.swift" >}}
 {{< /tab >}}
 {{< /tabs >}}
 {{< /nosnippet >}}

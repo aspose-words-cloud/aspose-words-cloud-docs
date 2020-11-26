@@ -14,7 +14,7 @@ This REST API deletes a Header and a Footer from a document.
 
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/HeadersFooters/DeleteHeaderFooter) defines a publicly accessible programming interface and lets you carry out REST interactions directly from a web browser.
 
-You can use `cURL` command-line tool to easily interact with Aspose.Words web services. The following example shows how to make calls to Cloud API with cURL.
+You can use **cURL** command-line tool to access Aspose.Words web services easily. The following example shows how to make calls to Cloud API with cURL.
 
 {{< nosnippet >}}
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
@@ -43,30 +43,30 @@ Using an SDK is the best way to speed up the development. An SDK takes care of l
 The following code examples demonstrate how to make calls to Aspose.Words web services using various SDKs:
 
 {{< nosnippet >}}
-{{< tabs tabTotal="8" tabID="4" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Python" tabName5="Ruby" tabName6="Node.js" tabName7="Android" tabName8="Swift" >}}
+{{< tabs tabTotal="8" tabID="4" tabName1="Python" tabName2="Java" tabName3="Node.js" tabName4="C#" tabName5="PHP" tabName6="Ruby" tabName7="Android" tabName8="Swift" >}}
 {{< tab tabNum="1" >}}
-{{< gist "aspose-cloud" "19215e2ac3d61ca0fd78d1ca2f1c1023" "DeleteHeaderFooter.cs" >}}
+{{< gist "aspose-words-cloud-gists" "e26813ced70692c544820cd8011ee7e0" "DeleteHeaderFooter.py" >}}
 {{< /tab >}}
 {{< tab tabNum="2" >}}
-{{< gist "aspose-cloud" "7d6af3eba6f989851e6475842125f31d" "DeleteHeaderFooter.java" >}}
+{{< gist "aspose-words-cloud-gists" "caede439bfd2e57c3010befe504faff4" "DeleteHeaderFooter.java" >}}
 {{< /tab >}}
 {{< tab tabNum="3" >}}
-{{< gist "aspose-cloud" "163e730223a72524d163ef9c017f1b1a" "DeleteHeaderFooter.php" >}}
+{{< gist "aspose-words-cloud-gists" "a9510e4b51613f1138e7c1ec09634c4a" "DeleteHeaderFooter.js" >}}
 {{< /tab >}}
 {{< tab tabNum="4" >}}
-{{< gist "aspose-cloud" "fb014f439299bbee24472cb0efa6d50b" "DeleteHeaderFooter.py" >}}
+{{< gist "aspose-words-cloud-gists" "374e1e3dd4bca8f696f29d913645f549" "DeleteHeaderFooter.cs" >}}
 {{< /tab >}}
 {{< tab tabNum="5" >}}
-{{< gist "aspose-cloud" "3f3f4f7033ae386af05042ee2ad3aa06" "DeleteHeaderFooter.rb" >}}
+{{< gist "aspose-words-cloud-gists" "e2a72445b96362dc0117f06ab54bb94a" "DeleteHeaderFooter.php" >}}
 {{< /tab >}}
 {{< tab tabNum="6" >}}
-{{< gist "aspose-cloud" "715d05011a94ac77f67b21213de5da7f" "DeleteHeaderFooter.js" >}}
+{{< gist "aspose-words-cloud-gists" "339f3835a4c0a536c81ec941de29baf7" "DeleteHeaderFooter.rb" >}}
 {{< /tab >}}
 {{< tab tabNum="7" >}}
-{{< gist "aspose-cloud" "5240b25c9a3e98fb21785ad771a3876b" "Aspose_Cloud_Words_DeleteHeaderFooter.java" >}}
+{{< gist "aspose-words-cloud-gists" "fde11f9e52383a88af20b937c5e9b3d9" "Aspose_Cloud_Words_DeleteHeaderFooter.java" >}}
 {{< /tab >}}
 {{< tab tabNum="8" >}}
-{{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "Aspose_Words_Swift_DeleteHeaderFooter.swift" >}}
+{{< gist "aspose-words-cloud-gists" "790dbd2edd5d36f170732366f52cac4c" "Aspose_Words_Swift_DeleteHeaderFooter.swift" >}}
 {{< /tab >}}
 {{< /tabs >}}
 {{< /nosnippet >}}

@@ -15,7 +15,7 @@ This REST API deletes a paragraph tab stop.
 
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Paragraphs/DeleteParagraphTabStop) defines a publicly accessible programming interface and lets you carry out REST interactions directly from a web browser.
 
-You can use `cURL` command-line tool to easily interact with Aspose.Words web services. The following example shows how to make calls to Cloud API with cURL.
+You can use **cURL** command-line tool to access Aspose.Words web services easily. The following example shows how to make calls to Cloud API with cURL.
 
 {{< nosnippet >}}
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
@@ -65,33 +65,15 @@ Using an SDK is the best way to speed up the development. An SDK takes care of l
 The following code examples demonstrate how to make calls to Aspose.Words web services using various SDKs:
 
 {{< nosnippet >}}
-{{< tabs tabTotal="9" tabID="4" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Python" tabName5="Ruby" tabName6="Node.js" tabName7="Android" tabName8="Swift" tabName9="Go" >}}
+{{< tabs tabTotal="3" tabID="4" tabName1="C#" tabName2="PHP" tabName3="Golang" >}}
 {{< tab tabNum="1" >}}
-{{< gist "aspose-cloud" "9fa2e714041dd6cf1071eb307b623416" "DeleteParagraphTabStop.cs" >}}
+{{< gist "aspose-words-cloud-gists" "374e1e3dd4bca8f696f29d913645f549" "DeleteParagraphTabStop.cs" >}}
 {{< /tab >}}
 {{< tab tabNum="2" >}}
-{{< gist "aspose-cloud" "7d6af3eba6f989851e6475842125f31d" "DeleteParagraphTabStop.java" >}}
+{{< gist "aspose-words-cloud-gists" "e2a72445b96362dc0117f06ab54bb94a" "DeleteParagraphTabStop.php" >}}
 {{< /tab >}}
 {{< tab tabNum="3" >}}
-{{< gist "aspose-cloud" "163e730223a72524d163ef9c017f1b1a" "DeleteParagraphTabStop.php" >}}
-{{< /tab >}}
-{{< tab tabNum="4" >}}
-{{< gist "aspose-cloud" "fb014f439299bbee24472cb0efa6d50b" "DeleteParagraphTabStop.py" >}}
-{{< /tab >}}
-{{< tab tabNum="5" >}}
-{{< gist "aspose-cloud" "5af73b7a7c08a9072ac1c05b0914df3f" "DeleteParagraphTabStop.rb" >}}
-{{< /tab >}}
-{{< tab tabNum="6" >}}
-{{< gist "aspose-cloud" "e5e9b0139962cb912eac42c9df06a1a2" "DeleteParagraphTabStop.js" >}}
-{{< /tab >}}
-{{< tab tabNum="7" >}}
-{{< gist "aspose-cloud" "5240b25c9a3e98fb21785ad771a3876b" "DeleteParagraphTabStop.java" >}}
-{{< /tab >}}
-{{< tab tabNum="8" >}}
-{{< gist "aspose-cloud" "982e9b4809b6aca96fbb13b47a1184d5" "DeleteParagraphTabStop.swift" >}}
-{{< /tab >}}
-{{< tab tabNum="9" >}}
-{{< gist "aspose-cloud" "068ce2149de5ad69ab516209b7ae82cf" "delete_paragraph_tab_stop.go" >}}
+{{< gist "aspose-words-cloud-gists" "625ca80adffd779e8f6e3611551e14d5" "delete_paragraph_tab_stop.go" >}}
 {{< /tab >}}
 {{< /tabs >}}
 {{< /nosnippet >}}
