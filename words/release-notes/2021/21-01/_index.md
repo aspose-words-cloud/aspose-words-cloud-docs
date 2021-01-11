@@ -1,14 +1,14 @@
 ---
-title: "20.12 Release Notes"
+title: "21.01 Release Notes"
 second_title: "Aspose Words Cloud"
 type: docs
-url: /release-notes/2020/20-12/
-aliases: [/aspose-words-cloud-20-12-release-notes/]
-description: "Aspose Words Cloud 20.12 Release Notes"
-weight: 8
+url: /release-notes/2021/21-01/
+aliases: [/aspose-words-cloud-21-01-release-notes/]
+description: "Aspose Words Cloud 21.01 Release Notes"
+weight: 70
 ---
 
-The page contains release notes for Aspose.Words Cloud 20.12 – [API Reference](https://apireference.aspose.cloud/words/).
+The page contains release notes for Aspose.Words Cloud 21.01 – [API Reference](https://apireference.aspose.cloud/words/).
 
 ## Important Changes and New Features
 
