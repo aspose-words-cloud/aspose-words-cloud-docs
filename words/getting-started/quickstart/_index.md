@@ -55,6 +55,8 @@ To access information about your Applications, please perform the following step
 
 3. Scroll down to the bottom of the page, where you will find the default **"Fist App"** Application. Click the **"First App"** item to view and update your security credentials.
 
+![firstapp.png](firstapp.png)
+
 {{% alert style="info" %}}
 
 Congratulations! You have successfully obtained your security credentials to authenticate Aspose.Words API calls.
