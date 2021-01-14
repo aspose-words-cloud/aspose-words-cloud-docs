@@ -20,7 +20,7 @@ A strong and effective synergy is achieved by capturing events in one informatio
 - Split a document into pages
 - Merge multiple documents into a single document
 - Classify documents
-- Generate reports using templates and data sources
+- Convert documents to various formats
 - Generate reports using templates and data sources
 - Extract text
 
