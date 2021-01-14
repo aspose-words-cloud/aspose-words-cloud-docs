@@ -41,22 +41,22 @@ Before using Zapier-to-Aspose automation, you need to do the following steps:
 
 This set of Zaps is designed to automatically convert new documents, stored in Cloud storage, to various document formats:
 
-<script src="https://zapier.com/zapbook/embed/widget.js?inheritFont=true&buttonColor=%233176d9&guided_zaps=407472,407473,407482,407486,407484"></script>
+<script src="https://zapier.com/zapbook/embed/widget.js?inheritFont=true&buttonColor=%65c621&guided_zaps=407472,407473,407482,407486,407484"></script>
 
 ### Automation templates to convert new documents in Google Drive, OneDrive, Dropbox to plain-text
 
 This set of Zaps is designed to automatically convert new documents, stored in Cloud storage, to plain-text (TXT):
 
-<script src="https://zapier.com/zapbook/embed/widget.js?inheritFont=true&buttonColor=%233176d9&guided_zaps=407498,407500,407492"></script>
+<script src="https://zapier.com/zapbook/embed/widget.js?inheritFont=true&buttonColor=%65c621&guided_zaps=407498,407500,407492"></script>
 
 ### Automation templates to split new documents in Google Drive, OneDrive, Dropbox into pages
 
 This set of Zaps is designed to automatically split new documents, stored in Cloud storage, into pages. Each page will be represented as a separate file and the resulting set of files will be packed in a single ZIP archive:
 
-<script src="https://zapier.com/zapbook/embed/widget.js?inheritFont=true&buttonColor=%233176d9&guided_zaps=407481,407489,407478"></script>
+<script src="https://zapier.com/zapbook/embed/widget.js?inheritFont=true&buttonColor=%65c621&guided_zaps=407481,407489,407478"></script>
 
 ### Automation templates to convert emails and attachments to various document formats
 
 This set of Zaps is designed to automatically convert emails and attachments to various document formats:
 
-<script src="https://zapier.com/zapbook/embed/widget.js?inheritFont=true&buttonColor=%233176d9&guided_zaps=407475"></script>
+<script src="https://zapier.com/zapbook/embed/widget.js?inheritFont=true&buttonColor=%65c621&guided_zaps=407475"></script>
