@@ -17,6 +17,7 @@ The page contains release notes for Aspose.Words Cloud 21.1 – [API Reference]
 - Refactoring of Go SDK, all API method signatures are changed
 - Added support of batch requests to Go SDK
 - Added typed `NodePath` builder to .NET SDK
+- Added "online" version for all API methods
 
 ## PDF to Word conversion improvements
 
@@ -29,14 +30,16 @@ The page contains release notes for Aspose.Words Cloud 21.1 – [API Reference]
 - Corrected page background conversion by supporting `gs` PDF operator
 - Fixed "Content extraction is restricted by file permissions" error
 
-
 ## All changes
 
 | #               | Summary                                                                       | Category    |
 |-----------------|-------------------------------------------------------------------------------|-------------|
 | WORDSCLOUD-1396 | Document protection level change method doesn't work for protected documents  | Bug         |
 | WORDSCLOUD-1425 | Image quality of OfficeMath object in DOCX to HTML conversion                 | Bug         |
+| WORDSCLOUD-1135 | Get Document Statistics from request body                                     | Feature     |
+| WORDSCLOUD-1188 | Add "online" version of all methods                                           | Feature     |
 | WORDSCLOUD-1317 | Typed `NodePath` builder in .NET SDK                                          | Feature     |
+| WORDSCLOUD-1324 | Get Document Sections without uploading document to Cloud Storage             | Feature     |
 | WORDSCLOUD-1398 | Implement batch processing for Go SDK                                         | Feature     |
 | PDF2WORD-85     | Skip PDF text that has the same color as background (i.e. invisible)          | Task        |
 | PDF2WORD-612    | Different paragraph width within the same page                                | Bug         |
