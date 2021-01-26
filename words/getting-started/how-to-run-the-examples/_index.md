@@ -8,7 +8,7 @@ description: "How to run the examples"
 weight: 60
 ---
 
-All examples of Aspose.Words Cloud are hosted on the [GitHub](https://github.com/aspose-words-cloud). Examples are located in the **Examples** folder.
+All examples of Aspose.Words Cloud are hosted on the [GitHub](https://github.com/aspose-words-cloud).
 
 ## How to Contribute to the Project
 

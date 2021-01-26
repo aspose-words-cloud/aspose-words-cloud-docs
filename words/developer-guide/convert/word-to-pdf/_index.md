@@ -9,15 +9,15 @@ description: "Cloud API to programmatically convert Word to PDF documents. Robus
 weight: 20
 ---
 
-Aspose provides a high fidelity API to programmatically convert Word documents to PDF format and in the opposite directions with professional quality. The combined use of Adobe and Microsoft Office technologies has a lot to offer to the end-user.
+Aspose provides a high fidelity API to programmatically convert Word documents to [PDF](https://docs.fileformat.com/pdf/) format and in the opposite directions with professional quality. The combined use of Adobe and Microsoft Office technologies has a lot to offer to the end-user.
 
-These major document formats, including DOCX, DOC, RTF, ОDT and PDF, are capable of encapsulating almost any type of data including text, tables, raster and vector graphics, video, audio, and also support a wide range of formatting features.
+These major document formats, including [DOCX](https://docs.fileformat.com/word-processing/docx/), [DOC](https://docs.fileformat.com/word-processing/doc/), [RTF](https://docs.fileformat.com/word-processing/rtf/), [ODT](https://docs.fileformat.com/word-processing/odt/) and [PDF](https://docs.fileformat.com/pdf/), are capable of encapsulating almost any type of data including text, tables, raster and vector graphics, video, audio, and also support a wide range of formatting features.
 
-Despite similarities, Word and PDF documents have considerable differences in the operational capabilities.
+Despite similarities, Word and [PDF](https://docs.fileformat.com/pdf/) documents have considerable differences in the operational capabilities.
 
-Word document formats are great for collaborative development, but they aren't always the best choice for distributing, as they can be easily modified without author's permission. PDF documents, in contrast, support multilevel security options and are difficult to extract information. The overall Adobe's technology makes the forgery of PDF documents a complex task.
+Word document formats are great for collaborative development, but they aren't always the best choice for distributing, as they can be easily modified without author's permission. [PDF](https://docs.fileformat.com/pdf/) documents, in contrast, support multilevel security options and are difficult to extract information. The overall Adobe's technology makes the forgery of [PDF](https://docs.fileformat.com/pdf/) documents a complex task.
 
-You may require to convert a editable DOCX or DOC to an immutable PDF in order to protect document against undesirable modifications.
+You may require to convert a editable [DOCX](https://docs.fileformat.com/word-processing/docx/) or [DOC](https://docs.fileformat.com/word-processing/doc/) to an immutable [PDF](https://docs.fileformat.com/pdf/) in order to protect document against undesirable modifications.
 
 ## REST API
 
