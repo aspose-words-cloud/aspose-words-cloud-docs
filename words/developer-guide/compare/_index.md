@@ -8,11 +8,11 @@ description: "Learn how to compare Word documents"
 weight: 40
 ---
 
-While collaborating documents with others, one of the exciting features of Aspose.Words Cloud is the ability to compare Word documents (DOCX, DOC, RTF, ODT) and keep track of changes, that include text additions, deletions and format modifications. To create a document with tracked changes, you need to compare a Word document with its revised edition.
+While collaborating documents with others, one of the exciting features of Aspose.Words Cloud is the ability to compare Word documents ([DOC](https://docs.fileformat.com/word-processing/doc/), [DOCX](https://docs.fileformat.com/word-processing/docx/), [RTF](https://docs.fileformat.com/word-processing/rtf/), [ODT](https://docs.fileformat.com/word-processing/odt/)) and keep track of changes, that include text additions, deletions and format modifications. To create a document with tracked changes, you need to compare a Word document with its revised edition.
 
 The REST API compares the original Word document with the revised one and allows to see the difference. The result is written to the output document that contains track changes as a number of edit and format revisions. If the output document is not specified — the revisions are saved to the original document.
 
-Document comparison works perfectly for any file format, and you can even compare documents of different file formats. The following formats are supported: DOCX, DOC, PDF, RTF, DOTX, DOT, ODT, OTT, TXT, HTML, MHTML, XHTML and others. 
+Document comparison works perfectly for any file format, and you can even compare documents of different file formats. The following formats are supported: [DOC](https://docs.fileformat.com/word-processing/doc/), [DOCX](https://docs.fileformat.com/word-processing/docx/), [DOCM](https://docs.fileformat.com/word-processing/docm/), [PDF](https://docs.fileformat.com/pdf/), [RTF](https://docs.fileformat.com/word-processing/rtf/), [DOTX](https://docs.fileformat.com/word-processing/dotx/), [DOTM](https://docs.fileformat.com/word-processing/dotm/), [DOT](https://docs.fileformat.com/word-processing/dot/), [ODT](https://docs.fileformat.com/word-processing/odt/), [OTT](https://docs.fileformat.com/word-processing/ott/), [TXT](https://docs.fileformat.com/word-processing/txt/), [HTML](https://docs.fileformat.com/web/html/), [MHTML](https://docs.fileformat.com/web/mhtml/), [XHTML](https://docs.fileformat.com/web/xhtml/) and others. 
 
 The description of the important parameters of the API is given below:
 

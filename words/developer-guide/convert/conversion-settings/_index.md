@@ -17,40 +17,40 @@ The following table lists the file formats, that Words Cloud API supports for da
 
 |format Parameter Value|Request Types|
 | :- | :- |
-|bmp|BmpSaveOptions|
-|doc|DocSaveOptions|
-|docm|OoxmlSaveOptions|
-|docx|OoxmlSaveOptions|
-|dot|DocSaveOptions|
-|dotm|OoxmlSaveOptions|
-|dotx|OoxmlSaveOptions|
-|emf|EmfSaveOptions|
-|epub|EpubSaveOptions|
-|flatopc/fopc|OoxmlSaveOptions|
-|flatopc_macro/fopc_macro|OoxmlSaveOptions|
-|flatopc_template/fopc_template|OoxmlSaveOptions|
-|flatopc_template_macro/fopc_template_macro|OoxmlSaveOptions|
-|gif|GifSaveOptions|
-|html|HtmlSaveOptions|
-|htmlfixed|HtmlFixedSaveOptions|
-|jpeg/jpg|JpegSaveOptions|
-|mhtml/mht|MhtmlSaveOptions|
-|odt|OdtSaveOptions|
-|openxps|XpsSaveOptions|
-|ott|OdtSaveOptions|
-|pcl|PclSaveOptions|
-|pdf|PdfSaveOptions|
-|png|PngSaveOptions|
-|ps|PsSaveOptions|
-|rtf|Rich Text Format File|
-|svg|SvgSaveOptions|
-|swf|Shockwave Flash Movie(removed)|
-|text/txt|TextSaveOptions|
-|tiff/tif|TiffSaveOptions|
-|wordml/wml|WordMLSaveOptions|
-|xamlfixed|XamlFixedSaveOptions|
-|xamlflow|XamlFlowSaveOptions|
-|xps|XpsSaveOptions|
+|[bmp](https://docs.fileformat.com/image/bmp/)|BmpSaveOptions|
+|[doc](https://docs.fileformat.com/word-processing/doc/)|DocSaveOptions|
+|[docm](https://docs.fileformat.com/word-processing/docm/)|OoxmlSaveOptions|
+|[docx](https://docs.fileformat.com/word-processing/docx/)|OoxmlSaveOptions|
+|[dot](https://docs.fileformat.com/word-processing/dot/)|DocSaveOptions|
+|[dotm](https://docs.fileformat.com/word-processing/dotm/)|OoxmlSaveOptions|
+|[dotx](https://docs.fileformat.com/word-processing/dotx/)|OoxmlSaveOptions|
+|[emf](https://docs.fileformat.com/image/emf/)|EmfSaveOptions|
+|[epub](https://docs.fileformat.com/ebook/epub/)|EpubSaveOptions|
+|[flatopc/fopc](#)|OoxmlSaveOptions|
+|[flatopc_macro/fopc_macro](#)|OoxmlSaveOptions|
+|[flatopc_template/fopc_template](#)|OoxmlSaveOptions|
+|[flatopc_template_macro/fopc_template_macro](#)|OoxmlSaveOptions|
+|[gif](https://docs.fileformat.com/image/gif/)|GifSaveOptions|
+|[html](https://docs.fileformat.com/web/html/)|HtmlSaveOptions|
+|[htmlfixed](#)|HtmlFixedSaveOptions|
+|[jpeg/jpg](https://docs.fileformat.com/image/jpeg/)|JpegSaveOptions|
+|[mhtml/mht](https://docs.fileformat.com/web/mhtml/)|MhtmlSaveOptions|
+|[odt](https://docs.fileformat.com/word-processing/odt/)|OdtSaveOptions|
+|[openxps](https://docs.fileformat.com/page-description-language/xps/)|XpsSaveOptions|
+|[ott](https://docs.fileformat.com/word-processing/ott/)|OdtSaveOptions|
+|[pcl](https://docs.fileformat.com/page-description-language/pcl/)|PclSaveOptions|
+|[pdf](https://docs.fileformat.com/pdf/)|PdfSaveOptions|
+|[png](https://docs.fileformat.com/Image/png/)|PngSaveOptions|
+|[ps](https://docs.fileformat.com/page-description-language/ps/)|PsSaveOptions|
+|[rtf](https://docs.fileformat.com/word-processing/rtf/)|Rich Text Format File|
+|[svg](https://docs.fileformat.com/page-description-language/svg/)|SvgSaveOptions|
+|[swf](https://docs.fileformat.com/page-description-language/swf/)|Shockwave Flash Movie(removed)|
+|[text/txt](https://docs.fileformat.com/word-processing/txt/)|TextSaveOptions|
+|[tiff/tif](https://docs.fileformat.com/image/tiff/)|TiffSaveOptions|
+|[wordml/wml](#)|WordMLSaveOptions|
+|[xamlfixed](https://docs.fileformat.com/web/xaml/)|XamlFixedSaveOptions|
+|[xamlflow](https://docs.fileformat.com/web/xaml/)|XamlFlowSaveOptions|
+|[xps](https://docs.fileformat.com/page-description-language/xps/)|XpsSaveOptions|
 
 The important parameters are described in the following table:
 

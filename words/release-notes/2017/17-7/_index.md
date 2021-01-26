@@ -26,7 +26,7 @@ The page contains release notes for Aspose.Words for Cloud update 17.7. – [API
 ## Working
 
 This release introduces support for reading PDF documents for the purpose of converting them to Word formats such as DOCX, DOC and working with them the same way as you would work with Word documents. User experience is consistent with other Aspose.Words API, now you can just specify PDF document name as input to Aspose.Words APIs.
-Further information and limitations for PDF to Word conversion are available in [Working with PDF Documents](https://docs.aspose.com/display/wordscloud/Working+with+PDF+Documents).
+Further information and limitations for PDF to Word conversion are available in [Working with PDF Documents]https://docs.aspose.cloud/words/convert/pdf-to-word/).
 
 ## New
 

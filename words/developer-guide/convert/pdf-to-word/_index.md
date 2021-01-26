@@ -11,17 +11,17 @@ weight: 20
 
 Aspose provides a high fidelity API to programmatically convert PDF documents to Word format and in the opposite directions with professional quality. The combined use of Adobe and Microsoft Office technologies has a lot to offer to the end-user.
 
-These major document formats, including DOCX, DOC, RTF, ОDT and PDF, are capable of encapsulating almost any type of data including text, tables, raster and vector graphics, video, audio, and also support a wide range of formatting features.
+These major document formats, including [DOCX](https://docs.fileformat.com/word-processing/docx/), [DOC](https://docs.fileformat.com/word-processing/doc/), [RTF](https://docs.fileformat.com/word-processing/rtf/), [ODT](https://docs.fileformat.com/word-processing/odt/) and [PDF](https://docs.fileformat.com/pdf/), are capable of encapsulating almost any type of data including text, tables, raster and vector graphics, video, audio, and also support a wide range of formatting features.
 
-Despite similarities, PDF and Word documents have considerable differences in the operational capabilities.
+Despite similarities, [PDF](https://docs.fileformat.com/pdf/) and Word documents have considerable differences in the operational capabilities.
 
-PDF documents support multilevel security options and are difficult to extract information. PDF format is the best choice when the document’s author allows others to read and print document copies only. Word document formats, in contrast, are great for collaborative development, but they aren't always the best choice for distributing as they can be easily modified without author's permission.
+[PDF](https://docs.fileformat.com/pdf/) documents support multilevel security options and are difficult to extract information. [PDF](https://docs.fileformat.com/pdf/) format is the best choice when the document’s author allows others to read and print document copies only. Word document formats, in contrast, are great for collaborative development, but they aren't always the best choice for distributing as they can be easily modified without author's permission.
 
-You may require to convert an immutable PDF to an editable DOCX or DOC document and it is also a fine solution if you need to extract text from a PDF file easily.
+You may require to convert an immutable [PDF](https://docs.fileformat.com/pdf/) to an editable [DOCX](https://docs.fileformat.com/word-processing/docx/) or [DOC](https://docs.fileformat.com/word-processing/doc/) document and it is also a fine solution if you need to extract text from a [PDF](https://docs.fileformat.com/pdf/) file easily.
 
-Aspose conversion engine transforms a PDF to Word-based document format, that can be naturally edited with any mainstream word processor. However, some complex formatting might appear slightly different from the original document. PDF to Word conversion supports detecting headers and footers. Sections of PDF pages containing page numbers, document names, etc. will be converted as Word's headers and footers. These headers and footers do not affect the rest of the page layout and are not moved while the document is being edited.
+Aspose conversion engine transforms a [PDF](https://docs.fileformat.com/pdf/) to Word-based document format, that can be naturally edited with any mainstream word processor. However, some complex formatting might appear slightly different from the original document. [PDF](https://docs.fileformat.com/pdf/) to Word conversion supports detecting headers and footers. Sections of PDF pages containing page numbers, document names, etc. will be converted as Word's headers and footers. These headers and footers do not affect the rest of the page layout and are not moved while the document is being edited.
 
-Aspose PDF to Word conversion engine currently supports the following features:
+Aspose [PDF](https://docs.fileformat.com/pdf/) to Word conversion engine currently supports the following features:
 
 - Text and paragraphs
 - Text formatting (font, size, foreground/background, options like bold, italic, underline)

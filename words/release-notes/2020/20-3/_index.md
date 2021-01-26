@@ -76,47 +76,12 @@ weight: 60
 ## Aspose
 
 - XmlColor.Alpha isn't a required property
-- RtfSaveOptionsData.SaveImageAsWmf property is added
-
-## Aspose
-
-- Alpha property of XmlColor class isn't a required now
-- SaveImageAsWmf property is added to RtfSaveOptionsData class.
-
-## Aspose
-
-- XmlColor.Alpha isn't a required property
-- RtfSaveOptionsData.SaveImageAsWmf property is added
-
-## Aspose
-
 - Added RtfSaveOptionsData.SaveImagesAsWmf property
 - WordsApi class now has credentials parameters
 - Methods which used to work with File now work with byte[]
 
-## ` `Aspose
-
-- XmlColor.Alpha isn't a required property
-- RtfSaveOptionsData.SaveImageAsWmf property is added
-
-## Aspose
-
-- Added RtfSaveOptionsData.SaveImagesAsWmf property
-- WordsApi class now has credentials parameters
 
 ## Important
 
 From now in packagist sdk has different package name aspose-words-cloud [new link here](https://packagist.org/packages/aspose-cloud/aspose-words-cloud).
 Old package is abandoned and no more updated since this release [ABANDONED package](https://packagist.org/packages/aspose/words-sdk-php).
-
-## Aspose
-
-- Added RtfSaveOptionsData.SaveImagesAsWmf property
-- WordsApi class now has credentials parameters
-- All methods which are used files, now operate with bytes array
-
-## ` `Aspose
-
-- Added RtfSaveOptionsData.SaveImagesAsWmf property
-- WordsApi class now has credentials parameters
-

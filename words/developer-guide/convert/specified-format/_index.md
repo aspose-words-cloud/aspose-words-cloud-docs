@@ -20,32 +20,32 @@ The list of supported formats is provided below:
 
 |format Parameter Value|Format of the returned Presentation|
 | :- | :- |
-|bmp|Bitmap image file|
-|doc|Word document|
-|docm|Word Open XML Macro-Enabled Document|
-|docx|Microsoft Word Open XML Document|
-|dot|Word Document Template|
-|dotm|Word Open XML Macro-Enabled Document Template|
-|dotx|Word Open XML Document Template|
-|emf|Enhanced Windows Metafile|
-|epub|Open eBook File|
-|flatopc|Flat OPC format|
-|gif|Gif Image|
-|html|Hypertext Markup Language File|
-|jpeg|JPEG Image|
-|mhtml|MIME HTML File|
-|odt|OpenDocument Text Document|
-|ott|OpenDocument Document Template|
-|pcl|Printer Command Language File|
-|pdf|Portable Document Format File|
-|png|Portable Network Graphic|
-|rtf|Rich Text Format File|
-|svg|Scalable Vector Graphics File|
-|swf|Shockwave Flash Movie(removed)|
-|txt|Plain Text File|
-|tiff|Tagged Image File Format|
-|wml|Wireless Markup Language File|
-|xps|XML Paper Specification File|
+|[bmp](https://docs.fileformat.com/image/bmp/)|Bitmap image file|
+|[doc](https://docs.fileformat.com/word-processing/doc/)|Word document|
+|[docm](https://docs.fileformat.com/word-processing/docm/)|Word Open XML Macro-Enabled Document|
+|[docx](https://docs.fileformat.com/word-processing/docx/)|Microsoft Word Open XML Document|
+|[dot](https://docs.fileformat.com/word-processing/dot/)|Word Document Template|
+|[dotm](https://docs.fileformat.com/word-processing/dotm/)|Word Open XML Macro-Enabled Document Template|
+|[dotx](https://docs.fileformat.com/word-processing/dotx/)|Word Open XML Document Template|
+|[emf](https://docs.fileformat.com/image/emf/)|Enhanced Windows Metafile|
+|[epub](https://docs.fileformat.com/ebook/epub/)|Open eBook File|
+|[flatopc](#)|Flat OPC format|
+|[gif](https://docs.fileformat.com/image/gif/)|Gif Image|
+|[html](https://docs.fileformat.com/web/html/)|Hypertext Markup Language File|
+|[jpeg](https://docs.fileformat.com/image/jpeg/)|JPEG Image|
+|[mhtml](https://docs.fileformat.com/web/mhtml/)|MIME HTML File|
+|[odt](https://docs.fileformat.com/word-processing/odt/)|OpenDocument Text Document|
+|[ott](https://docs.fileformat.com/word-processing/ott/)|OpenDocument Document Template|
+|[pcl](https://docs.fileformat.com/page-description-language/pcl/)|Printer Command Language File|
+|[pdf](https://docs.fileformat.com/pdf/)|Portable Document Format File|
+|[png](https://docs.fileformat.com/Image/png/)|Portable Network Graphic|
+|[rtf](https://docs.fileformat.com/word-processing/rtf/)|Rich Text Format File|
+|[svg](https://docs.fileformat.com/page-description-language/svg/)|Scalable Vector Graphics File|
+|[swf](https://docs.fileformat.com/page-description-language/swf/)|Shockwave Flash Movie(removed)|
+|[txt](https://docs.fileformat.com/word-processing/txt/)|Plain Text File|
+|[tiff](https://docs.fileformat.com/image/tiff/)|Tagged Image File Format|
+|[wml](#)|Wireless Markup Language File|
+|[xps](https://docs.fileformat.com/page-description-language/xps/)|XML Paper Specification File|
 
 The important parameters are described in the following table:
 

@@ -8,7 +8,7 @@ description: "Insert HTML into a MERGEFIELD in a Word document"
 weight: 10
 ---
 
-This example explains how to insert HTML on a MERGEFIELD. [executeMailMerge](https://apireference.aspose.cloud/words/#/MailMerge/ExecuteMailMerge) API lets you insert HTML on a merge field. The mail merges data string can be either in XML or JSON format.
+This example explains how to insert [HTML](https://docs.fileformat.com/web/html/) on a MERGEFIELD. [executeMailMerge](https://apireference.aspose.cloud/words/#/MailMerge/ExecuteMailMerge) API lets you insert [HTML](https://docs.fileformat.com/web/html/) on a merge field. The mail merges data string can be either in XML or JSON format.
 
 Please escape HTML characters in data source string and use "format"="html" attribute.
 

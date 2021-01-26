@@ -14,18 +14,18 @@ The supported formats are:
 
 |Format|Extension|Description|
 | :- | :- | :- |
-|Doc|".doc"|Microsoft Word 97 - 2007 Document format|
-|Docx|".docx"|Office Open XML WordprocessingML Document (macro-free)|
-|Docm|".docm"|Office Open XML WordprocessingML Macro-Enabled Document|
-|Dot|".dot"|Microsoft Word 97 - 2007 Template format|
-|Dotm|".dotm"|Office Open XML WordprocessingML Macro-Enabled Template|
-|Dotx|".dotx"|Office Open XML WordprocessingML Template (macro-free)|
-|FlatOpc|".flatopc", ".fopc"|Office Open XML WordprocessingML stored in a flat XML file instead of a ZIP package|
-|FlatOpcMacroEnabled|".flatopc_macro", ".fopc_macro"|Office Open XML WordprocessingML Macro-Enabled Document stored in a flat XML file instead of a ZIP package.|
-|FlatOpcTemplate|".flatopc_template", ".fopc_template"|Office Open XML WordprocessingML Template (macro-free) stored in a flat XML file instead of a ZIP package.|
-|FlatOpcTemplateMacroEnabled|".flatopc_template_macro", ".fopc_template_macro"|Office Open XML WordprocessingML Macro-Enabled Template stored in a flat XML file instead of a ZIP package.|
-|WordML|".wordml", ".wml"|Microsoft Word 2003 WordprocessingML format.|
-|Rtf|".rtf"|RTF format. All characters above 7-bits are escaped as hexadecimal or Unicode characters|
+|[Doc](https://docs.fileformat.com/word-processing/doc/)|".doc"|Microsoft Word 97 - 2007 Document format|
+|[Docx](https://docs.fileformat.com/word-processing/docx/)|".docx"|Office Open XML WordprocessingML Document (macro-free)|
+|[Docm](https://docs.fileformat.com/word-processing/docm/)|".docm"|Office Open XML WordprocessingML Macro-Enabled Document|
+|[Dot](https://docs.fileformat.com/word-processing/dot/)|".dot"|Microsoft Word 97 - 2007 Template format|
+|[Dotm](https://docs.fileformat.com/word-processing/dotm/)|".dotm"|Office Open XML WordprocessingML Macro-Enabled Template|
+|[Dotx](https://docs.fileformat.com/word-processing/dotx/)|".dotx"|Office Open XML WordprocessingML Template (macro-free)|
+|[FlatOpc](#)|".flatopc", ".fopc"|Office Open XML WordprocessingML stored in a flat XML file instead of a ZIP package|
+|[FlatOpcMacroEnabled](#)|".flatopc_macro", ".fopc_macro"|Office Open XML WordprocessingML Macro-Enabled Document stored in a flat XML file instead of a ZIP package.|
+|[FlatOpcTemplate](#)|".flatopc_template", ".fopc_template"|Office Open XML WordprocessingML Template (macro-free) stored in a flat XML file instead of a ZIP package.|
+|[FlatOpcTemplateMacroEnabled](#)|".flatopc_template_macro", ".fopc_template_macro"|Office Open XML WordprocessingML Macro-Enabled Template stored in a flat XML file instead of a ZIP package.|
+|[WordML](#)|".wordml", ".wml"|Microsoft Word 2003 WordprocessingML format.|
+|[Rtf](https://docs.fileformat.com/word-processing/rtf/)|".rtf"|RTF format. All characters above 7-bits are escaped as hexadecimal or Unicode characters|
 
 and the request parameters are the following:
 
