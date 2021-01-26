@@ -14,7 +14,7 @@ The page contains release notes for Aspose.Words Cloud 20.5 – [API Reference]
 
 ## Words
 
-1. Added "BuildReport" feature (uses [Linq reporting](https://docs.aspose.com/display/wordsnet/LINQ+Reporting+Engine+API)).
+1. Added "BuildReport" feature (uses [Linq reporting](https://docs.aspose.com/words/net/linq-reporting-engine-api/)).
 2. Added support of "Document.Lists"
 3. Added support of "Paragraph.ListFormat"
 4. Added support of "Document.Styles"
