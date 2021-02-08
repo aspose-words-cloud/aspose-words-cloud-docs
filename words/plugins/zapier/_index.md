@@ -13,7 +13,7 @@ The combined use of  Zapier and Aspose Cloud Platform helps to streamline electr
 
 ## Connect Aspose.Words Cloud to hundreds of other apps with Zapier
 
-Being integrated to Zapier platform, you can explore and utilize a powerful [resource pool](https://zapier.com/apps/asposewords/integrations) of document processing templates, called "Zaps", created by Aspose to automate your office daily tasks. Each template has one app as the **Trigger**, that identifies the source, where your information comes from and which causes one or more **Actions** in other apps, where your data gets sent automatically. 
+Being integrated to Zapier platform, you can explore and utilize a powerful [Resource Pool](https://zapier.com/apps/asposewords/integrations) of document processing templates, called "Zaps", created by Aspose to automate your office daily tasks. Each template has one app as a **Trigger**, that identifies the source, where your information comes from and which causes one or more **Actions** in other apps, where your data gets sent automatically. 
 
 A strong and effective synergy is achieved by capturing events in one information system, like the creation of documents in Google Drive, Dropbox, OneDrive, and triggering linked document-processing actions, provided by Aspose Cloud Services:
 
@@ -33,7 +33,7 @@ Before using Zapier-to-Aspose automation, you need to do the following steps:
 2. Read the [Quick-Start Guide](https://zapier.com/learn/zapier-quick-start-guide/) to understand Zapier automation concepts better.
 3. Log in to your Zapier account or [create a new one](https://zapier.com/sign-up/) to get access to automation infrastructure.
 4. Navigate to [My Apps](https://zapier.com/app/connections) from the left menu bar. Click on "Connect a new account..." and search for "Aspose.Words".
-5. Use your [App KEY and APP SID](https://docs.aspose.cloud/storage/create-new-app-and-get-app-key-and-sid/) credentials to connect your Aspose.Words Cloud account to Zapier.
+5. Use your [Client Id & Secret](https://docs.aspose.cloud/words/getting-started/quickstart/#get-your-security-credentials-client-id--secret) security credentials to connect your Aspose.Words Cloud account to Zapier.
 6. Now you are ready to create your document automation! Use a pre-made Zap or create your own with the Zap Editor. Creating a Zap requires no coding knowledge and you'll be guided step-by-step through the process, where you'll configure your own triggers and choose the required action, provided by Aspose Cloud Platform. With this flexible technology, you can easily integrate to Google, Microsoft, Dropbox, and any other accounts, while Zapier platform provides data exchange, reads and writes files.
 7. In case you need inspiration or have questions feel free to explore everything that's possible with [Aspose.Words Cloud and Zapier](https://zapier.com/apps/asposewords/integrations). Simply choose the required automation templates from the lists below and configure them to meet your personal requirements.
 
