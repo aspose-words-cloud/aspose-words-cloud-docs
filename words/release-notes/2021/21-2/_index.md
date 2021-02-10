@@ -37,8 +37,8 @@ The page contains release notes for Aspose.Words Cloud 21.2 – [API Reference]
 | WORDSCLOUD-1443 | Add `AllowEmbeddingPostScriptFonts` option to `SaveOptions`                                   | Feature     |
 | WORDSCLOUD-1320 | Swagger misses the parameter order when sending multipart requests                            | Bug         |
 | WORDSCLOUD-1451 | OpenXPS file format error in Swagger UI                                                       | Bug         |
-| WORDSCLOUD-1285 | Swagger can't send the value of a field if it contains a colon                               | Bug         |
-| WORDSCLOUD-1286 | Swagger adds commas to some fields if they are missing                                        | Bug         |
+| WORDSCLOUD-1285 | Swagger can't send the value of a field if it contains a colon                                | Bug         |
+| WORDSCLOUD-1286 | Swagger adds a comma to some fields if a comma is missing                                     | Bug         |
 | WORDSCLOUD-1306 | Issue with the forward slash directory separator in Swagger UI                                | Bug         |
 | WORDSCLOUD-1452 | PostScript file format conversion error in Swagger UI                                         | Bug         |
 | PDF2WORD-69     | Support Arabic writing                                                                        | Feature     |
@@ -54,7 +54,7 @@ The page contains release notes for Aspose.Words Cloud 21.2 – [API Reference]
 | PDF2WORD-689    | Can't cast `PdfIndirectObjectReference` to `PdfDictionary`                                    | Bug         |
 | PDF2WORD-690    | `OutOfMemoryException` while processing large images in PDF                                   | Bug         |
 | PDF2WORD-693    | Horizontal lines are not recognized as part of footers                                        | Bug         |
-| PDF2WORD-694    | Spacing is lost between Icon and `PAGE` field code in a footer                                | Bug         |
+| PDF2WORD-694    | Spacing is lost between an Icon and the `PAGE` field code in a footer                         | Bug         |
 | PDF2WORD-695    | Slow processing for PDFs with large images                                                    | Bug         |
 | PDF2WORD-696    | Image is not visible after the `Pdf2Word` conversion                                          | Bug         |
 | PDF2WORD-698    | Scan images were detected as a header picture by mistake                                      | Bug         |
