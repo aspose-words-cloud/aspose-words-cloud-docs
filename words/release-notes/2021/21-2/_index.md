@@ -14,19 +14,19 @@ The page contains release notes for Aspose.Words Cloud 21.2 – [API Reference]
 
 ## Words Cloud Changes
 
-- Added method to remove all comments inside document
+- Added a method to remove all comments inside a document
 - Added `AllowEmbeddingPostScriptFonts` option
 
 ## PDF to Word conversion improvements
 
 - Optimized processing of large PDF images (reduced time and peak memory usage)
-- Removed requirement for a few PDF markers (some PDF producers don’t follow the spec)
+- Removed requirements for a few PDF markers (some PDF producers don’t follow the specification)
 - Fixed decoding of child resources inside page resource dictionaries
 - Corrected an issue with images been lost if a PDF page size is too large (added downscaling to the allowed MS Word limits)
 - Improved image comparison in `ColontitleDetector` logic to avoid getting wrong images in header/footer areas
 - Added protection against duplicate values that embedded CFF fonts might have on rare occasions
 - Fixed two issues in header/footer detection related to element positioning
-- Finished rework of footnote processing logic to support RTL text properly
+- Finished rework of footnote processing logic to support RTL text
 - Corrected alignment of text lines that have both RTL and LTR words
 
 ## All changes
@@ -35,10 +35,10 @@ The page contains release notes for Aspose.Words Cloud 21.2 – [API Reference]
 |-----------------|-----------------------------------------------------------------------------------------------|-------------|
 | WORDSCLOUD-1477 | Add methods for removing all comments in a document                                           | Feature     |
 | WORDSCLOUD-1443 | Add `AllowEmbeddingPostScriptFonts` option to `SaveOptions`                                   | Feature     |
-| WORDSCLOUD-1320 | Swagger misses parameter order when sending multipart request                                 | Bug         |
+| WORDSCLOUD-1320 | Swagger misses the parameter order when sending multipart requests                            | Bug         |
 | WORDSCLOUD-1451 | OpenXPS file format error in Swagger UI                                                       | Bug         |
-| WORDSCLOUD-1285 | Swagger can't send value in field if it contains `:`                                          | Bug         |
-| WORDSCLOUD-1286 | Swagger adds `,` to some fields if you didn't specify them                                    | Bug         |
+| WORDSCLOUD-1285 | Swagger can't send the value of a field if it contains a colon                               | Bug         |
+| WORDSCLOUD-1286 | Swagger adds commas to some fields if they are missing                                        | Bug         |
 | WORDSCLOUD-1306 | Issue with the forward slash directory separator in Swagger UI                                | Bug         |
 | WORDSCLOUD-1452 | PostScript file format conversion error in Swagger UI                                         | Bug         |
 | PDF2WORD-69     | Support Arabic writing                                                                        | Feature     |
@@ -50,11 +50,11 @@ The page contains release notes for Aspose.Words Cloud 21.2 – [API Reference]
 | PDF2WORD-681    | `IndexOutOfRangeException` happened on several PDFs                                           | Bug         |
 | PDF2WORD-685    | Footer detection issues                                                                       | Bug         |
 | PDF2WORD-687    | PDF font dictionary must contain a `/Type` - `/Font` key-value pair                           | Bug         |
-| PDF2WORD-688    | Context is not set. Set a valid `PdfResourceDictionary` instance as Context for `Do` operator | Bug         |
-| PDF2WORD-689    | Cannot cast `PdfIndirectObjectReference` to `PdfDictionary`                                   | Bug         |
-| PDF2WORD-690    | `OutOfMemoryException` while processing large images from PDFs                                | Bug         |
+| PDF2WORD-688    | Set a valid `PdfResourceDictionary` instance as a context for `Do` operator                   | Bug         |
+| PDF2WORD-689    | Can't cast `PdfIndirectObjectReference` to `PdfDictionary`                                    | Bug         |
+| PDF2WORD-690    | `OutOfMemoryException` while processing large images in PDF                                   | Bug         |
 | PDF2WORD-693    | Horizontal lines are not recognized as part of footers                                        | Bug         |
 | PDF2WORD-694    | Spacing is lost between Icon and `PAGE` field code in a footer                                | Bug         |
-| PDF2WORD-695    | Slow processing for PDF with large images                                                     | Bug         |
-| PDF2WORD-696    | The image is not visible after the `Pdf2Word` conversion                                      | Bug         |
+| PDF2WORD-695    | Slow processing for PDFs with large images                                                    | Bug         |
+| PDF2WORD-696    | Image is not visible after the `Pdf2Word` conversion                                          | Bug         |
 | PDF2WORD-698    | Scan images were detected as a header picture by mistake                                      | Bug         |
