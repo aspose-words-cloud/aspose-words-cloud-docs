@@ -35,11 +35,13 @@ The page contains release notes for Aspose.Words Cloud 21.2 – [API Reference]
 |-----------------|-----------------------------------------------------------------------------------------------|-------------|
 | WORDSCLOUD-1477 | Add methods for removing all comments in a document                                           | Feature     |
 | WORDSCLOUD-1443 | Add `AllowEmbeddingPostScriptFonts` option to `SaveOptions`                                   | Feature     |
-| WORDSCLOUD-1320 | Swagger misses the parameter order when sending multipart requests                            | Bug         |
-| WORDSCLOUD-1451 | OpenXPS file format error in Swagger UI                                                       | Bug         |
+| WORDSCLOUD-1263 | Statistics API unable to load the document                                                    | Bug         |
 | WORDSCLOUD-1285 | Swagger can't send the value of a field if it contains a colon                                | Bug         |
 | WORDSCLOUD-1286 | Swagger adds a comma to some fields if a comma is missing                                     | Bug         |
 | WORDSCLOUD-1306 | Issue with the forward slash directory separator in Swagger UI                                | Bug         |
+| WORDSCLOUD-1320 | Swagger misses the parameter order when sending multipart requests                            | Bug         |
+| WORDSCLOUD-1343 | API method `GetDocumentStatistics` throws an exception "Array dimensions exceeded ..."        | Bug         |
+| WORDSCLOUD-1451 | OpenXPS file format error in Swagger UI                                                       | Bug         |
 | WORDSCLOUD-1452 | PostScript file format conversion error in Swagger UI                                         | Bug         |
 | PDF2WORD-69     | Support Arabic writing                                                                        | Feature     |
 | PDF2WORD-613    | Support PDF pages with colored background                                                     | Feature     |
