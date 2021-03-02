@@ -57,7 +57,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/MailMerge" \
 -H "Authorization: Bearer <jwt token>" \
 -o TestPostDocumentExecuteMailMerge.docx
 ```
-<p style="margin-top:-32px;font-size:80%;font-style:italic">To get a jwt token use this <a href="/words/getting-started/available-sdks/#curl">instruction</a></p>
+<p style="margin-top:-32px;font-size:80%;font-style:italic">To get a JWT token use this <a href="/words/getting-started/quickstart/">instruction</a></p>
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}

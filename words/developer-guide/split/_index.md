@@ -43,7 +43,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_doc.docx/split?from=2&to=3&for
 -H "Content-Length: 0" \
 -H "Authorization: Bearer <jwt token>"
 ```
-<p style="margin-top:-32px;font-size:80%;font-style:italic">To get a jwt token use this <a href="/words/getting-started/available-sdks/#curl">instruction</a></p>
+<p style="margin-top:-32px;font-size:80%;font-style:italic">To get a JWT token use this <a href="/words/getting-started/quickstart/">instruction</a></p>
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
