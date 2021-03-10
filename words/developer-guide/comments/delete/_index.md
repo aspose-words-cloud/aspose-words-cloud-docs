@@ -1,5 +1,5 @@
 ---
-title: "Delete comments"
+title: "Delete a comment"
 second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /comments/delete/
