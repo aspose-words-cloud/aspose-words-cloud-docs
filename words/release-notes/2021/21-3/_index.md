@@ -14,7 +14,7 @@ The page contains release notes for Aspose.Words Cloud 21.3 – [API Reference]
 
 ## Words Cloud Changes
 
-- Added a new `UpdateCreatedTimeProperty` for saving files
+- Added a new `UpdateCreatedTimeProperty` option for saving output files
 - Added support for multiple tables in `HeaderFooter` objects. Thus it's possible to address paragraphs inside a table as follows: "sections/0/headersfooters/1/tables/0/rows/0/cells/0/paragraphs/0"
 
 ## PDF to Word conversion improvements
@@ -23,9 +23,9 @@ The page contains release notes for Aspose.Words Cloud 21.3 – [API Reference]
 - Corrected erroneously reduced spacing between words in some text paragraphs
 - Corrected PDF element derefencing when `xref` table has incorrect data
 - Added support for PDFs with duplicate values in `Font` encoding dictionaries
-- Added support for white symbols in `ASCII-85` text values to fix decoding of such files
+- Added support for white symbols in `ASCII-85` text to fix decoding of such files
 - Added support for PDFs with missed `Content` and `Resources` elements
-- Fixed the `NullReferenceException` in the process of `PdfContentProcessor` class creation
+- Fixed `NullReferenceException` in the process of `PdfContentProcessor` class creation
 - Fixed issues causing `FormatException` on a dozen of PDFs
 - Restored color decoding by adding new logic for `Shading` fill pattern
 - Added support for images with 2-bit colors (when 4 pixels are encoded into one byte)
