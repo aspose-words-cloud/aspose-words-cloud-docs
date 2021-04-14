@@ -16,7 +16,7 @@ The page contains release notes for Aspose.Words Cloud 21.4 – [API Reference]
 
 - Added a new `CustomTimeZoneInfoData` option for saving output files
 - Removed an obsolete `EscapeUri` option previously used for PDF file saving
-- The URL of a child request in a batch now can be specified with an absolute path. Earlier the path could only be relative.
+- The URL of a child request in a batch now can be specified with an absolute path. Earlier the path could only be relative
 - Added a new 'RequestId' header to all the REST responses
 
 ## PDF to Word conversion improvements
