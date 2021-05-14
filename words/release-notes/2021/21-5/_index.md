@@ -22,7 +22,7 @@ The page contains release notes for Aspose.Words Cloud 21.5 – [API Reference]
 - Corrected detection of footnotes with Roman and Letter numbering styles
 - Fixed a `KeyNotFoundException` when a PDF image stream doesn't have `Length` property
 - Fixed another `KeyNotFoundException` when a PDF color mask doesn't specify its type
-- Corrected PDF reading code to support annotations without `Subtype` property
+- Improved code for reading PDF to support annotations without `Subtype` property
 
 ## All changes
 
@@ -33,11 +33,11 @@ The page contains release notes for Aspose.Words Cloud 21.5 – [API Reference]
 | WORDSCLOUD-1270 | Split documents by page range to generate a single document                                   | Feature     |
 | WORDSCLOUD-1351 | Replace multiple text values in a Word document without using cloud storage                   | Feature     |
 | WORDSCLOUD-1444 | Implement `PUT /CompatibilityOptions/` resource                                               | Feature     |
-| WORDSCLOUD-1576 | Implement `resultOf` feature in Node SDK                                                      | Feature     |
+| WORDSCLOUD-1576 | Implement `resultOf` feature in Node.js SDK                                                      | Feature     |
 | WORDSCLOUD-1579 | Implement `resultOf` feature for online methods with multipart body                           | Feature     |
 | WORDSCLOUD-1582 | Implement `dependsOn` feature in .NET SDK                                                     | Feature     |
 | WORDSCLOUD-1584 | Implement `dependsOn` feature in Ruby SDK                                                     | Feature     |
-| WORDSCLOUD-1585 | Improve `BatchRequest` functionality in Node SDK for better usability                         | Feature     |
+| WORDSCLOUD-1585 | Improve `BatchRequest` functionality in Node.js SDK for better usability                         | Feature     |
 | WORDSCLOUD-92   | Conversion error when splitting DOC to PNG and HTML                                           | Bug         |
 | WORDSCLOUD-326  | SplitDocument API produces documents only with 2 pages                                        | Bug         |
 | WORDSCLOUD-715  | Sentences are split incorrectly across multiple pages                                         | Bug         |
