@@ -11,7 +11,7 @@ weight: 500
 
 ## ApiError
 
-Represents a api error.
+Represents an API error.
 
 This class is used in [WordsApiErrorResponse](#wordsapierrorresponse).
 
@@ -27,7 +27,7 @@ The following properties are defined:
 
 ## WordsApiLink
 
-Represents a provides information for the words API resource link.
+Represents data for the Words API resource link.
 
 This class is inherited from [Link](/words/spec/document#link) and used in [Bookmark](/words/spec/bookmark#bookmark), [Bookmarks](/words/spec/bookmark#bookmarks), [Border](/words/spec/border#border), [BordersCollection](/words/spec/border#borderscollection), [Comment](/words/spec/comment#comment), [CommentLink](/words/spec/comment#commentlink), [CommentsCollection](/words/spec/comment#commentscollection), [DocumentProperties](/words/spec/documentproperties#documentproperties), [DocumentProperty](/words/spec/documentproperties#documentproperty), [DrawingObject](/words/spec/drawingobject#drawingobject), [DrawingObjectCollection](/words/spec/drawingobject#drawingobjectcollection), [DrawingObjectLink](/words/spec/drawingobject#drawingobjectlink), [Field](/words/spec/field#field), [FieldCollection](/words/spec/field#fieldcollection), [FieldLink](/words/spec/field#fieldlink), [FieldNames](/words/spec/field#fieldnames), [Font](/words/spec/font#font), [Footnote](/words/spec/footnote#footnote), [FootnoteCollection](/words/spec/footnote#footnotecollection), [FootnoteLink](/words/spec/footnote#footnotelink), [FormField](/words/spec/formfield#formfield), [FormFieldCheckbox](/words/spec/formfield#formfieldcheckbox), [FormFieldCollection](/words/spec/formfield#formfieldcollection), [FormFieldDropDown](/words/spec/formfield#formfielddropdown), [FormFieldTextInput](/words/spec/formfield#formfieldtextinput), [HeaderFooter](/words/spec/headerfooter#headerfooter), [HeaderFooterLink](/words/spec/headerfooter#headerfooterlink), [HeaderFooterLinkCollection](/words/spec/headerfooter#headerfooterlinkcollection), [Hyperlink](/words/spec/hyperlink#hyperlink), [Hyperlinks](/words/spec/hyperlink#hyperlinks), [LinkElement](/words/spec/link#linkelement), [ListFormat](/words/spec/paragraphlist#listformat), [ListInfo](/words/spec/list#listinfo), [ListLevel](/words/spec/list#listlevel), [ListLevels](/words/spec/list#listlevels), [Lists](/words/spec/list#lists), [NodeLink](/words/spec/link#nodelink), [OfficeMathLink](/words/spec/link#officemathlink), [OfficeMathObject](/words/spec/mathobject#officemathobject), [OfficeMathObjectsCollection](/words/spec/mathobject#officemathobjectscollection), [PageSetup](/words/spec/section#pagesetup), [Paragraph](/words/spec/paragraph#paragraph), [ParagraphFormat](/words/spec/paragraphformat#paragraphformat), [ParagraphFormatBase](/words/spec/paragraphformat#paragraphformatbase), [ParagraphFormatUpdate](/words/spec/paragraphformat#paragraphformatupdate), [ParagraphLink](/words/spec/paragraph#paragraphlink), [ParagraphLinkCollection](/words/spec/paragraph#paragraphlinkcollection), [Run](/words/spec/run#run), [RunLink](/words/spec/run#runlink), [Runs](/words/spec/run#runs), [SearchResultsCollection](/words/spec/text#searchresultscollection), [Section](/words/spec/section#section), [SectionLink](/words/spec/section#sectionlink), [SectionLinkCollection](/words/spec/section#sectionlinkcollection), [Style](/words/spec/style#style), [Table](/words/spec/table#table), [TableCell](/words/spec/tablecell#tablecell), [TableCellFormat](/words/spec/tablecell#tablecellformat), [TableLink](/words/spec/table#tablelink), [TableLinkCollection](/words/spec/table#tablelinkcollection), [TableProperties](/words/spec/tableproperties#tableproperties), [TableRow](/words/spec/tablerow#tablerow), [TableRowFormat](/words/spec/tablerow#tablerowformat).
 
@@ -55,7 +55,7 @@ The following properties are defined:
 
 ## ApiException
 
-Represents a aPI exception.
+Represents an API exception.
 
 An object of the **ApiException** class is created by the following constructor methods:
 
@@ -95,7 +95,7 @@ The following properties are defined:
 
 ## WordsApi
 
-Represents a aspose.Words for Cloud API.
+Contains methods for calling Aspose.Words Cloud API.
 
 An object of the **WordsApi** class is created by the following constructor methods:
 
