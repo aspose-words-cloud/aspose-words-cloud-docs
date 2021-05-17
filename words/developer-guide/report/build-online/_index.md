@@ -86,4 +86,6 @@ The following code examples demonstrate how to make calls to Aspose.Words web se
 ## See also
 
 - Product page description: <a href="https://products.aspose.cloud/words/python/report" target="_blank">Python</a>, <a href="https://products.aspose.cloud/words/net/report" target="_blank">C#</a>, <a href="https://products.aspose.cloud/words/java/report" target="_blank">Java</a>, <a href="https://products.aspose.cloud/words/nodejs/report" target="_blank">Node.js</a>, <a href="https://products.aspose.cloud/words/php/report" target="_blank">PHP</a>, <a href="https://products.aspose.cloud/words/go/report" target="_blank">Go</a>
-- <a href="https://products.aspose.app/words/assembly" target="_blank">Free online assembly app</a>
+- Free online <a href="https://products.aspose.app/words/assembly" target="_blank">Document Assembly</a> app
+- Free online <a href="https://products.aspose.app/words/resume" target="_blank">Resume Creator</a> app
+- Free online <a href="https://products.aspose.app/words/invoice" target="_blank">Invoice Generator</a> app
