@@ -36,6 +36,10 @@ The cleanup options parameter can contain a list of values from below, separated
 |RemoveTitleRowInInnerTables|Enable "RemoveTitleRow " for nested tables.|
 |RemoveStaticFields|Specifies whether static fields should be removed from the document. Static fields are fields, which results remain the same upon any document change. Fields, which do not store their results in a document and are calculated on the fly (like Aspose.Words.Fields.FieldType.FieldListNum, Aspose.Words.Fields.FieldType.FieldSymbol, etc.) are not considered to be static.|
 
+## Data Formats
+
+Both **JSON** and **XML** data formats are supported. Choosing the appropriate data format makes a difference in flexibility, scalability and performance speed of your application. XML and JSON have much in common with their own strengths and drawbacks. You need to determine which one is the most preferred for your purposes.
+
 ## REST API
 
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/MailMerge/ExecuteMailMerge) defines a publicly accessible programming interface and lets you carry out REST interactions directly from a web browser.
@@ -44,7 +48,7 @@ You can use **cURL** command-line tool to access Aspose.Words web services easil
 
 **Case 1**: MailMerge Template
 
-Feel free to download and explore sample input [SampleMailMergeTemplate.docx](/words/mail-merge/SampleMailMergeTemplate.docx), [SampleMailMergeTemplateData.txt](/words/mail-merge/SampleMailMergeTemplateData.txt) and output [TestPostDocumentExecuteMailMerge.docx](/words/mail-merge/TestPostDocumentExecuteMailMerge.docx) files designed to act as a demonstration and let you figure out the details quickly.
+Feel free to download and explore sample input [SampleMailMergeTemplate.docx](/words/mail-merge/SampleMailMergeTemplate.docx), [SampleMailMergeTemplateData.xml](/words/mail-merge/SampleMailMergeTemplateData.xml) and output [TestPostDocumentExecuteMailMerge.docx](/words/mail-merge/TestPostDocumentExecuteMailMerge.docx) files designed to act as a demonstration and let you figure out the details quickly.
 
 {{< nosnippet >}}
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
@@ -54,7 +58,7 @@ Feel free to download and explore sample input [SampleMailMergeTemplate.docx](/w
 # cURL example to populate MailMerge template with Data
 curl -v "https://api.aspose.cloud/v4.0/words/SampleMailMergeTemplate.docx/MailMerge?withRegions=false&destFileName=TestPostDocumentExecuteMailMerge.docx" \
 -X PUT \
--F data=@SampleMailMergeTemplateData.txt \
+-F data=@SampleMailMergeTemplateData.xml \
 -H "Content-Type: multipart/form-data" \
 -H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>"
@@ -243,7 +247,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleMailMergeTemplate.docx/MailMe
 
 **Case 2**: Mustache Template
 
-Feel free to download and explore sample input [TestExecuteTemplate.doc](/words/mail-merge/TestExecuteTemplate.doc), [TestExecuteTemplateData.txt](/words/mail-merge/TestExecuteTemplateData.txt) and output [TestPostDocumentExecuteMailMergeResult.docx](/words/mail-merge/TestPostDocumentExecuteMailMergeResult.docx) files designed to act as a demonstration and let you figure out the details quickly.
+Feel free to download and explore sample input [TestExecuteTemplate.doc](/words/mail-merge/TestExecuteTemplate.doc), [TestExecuteTemplateData.xml](/words/mail-merge/TestExecuteTemplateData.xml) and output [TestPostDocumentExecuteMailMergeResult.docx](/words/mail-merge/TestPostDocumentExecuteMailMergeResult.docx) files designed to act as a demonstration and let you figure out the details quickly.
 
 {{< nosnippet >}}
 {{< tabs tabTotal="2" tabID="4" tabName1="Request" tabName2="Response" >}}
@@ -253,7 +257,7 @@ Feel free to download and explore sample input [TestExecuteTemplate.doc](/words/
 # cURL example to populate Mustache template with Data
 curl -v "https://api.aspose.cloud/v4.0/words/TestExecuteTemplate.doc/MailMerge?destFileName=TestPostExecuteTemplate.docx" \
 -X PUT \
--F data=@TestExecuteTemplateData.txt \
+-F data=@TestExecuteTemplateData.xml \
 -H "Content-Type: multipart/form-data" \
 -H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>"
