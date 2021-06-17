@@ -58,21 +58,21 @@ To install the add-on, please do the following steps:
 
 ## Usage
 
-After having installed our add-on the first thing you have to do is fill your spreadsheet with data. This spreadsheet acts as a simple database and contains information to feed dynamically into emails and attachments. Each row in the spreadsheet represents data on a single customer except for the first row which contains the names of the fields. Add field names that you require in the first row, then fill in the `'A'` column with a list of your customers. To accelerate the process, you can simply import contacts from Google Contacts by clicking the "Import Contacts" menu item.
+1. After having installed our add-on the first thing you have to do is fill your spreadsheet with data. This spreadsheet acts as a simple database and contains information to feed dynamically into emails and attachments. Each row in the spreadsheet represents data on a single customer except for the first row which contains the names of the fields. Add field names that you require in the first row, then fill in the `'A'` column with a list of your customers. To accelerate the process, you can simply import contacts from Google Contacts by clicking the "Import Contacts" menu item.
 
-Prepare an email template in your Gmail mailbox. The letter template usually contains blocks of static content mixed with special Merge Fields. Merge fields are defined with curly brackets and act as placeholders for dynamic data substitution. Merge Fields are case-sensitive and should be carefully matched with the corresponding column names in the spreadsheet.
+2. Prepare an email template in your Gmail mailbox. The letter template usually contains blocks of static content mixed with special Merge Fields. Merge fields are defined with curly brackets and act as placeholders for dynamic data substitution. Merge Fields are case-sensitive and should be carefully matched with the corresponding column names in the spreadsheet.
 
-For your convenience, we support two types of Merge Field template syntax.
+For your convenience, we support two types of Merge Field template syntax:
 
-The first one is based on the use of double curly brackets ('mustache' syntax), i.e. `{{First_Name}}`, `{{Company}}`, `{{Address}}`. You can use the syntax of this type in the letter text, attachments, and even in the 'Subject' line of the email.
+* The first one is based on the use of double curly brackets ('mustache' syntax), i.e. `{{First_Name}}`, `{{Company}}`, `{{Address}}`. You can use the syntax of this type in the letter text, attachments, and even in the 'Subject' line of the email.
 
-Your second option is to use the original Merge Field syntax proposed by Microsoft. Please note that you can use it in email attachments only. This syntax is more generic but requires a bit more effort to create. For details refer to the '[Insert Mail Merge fields](https://support.microsoft.com/en-us/office/insert-mail-merge-fields-9a1ab5e3-2d7a-420d-8d7e-7cc26f26acff)' article by Microsoft.
+* The second option is to use the original Merge Field syntax proposed by Microsoft. Please note that you can use it in email attachments only. This syntax is more generic but requires a bit more effort to create. For details refer to the [article](https://support.microsoft.com/en-us/office/insert-mail-merge-fields-9a1ab5e3-2d7a-420d-8d7e-7cc26f26acff) by Microsoft.
 
-Create a draft email in your mailbox and insert Merge Fields in proper places.
+3. Create a draft email in your mailbox and insert Merge Fields in proper places.
 
-Once you've got the basics of your email template created, you can run Mail Merge as a separate program. It can be accessed under the "Add-ons/Aspose Mail Merge/Mail Merge" menu option in Google Sheets. For testing purposes, you can send yourself a test email with all Merge Fields set to column names.
+4. Once you've got the basics of your email template created, you can run Mail Merge as a separate program. It can be accessed under the "Add-ons/Aspose Mail Merge/Mail Merge" menu option in Google Sheets. For testing purposes, you can send yourself a test email with all Merge Fields set to column names.
 
-Our add-on interacts with Aspose.Words Web Services to process Mail Merge templates and track the status of each email. In the process of execution, Gmail and Google Sheets services will communicate and exchange data with one another producing a sequence of automatically sent emails. 
+5. Our add-on interacts with Aspose.Words Web Services to process Mail Merge templates and track the status of each email. In the process of execution, Gmail and Google Sheets services will communicate and exchange data with one another producing a sequence of automatically sent emails. 
 
 ## Contacts
 
