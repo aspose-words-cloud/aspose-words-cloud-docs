@@ -60,9 +60,7 @@ To install the add-on, please do the following steps:
 
 1. After having installed our add-on the first thing you have to do is fill your spreadsheet with data. This spreadsheet acts as a simple database and contains information to feed dynamically into emails and attachments. Each row in the spreadsheet represents data on a single customer except for the first row which contains the names of the fields. Add field names that you require in the first row, then fill in the `'A'` column with a list of your customers. To accelerate the process, you can simply import contacts from Google Contacts by clicking the "Import Contacts" menu item.
 
-2. Prepare an email template in your Gmail mailbox. The letter template usually contains blocks of static content mixed with special Merge Fields. Merge fields are defined with curly brackets and act as placeholders for dynamic data substitution. Merge Fields are case-sensitive and should be carefully matched with the corresponding column names in the spreadsheet.
-
-For your convenience, we support two types of Merge Field template syntax:
+2. Prepare an email template in your Gmail mailbox. The letter template usually contains blocks of static content mixed with special Merge Fields. Merge fields are defined with curly brackets and act as placeholders for dynamic data substitution. Merge Fields are case-sensitive and should be carefully matched with the corresponding column names in the spreadsheet. For your convenience, we support two types of Merge Field template syntax:
 
 * The first one is based on the use of double curly brackets ('mustache' syntax), i.e. `{{First_Name}}`, `{{Company}}`, `{{Address}}`. You can use the syntax of this type in the letter text, attachments, and even in the 'Subject' line of the email.
 
