@@ -38,6 +38,12 @@ Our Mail Merge add-on provides a rich set of features and capabilities:
 
 Free Mail Merge by Aspose allows not only to generate common emails with personalized content but also can be applied to generate customized DOCX, DOC, RTF attachments and send them together with emails. Currently, you can process the very first document in your attachments by selecting the "Process the first attachment" option in the dialog box.
 
+## Privacy Policy and Terms of Service
+
+Please read both ["Privacy Policy"](https://about.aspose.cloud/legal/privacy-policy) and ["Terms of Service"](https://about.aspose.cloud/legal/tos) agreements carefully before using our add-on. Among other information, these documents describe in detail how the add-on accesses, uses and stores user data.
+
+By using the add-on, you acknowledge that you have read, understand and agree to be bound by the terms of the "Privacy Policy" and "Terms of Service" documents.
+
 ## Installation
 
 To install the add-on, please do the following steps:
@@ -67,12 +73,6 @@ Create a draft email in your mailbox and insert Merge Fields in proper places.
 Once you've got the basics of your email template created, you can run Mail Merge as a separate program. It can be accessed under the "Add-ons/Aspose Mail Merge/Mail Merge" menu option in Google Sheets. For testing purposes, you can send yourself a test email with all Merge Fields set to column names.
 
 Our add-on interacts with Aspose.Words Web Services to process Mail Merge templates and track the status of each email. In the process of execution, Gmail and Google Sheets services will communicate and exchange data with one another producing a sequence of automatically sent emails. 
-
-## Privacy Policy and Terms of Service
-
-Please read both ["Privacy Policy"](https://about.aspose.cloud/legal/privacy-policy) and ["Terms of Service"](https://about.aspose.cloud/legal/tos) agreements carefully before using our add-on. Among other information, these documents describe in detail how the add-on accesses, uses and stores user data.
-
-By using the add-on, you acknowledge that you have read, understand and agree to be bound by the terms of the "Privacy Policy" and "Terms of Service" documents.
 
 ## Contacts
 
