@@ -36,11 +36,11 @@ Our Mail Merge add-on provides a rich set of features and capabilities:
 
 ### Mail Merge with Attachments
 
-Free Mail Merge by Aspose allows not only to generate common emails with personalized content but also can be applied to generate customized DOCX, DOC, RTF attachments and send them together with emails. Currently, you can process the very first document in your attachments by selecting the "Process the first attachment" option in the dialog box.
+Free Mail Merge by Aspose allows not only to generate common emails with personalized content but also can be applied to generate customized attachments in DOCX, PDF, RTF and other formats (see the full list of [supported file formats](https://docs.aspose.cloud/words/getting-started/supported-file-formats/)) and send them together with emails. Currently, you can process the very first document in your attachments by selecting the "Process the first attachment" option in the dialog box.
 
 ## Privacy Policy and Terms of Service
 
-Please read both ["Privacy Policy"](https://about.aspose.cloud/legal/privacy-policy) and ["Terms of Service"](https://about.aspose.cloud/legal/tos) agreements carefully before using our add-on. Among other information, these documents describe in detail how the add-on accesses, uses and stores user data.
+Please read both [Privacy Policy](https://about.aspose.cloud/legal/privacy-policy) and [Terms of Service](https://about.aspose.cloud/legal/tos) agreements carefully before using our add-on. Among other information, these documents describe in detail how the add-on accesses, uses and stores user data.
 
 By using the add-on, you acknowledge that you have read, understand and agree to be bound by the terms of the "Privacy Policy" and "Terms of Service" documents.
 
