@@ -1,5 +1,5 @@
 ---
-title: "Mail Merge"
+title: "Google Sheets Add-on — Aspose Mail Merge"
 second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /plugins/mailmerge/
