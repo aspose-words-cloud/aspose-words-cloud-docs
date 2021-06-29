@@ -4,8 +4,17 @@ second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /plugins/mailmerge/
 description: "Instructions on how to use Free Mail Merge add-on for Google Workspace"
+notoc: true
 weight: 25
 ---
+
+<div>
+    <div style="display: inline-block;font-size: 24px;font-weight: bold;">Aspose Mail Merge</div><img src="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_mailmerge-120.png" style="height: 60px;width: 60px;margin-left: 5px;display: inline-block;" alt="Aspose icon"> 
+</div>
+
+<div style="text-align: center;">
+    <img src="/AsposeMailMergeBanner.gif" alt="Aspose Mail Merge Banner">
+</div>
 
 Free **Mail Merge** by Aspose is a Google Sheets add-on designed to generate and send emails with customized content and attachments to a group of customers from the list.
 
