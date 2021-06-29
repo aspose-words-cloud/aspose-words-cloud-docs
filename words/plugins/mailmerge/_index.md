@@ -8,17 +8,16 @@ notoc: true
 weight: 25
 ---
 
-<div>
-    <div style="display: inline-block;font-size: 24px;font-weight: bold;">Aspose Mail Merge</div><img src="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_mailmerge-120.png" style="height: 60px;width: 60px;margin-left: 5px;display: inline-block;" alt="Aspose icon"> 
+<div style="margin-bottom: 2rem;">
+    <div style="display: inline-block;font-size: 1.7rem;font-weight: bold;">Aspose Mail Merge</div><img src="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_mailmerge-120.png" style="height: 3rem;width: 3rem;margin-left: 0.3rem;display: inline-block;" alt="Aspose icon"> 
 </div>
 
-<div style="text-align: center;">
-    <img src="/AsposeMailMergeBanner.gif" alt="Aspose Mail Merge Banner">
+<div style="display: flex;">
+    <img src="AsposeMailMergeBanner.gif" alt="Aspose Mail Merge Banner" style="height: 120px;">
+    <div style="padding: 0 1rem;font-size: 1.1rem;">
+        <p>Free <strong>Mail Merge</strong> by Aspose is a Google Sheets add-on designed to generate and send emails with customized content and attachments to a group of customers from the list.</p><p>Our Mail Merge add-on helps you integrate Google Sheets and Gmail services, which are part of Google Workspace, to carry out powerful email campaigns, increasing sales and achieving competitive advantages on the market.</p>
+    </div>
 </div>
-
-Free **Mail Merge** by Aspose is a Google Sheets add-on designed to generate and send emails with customized content and attachments to a group of customers from the list.
-
-Our Mail Merge add-on helps you integrate Google Sheets and Gmail services, which are part of Google Workspace, to carry out powerful email campaigns, increasing sales and achieving competitive advantages on the market.
 
 ## Scope of Application
 
