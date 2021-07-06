@@ -16,7 +16,7 @@ The page contains release notes for Aspose.Words Cloud 21.6 – [API Reference]
 
 - `CompareDocumentOnline` method can handle two documents for comparison located in a message's body
 - `CompareDocument` method can handle PDF files with an output document saved as DOCX
-- Added a new `AcceptAllRevisionsBeforeComparison` option which specifies whether to accept all revisions before a comparison
+- Added a new `AcceptAllRevisionsBeforeComparison` option which specifies whether to accept all revisions before the comparison
 
 ## PDF to Word conversion improvements
 
