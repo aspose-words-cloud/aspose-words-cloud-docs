@@ -37,7 +37,7 @@ Most importantly, Mail Merge provides a unique cost-effective opportunity to boo
 Our Mail Merge add-on provides a rich set of features and capabilities:
 
 * Create email templates with a build-in editor or copy them from your email drafts
-* Merge data from Google Sheets with your letters templates
+* Merge data from Google Sheets with your letter templates
 * Mail Merge with attachments — transform document templates and data into customizable attachments
 * Convert merged attachments to various formats
 * Automatically import email addresses from Google Contacts
