@@ -43,7 +43,7 @@ The page contains release notes for Aspose.Words Cloud 21.6 – [API Reference]
 | WORDSCLOUD-1465 | Statistics API throws `NullReferenceException`                                                | Bug      |
 | WORDSCLOUD-1482 | GetStatistics API throws "Cannot insert a node of this type at this location" exception       | Bug      |
 | WORDSCLOUD-1539 | Online version of `buildReport` method returns a strange error message                        | Bug      |
-| WORDSCLOUD-1620 | Requests with query parameters are formed incorrectly Go SDK                                  | Bug      |
+| WORDSCLOUD-1620 | Requests with query parameters are formed incorrectly in Go SDK                                  | Bug      |
 | WORDSCLOUD-1641 | Responses should be closed before reading in Go SDK                                           | Bug      |
 | WORDSCLOUD-1656 | Issue with saving temporary files in Ruby SDK                                                 | Bug      |
 | WORDSCLOUD-1658 | DOCX files are saved incorrectly after the comparison                                         | Bug      |
