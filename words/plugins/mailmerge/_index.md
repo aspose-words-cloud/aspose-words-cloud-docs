@@ -21,7 +21,7 @@ weight: 25
 
 ## Scope of Application
 
-In the recent past the Mail Merge feature, originally incorporated in Microsoft Office products, was quite popular to generate and send individualized mass mail. With free Mail Merge add-on by Aspose, this technology can be elevated to a higher level and applied to a vast range of newer tasks in almost all spheres of society.
+In the recent past the Mail Merge feature, originally incorporated in Microsoft Office products, was quite popular to generate and send individualized mass mail. With free Mail Merge add-on by Aspose this technology can be elevated to a higher level and applied to a vast range of newer tasks in almost all spheres of society.
 
 Most importantly, Mail Merge provides a unique cost-effective opportunity to boost marketing strategies through sharing the latest company's news and keeping continuous contact with the target audience. Mail Merge technology provides many attractive possibilities for delivering recent information to consumers easily with just a few mouse clicks. You can effectively use Mail Merge to meet the following challenges:
 
@@ -36,12 +36,12 @@ Most importantly, Mail Merge provides a unique cost-effective opportunity to boo
 
 Our Mail Merge add-on provides a rich set of features and capabilities:
 
-* Create email templates with build-in editor or copy them from your email drafts
+* Create email templates with a build-in editor or copy them from your email drafts
 * Merge data from Google Sheets with your letters templates
 * Mail Merge with attachments — transform document templates and data into customizable attachments
-* Convert merged attachment to one of multiple formats
+* Convert merged attachments to various formats
 * Automatically import email addresses from Google Contacts
-* Track the status of each email (was email opened)
+* Track the status of each email (sent/opened)
 * Pre-send testing of your email campaign before sending real letters to customers
 
 ### Mail Merge with Attachments
@@ -70,7 +70,7 @@ To install the add-on, please do the following steps:
 
 1. After having installed our add-on the first thing you have to do is fill your spreadsheet with data. This spreadsheet acts as a simple database and contains information to feed dynamically into emails and attachments. Each row in the spreadsheet represents data on a single customer except for the first row which contains the names of the fields. Add field names that you require in the first row, then fill in the `'A'` column with a list of your customers. To accelerate the process, you can simply import contacts from Google Contacts by clicking the "Import Contacts" menu item.
 
-2. Prepare an email template in our email templates editor. It can be accessed under the "Add-ons/Aspose Mail Merge/Email Templates" menu option in Google Sheets. The letter template usually contains blocks of static content mixed with special Merge Fields. Merge fields are defined with curly brackets and act as placeholders for dynamic data substitution. Merge Fields are case-sensitive and should be carefully matched with the corresponding column names in the spreadsheet. For your convenience, we support two types of Merge Field template syntax:
+2. Prepare an email template with a built-in editor. It can be accessed under the "Add-ons/Aspose Mail Merge/Email Templates" menu option in Google Sheets. The letter template usually contains blocks of static content mixed with special Merge Fields. Merge fields are defined with curly brackets and act as placeholders for dynamic data substitution. Merge Fields are case-sensitive and should be carefully matched with the corresponding column names in the spreadsheet. For your convenience, we support two types of Merge Field template syntax:
 
 * The first one is based on the use of double curly brackets ('mustache' syntax), i.e. `{{First_Name}}`, `{{Company}}`, `{{Address}}`. You can use the syntax of this type in the letter text, attachments, and even in the 'Subject' line of the email.
 
