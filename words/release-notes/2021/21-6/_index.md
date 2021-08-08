@@ -38,16 +38,16 @@ The page contains release notes for Aspose.Words Cloud 21.6 – [API Reference]
 | WORDSCLOUD-1573 | Draw a horizontal line at the end of a text line                                              | Feature  |
 | WORDSCLOUD-1611 | Append two files from a message's body in `CompareDocumentOnline` method                      | Feature  |
 | WORDSCLOUD-1615 | Provide support for comparison of PDF files                                                   | Feature  |
-| WORDSCLOUD-767  | A timeout occurred                                                                            | Bug      |
+  WORDSCLOUD-767  | Fix an error caused by timeouts                                                                | Bug      |
 | WORDSCLOUD-1287 | `SaveAsRange` method is not working for sections                                              | Bug      |
 | WORDSCLOUD-1465 | Statistics API throws `NullReferenceException`                                                | Bug      |
 | WORDSCLOUD-1482 | GetStatistics API throws "Cannot insert a node of this type at this location" exception       | Bug      |
 | WORDSCLOUD-1539 | Online version of `buildReport` method returns a strange error message                        | Bug      |
-| WORDSCLOUD-1620 | Requests with query parameters are formed incorrectly in Go SDK                                  | Bug      |
+| WORDSCLOUD-1620 | Requests with query parameters are formed incorrectly in Go SDK                               | Bug      |
 | WORDSCLOUD-1641 | Responses should be closed before reading in Go SDK                                           | Bug      |
 | WORDSCLOUD-1656 | Issue with saving temporary files in Ruby SDK                                                 | Bug      |
 | WORDSCLOUD-1658 | DOCX files are saved incorrectly after the comparison                                         | Bug      |
-| WORDSCLOUD-1661 | An error occured when running PHP SDK inside a Docker container                              | Bug      |
+| WORDSCLOUD-1661 | An error occurres when running PHP SDK inside a Docker container                              | Bug      |
 | PDF2WORD-766    | Provide support for multi-columns in DSR classes                                              | Task     |
 | PDF2WORD-767    | Provide support for multi-columns in the "Formatted Document Model"                           | Task     |
 | PDF2WORD-768    | Set the correct section attributes for `AsposeWordsDocumentBuilder`                           | Task     |

@@ -14,7 +14,7 @@ The page contains release notes for Aspose.Words Cloud 21.5 – [API Reference]
 
 ## Words Cloud Changes
 
-- Improved speed of execution for `Split` and `Statistics` operations
+- Improved execution speed for `Split` and `Statistics` operations
 - Fixed multiple bugs in `Split` and `Statistics` operations
 
 ## PDF to Word conversion improvements
