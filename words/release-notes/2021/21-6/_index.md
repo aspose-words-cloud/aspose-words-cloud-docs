@@ -20,14 +20,14 @@ The page contains release notes for Aspose.Words Cloud 21.6 – [API Reference]
 
 ## PDF to Word conversion improvements
 
-- Fixed `OverflowException`: Value was either too large or too small for an Int32
-- Fixed `InvalidCastException`: Cannot cast PdfArray to PdfDictionary
+- Fixed an `OverflowException`: Value was either too large or too small for an Int32
+- Fixed an `InvalidCastException`: Cannot cast PdfArray to PdfDictionary
 - Fixed black page background by supporting custom color settings in path drawing logic
-- Fixed `System.FormatException`: Value doesn't follow the Roman number format
-- Fixed `InvalidOperationException`: BBox definition is not PDF array
-- Fixed `ArgumentException` in `NamedDestinations.ReadDestValue` method
-- Fixed `KeyNotFoundException`: Dictionary doesn't contain `Length` entry
-- Fixed `NullReferenceException` in `PdfOperatorDo.ProcessImage` method
+- Fixed a `FormatException`: Value doesn't follow the Roman number format
+- Fixed an `InvalidOperationException`: BBox definition is not PDF array
+- Fixed an `ArgumentException` in `NamedDestinations.ReadDestValue` method
+- Fixed a `KeyNotFoundException`: Dictionary doesn't contain `Length` entry
+- Fixed a `NullReferenceException` in `PdfOperatorDo.ProcessImage` method
 - Fixed several `IndexOutOfRangeException` in `PdfTokenParser` and other PDF parser components
 
 ## All changes

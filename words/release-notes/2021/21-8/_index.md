@@ -40,7 +40,7 @@ The page contains release notes for Aspose.Words Cloud 21.8 – [API Reference]
 | WORDSCLOUD-1692 | The `DeleteFile` API does not accept a leading forward slash in a file path                   | Bug      |
 | WORDSCLOUD-1694 | An error occurs in the LINQ Reporting Engine when handling absent input data (JSON)           | Bug      |
 | WORDSCLOUD-1695 | An error occurs in the LINQ Reporting Engine when splitting strings                           | Bug      |
-| WORDSCLOUD-1713 | Incorrect DOCX files are returned when calling the `Comparison` API online-method             | Bug      |
+| WORDSCLOUD-1713 | Incorrect DOCX files are returned when calling the 'Comparison' API online-method             | Bug      |
 | PDF2WORD-810    | Thin lines are mistakenly processed as separate paragraphs                                    | Bug      |
 | PDF2WORD-811    | Incorrect image position                                                                      | Bug      |
 | PDF2WORD-817    | `ZlibException`: Bad state (unknown compression method (0x20))                                | Bug      |
