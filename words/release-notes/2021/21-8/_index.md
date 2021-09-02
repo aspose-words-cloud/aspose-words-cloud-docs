@@ -17,7 +17,7 @@ The page contains release notes for Aspose.Words Cloud 21.8 – [API Reference]
 - Implemented several API methods to get, insert, update and delete custom XML parts from documents
 - Added a new parameter to the 'Comparison' API (`ResultDocumentFormat`)
 - Added a new option for saving PDF files (`ExportLanguageToSpanTag`)
-- Added a new option for saving FlatOPC files ('FlatOpcXmlMappingOnly')
+- Added a new option for saving FlatOPC files (`FlatOpcXmlMappingOnly`)
 
 ## PDF to Word conversion improvements
 
@@ -31,9 +31,9 @@ The page contains release notes for Aspose.Words Cloud 21.8 – [API Reference]
 | #               | Summary                                                                                       | Category    |
 |-----------------|-----------------------------------------------------------------------------------------------|-------------|
 | WORDSCLOUD-1655 | Add a new `ResultDocumentFormat` parameter to the 'Comparison' API to specify an output format | New Feature |
-| WORDSCLOUD-1691 | Read custom XML data from Word documents                                                      | New Feature |
-| WORDSCLOUD-1697 | Add a new 'FlatOpcXmlMappingOnly' option for saving FlatOPC files                             | New Feature |
-| WORDSCLOUD-1698 | Add a new 'ExportLanguageToSpanTag' exporting option                                          | New Feature |
+| WORDSCLOUD-1691 | Read custom XML parts from Word documents                                                     | New Feature |
+| WORDSCLOUD-1697 | Add a new `FlatOpcXmlMappingOnly` option for saving FlatOPC files                             | New Feature |
+| WORDSCLOUD-1698 | Add a new `ExportLanguageToSpanTag` exporting option                                          | New Feature |
 | WORDSCLOUD-1714 | Declare properties in models as `public`, add support for chains of `set`-methods in the Swift SDK | New Feature |
 | WORDSCLOUD-1651 | Check if an 'Internal Server Error' is returned for every error in the Ruby SDK               | Bug      |
 | WORDSCLOUD-1660 | The Ruby SDK is expected to generate an exception when comparing documents with multiple revisions | Bug      |
