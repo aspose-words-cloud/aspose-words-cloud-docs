@@ -65,10 +65,10 @@ The following code examples demonstrate how to make calls to Aspose.Words web se
 {{< gist "aspose-words-cloud-gists" "374e1e3dd4bca8f696f29d913645f549" "DeleteFormField.cs" >}}
 {{< /tab >}}
 {{< tab tabNum="3" >}}
-{{< gist "aspose-words-cloud-gists" "fde11f9e52383a88af20b937c5e9b3d9" "Aspose_Cloud_Words_DeleteFormField.java" >}}
+{{< gist "aspose-words-cloud-gists" "fde11f9e52383a88af20b937c5e9b3d9" "DeleteFormField.java" >}}
 {{< /tab >}}
 {{< tab tabNum="4" >}}
-{{< gist "aspose-words-cloud-gists" "790dbd2edd5d36f170732366f52cac4c" "Aspose_Words_Swift_DeleteFormField.swift" >}}
+{{< gist "aspose-words-cloud-gists" "790dbd2edd5d36f170732366f52cac4c" "DeleteFormField.swift" >}}
 {{< /tab >}}
 {{< /tabs >}}
 {{< /nosnippet >}}

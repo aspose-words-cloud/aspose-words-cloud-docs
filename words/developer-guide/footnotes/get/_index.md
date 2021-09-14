@@ -122,7 +122,7 @@ The following code examples demonstrate how to make calls to Aspose.Words web se
 {{< gist "aspose-words-cloud-gists" "a9510e4b51613f1138e7c1ec09634c4a" "GetFootnote.js" >}}
 {{< /tab >}}
 {{< tab tabNum="3" >}}
-{{< gist "aspose-words-cloud-gists" "374e1e3dd4bca8f696f29d913645f549" "GetFootnoteByIndex.cs" >}}
+{{< gist "aspose-words-cloud-gists" "374e1e3dd4bca8f696f29d913645f549" "GetFootnote.cs" >}}
 {{< /tab >}}
 {{< tab tabNum="4" >}}
 {{< gist "aspose-words-cloud-gists" "e2a72445b96362dc0117f06ab54bb94a" "GetFootnote.php" >}}
@@ -134,10 +134,10 @@ The following code examples demonstrate how to make calls to Aspose.Words web se
 {{< gist "aspose-words-cloud-gists" "339f3835a4c0a536c81ec941de29baf7" "GetFootnote.rb" >}}
 {{< /tab >}}
 {{< tab tabNum="7" >}}
-{{< gist "aspose-words-cloud-gists" "fde11f9e52383a88af20b937c5e9b3d9" "Aspose_Cloud_Words_GetFootnote.java" >}}
+{{< gist "aspose-words-cloud-gists" "fde11f9e52383a88af20b937c5e9b3d9" "GetFootnote.java" >}}
 {{< /tab >}}
 {{< tab tabNum="8" >}}
-{{< gist "aspose-words-cloud-gists" "790dbd2edd5d36f170732366f52cac4c" "Aspose_Words_Swift_GetFootnote.swift" >}}
+{{< gist "aspose-words-cloud-gists" "790dbd2edd5d36f170732366f52cac4c" "GetFootnote.swift" >}}
 {{< /tab >}}
 {{< /tabs >}}
 {{< /nosnippet >}}

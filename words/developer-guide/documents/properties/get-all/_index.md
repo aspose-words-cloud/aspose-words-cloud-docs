@@ -304,10 +304,10 @@ The following code examples demonstrate how to make calls to Aspose.Words web se
 {{< gist "aspose-words-cloud-gists" "339f3835a4c0a536c81ec941de29baf7" "GetDocumentProperties.rb" >}}
 {{< /tab >}}
 {{< tab tabNum="8" >}}
-{{< gist "aspose-words-cloud-gists" "fde11f9e52383a88af20b937c5e9b3d9" "Aspose_Cloud_Words_GetDocumentProperties.java" >}}
+{{< gist "aspose-words-cloud-gists" "fde11f9e52383a88af20b937c5e9b3d9" "GetDocumentProperties.java" >}}
 {{< /tab >}}
 {{< tab tabNum="9" >}}
-{{< gist "aspose-words-cloud-gists" "790dbd2edd5d36f170732366f52cac4c" "Aspose_Words_Swift_GetDocumentProperties.swift" >}}
+{{< gist "aspose-words-cloud-gists" "790dbd2edd5d36f170732366f52cac4c" "GetDocumentProperties.swift" >}}
 {{< /tab >}}
 {{< /tabs >}}
 {{< /nosnippet >}}

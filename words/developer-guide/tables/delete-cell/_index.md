@@ -56,16 +56,16 @@ The following code examples demonstrate how to make calls to Aspose.Words web se
 {{< gist "aspose-words-cloud-gists" "caede439bfd2e57c3010befe504faff4" "DeleteTableCell.java" >}}
 {{< /tab >}}
 {{< tab tabNum="2" >}}
-{{< gist "aspose-words-cloud-gists" "374e1e3dd4bca8f696f29d913645f549" "DeleteCell.cs" >}}
+{{< gist "aspose-words-cloud-gists" "374e1e3dd4bca8f696f29d913645f549" "DeleteTableCell.cs" >}}
 {{< /tab >}}
 {{< tab tabNum="3" >}}
 {{< gist "aspose-words-cloud-gists" "625ca80adffd779e8f6e3611551e14d5" "DeleteTableCell.go" >}}
 {{< /tab >}}
 {{< tab tabNum="4" >}}
-{{< gist "aspose-words-cloud-gists" "fde11f9e52383a88af20b937c5e9b3d9" "Aspose_Cloud_Words_DeleteTableCell.java" >}}
+{{< gist "aspose-words-cloud-gists" "fde11f9e52383a88af20b937c5e9b3d9" "DeleteTableCell.java" >}}
 {{< /tab >}}
 {{< tab tabNum="5" >}}
-{{< gist "aspose-words-cloud-gists" "790dbd2edd5d36f170732366f52cac4c" "Aspose_Words_Swift_DeleteTableCell.swift" >}}
+{{< gist "aspose-words-cloud-gists" "790dbd2edd5d36f170732366f52cac4c" "DeleteTableCell.swift" >}}
 {{< /tab >}}
 {{< /tabs >}}
 {{< /nosnippet >}}

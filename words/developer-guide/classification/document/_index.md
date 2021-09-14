@@ -104,31 +104,31 @@ The following code examples demonstrate how to make calls to Aspose.Words web se
 {{< nosnippet >}}
 {{< tabs tabTotal="9" tabID="4" tabName1="Python" tabName2="Java" tabName3="Node.js" tabName4="C#" tabName5="PHP" tabName6="Golang" tabName7="Ruby" tabName8="Android" tabName9="Swift" >}}
 {{< tab tabNum="1" >}}
-{{< gist "aspose-words-cloud-gists" "e26813ced70692c544820cd8011ee7e0" "ClassifyTaxonomyDocument.py" >}}
+{{< gist "aspose-words-cloud-gists" "e26813ced70692c544820cd8011ee7e0" "ClassifyDocument.py" >}}
 {{< /tab >}}
 {{< tab tabNum="2" >}}
-{{< gist "aspose-words-cloud-gists" "caede439bfd2e57c3010befe504faff4" "ClassifyTaxonomyDocument.java" >}}
+{{< gist "aspose-words-cloud-gists" "caede439bfd2e57c3010befe504faff4" "ClassifyDocument.java" >}}
 {{< /tab >}}
 {{< tab tabNum="3" >}}
-{{< gist "aspose-words-cloud-gists" "a9510e4b51613f1138e7c1ec09634c4a" "ClassifyTaxonomyDocument.js" >}}
+{{< gist "aspose-words-cloud-gists" "a9510e4b51613f1138e7c1ec09634c4a" "ClassifyDocument.js" >}}
 {{< /tab >}}
 {{< tab tabNum="4" >}}
-{{< gist "aspose-words-cloud-gists" "374e1e3dd4bca8f696f29d913645f549" "ClassifyTaxonomyDocument.cs" >}}
+{{< gist "aspose-words-cloud-gists" "374e1e3dd4bca8f696f29d913645f549" "ClassifyDocument.cs" >}}
 {{< /tab >}}
 {{< tab tabNum="5" >}}
-{{< gist "aspose-words-cloud-gists" "e2a72445b96362dc0117f06ab54bb94a" "ClassifyTaxonomyDocument.php" >}}
+{{< gist "aspose-words-cloud-gists" "e2a72445b96362dc0117f06ab54bb94a" "ClassifyDocument.php" >}}
 {{< /tab >}}
 {{< tab tabNum="6" >}}
-{{< gist "aspose-words-cloud-gists" "625ca80adffd779e8f6e3611551e14d5" "ClassifyWithTaxonomyDocuments.Go" >}}
+{{< gist "aspose-words-cloud-gists" "625ca80adffd779e8f6e3611551e14d5" "ClassifyDocument.Go" >}}
 {{< /tab >}}
 {{< tab tabNum="7" >}}
-{{< gist "aspose-words-cloud-gists" "339f3835a4c0a536c81ec941de29baf7" "ClassifyTaxonomyDocument.rb" >}}
+{{< gist "aspose-words-cloud-gists" "339f3835a4c0a536c81ec941de29baf7" "ClassifyDocument.rb" >}}
 {{< /tab >}}
 {{< tab tabNum="8" >}}
-{{< gist "aspose-words-cloud-gists" "fde11f9e52383a88af20b937c5e9b3d9" "Aspose_Cloud_Words_ClassifyTaxonomyDocument.java" >}}
+{{< gist "aspose-words-cloud-gists" "fde11f9e52383a88af20b937c5e9b3d9" "ClassifyDocument.java" >}}
 {{< /tab >}}
 {{< tab tabNum="9" >}}
-{{< gist "aspose-words-cloud-gists" "790dbd2edd5d36f170732366f52cac4c" "Aspose_Words_Swift_ClassifyTaxonomyDocument.swift" >}}
+{{< gist "aspose-words-cloud-gists" "790dbd2edd5d36f170732366f52cac4c" "ClassifyDocument.swift" >}}
 {{< /tab >}}
 {{< /tabs >}}
 {{< /nosnippet >}}

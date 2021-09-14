@@ -90,28 +90,28 @@ The following code examples demonstrate how to make calls to Aspose.Words web se
 {{< nosnippet >}}
 {{< tabs tabTotal="8" tabID="4" tabName1="Python" tabName2="Java" tabName3="Node.js" tabName4="C#" tabName5="PHP" tabName6="Ruby" tabName7="Android" tabName8="Swift" >}}
 {{< tab tabNum="1" >}}
-{{< gist "aspose-words-cloud-gists" "e26813ced70692c544820cd8011ee7e0" "PutHeaderFooter.py" >}}
+{{< gist "aspose-words-cloud-gists" "e26813ced70692c544820cd8011ee7e0" "InsertHeaderFooter.py" >}}
 {{< /tab >}}
 {{< tab tabNum="2" >}}
-{{< gist "aspose-words-cloud-gists" "caede439bfd2e57c3010befe504faff4" "PutHeaderFooter.java" >}}
+{{< gist "aspose-words-cloud-gists" "caede439bfd2e57c3010befe504faff4" "InsertHeaderFooter.java" >}}
 {{< /tab >}}
 {{< tab tabNum="3" >}}
-{{< gist "aspose-words-cloud-gists" "a9510e4b51613f1138e7c1ec09634c4a" "PutHeaderFooter.js" >}}
+{{< gist "aspose-words-cloud-gists" "a9510e4b51613f1138e7c1ec09634c4a" "InsertHeaderFooter.js" >}}
 {{< /tab >}}
 {{< tab tabNum="4" >}}
-{{< gist "aspose-words-cloud-gists" "374e1e3dd4bca8f696f29d913645f549" "PutHeaderFooter.cs" >}}
+{{< gist "aspose-words-cloud-gists" "374e1e3dd4bca8f696f29d913645f549" "InsertHeaderFooter.cs" >}}
 {{< /tab >}}
 {{< tab tabNum="5" >}}
-{{< gist "aspose-words-cloud-gists" "e2a72445b96362dc0117f06ab54bb94a" "PutHeaderFooter.php" >}}
+{{< gist "aspose-words-cloud-gists" "e2a72445b96362dc0117f06ab54bb94a" "InsertHeaderFooter.php" >}}
 {{< /tab >}}
 {{< tab tabNum="6" >}}
-{{< gist "aspose-words-cloud-gists" "339f3835a4c0a536c81ec941de29baf7" "PutHeaderFooter.rb" >}}
+{{< gist "aspose-words-cloud-gists" "339f3835a4c0a536c81ec941de29baf7" "InsertHeaderFooter.rb" >}}
 {{< /tab >}}
 {{< tab tabNum="7" >}}
-{{< gist "aspose-words-cloud-gists" "fde11f9e52383a88af20b937c5e9b3d9" "Aspose_Cloud_Words_PutHeaderFooter.java" >}}
+{{< gist "aspose-words-cloud-gists" "fde11f9e52383a88af20b937c5e9b3d9" "InsertHeaderFooter.java" >}}
 {{< /tab >}}
 {{< tab tabNum="8" >}}
-{{< gist "aspose-words-cloud-gists" "790dbd2edd5d36f170732366f52cac4c" "Aspose_Words_Swift_GetHeaderFooter.swift" >}}
+{{< gist "aspose-words-cloud-gists" "790dbd2edd5d36f170732366f52cac4c" "GetHeaderFooter.swift" >}}
 {{< /tab >}}
 {{< /tabs >}}
 {{< /nosnippet >}}

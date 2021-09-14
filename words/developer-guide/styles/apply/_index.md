@@ -57,7 +57,7 @@ The following code examples demonstrate how to make calls to Aspose.Words web se
 {{< gist "aspose-words-cloud-gists" "e2a72445b96362dc0117f06ab54bb94a" "ApplyStyleToDocumentElement.php" >}}
 {{< /tab >}}
 {{< tab tabNum="3" >}}
-{{< gist "aspose-words-cloud-gists" "625ca80adffd779e8f6e3611551e14d5" "style-to-element.go" >}}
+{{< gist "aspose-words-cloud-gists" "625ca80adffd779e8f6e3611551e14d5" "ApplyStyleToDocumentElement.go" >}}
 {{< /tab >}}
 {{< /tabs >}}
 {{< /nosnippet >}}

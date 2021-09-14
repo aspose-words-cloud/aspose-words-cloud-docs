@@ -117,28 +117,28 @@ The following code examples demonstrate how to make calls to Aspose.Words web se
 {{< nosnippet >}}
 {{< tabs tabTotal="8" tabID="5" tabName1="Java" tabName2="Node.js" tabName3="C#" tabName4="PHP" tabName5="Golang" tabName6="Ruby" tabName7="Android" tabName8="Swift" >}}
 {{< tab tabNum="1" >}}
-{{< gist "aspose-words-cloud-gists" "caede439bfd2e57c3010befe504faff4" "PostFootnote.java" >}}
+{{< gist "aspose-words-cloud-gists" "caede439bfd2e57c3010befe504faff4" "UpdateFootnote.java" >}}
 {{< /tab >}}
 {{< tab tabNum="2" >}}
-{{< gist "aspose-words-cloud-gists" "a9510e4b51613f1138e7c1ec09634c4a" "PostFootnote.js" >}}
+{{< gist "aspose-words-cloud-gists" "a9510e4b51613f1138e7c1ec09634c4a" "UpdateFootnote.js" >}}
 {{< /tab >}}
 {{< tab tabNum="3" >}}
 {{< gist "aspose-words-cloud-gists" "374e1e3dd4bca8f696f29d913645f549" "UpdateFootnote.cs" >}}
 {{< /tab >}}
 {{< tab tabNum="4" >}}
-{{< gist "aspose-words-cloud-gists" "e2a72445b96362dc0117f06ab54bb94a" "PostFootnote.php" >}}
+{{< gist "aspose-words-cloud-gists" "e2a72445b96362dc0117f06ab54bb94a" "UpdateFootnote.php" >}}
 {{< /tab >}}
 {{< tab tabNum="5" >}}
-{{< gist "aspose-words-cloud-gists" "625ca80adffd779e8f6e3611551e14d5" "PostFootnote.go" >}}
+{{< gist "aspose-words-cloud-gists" "625ca80adffd779e8f6e3611551e14d5" "UpdateFootnote.go" >}}
 {{< /tab >}}
 {{< tab tabNum="6" >}}
-{{< gist "aspose-words-cloud-gists" "339f3835a4c0a536c81ec941de29baf7" "PostFootnote.rb" >}}
+{{< gist "aspose-words-cloud-gists" "339f3835a4c0a536c81ec941de29baf7" "UpdateFootnote.rb" >}}
 {{< /tab >}}
 {{< tab tabNum="7" >}}
-{{< gist "aspose-words-cloud-gists" "fde11f9e52383a88af20b937c5e9b3d9" "Aspose_Cloud_Words_PostFootnote.java" >}}
+{{< gist "aspose-words-cloud-gists" "fde11f9e52383a88af20b937c5e9b3d9" "UpdateFootnote.java" >}}
 {{< /tab >}}
 {{< tab tabNum="8" >}}
-{{< gist "aspose-words-cloud-gists" "790dbd2edd5d36f170732366f52cac4c" "Aspose_Words_Swift_PostFootnote.swift" >}}
+{{< gist "aspose-words-cloud-gists" "790dbd2edd5d36f170732366f52cac4c" "UpdateFootnote.swift" >}}
 {{< /tab >}}
 {{< /tabs >}}
 {{< /nosnippet >}}

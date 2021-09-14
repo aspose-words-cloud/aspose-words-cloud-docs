@@ -1,14 +1,27 @@
 ---
-title: "Update Font Properties"
+title: "Update Font Properties of the Text"
 second_title: "Paragraphs in a Document"
 type: docs
 url: /paragraphs/update-font-properties/
 aliases: [/update-font-properties/]
-description: "Update paragraph font properties in a Word document"
-weight: 110
+description: "Update text paragraph font properties in a Word document"
+weight: 120
 ---
 
-This REST API updates paragraph font properties.
+This article explains how to format the text. Using [PUT /words/{name}/{paragraphPath}/runs/{index}/font](https://apireference.aspose.cloud/words/#/Runs/UpdateRunFont) API you can update font properties of the text.
+
+## REST API
+
+```JAVA
+~/{file-name}/{paragraphPath}/runs/{index}/font
+```
+, where:
+
+- *{file-name}* is a name of a document.
+- *{paragraphPath}* is a path to a paragraph in a document:
+  - *paragraphs/{paragraphIndex}* - references a paragraph.
+  - *sections/{sectionIndex}/paragraphs/{paragraphIndex}* - references a paragraph within a section.
+- *{index}* is an index of a run.
 
 The important properties are described below:
 
@@ -18,8 +31,8 @@ The important properties are described below:
 |Bidi|bool|Specifies whether the contents of this run shall have right-to-left characteristics.|
 |Bold|bool|True if the font is formatted as bold.|
 |BoldBi|bool|True if the right-to-left text is formatted as bold.|
-|Border|Border|Border object that specifies the border for the font.|
-|Color|Color|Specifies the color of the font.|
+|Border|Border|Border object that specifies border for the font.|
+|Color|Color|Specifies the color of the font.|
 |ComplexScript|bool|Specifies whether the contents of this run shall be treated as complex script text regardless of their Unicode character values when determining the formatting for this run.|
 |DoubleStrikeThrough|bool|True if the font is formatted as double strikethrough text.|
 |Emboss|bool|True if the font is formatted as embossed.|
@@ -29,9 +42,9 @@ The important properties are described below:
 |Italic|bool|True if the font is formatted as italic.|
 |ItalicBi|bool|True if the right-to-left text is formatted as italic.|
 |Kerning|double|Specifies the font size at which kerning starts.|
-|LocaleId|int|Specifies the locale identifier (language) of the formatted characters. For the list of locale, identifiers see <http://www.microsoft.com/globaldev/reference/lcid-all.mspx>|
-|LocaleIdBi|int|Specifies the locale identifier (language) of the formatted right-to-left characters. For the list of locale, identifiers see <http://www.microsoft.com/globaldev/reference/lcid-all.mspx>|
-|LocaleIdFarEast|int|Specifies the locale identifier (language) of the formatted Asian characters. For the list of locale, identifiers see <http://www.microsoft.com/globaldev/reference/lcid-all.mspx>|
+|LocaleId|int|Specifies the locale identifier (language) of the formatted characters. For the list of locale identifiers see <http://www.microsoft.com/globaldev/reference/lcid-all.mspx>|
+|LocaleIdBi|int|Specifies the locale identifier (language) of the formatted right-to-left characters. For the list of locale identifiers see <http://www.microsoft.com/globaldev/reference/lcid-all.mspx>|
+|LocaleIdFarEast|int|Specifies the locale identifier (language) of the formatted Asian characters. For the list of locale identifiers see <http://www.microsoft.com/globaldev/reference/lcid-all.mspx>|
 |Name|string|Specifies the name of the font.|
 |NameAscii|bool|Specifies the font used for Latin text (characters with character codes from 0 (zero) through 127).|
 |NameBi|bool|Specifies the name of the font in a right-to-left language document.|
@@ -55,32 +68,17 @@ The important properties are described below:
 |Underline|Underline|Specifies the type of underline applied to the font.|
 |UnderlineColor|Color|Specifies the color of the underline applied to the font.|
 
-## REST API
-
-```JAVA
-~/{file-name}/{paragraphPath}/runs/{index}/font
-```
-, where:
-
-- *{file-name}* is a filename of a document.
-- *{paragraphPath}* is a path to a specific paragraph in a document:
-  - *paragraphs/{paragraphIndex}* - references a paragraph.
-  - *sections/{sectionIndex}/paragraphs/{paragraphIndex}* - references a paragraph within a section.
-- *{index}* is an index of a run.
-
-The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Runs/UpdateRunFont) defines a publicly accessible programming interface and lets you carry out REST interactions directly from a web browser.
-
-You can use **cURL** command-line tool to access Aspose.Words web services easily. The following example shows how to make calls to Cloud API with cURL.
+You can use **cURL** command-line tool to access Aspose.Words web services easily. The following example shows how to make calls to Cloud API with cURL. Feel free to download and explore sample input [SampleWordDocument.docx](SampleWordDocument.docx) and output [ResultWordDocument.docx](ResultWordDocument.docx) files designed to act as a demonstration and let you figure out the details quickly.
 
 {{< nosnippet >}}
-{{< tabs tabTotal="2" tabID="2" tabName1="Request" tabName2="Response" >}}
+{{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 {{< tab tabNum="1" >}}
 
 ```bash
-# cURL example to update font properties
-curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs/0/runs/0/font" \
+# cURL example to update Font Properties
+curl -v "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/2/runs/0/font?destFileName=ResultWordDocument.docx" \
 -X PUT \
--d "{ 'AllCaps': 'false', 'Bidi': 'false', 'Bold': 'false', 'BoldBi': 'false', 'Border': { 'LineStyle': 'None', 'LineWidth': '0', 'DistanceFromText': '0', 'Shadow': 'false' }, 'ComplexScript': 'false', 'DoubleStrikeThrough': 'false', 'Emboss': 'false', 'Engrave': 'false', 'Hidden': 'false', 'Italic': 'true', 'ItalicBi': 'false', 'Kerning': '0', 'LocaleId': '1033', 'LocaleIdBi': '1025', 'LocaleIdFarEast': '1033', 'Name': 'Calibri', 'NameAscii': 'Calibri', 'NameBi': 'Times New Roman', 'NameFarEast': 'Calibri', 'NameOther': 'Calibri', 'NoProofing': 'false', 'Outline': 'false, 'Position': '0', 'Scaling': '100', 'Shadow': 'false', 'Size': '11', 'SizeBi': '11', 'SmallCaps': 'false', 'Spacing': '0', 'StrikeThrough': 'false', 'StyleIdentifier': 'DefaultParagraphFont', 'StyleName': 'Default Paragraph Font', 'Subscript': 'false', 'Superscript': 'false', 'TextEffect': 'None', 'Underline': 'Dash' }" \
+-d "{'Bold':true, 'Size': 31.0, 'Name': 'Calibri'}" \
 -H "Content-Type: application/json" \
 -H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>"
@@ -92,75 +90,75 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs/0/
 
 ```json
 {
-  "Font": {
-    "AllCaps": false,
-    "Bidi": false,
-    "Bold": false,
-    "BoldBi": false,
-    "Border": {
-      "Color": {
-        "Web": "",
-        "Alpha": 0
+   "Font":{
+      "AllCaps":false,
+      "Bidi":false,
+      "Bold":true,
+      "BoldBi":false,
+      "Border":{
+         "Color":{
+            "Web":"",
+            "Alpha":0
+         },
+         "DistanceFromText":0.0,
+         "LineStyle":"None",
+         "LineWidth":0.0,
+         "Shadow":false,
+         "link":null
       },
-      "DistanceFromText": 0.0,
-      "LineStyle": "None",
-      "LineWidth": 0.0,
-      "Shadow": false,
-      "link": null
-    },
-    "Color": {
-      "Web": "",
-      "Alpha": 0
-    },
-    "ComplexScript": false,
-    "DoubleStrikeThrough": false,
-    "Emboss": false,
-    "Engrave": false,
-    "Hidden": false,
-    "HighlightColor": {
-      "Web": "",
-      "Alpha": 0
-    },
-    "Italic": true,
-    "ItalicBi": false,
-    "Kerning": 0.0,
-    "LocaleId": 1033,
-    "LocaleIdBi": 1025,
-    "LocaleIdFarEast": 1033,
-    "Name": "Calibri",
-    "NameAscii": "Calibri",
-    "NameBi": "Times New Roman",
-    "NameFarEast": "Calibri",
-    "NameOther": "Calibri",
-    "NoProofing": false,
-    "Outline": false,
-    "Position": 0.0,
-    "Scaling": 100,
-    "Shadow": false,
-    "Size": 11.0,
-    "SizeBi": 11.0,
-    "SmallCaps": false,
-    "Spacing": 0.0,
-    "StrikeThrough": false,
-    "StyleIdentifier": "DefaultParagraphFont",
-    "StyleName": "Default Paragraph Font",
-    "Subscript": false,
-    "Superscript": false,
-    "TextEffect": "None",
-    "Underline": "Dash",
-    "UnderlineColor": {
-      "Web": "",
-      "Alpha": 0
-    },
-    "link": {
-      "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/headersfooters/0/paragraphs/0/runs/1/font",
-      "Rel": "self",
-      "Type": null,
-      "Title": null
-    }
-  },
-  "Code": 200,
-  "Status": "OK"
+      "Color":{
+         "Web":"",
+         "Alpha":0
+      },
+      "ComplexScript":false,
+      "DoubleStrikeThrough":false,
+      "Emboss":false,
+      "Engrave":false,
+      "Hidden":false,
+      "HighlightColor":{
+         "Web":"",
+         "Alpha":0
+      },
+      "Italic":false,
+      "ItalicBi":false,
+      "Kerning":0.0,
+      "LocaleId":1033,
+      "LocaleIdBi":1025,
+      "LocaleIdFarEast":1033,
+      "Name":"Calibri",
+      "NameAscii":"Calibri",
+      "NameBi":"Calibri",
+      "NameFarEast":"Calibri",
+      "NameOther":"Calibri",
+      "NoProofing":false,
+      "Outline":false,
+      "Position":0.0,
+      "Scaling":100,
+      "Shadow":false,
+      "Size":31.0,
+      "SizeBi":14.0,
+      "SmallCaps":false,
+      "Spacing":0.0,
+      "StrikeThrough":false,
+      "StyleIdentifier":"DefaultParagraphFont",
+      "StyleName":"Default Paragraph Font",
+      "Subscript":false,
+      "Superscript":false,
+      "TextEffect":"None",
+      "Underline":"None",
+      "UnderlineColor":{
+         "Web":"",
+         "Alpha":0
+      },
+      "link":{
+         "Href":"http://api.aspose.cloud/v4.0/words/ResultWordDocument.docx/sections/0/paragraphs/2/runs/0/font",
+         "Rel":"self",
+         "Type":null,
+         "Title":null
+      }
+   },
+   "Code":200,
+   "Status":"OK"
 }
 ```
 
@@ -170,26 +168,28 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs/0/
 
 ## Cloud SDK Family
 
-Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Please check out the [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs.
+Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks.
+
+Please check out the [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words SDKs.
 
 The following code examples demonstrate how to make calls to Aspose.Words web services using various SDKs:
 
 {{< nosnippet >}}
-{{< tabs tabTotal="5" tabID="5" tabName1="Java" tabName2="C#" tabName3="Golang" tabName4="Android" tabName5="Swift" >}}
+{{< tabs tabTotal="5" tabID="4" tabName1="Java" tabName2="C#" tabName3="Golang" tabName4="Android" tabName5="Swift" >}}
 {{< tab tabNum="1" >}}
-{{< gist "aspose-words-cloud-gists" "caede439bfd2e57c3010befe504faff4" "PostDocumentParagraphRunFont.java" >}}
+{{< gist "aspose-words-cloud-gists" "caede439bfd2e57c3010befe504faff4" "UpdateRunFont.java" >}}
 {{< /tab >}}
 {{< tab tabNum="2" >}}
-{{< gist "aspose-words-cloud-gists" "374e1e3dd4bca8f696f29d913645f549" "UpdateDocumentParagraphRunFont.cs" >}}
+{{< gist "aspose-words-cloud-gists" "374e1e3dd4bca8f696f29d913645f549" "UpdateRunFont.cs" >}}
 {{< /tab >}}
 {{< tab tabNum="3" >}}
-{{< gist "aspose-words-cloud-gists" "625ca80adffd779e8f6e3611551e14d5" "PostDocumentParagraphRunFont.go" >}}
+{{< gist "aspose-words-cloud-gists" "625ca80adffd779e8f6e3611551e14d5" "UpdateRunFont.go" >}}
 {{< /tab >}}
 {{< tab tabNum="4" >}}
-{{< gist "aspose-words-cloud-gists" "fde11f9e52383a88af20b937c5e9b3d9" "Aspose_Cloud_Words_PostDocumentParagraphRunFont.java" >}}
+{{< gist "aspose-words-cloud-gists" "fde11f9e52383a88af20b937c5e9b3d9" "UpdateRunFont.java" >}}
 {{< /tab >}}
 {{< tab tabNum="5" >}}
-{{< gist "aspose-words-cloud-gists" "790dbd2edd5d36f170732366f52cac4c" "Aspose_Words_Swift_PostDocumentParagraphRunFont.swift" >}}
+{{< gist "aspose-words-cloud-gists" "790dbd2edd5d36f170732366f52cac4c" "UpdateRunFont.swift" >}}
 {{< /tab >}}
 {{< /tabs >}}
 {{< /nosnippet >}}
