@@ -75,21 +75,37 @@ The following code examples demonstrate how to make calls to Aspose.Words web se
 **Case 1**: Delete Fields from a Document
 
 {{< nosnippet >}}
-{{< tabs tabTotal="5" tabID="5" tabName1="Java" tabName2="C#" tabName3="Golang" tabName4="Android" tabName5="Swift" >}}
+{{< tabs tabTotal="10" tabID="5" tabName1="Python" tabName2="Java" tabName3="Node.js" tabName4="C#" tabName5="PHP" tabName6="C++" tabName7="Go" tabName8="Ruby" tabName9="Swift" tabName10="Dart" >}}
 {{< tab tabNum="1" >}}
-{{< gist "aspose-words-cloud-gists" "caede439bfd2e57c3010befe504faff4" "DeleteFields.java" >}}
+{{< gist "aspose-words-cloud-gists" "e26813ced70692c544820cd8011ee7e0" "DeleteFieldOnline.py" >}}
 {{< /tab >}}
 {{< tab tabNum="2" >}}
-{{< gist "aspose-words-cloud-gists" "374e1e3dd4bca8f696f29d913645f549" "DeleteFields.cs" >}}
+{{< gist "aspose-words-cloud-gists" "caede439bfd2e57c3010befe504faff4" "DeleteFieldOnline.java" >}}
 {{< /tab >}}
 {{< tab tabNum="3" >}}
-{{< gist "aspose-words-cloud-gists" "625ca80adffd779e8f6e3611551e14d5" "DeleteFields.go" >}}
+{{< gist "aspose-words-cloud-gists" "a9510e4b51613f1138e7c1ec09634c4a" "DeleteFieldOnline.js" >}}
 {{< /tab >}}
 {{< tab tabNum="4" >}}
-{{< gist "aspose-words-cloud-gists" "fde11f9e52383a88af20b937c5e9b3d9" "DeleteFields.java" >}}
+{{< gist "aspose-words-cloud-gists" "374e1e3dd4bca8f696f29d913645f549" "DeleteFieldOnline.cs" >}}
 {{< /tab >}}
 {{< tab tabNum="5" >}}
-{{< gist "aspose-words-cloud-gists" "790dbd2edd5d36f170732366f52cac4c" "DeleteFields.swift" >}}
+{{< gist "aspose-words-cloud-gists" "e2a72445b96362dc0117f06ab54bb94a" "DeleteFieldOnline.php" >}}
+{{< /tab >}}
+{{< tab tabNum="6" >}}
+{{< gist "aspose-words-cloud-gists" "49aa5151a094849179bae8672c887a0e" "DeleteFieldOnline.cpp" >}}
+{{< /tab >}}
+{{< tab tabNum="7" >}}
+{{< gist "aspose-words-cloud-gists" "625ca80adffd779e8f6e3611551e14d5" "config.json" >}}
+{{< gist "aspose-words-cloud-gists" "625ca80adffd779e8f6e3611551e14d5" "DeleteFieldOnline.go" >}}
+{{< /tab >}}
+{{< tab tabNum="8" >}}
+{{< gist "aspose-words-cloud-gists" "339f3835a4c0a536c81ec941de29baf7" "DeleteFieldOnline.rb" >}}
+{{< /tab >}}
+{{< tab tabNum="9" >}}
+{{< gist "aspose-words-cloud-gists" "790dbd2edd5d36f170732366f52cac4c" "DeleteFieldOnline.swift" >}}
+{{< /tab >}}
+{{< tab tabNum="10" >}}
+{{< gist "aspose-words-cloud-gists" "6aae628cf2b878b78fea177c3171c6bf" "DeleteFieldOnline.dart" >}}
 {{< /tab >}}
 {{< /tabs >}}
 {{< /nosnippet >}}
@@ -97,7 +113,7 @@ The following code examples demonstrate how to make calls to Aspose.Words web se
 **Case 2**: Delete Fields from a Section
 
 {{< nosnippet >}}
-{{< tabs tabTotal="2" tabID="6" tabName1="C#" tabName2="Golang" >}}
+{{< tabs tabTotal="1" tabID="6" tabName1="C#" >}}
 {{< tab tabNum="1" >}}
 {{< gist "aspose-words-cloud-gists" "374e1e3dd4bca8f696f29d913645f549" "DeleteFields_1.cs" >}}
 {{< /tab >}}
