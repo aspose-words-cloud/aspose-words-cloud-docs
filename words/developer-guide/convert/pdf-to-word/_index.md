@@ -4,7 +4,7 @@ second_title: "Convert"
 type: docs
 url: /convert/pdf-to-word/
 aliases: [/convert-pdf-document-to-word/]
-keywords: "convert PDF to Word, PDF to Word conversion, PDF to DOC, PDF to DOCX in Python, C#, Java, C++, Ruby, PHP, NodeJS, Go, Android, Swift, Dart"
+keywords: "convert PDF to Word, PDF to Word conversion, PDF to DOC, PDF to DOCX in Python, C#, Java, C++, Ruby, PHP, NodeJS, Go, Swift, Dart"
 description: "Cloud API to programmatically convert PDF to Word documents. Robust conversion engine to save PDF in DOC, DOCX and other formats with Python, C#, Java, C++, Ruby, PHP, NodeJS, Go, Android, Swift, Dart"
 weight: 20
 ---

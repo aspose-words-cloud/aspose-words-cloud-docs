@@ -5,7 +5,7 @@ type: docs
 url: /convert/word-to-pdf/
 aliases: [/convert-word-document-to-pdf/]
 keywords: "convert Word to PDF, Word to PDF conversion, DOCX to PDF, DOC to PDF, ODT to PDF in Python, C#, Java, C++, Ruby, PHP, NodeJS, Go, Android, Swift, Dart"
-description: "Cloud API to programmatically convert Word to PDF documents. Robust conversion engine allows save DOC, DOCX in PDF with Python, C#, Java, C++, Ruby, PHP, NodeJS, Go, Android, Swift, Dart"
+description: "Cloud API to programmatically convert Word to PDF documents. Robust conversion engine allows save DOC, DOCX in PDF with Python, C#, Java, C++, Ruby, PHP, NodeJS, Go, Swift, Dart"
 weight: 20
 ---
 
