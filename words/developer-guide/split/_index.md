@@ -84,33 +84,37 @@ The following code examples demonstrate how to make calls to Aspose.Words web se
 The following code examples demonstrate how to split all pages in a Word document.
 
 {{< nosnippet >}}
-{{< tabs tabTotal="9" tabID="4" tabName1="Python" tabName2="Java" tabName3="Node.js" tabName4="C#" tabName5="PHP" tabName6="Golang" tabName7="Ruby" tabName8="Android" tabName9="Swift" >}}
+{{< tabs tabTotal="10" tabID="4" tabName1="Python" tabName2="Java" tabName3="Node.js" tabName4="C#" tabName5="PHP" tabName6="C++" tabName7="Go" tabName8="Ruby" tabName9="Swift" tabName10="Dart" >}}
 {{< tab tabNum="1" >}}
-{{< gist "aspose-words-cloud-gists" "e26813ced70692c544820cd8011ee7e0" "SplitDocument.py" >}}
+{{< gist "aspose-words-cloud-gists" "e26813ced70692c544820cd8011ee7e0" "SplitDocumentOnline.py" >}}
 {{< /tab >}}
 {{< tab tabNum="2" >}}
-{{< gist "aspose-words-cloud-gists" "caede439bfd2e57c3010befe504faff4" "SplitDocument.java" >}}
+{{< gist "aspose-words-cloud-gists" "caede439bfd2e57c3010befe504faff4" "SplitDocumentOnline.java" >}}
 {{< /tab >}}
 {{< tab tabNum="3" >}}
-{{< gist "aspose-words-cloud-gists" "a9510e4b51613f1138e7c1ec09634c4a" "SplitDocument.js" >}}
+{{< gist "aspose-words-cloud-gists" "a9510e4b51613f1138e7c1ec09634c4a" "SplitDocumentOnline.js" >}}
 {{< /tab >}}
 {{< tab tabNum="4" >}}
-{{< gist "aspose-words-cloud-gists" "374e1e3dd4bca8f696f29d913645f549" "SplitDocument.cs" >}}
+{{< gist "aspose-words-cloud-gists" "374e1e3dd4bca8f696f29d913645f549" "SplitDocumentOnline.cs" >}}
 {{< /tab >}}
 {{< tab tabNum="5" >}}
-{{< gist "aspose-words-cloud-gists" "e2a72445b96362dc0117f06ab54bb94a" "SplitDocument.php" >}}
+{{< gist "aspose-words-cloud-gists" "e2a72445b96362dc0117f06ab54bb94a" "SplitDocumentOnline.php" >}}
 {{< /tab >}}
 {{< tab tabNum="6" >}}
-{{< gist "aspose-words-cloud-gists" "625ca80adffd779e8f6e3611551e14d5" "SplitDocument.go" >}}
+{{< gist "aspose-words-cloud-gists" "49aa5151a094849179bae8672c887a0e" "SplitDocumentOnline.cpp" >}}
 {{< /tab >}}
 {{< tab tabNum="7" >}}
-{{< gist "aspose-words-cloud-gists" "339f3835a4c0a536c81ec941de29baf7" "SplitDocument.rb" >}}
+{{< gist "aspose-words-cloud-gists" "625ca80adffd779e8f6e3611551e14d5" "config.json" >}}
+{{< gist "aspose-words-cloud-gists" "625ca80adffd779e8f6e3611551e14d5" "SplitDocumentOnline.go" >}}
 {{< /tab >}}
 {{< tab tabNum="8" >}}
-{{< gist "aspose-words-cloud-gists" "fde11f9e52383a88af20b937c5e9b3d9" "SplitDocument.java" >}}
+{{< gist "aspose-words-cloud-gists" "339f3835a4c0a536c81ec941de29baf7" "SplitDocumentOnline.rb" >}}
 {{< /tab >}}
 {{< tab tabNum="9" >}}
-{{< gist "aspose-words-cloud-gists" "790dbd2edd5d36f170732366f52cac4c" "SplitDocument.swift" >}}
+{{< gist "aspose-words-cloud-gists" "790dbd2edd5d36f170732366f52cac4c" "SplitDocumentOnline.swift" >}}
+{{< /tab >}}
+{{< tab tabNum="10" >}}
+{{< gist "aspose-words-cloud-gists" "6aae628cf2b878b78fea177c3171c6bf" "SplitDocumentOnline.dart" >}}
 {{< /tab >}}
 {{< /tabs >}}
 {{< /nosnippet >}}
@@ -120,33 +124,37 @@ The following code examples demonstrate how to split all pages in a Word documen
 The following code examples demonstrate how to split specific pages of a Word document.
 
 {{< nosnippet >}}
-{{< tabs tabTotal="9" tabID="5" tabName1="Python" tabName2="Java" tabName3="Node.js" tabName4="C#" tabName5="PHP" tabName6="Golang" tabName7="Ruby" tabName8="Android" tabName9="Swift" >}}
+{{< tabs tabTotal="10" tabID="4" tabName1="Python" tabName2="Java" tabName3="Node.js" tabName4="C#" tabName5="PHP" tabName6="C++" tabName7="Go" tabName8="Ruby" tabName9="Swift" tabName10="Dart" >}}
 {{< tab tabNum="1" >}}
-{{< gist "aspose-words-cloud-gists" "e26813ced70692c544820cd8011ee7e0" "SplitDocument_2.py" >}}
+{{< gist "aspose-words-cloud-gists" "e26813ced70692c544820cd8011ee7e0" "SplitDocumentOnline_2.py" >}}
 {{< /tab >}}
 {{< tab tabNum="2" >}}
-{{< gist "aspose-words-cloud-gists" "caede439bfd2e57c3010befe504faff4" "SplitDocument_2.java" >}}
+{{< gist "aspose-words-cloud-gists" "caede439bfd2e57c3010befe504faff4" "SplitDocumentOnline_2.java" >}}
 {{< /tab >}}
 {{< tab tabNum="3" >}}
-{{< gist "aspose-words-cloud-gists" "a9510e4b51613f1138e7c1ec09634c4a" "SplitDocument_2.js" >}}
+{{< gist "aspose-words-cloud-gists" "a9510e4b51613f1138e7c1ec09634c4a" "SplitDocumentOnline_2.js" >}}
 {{< /tab >}}
 {{< tab tabNum="4" >}}
-{{< gist "aspose-words-cloud-gists" "374e1e3dd4bca8f696f29d913645f549" "SplitDocument_2.cs" >}}
+{{< gist "aspose-words-cloud-gists" "374e1e3dd4bca8f696f29d913645f549" "SplitDocumentOnline_2.cs" >}}
 {{< /tab >}}
 {{< tab tabNum="5" >}}
-{{< gist "aspose-words-cloud-gists" "e2a72445b96362dc0117f06ab54bb94a" "SplitDocument_2.php" >}}
+{{< gist "aspose-words-cloud-gists" "e2a72445b96362dc0117f06ab54bb94a" "SplitDocumentOnline_2.php" >}}
 {{< /tab >}}
 {{< tab tabNum="6" >}}
-{{< gist "aspose-words-cloud-gists" "625ca80adffd779e8f6e3611551e14d5" "SplitDocument_2.go" >}}
+{{< gist "aspose-words-cloud-gists" "49aa5151a094849179bae8672c887a0e" "SplitDocumentOnline_2.cpp" >}}
 {{< /tab >}}
 {{< tab tabNum="7" >}}
-{{< gist "aspose-words-cloud-gists" "339f3835a4c0a536c81ec941de29baf7" "SplitDocument_2.rb" >}}
+{{< gist "aspose-words-cloud-gists" "625ca80adffd779e8f6e3611551e14d5" "config.json" >}}
+{{< gist "aspose-words-cloud-gists" "625ca80adffd779e8f6e3611551e14d5" "SplitDocumentOnline_2.go" >}}
 {{< /tab >}}
 {{< tab tabNum="8" >}}
-{{< gist "aspose-words-cloud-gists" "fde11f9e52383a88af20b937c5e9b3d9" "SplitDocument_2.java" >}}
+{{< gist "aspose-words-cloud-gists" "339f3835a4c0a536c81ec941de29baf7" "SplitDocumentOnline_2.rb" >}}
 {{< /tab >}}
 {{< tab tabNum="9" >}}
-{{< gist "aspose-words-cloud-gists" "790dbd2edd5d36f170732366f52cac4c" "SplitDocument_2.swift" >}}
+{{< gist "aspose-words-cloud-gists" "790dbd2edd5d36f170732366f52cac4c" "SplitDocumentOnline_2.swift" >}}
+{{< /tab >}}
+{{< tab tabNum="10" >}}
+{{< gist "aspose-words-cloud-gists" "6aae628cf2b878b78fea177c3171c6bf" "SplitDocumentOnline_2.dart" >}}
 {{< /tab >}}
 {{< /tabs >}}
 {{< /nosnippet >}}
@@ -156,33 +164,37 @@ The following code examples demonstrate how to split specific pages of a Word do
 The following code examples demonstrate how to split a Word document to any format.
 
 {{< nosnippet >}}
-{{< tabs tabTotal="9" tabID="6" tabName1="Python" tabName2="Java" tabName3="Node.js" tabName4="C#" tabName5="PHP" tabName6="Golang" tabName7="Ruby" tabName8="Android" tabName9="Swift" >}}
+{{< tabs tabTotal="10" tabID="4" tabName1="Python" tabName2="Java" tabName3="Node.js" tabName4="C#" tabName5="PHP" tabName6="C++" tabName7="Go" tabName8="Ruby" tabName9="Swift" tabName10="Dart" >}}
 {{< tab tabNum="1" >}}
-{{< gist "aspose-words-cloud-gists" "e26813ced70692c544820cd8011ee7e0" "SplitDocument_1.py" >}}
+{{< gist "aspose-words-cloud-gists" "e26813ced70692c544820cd8011ee7e0" "SplitDocumentOnline_1.py" >}}
 {{< /tab >}}
 {{< tab tabNum="2" >}}
-{{< gist "aspose-words-cloud-gists" "caede439bfd2e57c3010befe504faff4" "SplitDocument_1.java" >}}
+{{< gist "aspose-words-cloud-gists" "caede439bfd2e57c3010befe504faff4" "SplitDocumentOnline_1.java" >}}
 {{< /tab >}}
 {{< tab tabNum="3" >}}
-{{< gist "aspose-words-cloud-gists" "a9510e4b51613f1138e7c1ec09634c4a" "SplitDocument_1.js" >}}
+{{< gist "aspose-words-cloud-gists" "a9510e4b51613f1138e7c1ec09634c4a" "SplitDocumentOnline_1.js" >}}
 {{< /tab >}}
 {{< tab tabNum="4" >}}
-{{< gist "aspose-words-cloud-gists" "374e1e3dd4bca8f696f29d913645f549" "SplitDocument_1.cs" >}}
+{{< gist "aspose-words-cloud-gists" "374e1e3dd4bca8f696f29d913645f549" "SplitDocumentOnline_1.cs" >}}
 {{< /tab >}}
 {{< tab tabNum="5" >}}
-{{< gist "aspose-words-cloud-gists" "e2a72445b96362dc0117f06ab54bb94a" "SplitDocument_1.php" >}}
+{{< gist "aspose-words-cloud-gists" "e2a72445b96362dc0117f06ab54bb94a" "SplitDocumentOnline_1.php" >}}
 {{< /tab >}}
 {{< tab tabNum="6" >}}
-{{< gist "aspose-words-cloud-gists" "625ca80adffd779e8f6e3611551e14d5" "SplitDocument_1.go" >}}
+{{< gist "aspose-words-cloud-gists" "49aa5151a094849179bae8672c887a0e" "SplitDocumentOnline_1.cpp" >}}
 {{< /tab >}}
 {{< tab tabNum="7" >}}
-{{< gist "aspose-words-cloud-gists" "339f3835a4c0a536c81ec941de29baf7" "SplitDocument_1.rb" >}}
+{{< gist "aspose-words-cloud-gists" "625ca80adffd779e8f6e3611551e14d5" "config.json" >}}
+{{< gist "aspose-words-cloud-gists" "625ca80adffd779e8f6e3611551e14d5" "SplitDocumentOnline_1.go" >}}
 {{< /tab >}}
 {{< tab tabNum="8" >}}
-{{< gist "aspose-words-cloud-gists" "fde11f9e52383a88af20b937c5e9b3d9" "SplitDocument_1.java" >}}
+{{< gist "aspose-words-cloud-gists" "339f3835a4c0a536c81ec941de29baf7" "SplitDocumentOnline_1.rb" >}}
 {{< /tab >}}
 {{< tab tabNum="9" >}}
-{{< gist "aspose-words-cloud-gists" "790dbd2edd5d36f170732366f52cac4c" "SplitDocument_1.swift" >}}
+{{< gist "aspose-words-cloud-gists" "790dbd2edd5d36f170732366f52cac4c" "SplitDocumentOnline_1.swift" >}}
+{{< /tab >}}
+{{< tab tabNum="10" >}}
+{{< gist "aspose-words-cloud-gists" "6aae628cf2b878b78fea177c3171c6bf" "SplitDocumentOnline_1.dart" >}}
 {{< /tab >}}
 {{< /tabs >}}
 {{< /nosnippet >}}
