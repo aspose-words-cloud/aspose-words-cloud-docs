@@ -3,7 +3,7 @@ title: "21.9 Release Notes"
 second_title: "Aspose Words Cloud"
 type: docs
 url: /release-notes/2021/21-9/
-aliases: [/aspose-words-cloud-21-8-release-notes/]
+aliases: [/aspose-words-cloud-21-9-release-notes/]
 description: "Aspose Words Cloud 21.9 Release Notes"
 weight: 30
 ---
