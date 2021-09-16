@@ -39,7 +39,7 @@ Document classification supports classifying documents stored on Aspose Storage 
 
 {{% alert style="info" %}}
 
-The SDKs in C#, Java, PHP, Ruby, Python, Node.js, Android, Swift and Go are available for download. Also the sample code are given below for each of the SDKs:
+The SDKs in C#, Java, PHP, Ruby, Python, Node.js, Swift and Go are available for download. Also the sample code are given below for each of the SDKs:
 
 {{% /alert %}}
 
