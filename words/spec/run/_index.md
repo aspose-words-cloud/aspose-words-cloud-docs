@@ -503,7 +503,7 @@ Each of those arguments initializes the corresponding self-titled property:
 
 ## UpdateRunFontRequest
 
-Represents a request model for [WordsApi.UpdateRunFont()](/words/paragraphs/update-font-properties-of-the-text/) operation.
+Represents a request model for [WordsApi.UpdateRunFont()](/words/paragraphs/update-font-properties/) operation.
 
 An object of the **UpdateRunFontRequest** class is created by the following constructor methods:
 
