@@ -3,7 +3,7 @@ title: "Update Font Properties of the Text"
 second_title: "Paragraphs in a Document"
 type: docs
 url: /paragraphs/update-font-properties/
-aliases: [/update-font-properties/]
+aliases: ["/update-font-properties/", "/update-font-properties-of-the-text/"]
 description: "Update text paragraph font properties in a Word document"
 weight: 120
 ---
