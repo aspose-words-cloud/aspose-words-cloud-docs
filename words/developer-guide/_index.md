@@ -80,7 +80,6 @@ weight: 20
         <ul>
             <li><a href="/words/paragraphs/add/">Add a Paragraph to Document</a></li>
             <li><a href="/words/paragraphs/update/">Update Paragraph Format Properties</a></li>
-            <li><a href="/words/paragraphs/update-font-properties-of-the-text/">Update Font Properties of the Text</a></li>
             <li><a href="/words/paragraphs/update-font-properties/">Update Font Properties</a></li>
         </ul>
     </div>

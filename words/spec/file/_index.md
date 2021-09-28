@@ -320,7 +320,7 @@ Each of those arguments initializes the corresponding self-titled property:
 
 ## UploadFileRequest
 
-Represents a request model for [WordsApi.UploadFile()](/words/paragraphs/lists/get-paragraph-list-format-without-node-path-in-a-document/) operation.
+Represents a request model for [WordsApi.UploadFile()](/words/files-and-storage/) operation.
 
 An object of the **UploadFileRequest** class is created by the following constructor methods:
 

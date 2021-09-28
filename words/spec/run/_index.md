@@ -461,7 +461,7 @@ The following properties are defined:
 
 ## UpdateRunFontOnlineRequest
 
-Represents a request model for [WordsApi.UpdateRunFontOnline()](/words/paragraphs/update-font-properties-of-the-text/) operation.
+Represents a request model for [WordsApi.UpdateRunFontOnline()](/words/paragraphs/update-font-properties/) operation.
 
 An object of the **UpdateRunFontOnlineRequest** class is created by the following constructor methods:
 
@@ -486,7 +486,7 @@ Each of those arguments initializes the corresponding self-titled property:
 
 ## UpdateRunFontOnlineResponse
 
-Represents a response model for [WordsApi.UpdateRunFontOnline()](/words/paragraphs/update-font-properties-of-the-text/) operation.
+Represents a response model for [WordsApi.UpdateRunFontOnline()](/words/paragraphs/update-font-properties/) operation.
 
 An object of the **UpdateRunFontOnlineResponse** class is created by the following constructor methods:
 
