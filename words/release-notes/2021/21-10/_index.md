@@ -20,7 +20,7 @@ The page contains release notes for Aspose.Words Cloud 21.10 – [API Reference
 ## PDF to Word conversion improvements
 
 - Fixed the processing of unsupported `Annotation` types - skipping them to avoid `ArgumentException`
-- Fixed multiple `InvalidCastException`s when received PDF data doesn't match the expected format
+- Fixed multiple `InvalidCastExceptions` when received PDF data doesn't match the expected format
 - Fixed multiple errors in PDF column detection: spacing, page numbers, list markers, text borders
 - Enabled multicolumn PDF recognition for all users
 
