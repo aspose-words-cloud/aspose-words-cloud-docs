@@ -36,7 +36,7 @@ The page contains release notes for Aspose.Words Cloud 21.10 – [API Reference
 | WORDSCLOUD-1693 | LINQ Reporting Engine erroneously detects strings as dates                                    | Bug         |
 | WORDSCLOUD-1747 | Convert API throws an exception when converting Mail Merge output to PDF format               | Bug         |
 | PDF2WORD-872    | `ArgumentException`: Requested value '3D' was not found                                       | Bug      |
-| PDF2WORD-891    | Incorrect page number appears if column detection is enabled                                  | Bug      |
+| PDF2WORD-891    | Incorrect page numbers appear when column detection is enabled                                | Bug      |
 | PDF2WORD-892    | Invalid spacing in multicolumn sections                                                       | Bug      |
 | PDF2WORD-895    | Columns are not detected in text with a border                                                | Bug      |
 | PDF2WORD-896    | A column with list markers is detected only                                                   | Bug      |
