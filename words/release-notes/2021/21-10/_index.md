@@ -16,6 +16,7 @@ The page contains release notes for Aspose.Words Cloud 21.10 – [API Reference
 
 - Removed an outdated `GraphicsQualityOptions` image save option as it is no longer supported
 - Added a new `displayIntermediateResults` query parameter for batch requests. When set to `false`, only the last response in a batch will be returned. By default the value is set to `true`.
+- Implemented custom configuration `JsonDataLoadOptions` and `XmlDataLoadOptions` in the Reporting Engine
 
 ## PDF to Word conversion improvements
 
@@ -26,8 +27,14 @@ The page contains release notes for Aspose.Words Cloud 21.10 – [API Reference
 
 ## All changes
 
-| #               | Summary                                                                                       | Category |
-|-----------------|-----------------------------------------------------------------------------------------------|----------|
+| #               | Summary                                                                                       | Category    |
+|-----------------|-----------------------------------------------------------------------------------------------|-------------|
+| WORDSCLOUD-1716 | Implement custom JSON and XML data loading options in the Reporting Engine                    | New Feature |
+| WORDSCLOUD-1275 | Statistics API throws `IndexOutOfRangeException`                                              | Bug         |
+| WORDSCLOUD-1461 | Split API throws an exception related to GDI+ graphics                                        | Bug         |
+| WORDSCLOUD-1649 | Swagger UI is unable parse online methods results                                             | Bug         |
+| WORDSCLOUD-1693 | LINQ Reporting Engine erroneously detects strings as dates                                    | Bug         |
+| WORDSCLOUD-1747 | Convert API throws an exception when converting Mail Merge output to PDF format               | Bug         |
 | PDF2WORD-872    | `ArgumentException`: Requested value '3D' was not found                                       | Bug      |
 | PDF2WORD-891    | Incorrect page number appears if column detection is enabled                                  | Bug      |
 | PDF2WORD-892    | Invalid spacing in multicolumn sections                                                       | Bug      |
