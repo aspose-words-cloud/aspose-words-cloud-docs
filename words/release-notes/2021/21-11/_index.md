@@ -14,7 +14,7 @@ The page contains release notes for Aspose.Words Cloud 21.11 – [API Reference
 
 ## Words Cloud Changes
 
-- "/info" endpoint is added to the Docker hub, that can be used to get API usage details
+- "/info" endpoint is added to the Docker hub to access API usage details
 - Various bug fixes and improvements
 
 ## PDF to Word conversion improvements
