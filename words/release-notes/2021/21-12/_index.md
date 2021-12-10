@@ -39,7 +39,7 @@ The page contains release notes for Aspose.Words Cloud 21.12 – [API Reference
 |-----------------|-----------------------------------------------------------------------------------------------|-------------|
 | WORDSCLOUD-1424 | Provide support for OfficeMath-to-SVG rendering in the process of DOCX-to-HTML conversion     | New Feature |
 | WORDSCLOUD-1450 | Improve protection for `CommonRequestParameters.Password`                                     | New Feature |
-| WORDSCLOUD-1480 | Change all API calls to asynchronous (`async/await`) in .NET SDK                              | New Feature |
+| WORDSCLOUD-1480 | Change all API calls in .NET SDK to asynchronous (`async/await`)                              | New Feature |
 | WORDSCLOUD-1507 | Add an option to exclude intermediate document's data from responses during batch processing  | New Feature |
 | WORDSCLOUD-1742 | Provide support for configuring `document.FieldOptions` in the process of MailMerge           | New Feature |
 | WORDSCLOUD-1784 | Provide an option to remove superscript text in PDF to Markdown conversion                    | New Feature |
