@@ -17,21 +17,21 @@ The page contains release notes for Aspose.Words Cloud 21.12 – [API Reference
 - Implemented the "/info" endpoint to obtain API usage details
 - Added support for configuring `document.FieldOptions` in the process of MailMerge
 - Improved protection for `CommonRequestParameters.Password`
-- Provided an option to exclude intermediate document's data from responses during batch processing
+- Provided an option to exclude intermediate document's data from responses during 'Batch Request' processing
 - Provided support for OfficeMath-to-SVG rendering in the process of DOCX-to-HTML conversion
 - Multiple bug fixes and improvements
 
 ## PDF to Word conversion improvements
 
 - Implemented the detection of footnotes that have no horizontal separator line above them
-- Determined the location and fixed a bug in release building scripts, causing errors in "JPEG 2000" decoder
+- Determined the location and fixed a bug in release building scripts, causing errors in the "JPEG 2000" decoder
 - Improved the `cm` operator processing to get correct text coordinates
-- Improved the PDF importing: word duplicates are ignored if they have the same coordinates and text
+- Improved the PDF importing algorithm: word duplicates are ignored now if they have the same coordinates and text
 - Implemented decoding for the newest 'PDF encryption Rev 6' (PDF 2.0 and PDF 1.7 Extension 6 formats)
 - Improved data editing logic to avoid "Collection was modified" errors
-- Improved footnotes scanning area to avoid `InvalidOperationException`
-- Implemented the 'Default Font Usage' algorithm, activated when a PDF font has incorrect data or its subtype can't be determined
-- Improved the processing of references to non-existent objects in PDF
+- Optimized footnotes scanning area to avoid `InvalidOperationException`
+- Implemented the 'Default Font' protective mode, activated when a PDF font has incorrect data or its subtype can't be determined
+- Improved the processing of references in PDF, pointing to non-existent objects
 
 ## All changes
 
