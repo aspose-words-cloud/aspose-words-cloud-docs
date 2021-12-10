@@ -29,7 +29,7 @@ The page contains release notes for Aspose.Words Cloud 21.12 – [API Reference
 - Improved the PDF importing algorithm: word duplicates are ignored now if they have the same coordinates and text
 - Implemented decoding for the newest 'PDF encryption Rev 6' (PDF 2.0 and PDF 1.7 Extension 6 formats)
 - Improved data editing logic to avoid "Collection was modified" errors
-- Optimized footnotes scanning area to avoid `InvalidOperationException`
+- Optimized the footnotes scanning area to avoid `InvalidOperationException`
 - Implemented the 'Default Font' protective mode, activated when a PDF font has incorrect data or its subtype can't be determined
 - Improved the processing of references in PDF, pointing to non-existent objects
 
