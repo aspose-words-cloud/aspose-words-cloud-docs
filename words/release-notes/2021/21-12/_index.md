@@ -51,8 +51,8 @@ The page contains release notes for Aspose.Words Cloud 21.12 – [API Reference
 | WORDSCLOUD-1717 | `ExecuteMailMerge` API method throws "Invalid container" exception                            | Bug         |
 | WORDSCLOUD-1748 | `CompareDocumentOnline` API method fails to save an output to Cloud storage                   | Bug         |
 | WORDSCLOUD-1750 | Error when populating images from Cloud storage with `MailMerge` online method                | Bug         |
-| WORDSCLOUD-1751 | `EmptyParagraphs` cleanup option is not working as expected                                   | Bug         |
-| WORDSCLOUD-1761 | `EncryptedPassword` is not working for online methods                                         | Bug         |
+| WORDSCLOUD-1751 | `EmptyParagraphs` cleanup option doesn't work as expected                                     | Bug         |
+| WORDSCLOUD-1761 | `EncryptedPassword` doesn't work for online methods                                           | Bug         |
 | WORDSCLOUD-1813 | Calling `BuildReportOnline` via `cURL` returns an error                                       | Bug         |
 | WORDSCLOUD-1814 | Incorrect usage details in the Docker Container                                               | Bug         |
 | WORDSCLOUD-1816 | Document conversion speed issue in Aspose.Words Cloud Docker Container                        | Bug         |
