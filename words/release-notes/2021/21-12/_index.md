@@ -30,9 +30,9 @@ The page contains release notes for Aspose.Words Cloud 21.12 – [API Reference
 - Implemented the 'Default Font' protective mode, activated when a PDF font has incorrect data or its subtype can't be determined
 - Improved the processing of references in PDF, pointing to non-existent objects
 
-## Words Cloud SDK Changes
+## Cloud SDK Changes
 
-- **All Cloud SDKs**: implemented timeout configuration (settings)
+- **All SDKs**: implemented timeout configuration (settings)
 - **Python, Java, PHP, Ruby SDKs**:
     - improved protection for `CommonRequestParameters.Password` (automatic encryption of all passwords sent to the API server as request parameters)
     - provided the `displayIntermediateResults` option to exclude intermediate document's data from responses during 'Batch Request' processing
