@@ -16,9 +16,6 @@ The page contains release notes for Aspose.Words Cloud 21.12 – [API Reference
 
 - Implemented the "/info" endpoint to obtain API usage details
 - Added support for configuring `document.FieldOptions` in the process of MailMerge
-- Improved protection for `CommonRequestParameters.Password`
-- Provided an option to exclude intermediate document's data from responses during 'Batch Request' processing
-- Provided support for OfficeMath-to-SVG rendering in the process of DOCX-to-HTML conversion
 - Multiple bug fixes and improvements
 
 ## PDF to Word conversion improvements
@@ -32,6 +29,15 @@ The page contains release notes for Aspose.Words Cloud 21.12 – [API Reference
 - Optimized the footnotes scanning area to avoid `InvalidOperationException`
 - Implemented the 'Default Font' protective mode, activated when a PDF font has incorrect data or its subtype can't be determined
 - Improved the processing of references in PDF, pointing to non-existent objects
+
+## Words Cloud SDK Changes
+
+- **All Cloud SDKs**: implemented timeout configuration (settings)
+- **Python, Java, PHP, Ruby SDKs**:
+    - improved protection for `CommonRequestParameters.Password` (automatic encryption of all passwords sent to the API server as request parameters)
+    - provided the `displayIntermediateResults` option to exclude intermediate document's data from responses during 'Batch Request' processing
+- **.NET, Go, Node.js SDKs**: added support for configuring `document.FieldOptions` in the process of MailMerge
+- **.NET SDK**: changed all API calls to asynchronous (`async/await`)
 
 ## All changes
 
