@@ -54,8 +54,8 @@ The page contains release notes for Aspose.Words Cloud 21.12 – [API Reference
 | WORDSCLOUD-1419 | PHP SDK (Cloud API): logging request in debug mode doesn't work                               | Bug         |
 | WORDSCLOUD-1447 | Image resize issue in MailMerge Templates                                                     | Bug         |
 | WORDSCLOUD-1678 | Storage providers cause errors when reading input streams for the second time                 | Bug         |
-| WORDSCLOUD-1717 | `ExecuteMailMerge` API method throws "Invalid container" exception                            | Bug         |
-| WORDSCLOUD-1748 | `CompareDocumentOnline` API method fails to save an output to Cloud storage                   | Bug         |
+| WORDSCLOUD-1717 | `ExecuteMailMerge` method throws "Invalid container" exception                                | Bug         |
+| WORDSCLOUD-1748 | `CompareDocumentOnline` method fails to save an output to Cloud storage                       | Bug         |
 | WORDSCLOUD-1750 | Error when populating images from Cloud storage with `MailMerge` online method                | Bug         |
 | WORDSCLOUD-1751 | `EmptyParagraphs` cleanup option doesn't work as expected                                     | Bug         |
 | WORDSCLOUD-1761 | `EncryptedPassword` doesn't work for online methods                                           | Bug         |
