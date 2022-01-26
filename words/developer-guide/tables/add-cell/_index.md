@@ -47,7 +47,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/TablesGet.docx/tables/1/rows/0/cell
     ],
     "NodeId": "0.4.0.2",
     "link": {
-      "Href": "http://api.aspose.cloud/v4.0/words/TablesGet.docx/sections/0/tables/1/rows/0/cells/2",
+      "Href": "https://api.aspose.cloud/v4.0/words/TablesGet.docx/sections/0/tables/1/rows/0/cells/2",
       "Rel": "self",
       "Type": null,
       "Title": null

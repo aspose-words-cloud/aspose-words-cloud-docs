@@ -54,7 +54,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs" \
         "Text": "3 of ",
         "NodeId": "0.0.0",
         "link": {
-          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/headersfooters/0/paragraphs/0",
+          "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/headersfooters/0/paragraphs/0",
           "Rel": "self",
           "Type": null,
           "Title": null
@@ -64,7 +64,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs" \
         "Text": "3 of ",
         "NodeId": "0.0.1",
         "link": {
-          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/headersfooters/0/paragraphs/1",
+          "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/headersfooters/0/paragraphs/1",
           "Rel": "self",
           "Type": null,
           "Title": null
@@ -74,7 +74,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs" \
         "Text": "3 of ",
         "NodeId": "0.0.2",
         "link": {
-          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/headersfooters/0/paragraphs/2",
+          "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/headersfooters/0/paragraphs/2",
           "Rel": "self",
           "Type": null,
           "Title": null
@@ -84,7 +84,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs" \
         "Text": "Page  of ",
         "NodeId": "0.1.0",
         "link": {
-          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/headersfooters/1/paragraphs/0",
+          "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/headersfooters/1/paragraphs/0",
           "Rel": "self",
           "Type": null,
           "Title": null
@@ -94,7 +94,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs" \
         "Text": "3 of 3",
         "NodeId": "0.1.1",
         "link": {
-          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/headersfooters/1/paragraphs/1",
+          "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/headersfooters/1/paragraphs/1",
           "Rel": "self",
           "Type": null,
           "Title": null
@@ -104,7 +104,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs" \
         "Text": "3 of 3",
         "NodeId": "0.1.2",
         "link": {
-          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/headersfooters/1/paragraphs/2",
+          "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/headersfooters/1/paragraphs/2",
           "Rel": "self",
           "Type": null,
           "Title": null
@@ -114,7 +114,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs" \
         "Text": "3 of ",
         "NodeId": "0.1.3",
         "link": {
-          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/headersfooters/1/paragraphs/3",
+          "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/headersfooters/1/paragraphs/3",
           "Rel": "self",
           "Type": null,
           "Title": null
@@ -124,7 +124,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs" \
         "Text": "",
         "NodeId": "0.2.0",
         "link": {
-          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/headersfooters/2/paragraphs/0",
+          "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/headersfooters/2/paragraphs/0",
           "Rel": "self",
           "Type": null,
           "Title": null
@@ -134,7 +134,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs" \
         "Text": "",
         "NodeId": "0.2.1",
         "link": {
-          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/headersfooters/2/paragraphs/1",
+          "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/headersfooters/2/paragraphs/1",
           "Rel": "self",
           "Type": null,
           "Title": null
@@ -144,7 +144,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs" \
         "Text": "",
         "NodeId": "0.3.0",
         "link": {
-          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/headersfooters/3/paragraphs/0",
+          "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/headersfooters/3/paragraphs/0",
           "Rel": "self",
           "Type": null,
           "Title": null
@@ -154,7 +154,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs" \
         "Text": "",
         "NodeId": "0.3.1",
         "link": {
-          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/headersfooters/3/paragraphs/1",
+          "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/headersfooters/3/paragraphs/1",
           "Rel": "self",
           "Type": null,
           "Title": null
@@ -164,7 +164,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs" \
         "Text": "3 of ",
         "NodeId": "0.4.0",
         "link": {
-          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/headersfooters/4/paragraphs/0",
+          "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/headersfooters/4/paragraphs/0",
           "Rel": "self",
           "Type": null,
           "Title": null
@@ -174,7 +174,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs" \
         "Text": "3 of ",
         "NodeId": "0.4.1",
         "link": {
-          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/headersfooters/4/paragraphs/1",
+          "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/headersfooters/4/paragraphs/1",
           "Rel": "self",
           "Type": null,
           "Title": null
@@ -184,7 +184,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs" \
         "Text": "3 of ",
         "NodeId": "0.4.2",
         "link": {
-          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/headersfooters/4/paragraphs/2",
+          "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/headersfooters/4/paragraphs/2",
           "Rel": "self",
           "Type": null,
           "Title": null
@@ -194,7 +194,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs" \
         "Text": "Testing Page 1A new Comment1",
         "NodeId": "0.0",
         "link": {
-          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/paragraphs/0",
+          "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/paragraphs/0",
           "Rel": "self",
           "Type": null,
           "Title": null
@@ -204,7 +204,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs" \
         "Text": "A new Comment1",
         "NodeId": "2.0",
         "link": {
-          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/comments/0/paragraphs/0",
+          "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/comments/0/paragraphs/0",
           "Rel": "self",
           "Type": null,
           "Title": null
@@ -214,7 +214,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs" \
         "Text": "",
         "NodeId": "0.1",
         "link": {
-          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/paragraphs/1",
+          "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/paragraphs/1",
           "Rel": "self",
           "Type": null,
           "Title": null
@@ -224,7 +224,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs" \
         "Text": "",
         "NodeId": "0.2",
         "link": {
-          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/paragraphs/2",
+          "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/paragraphs/2",
           "Rel": "self",
           "Type": null,
           "Title": null
@@ -234,7 +234,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs" \
         "Text": "Heading",
         "NodeId": "0.3",
         "link": {
-          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/paragraphs/3",
+          "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/paragraphs/3",
           "Rel": "self",
           "Type": null,
           "Title": null
@@ -244,7 +244,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs" \
         "Text": "",
         "NodeId": "0.4",
         "link": {
-          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/paragraphs/4",
+          "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/paragraphs/4",
           "Rel": "self",
           "Type": null,
           "Title": null
@@ -254,7 +254,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs" \
         "Text": "This will be the text for AsposeTesting Page 2",
         "NodeId": "0.5",
         "link": {
-          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/paragraphs/5",
+          "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/paragraphs/5",
           "Rel": "self",
           "Type": null,
           "Title": null
@@ -264,7 +264,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs" \
         "Text": "",
         "NodeId": "0.6",
         "link": {
-          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/paragraphs/6",
+          "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/paragraphs/6",
           "Rel": "self",
           "Type": null,
           "Title": null
@@ -274,7 +274,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs" \
         "Text": "Testing Page 3",
         "NodeId": "0.7",
         "link": {
-          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/paragraphs/7",
+          "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/paragraphs/7",
           "Rel": "self",
           "Type": null,
           "Title": null
@@ -282,7 +282,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs" \
       }
     ],
     "link": {
-      "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs",
+      "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs",
       "Rel": "self",
       "Type": null,
       "Title": null

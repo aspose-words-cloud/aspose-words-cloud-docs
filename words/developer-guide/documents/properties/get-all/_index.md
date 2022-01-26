@@ -42,7 +42,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentPrope
         "Value": "58687",
         "BuiltIn": true,
         "link": {
-          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/Bytes",
+          "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/Bytes",
           "Rel": "self",
           "Type": null,
           "Title": null
@@ -53,7 +53,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentPrope
         "Value": "52",
         "BuiltIn": true,
         "link": {
-          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/Characters",
+          "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/Characters",
           "Rel": "self",
           "Type": null,
           "Title": null
@@ -64,7 +64,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentPrope
         "Value": "60",
         "BuiltIn": true,
         "link": {
-          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/CharactersWithSpaces",
+          "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/CharactersWithSpaces",
           "Rel": "self",
           "Type": null,
           "Title": null
@@ -75,7 +75,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentPrope
         "Value": "",
         "BuiltIn": true,
         "link": {
-          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/Company",
+          "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/Company",
           "Rel": "self",
           "Type": null,
           "Title": null
@@ -86,7 +86,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentPrope
         "Value": "04/29/2015 05:01:00",
         "BuiltIn": true,
         "link": {
-          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/CreateTime",
+          "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/CreateTime",
           "Rel": "self",
           "Type": null,
           "Title": null
@@ -97,7 +97,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentPrope
         "Value": "#ObjectArray",
         "BuiltIn": true,
         "link": {
-          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/HeadingPairs",
+          "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/HeadingPairs",
           "Rel": "self",
           "Type": null,
           "Title": null
@@ -108,7 +108,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentPrope
         "Value": "Екимов Я.Н.",
         "BuiltIn": true,
         "link": {
-          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/LastSavedBy",
+          "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/LastSavedBy",
           "Rel": "self",
           "Type": null,
           "Title": null
@@ -119,7 +119,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentPrope
         "Value": "10/21/2017 13:28:00",
         "BuiltIn": true,
         "link": {
-          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/LastSavedTime",
+          "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/LastSavedTime",
           "Rel": "self",
           "Type": null,
           "Title": null
@@ -130,7 +130,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentPrope
         "Value": "1",
         "BuiltIn": true,
         "link": {
-          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/Lines",
+          "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/Lines",
           "Rel": "self",
           "Type": null,
           "Title": null
@@ -141,7 +141,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentPrope
         "Value": "Microsoft Office Word",
         "BuiltIn": true,
         "link": {
-          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/NameOfApplication",
+          "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/NameOfApplication",
           "Rel": "self",
           "Type": null,
           "Title": null
@@ -152,7 +152,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentPrope
         "Value": "3",
         "BuiltIn": true,
         "link": {
-          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/Pages",
+          "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/Pages",
           "Rel": "self",
           "Type": null,
           "Title": null
@@ -163,7 +163,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentPrope
         "Value": "1",
         "BuiltIn": true,
         "link": {
-          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/Paragraphs",
+          "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/Paragraphs",
           "Rel": "self",
           "Type": null,
           "Title": null
@@ -174,7 +174,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentPrope
         "Value": "13",
         "BuiltIn": true,
         "link": {
-          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/RevisionNumber",
+          "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/RevisionNumber",
           "Rel": "self",
           "Type": null,
           "Title": null
@@ -185,7 +185,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentPrope
         "Value": "0",
         "BuiltIn": true,
         "link": {
-          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/Security",
+          "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/Security",
           "Rel": "self",
           "Type": null,
           "Title": null
@@ -196,7 +196,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentPrope
         "Value": "Normal.dotm",
         "BuiltIn": true,
         "link": {
-          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/Template",
+          "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/Template",
           "Rel": "self",
           "Type": null,
           "Title": null
@@ -207,7 +207,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentPrope
         "Value": "#StringArray",
         "BuiltIn": true,
         "link": {
-          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/TitlesOfParts",
+          "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/TitlesOfParts",
           "Rel": "self",
           "Type": null,
           "Title": null
@@ -218,7 +218,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentPrope
         "Value": "11",
         "BuiltIn": true,
         "link": {
-          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/TotalEditingTime",
+          "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/TotalEditingTime",
           "Rel": "self",
           "Type": null,
           "Title": null
@@ -229,7 +229,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentPrope
         "Value": "1048576",
         "BuiltIn": true,
         "link": {
-          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/Version",
+          "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/Version",
           "Rel": "self",
           "Type": null,
           "Title": null
@@ -240,7 +240,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentPrope
         "Value": "9",
         "BuiltIn": true,
         "link": {
-          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/Words",
+          "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/Words",
           "Rel": "self",
           "Type": null,
           "Title": null
@@ -251,7 +251,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentPrope
         "Value": "1",
         "BuiltIn": false,
         "link": {
-          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/testProp",
+          "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties/testProp",
           "Rel": "self",
           "Type": null,
           "Title": null
@@ -259,7 +259,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentPrope
       }
     ],
     "link": {
-      "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties",
+      "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentProperties",
       "Rel": "self",
       "Type": null,
       "Title": null

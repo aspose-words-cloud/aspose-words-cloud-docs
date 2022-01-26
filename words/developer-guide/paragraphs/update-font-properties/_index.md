@@ -151,7 +151,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/
          "Alpha":0
       },
       "link":{
-         "Href":"http://api.aspose.cloud/v4.0/words/ResultWordDocument.docx/sections/0/paragraphs/2/runs/0/font",
+         "Href":"https://api.aspose.cloud/v4.0/words/ResultWordDocument.docx/sections/0/paragraphs/2/runs/0/font",
          "Rel":"self",
          "Type":null,
          "Title":null

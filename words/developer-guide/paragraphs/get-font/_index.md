@@ -152,7 +152,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs/0/
       "Alpha": 0
     },
     "link": {
-      "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/headersfooters/0/paragraphs/0/runs/1/font",
+      "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/headersfooters/0/paragraphs/0/runs/1/font",
       "Rel": "self",
       "Type": null,
       "Title": null

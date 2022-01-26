@@ -50,7 +50,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/Run.doc/paragraphs/1/runs" \
     "Text": "Hello World!",
     "NodeId": "0.1.3",
     "link": {
-      "Href": "http://api.aspose.cloud/v4.0/words/Run.doc/sections/0/paragraphs/1/runs/3",
+      "Href": "https://api.aspose.cloud/v4.0/words/Run.doc/sections/0/paragraphs/1/runs/3",
       "Rel": "self",
       "Type": null,
       "Title": null

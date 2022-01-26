@@ -52,7 +52,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/mailMerge/FieldNames" \
 
         ],
         "link": {
-            "Href": "http://api.aspose.cloud/v4.0/words/SampleMailMergeTemplate.docx/mailmerge/getFieldNames",
+            "Href": "https://api.aspose.cloud/v4.0/words/SampleMailMergeTemplate.docx/mailmerge/getFieldNames",
             "Rel": "self",
             "Type": null,
             "Title": null

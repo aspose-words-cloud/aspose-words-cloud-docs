@@ -53,7 +53,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/drawingObject
     "List": [
       {
         "link": {
-          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/paragraphs/1/drawingObjects/0",
+          "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/paragraphs/1/drawingObjects/0",
           "Rel": "self",
           "Type": null,
           "Title": null
@@ -61,7 +61,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/drawingObject
       }
     ],
     "link": {
-      "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/drawingObjects",
+      "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/drawingObjects",
       "Rel": "self",
       "Type": null,
       "Title": null

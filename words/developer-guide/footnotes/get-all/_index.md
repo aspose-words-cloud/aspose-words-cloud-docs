@@ -67,7 +67,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/Footnote.doc/footnotes" \
             "Text": " ",
             "NodeId": "0.0.1",
             "link": {
-              "Href": "http://api.aspose.cloud/v4.0/words/Footnote.doc/sections/0/paragraphs/0/runs/1",
+              "Href": "https://api.aspose.cloud/v4.0/words/Footnote.doc/sections/0/paragraphs/0/runs/1",
               "Rel": "self",
               "Type": null,
               "Title": null
@@ -83,7 +83,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/Footnote.doc/footnotes" \
               "Text": " Footnote 1.",
               "NodeId": "0.0.2.0",
               "link": {
-                "Href": "http://api.aspose.cloud/v4.0/words/Footnote.doc/sections/0/paragraphs/0/footnotes/0/paragraphs/0",
+                "Href": "https://api.aspose.cloud/v4.0/words/Footnote.doc/sections/0/paragraphs/0/footnotes/0/paragraphs/0",
                 "Rel": "self",
                 "Type": null,
                 "Title": null
@@ -93,7 +93,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/Footnote.doc/footnotes" \
         },
         "NodeId": "0.0.2",
         "link": {
-          "Href": "http://api.aspose.cloud/v4.0/words/Footnote.doc/sections/0/paragraphs/0/footnotes/0",
+          "Href": "https://api.aspose.cloud/v4.0/words/Footnote.doc/sections/0/paragraphs/0/footnotes/0",
           "Rel": "self",
           "Type": null,
           "Title": null
@@ -105,7 +105,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/Footnote.doc/footnotes" \
             "Text": " ",
             "NodeId": "0.1.1",
             "link": {
-              "Href": "http://api.aspose.cloud/v4.0/words/Footnote.doc/sections/0/paragraphs/1/runs/1",
+              "Href": "https://api.aspose.cloud/v4.0/words/Footnote.doc/sections/0/paragraphs/1/runs/1",
               "Rel": "self",
               "Type": null,
               "Title": null
@@ -121,7 +121,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/Footnote.doc/footnotes" \
               "Text": " Endnote 1.",
               "NodeId": "0.1.2.0",
               "link": {
-                "Href": "http://api.aspose.cloud/v4.0/words/Footnote.doc/sections/0/paragraphs/1/footnotes/0/paragraphs/0",
+                "Href": "https://api.aspose.cloud/v4.0/words/Footnote.doc/sections/0/paragraphs/1/footnotes/0/paragraphs/0",
                 "Rel": "self",
                 "Type": null,
                 "Title": null
@@ -131,7 +131,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/Footnote.doc/footnotes" \
         },
         "NodeId": "0.1.2",
         "link": {
-          "Href": "http://api.aspose.cloud/v4.0/words/Footnote.doc/sections/0/paragraphs/1/footnotes/0",
+          "Href": "https://api.aspose.cloud/v4.0/words/Footnote.doc/sections/0/paragraphs/1/footnotes/0",
           "Rel": "self",
           "Type": null,
           "Title": null
@@ -143,7 +143,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/Footnote.doc/footnotes" \
             "Text": "This line also has a footnote.",
             "NodeId": "0.3.0",
             "link": {
-              "Href": "http://api.aspose.cloud/v4.0/words/Footnote.doc/sections/0/paragraphs/3/runs/0",
+              "Href": "https://api.aspose.cloud/v4.0/words/Footnote.doc/sections/0/paragraphs/3/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
@@ -159,7 +159,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/Footnote.doc/footnotes" \
               "Text": " Footnote 2.",
               "NodeId": "0.3.1.0",
               "link": {
-                "Href": "http://api.aspose.cloud/v4.0/words/Footnote.doc/sections/0/paragraphs/3/footnotes/0/paragraphs/0",
+                "Href": "https://api.aspose.cloud/v4.0/words/Footnote.doc/sections/0/paragraphs/3/footnotes/0/paragraphs/0",
                 "Rel": "self",
                 "Type": null,
                 "Title": null
@@ -169,7 +169,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/Footnote.doc/footnotes" \
         },
         "NodeId": "0.3.1",
         "link": {
-          "Href": "http://api.aspose.cloud/v4.0/words/Footnote.doc/sections/0/paragraphs/3/footnotes/0",
+          "Href": "https://api.aspose.cloud/v4.0/words/Footnote.doc/sections/0/paragraphs/3/footnotes/0",
           "Rel": "self",
           "Type": null,
           "Title": null
@@ -181,7 +181,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/Footnote.doc/footnotes" \
             "Text": "This line also has an endnote.",
             "NodeId": "0.4.0",
             "link": {
-              "Href": "http://api.aspose.cloud/v4.0/words/Footnote.doc/sections/0/paragraphs/4/runs/0",
+              "Href": "https://api.aspose.cloud/v4.0/words/Footnote.doc/sections/0/paragraphs/4/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
@@ -197,7 +197,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/Footnote.doc/footnotes" \
               "Text": " Endnote 2.",
               "NodeId": "0.4.1.0",
               "link": {
-                "Href": "http://api.aspose.cloud/v4.0/words/Footnote.doc/sections/0/paragraphs/4/footnotes/0/paragraphs/0",
+                "Href": "https://api.aspose.cloud/v4.0/words/Footnote.doc/sections/0/paragraphs/4/footnotes/0/paragraphs/0",
                 "Rel": "self",
                 "Type": null,
                 "Title": null
@@ -207,7 +207,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/Footnote.doc/footnotes" \
         },
         "NodeId": "0.4.1",
         "link": {
-          "Href": "http://api.aspose.cloud/v4.0/words/Footnote.doc/sections/0/paragraphs/4/footnotes/0",
+          "Href": "https://api.aspose.cloud/v4.0/words/Footnote.doc/sections/0/paragraphs/4/footnotes/0",
           "Rel": "self",
           "Type": null,
           "Title": null
@@ -219,7 +219,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/Footnote.doc/footnotes" \
             "Text": "Third",
             "NodeId": "0.6.0",
             "link": {
-              "Href": "http://api.aspose.cloud/v4.0/words/Footnote.doc/sections/0/paragraphs/6/runs/0",
+              "Href": "https://api.aspose.cloud/v4.0/words/Footnote.doc/sections/0/paragraphs/6/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
@@ -235,7 +235,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/Footnote.doc/footnotes" \
               "Text": " Footnote 3",
               "NodeId": "0.6.1.0",
               "link": {
-                "Href": "http://api.aspose.cloud/v4.0/words/Footnote.doc/sections/0/paragraphs/6/footnotes/0/paragraphs/0",
+                "Href": "https://api.aspose.cloud/v4.0/words/Footnote.doc/sections/0/paragraphs/6/footnotes/0/paragraphs/0",
                 "Rel": "self",
                 "Type": null,
                 "Title": null
@@ -245,7 +245,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/Footnote.doc/footnotes" \
         },
         "NodeId": "0.6.1",
         "link": {
-          "Href": "http://api.aspose.cloud/v4.0/words/Footnote.doc/sections/0/paragraphs/6/footnotes/0",
+          "Href": "https://api.aspose.cloud/v4.0/words/Footnote.doc/sections/0/paragraphs/6/footnotes/0",
           "Rel": "self",
           "Type": null,
           "Title": null
@@ -262,7 +262,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/Footnote.doc/footnotes" \
               "Text": " fdsfsd",
               "NodeId": "0.7.0.0",
               "link": {
-                "Href": "http://api.aspose.cloud/v4.0/words/Footnote.doc/sections/0/paragraphs/7/footnotes/0/paragraphs/0",
+                "Href": "https://api.aspose.cloud/v4.0/words/Footnote.doc/sections/0/paragraphs/7/footnotes/0/paragraphs/0",
                 "Rel": "self",
                 "Type": null,
                 "Title": null
@@ -272,7 +272,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/Footnote.doc/footnotes" \
         },
         "NodeId": "0.7.0",
         "link": {
-          "Href": "http://api.aspose.cloud/v4.0/words/Footnote.doc/sections/0/paragraphs/7/footnotes/0",
+          "Href": "https://api.aspose.cloud/v4.0/words/Footnote.doc/sections/0/paragraphs/7/footnotes/0",
           "Rel": "self",
           "Type": null,
           "Title": null
@@ -283,7 +283,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/Footnote.doc/footnotes" \
           "Node": {
             "NodeId": "0.7.0",
             "link": {
-              "Href": "http://api.aspose.cloud/v4.0/words/Footnote.doc/sections/0/paragraphs/7/footnotes/0",
+              "Href": "https://api.aspose.cloud/v4.0/words/Footnote.doc/sections/0/paragraphs/7/footnotes/0",
               "Rel": "self",
               "Type": null,
               "Title": null
@@ -299,7 +299,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/Footnote.doc/footnotes" \
               "Text": " footnote text",
               "NodeId": "0.7.1.0",
               "link": {
-                "Href": "http://api.aspose.cloud/v1.1/words/Footnote.doc/sections/0/paragraphs/7/footnotes/1/paragraphs/0",
+                "Href": "https://api.aspose.cloud/v1.1/words/Footnote.doc/sections/0/paragraphs/7/footnotes/1/paragraphs/0",
                 "Rel": "self",
                 "Type": null,
                 "Title": null
@@ -309,7 +309,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/Footnote.doc/footnotes" \
         },
         "NodeId": "0.7.1",
         "link": {
-          "Href": "http://api.aspose.cloud/v4.0/words/Footnote.doc/sections/0/paragraphs/7/footnotes/1",
+          "Href": "https://api.aspose.cloud/v4.0/words/Footnote.doc/sections/0/paragraphs/7/footnotes/1",
           "Rel": "self",
           "Type": null,
           "Title": null
@@ -317,7 +317,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/Footnote.doc/footnotes" \
       }
     ],
     "link": {
-      "Href": "http://api.aspose.cloud/v4.0/words/Footnote.doc/footnotes",
+      "Href": "https://api.aspose.cloud/v4.0/words/Footnote.doc/footnotes",
       "Rel": "self",
       "Type": null,
       "Title": null

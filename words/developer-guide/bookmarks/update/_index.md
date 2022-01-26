@@ -47,7 +47,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/bookmarks/asp
     "Name": "aspose",
     "Text": "This will be the text for Aspose",
     "link": {
-      "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/bookmarks/aspose",
+      "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/bookmarks/aspose",
       "Rel": "self",
       "Type": null,
       "Title": null

@@ -44,151 +44,151 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/watermarks/de
         "Title": null
       },
       {
-        "Href": "http://api.aspose.cloud/v4.0/words/test_doc.docx?format=doc",
+        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=doc",
         "Rel": "alternate",
         "Type": "application/msword",
         "Title": "Download as DOC"
       },
       {
-        "Href": "http://api.aspose.cloud/v4.0/words/test_doc.docx?format=dot",
+        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=dot",
         "Rel": "alternate",
         "Type": "application/msword",
         "Title": "Download as DOT"
       },
       {
-        "Href": "http://api.aspose.cloud/v4.0/words/test_doc.docx?format=docx",
+        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=docx",
         "Rel": "alternate",
         "Type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
         "Title": "Download as DOCX"
       },
       {
-        "Href": "http://api.aspose.cloud/v4.0/words/test_doc.docx?format=docm",
+        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=docm",
         "Rel": "alternate",
         "Type": "application/vnd.ms-word.document.macroEnabled.12",
         "Title": "Download as DOCM"
       },
       {
-        "Href": "http://api.aspose.cloud/v4.0/words/test_doc.docx?format=dotx",
+        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=dotx",
         "Rel": "alternate",
         "Type": "application/vnd.openxmlformats-officedocument.wordprocessingml.template",
         "Title": "Download as DOTX"
       },
       {
-        "Href": "http://api.aspose.cloud/v4.0/words/test_doc.docx?format=dotm",
+        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=dotm",
         "Rel": "alternate",
         "Type": "application/vnd.ms-word.template.macroEnabled.12",
         "Title": "Download as DOTM"
       },
       {
-        "Href": "http://api.aspose.cloud/v4.0/words/test_doc.docx?format=flatopc",
+        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=flatopc",
         "Rel": "alternate",
         "Type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
         "Title": "Download as FLATOPC"
       },
       {
-        "Href": "http://api.aspose.cloud/v4.0/words/test_doc.docx?format=rtf",
+        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=rtf",
         "Rel": "alternate",
         "Type": "application/rtf",
         "Title": "Download as RTF"
       },
       {
-        "Href": "http://api.aspose.cloud/v4.0/words/test_doc.docx?format=wml",
+        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=wml",
         "Rel": "alternate",
         "Type": "text/xml",
         "Title": "Download as WML"
       },
       {
-        "Href": "http://api.aspose.cloud/v4.0/words/test_doc.docx?format=odt",
+        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=odt",
         "Rel": "alternate",
         "Type": "application/vnd.oasis.opendocument.text",
         "Title": "Download as ODT"
       },
       {
-        "Href": "http://api.aspose.cloud/v4.0/words/test_doc.docx?format=ott",
+        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=ott",
         "Rel": "alternate",
         "Type": "application/vnd.oasis.opendocument.text-template",
         "Title": "Download as OTT"
       },
       {
-        "Href": "http://api.aspose.cloud/v4.0/words/test_doc.docx?format=txt",
+        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=txt",
         "Rel": "alternate",
         "Type": "text/plain",
         "Title": "Download as TXT"
       },
       {
-        "Href": "http://api.aspose.cloud/v4.0/words/test_doc.docx?format=mhtml",
+        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=mhtml",
         "Rel": "alternate",
         "Type": "multipart/related",
         "Title": "Download as MHTML"
       },
       {
-        "Href": "http://api.aspose.cloud/v4.0/words/test_doc.docx?format=epub",
+        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=epub",
         "Rel": "alternate",
         "Type": "application/epub+zip",
         "Title": "Download as EPUB"
       },
       {
-        "Href": "http://api.aspose.cloud/v4.0/words/test_doc.docx?format=pdf",
+        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=pdf",
         "Rel": "alternate",
         "Type": "application/pdf",
         "Title": "Download as PDF"
       },
       {
-        "Href": "http://api.aspose.cloud/v4.0/words/test_doc.docx?format=xps",
+        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=xps",
         "Rel": "alternate",
         "Type": "application/vnd.ms-xpsdocument",
         "Title": "Download as XPS"
       },
       {
-        "Href": "http://api.aspose.cloud/v4.0/words/test_doc.docx?format=tiff",
+        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=tiff",
         "Rel": "alternate",
         "Type": "image/tiff",
         "Title": "Download as TIFF"
       },
       {
-        "Href": "http://api.aspose.cloud/v4.0/words/test_doc.docx?format=png",
+        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=png",
         "Rel": "alternate",
         "Type": "image/png",
         "Title": "Download as PNG"
       },
       {
-        "Href": "http://api.aspose.cloud/v4.0/words/test_doc.docx?format=jpeg",
+        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=jpeg",
         "Rel": "alternate",
         "Type": "image/jpeg",
         "Title": "Download as JPEG"
       },
       {
-        "Href": "http://api.aspose.cloud/v4.0/words/test_doc.docx?format=bmp",
+        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=bmp",
         "Rel": "alternate",
         "Type": "image/bmp",
         "Title": "Download as BMP"
       },
       {
-        "Href": "http://api.aspose.cloud/v4.0/words/test_doc.docx?format=gif",
+        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=gif",
         "Rel": "alternate",
         "Type": "image/gif",
         "Title": "Download as GIF"
       },
       {
-        "Href": "http://api.aspose.cloud/v4.0/words/test_doc.docx?format=svg",
+        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=svg",
         "Rel": "alternate",
         "Type": "image/svg+xml",
         "Title": "Download as SVG"
       },
       {
-        "Href": "http://api.aspose.cloud/v4.0/words/test_doc.docx?format=html",
+        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=html",
         "Rel": "alternate",
         "Type": "text/html",
         "Title": "Download as HTML"
       },
       {
-        "Href": "http://api.aspose.cloud/v4.0/words/test_doc.docx?format=htmlfixed",
+        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=htmlfixed",
         "Rel": "alternate",
         "Type": "text/html",
         "Title": "Download as HTMLFIXED"
       },
       {
-        "Href": "http://api.aspose.cloud/v4.0/words/test_doc.docx?format=pcl",
+        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=pcl",
         "Rel": "alternate",
         "Type": "application/x-pcl",
         "Title": "Download as PCL"
@@ -201,7 +201,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/watermarks/de
     "DocumentProperties": {
       "List": null,
       "link": {
-        "Href": "http://api.aspose.cloud/v4.0/words/test_doc.docx/documentProperties",
+        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx/documentProperties",
         "Rel": "self",
         "Type": null,
         "Title": null

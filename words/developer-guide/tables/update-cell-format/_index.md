@@ -70,7 +70,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/TablesGet.docx/tables/1/rows/0/cell
     "Width": 11.0,
     "WrapText": false,
     "link": {
-      "Href": "http://api.aspose.cloud/v4.0/words/TablesGet.docx/sections/0/tables/1/rows/0/cells/0/cellformat",
+      "Href": "https://api.aspose.cloud/v4.0/words/TablesGet.docx/sections/0/tables/1/rows/0/cells/0/cellformat",
       "Rel": "self",
       "Type": null,
       "Title": null

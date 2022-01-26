@@ -8,7 +8,7 @@ description: "Aspose Words Cloud 17.8 Release Notes"
 weight: 50
 ---
 
-The page contains release notes for Aspose.Words for Cloud update 17.8. – [API Version 1.1](http://api.aspose.cloud/swagger/ui/index).
+The page contains release notes for Aspose.Words for Cloud update 17.8. – [API Version 1.1](https://api.aspose.cloud/swagger/ui/index).
 
 ## Full List of Issues Covering all Changes in this Release
 

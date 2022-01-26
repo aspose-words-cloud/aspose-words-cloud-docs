@@ -43,7 +43,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/bookmarks" \
         "Name": "_GoBack",
         "Text": "",
         "link": {
-          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/bookmarks/_GoBack",
+          "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/bookmarks/_GoBack",
           "Rel": "self",
           "Type": null,
           "Title": null
@@ -53,7 +53,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/bookmarks" \
         "Name": "aspose",
         "Text": "",
         "link": {
-          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/bookmarks/aspose",
+          "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/bookmarks/aspose",
           "Rel": "self",
           "Type": null,
           "Title": null
@@ -63,7 +63,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/bookmarks" \
         "Name": "page2",
         "Text": "",
         "link": {
-          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/bookmarks/page2",
+          "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/bookmarks/page2",
           "Rel": "self",
           "Type": null,
           "Title": null
@@ -71,7 +71,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/bookmarks" \
       }
     ],
     "link": {
-      "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/bookmarks",
+      "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/bookmarks",
       "Rel": "self",
       "Type": null,
       "Title": null

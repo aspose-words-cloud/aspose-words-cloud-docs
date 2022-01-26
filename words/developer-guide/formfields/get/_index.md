@@ -57,7 +57,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/FormFilled.docx/sections/0/formfiel
     "TextInputDefault": "123",
     "MaxLength": 0,
     "link": {
-      "Href": "http://api.aspose.cloud/v4.0/words/FormFilled.docx/sections/0/tables/0/rows/0/cells/0/paragraphs/0/formfields/0",
+      "Href": "https://api.aspose.cloud/v4.0/words/FormFilled.docx/sections/0/tables/0/rows/0/cells/0/paragraphs/0/formfields/0",
       "Rel": "self",
       "Type": null,
       "Title": null

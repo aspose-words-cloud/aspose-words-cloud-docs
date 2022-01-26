@@ -56,7 +56,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs/0/
     "Text": "PAGE",
     "NodeId": "0.0.0.3",
     "link": {
-      "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/headersfooters/0/paragraphs/0/runs/1",
+      "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/headersfooters/0/paragraphs/0/runs/1",
       "Rel": "self",
       "Type": null,
       "Title": null

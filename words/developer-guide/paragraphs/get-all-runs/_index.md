@@ -49,7 +49,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/GetField.docx/sections/0/paragraphs
     "List": [
     ],
     "link": {
-      "Href": "http://api.aspose.cloud/v4.0/words/GetField.docx/sections/0/paragraphs/0/runs",
+      "Href": "https://api.aspose.cloud/v4.0/words/GetField.docx/sections/0/paragraphs/0/runs",
       "Rel": "self",
       "Type": null,
       "Title": null

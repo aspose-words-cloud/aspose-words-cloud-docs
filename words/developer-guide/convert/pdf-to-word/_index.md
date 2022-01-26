@@ -71,7 +71,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/demo.pdf/saveAs" \
 {
   "SaveResult": {
     "SourceDocument": {
-      "Href": "http://api.aspose.cloud/v4.0/words/demo.pdf",
+      "Href": "https://api.aspose.cloud/v4.0/words/demo.pdf",
       "Rel": "self",
       "Type": null,
       "Title": null

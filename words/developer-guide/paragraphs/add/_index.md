@@ -61,7 +61,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/pa
         "Text": "This is a new paragraph for your document",
         "NodeId": "0.8.0",
         "link": {
-          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/paragraphs/8/runs/0",
+          "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/paragraphs/8/runs/0",
           "Rel": "self",
           "Type": null,
           "Title": null
@@ -70,7 +70,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/pa
     ],
     "NodeId": "0.8",
     "link": {
-      "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/paragraphs/8",
+      "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/paragraphs/8",
       "Rel": "self",
       "Type": null,
       "Title": null

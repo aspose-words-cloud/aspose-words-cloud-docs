@@ -57,7 +57,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/Run.doc/paragraphs/1/runs/0" \
     "Text": "Run with text",
     "NodeId": "0.1.0",
     "link": {
-      "Href": "http://api.aspose.cloud/v4.0/words/Run.doc/sections/0/paragraphs/1/runs/0",
+      "Href": "https://api.aspose.cloud/v4.0/words/Run.doc/sections/0/paragraphs/1/runs/0",
       "Rel": "self",
       "Type": null,
       "Title": null

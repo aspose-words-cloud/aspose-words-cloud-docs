@@ -41,7 +41,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/TablesGet.docx/tables/1/rows/0/cell
         "Text": "34",
         "NodeId": "0.4.0.0.0",
         "link": {
-          "Href": "http://api.aspose.cloud/v4.0/words/TablesGet.docx/sections/0/tables/1/rows/0/cells/0/paragraphs/0",
+          "Href": "https://api.aspose.cloud/v4.0/words/TablesGet.docx/sections/0/tables/1/rows/0/cells/0/paragraphs/0",
           "Rel": "self",
           "Type": null,
           "Title": null
@@ -50,7 +50,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/TablesGet.docx/tables/1/rows/0/cell
     ],
     "NodeId": "0.4.0.0",
     "link": {
-      "Href": "http://api.aspose.cloud/v4.0/words/TablesGet.docx/sections/0/tables/1/rows/0/cells/0",
+      "Href": "https://api.aspose.cloud/v4.0/words/TablesGet.docx/sections/0/tables/1/rows/0/cells/0",
       "Rel": "self",
       "Type": null,
       "Title": null

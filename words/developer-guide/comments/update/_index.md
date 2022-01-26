@@ -61,7 +61,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/comments/0" \
           "Text": "A new Comment",
           "NodeId": "2.0",
           "link": {
-            "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/comments/0/paragraphs/0",
+            "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/comments/0/paragraphs/0",
             "Rel": "self",
             "Type": null,
             "Title": null
@@ -70,7 +70,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/comments/0" \
       ]
     },
     "link": {
-      "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/comments/0",
+      "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/comments/0",
       "Rel": "self",
       "Type": null,
       "Title": null

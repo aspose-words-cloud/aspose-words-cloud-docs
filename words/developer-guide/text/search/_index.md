@@ -50,7 +50,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/search?patt
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/products/words/cloud",
             "NodeId": "0.0.0",
             "link": {
-              "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/0/runs/0",
+              "Href": "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/0/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
@@ -63,7 +63,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/search?patt
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/products/words/cloud",
             "NodeId": "0.0.0",
             "link": {
-              "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/0/runs/0",
+              "Href": "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/0/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
@@ -78,7 +78,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/search?patt
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/products/words/cloud",
             "NodeId": "0.1.0",
             "link": {
-              "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/1/runs/0",
+              "Href": "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/1/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
@@ -91,7 +91,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/search?patt
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/products/words/cloud",
             "NodeId": "0.1.0",
             "link": {
-              "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/1/runs/0",
+              "Href": "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/1/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
@@ -106,7 +106,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/search?patt
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/products/words/cloud",
             "NodeId": "0.2.0",
             "link": {
-              "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/2/runs/0",
+              "Href": "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/2/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
@@ -119,7 +119,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/search?patt
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/products/words/cloud",
             "NodeId": "0.2.0",
             "link": {
-              "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/2/runs/0",
+              "Href": "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/2/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
@@ -134,7 +134,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/search?patt
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/products/words/cloud",
             "NodeId": "0.3.0",
             "link": {
-              "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/3/runs/0",
+              "Href": "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/3/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
@@ -147,7 +147,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/search?patt
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/products/words/cloud",
             "NodeId": "0.3.0",
             "link": {
-              "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/3/runs/0",
+              "Href": "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/3/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
@@ -162,7 +162,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/search?patt
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.4.0",
             "link": {
-              "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/4/runs/0",
+              "Href": "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/4/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
@@ -175,7 +175,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/search?patt
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.4.0",
             "link": {
-              "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/4/runs/0",
+              "Href": "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/4/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
@@ -190,7 +190,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/search?patt
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.5.0",
             "link": {
-              "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/5/runs/0",
+              "Href": "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/5/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
@@ -203,7 +203,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/search?patt
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.5.0",
             "link": {
-              "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/5/runs/0",
+              "Href": "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/5/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
@@ -218,7 +218,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/search?patt
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.6.0",
             "link": {
-              "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/6/runs/0",
+              "Href": "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/6/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
@@ -231,7 +231,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/search?patt
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.6.0",
             "link": {
-              "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/6/runs/0",
+              "Href": "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/6/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
@@ -246,7 +246,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/search?patt
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.7.0",
             "link": {
-              "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/7/runs/0",
+              "Href": "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/7/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
@@ -259,7 +259,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/search?patt
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.7.0",
             "link": {
-              "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/7/runs/0",
+              "Href": "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/7/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
@@ -274,7 +274,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/search?patt
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.8.0",
             "link": {
-              "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/8/runs/0",
+              "Href": "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/8/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
@@ -287,7 +287,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/search?patt
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.8.0",
             "link": {
-              "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/8/runs/0",
+              "Href": "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/8/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
@@ -302,7 +302,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/search?patt
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.9.0",
             "link": {
-              "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/9/runs/0",
+              "Href": "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/9/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
@@ -315,7 +315,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/search?patt
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.9.0",
             "link": {
-              "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/9/runs/0",
+              "Href": "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/9/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
@@ -330,7 +330,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/search?patt
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.10.0",
             "link": {
-              "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/10/runs/0",
+              "Href": "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/10/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
@@ -343,7 +343,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/search?patt
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.10.0",
             "link": {
-              "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/10/runs/0",
+              "Href": "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/10/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
@@ -358,7 +358,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/search?patt
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.11.0",
             "link": {
-              "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/11/runs/0",
+              "Href": "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/11/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
@@ -371,7 +371,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/search?patt
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.11.0",
             "link": {
-              "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/11/runs/0",
+              "Href": "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/11/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
@@ -386,7 +386,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/search?patt
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.12.0",
             "link": {
-              "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/12/runs/0",
+              "Href": "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/12/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
@@ -399,7 +399,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/search?patt
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.12.0",
             "link": {
-              "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/12/runs/0",
+              "Href": "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/12/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
@@ -414,7 +414,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/search?patt
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.13.0",
             "link": {
-              "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/13/runs/0",
+              "Href": "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/13/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
@@ -427,7 +427,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/search?patt
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.13.0",
             "link": {
-              "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/13/runs/0",
+              "Href": "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/13/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
@@ -442,7 +442,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/search?patt
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.14.0",
             "link": {
-              "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/14/runs/0",
+              "Href": "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/14/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
@@ -455,7 +455,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/search?patt
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.14.0",
             "link": {
-              "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/14/runs/0",
+              "Href": "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/14/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
@@ -470,7 +470,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/search?patt
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.15.0",
             "link": {
-              "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/15/runs/0",
+              "Href": "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/15/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
@@ -483,7 +483,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/search?patt
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.15.0",
             "link": {
-              "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/15/runs/0",
+              "Href": "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/15/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
@@ -498,7 +498,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/search?patt
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.16.0",
             "link": {
-              "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/16/runs/0",
+              "Href": "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/16/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
@@ -511,7 +511,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/search?patt
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.16.0",
             "link": {
-              "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/16/runs/0",
+              "Href": "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/16/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
@@ -526,7 +526,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/search?patt
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.17.0",
             "link": {
-              "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/17/runs/0",
+              "Href": "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/17/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
@@ -539,7 +539,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/search?patt
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.17.0",
             "link": {
-              "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/17/runs/0",
+              "Href": "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/17/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
@@ -554,7 +554,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/search?patt
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.18.0",
             "link": {
-              "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/18/runs/0",
+              "Href": "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/18/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
@@ -567,7 +567,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/search?patt
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.18.0",
             "link": {
-              "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/18/runs/0",
+              "Href": "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/18/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
@@ -582,7 +582,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/search?patt
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.19.0",
             "link": {
-              "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/19/runs/0",
+              "Href": "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/19/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
@@ -595,7 +595,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/search?patt
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.19.0",
             "link": {
-              "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/19/runs/0",
+              "Href": "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/19/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
@@ -610,7 +610,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/search?patt
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.20.0",
             "link": {
-              "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/20/runs/0",
+              "Href": "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/20/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
@@ -623,7 +623,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/search?patt
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.20.0",
             "link": {
-              "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/20/runs/0",
+              "Href": "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/20/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
@@ -638,7 +638,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/search?patt
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.21.0",
             "link": {
-              "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/21/runs/0",
+              "Href": "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/21/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
@@ -651,7 +651,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/search?patt
             "Text": "Created in the cloud1234 with Aspose.Words for Cloud. http://www.aspose.com/cloud/word-api.aspx",
             "NodeId": "0.21.0",
             "link": {
-              "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/21/runs/0",
+              "Href": "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/0/paragraphs/21/runs/0",
               "Rel": "self",
               "Type": null,
               "Title": null
@@ -666,7 +666,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/search?patt
             "Text": " HYPERLINK \"http://www.aspose.com\" ",
             "NodeId": "5.5.2",
             "link": {
-              "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/5/paragraphs/5/runs/1",
+              "Href": "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/5/paragraphs/5/runs/1",
               "Rel": "self",
               "Type": null,
               "Title": null
@@ -679,7 +679,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/search?patt
             "Text": " HYPERLINK \"http://www.aspose.com\" ",
             "NodeId": "5.5.2",
             "link": {
-              "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/5/paragraphs/5/runs/1",
+              "Href": "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/sections/5/paragraphs/5/runs/1",
               "Rel": "self",
               "Type": null,
               "Title": null
@@ -690,7 +690,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/search?patt
       }
     ],
     "link": {
-      "Href": "http://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/search?pattern=aspose",
+      "Href": "https://api.aspose.cloud/v4.0/words/SampleWordDocument.docx/search?pattern=aspose",
       "Rel": "self",
       "Type": null,
       "Title": null

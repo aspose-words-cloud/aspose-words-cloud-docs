@@ -50,7 +50,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/TablesGet.docx/tables/1/rows" \
         ],
         "NodeId": "0.4.2.0",
         "link": {
-          "Href": "http://api.aspose.cloud/v4.0/words/TablesGet.docx/sections/0/tables/1/rows/2/cells/0",
+          "Href": "https://api.aspose.cloud/v4.0/words/TablesGet.docx/sections/0/tables/1/rows/2/cells/0",
           "Rel": "self",
           "Type": null,
           "Title": null
@@ -61,7 +61,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/TablesGet.docx/tables/1/rows" \
         ],
         "NodeId": "0.4.2.1",
         "link": {
-          "Href": "http://api.aspose.cloud/v4.0/words/TablesGet.docx/sections/0/tables/1/rows/2/cells/1",
+          "Href": "https://api.aspose.cloud/v4.0/words/TablesGet.docx/sections/0/tables/1/rows/2/cells/1",
           "Rel": "self",
           "Type": null,
           "Title": null
@@ -72,7 +72,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/TablesGet.docx/tables/1/rows" \
         ],
         "NodeId": "0.4.2.2",
         "link": {
-          "Href": "http://api.aspose.cloud/v4.0/words/TablesGet.docx/sections/0/tables/1/rows/2/cells/2",
+          "Href": "https://api.aspose.cloud/v4.0/words/TablesGet.docx/sections/0/tables/1/rows/2/cells/2",
           "Rel": "self",
           "Type": null,
           "Title": null
@@ -85,7 +85,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/TablesGet.docx/tables/1/rows" \
       "AllowBreakAcrossPages": true,
       "HeadingFormat": false,
       "link": {
-        "Href": "http://api.aspose.cloud/v4.0/words/TablesGet.docx/sections/0/tables/1/rows/2/rowformat",
+        "Href": "https://api.aspose.cloud/v4.0/words/TablesGet.docx/sections/0/tables/1/rows/2/rowformat",
         "Rel": "self",
         "Type": null,
         "Title": null
@@ -93,7 +93,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/TablesGet.docx/tables/1/rows" \
     },
     "NodeId": "0.4.2",
     "link": {
-      "Href": "http://api.aspose.cloud/v4.0/words/TablesGet.docx/sections/0/tables/1/rows/2",
+      "Href": "https://api.aspose.cloud/v4.0/words/TablesGet.docx/sections/0/tables/1/rows/2",
       "Rel": "self",
       "Type": null,
       "Title": null

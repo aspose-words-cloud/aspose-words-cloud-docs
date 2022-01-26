@@ -40,7 +40,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/TablesGet.docx/tables" \
       {
         "NodeId": "0.1",
         "link": {
-          "Href": "http://api.aspose.cloud/v4.0/words/TablesGet.docx/sections/0/tables/0",
+          "Href": "https://api.aspose.cloud/v4.0/words/TablesGet.docx/sections/0/tables/0",
           "Rel": "self",
           "Type": null,
           "Title": null
@@ -49,7 +49,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/TablesGet.docx/tables" \
       {
         "NodeId": "0.3",
         "link": {
-          "Href": "http://api.aspose.cloud/v4.0/words/TablesGet.docx/sections/0/tables/1",
+          "Href": "https://api.aspose.cloud/v4.0/words/TablesGet.docx/sections/0/tables/1",
           "Rel": "self",
           "Type": null,
           "Title": null
@@ -58,7 +58,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/TablesGet.docx/tables" \
       {
         "NodeId": "0.5",
         "link": {
-          "Href": "http://api.aspose.cloud/v4.0/words/TablesGet.docx/sections/0/tables/2",
+          "Href": "https://api.aspose.cloud/v4.0/words/TablesGet.docx/sections/0/tables/2",
           "Rel": "self",
           "Type": null,
           "Title": null
@@ -67,7 +67,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/TablesGet.docx/tables" \
       {
         "NodeId": "0.5.2.2.1",
         "link": {
-          "Href": "http://api.aspose.cloud/v4.0/words/TablesGet.docx/sections/0/tables/2/rows/2/cells/2/tables/0",
+          "Href": "https://api.aspose.cloud/v4.0/words/TablesGet.docx/sections/0/tables/2/rows/2/cells/2/tables/0",
           "Rel": "self",
           "Type": null,
           "Title": null
@@ -76,7 +76,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/TablesGet.docx/tables" \
       {
         "NodeId": "0.8",
         "link": {
-          "Href": "http://api.aspose.cloud/v4.0/words/TablesGet.docx/sections/0/tables/3",
+          "Href": "https://api.aspose.cloud/v4.0/words/TablesGet.docx/sections/0/tables/3",
           "Rel": "self",
           "Type": null,
           "Title": null
@@ -84,7 +84,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/TablesGet.docx/tables" \
       }
     ],
     "link": {
-      "Href": "http://api.aspose.cloud/v4.0/words/TablesGet.docx/tables",
+      "Href": "https://api.aspose.cloud/v4.0/words/TablesGet.docx/tables",
       "Rel": "self",
       "Type": null,
       "Title": null

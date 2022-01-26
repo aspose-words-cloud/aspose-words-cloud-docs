@@ -51,7 +51,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/TablesGet.docx/tables/1/rows/0/rowf
     "AllowBreakAcrossPages": false,
     "HeadingFormat": true,
     "link": {
-      "Href": "http://api.aspose.cloud/v4.0/words/TablesGet.docx/sections/0/tables/1/rows/0/rowformat",
+      "Href": "https://api.aspose.cloud/v4.0/words/TablesGet.docx/sections/0/tables/1/rows/0/rowformat",
       "Rel": "self",
       "Type": null,
       "Title": null

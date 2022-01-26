@@ -39,7 +39,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_doc.docx/hyperlinks" \
     "DisplayText": "Aspose",
     "Value": "http://www.aspose.com/",
     "link": {
-      "Href": "http://api.aspose.cloud/v4.0/words/test_doc.docx/hyperlinks/0",
+      "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx/hyperlinks/0",
       "Rel": "self",
       "Type": null,
       "Title": null

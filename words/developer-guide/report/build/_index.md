@@ -40,7 +40,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/Report/BuildR
     "SectionLinkList": [
       {
         "link": {
-          "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0",
+          "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0",
           "Rel": "self",
           "Type": null,
           "Title": null
@@ -48,7 +48,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/Report/BuildR
       }
     ],
     "link": {
-      "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections",
+      "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections",
       "Rel": "self",
       "Type": null,
       "Title": null

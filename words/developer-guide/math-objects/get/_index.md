@@ -63,7 +63,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/MathObjects.docx/OfficeMathObjects/
         {
           "NodeId": "0.0.0.0",
           "link": {
-            "Href": "http://api.aspose.cloud/v4.0/words/MathObjects.docx/sections/0/paragraphs/0/OfficeMathObjects/0/OfficeMathObjects/0",
+            "Href": "https://api.aspose.cloud/v4.0/words/MathObjects.docx/sections/0/paragraphs/0/OfficeMathObjects/0/OfficeMathObjects/0",
             "Rel": "self",
             "Type": null,
             "Title": null
@@ -76,7 +76,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/MathObjects.docx/OfficeMathObjects/
     "MathObjectType": "OMathPara",
     "NodeId": "0.0.0",
     "link": {
-      "Href": "http://api.aspose.cloud/v4.0/words/MathObjects.docx/sections/0/paragraphs/0/OfficeMathObjects/0",
+      "Href": "https://api.aspose.cloud/v4.0/words/MathObjects.docx/sections/0/paragraphs/0/OfficeMathObjects/0",
       "Rel": "self",
       "Type": null,
       "Title": null

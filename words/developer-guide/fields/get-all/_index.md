@@ -65,7 +65,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/GetField.docx/sections/0/paragraphs
         "FieldCode": "{ PAGE }",
         "NodeId": "0.0.0",
         "link": {
-          "Href": "http://api.aspose.cloud/v4.0/words/GetField.docx/sections/0/paragraphs/0/fields/0",
+          "Href": "https://api.aspose.cloud/v4.0/words/GetField.docx/sections/0/paragraphs/0/fields/0",
           "Rel": "self",
           "Type": null,
           "Title": null
@@ -73,7 +73,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/GetField.docx/sections/0/paragraphs
       }
     ],
     "link": {
-      "Href": "http://api.aspose.cloud/v4.0/words/GetField.docx/sections/0/paragraphs/0/fields",
+      "Href": "https://api.aspose.cloud/v4.0/words/GetField.docx/sections/0/paragraphs/0/fields",
       "Rel": "self",
       "Type": null,
       "Title": null

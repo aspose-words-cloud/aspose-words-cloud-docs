@@ -49,7 +49,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/documentPrope
     "Value": "Sohail",
     "BuiltIn": false,
     "link": {
-      "Href": "http://api.aspose.cloud/v4.0/words/updated_document.docx/documentProperties/AsposeAuthor",
+      "Href": "https://api.aspose.cloud/v4.0/words/updated_document.docx/documentProperties/AsposeAuthor",
       "Rel": "self",
       "Type": null,
       "Title": null

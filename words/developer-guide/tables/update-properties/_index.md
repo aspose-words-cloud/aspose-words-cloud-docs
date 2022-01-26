@@ -74,7 +74,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/TablesGet.docx/tables/1/properties"
     "TextWrapping": "None",
     "TopPadding": 6.0,
     "link": {
-      "Href": "http://api.aspose.cloud/v4.0/words/TablesGet.docx/sections/0/tables/1/properties",
+      "Href": "https://api.aspose.cloud/v4.0/words/TablesGet.docx/sections/0/tables/1/properties",
       "Rel": "self",
       "Type": null,
       "Title": null

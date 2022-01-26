@@ -93,7 +93,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/paragraphs/0/
     "SuppressLineNumbers": false,
     "WidowControl": true,
     "link": {
-      "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/headersfooters/0/paragraphs/0/format",
+      "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/headersfooters/0/paragraphs/0/format",
       "Rel": "self",
       "Type": null,
       "Title": null

@@ -99,7 +99,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/saveAs" \
 {
   "SaveResult": {
     "SourceDocument": {
-      "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx",
+      "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx",
       "Rel": "self",
       "Type": null,
       "Title": null

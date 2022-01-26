@@ -49,7 +49,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/HeadersFooters.doc/headersfooters/0
   "HeaderFooter": {
     "Paragraphs": {
       "link": {
-        "Href": "http://api.aspose.cloud/v4.0/words/HeadersFooters.doc/sections/0/headersfooters/0/paragraphs",
+        "Href": "https://api.aspose.cloud/v4.0/words/HeadersFooters.doc/sections/0/headersfooters/0/paragraphs",
         "Rel": "self",
         "Type": null,
         "Title": null
@@ -57,7 +57,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/HeadersFooters.doc/headersfooters/0
     },
     "DrawingObjects": {
       "link": {
-        "Href": "http://api.aspose.cloud/v4.0/words/HeadersFooters.doc/sections/0/headersfooters/0/drawingObjects",
+        "Href": "https://api.aspose.cloud/v4.0/words/HeadersFooters.doc/sections/0/headersfooters/0/drawingObjects",
         "Rel": "self",
         "Type": null,
         "Title": null
@@ -65,7 +65,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/HeadersFooters.doc/headersfooters/0
     },
     "Type": "HeaderEven",
     "link": {
-      "Href": "http://api.aspose.cloud/v4.0/words/HeadersFooters.doc/sections/0/headersfooters/0",
+      "Href": "https://api.aspose.cloud/v4.0/words/HeadersFooters.doc/sections/0/headersfooters/0",
       "Rel": "self",
       "Type": null,
       "Title": null
@@ -111,7 +111,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/HeadersFooters.doc/sections/0/heade
   "HeaderFooter": {
     "Paragraphs": {
       "link": {
-        "Href": "http://api.aspose.cloud/v4.0/words/HeadersFooters.doc/sections/0/headersfooters/0/paragraphs",
+        "Href": "https://api.aspose.cloud/v4.0/words/HeadersFooters.doc/sections/0/headersfooters/0/paragraphs",
         "Rel": "self",
         "Type": null,
         "Title": null
@@ -119,7 +119,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/HeadersFooters.doc/sections/0/heade
     },
     "DrawingObjects": {
       "link": {
-        "Href": "http://api.aspose.cloud/v4.0/words/HeadersFooters.doc/sections/0/headersfooters/0/drawingObjects",
+        "Href": "https://api.aspose.cloud/v4.0/words/HeadersFooters.doc/sections/0/headersfooters/0/drawingObjects",
         "Rel": "self",
         "Type": null,
         "Title": null
@@ -127,7 +127,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/HeadersFooters.doc/sections/0/heade
     },
     "Type": "HeaderEven",
     "link": {
-      "Href": "http://api.aspose.cloud/v4.0/words/HeadersFooters.doc/sections/0/headersfooters/0",
+      "Href": "https://api.aspose.cloud/v4.0/words/HeadersFooters.doc/sections/0/headersfooters/0",
       "Rel": "self",
       "Type": null,
       "Title": null

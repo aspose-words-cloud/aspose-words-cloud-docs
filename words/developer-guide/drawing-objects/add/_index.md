@@ -69,25 +69,25 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/drawingObject
   "DrawingObject": {
     "RenderLinks": [
       {
-        "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/paragraphs/7/drawingObjects/0?format=jpeg",
+        "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/paragraphs/7/drawingObjects/0?format=jpeg",
         "Rel": "self",
         "Type": null,
         "Title": null
       },
       {
-        "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/paragraphs/7/drawingObjects/0?format=tiff",
+        "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/paragraphs/7/drawingObjects/0?format=tiff",
         "Rel": "self",
         "Type": null,
         "Title": null
       },
       {
-        "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/paragraphs/7/drawingObjects/0?format=png",
+        "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/paragraphs/7/drawingObjects/0?format=png",
         "Rel": "self",
         "Type": null,
         "Title": null
       },
       {
-        "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/paragraphs/7/drawingObjects/0?format=bmp",
+        "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/paragraphs/7/drawingObjects/0?format=bmp",
         "Rel": "self",
         "Type": null,
         "Title": null
@@ -97,7 +97,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/drawingObject
     "Height": 100.0,
     "OleDataLink": null,
     "ImageDataLink": {
-      "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/paragraphs/7/drawingObjects/0/ImageData",
+      "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/paragraphs/7/drawingObjects/0/ImageData",
       "Rel": "self",
       "Type": null,
       "Title": null
@@ -109,7 +109,7 @@ curl -v "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/drawingObject
     "WrapType": "Inline",
     "NodeId": "0.7.1",
     "link": {
-      "Href": "http://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/paragraphs/7/drawingObjects/0",
+      "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/paragraphs/7/drawingObjects/0",
       "Rel": "self",
       "Type": null,
       "Title": null
