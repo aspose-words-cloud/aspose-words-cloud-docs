@@ -43,7 +43,7 @@ There is a restriction on the usage of multi-column text that will be addressed 
 
 {{% /alert %}}
 
-## REST API calls using cURL and Postman
+## Usage examples with cURL and Postman
 
 You can carry out REST API interactions using the [REST Service Endpoint](https://apireference.aspose.cloud/words/#/Convert/SaveAs) defines a publicly accessible programming interface and lets you run PDF to Word conversions directly from a web browser.
 

@@ -19,7 +19,7 @@ Word document formats are great for collaborative development, but they aren't a
 
 You may require to convert a editable [DOCX](https://docs.fileformat.com/word-processing/docx/) or [DOC](https://docs.fileformat.com/word-processing/doc/) to an immutable [PDF](https://docs.fileformat.com/pdf/) in order to protect document against undesirable modifications.
 
-## REST API calls using cURL and Postman
+## Usage examples with cURL and Postman
 
 You can carry out REST API interactions using the [REST Service Endpoint](https://apireference.aspose.cloud/words/#/Convert/SaveAs) defines a publicly accessible programming interface and lets you run Word to PDF conversions conversions directly from a web browser.
 
