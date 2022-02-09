@@ -23,7 +23,7 @@ You may require to convert a editable [DOCX](https://docs.fileformat.com/word-pr
 
 You can carry out REST API interactions using the [REST Service Endpoint](https://apireference.aspose.cloud/words/#/Convert/SaveAs) defines a publicly accessible programming interface and lets you run Word to PDF conversions conversions directly from a web browser.
 
-You can use **cURL** command-line tool to access Aspose.Words web services and convert Word documents to PDF format easily. The following code demonstrates how to convert DOCX to PDF with cURL. Download sample [sample.docx](sample.docx) and output [sample.pdf](sample.pdf) files designed to act as a demonstration and let you figure out the details quickly.
+You can use **cURL** command-line tool to access Aspose.Words web services and convert Word documents to PDF format easily. The following code demonstrates how to convert DOCX to PDF with cURL. Download sample [sample.docx](sample.docx) and output [sample.pdf](sample.pdf) files for testing purposes.
 
 {{< nosnippet >}}
 {{< tabs tabTotal="3" tabID="1" tabName1="cURL Request" tabName2="Postman Request" tabName3="Server Response" >}}
