@@ -16,7 +16,7 @@ Aspose.Words Cloud provides helper functions to work with files uploaded to Asp
 | :- | :- | :- | :- |
 |/words/storage/file/{path}|GET|Download a File from Storage|[DownloadFile](https://apireference.aspose.cloud/words/#/File/DownloadFile)|
 
-You can use cURL command-line utility to test this REST API. The following examples demonstate how to do it. Please refer to the <a href="/words/getting-started/quickstart/">instructions</a> to get a 'JWT_TOKEN' for authorization.
+You can use cURL command-line utility to test this REST API. The following examples demonstate how to do it. Please read these <a href="/words/getting-started/quickstart/">instructions</a> to receive a personal `JWT_TOKEN` for authorization.
 
 {{< nosnippet >}}
 {{< tabs tabTotal="1" tabID="1" tabName1="Request" >}}

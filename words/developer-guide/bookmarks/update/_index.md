@@ -10,18 +10,16 @@ weight: 30
 
 This REST API updates a `Bookmark`.
 
-The important properties are described below:
+Important properties are the following:
 
 |Property Name|Type|Description|
 | :- | :- | :- |
 |Name|string|Name of the selected bookmark|
 |Text|string|The text contained within this bookmark|
 
-## REST API
+## cURL and Postman
 
-[Aspose.Words Cloud APIs Swagger UI](https://apireference.aspose.cloud/words/#/Bookmarks/UpdateBookmark) defines a publicly accessible programming interface and lets you carry out REST interactions directly from a web browser.
-
-You can use **cURL** and **Postman** to access Aspose.Words Cloud API. The following examples demonstate how to do it. Please refer to the <a href="/words/getting-started/quickstart/">instructions</a> to get a 'JWT_TOKEN' for authorization.
+[Aspose.Words Cloud APIs Swagger UI](https://apireference.aspose.cloud/words/#/Bookmarks/UpdateBookmark). The following examples demonstate how to create requests with **cURL** and **Postman**. Please read these <a href="/words/getting-started/quickstart/">instructions</a> to receive a personal `JWT_TOKEN` for authorization.
 
 {{< nosnippet >}}
 {{< tabs tabTotal="3" tabID="1" tabName1="cURL Request" tabName2="Postman Request" tabName3="Server Response" >}}
@@ -58,11 +56,11 @@ You can use **cURL** and **Postman** to access Aspose.Words Cloud API. The follo
 {{< /tabs >}}
 {{< /nosnippet >}}
 
-## Cloud SDK Family
+## Code samples in Python, Java, C#, JavaScript, PHP, C++, Golang, Ruby, Swift, Dart
 
-Using an SDK is the quickest way for a developer to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Please check out the [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs.
+Using an SDK is the quickest way for a developer to speed up the development. Please go to the [GitHub](https://github.com/aspose-words-cloud) repository to explore a wide family of our Cloud SDKs. These powerful libraries take care of low-level programming details and let you focus on your primary tasks.
 
-The following code examples demonstrate how to make calls to Aspose.Words web services using various SDKs:
+The following code samples show how to interact with REST API using almost any mainstream programming language:
 
 {{< nosnippet >}}
 {{< tabs tabTotal="10" tabID="4" tabName1="Python" tabName2="Java" tabName3="Node.js" tabName4="C#" tabName5="PHP" tabName6="C++" tabName7="Go" tabName8="Ruby" tabName9="Swift" tabName10="Dart" >}}

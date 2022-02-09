@@ -19,11 +19,11 @@ Word document formats are great for collaborative development, but they aren't a
 
 You may require to convert a editable [DOCX](https://docs.fileformat.com/word-processing/docx/) or [DOC](https://docs.fileformat.com/word-processing/doc/) to an immutable [PDF](https://docs.fileformat.com/pdf/) in order to protect document against undesirable modifications.
 
-## REST API
+## cURL and Postman
 
-The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Convert/SaveAs) defines a publicly accessible programming interface and lets you run Word to PDF conversions conversions directly from a web browser.
+You can carry out REST API interactions using the [REST Service Endpoint](https://apireference.aspose.cloud/words/#/Convert/SaveAs) defines a publicly accessible programming interface and lets you run Word to PDF conversions conversions directly from a web browser.
 
-You can use **cURL** command-line tool to access Aspose.Words web services and convert Word documents to PDF format easily. The following code demonstrates how to convert DOCX to PDF with cURL. Feel free to download and explore sample input [sample.docx](sample.docx) and output [sample.pdf](sample.pdf) files designed to act as a demonstration and let you figure out the details quickly.
+You can use **cURL** command-line tool to access Aspose.Words web services and convert Word documents to PDF format easily. The following code demonstrates how to convert DOCX to PDF with cURL. Download sample [sample.docx](sample.docx) and output [sample.pdf](sample.pdf) files designed to act as a demonstration and let you figure out the details quickly.
 
 {{< nosnippet >}}
 {{< tabs tabTotal="3" tabID="1" tabName1="cURL Request" tabName2="Postman Request" tabName3="Server Response" >}}
@@ -66,9 +66,9 @@ You can use **cURL** command-line tool to access Aspose.Words web services and c
 {{< /tabs >}}
 {{< /nosnippet >}}
 
-## Cloud SDK Family
+## Code samples in Python, Java, C#, JavaScript, PHP, C++, Golang, Ruby, Swift, Dart
 
-Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks.
+Using SDK is the best way to speed up the development. Our Cloud SDKs take care of low-level details and let you focus on your primary tasks.
 
 Please check out the [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words SDKs.
 

@@ -17,18 +17,9 @@ Task to split a [DOCX](https://docs.fileformat.com/word-processing/docx/) docume
 
 Using this API you can easily split a [DOC](https://docs.fileformat.com/word-processing/doc/), [DOT](https://docs.fileformat.com/word-processing/dot/), [DOCX](https://docs.fileformat.com/word-processing/docx/), [DOTX](https://docs.fileformat.com/word-processing/dotx/), [RTF](https://docs.fileformat.com/word-processing/rtf/), [ODT](https://docs.fileformat.com/word-processing/odt/), [OTT](https://docs.fileformat.com/word-processing/ott/), [TXT](https://docs.fileformat.com/word-processing/txt/) document and save the results to [DOC](https://docs.fileformat.com/word-processing/doc/), [DOCX](https://docs.fileformat.com/word-processing/docx/), [PDF](https://docs.fileformat.com/pdf/), [ODT](https://docs.fileformat.com/word-processing/odt/), [RTF](https://docs.fileformat.com/word-processing/rtf/), [HTML](https://docs.fileformat.com/web/html/), [JPEG](https://docs.fileformat.com/image/jpeg/), [PNG](https://docs.fileformat.com/Image/png/) and many other file formats.
 
-## REST API
+## cURL and Postman
 
-The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Split/SplitDocument) defines a publicly accessible programming interface and lets you carry out REST interactions directly from a web browser. The description of the important parameters of the API is given below:
-
-|Parameter Name|Type|Description|
-| :- | :- | :- |
-|format|string|If the format is specified, the response contains the conversion data. Please see the table below for valid formats.|
-|from|int|The start page number for splitting, if it is not specified, splitting starts from the first page of the document.|
-|to|int|The last page number for splitting, if it is not specified, splitting ends at the last page of the document.|
-|zipOutput|bool|ZipOutput or not.|
-
-You can use **cURL** and **Postman** to access Aspose.Words Cloud API. The following examples demonstate how to do it. Please refer to the <a href="/words/getting-started/quickstart/">instructions</a> to get a 'JWT_TOKEN' for authorization.
+You can carry out REST API interactions using **cURL** and **Postman**. Please read these <a href="/words/getting-started/quickstart/">instructions</a> to receive a personal `JWT_TOKEN` for authorization.
 
 {{< nosnippet >}}
 {{< tabs tabTotal="3" tabID="1" tabName1="cURL Request" tabName2="Postman Request" tabName3="Server Response" >}}
@@ -69,11 +60,11 @@ You can use **cURL** and **Postman** to access Aspose.Words Cloud API. The follo
 {{< /tabs >}}
 {{< /nosnippet >}}
 
-## Cloud SDK Family
+## Code samples in Python, Java, C#, JavaScript, PHP, C++, Golang, Ruby, Swift, Dart
 
-Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Please check out the [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs.
+Using SDK is the best way to speed up the development. Please go to the [GitHub](https://github.com/aspose-words-cloud) repository to explore a wide family of our Cloud SDKs. These powerful libraries take care of low-level programming details and let you focus on your primary tasks.
 
-The following code examples demonstrate how to make calls to Aspose.Words web services using various SDKs:
+The following code samples show how to interact with REST API using almost any mainstream programming language:
 
 ### Split DOCX to PDFs
 

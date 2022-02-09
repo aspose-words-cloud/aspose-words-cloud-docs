@@ -10,7 +10,7 @@ weight: 40
 
 This REST API retrieves a Header or a Footer.
 
-## REST API
+## cURL and Postman
 
 ```JAVA
 ~/{file-name}/headersFooters/{index}
@@ -21,9 +21,7 @@ This REST API retrieves a Header or a Footer.
 - *{sectionIndex}* is the index of a section that contains headers and footers. If this syntax is used, only elements within a specified section are returned.
 - *{index}* is the index of specific header/footer.
 
-The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/HeadersFooters/GetHeaderFooter) defines a publicly accessible programming interface and lets you carry out REST interactions directly from a web browser. 
-
-You can use **cURL** and **Postman** to access Aspose.Words Cloud API. The following examples demonstate how to do it. Please refer to the <a href="/words/getting-started/quickstart/">instructions</a> to get a 'JWT_TOKEN' for authorization.
+You can carry out REST API interactions using **cURL** and **Postman**. Please read these <a href="/words/getting-started/quickstart/">instructions</a> to receive a personal `JWT_TOKEN` for authorization.
 
 **Case 1**: Get a Header or Footer in a Document
 
@@ -137,11 +135,11 @@ curl -v "https://api.aspose.cloud/v4.0/words/HeadersFooters.doc/sections/0/heade
 {{< /tabs >}}
 {{< /nosnippet >}}
 
-## Cloud SDK Family
+## Code samples in Python, Java, C#, JavaScript, PHP, C++, Golang, Ruby, Swift, Dart
 
-Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Please check out the [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs.
+Using SDK is the best way to speed up the development. Please go to the [GitHub](https://github.com/aspose-words-cloud) repository to explore a wide family of our Cloud SDKs. These powerful libraries take care of low-level programming details and let you focus on your primary tasks.
 
-The following code examples demonstrate how to make calls to Aspose.Words web services using various SDKs:
+The following code samples show how to interact with REST API using almost any mainstream programming language:
 
 **Case 1: Get a Header or Footer in a Document**
 

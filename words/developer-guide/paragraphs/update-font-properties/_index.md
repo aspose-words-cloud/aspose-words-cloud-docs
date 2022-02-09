@@ -10,7 +10,7 @@ weight: 120
 
 This article explains how to format the text. Using [PUT /words/{name}/{paragraphPath}/runs/{index}/font](https://apireference.aspose.cloud/words/#/Runs/UpdateRunFont) API you can update font properties of the text.
 
-## REST API
+## cURL and Postman
 
 ```JAVA
 ~/{file-name}/{paragraphPath}/runs/{index}/font
@@ -23,7 +23,7 @@ This article explains how to format the text. Using [PUT /words/{name}/{paragrap
   - *sections/{sectionIndex}/paragraphs/{paragraphIndex}* - references a paragraph within a section.
 - *{index}* is an index of a run.
 
-The important properties are described below:
+Important properties are the following:
 
 |Property Name|Type|Description|
 | :- | :- | :- |
@@ -66,9 +66,7 @@ The important properties are described below:
 |Superscript|bool|True if the font is formatted as superscript.|
 |TextEffect|TextEffect|Specifies the font animation effect.|
 |Underline|Underline|Specifies the type of underline applied to the font.|
-|UnderlineColor|Color|Specifies the color of the underline applied to the font.|
-
-You can use **cURL** and **Postman** to access Aspose.Words Cloud API. The following examples demonstate how to do it. Please refer to the <a href="/words/getting-started/quickstart/">instructions</a> to get a 'JWT_TOKEN' for authorization. Feel free to download and explore sample input [SampleWordDocument.docx](SampleWordDocument.docx) and output [ResultWordDocument.docx](ResultWordDocument.docx) files designed to act as a demonstration and let you figure out the details quickly.
+|UnderlineColor|Color|Specifies the color of the underline applied to the font.|The following examples demonstate how to create requests with **cURL** and **Postman**. Please read these <a href="/words/getting-started/quickstart/">instructions</a> to receive a personal `JWT_TOKEN` for authorization. Download sample [SampleWordDocument.docx](SampleWordDocument.docx) and output [ResultWordDocument.docx](ResultWordDocument.docx) files designed to act as a demonstration and let you figure out the details quickly.
 
 {{< nosnippet >}}
 {{< tabs tabTotal="3" tabID="1" tabName1="cURL Request" tabName2="Postman Request" tabName3="Server Response" >}}
@@ -162,13 +160,13 @@ You can use **cURL** and **Postman** to access Aspose.Words Cloud API. The follo
 {{< /tabs >}}
 {{< /nosnippet >}}
 
-## Cloud SDK Family
+## Code samples in Python, Java, C#, JavaScript, PHP, C++, Golang, Ruby, Swift, Dart
 
-Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks.
+Using SDK is the best way to speed up the development. Our Cloud SDKs take care of low-level details and let you focus on your primary tasks.
 
 Please check out the [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words SDKs.
 
-The following code examples demonstrate how to make calls to Aspose.Words web services using various SDKs:
+The following code samples show how to interact with REST API using almost any mainstream programming language:
 
 {{< nosnippet >}}
 {{< tabs tabTotal="10" tabID="4" tabName1="Python" tabName2="Java" tabName3="Node.js" tabName4="C#" tabName5="PHP" tabName6="C++" tabName7="Go" tabName8="Ruby" tabName9="Swift" tabName10="Dart" >}}

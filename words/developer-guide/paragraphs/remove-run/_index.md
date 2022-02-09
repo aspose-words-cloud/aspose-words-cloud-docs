@@ -10,7 +10,7 @@ weight: 100
 
 This REST API removes a `Run` from a `Paragraph`.
 
-## REST API
+## cURL and Postman
 
 ```JAVA
 ~/{file-name}/{paragraphPath}/runs/{index}
@@ -23,9 +23,7 @@ This REST API removes a `Run` from a `Paragraph`.
   - *sections/{sectionIndex}/paragraphs/{paragraphIndex}* - references a paragraph within a section.
 - *{index}* is an index of a run.
 
-The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Runs/DeleteRun) defines a publicly accessible programming interface and lets you carry out REST interactions directly from a web browser.
-
-You can use **cURL** and **Postman** to access Aspose.Words Cloud API. The following examples demonstate how to do it. Please refer to the <a href="/words/getting-started/quickstart/">instructions</a> to get a 'JWT_TOKEN' for authorization.
+You can carry out REST API interactions using **cURL** and **Postman**. Please read these <a href="/words/getting-started/quickstart/">instructions</a> to receive a personal `JWT_TOKEN` for authorization.
 
 {{< nosnippet >}}
 {{< tabs tabTotal="3" tabID="2" tabName1="cURL Request" tabName2="Postman Request" tabName3="Server Response" >}}
@@ -52,11 +50,11 @@ You can use **cURL** and **Postman** to access Aspose.Words Cloud API. The follo
 {{< /tabs >}}
 {{< /nosnippet >}}
 
-## Cloud SDK Family
+## Code samples in Python, Java, C#, JavaScript, PHP, C++, Golang, Ruby, Swift, Dart
 
-Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Please check out the [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words Cloud SDKs.
+Using SDK is the best way to speed up the development. Please go to the [GitHub](https://github.com/aspose-words-cloud) repository to explore a wide family of our Cloud SDKs. These powerful libraries take care of low-level programming details and let you focus on your primary tasks.
 
-The following code examples demonstrate how to make calls to Aspose.Words web services using various SDKs:
+The following code samples show how to interact with REST API using almost any mainstream programming language:
 
 {{< nosnippet >}}
 {{< tabs tabTotal="11" tabID="5" tabName1="Python" tabName2="Java" tabName3="Node.js" tabName4="C#" tabName5="PHP" tabName6="C++" tabName7="Go" tabName8="Ruby" tabName9="Swift" tabName10="Dart" tabName11="Curl" >}}

@@ -18,7 +18,7 @@ The following elements can be rendered:
 - drawingObject
 - officeMathObject
 
-The request parameters are the following:
+Request parameters are the following:
 
 |Parameter Name|Type|Query String/HTTPBody|Description|
 | :- | :- | :- | :- |
@@ -35,17 +35,9 @@ The following formats are supported:
 |svg|Scalable Vector Graphics File|
 |tiff|Tagged Image File Format|
 
-## REST API
+## cURL and Postman
 
-The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Render) lets you call the following REST APIs directly from a browser:
-
-- [Renders page to a specified format](https://apireference.aspose.cloud/words/#/Render/RenderPage).
-- [Renders paragraph to a specified format](https://apireference.aspose.cloud/words/#/Render/RenderParagraph).
-- [Renders table to a specified format](https://apireference.aspose.cloud/words/#/Render/RenderTable).
-- [Renders drawing object to a specified format](https://apireference.aspose.cloud/words/#/Render/RenderDrawingObject).
-- [Renders math object to a specified format](https://apireference.aspose.cloud/words/#/Render/RenderMathObject).
-
-You can use **cURL** and **Postman** to access Aspose.Words Cloud API. The following examples demonstate how to do it. Please refer to the <a href="/words/getting-started/quickstart/">instructions</a> to get a 'JWT_TOKEN' for authorization.
+You can carry out REST API interactions using **cURL** and **Postman**. Please read these <a href="/words/getting-started/quickstart/">instructions</a> to receive a personal `JWT_TOKEN` for authorization.
 
 **Case 1**: Render a page of the document in BMP format:
 
@@ -203,7 +195,7 @@ PNG File
 {{< /tabs >}}
 {{< /nosnippet >}}
 
-The following code examples demonstrate how to make calls to Aspose.Words web services using various SDKs:
+The following code samples show how to interact with REST API using almost any mainstream programming language:
 
 **Case 1**: Renders Page to Specified Format
 

@@ -36,15 +36,13 @@ The cleanup options parameter can contain a list of values from below, separated
 
 Both **JSON** and **XML** data formats are supported. Choosing the appropriate data format makes a difference in flexibility, scalability and performance speed of your application. XML and JSON have much in common with their own strengths and drawbacks. You need to determine which one is the most preferred for your purposes.
 
-## REST API
+## cURL and Postman
 
-The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/MailMerge/ExecuteMailMergeOnline) defines a publicly accessible programming interface and lets you carry out REST interactions directly from a web browser.
-
-You can use **cURL** and **Postman** to access Aspose.Words Cloud API. The following examples demonstate how to do it. Please refer to the <a href="/words/getting-started/quickstart/">instructions</a> to get a 'JWT_TOKEN' for authorization.
+You can carry out REST API interactions using **cURL** and **Postman**. Please read these <a href="/words/getting-started/quickstart/">instructions</a> to receive a personal `JWT_TOKEN` for authorization.
 
 **Case 1**: MailMerge Template
 
-Feel free to download and explore sample input [SampleMailMergeTemplate.docx](/words/mail-merge/SampleMailMergeTemplate.docx), [SampleMailMergeTemplateData.xml](/words/mail-merge/SampleMailMergeTemplateData.xml) and output [TestPostDocumentExecuteMailMerge.docx](/words/mail-merge/TestPostDocumentExecuteMailMerge.docx) files designed to act as a demonstration and let you figure out the details quickly.
+Download sample [SampleMailMergeTemplate.docx](/words/mail-merge/SampleMailMergeTemplate.docx), [SampleMailMergeTemplateData.xml](/words/mail-merge/SampleMailMergeTemplateData.xml) and output [TestPostDocumentExecuteMailMerge.docx](/words/mail-merge/TestPostDocumentExecuteMailMerge.docx) files designed to act as a demonstration and let you figure out the details quickly.
 
 {{< nosnippet >}}
 {{< tabs tabTotal="3" tabID="1" tabName1="cURL Request" tabName2="Postman Request" tabName3="Server Response" >}}
@@ -70,7 +68,7 @@ Output Document: TestPostDocumentExecuteMailMerge.docx
 
 **Case 2**: Mustache Template
 
-Feel free to download and explore sample input [TestExecuteTemplate.doc](/words/mail-merge/TestExecuteTemplate.doc), [TestExecuteTemplateData.xml](/words/mail-merge/TestExecuteTemplateData.xml) and output [TestPostExecuteTemplate.docx](/words/mail-merge/TestPostExecuteTemplate.docx) files designed to act as a demonstration and let you figure out the details quickly.
+Download sample [TestExecuteTemplate.doc](/words/mail-merge/TestExecuteTemplate.doc), [TestExecuteTemplateData.xml](/words/mail-merge/TestExecuteTemplateData.xml) and output [TestPostExecuteTemplate.docx](/words/mail-merge/TestPostExecuteTemplate.docx) files designed to act as a demonstration and let you figure out the details quickly.
 
 {{< nosnippet >}}
 {{< tabs tabTotal="3" tabID="4" tabName1="cURL Request" tabName2="Postman Request" tabName3="Server Response" >}}
@@ -105,13 +103,13 @@ Output Document: TestPostExecuteTemplate.docx
 {{< /tabs >}}
 {{< /nosnippet >}}
 
-## Cloud SDK Family
+## Code samples in Python, Java, C#, JavaScript, PHP, C++, Golang, Ruby, Swift, Dart
 
-Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks.
+Using SDK is the best way to speed up the development. Our Cloud SDKs take care of low-level details and let you focus on your primary tasks.
 
 Please check out the [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words SDKs.
 
-The following code examples demonstrate how to make calls to Aspose.Words web services using various SDKs:
+The following code samples show how to interact with REST API using almost any mainstream programming language:
 
 {{< nosnippet >}}
 {{< tabs tabTotal="11" tabID="7" tabName1="Python" tabName2="Java" tabName3="Node.js" tabName4="C#" tabName5="PHP" tabName6="C++" tabName7="Go" tabName8="Ruby" tabName9="Swift" tabName10="Dart" tabName11="Curl" >}}
