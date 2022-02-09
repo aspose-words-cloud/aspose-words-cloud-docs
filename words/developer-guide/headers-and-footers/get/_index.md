@@ -10,7 +10,7 @@ weight: 40
 
 This REST API retrieves a Header or a Footer.
 
-## cURL and Postman
+## REST API calls using cURL and Postman
 
 ```JAVA
 ~/{file-name}/headersFooters/{index}
@@ -21,7 +21,7 @@ This REST API retrieves a Header or a Footer.
 - *{sectionIndex}* is the index of a section that contains headers and footers. If this syntax is used, only elements within a specified section are returned.
 - *{index}* is the index of specific header/footer.
 
-You can carry out REST API interactions using **cURL** and **Postman**. Please read these <a href="/words/getting-started/quickstart/">instructions</a> to receive a personal `JWT_TOKEN` for authorization.
+You can carry out REST API interactions using `cURL` and `Postman`. Please read these <a href="/words/getting-started/quickstart/">instructions</a> to receive a personal `JWT_TOKEN` for authorization.
 
 **Case 1**: Get a Header or Footer in a Document
 
@@ -135,11 +135,13 @@ curl -v "https://api.aspose.cloud/v4.0/words/HeadersFooters.doc/sections/0/heade
 {{< /tabs >}}
 {{< /nosnippet >}}
 
-## Code samples in Python, Java, C#, JavaScript, PHP, C++, Golang, Ruby, Swift, Dart
+## Cloud SDK Family
 
-Using SDK is the best way to speed up the development. Please go to the [GitHub](https://github.com/aspose-words-cloud) repository to explore a wide family of our Cloud SDKs. These powerful libraries take care of low-level programming details and let you focus on your primary tasks.
+Using SDK is the best way to speed up the development. Please go to the [GitHub](https://github.com/aspose-words-cloud) repository to explore a wide family of our Cloud SDKs. These powerful libraries take care of all low-level programming details and let you focus on your primary tasks.
 
-The following code samples show how to interact with REST API using almost any mainstream programming language:
+## Code samples in Python, Java, C#, etc.
+
+The following code samples show how to interact with REST API using almost any mainstream programming language (Python, Java, C#, JavaScript, PHP, C++, Golang, Ruby, Swift, Dart):
 
 **Case 1: Get a Header or Footer in a Document**
 

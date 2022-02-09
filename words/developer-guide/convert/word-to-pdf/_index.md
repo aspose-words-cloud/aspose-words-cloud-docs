@@ -19,7 +19,7 @@ Word document formats are great for collaborative development, but they aren't a
 
 You may require to convert a editable [DOCX](https://docs.fileformat.com/word-processing/docx/) or [DOC](https://docs.fileformat.com/word-processing/doc/) to an immutable [PDF](https://docs.fileformat.com/pdf/) in order to protect document against undesirable modifications.
 
-## cURL and Postman
+## REST API calls using cURL and Postman
 
 You can carry out REST API interactions using the [REST Service Endpoint](https://apireference.aspose.cloud/words/#/Convert/SaveAs) defines a publicly accessible programming interface and lets you run Word to PDF conversions conversions directly from a web browser.
 
@@ -66,7 +66,7 @@ You can use **cURL** command-line tool to access Aspose.Words web services and c
 {{< /tabs >}}
 {{< /nosnippet >}}
 
-## Code samples in Python, Java, C#, JavaScript, PHP, C++, Golang, Ruby, Swift, Dart
+## Cloud SDK Family
 
 Using SDK is the best way to speed up the development. Our Cloud SDKs take care of low-level details and let you focus on your primary tasks.
 

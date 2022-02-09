@@ -24,7 +24,7 @@ Important properties are the following:
 |imageDataLink|link|Link to embedded image resource, if present.|
 |oleDataLink|link|Link to embedded OLE resource, if present.|
 
-## cURL and Postman
+## REST API calls using cURL and Postman
 
 The following URIs are used to address REST resources:
 
@@ -41,7 +41,9 @@ The following URIs are used to address REST resources:
   - *sections/{sectionIndex}/paragraphs/{paragraphIndex}* - references a paragraph within a section.
 - *{index}* is an index of a drawing object.
 
-You can carry out REST API interactions using **cURL** and **Postman**. Please read these <a href="/words/getting-started/quickstart/">instructions</a> to receive a personal `JWT_TOKEN` for authorization. Download sample [test_multi_pages.docx](test_multi_pages.docx) and output [drawingObject.png](drawingObject.png) files designed to act as a demonstration and let you figure out the details quickly.
+You can carry out REST API interactions using `cURL` and `Postman`. Please read these <a href="/words/getting-started/quickstart/">instructions</a> to receive a personal `JWT_TOKEN` for authorization.
+
+Download sample [test_multi_pages.docx](test_multi_pages.docx) and output [drawingObject.png](drawingObject.png) files designed to act as a demonstration and let you figure out the details quickly.
 
 {{< nosnippet >}}
 {{< tabs tabTotal="3" tabID="2" tabName1="cURL Request" tabName2="Postman Request" tabName3="Server Response" >}}
@@ -65,11 +67,13 @@ drawingObject.png file
 {{< /tabs >}}
 {{< /nosnippet >}}
 
-## Code samples in Python, Java, C#, JavaScript, PHP, C++, Golang, Ruby, Swift, Dart
+## Cloud SDK Family
 
-Using SDK is the best way to speed up the development. Please go to the [GitHub](https://github.com/aspose-words-cloud) repository to explore a wide family of our Cloud SDKs. These powerful libraries take care of low-level programming details and let you focus on your primary tasks.
+Using SDK is the best way to speed up the development. Please go to the [GitHub](https://github.com/aspose-words-cloud) repository to explore a wide family of our Cloud SDKs. These powerful libraries take care of all low-level programming details and let you focus on your primary tasks.
 
-The following code samples show how to interact with REST API using almost any mainstream programming language:
+## Code samples in Python, Java, C#, etc.
+
+The following code samples show how to interact with REST API using almost any mainstream programming language (Python, Java, C#, JavaScript, PHP, C++, Golang, Ruby, Swift, Dart):
 
 {{< nosnippet >}}
 {{< tabs tabTotal="11" tabID="5" tabName1="Python" tabName2="Java" tabName3="Node.js" tabName4="C#" tabName5="PHP" tabName6="C++" tabName7="Go" tabName8="Ruby" tabName9="Swift" tabName10="Dart" tabName11="Curl" >}}

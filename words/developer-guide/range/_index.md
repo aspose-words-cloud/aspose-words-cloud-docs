@@ -474,9 +474,9 @@ curl -v "https://api.aspose.cloud/v4.0/words/MyDocument.docx/range/id0.0/id0.2:e
 {{< /tabs >}}
 {{< /nosnippet >}}
 
-## Code samples in Python, Java, C#, JavaScript, PHP, C++, Golang, Ruby, Swift, Dart
+## Cloud SDK Family
 
-Using SDK is the best way to speed up the development. Please go to the [GitHub](https://github.com/aspose-words-cloud) repository to explore a wide family of our Cloud SDKs. These powerful libraries take care of low-level programming details and let you focus on your primary tasks.
+Using SDK is the best way to speed up the development. Please go to the [GitHub](https://github.com/aspose-words-cloud) repository to explore a wide family of our Cloud SDKs. These powerful libraries take care of all low-level programming details and let you focus on your primary tasks.
 
 The following set of **Code Examples** for various SDKs demonstrates how to use this REST API in your projects.
 

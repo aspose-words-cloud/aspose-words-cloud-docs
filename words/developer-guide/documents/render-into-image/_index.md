@@ -35,9 +35,9 @@ The following formats are supported:
 |svg|Scalable Vector Graphics File|
 |tiff|Tagged Image File Format|
 
-## cURL and Postman
+## REST API calls using cURL and Postman
 
-You can carry out REST API interactions using **cURL** and **Postman**. Please read these <a href="/words/getting-started/quickstart/">instructions</a> to receive a personal `JWT_TOKEN` for authorization.
+You can carry out REST API interactions using `cURL` and `Postman`. Please read these <a href="/words/getting-started/quickstart/">instructions</a> to receive a personal `JWT_TOKEN` for authorization.
 
 **Case 1**: Render a page of the document in BMP format:
 
@@ -195,7 +195,9 @@ PNG File
 {{< /tabs >}}
 {{< /nosnippet >}}
 
-The following code samples show how to interact with REST API using almost any mainstream programming language:
+## Code samples in Python, Java, C#, etc.
+
+The following code samples show how to interact with REST API using almost any mainstream programming language (Python, Java, C#, JavaScript, PHP, C++, Golang, Ruby, Swift, Dart):
 
 **Case 1**: Renders Page to Specified Format
 

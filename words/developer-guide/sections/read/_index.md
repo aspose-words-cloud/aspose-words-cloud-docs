@@ -45,9 +45,9 @@ The resource properties are the following:
 |TopMargin|double|Specifies the distance (in points) between the top edge of the page and the top boundary of the body text.|
 |VerticalAlignment|PageVerticalAlignment|Specifies the vertical alignment of text on each page in a document or section.|
 
-## cURL and Postman
+## REST API calls using cURL and Postman
 
-You can carry out REST API interactions using **cURL** and **Postman**. Please read these <a href="/words/getting-started/quickstart/">instructions</a> to receive a personal `JWT_TOKEN` for authorization.
+You can carry out REST API interactions using `cURL` and `Postman`. Please read these <a href="/words/getting-started/quickstart/">instructions</a> to receive a personal `JWT_TOKEN` for authorization.
 
 {{< nosnippet >}}
 {{< tabs tabTotal="3" tabID="1" tabName1="cURL Request" tabName2="Postman Request" tabName3="Server Response" >}}
@@ -111,11 +111,13 @@ You can carry out REST API interactions using **cURL** and **Postman**. Please r
 {{< /tabs >}}
 {{< /nosnippet >}}
 
-## Code samples in Python, Java, C#, JavaScript, PHP, C++, Golang, Ruby, Swift, Dart
+## Cloud SDK Family
 
-Using SDK is the best way to speed up the development. Please go to the [GitHub](https://github.com/aspose-words-cloud) repository to explore a wide family of our Cloud SDKs. These powerful libraries take care of low-level programming details and let you focus on your primary tasks.
+Using SDK is the best way to speed up the development. Please go to the [GitHub](https://github.com/aspose-words-cloud) repository to explore a wide family of our Cloud SDKs. These powerful libraries take care of all low-level programming details and let you focus on your primary tasks.
 
-The following code samples show how to interact with REST API using almost any mainstream programming language:
+## Code samples in Python, Java, C#, etc.
+
+The following code samples show how to interact with REST API using almost any mainstream programming language (Python, Java, C#, JavaScript, PHP, C++, Golang, Ruby, Swift, Dart):
 
 {{< nosnippet >}}
 {{< tabs tabTotal="10" tabID="4" tabName1="Python" tabName2="Java" tabName3="Node.js" tabName4="C#" tabName5="PHP" tabName6="C++" tabName7="Go" tabName8="Ruby" tabName9="Swift" tabName10="Dart" >}}

@@ -43,7 +43,7 @@ There is a restriction on the usage of multi-column text that will be addressed 
 
 {{% /alert %}}
 
-## cURL and Postman
+## REST API calls using cURL and Postman
 
 You can carry out REST API interactions using the [REST Service Endpoint](https://apireference.aspose.cloud/words/#/Convert/SaveAs) defines a publicly accessible programming interface and lets you run PDF to Word conversions directly from a web browser.
 
@@ -90,7 +90,7 @@ You can use **cURL** command-line tool to access Aspose.Words web services and c
 {{< /tabs >}}
 {{< /nosnippet >}}
 
-## Code samples in Python, Java, C#, JavaScript, PHP, C++, Golang, Ruby, Swift, Dart
+## Cloud SDK Family
 
 Using SDK is the best way to speed up the development. Our Cloud SDKs take care of low-level details and let you focus on your primary tasks.
 

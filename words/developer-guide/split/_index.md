@@ -17,9 +17,9 @@ Task to split a [DOCX](https://docs.fileformat.com/word-processing/docx/) docume
 
 Using this API you can easily split a [DOC](https://docs.fileformat.com/word-processing/doc/), [DOT](https://docs.fileformat.com/word-processing/dot/), [DOCX](https://docs.fileformat.com/word-processing/docx/), [DOTX](https://docs.fileformat.com/word-processing/dotx/), [RTF](https://docs.fileformat.com/word-processing/rtf/), [ODT](https://docs.fileformat.com/word-processing/odt/), [OTT](https://docs.fileformat.com/word-processing/ott/), [TXT](https://docs.fileformat.com/word-processing/txt/) document and save the results to [DOC](https://docs.fileformat.com/word-processing/doc/), [DOCX](https://docs.fileformat.com/word-processing/docx/), [PDF](https://docs.fileformat.com/pdf/), [ODT](https://docs.fileformat.com/word-processing/odt/), [RTF](https://docs.fileformat.com/word-processing/rtf/), [HTML](https://docs.fileformat.com/web/html/), [JPEG](https://docs.fileformat.com/image/jpeg/), [PNG](https://docs.fileformat.com/Image/png/) and many other file formats.
 
-## cURL and Postman
+## REST API calls using cURL and Postman
 
-You can carry out REST API interactions using **cURL** and **Postman**. Please read these <a href="/words/getting-started/quickstart/">instructions</a> to receive a personal `JWT_TOKEN` for authorization.
+You can carry out REST API interactions using `cURL` and `Postman`. Please read these <a href="/words/getting-started/quickstart/">instructions</a> to receive a personal `JWT_TOKEN` for authorization.
 
 {{< nosnippet >}}
 {{< tabs tabTotal="3" tabID="1" tabName1="cURL Request" tabName2="Postman Request" tabName3="Server Response" >}}
@@ -60,11 +60,13 @@ You can carry out REST API interactions using **cURL** and **Postman**. Please r
 {{< /tabs >}}
 {{< /nosnippet >}}
 
-## Code samples in Python, Java, C#, JavaScript, PHP, C++, Golang, Ruby, Swift, Dart
+## Cloud SDK Family
 
-Using SDK is the best way to speed up the development. Please go to the [GitHub](https://github.com/aspose-words-cloud) repository to explore a wide family of our Cloud SDKs. These powerful libraries take care of low-level programming details and let you focus on your primary tasks.
+Using SDK is the best way to speed up the development. Please go to the [GitHub](https://github.com/aspose-words-cloud) repository to explore a wide family of our Cloud SDKs. These powerful libraries take care of all low-level programming details and let you focus on your primary tasks.
 
-The following code samples show how to interact with REST API using almost any mainstream programming language:
+## Code samples in Python, Java, C#, etc.
+
+The following code samples show how to interact with REST API using almost any mainstream programming language (Python, Java, C#, JavaScript, PHP, C++, Golang, Ruby, Swift, Dart):
 
 ### Split DOCX to PDFs
 
