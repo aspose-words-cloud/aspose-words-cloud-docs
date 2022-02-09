@@ -1,11 +1,11 @@
----
+﻿---
 title: "Page"
 second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /spec/page/
 description: "Page"
 notoc: true
-weight: 340
+weight: 350
 ---
 
 
@@ -33,7 +33,7 @@ weight: 340
   <tr>
     <td style="vertical-align:middle;" class="bg-white" rowspan="2"><strong><i>Render</i><strong></td>
     <td style="vertical-align:middle;" class="bg-white"><a href="#renderpageonlinerequest">RenderPageOnlineRequest</a></td>
-    <td style="vertical-align:middle;" class="bg-white" rowspan="2" colspan="2"><span style="color:SteelBlue;">Stream</span></td>
+    <td style="vertical-align:middle;" class="bg-white" rowspan="2" colspan="2"><span style="color:SteelBlue;">System.IO.Stream</span></td>
     <td style="vertical-align:middle;" class="bg-white" rowspan="2"></td>
   </tr>
   <tr>
@@ -66,7 +66,7 @@ Represents a request model for [WordsApi.InsertPageNumbersOnline()](/words/inser
 An object of the **InsertPageNumbersOnlineRequest** class is created by the following constructor methods:
 
 - InsertPageNumbersOnlineRequest()
-- InsertPageNumbersOnlineRequest(<span style="color:SteelBlue;">Stream</span> ***document***, [PageNumber](#pagenumber) ***pageNumber***, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *destFileName*, <span style="color:SteelBlue;">string</span> *revisionAuthor*, <span style="color:SteelBlue;">string</span> *revisionDateTime*)
+- InsertPageNumbersOnlineRequest(<span style="color:SteelBlue;">Stream</span> ***document***, [PageNumber](#pagenumber) ***pageNumber***, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *encryptedPassword*, <span style="color:SteelBlue;">string</span> *destFileName*, <span style="color:SteelBlue;">string</span> *revisionAuthor*, <span style="color:SteelBlue;">string</span> *revisionDateTime*)
 
 Each of those arguments initializes the corresponding self-titled property:
 
@@ -75,7 +75,8 @@ Each of those arguments initializes the corresponding self-titled property:
 | ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | The document. |
 | ***pageNumber***     | PageNumber           | [PageNumber](#pagenumber)                     | Page number dto. |
 | *loadEncoding*       | LoadEncoding         | <span style="color:SteelBlue;">string</span>  | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
-| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password for opening an encrypted document. |
+| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| *encryptedPassword*  | EncryptedPassword    | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
 | *destFileName*       | DestFileName         | <span style="color:SteelBlue;">string</span>  | Result path of the document after the operation. If this parameter is omitted then result of the operation will be saved as the source document. |
 | *revisionAuthor*     | RevisionAuthor       | <span style="color:SteelBlue;">string</span>  | Initials of the author to use for revisions.If you set this parameter and then make some changes to the document programmatically, save the document and later open the document in MS Word you will see these changes as revisions. |
 | *revisionDateTime*   | RevisionDateTime     | <span style="color:SteelBlue;">string</span>  | The date and time to use for revisions. |
@@ -106,7 +107,7 @@ Represents a request model for [WordsApi.InsertPageNumbers()](/words/insert-page
 An object of the **InsertPageNumbersRequest** class is created by the following constructor methods:
 
 - InsertPageNumbersRequest()
-- InsertPageNumbersRequest(<span style="color:SteelBlue;">string</span> ***name***, [PageNumber](#pagenumber) ***pageNumber***, <span style="color:SteelBlue;">string</span> *folder*, <span style="color:SteelBlue;">string</span> *storage*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *destFileName*, <span style="color:SteelBlue;">string</span> *revisionAuthor*, <span style="color:SteelBlue;">string</span> *revisionDateTime*)
+- InsertPageNumbersRequest(<span style="color:SteelBlue;">string</span> ***name***, [PageNumber](#pagenumber) ***pageNumber***, <span style="color:SteelBlue;">string</span> *folder*, <span style="color:SteelBlue;">string</span> *storage*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *encryptedPassword*, <span style="color:SteelBlue;">string</span> *destFileName*, <span style="color:SteelBlue;">string</span> *revisionAuthor*, <span style="color:SteelBlue;">string</span> *revisionDateTime*)
 
 Each of those arguments initializes the corresponding self-titled property:
 
@@ -117,7 +118,8 @@ Each of those arguments initializes the corresponding self-titled property:
 | *folder*             | Folder               | <span style="color:SteelBlue;">string</span>  | Original document folder. |
 | *storage*            | Storage              | <span style="color:SteelBlue;">string</span>  | Original document storage. |
 | *loadEncoding*       | LoadEncoding         | <span style="color:SteelBlue;">string</span>  | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
-| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password for opening an encrypted document. |
+| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| *encryptedPassword*  | EncryptedPassword    | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
 | *destFileName*       | DestFileName         | <span style="color:SteelBlue;">string</span>  | Result path of the document after the operation. If this parameter is omitted then result of the operation will be saved as the source document. |
 | *revisionAuthor*     | RevisionAuthor       | <span style="color:SteelBlue;">string</span>  | Initials of the author to use for revisions.If you set this parameter and then make some changes to the document programmatically, save the document and later open the document in MS Word you will see these changes as revisions. |
 | *revisionDateTime*   | RevisionDateTime     | <span style="color:SteelBlue;">string</span>  | The date and time to use for revisions. |
@@ -131,7 +133,7 @@ Represents a request model for [WordsApi.RenderPageOnline()](/words/documents/re
 An object of the **RenderPageOnlineRequest** class is created by the following constructor methods:
 
 - RenderPageOnlineRequest()
-- RenderPageOnlineRequest(<span style="color:SteelBlue;">Stream</span> ***document***, <span style="color:SteelBlue;">int</span> ***pageIndex***, <span style="color:SteelBlue;">string</span> ***format***, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *fontsLocation*)
+- RenderPageOnlineRequest(<span style="color:SteelBlue;">Stream</span> ***document***, <span style="color:SteelBlue;">int</span> ***pageIndex***, <span style="color:SteelBlue;">string</span> ***format***, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *encryptedPassword*, <span style="color:SteelBlue;">string</span> *fontsLocation*)
 
 Each of those arguments initializes the corresponding self-titled property:
 
@@ -141,7 +143,8 @@ Each of those arguments initializes the corresponding self-titled property:
 | ***pageIndex***      | PageIndex            | <span style="color:SteelBlue;">int</span>     | The index of the page. |
 | ***format***         | Format               | <span style="color:SteelBlue;">string</span>  | The destination format. |
 | *loadEncoding*       | LoadEncoding         | <span style="color:SteelBlue;">string</span>  | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
-| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password for opening an encrypted document. |
+| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| *encryptedPassword*  | EncryptedPassword    | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
 | *fontsLocation*      | FontsLocation        | <span style="color:SteelBlue;">string</span>  | Folder in filestorage with custom fonts. |
 
 
@@ -153,7 +156,7 @@ Represents a request model for [WordsApi.RenderPage()](/words/documents/render-i
 An object of the **RenderPageRequest** class is created by the following constructor methods:
 
 - RenderPageRequest()
-- RenderPageRequest(<span style="color:SteelBlue;">string</span> ***name***, <span style="color:SteelBlue;">int</span> ***pageIndex***, <span style="color:SteelBlue;">string</span> ***format***, <span style="color:SteelBlue;">string</span> *folder*, <span style="color:SteelBlue;">string</span> *storage*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *fontsLocation*)
+- RenderPageRequest(<span style="color:SteelBlue;">string</span> ***name***, <span style="color:SteelBlue;">int</span> ***pageIndex***, <span style="color:SteelBlue;">string</span> ***format***, <span style="color:SteelBlue;">string</span> *folder*, <span style="color:SteelBlue;">string</span> *storage*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *encryptedPassword*, <span style="color:SteelBlue;">string</span> *fontsLocation*)
 
 Each of those arguments initializes the corresponding self-titled property:
 
@@ -165,7 +168,8 @@ Each of those arguments initializes the corresponding self-titled property:
 | *folder*             | Folder               | <span style="color:SteelBlue;">string</span>  | Original document folder. |
 | *storage*            | Storage              | <span style="color:SteelBlue;">string</span>  | Original document storage. |
 | *loadEncoding*       | LoadEncoding         | <span style="color:SteelBlue;">string</span>  | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
-| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password for opening an encrypted document. |
+| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| *encryptedPassword*  | EncryptedPassword    | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
 | *fontsLocation*      | FontsLocation        | <span style="color:SteelBlue;">string</span>  | Folder in filestorage with custom fonts. |
 
 

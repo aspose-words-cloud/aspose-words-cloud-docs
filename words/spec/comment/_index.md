@@ -1,4 +1,4 @@
----
+﻿---
 title: "Comment"
 second_title: "Aspose Words Cloud Docs"
 type: docs
@@ -22,20 +22,20 @@ weight: 130
   <tr>
     <td style="vertical-align:middle;" class="bg-white" rowspan="4"><strong><i>Delete</i><strong></td>
     <td style="vertical-align:middle;" class="bg-white"><a href="#deletecommentonlinerequest">DeleteCommentOnlineRequest</a></td>
-    <td style="vertical-align:middle;" class="bg-white" colspan="2"><span style="color:SteelBlue;">Stream</span></td>
+    <td style="vertical-align:middle;" class="bg-white" colspan="2"><span style="color:SteelBlue;">System.IO.Stream</span></td>
     <td style="vertical-align:middle;" class="bg-white" rowspan="4"></td>
   </tr>
   <tr>
     <td style="vertical-align:middle;" class="bg-white"><a href="#deletecommentrequest">DeleteCommentRequest</a></td>
-    <td style="vertical-align:middle;" class="bg-white" colspan="2"><span style="color:SteelBlue;">void</span></td>
+    <td style="vertical-align:middle;" class="bg-white" colspan="2"><span style="color:SteelBlue;">Task</span></td>
   </tr>
   <tr>
     <td style="vertical-align:middle;" class="bg-white"><a href="#deletecommentsonlinerequest">DeleteCommentsOnlineRequest</a></td>
-    <td style="vertical-align:middle;" class="bg-white" colspan="2"><span style="color:SteelBlue;">Stream</span></td>
+    <td style="vertical-align:middle;" class="bg-white" colspan="2"><span style="color:SteelBlue;">System.IO.Stream</span></td>
   </tr>
   <tr>
     <td style="vertical-align:middle;" class="bg-white"><a href="#deletecommentsrequest">DeleteCommentsRequest</a></td>
-    <td style="vertical-align:middle;" class="bg-white" colspan="2"><span style="color:SteelBlue;">void</span></td>
+    <td style="vertical-align:middle;" class="bg-white" colspan="2"><span style="color:SteelBlue;">Task</span></td>
   </tr>
   <tr>
     <td style="vertical-align:middle;" class="bg-white" rowspan="4"><strong><i>Get</i><strong></td>
@@ -212,7 +212,7 @@ Represents a request model for [WordsApi.DeleteCommentOnline()](/words/comments/
 An object of the **DeleteCommentOnlineRequest** class is created by the following constructor methods:
 
 - DeleteCommentOnlineRequest()
-- DeleteCommentOnlineRequest(<span style="color:SteelBlue;">Stream</span> ***document***, <span style="color:SteelBlue;">int</span> ***commentIndex***, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *destFileName*, <span style="color:SteelBlue;">string</span> *revisionAuthor*, <span style="color:SteelBlue;">string</span> *revisionDateTime*)
+- DeleteCommentOnlineRequest(<span style="color:SteelBlue;">Stream</span> ***document***, <span style="color:SteelBlue;">int</span> ***commentIndex***, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *encryptedPassword*, <span style="color:SteelBlue;">string</span> *destFileName*, <span style="color:SteelBlue;">string</span> *revisionAuthor*, <span style="color:SteelBlue;">string</span> *revisionDateTime*)
 
 Each of those arguments initializes the corresponding self-titled property:
 
@@ -221,7 +221,8 @@ Each of those arguments initializes the corresponding self-titled property:
 | ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | The document. |
 | ***commentIndex***   | CommentIndex         | <span style="color:SteelBlue;">int</span>     | The index of the comment. |
 | *loadEncoding*       | LoadEncoding         | <span style="color:SteelBlue;">string</span>  | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
-| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password for opening an encrypted document. |
+| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| *encryptedPassword*  | EncryptedPassword    | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
 | *destFileName*       | DestFileName         | <span style="color:SteelBlue;">string</span>  | Result path of the document after the operation. If this parameter is omitted then result of the operation will be saved as the source document. |
 | *revisionAuthor*     | RevisionAuthor       | <span style="color:SteelBlue;">string</span>  | Initials of the author to use for revisions.If you set this parameter and then make some changes to the document programmatically, save the document and later open the document in MS Word you will see these changes as revisions. |
 | *revisionDateTime*   | RevisionDateTime     | <span style="color:SteelBlue;">string</span>  | The date and time to use for revisions. |
@@ -235,7 +236,7 @@ Represents a request model for [WordsApi.DeleteComment()](/words/comments/delete
 An object of the **DeleteCommentRequest** class is created by the following constructor methods:
 
 - DeleteCommentRequest()
-- DeleteCommentRequest(<span style="color:SteelBlue;">string</span> ***name***, <span style="color:SteelBlue;">int</span> ***commentIndex***, <span style="color:SteelBlue;">string</span> *folder*, <span style="color:SteelBlue;">string</span> *storage*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *destFileName*, <span style="color:SteelBlue;">string</span> *revisionAuthor*, <span style="color:SteelBlue;">string</span> *revisionDateTime*)
+- DeleteCommentRequest(<span style="color:SteelBlue;">string</span> ***name***, <span style="color:SteelBlue;">int</span> ***commentIndex***, <span style="color:SteelBlue;">string</span> *folder*, <span style="color:SteelBlue;">string</span> *storage*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *encryptedPassword*, <span style="color:SteelBlue;">string</span> *destFileName*, <span style="color:SteelBlue;">string</span> *revisionAuthor*, <span style="color:SteelBlue;">string</span> *revisionDateTime*)
 
 Each of those arguments initializes the corresponding self-titled property:
 
@@ -246,7 +247,8 @@ Each of those arguments initializes the corresponding self-titled property:
 | *folder*             | Folder               | <span style="color:SteelBlue;">string</span>  | Original document folder. |
 | *storage*            | Storage              | <span style="color:SteelBlue;">string</span>  | Original document storage. |
 | *loadEncoding*       | LoadEncoding         | <span style="color:SteelBlue;">string</span>  | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
-| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password for opening an encrypted document. |
+| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| *encryptedPassword*  | EncryptedPassword    | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
 | *destFileName*       | DestFileName         | <span style="color:SteelBlue;">string</span>  | Result path of the document after the operation. If this parameter is omitted then result of the operation will be saved as the source document. |
 | *revisionAuthor*     | RevisionAuthor       | <span style="color:SteelBlue;">string</span>  | Initials of the author to use for revisions.If you set this parameter and then make some changes to the document programmatically, save the document and later open the document in MS Word you will see these changes as revisions. |
 | *revisionDateTime*   | RevisionDateTime     | <span style="color:SteelBlue;">string</span>  | The date and time to use for revisions. |
@@ -260,7 +262,7 @@ Represents a request model for [WordsApi.DeleteCommentsOnline()](/words/comments
 An object of the **DeleteCommentsOnlineRequest** class is created by the following constructor methods:
 
 - DeleteCommentsOnlineRequest()
-- DeleteCommentsOnlineRequest(<span style="color:SteelBlue;">Stream</span> ***document***, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *destFileName*, <span style="color:SteelBlue;">string</span> *revisionAuthor*, <span style="color:SteelBlue;">string</span> *revisionDateTime*)
+- DeleteCommentsOnlineRequest(<span style="color:SteelBlue;">Stream</span> ***document***, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *encryptedPassword*, <span style="color:SteelBlue;">string</span> *destFileName*, <span style="color:SteelBlue;">string</span> *revisionAuthor*, <span style="color:SteelBlue;">string</span> *revisionDateTime*)
 
 Each of those arguments initializes the corresponding self-titled property:
 
@@ -268,7 +270,8 @@ Each of those arguments initializes the corresponding self-titled property:
 |----------------------|----------------------|-----------------------------------------------|-------------|
 | ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | The document. |
 | *loadEncoding*       | LoadEncoding         | <span style="color:SteelBlue;">string</span>  | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
-| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password for opening an encrypted document. |
+| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| *encryptedPassword*  | EncryptedPassword    | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
 | *destFileName*       | DestFileName         | <span style="color:SteelBlue;">string</span>  | Result path of the document after the operation. If this parameter is omitted then result of the operation will be saved as the source document. |
 | *revisionAuthor*     | RevisionAuthor       | <span style="color:SteelBlue;">string</span>  | Initials of the author to use for revisions.If you set this parameter and then make some changes to the document programmatically, save the document and later open the document in MS Word you will see these changes as revisions. |
 | *revisionDateTime*   | RevisionDateTime     | <span style="color:SteelBlue;">string</span>  | The date and time to use for revisions. |
@@ -282,7 +285,7 @@ Represents a request model for [WordsApi.DeleteComments()](/words/comments/delet
 An object of the **DeleteCommentsRequest** class is created by the following constructor methods:
 
 - DeleteCommentsRequest()
-- DeleteCommentsRequest(<span style="color:SteelBlue;">string</span> ***name***, <span style="color:SteelBlue;">string</span> *folder*, <span style="color:SteelBlue;">string</span> *storage*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *destFileName*, <span style="color:SteelBlue;">string</span> *revisionAuthor*, <span style="color:SteelBlue;">string</span> *revisionDateTime*)
+- DeleteCommentsRequest(<span style="color:SteelBlue;">string</span> ***name***, <span style="color:SteelBlue;">string</span> *folder*, <span style="color:SteelBlue;">string</span> *storage*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *encryptedPassword*, <span style="color:SteelBlue;">string</span> *destFileName*, <span style="color:SteelBlue;">string</span> *revisionAuthor*, <span style="color:SteelBlue;">string</span> *revisionDateTime*)
 
 Each of those arguments initializes the corresponding self-titled property:
 
@@ -292,7 +295,8 @@ Each of those arguments initializes the corresponding self-titled property:
 | *folder*             | Folder               | <span style="color:SteelBlue;">string</span>  | Original document folder. |
 | *storage*            | Storage              | <span style="color:SteelBlue;">string</span>  | Original document storage. |
 | *loadEncoding*       | LoadEncoding         | <span style="color:SteelBlue;">string</span>  | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
-| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password for opening an encrypted document. |
+| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| *encryptedPassword*  | EncryptedPassword    | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
 | *destFileName*       | DestFileName         | <span style="color:SteelBlue;">string</span>  | Result path of the document after the operation. If this parameter is omitted then result of the operation will be saved as the source document. |
 | *revisionAuthor*     | RevisionAuthor       | <span style="color:SteelBlue;">string</span>  | Initials of the author to use for revisions.If you set this parameter and then make some changes to the document programmatically, save the document and later open the document in MS Word you will see these changes as revisions. |
 | *revisionDateTime*   | RevisionDateTime     | <span style="color:SteelBlue;">string</span>  | The date and time to use for revisions. |
@@ -306,7 +310,7 @@ Represents a request model for [WordsApi.GetCommentOnline()](/words/comments/get
 An object of the **GetCommentOnlineRequest** class is created by the following constructor methods:
 
 - GetCommentOnlineRequest()
-- GetCommentOnlineRequest(<span style="color:SteelBlue;">Stream</span> ***document***, <span style="color:SteelBlue;">int</span> ***commentIndex***, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*)
+- GetCommentOnlineRequest(<span style="color:SteelBlue;">Stream</span> ***document***, <span style="color:SteelBlue;">int</span> ***commentIndex***, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *encryptedPassword*)
 
 Each of those arguments initializes the corresponding self-titled property:
 
@@ -315,7 +319,8 @@ Each of those arguments initializes the corresponding self-titled property:
 | ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | The document. |
 | ***commentIndex***   | CommentIndex         | <span style="color:SteelBlue;">int</span>     | The index of the comment. |
 | *loadEncoding*       | LoadEncoding         | <span style="color:SteelBlue;">string</span>  | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
-| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password for opening an encrypted document. |
+| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| *encryptedPassword*  | EncryptedPassword    | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
 
 
 
@@ -326,7 +331,7 @@ Represents a request model for [WordsApi.GetComment()](/words/comments/get/) ope
 An object of the **GetCommentRequest** class is created by the following constructor methods:
 
 - GetCommentRequest()
-- GetCommentRequest(<span style="color:SteelBlue;">string</span> ***name***, <span style="color:SteelBlue;">int</span> ***commentIndex***, <span style="color:SteelBlue;">string</span> *folder*, <span style="color:SteelBlue;">string</span> *storage*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*)
+- GetCommentRequest(<span style="color:SteelBlue;">string</span> ***name***, <span style="color:SteelBlue;">int</span> ***commentIndex***, <span style="color:SteelBlue;">string</span> *folder*, <span style="color:SteelBlue;">string</span> *storage*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *encryptedPassword*)
 
 Each of those arguments initializes the corresponding self-titled property:
 
@@ -337,7 +342,8 @@ Each of those arguments initializes the corresponding self-titled property:
 | *folder*             | Folder               | <span style="color:SteelBlue;">string</span>  | Original document folder. |
 | *storage*            | Storage              | <span style="color:SteelBlue;">string</span>  | Original document storage. |
 | *loadEncoding*       | LoadEncoding         | <span style="color:SteelBlue;">string</span>  | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
-| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password for opening an encrypted document. |
+| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| *encryptedPassword*  | EncryptedPassword    | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
 
 
 
@@ -348,7 +354,7 @@ Represents a request model for [WordsApi.GetCommentsOnline()](/words/comments/ge
 An object of the **GetCommentsOnlineRequest** class is created by the following constructor methods:
 
 - GetCommentsOnlineRequest()
-- GetCommentsOnlineRequest(<span style="color:SteelBlue;">Stream</span> ***document***, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*)
+- GetCommentsOnlineRequest(<span style="color:SteelBlue;">Stream</span> ***document***, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *encryptedPassword*)
 
 Each of those arguments initializes the corresponding self-titled property:
 
@@ -356,7 +362,8 @@ Each of those arguments initializes the corresponding self-titled property:
 |----------------------|----------------------|-----------------------------------------------|-------------|
 | ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | The document. |
 | *loadEncoding*       | LoadEncoding         | <span style="color:SteelBlue;">string</span>  | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
-| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password for opening an encrypted document. |
+| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| *encryptedPassword*  | EncryptedPassword    | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
 
 
 
@@ -367,7 +374,7 @@ Represents a request model for [WordsApi.GetComments()](/words/comments/get-all/
 An object of the **GetCommentsRequest** class is created by the following constructor methods:
 
 - GetCommentsRequest()
-- GetCommentsRequest(<span style="color:SteelBlue;">string</span> ***name***, <span style="color:SteelBlue;">string</span> *folder*, <span style="color:SteelBlue;">string</span> *storage*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*)
+- GetCommentsRequest(<span style="color:SteelBlue;">string</span> ***name***, <span style="color:SteelBlue;">string</span> *folder*, <span style="color:SteelBlue;">string</span> *storage*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *encryptedPassword*)
 
 Each of those arguments initializes the corresponding self-titled property:
 
@@ -377,7 +384,8 @@ Each of those arguments initializes the corresponding self-titled property:
 | *folder*             | Folder               | <span style="color:SteelBlue;">string</span>  | Original document folder. |
 | *storage*            | Storage              | <span style="color:SteelBlue;">string</span>  | Original document storage. |
 | *loadEncoding*       | LoadEncoding         | <span style="color:SteelBlue;">string</span>  | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
-| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password for opening an encrypted document. |
+| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| *encryptedPassword*  | EncryptedPassword    | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
 
 
 
@@ -388,7 +396,7 @@ Represents a request model for [WordsApi.InsertCommentOnline()](/words/comments/
 An object of the **InsertCommentOnlineRequest** class is created by the following constructor methods:
 
 - InsertCommentOnlineRequest()
-- InsertCommentOnlineRequest(<span style="color:SteelBlue;">Stream</span> ***document***, [CommentInsert](#commentinsert) ***comment***, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *destFileName*, <span style="color:SteelBlue;">string</span> *revisionAuthor*, <span style="color:SteelBlue;">string</span> *revisionDateTime*)
+- InsertCommentOnlineRequest(<span style="color:SteelBlue;">Stream</span> ***document***, [CommentInsert](#commentinsert) ***comment***, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *encryptedPassword*, <span style="color:SteelBlue;">string</span> *destFileName*, <span style="color:SteelBlue;">string</span> *revisionAuthor*, <span style="color:SteelBlue;">string</span> *revisionDateTime*)
 
 Each of those arguments initializes the corresponding self-titled property:
 
@@ -397,7 +405,8 @@ Each of those arguments initializes the corresponding self-titled property:
 | ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | The document. |
 | ***comment***        | Comment              | [CommentInsert](#commentinsert)               | Comment data. |
 | *loadEncoding*       | LoadEncoding         | <span style="color:SteelBlue;">string</span>  | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
-| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password for opening an encrypted document. |
+| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| *encryptedPassword*  | EncryptedPassword    | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
 | *destFileName*       | DestFileName         | <span style="color:SteelBlue;">string</span>  | Result path of the document after the operation. If this parameter is omitted then result of the operation will be saved as the source document. |
 | *revisionAuthor*     | RevisionAuthor       | <span style="color:SteelBlue;">string</span>  | Initials of the author to use for revisions.If you set this parameter and then make some changes to the document programmatically, save the document and later open the document in MS Word you will see these changes as revisions. |
 | *revisionDateTime*   | RevisionDateTime     | <span style="color:SteelBlue;">string</span>  | The date and time to use for revisions. |
@@ -428,7 +437,7 @@ Represents a request model for [WordsApi.InsertComment()](/words/comments/add/) 
 An object of the **InsertCommentRequest** class is created by the following constructor methods:
 
 - InsertCommentRequest()
-- InsertCommentRequest(<span style="color:SteelBlue;">string</span> ***name***, [CommentInsert](#commentinsert) ***comment***, <span style="color:SteelBlue;">string</span> *folder*, <span style="color:SteelBlue;">string</span> *storage*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *destFileName*, <span style="color:SteelBlue;">string</span> *revisionAuthor*, <span style="color:SteelBlue;">string</span> *revisionDateTime*)
+- InsertCommentRequest(<span style="color:SteelBlue;">string</span> ***name***, [CommentInsert](#commentinsert) ***comment***, <span style="color:SteelBlue;">string</span> *folder*, <span style="color:SteelBlue;">string</span> *storage*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *encryptedPassword*, <span style="color:SteelBlue;">string</span> *destFileName*, <span style="color:SteelBlue;">string</span> *revisionAuthor*, <span style="color:SteelBlue;">string</span> *revisionDateTime*)
 
 Each of those arguments initializes the corresponding self-titled property:
 
@@ -439,7 +448,8 @@ Each of those arguments initializes the corresponding self-titled property:
 | *folder*             | Folder               | <span style="color:SteelBlue;">string</span>  | Original document folder. |
 | *storage*            | Storage              | <span style="color:SteelBlue;">string</span>  | Original document storage. |
 | *loadEncoding*       | LoadEncoding         | <span style="color:SteelBlue;">string</span>  | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
-| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password for opening an encrypted document. |
+| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| *encryptedPassword*  | EncryptedPassword    | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
 | *destFileName*       | DestFileName         | <span style="color:SteelBlue;">string</span>  | Result path of the document after the operation. If this parameter is omitted then result of the operation will be saved as the source document. |
 | *revisionAuthor*     | RevisionAuthor       | <span style="color:SteelBlue;">string</span>  | Initials of the author to use for revisions.If you set this parameter and then make some changes to the document programmatically, save the document and later open the document in MS Word you will see these changes as revisions. |
 | *revisionDateTime*   | RevisionDateTime     | <span style="color:SteelBlue;">string</span>  | The date and time to use for revisions. |
@@ -453,7 +463,7 @@ Represents a request model for [WordsApi.UpdateCommentOnline()](/words/comments/
 An object of the **UpdateCommentOnlineRequest** class is created by the following constructor methods:
 
 - UpdateCommentOnlineRequest()
-- UpdateCommentOnlineRequest(<span style="color:SteelBlue;">Stream</span> ***document***, <span style="color:SteelBlue;">int</span> ***commentIndex***, [CommentUpdate](#commentupdate) ***comment***, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *destFileName*, <span style="color:SteelBlue;">string</span> *revisionAuthor*, <span style="color:SteelBlue;">string</span> *revisionDateTime*)
+- UpdateCommentOnlineRequest(<span style="color:SteelBlue;">Stream</span> ***document***, <span style="color:SteelBlue;">int</span> ***commentIndex***, [CommentUpdate](#commentupdate) ***comment***, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *encryptedPassword*, <span style="color:SteelBlue;">string</span> *destFileName*, <span style="color:SteelBlue;">string</span> *revisionAuthor*, <span style="color:SteelBlue;">string</span> *revisionDateTime*)
 
 Each of those arguments initializes the corresponding self-titled property:
 
@@ -463,7 +473,8 @@ Each of those arguments initializes the corresponding self-titled property:
 | ***commentIndex***   | CommentIndex         | <span style="color:SteelBlue;">int</span>     | The index of the comment. |
 | ***comment***        | Comment              | [CommentUpdate](#commentupdate)               | Comment data. |
 | *loadEncoding*       | LoadEncoding         | <span style="color:SteelBlue;">string</span>  | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
-| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password for opening an encrypted document. |
+| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| *encryptedPassword*  | EncryptedPassword    | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
 | *destFileName*       | DestFileName         | <span style="color:SteelBlue;">string</span>  | Result path of the document after the operation. If this parameter is omitted then result of the operation will be saved as the source document. |
 | *revisionAuthor*     | RevisionAuthor       | <span style="color:SteelBlue;">string</span>  | Initials of the author to use for revisions.If you set this parameter and then make some changes to the document programmatically, save the document and later open the document in MS Word you will see these changes as revisions. |
 | *revisionDateTime*   | RevisionDateTime     | <span style="color:SteelBlue;">string</span>  | The date and time to use for revisions. |
@@ -494,7 +505,7 @@ Represents a request model for [WordsApi.UpdateComment()](/words/comments/update
 An object of the **UpdateCommentRequest** class is created by the following constructor methods:
 
 - UpdateCommentRequest()
-- UpdateCommentRequest(<span style="color:SteelBlue;">string</span> ***name***, <span style="color:SteelBlue;">int</span> ***commentIndex***, [CommentUpdate](#commentupdate) ***comment***, <span style="color:SteelBlue;">string</span> *folder*, <span style="color:SteelBlue;">string</span> *storage*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *destFileName*, <span style="color:SteelBlue;">string</span> *revisionAuthor*, <span style="color:SteelBlue;">string</span> *revisionDateTime*)
+- UpdateCommentRequest(<span style="color:SteelBlue;">string</span> ***name***, <span style="color:SteelBlue;">int</span> ***commentIndex***, [CommentUpdate](#commentupdate) ***comment***, <span style="color:SteelBlue;">string</span> *folder*, <span style="color:SteelBlue;">string</span> *storage*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *encryptedPassword*, <span style="color:SteelBlue;">string</span> *destFileName*, <span style="color:SteelBlue;">string</span> *revisionAuthor*, <span style="color:SteelBlue;">string</span> *revisionDateTime*)
 
 Each of those arguments initializes the corresponding self-titled property:
 
@@ -506,7 +517,8 @@ Each of those arguments initializes the corresponding self-titled property:
 | *folder*             | Folder               | <span style="color:SteelBlue;">string</span>  | Original document folder. |
 | *storage*            | Storage              | <span style="color:SteelBlue;">string</span>  | Original document storage. |
 | *loadEncoding*       | LoadEncoding         | <span style="color:SteelBlue;">string</span>  | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
-| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password for opening an encrypted document. |
+| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| *encryptedPassword*  | EncryptedPassword    | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
 | *destFileName*       | DestFileName         | <span style="color:SteelBlue;">string</span>  | Result path of the document after the operation. If this parameter is omitted then result of the operation will be saved as the source document. |
 | *revisionAuthor*     | RevisionAuthor       | <span style="color:SteelBlue;">string</span>  | Initials of the author to use for revisions.If you set this parameter and then make some changes to the document programmatically, save the document and later open the document in MS Word you will see these changes as revisions. |
 | *revisionDateTime*   | RevisionDateTime     | <span style="color:SteelBlue;">string</span>  | The date and time to use for revisions. |

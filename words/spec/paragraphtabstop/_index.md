@@ -1,11 +1,11 @@
----
+﻿---
 title: "ParagraphTabStop"
 second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /spec/paragraphtabstop/
 description: "ParagraphTabStop"
 notoc: true
-weight: 380
+weight: 390
 ---
 
 
@@ -114,7 +114,7 @@ Represents a request model for [WordsApi.DeleteAllParagraphTabStopsOnline()](/wo
 An object of the **DeleteAllParagraphTabStopsOnlineRequest** class is created by the following constructor methods:
 
 - DeleteAllParagraphTabStopsOnlineRequest()
-- DeleteAllParagraphTabStopsOnlineRequest(<span style="color:SteelBlue;">Stream</span> ***document***, <span style="color:SteelBlue;">int</span> ***index***, <span style="color:SteelBlue;">string</span> *nodePath*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *destFileName*)
+- DeleteAllParagraphTabStopsOnlineRequest(<span style="color:SteelBlue;">Stream</span> ***document***, <span style="color:SteelBlue;">int</span> ***index***, <span style="color:SteelBlue;">string</span> *nodePath*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *encryptedPassword*, <span style="color:SteelBlue;">string</span> *destFileName*)
 
 Each of those arguments initializes the corresponding self-titled property:
 
@@ -124,7 +124,8 @@ Each of those arguments initializes the corresponding self-titled property:
 | ***index***          | Index                | <span style="color:SteelBlue;">int</span>     | Object index. |
 | *nodePath*           | NodePath             | <span style="color:SteelBlue;">string</span>  | The path to the node in the document tree. |
 | *loadEncoding*       | LoadEncoding         | <span style="color:SteelBlue;">string</span>  | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
-| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password for opening an encrypted document. |
+| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| *encryptedPassword*  | EncryptedPassword    | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
 | *destFileName*       | DestFileName         | <span style="color:SteelBlue;">string</span>  | Result path of the document after the operation. If this parameter is omitted then result of the operation will be saved as the source document. |
 
 
@@ -153,7 +154,7 @@ Represents a request model for [WordsApi.DeleteAllParagraphTabStops()](/words/pa
 An object of the **DeleteAllParagraphTabStopsRequest** class is created by the following constructor methods:
 
 - DeleteAllParagraphTabStopsRequest()
-- DeleteAllParagraphTabStopsRequest(<span style="color:SteelBlue;">string</span> ***name***, <span style="color:SteelBlue;">int</span> ***index***, <span style="color:SteelBlue;">string</span> *nodePath*, <span style="color:SteelBlue;">string</span> *folder*, <span style="color:SteelBlue;">string</span> *storage*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *destFileName*)
+- DeleteAllParagraphTabStopsRequest(<span style="color:SteelBlue;">string</span> ***name***, <span style="color:SteelBlue;">int</span> ***index***, <span style="color:SteelBlue;">string</span> *nodePath*, <span style="color:SteelBlue;">string</span> *folder*, <span style="color:SteelBlue;">string</span> *storage*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *encryptedPassword*, <span style="color:SteelBlue;">string</span> *destFileName*)
 
 Each of those arguments initializes the corresponding self-titled property:
 
@@ -165,7 +166,8 @@ Each of those arguments initializes the corresponding self-titled property:
 | *folder*             | Folder               | <span style="color:SteelBlue;">string</span>  | Original document folder. |
 | *storage*            | Storage              | <span style="color:SteelBlue;">string</span>  | Original document storage. |
 | *loadEncoding*       | LoadEncoding         | <span style="color:SteelBlue;">string</span>  | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
-| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password for opening an encrypted document. |
+| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| *encryptedPassword*  | EncryptedPassword    | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
 | *destFileName*       | DestFileName         | <span style="color:SteelBlue;">string</span>  | Result path of the document after the operation. If this parameter is omitted then result of the operation will be saved as the source document. |
 
 
@@ -177,7 +179,7 @@ Represents a request model for [WordsApi.DeleteParagraphTabStopOnline()](/words/
 An object of the **DeleteParagraphTabStopOnlineRequest** class is created by the following constructor methods:
 
 - DeleteParagraphTabStopOnlineRequest()
-- DeleteParagraphTabStopOnlineRequest(<span style="color:SteelBlue;">Stream</span> ***document***, <span style="color:SteelBlue;">double</span> ***position***, <span style="color:SteelBlue;">int</span> ***index***, <span style="color:SteelBlue;">string</span> *nodePath*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *destFileName*)
+- DeleteParagraphTabStopOnlineRequest(<span style="color:SteelBlue;">Stream</span> ***document***, <span style="color:SteelBlue;">double</span> ***position***, <span style="color:SteelBlue;">int</span> ***index***, <span style="color:SteelBlue;">string</span> *nodePath*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *encryptedPassword*, <span style="color:SteelBlue;">string</span> *destFileName*)
 
 Each of those arguments initializes the corresponding self-titled property:
 
@@ -188,7 +190,8 @@ Each of those arguments initializes the corresponding self-titled property:
 | ***index***          | Index                | <span style="color:SteelBlue;">int</span>     | Object index. |
 | *nodePath*           | NodePath             | <span style="color:SteelBlue;">string</span>  | The path to the node in the document tree. |
 | *loadEncoding*       | LoadEncoding         | <span style="color:SteelBlue;">string</span>  | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
-| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password for opening an encrypted document. |
+| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| *encryptedPassword*  | EncryptedPassword    | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
 | *destFileName*       | DestFileName         | <span style="color:SteelBlue;">string</span>  | Result path of the document after the operation. If this parameter is omitted then result of the operation will be saved as the source document. |
 
 
@@ -217,7 +220,7 @@ Represents a request model for [WordsApi.DeleteParagraphTabStop()](/words/paragr
 An object of the **DeleteParagraphTabStopRequest** class is created by the following constructor methods:
 
 - DeleteParagraphTabStopRequest()
-- DeleteParagraphTabStopRequest(<span style="color:SteelBlue;">string</span> ***name***, <span style="color:SteelBlue;">double</span> ***position***, <span style="color:SteelBlue;">int</span> ***index***, <span style="color:SteelBlue;">string</span> *nodePath*, <span style="color:SteelBlue;">string</span> *folder*, <span style="color:SteelBlue;">string</span> *storage*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *destFileName*)
+- DeleteParagraphTabStopRequest(<span style="color:SteelBlue;">string</span> ***name***, <span style="color:SteelBlue;">double</span> ***position***, <span style="color:SteelBlue;">int</span> ***index***, <span style="color:SteelBlue;">string</span> *nodePath*, <span style="color:SteelBlue;">string</span> *folder*, <span style="color:SteelBlue;">string</span> *storage*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *encryptedPassword*, <span style="color:SteelBlue;">string</span> *destFileName*)
 
 Each of those arguments initializes the corresponding self-titled property:
 
@@ -230,7 +233,8 @@ Each of those arguments initializes the corresponding self-titled property:
 | *folder*             | Folder               | <span style="color:SteelBlue;">string</span>  | Original document folder. |
 | *storage*            | Storage              | <span style="color:SteelBlue;">string</span>  | Original document storage. |
 | *loadEncoding*       | LoadEncoding         | <span style="color:SteelBlue;">string</span>  | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
-| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password for opening an encrypted document. |
+| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| *encryptedPassword*  | EncryptedPassword    | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
 | *destFileName*       | DestFileName         | <span style="color:SteelBlue;">string</span>  | Result path of the document after the operation. If this parameter is omitted then result of the operation will be saved as the source document. |
 
 
@@ -242,7 +246,7 @@ Represents a request model for [WordsApi.GetParagraphTabStopsOnline()](/words/pa
 An object of the **GetParagraphTabStopsOnlineRequest** class is created by the following constructor methods:
 
 - GetParagraphTabStopsOnlineRequest()
-- GetParagraphTabStopsOnlineRequest(<span style="color:SteelBlue;">Stream</span> ***document***, <span style="color:SteelBlue;">int</span> ***index***, <span style="color:SteelBlue;">string</span> *nodePath*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*)
+- GetParagraphTabStopsOnlineRequest(<span style="color:SteelBlue;">Stream</span> ***document***, <span style="color:SteelBlue;">int</span> ***index***, <span style="color:SteelBlue;">string</span> *nodePath*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *encryptedPassword*)
 
 Each of those arguments initializes the corresponding self-titled property:
 
@@ -252,7 +256,8 @@ Each of those arguments initializes the corresponding self-titled property:
 | ***index***          | Index                | <span style="color:SteelBlue;">int</span>     | Object index. |
 | *nodePath*           | NodePath             | <span style="color:SteelBlue;">string</span>  | The path to the node in the document tree. |
 | *loadEncoding*       | LoadEncoding         | <span style="color:SteelBlue;">string</span>  | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
-| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password for opening an encrypted document. |
+| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| *encryptedPassword*  | EncryptedPassword    | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
 
 
 
@@ -263,7 +268,7 @@ Represents a request model for [WordsApi.GetParagraphTabStops()](/words/paragrap
 An object of the **GetParagraphTabStopsRequest** class is created by the following constructor methods:
 
 - GetParagraphTabStopsRequest()
-- GetParagraphTabStopsRequest(<span style="color:SteelBlue;">string</span> ***name***, <span style="color:SteelBlue;">int</span> ***index***, <span style="color:SteelBlue;">string</span> *nodePath*, <span style="color:SteelBlue;">string</span> *folder*, <span style="color:SteelBlue;">string</span> *storage*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*)
+- GetParagraphTabStopsRequest(<span style="color:SteelBlue;">string</span> ***name***, <span style="color:SteelBlue;">int</span> ***index***, <span style="color:SteelBlue;">string</span> *nodePath*, <span style="color:SteelBlue;">string</span> *folder*, <span style="color:SteelBlue;">string</span> *storage*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *encryptedPassword*)
 
 Each of those arguments initializes the corresponding self-titled property:
 
@@ -275,7 +280,8 @@ Each of those arguments initializes the corresponding self-titled property:
 | *folder*             | Folder               | <span style="color:SteelBlue;">string</span>  | Original document folder. |
 | *storage*            | Storage              | <span style="color:SteelBlue;">string</span>  | Original document storage. |
 | *loadEncoding*       | LoadEncoding         | <span style="color:SteelBlue;">string</span>  | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
-| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password for opening an encrypted document. |
+| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| *encryptedPassword*  | EncryptedPassword    | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
 
 
 
@@ -286,7 +292,7 @@ Represents a request model for [WordsApi.InsertOrUpdateParagraphTabStopOnline()]
 An object of the **InsertOrUpdateParagraphTabStopOnlineRequest** class is created by the following constructor methods:
 
 - InsertOrUpdateParagraphTabStopOnlineRequest()
-- InsertOrUpdateParagraphTabStopOnlineRequest(<span style="color:SteelBlue;">Stream</span> ***document***, [TabStopInsert](#tabstopinsert) ***tabStopInsertDto***, <span style="color:SteelBlue;">int</span> ***index***, <span style="color:SteelBlue;">string</span> *nodePath*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *destFileName*)
+- InsertOrUpdateParagraphTabStopOnlineRequest(<span style="color:SteelBlue;">Stream</span> ***document***, [TabStopInsert](#tabstopinsert) ***tabStopInsertDto***, <span style="color:SteelBlue;">int</span> ***index***, <span style="color:SteelBlue;">string</span> *nodePath*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *encryptedPassword*, <span style="color:SteelBlue;">string</span> *destFileName*)
 
 Each of those arguments initializes the corresponding self-titled property:
 
@@ -297,7 +303,8 @@ Each of those arguments initializes the corresponding self-titled property:
 | ***index***          | Index                | <span style="color:SteelBlue;">int</span>     | Object index. |
 | *nodePath*           | NodePath             | <span style="color:SteelBlue;">string</span>  | The path to the node in the document tree. |
 | *loadEncoding*       | LoadEncoding         | <span style="color:SteelBlue;">string</span>  | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
-| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password for opening an encrypted document. |
+| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| *encryptedPassword*  | EncryptedPassword    | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
 | *destFileName*       | DestFileName         | <span style="color:SteelBlue;">string</span>  | Result path of the document after the operation. If this parameter is omitted then result of the operation will be saved as the source document. |
 
 
@@ -326,7 +333,7 @@ Represents a request model for [WordsApi.InsertOrUpdateParagraphTabStop()](/word
 An object of the **InsertOrUpdateParagraphTabStopRequest** class is created by the following constructor methods:
 
 - InsertOrUpdateParagraphTabStopRequest()
-- InsertOrUpdateParagraphTabStopRequest(<span style="color:SteelBlue;">string</span> ***name***, <span style="color:SteelBlue;">int</span> ***index***, [TabStopInsert](#tabstopinsert) ***tabStopInsertDto***, <span style="color:SteelBlue;">string</span> *nodePath*, <span style="color:SteelBlue;">string</span> *folder*, <span style="color:SteelBlue;">string</span> *storage*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *destFileName*)
+- InsertOrUpdateParagraphTabStopRequest(<span style="color:SteelBlue;">string</span> ***name***, <span style="color:SteelBlue;">int</span> ***index***, [TabStopInsert](#tabstopinsert) ***tabStopInsertDto***, <span style="color:SteelBlue;">string</span> *nodePath*, <span style="color:SteelBlue;">string</span> *folder*, <span style="color:SteelBlue;">string</span> *storage*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *encryptedPassword*, <span style="color:SteelBlue;">string</span> *destFileName*)
 
 Each of those arguments initializes the corresponding self-titled property:
 
@@ -339,7 +346,8 @@ Each of those arguments initializes the corresponding self-titled property:
 | *folder*             | Folder               | <span style="color:SteelBlue;">string</span>  | Original document folder. |
 | *storage*            | Storage              | <span style="color:SteelBlue;">string</span>  | Original document storage. |
 | *loadEncoding*       | LoadEncoding         | <span style="color:SteelBlue;">string</span>  | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
-| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password for opening an encrypted document. |
+| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| *encryptedPassword*  | EncryptedPassword    | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
 | *destFileName*       | DestFileName         | <span style="color:SteelBlue;">string</span>  | Result path of the document after the operation. If this parameter is omitted then result of the operation will be saved as the source document. |
 
 

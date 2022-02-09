@@ -1,11 +1,11 @@
----
+﻿---
 title: "File"
 second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /spec/file/
 description: "File"
 notoc: true
-weight: 230
+weight: 240
 ---
 
 
@@ -22,7 +22,7 @@ weight: 230
   <tr>
     <td style="vertical-align:middle;" class="bg-white" rowspan="2"><strong><i>Copy</i><strong></td>
     <td style="vertical-align:middle;" class="bg-white"><a href="#copyfilerequest">CopyFileRequest</a></td>
-    <td style="vertical-align:middle;" class="bg-white" rowspan="5" colspan="2"><span style="color:SteelBlue;">void</span></td>
+    <td style="vertical-align:middle;" class="bg-white" rowspan="5" colspan="2"><span style="color:SteelBlue;">Task</span></td>
     <td style="vertical-align:middle;" class="bg-white" rowspan="6"></td>
   </tr>
   <tr>
@@ -42,7 +42,7 @@ weight: 230
   <tr>
     <td style="vertical-align:middle;" class="bg-white"><strong><i>Download</i><strong></td>
     <td style="vertical-align:middle;" class="bg-white"><a href="#downloadfilerequest">DownloadFileRequest</a></td>
-    <td style="vertical-align:middle;" class="bg-white" colspan="2"><span style="color:SteelBlue;">Stream</span></td>
+    <td style="vertical-align:middle;" class="bg-white" colspan="2"><span style="color:SteelBlue;">System.IO.Stream</span></td>
   </tr>
   <tr>
     <td style="vertical-align:middle;" class="bg-white"><strong><i>Get</i><strong></td>
@@ -53,7 +53,7 @@ weight: 230
   <tr>
     <td style="vertical-align:middle;" class="bg-white" rowspan="2"><strong><i>Move</i><strong></td>
     <td style="vertical-align:middle;" class="bg-white"><a href="#movefilerequest">MoveFileRequest</a></td>
-    <td style="vertical-align:middle;" class="bg-white" rowspan="2" colspan="2"><span style="color:SteelBlue;">void</span></td>
+    <td style="vertical-align:middle;" class="bg-white" rowspan="2" colspan="2"><span style="color:SteelBlue;">Task</span></td>
     <td style="vertical-align:middle;" class="bg-white" rowspan="2"></td>
   </tr>
   <tr>

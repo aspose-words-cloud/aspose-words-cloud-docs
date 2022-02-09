@@ -1,11 +1,11 @@
----
+﻿---
 title: "Field"
 second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /spec/field/
 description: "Field"
 notoc: true
-weight: 220
+weight: 230
 ---
 
 
@@ -22,20 +22,20 @@ weight: 220
   <tr>
     <td style="vertical-align:middle;" class="bg-white" rowspan="4"><strong><i>Delete</i><strong></td>
     <td style="vertical-align:middle;" class="bg-white"><a href="#deletefieldonlinerequest">DeleteFieldOnlineRequest</a></td>
-    <td style="vertical-align:middle;" class="bg-white" colspan="2"><span style="color:SteelBlue;">Stream</span></td>
+    <td style="vertical-align:middle;" class="bg-white" colspan="2"><span style="color:SteelBlue;">System.IO.Stream</span></td>
     <td style="vertical-align:middle;" class="bg-white" rowspan="4"></td>
   </tr>
   <tr>
     <td style="vertical-align:middle;" class="bg-white"><a href="#deletefieldrequest">DeleteFieldRequest</a></td>
-    <td style="vertical-align:middle;" class="bg-white" colspan="2"><span style="color:SteelBlue;">void</span></td>
+    <td style="vertical-align:middle;" class="bg-white" colspan="2"><span style="color:SteelBlue;">Task</span></td>
   </tr>
   <tr>
     <td style="vertical-align:middle;" class="bg-white"><a href="#deletefieldsonlinerequest">DeleteFieldsOnlineRequest</a></td>
-    <td style="vertical-align:middle;" class="bg-white" colspan="2"><span style="color:SteelBlue;">Stream</span></td>
+    <td style="vertical-align:middle;" class="bg-white" colspan="2"><span style="color:SteelBlue;">System.IO.Stream</span></td>
   </tr>
   <tr>
     <td style="vertical-align:middle;" class="bg-white"><a href="#deletefieldsrequest">DeleteFieldsRequest</a></td>
-    <td style="vertical-align:middle;" class="bg-white" colspan="2"><span style="color:SteelBlue;">void</span></td>
+    <td style="vertical-align:middle;" class="bg-white" colspan="2"><span style="color:SteelBlue;">Task</span></td>
   </tr>
   <tr>
     <td style="vertical-align:middle;" class="bg-white" rowspan="6"><strong><i>Get</i><strong></td>
@@ -217,7 +217,7 @@ Represents a request model for [WordsApi.DeleteFieldOnline()](/words/fields/dele
 An object of the **DeleteFieldOnlineRequest** class is created by the following constructor methods:
 
 - DeleteFieldOnlineRequest()
-- DeleteFieldOnlineRequest(<span style="color:SteelBlue;">Stream</span> ***document***, <span style="color:SteelBlue;">int</span> ***index***, <span style="color:SteelBlue;">string</span> *nodePath*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *destFileName*, <span style="color:SteelBlue;">string</span> *revisionAuthor*, <span style="color:SteelBlue;">string</span> *revisionDateTime*)
+- DeleteFieldOnlineRequest(<span style="color:SteelBlue;">Stream</span> ***document***, <span style="color:SteelBlue;">int</span> ***index***, <span style="color:SteelBlue;">string</span> *nodePath*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *encryptedPassword*, <span style="color:SteelBlue;">string</span> *destFileName*, <span style="color:SteelBlue;">string</span> *revisionAuthor*, <span style="color:SteelBlue;">string</span> *revisionDateTime*)
 
 Each of those arguments initializes the corresponding self-titled property:
 
@@ -227,7 +227,8 @@ Each of those arguments initializes the corresponding self-titled property:
 | ***index***          | Index                | <span style="color:SteelBlue;">int</span>     | Object index. |
 | *nodePath*           | NodePath             | <span style="color:SteelBlue;">string</span>  | The path to the node in the document tree. |
 | *loadEncoding*       | LoadEncoding         | <span style="color:SteelBlue;">string</span>  | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
-| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password for opening an encrypted document. |
+| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| *encryptedPassword*  | EncryptedPassword    | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
 | *destFileName*       | DestFileName         | <span style="color:SteelBlue;">string</span>  | Result path of the document after the operation. If this parameter is omitted then result of the operation will be saved as the source document. |
 | *revisionAuthor*     | RevisionAuthor       | <span style="color:SteelBlue;">string</span>  | Initials of the author to use for revisions.If you set this parameter and then make some changes to the document programmatically, save the document and later open the document in MS Word you will see these changes as revisions. |
 | *revisionDateTime*   | RevisionDateTime     | <span style="color:SteelBlue;">string</span>  | The date and time to use for revisions. |
@@ -241,7 +242,7 @@ Represents a request model for [WordsApi.DeleteField()](/words/fields/delete/) o
 An object of the **DeleteFieldRequest** class is created by the following constructor methods:
 
 - DeleteFieldRequest()
-- DeleteFieldRequest(<span style="color:SteelBlue;">string</span> ***name***, <span style="color:SteelBlue;">int</span> ***index***, <span style="color:SteelBlue;">string</span> *nodePath*, <span style="color:SteelBlue;">string</span> *folder*, <span style="color:SteelBlue;">string</span> *storage*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *destFileName*, <span style="color:SteelBlue;">string</span> *revisionAuthor*, <span style="color:SteelBlue;">string</span> *revisionDateTime*)
+- DeleteFieldRequest(<span style="color:SteelBlue;">string</span> ***name***, <span style="color:SteelBlue;">int</span> ***index***, <span style="color:SteelBlue;">string</span> *nodePath*, <span style="color:SteelBlue;">string</span> *folder*, <span style="color:SteelBlue;">string</span> *storage*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *encryptedPassword*, <span style="color:SteelBlue;">string</span> *destFileName*, <span style="color:SteelBlue;">string</span> *revisionAuthor*, <span style="color:SteelBlue;">string</span> *revisionDateTime*)
 
 Each of those arguments initializes the corresponding self-titled property:
 
@@ -253,7 +254,8 @@ Each of those arguments initializes the corresponding self-titled property:
 | *folder*             | Folder               | <span style="color:SteelBlue;">string</span>  | Original document folder. |
 | *storage*            | Storage              | <span style="color:SteelBlue;">string</span>  | Original document storage. |
 | *loadEncoding*       | LoadEncoding         | <span style="color:SteelBlue;">string</span>  | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
-| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password for opening an encrypted document. |
+| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| *encryptedPassword*  | EncryptedPassword    | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
 | *destFileName*       | DestFileName         | <span style="color:SteelBlue;">string</span>  | Result path of the document after the operation. If this parameter is omitted then result of the operation will be saved as the source document. |
 | *revisionAuthor*     | RevisionAuthor       | <span style="color:SteelBlue;">string</span>  | Initials of the author to use for revisions.If you set this parameter and then make some changes to the document programmatically, save the document and later open the document in MS Word you will see these changes as revisions. |
 | *revisionDateTime*   | RevisionDateTime     | <span style="color:SteelBlue;">string</span>  | The date and time to use for revisions. |
@@ -267,7 +269,7 @@ Represents a request model for [WordsApi.DeleteFieldsOnline()](/words/fields/rem
 An object of the **DeleteFieldsOnlineRequest** class is created by the following constructor methods:
 
 - DeleteFieldsOnlineRequest()
-- DeleteFieldsOnlineRequest(<span style="color:SteelBlue;">Stream</span> ***document***, <span style="color:SteelBlue;">string</span> *nodePath*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *destFileName*, <span style="color:SteelBlue;">string</span> *revisionAuthor*, <span style="color:SteelBlue;">string</span> *revisionDateTime*)
+- DeleteFieldsOnlineRequest(<span style="color:SteelBlue;">Stream</span> ***document***, <span style="color:SteelBlue;">string</span> *nodePath*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *encryptedPassword*, <span style="color:SteelBlue;">string</span> *destFileName*, <span style="color:SteelBlue;">string</span> *revisionAuthor*, <span style="color:SteelBlue;">string</span> *revisionDateTime*)
 
 Each of those arguments initializes the corresponding self-titled property:
 
@@ -276,7 +278,8 @@ Each of those arguments initializes the corresponding self-titled property:
 | ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | The document. |
 | *nodePath*           | NodePath             | <span style="color:SteelBlue;">string</span>  | The path to the node in the document tree. |
 | *loadEncoding*       | LoadEncoding         | <span style="color:SteelBlue;">string</span>  | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
-| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password for opening an encrypted document. |
+| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| *encryptedPassword*  | EncryptedPassword    | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
 | *destFileName*       | DestFileName         | <span style="color:SteelBlue;">string</span>  | Result path of the document after the operation. If this parameter is omitted then result of the operation will be saved as the source document. |
 | *revisionAuthor*     | RevisionAuthor       | <span style="color:SteelBlue;">string</span>  | Initials of the author to use for revisions.If you set this parameter and then make some changes to the document programmatically, save the document and later open the document in MS Word you will see these changes as revisions. |
 | *revisionDateTime*   | RevisionDateTime     | <span style="color:SteelBlue;">string</span>  | The date and time to use for revisions. |
@@ -290,7 +293,7 @@ Represents a request model for [WordsApi.DeleteFields()](/words/fields/remove/) 
 An object of the **DeleteFieldsRequest** class is created by the following constructor methods:
 
 - DeleteFieldsRequest()
-- DeleteFieldsRequest(<span style="color:SteelBlue;">string</span> ***name***, <span style="color:SteelBlue;">string</span> *nodePath*, <span style="color:SteelBlue;">string</span> *folder*, <span style="color:SteelBlue;">string</span> *storage*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *destFileName*, <span style="color:SteelBlue;">string</span> *revisionAuthor*, <span style="color:SteelBlue;">string</span> *revisionDateTime*)
+- DeleteFieldsRequest(<span style="color:SteelBlue;">string</span> ***name***, <span style="color:SteelBlue;">string</span> *nodePath*, <span style="color:SteelBlue;">string</span> *folder*, <span style="color:SteelBlue;">string</span> *storage*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *encryptedPassword*, <span style="color:SteelBlue;">string</span> *destFileName*, <span style="color:SteelBlue;">string</span> *revisionAuthor*, <span style="color:SteelBlue;">string</span> *revisionDateTime*)
 
 Each of those arguments initializes the corresponding self-titled property:
 
@@ -301,7 +304,8 @@ Each of those arguments initializes the corresponding self-titled property:
 | *folder*             | Folder               | <span style="color:SteelBlue;">string</span>  | Original document folder. |
 | *storage*            | Storage              | <span style="color:SteelBlue;">string</span>  | Original document storage. |
 | *loadEncoding*       | LoadEncoding         | <span style="color:SteelBlue;">string</span>  | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
-| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password for opening an encrypted document. |
+| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| *encryptedPassword*  | EncryptedPassword    | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
 | *destFileName*       | DestFileName         | <span style="color:SteelBlue;">string</span>  | Result path of the document after the operation. If this parameter is omitted then result of the operation will be saved as the source document. |
 | *revisionAuthor*     | RevisionAuthor       | <span style="color:SteelBlue;">string</span>  | Initials of the author to use for revisions.If you set this parameter and then make some changes to the document programmatically, save the document and later open the document in MS Word you will see these changes as revisions. |
 | *revisionDateTime*   | RevisionDateTime     | <span style="color:SteelBlue;">string</span>  | The date and time to use for revisions. |
@@ -338,32 +342,33 @@ The following properties are defined:
 
 ## GetDocumentFieldNamesOnlineRequest
 
-Represents a request model for [WordsApi.GetDocumentFieldNamesOnline()](/words/mail-merge/read-field-names-online/) operation.
+Represents a request model for [WordsApi.GetDocumentFieldNamesOnline()](/words/mail-merge/read-field-names/) operation.
 
 An object of the **GetDocumentFieldNamesOnlineRequest** class is created by the following constructor methods:
 
 - GetDocumentFieldNamesOnlineRequest()
-- GetDocumentFieldNamesOnlineRequest(<span style="color:SteelBlue;">Stream</span> ***document***, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">bool?</span> *useNonMergeFields*)
+- GetDocumentFieldNamesOnlineRequest(<span style="color:SteelBlue;">Stream</span> ***template***, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *encryptedPassword*, <span style="color:SteelBlue;">bool?</span> *useNonMergeFields*)
 
 Each of those arguments initializes the corresponding self-titled property:
 
 | Argument             | Property             | Type                                          | Description |
 |----------------------|----------------------|-----------------------------------------------|-------------|
-| ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | The document. |
+| ***template***       | Template             | <span style="color:SteelBlue;">Stream</span>  | The template document. |
 | *loadEncoding*       | LoadEncoding         | <span style="color:SteelBlue;">string</span>  | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
-| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password for opening an encrypted document. |
+| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| *encryptedPassword*  | EncryptedPassword    | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
 | *useNonMergeFields*  | UseNonMergeFields    | <span style="color:SteelBlue;">bool?</span>   | The flag indicating whether to use non merge fields. If true, result includes "mustache" field names. |
 
 
 
 ## GetDocumentFieldNamesRequest
 
-Represents a request model for [WordsApi.GetDocumentFieldNames()](/words/mail-merge/read-field-names-online/) operation.
+Represents a request model for [WordsApi.GetDocumentFieldNames()](/words/mail-merge/read-field-names/) operation.
 
 An object of the **GetDocumentFieldNamesRequest** class is created by the following constructor methods:
 
 - GetDocumentFieldNamesRequest()
-- GetDocumentFieldNamesRequest(<span style="color:SteelBlue;">string</span> ***name***, <span style="color:SteelBlue;">string</span> *folder*, <span style="color:SteelBlue;">string</span> *storage*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">bool?</span> *useNonMergeFields*)
+- GetDocumentFieldNamesRequest(<span style="color:SteelBlue;">string</span> ***name***, <span style="color:SteelBlue;">string</span> *folder*, <span style="color:SteelBlue;">string</span> *storage*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *encryptedPassword*, <span style="color:SteelBlue;">bool?</span> *useNonMergeFields*)
 
 Each of those arguments initializes the corresponding self-titled property:
 
@@ -373,7 +378,8 @@ Each of those arguments initializes the corresponding self-titled property:
 | *folder*             | Folder               | <span style="color:SteelBlue;">string</span>  | Original document folder. |
 | *storage*            | Storage              | <span style="color:SteelBlue;">string</span>  | Original document storage. |
 | *loadEncoding*       | LoadEncoding         | <span style="color:SteelBlue;">string</span>  | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
-| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password for opening an encrypted document. |
+| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| *encryptedPassword*  | EncryptedPassword    | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
 | *useNonMergeFields*  | UseNonMergeFields    | <span style="color:SteelBlue;">bool?</span>   | The flag indicating whether to use non merge fields. If true, result includes "mustache" field names. |
 
 
@@ -385,7 +391,7 @@ Represents a request model for [WordsApi.GetFieldOnline()](/words/fields/get/) o
 An object of the **GetFieldOnlineRequest** class is created by the following constructor methods:
 
 - GetFieldOnlineRequest()
-- GetFieldOnlineRequest(<span style="color:SteelBlue;">Stream</span> ***document***, <span style="color:SteelBlue;">int</span> ***index***, <span style="color:SteelBlue;">string</span> *nodePath*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*)
+- GetFieldOnlineRequest(<span style="color:SteelBlue;">Stream</span> ***document***, <span style="color:SteelBlue;">int</span> ***index***, <span style="color:SteelBlue;">string</span> *nodePath*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *encryptedPassword*)
 
 Each of those arguments initializes the corresponding self-titled property:
 
@@ -395,7 +401,8 @@ Each of those arguments initializes the corresponding self-titled property:
 | ***index***          | Index                | <span style="color:SteelBlue;">int</span>     | Object index. |
 | *nodePath*           | NodePath             | <span style="color:SteelBlue;">string</span>  | The path to the node in the document tree. |
 | *loadEncoding*       | LoadEncoding         | <span style="color:SteelBlue;">string</span>  | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
-| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password for opening an encrypted document. |
+| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| *encryptedPassword*  | EncryptedPassword    | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
 
 
 
@@ -406,7 +413,7 @@ Represents a request model for [WordsApi.GetField()](/words/fields/get/) operati
 An object of the **GetFieldRequest** class is created by the following constructor methods:
 
 - GetFieldRequest()
-- GetFieldRequest(<span style="color:SteelBlue;">string</span> ***name***, <span style="color:SteelBlue;">int</span> ***index***, <span style="color:SteelBlue;">string</span> *nodePath*, <span style="color:SteelBlue;">string</span> *folder*, <span style="color:SteelBlue;">string</span> *storage*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*)
+- GetFieldRequest(<span style="color:SteelBlue;">string</span> ***name***, <span style="color:SteelBlue;">int</span> ***index***, <span style="color:SteelBlue;">string</span> *nodePath*, <span style="color:SteelBlue;">string</span> *folder*, <span style="color:SteelBlue;">string</span> *storage*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *encryptedPassword*)
 
 Each of those arguments initializes the corresponding self-titled property:
 
@@ -418,7 +425,8 @@ Each of those arguments initializes the corresponding self-titled property:
 | *folder*             | Folder               | <span style="color:SteelBlue;">string</span>  | Original document folder. |
 | *storage*            | Storage              | <span style="color:SteelBlue;">string</span>  | Original document storage. |
 | *loadEncoding*       | LoadEncoding         | <span style="color:SteelBlue;">string</span>  | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
-| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password for opening an encrypted document. |
+| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| *encryptedPassword*  | EncryptedPassword    | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
 
 
 
@@ -429,7 +437,7 @@ Represents a request model for [WordsApi.GetFieldsOnline()](/words/fields/get-al
 An object of the **GetFieldsOnlineRequest** class is created by the following constructor methods:
 
 - GetFieldsOnlineRequest()
-- GetFieldsOnlineRequest(<span style="color:SteelBlue;">Stream</span> ***document***, <span style="color:SteelBlue;">string</span> *nodePath*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*)
+- GetFieldsOnlineRequest(<span style="color:SteelBlue;">Stream</span> ***document***, <span style="color:SteelBlue;">string</span> *nodePath*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *encryptedPassword*)
 
 Each of those arguments initializes the corresponding self-titled property:
 
@@ -438,7 +446,8 @@ Each of those arguments initializes the corresponding self-titled property:
 | ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | The document. |
 | *nodePath*           | NodePath             | <span style="color:SteelBlue;">string</span>  | The path to the node in the document tree. |
 | *loadEncoding*       | LoadEncoding         | <span style="color:SteelBlue;">string</span>  | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
-| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password for opening an encrypted document. |
+| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| *encryptedPassword*  | EncryptedPassword    | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
 
 
 
@@ -449,7 +458,7 @@ Represents a request model for [WordsApi.GetFields()](/words/fields/get-all/) op
 An object of the **GetFieldsRequest** class is created by the following constructor methods:
 
 - GetFieldsRequest()
-- GetFieldsRequest(<span style="color:SteelBlue;">string</span> ***name***, <span style="color:SteelBlue;">string</span> *nodePath*, <span style="color:SteelBlue;">string</span> *folder*, <span style="color:SteelBlue;">string</span> *storage*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*)
+- GetFieldsRequest(<span style="color:SteelBlue;">string</span> ***name***, <span style="color:SteelBlue;">string</span> *nodePath*, <span style="color:SteelBlue;">string</span> *folder*, <span style="color:SteelBlue;">string</span> *storage*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *encryptedPassword*)
 
 Each of those arguments initializes the corresponding self-titled property:
 
@@ -460,7 +469,8 @@ Each of those arguments initializes the corresponding self-titled property:
 | *folder*             | Folder               | <span style="color:SteelBlue;">string</span>  | Original document folder. |
 | *storage*            | Storage              | <span style="color:SteelBlue;">string</span>  | Original document storage. |
 | *loadEncoding*       | LoadEncoding         | <span style="color:SteelBlue;">string</span>  | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
-| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password for opening an encrypted document. |
+| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| *encryptedPassword*  | EncryptedPassword    | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
 
 
 
@@ -471,7 +481,7 @@ Represents a request model for [WordsApi.InsertFieldOnline()](/words/fields/add/
 An object of the **InsertFieldOnlineRequest** class is created by the following constructor methods:
 
 - InsertFieldOnlineRequest()
-- InsertFieldOnlineRequest(<span style="color:SteelBlue;">Stream</span> ***document***, [FieldInsert](#fieldinsert) ***field***, <span style="color:SteelBlue;">string</span> *nodePath*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *destFileName*, <span style="color:SteelBlue;">string</span> *revisionAuthor*, <span style="color:SteelBlue;">string</span> *revisionDateTime*, <span style="color:SteelBlue;">string</span> *insertBeforeNode*)
+- InsertFieldOnlineRequest(<span style="color:SteelBlue;">Stream</span> ***document***, [FieldInsert](#fieldinsert) ***field***, <span style="color:SteelBlue;">string</span> *nodePath*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *encryptedPassword*, <span style="color:SteelBlue;">string</span> *destFileName*, <span style="color:SteelBlue;">string</span> *revisionAuthor*, <span style="color:SteelBlue;">string</span> *revisionDateTime*, <span style="color:SteelBlue;">string</span> *insertBeforeNode*)
 
 Each of those arguments initializes the corresponding self-titled property:
 
@@ -481,7 +491,8 @@ Each of those arguments initializes the corresponding self-titled property:
 | ***field***          | Field                | [FieldInsert](#fieldinsert)                   | Field data. |
 | *nodePath*           | NodePath             | <span style="color:SteelBlue;">string</span>  | The path to the node in the document tree. |
 | *loadEncoding*       | LoadEncoding         | <span style="color:SteelBlue;">string</span>  | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
-| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password for opening an encrypted document. |
+| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| *encryptedPassword*  | EncryptedPassword    | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
 | *destFileName*       | DestFileName         | <span style="color:SteelBlue;">string</span>  | Result path of the document after the operation. If this parameter is omitted then result of the operation will be saved as the source document. |
 | *revisionAuthor*     | RevisionAuthor       | <span style="color:SteelBlue;">string</span>  | Initials of the author to use for revisions.If you set this parameter and then make some changes to the document programmatically, save the document and later open the document in MS Word you will see these changes as revisions. |
 | *revisionDateTime*   | RevisionDateTime     | <span style="color:SteelBlue;">string</span>  | The date and time to use for revisions. |
@@ -513,7 +524,7 @@ Represents a request model for [WordsApi.InsertField()](/words/fields/add/) oper
 An object of the **InsertFieldRequest** class is created by the following constructor methods:
 
 - InsertFieldRequest()
-- InsertFieldRequest(<span style="color:SteelBlue;">string</span> ***name***, [FieldInsert](#fieldinsert) ***field***, <span style="color:SteelBlue;">string</span> *nodePath*, <span style="color:SteelBlue;">string</span> *folder*, <span style="color:SteelBlue;">string</span> *storage*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *destFileName*, <span style="color:SteelBlue;">string</span> *revisionAuthor*, <span style="color:SteelBlue;">string</span> *revisionDateTime*, <span style="color:SteelBlue;">string</span> *insertBeforeNode*)
+- InsertFieldRequest(<span style="color:SteelBlue;">string</span> ***name***, [FieldInsert](#fieldinsert) ***field***, <span style="color:SteelBlue;">string</span> *nodePath*, <span style="color:SteelBlue;">string</span> *folder*, <span style="color:SteelBlue;">string</span> *storage*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *encryptedPassword*, <span style="color:SteelBlue;">string</span> *destFileName*, <span style="color:SteelBlue;">string</span> *revisionAuthor*, <span style="color:SteelBlue;">string</span> *revisionDateTime*, <span style="color:SteelBlue;">string</span> *insertBeforeNode*)
 
 Each of those arguments initializes the corresponding self-titled property:
 
@@ -525,7 +536,8 @@ Each of those arguments initializes the corresponding self-titled property:
 | *folder*             | Folder               | <span style="color:SteelBlue;">string</span>  | Original document folder. |
 | *storage*            | Storage              | <span style="color:SteelBlue;">string</span>  | Original document storage. |
 | *loadEncoding*       | LoadEncoding         | <span style="color:SteelBlue;">string</span>  | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
-| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password for opening an encrypted document. |
+| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| *encryptedPassword*  | EncryptedPassword    | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
 | *destFileName*       | DestFileName         | <span style="color:SteelBlue;">string</span>  | Result path of the document after the operation. If this parameter is omitted then result of the operation will be saved as the source document. |
 | *revisionAuthor*     | RevisionAuthor       | <span style="color:SteelBlue;">string</span>  | Initials of the author to use for revisions.If you set this parameter and then make some changes to the document programmatically, save the document and later open the document in MS Word you will see these changes as revisions. |
 | *revisionDateTime*   | RevisionDateTime     | <span style="color:SteelBlue;">string</span>  | The date and time to use for revisions. |
@@ -540,7 +552,7 @@ Represents a request model for [WordsApi.UpdateFieldOnline()](/words/fields/upda
 An object of the **UpdateFieldOnlineRequest** class is created by the following constructor methods:
 
 - UpdateFieldOnlineRequest()
-- UpdateFieldOnlineRequest(<span style="color:SteelBlue;">Stream</span> ***document***, [FieldUpdate](#fieldupdate) ***field***, <span style="color:SteelBlue;">int</span> ***index***, <span style="color:SteelBlue;">string</span> *nodePath*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *destFileName*, <span style="color:SteelBlue;">string</span> *revisionAuthor*, <span style="color:SteelBlue;">string</span> *revisionDateTime*)
+- UpdateFieldOnlineRequest(<span style="color:SteelBlue;">Stream</span> ***document***, [FieldUpdate](#fieldupdate) ***field***, <span style="color:SteelBlue;">int</span> ***index***, <span style="color:SteelBlue;">string</span> *nodePath*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *encryptedPassword*, <span style="color:SteelBlue;">string</span> *destFileName*, <span style="color:SteelBlue;">string</span> *revisionAuthor*, <span style="color:SteelBlue;">string</span> *revisionDateTime*)
 
 Each of those arguments initializes the corresponding self-titled property:
 
@@ -551,7 +563,8 @@ Each of those arguments initializes the corresponding self-titled property:
 | ***index***          | Index                | <span style="color:SteelBlue;">int</span>     | Object index. |
 | *nodePath*           | NodePath             | <span style="color:SteelBlue;">string</span>  | The path to the node in the document tree. |
 | *loadEncoding*       | LoadEncoding         | <span style="color:SteelBlue;">string</span>  | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
-| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password for opening an encrypted document. |
+| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| *encryptedPassword*  | EncryptedPassword    | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
 | *destFileName*       | DestFileName         | <span style="color:SteelBlue;">string</span>  | Result path of the document after the operation. If this parameter is omitted then result of the operation will be saved as the source document. |
 | *revisionAuthor*     | RevisionAuthor       | <span style="color:SteelBlue;">string</span>  | Initials of the author to use for revisions.If you set this parameter and then make some changes to the document programmatically, save the document and later open the document in MS Word you will see these changes as revisions. |
 | *revisionDateTime*   | RevisionDateTime     | <span style="color:SteelBlue;">string</span>  | The date and time to use for revisions. |
@@ -582,7 +595,7 @@ Represents a request model for [WordsApi.UpdateField()](/words/fields/update-fie
 An object of the **UpdateFieldRequest** class is created by the following constructor methods:
 
 - UpdateFieldRequest()
-- UpdateFieldRequest(<span style="color:SteelBlue;">string</span> ***name***, <span style="color:SteelBlue;">int</span> ***index***, [FieldUpdate](#fieldupdate) ***field***, <span style="color:SteelBlue;">string</span> *nodePath*, <span style="color:SteelBlue;">string</span> *folder*, <span style="color:SteelBlue;">string</span> *storage*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *destFileName*, <span style="color:SteelBlue;">string</span> *revisionAuthor*, <span style="color:SteelBlue;">string</span> *revisionDateTime*)
+- UpdateFieldRequest(<span style="color:SteelBlue;">string</span> ***name***, <span style="color:SteelBlue;">int</span> ***index***, [FieldUpdate](#fieldupdate) ***field***, <span style="color:SteelBlue;">string</span> *nodePath*, <span style="color:SteelBlue;">string</span> *folder*, <span style="color:SteelBlue;">string</span> *storage*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *encryptedPassword*, <span style="color:SteelBlue;">string</span> *destFileName*, <span style="color:SteelBlue;">string</span> *revisionAuthor*, <span style="color:SteelBlue;">string</span> *revisionDateTime*)
 
 Each of those arguments initializes the corresponding self-titled property:
 
@@ -595,7 +608,8 @@ Each of those arguments initializes the corresponding self-titled property:
 | *folder*             | Folder               | <span style="color:SteelBlue;">string</span>  | Original document folder. |
 | *storage*            | Storage              | <span style="color:SteelBlue;">string</span>  | Original document storage. |
 | *loadEncoding*       | LoadEncoding         | <span style="color:SteelBlue;">string</span>  | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
-| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password for opening an encrypted document. |
+| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| *encryptedPassword*  | EncryptedPassword    | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
 | *destFileName*       | DestFileName         | <span style="color:SteelBlue;">string</span>  | Result path of the document after the operation. If this parameter is omitted then result of the operation will be saved as the source document. |
 | *revisionAuthor*     | RevisionAuthor       | <span style="color:SteelBlue;">string</span>  | Initials of the author to use for revisions.If you set this parameter and then make some changes to the document programmatically, save the document and later open the document in MS Word you will see these changes as revisions. |
 | *revisionDateTime*   | RevisionDateTime     | <span style="color:SteelBlue;">string</span>  | The date and time to use for revisions. |
@@ -609,7 +623,7 @@ Represents a request model for [WordsApi.UpdateFieldsOnline()](/words/fields/upd
 An object of the **UpdateFieldsOnlineRequest** class is created by the following constructor methods:
 
 - UpdateFieldsOnlineRequest()
-- UpdateFieldsOnlineRequest(<span style="color:SteelBlue;">Stream</span> ***document***, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *destFileName*)
+- UpdateFieldsOnlineRequest(<span style="color:SteelBlue;">Stream</span> ***document***, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *encryptedPassword*, <span style="color:SteelBlue;">string</span> *destFileName*)
 
 Each of those arguments initializes the corresponding self-titled property:
 
@@ -617,7 +631,8 @@ Each of those arguments initializes the corresponding self-titled property:
 |----------------------|----------------------|-----------------------------------------------|-------------|
 | ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | The document. |
 | *loadEncoding*       | LoadEncoding         | <span style="color:SteelBlue;">string</span>  | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
-| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password for opening an encrypted document. |
+| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| *encryptedPassword*  | EncryptedPassword    | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
 | *destFileName*       | DestFileName         | <span style="color:SteelBlue;">string</span>  | Result path of the document after the operation. If this parameter is omitted then result of the operation will be saved as the source document. |
 
 
@@ -646,7 +661,7 @@ Represents a request model for [WordsApi.UpdateFields()](/words/fields/update/) 
 An object of the **UpdateFieldsRequest** class is created by the following constructor methods:
 
 - UpdateFieldsRequest()
-- UpdateFieldsRequest(<span style="color:SteelBlue;">string</span> ***name***, <span style="color:SteelBlue;">string</span> *folder*, <span style="color:SteelBlue;">string</span> *storage*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *destFileName*)
+- UpdateFieldsRequest(<span style="color:SteelBlue;">string</span> ***name***, <span style="color:SteelBlue;">string</span> *folder*, <span style="color:SteelBlue;">string</span> *storage*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *encryptedPassword*, <span style="color:SteelBlue;">string</span> *destFileName*)
 
 Each of those arguments initializes the corresponding self-titled property:
 
@@ -656,7 +671,18 @@ Each of those arguments initializes the corresponding self-titled property:
 | *folder*             | Folder               | <span style="color:SteelBlue;">string</span>  | Original document folder. |
 | *storage*            | Storage              | <span style="color:SteelBlue;">string</span>  | Original document storage. |
 | *loadEncoding*       | LoadEncoding         | <span style="color:SteelBlue;">string</span>  | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
-| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password for opening an encrypted document. |
+| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| *encryptedPassword*  | EncryptedPassword    | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
 | *destFileName*       | DestFileName         | <span style="color:SteelBlue;">string</span>  | Result path of the document after the operation. If this parameter is omitted then result of the operation will be saved as the source document. |
 
+
+
+## FieldOptions.FieldIndexFormatEnum
+
+The following values are defined: Template, Classic, Fancy, Modern, Bulleted, Formal, Simple.
+
+
+## FieldOptions.FieldUpdateCultureSourceEnum
+
+The following values are defined: CurrentThread, FieldCode.
 

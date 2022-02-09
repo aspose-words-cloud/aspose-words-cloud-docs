@@ -1,11 +1,11 @@
----
+﻿---
 title: "Range"
 second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /spec/range/
 description: "Range"
 notoc: true
-weight: 390
+weight: 400
 ---
 
 
@@ -86,7 +86,7 @@ Represents a request model for [WordsApi.GetRangeTextOnline()](/words/range/) op
 An object of the **GetRangeTextOnlineRequest** class is created by the following constructor methods:
 
 - GetRangeTextOnlineRequest()
-- GetRangeTextOnlineRequest(<span style="color:SteelBlue;">Stream</span> ***document***, <span style="color:SteelBlue;">string</span> ***rangeStartIdentifier***, <span style="color:SteelBlue;">string</span> *rangeEndIdentifier*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*)
+- GetRangeTextOnlineRequest(<span style="color:SteelBlue;">Stream</span> ***document***, <span style="color:SteelBlue;">string</span> ***rangeStartIdentifier***, <span style="color:SteelBlue;">string</span> *rangeEndIdentifier*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *encryptedPassword*)
 
 Each of those arguments initializes the corresponding self-titled property:
 
@@ -96,7 +96,8 @@ Each of those arguments initializes the corresponding self-titled property:
 | ***rangeStartIdentifier*** | RangeStartIdentifier | <span style="color:SteelBlue;">string</span>  | The range start identifier. |
 | *rangeEndIdentifier* | RangeEndIdentifier   | <span style="color:SteelBlue;">string</span>  | The range end identifier. |
 | *loadEncoding*       | LoadEncoding         | <span style="color:SteelBlue;">string</span>  | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
-| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password for opening an encrypted document. |
+| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| *encryptedPassword*  | EncryptedPassword    | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
 
 
 
@@ -107,7 +108,7 @@ Represents a request model for [WordsApi.GetRangeText()](/words/range/) operatio
 An object of the **GetRangeTextRequest** class is created by the following constructor methods:
 
 - GetRangeTextRequest()
-- GetRangeTextRequest(<span style="color:SteelBlue;">string</span> ***name***, <span style="color:SteelBlue;">string</span> ***rangeStartIdentifier***, <span style="color:SteelBlue;">string</span> *rangeEndIdentifier*, <span style="color:SteelBlue;">string</span> *folder*, <span style="color:SteelBlue;">string</span> *storage*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*)
+- GetRangeTextRequest(<span style="color:SteelBlue;">string</span> ***name***, <span style="color:SteelBlue;">string</span> ***rangeStartIdentifier***, <span style="color:SteelBlue;">string</span> *rangeEndIdentifier*, <span style="color:SteelBlue;">string</span> *folder*, <span style="color:SteelBlue;">string</span> *storage*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *encryptedPassword*)
 
 Each of those arguments initializes the corresponding self-titled property:
 
@@ -119,7 +120,8 @@ Each of those arguments initializes the corresponding self-titled property:
 | *folder*             | Folder               | <span style="color:SteelBlue;">string</span>  | Original document folder. |
 | *storage*            | Storage              | <span style="color:SteelBlue;">string</span>  | Original document storage. |
 | *loadEncoding*       | LoadEncoding         | <span style="color:SteelBlue;">string</span>  | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
-| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password for opening an encrypted document. |
+| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| *encryptedPassword*  | EncryptedPassword    | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
 
 
 
@@ -130,7 +132,7 @@ Represents a request model for [WordsApi](/words/spec/wordsapi#wordsapi) operati
 An object of the **RemoveRangeOnlineRequest** class is created by the following constructor methods:
 
 - RemoveRangeOnlineRequest()
-- RemoveRangeOnlineRequest(<span style="color:SteelBlue;">Stream</span> ***document***, <span style="color:SteelBlue;">string</span> ***rangeStartIdentifier***, <span style="color:SteelBlue;">string</span> *rangeEndIdentifier*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *destFileName*)
+- RemoveRangeOnlineRequest(<span style="color:SteelBlue;">Stream</span> ***document***, <span style="color:SteelBlue;">string</span> ***rangeStartIdentifier***, <span style="color:SteelBlue;">string</span> *rangeEndIdentifier*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *encryptedPassword*, <span style="color:SteelBlue;">string</span> *destFileName*)
 
 Each of those arguments initializes the corresponding self-titled property:
 
@@ -140,7 +142,8 @@ Each of those arguments initializes the corresponding self-titled property:
 | ***rangeStartIdentifier*** | RangeStartIdentifier | <span style="color:SteelBlue;">string</span>  | The range start identifier. |
 | *rangeEndIdentifier* | RangeEndIdentifier   | <span style="color:SteelBlue;">string</span>  | The range end identifier. |
 | *loadEncoding*       | LoadEncoding         | <span style="color:SteelBlue;">string</span>  | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
-| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password for opening an encrypted document. |
+| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| *encryptedPassword*  | EncryptedPassword    | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
 | *destFileName*       | DestFileName         | <span style="color:SteelBlue;">string</span>  | Result path of the document after the operation. If this parameter is omitted then result of the operation will be saved as the source document. |
 
 
@@ -169,7 +172,7 @@ Represents a request model for [WordsApi.RemoveRange()](/words/range/) operation
 An object of the **RemoveRangeRequest** class is created by the following constructor methods:
 
 - RemoveRangeRequest()
-- RemoveRangeRequest(<span style="color:SteelBlue;">string</span> ***name***, <span style="color:SteelBlue;">string</span> ***rangeStartIdentifier***, <span style="color:SteelBlue;">string</span> *rangeEndIdentifier*, <span style="color:SteelBlue;">string</span> *folder*, <span style="color:SteelBlue;">string</span> *storage*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *destFileName*)
+- RemoveRangeRequest(<span style="color:SteelBlue;">string</span> ***name***, <span style="color:SteelBlue;">string</span> ***rangeStartIdentifier***, <span style="color:SteelBlue;">string</span> *rangeEndIdentifier*, <span style="color:SteelBlue;">string</span> *folder*, <span style="color:SteelBlue;">string</span> *storage*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *encryptedPassword*, <span style="color:SteelBlue;">string</span> *destFileName*)
 
 Each of those arguments initializes the corresponding self-titled property:
 
@@ -181,7 +184,8 @@ Each of those arguments initializes the corresponding self-titled property:
 | *folder*             | Folder               | <span style="color:SteelBlue;">string</span>  | Original document folder. |
 | *storage*            | Storage              | <span style="color:SteelBlue;">string</span>  | Original document storage. |
 | *loadEncoding*       | LoadEncoding         | <span style="color:SteelBlue;">string</span>  | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
-| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password for opening an encrypted document. |
+| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| *encryptedPassword*  | EncryptedPassword    | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
 | *destFileName*       | DestFileName         | <span style="color:SteelBlue;">string</span>  | Result path of the document after the operation. If this parameter is omitted then result of the operation will be saved as the source document. |
 
 

@@ -1,11 +1,11 @@
----
+﻿---
 title: "Link"
 second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /spec/link/
 description: "Link"
 notoc: true
-weight: 290
+weight: 300
 ---
 
 

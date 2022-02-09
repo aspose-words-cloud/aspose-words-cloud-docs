@@ -1,11 +1,11 @@
----
+﻿---
 title: "Document"
 second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /spec/document/
 description: "Document"
 notoc: true
-weight: 140
+weight: 150
 ---
 
 
@@ -44,7 +44,7 @@ weight: 140
   <tr>
     <td style="vertical-align:middle;" class="bg-white"><strong><i>Convert</i><strong></td>
     <td style="vertical-align:middle;" class="bg-white"><a href="#convertdocumentrequest">ConvertDocumentRequest</a></td>
-    <td style="vertical-align:middle;" class="bg-white" colspan="2"><span style="color:SteelBlue;">Stream</span></td>
+    <td style="vertical-align:middle;" class="bg-white" colspan="2"><span style="color:SteelBlue;">System.IO.Stream</span></td>
     <td style="vertical-align:middle;" class="bg-white"></td>
   </tr>
   <tr>
@@ -59,7 +59,7 @@ weight: 140
   </tr>
   <tr>
     <td style="vertical-align:middle;" class="bg-white"><a href="#getdocumentwithformatrequest">GetDocumentWithFormatRequest</a></td>
-    <td style="vertical-align:middle;" class="bg-white" colspan="2"><span style="color:SteelBlue;">Stream</span></td>
+    <td style="vertical-align:middle;" class="bg-white" colspan="2"><span style="color:SteelBlue;">System.IO.Stream</span></td>
     <td style="vertical-align:middle;" class="bg-white"></td>
   </tr>
   <tr>
@@ -71,12 +71,12 @@ weight: 140
   <tr>
     <td style="vertical-align:middle;" class="bg-white" rowspan="2"><strong><i>Optimize</i><strong></td>
     <td style="vertical-align:middle;" class="bg-white"><a href="#optimizedocumentonlinerequest">OptimizeDocumentOnlineRequest</a></td>
-    <td style="vertical-align:middle;" class="bg-white"><span style="color:SteelBlue;">Stream</span></td>
+    <td style="vertical-align:middle;" class="bg-white"><span style="color:SteelBlue;">System.IO.Stream</span></td>
     <td style="vertical-align:middle;" class="bg-white" rowspan="2"><a href="#optimizationoptions">OptimizationOptions</a></td>
   </tr>
   <tr>
     <td style="vertical-align:middle;" class="bg-white"><a href="#optimizedocumentrequest">OptimizeDocumentRequest</a></td>
-    <td style="vertical-align:middle;" class="bg-white"><span style="color:SteelBlue;">void</span></td>
+    <td style="vertical-align:middle;" class="bg-white"><span style="color:SteelBlue;">Task</span></td>
   </tr>
   <tr>
     <td style="vertical-align:middle;" class="bg-white" rowspan="6"><strong><i>SaveAs</i><strong></td>
@@ -147,6 +147,7 @@ The following properties are defined:
 
 | Property             | Type                                          | Description |
 |----------------------|-----------------------------------------------|-------------|
+| AcceptAllRevisionsBeforeComparison | <span style="color:SteelBlue;">bool</span>    | Gets or sets whether accept revisions before comparison or not. |
 | IgnoreCaseChanges    | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether documents comparison is case insensitive. By default comparison is case sensitive. |
 | IgnoreComments       | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether comments content is ignored. By default comments are not ignored. |
 | IgnoreFields         | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether fields content is ignored. By default fields are not ignored. |
@@ -188,6 +189,7 @@ The following properties are defined:
 |----------------------|-----------------------------------------------|-------------|
 | Href                 | <span style="color:SteelBlue;">string</span>  | Gets or sets the path to document to append at the server. |
 | ImportFormatMode     | <span style="color:SteelBlue;">string</span>  | Gets or sets the option that controls formatting will be used: appended or destination document. Can be KeepSourceFormatting or UseDestinationStyles. |
+| Password             | <span style="color:SteelBlue;">string</span>  | Gets or sets document password encrypted on API public key. The default value is null (the document has no password) . |
 
 
 ## DocumentEntryList
@@ -208,7 +210,7 @@ The following properties are defined:
 
 Represents a dTO container with a position in the document tree.
 
-This class is used in [Comment](/words/spec/comment#comment), [CommentBase](/words/spec/comment#commentbase), [CommentInsert](/words/spec/comment#commentinsert), [CommentUpdate](/words/spec/comment#commentupdate), [DrawingObjectInsert](/words/spec/drawingobject#drawingobjectinsert), [Footnote](/words/spec/footnote#footnote), [FootnoteBase](/words/spec/footnote#footnotebase), [SearchResult](/words/spec/text#searchresult), [TableInsert](/words/spec/table#tableinsert), [TableInsertDto](/words/spec/table#tableinsertdto).
+This class is used in [Comment](/words/spec/comment#comment), [CommentBase](/words/spec/comment#commentbase), [CommentInsert](/words/spec/comment#commentinsert), [CommentUpdate](/words/spec/comment#commentupdate), [DrawingObjectInsert](/words/spec/drawingobject#drawingobjectinsert), [Footnote](/words/spec/footnote#footnote), [SearchResult](/words/spec/text#searchresult), [TableInsert](/words/spec/table#tableinsert), [TableInsertDto](/words/spec/table#tableinsertdto).
 
 The following properties are defined:
 
@@ -304,6 +306,7 @@ The following properties are defined:
 | CompareOptions       | [CompareOptions](#compareoptions)             | Gets or sets the compare options. |
 | ComparingWithDocument | <span style="color:SteelBlue;">string</span>  | Gets or sets the path to document to compare at the server. |
 | DateTime             | <span style="color:SteelBlue;">DateTime</span> | Gets or sets the date and time to use for revisions. |
+| ResultDocumentFormat | <span style="color:SteelBlue;">string</span>  | Gets or sets the result document format. |
 
 
 ## LoadWebDocumentData
@@ -326,23 +329,11 @@ Represents a base container class for save options data.
 
 This class is used in [LoadWebDocumentData](#loadwebdocumentdata), [SaveAsOnlineRequest](#saveasonlinerequest), [SaveAsRequest](#saveasrequest).
 
-The following properties are defined:
+A single `[JsonConverter` property is defined:
 
 | Property             | Type                                          | Description |
 |----------------------|-----------------------------------------------|-------------|
-| AllowEmbeddingPostScriptFonts | <span style="color:SteelBlue;">bool</span>    | Gets or sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is false.. |
-| CustomTimeZoneInfoData | [TimeZoneInfoData](#timezoneinfodata)         | Gets or sets CustomTimeZoneInfo. |
-| Dml3DEffectsRenderingMode | [Dml3DEffectsRenderingModeEnum](/words/spec/documentsaveoptions#saveoptionsdata.dml3deffectsrenderingmodeenum) | Gets or sets the value determining how 3D effects are rendered. |
-| DmlEffectsRenderingMode | <span style="color:SteelBlue;">string</span>  | Gets or sets the value determining how DrawingML effects are rendered. { Simplified | None | Fine }. |
-| DmlRenderingMode     | <span style="color:SteelBlue;">string</span>  | Gets or sets the option that controls how DrawingML shapes are rendered. |
-| FileName             | <span style="color:SteelBlue;">string</span>  | Gets or sets the name of destination file. |
-| SaveFormat           | <span style="color:SteelBlue;">string</span>  | Gets or sets the format of save. |
-| UpdateCreatedTimeProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value determining whether the Aspose.Words.Properties.BuiltInDocumentProperties.CreatedTime property is updated before saving. Default value is false. |
-| UpdateFields         | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether fields should be updated before saving the document to a fixed page format. The default value is true. |
-| UpdateLastPrintedProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether the Aspose.Words.Properties.BuiltInDocumentProperties.LastPrinted property is updated before saving. |
-| UpdateLastSavedTimeProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether the Aspose.Words.Properties.BuiltInDocumentProperties.LastSavedTime property is updated before saving. |
-| UpdateSdtContent     | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether content of StructuredDocumentTag is updated before saving. |
-| ZipOutput            | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether to zip output or not. The default value is false. |
+| [JsonConverter       | <span style="color:SteelBlue;">int</span>     | Gets or sets the value determining how 3D effects are rendered. |
 
 
 ## TiffSaveOptionsData
@@ -355,19 +346,7 @@ The following properties are defined:
 
 | Property             | Type                                          | Description |
 |----------------------|-----------------------------------------------|-------------|
-| AllowEmbeddingPostScriptFonts | <span style="color:SteelBlue;">bool</span>    | Gets or sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is false.. |
-| CustomTimeZoneInfoData | [TimeZoneInfoData](#timezoneinfodata)         | Gets or sets CustomTimeZoneInfo. |
-| Dml3DEffectsRenderingMode | [Dml3DEffectsRenderingModeEnum](/words/spec/documentsaveoptions#saveoptionsdata.dml3deffectsrenderingmodeenum) | Gets or sets the value determining how 3D effects are rendered. |
-| DmlEffectsRenderingMode | <span style="color:SteelBlue;">string</span>  | Gets or sets the value determining how DrawingML effects are rendered. { Simplified | None | Fine }. |
-| DmlRenderingMode     | <span style="color:SteelBlue;">string</span>  | Gets or sets the option that controls how DrawingML shapes are rendered. |
-| FileName             | <span style="color:SteelBlue;">string</span>  | Gets or sets the name of destination file. |
-| SaveFormat           | <span style="color:SteelBlue;">string</span>  | Gets or sets the format of save. |
-| UpdateCreatedTimeProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value determining whether the Aspose.Words.Properties.BuiltInDocumentProperties.CreatedTime property is updated before saving. Default value is false. |
-| UpdateFields         | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether fields should be updated before saving the document to a fixed page format. The default value is true. |
-| UpdateLastPrintedProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether the Aspose.Words.Properties.BuiltInDocumentProperties.LastPrinted property is updated before saving. |
-| UpdateLastSavedTimeProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether the Aspose.Words.Properties.BuiltInDocumentProperties.LastSavedTime property is updated before saving. |
-| UpdateSdtContent     | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether content of StructuredDocumentTag is updated before saving. |
-| ZipOutput            | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether to zip output or not. The default value is false. |
+| [JsonConverter       | <span style="color:SteelBlue;">int</span>     | Gets or sets the value determining how 3D effects are rendered. |
 | ColorMode            | <span style="color:SteelBlue;">string</span>  | Gets or sets the value determining how colors are rendered. { Normal | Grayscale}. |
 | JpegQuality          | <span style="color:SteelBlue;">int</span>     | Gets or sets the quality of the JPEG images inside PDF document. |
 | MetafileRenderingOptions | [MetafileRenderingOptionsData](/words/spec/documentsaveoptions#metafilerenderingoptionsdata) | Gets or sets the metafile rendering options. |
@@ -375,7 +354,6 @@ The following properties are defined:
 | OptimizeOutput       | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether it is required to optimize output of XPS. If this flag is set redundant nested canvases and empty canvases are removed, also neighbor glyphs with the same formatting are concatenated. Note: The accuracy of the content display may be affected if this property is set to true.. The default value is false. |
 | PageCount            | <span style="color:SteelBlue;">int</span>     | Gets or sets the number of pages to render. |
 | PageIndex            | <span style="color:SteelBlue;">int</span>     | Gets or sets the 0-based index of the first page to render. |
-| GraphicsQualityOptions | [GraphicsQualityOptionsData](/words/spec/documentsaveoptions#graphicsqualityoptionsdata) | Gets or sets the additional System.Drawing.Graphics quality options. |
 | HorizontalResolution | <span style="color:SteelBlue;">double</span>  | Gets or sets the horizontal resolution in dots per inch for the generated images. This property has effect only when saving to raster image formats. The default value is 96. |
 | ImageBrightness      | <span style="color:SteelBlue;">double</span>  | Gets or sets the brightness level of the image. |
 | ImageColorMode       | <span style="color:SteelBlue;">string</span>  | Gets or sets the color mode of the image. |
@@ -396,8 +374,6 @@ The following properties are defined:
 ## TimeZoneInfoData
 
 Represents a class to specify TimeZoneInfo parameters.
-
-This class is used in [BmpSaveOptionsData](/words/spec/documentsaveoptions#bmpsaveoptionsdata), [DocSaveOptionsData](/words/spec/documentsaveoptions#docsaveoptionsdata), [EmfSaveOptionsData](/words/spec/documentsaveoptions#emfsaveoptionsdata), [EpubSaveOptionsData](/words/spec/documentsaveoptions#epubsaveoptionsdata), [FixedPageSaveOptionsData](/words/spec/documentsaveoptions#fixedpagesaveoptionsdata), [GifSaveOptionsData](/words/spec/documentsaveoptions#gifsaveoptionsdata), [HtmlFixedSaveOptionsData](/words/spec/documentsaveoptions#htmlfixedsaveoptionsdata), [HtmlSaveOptionsData](/words/spec/documentsaveoptions#htmlsaveoptionsdata), [ImageSaveOptionsData](/words/spec/documentsaveoptions#imagesaveoptionsdata), [JpegSaveOptionsData](/words/spec/documentsaveoptions#jpegsaveoptionsdata), [MhtmlSaveOptionsData](/words/spec/documentsaveoptions#mhtmlsaveoptionsdata), [OdtSaveOptionsData](/words/spec/documentsaveoptions#odtsaveoptionsdata), [OoxmlSaveOptionsData](/words/spec/documentsaveoptions#ooxmlsaveoptionsdata), [PclSaveOptionsData](/words/spec/documentsaveoptions#pclsaveoptionsdata), [PdfSaveOptionsData](/words/spec/documentsaveoptions#pdfsaveoptionsdata), [PngSaveOptionsData](/words/spec/documentsaveoptions#pngsaveoptionsdata), [PsSaveOptionsData](/words/spec/documentsaveoptions#pssaveoptionsdata), [RtfSaveOptionsData](/words/spec/documentsaveoptions#rtfsaveoptionsdata), [SaveOptionsData](#saveoptionsdata), [SvgSaveOptionsData](/words/spec/documentsaveoptions#svgsaveoptionsdata), [TiffSaveOptionsData](#tiffsaveoptionsdata), [TxtSaveOptionsBaseData](/words/spec/documentsaveoptions#txtsaveoptionsbasedata), [WordMLSaveOptionsData](/words/spec/documentsaveoptions#wordmlsaveoptionsdata), [XamlFixedSaveOptionsData](/words/spec/documentsaveoptions#xamlfixedsaveoptionsdata), [XamlFlowSaveOptionsData](/words/spec/documentsaveoptions#xamlflowsaveoptionsdata), [XpsSaveOptionsData](/words/spec/documentsaveoptions#xpssaveoptionsdata).
 
 The following properties are defined:
 
@@ -430,16 +406,17 @@ Represents a request model for [WordsApi.AppendDocumentOnline()](/words/merge/) 
 An object of the **AppendDocumentOnlineRequest** class is created by the following constructor methods:
 
 - AppendDocumentOnlineRequest()
-- AppendDocumentOnlineRequest(<span style="color:SteelBlue;">Stream</span> ***document***, [DocumentEntryList](#documententrylist) ***documentList***, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *destFileName*, <span style="color:SteelBlue;">string</span> *revisionAuthor*, <span style="color:SteelBlue;">string</span> *revisionDateTime*)
+- AppendDocumentOnlineRequest(<span style="color:SteelBlue;">Stream</span> ***document***, [DocumentEntryList](#documententrylist) ***documentList***, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *encryptedPassword*, <span style="color:SteelBlue;">string</span> *destFileName*, <span style="color:SteelBlue;">string</span> *revisionAuthor*, <span style="color:SteelBlue;">string</span> *revisionDateTime*)
 
 Each of those arguments initializes the corresponding self-titled property:
 
 | Argument             | Property             | Type                                          | Description |
 |----------------------|----------------------|-----------------------------------------------|-------------|
-| ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | The document. |
+| ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | Original document. |
 | ***documentList***   | DocumentList         | [DocumentEntryList](#documententrylist)       | <see cref="DocumentEntryList"/> with a list of documents to append. |
 | *loadEncoding*       | LoadEncoding         | <span style="color:SteelBlue;">string</span>  | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
-| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password for opening an encrypted document. |
+| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| *encryptedPassword*  | EncryptedPassword    | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
 | *destFileName*       | DestFileName         | <span style="color:SteelBlue;">string</span>  | Result path of the document after the operation. If this parameter is omitted then result of the operation will be saved as the source document. |
 | *revisionAuthor*     | RevisionAuthor       | <span style="color:SteelBlue;">string</span>  | Initials of the author to use for revisions.If you set this parameter and then make some changes to the document programmatically, save the document and later open the document in MS Word you will see these changes as revisions. |
 | *revisionDateTime*   | RevisionDateTime     | <span style="color:SteelBlue;">string</span>  | The date and time to use for revisions. |
@@ -470,7 +447,7 @@ Represents a request model for [WordsApi.AppendDocument()](/words/merge/) operat
 An object of the **AppendDocumentRequest** class is created by the following constructor methods:
 
 - AppendDocumentRequest()
-- AppendDocumentRequest(<span style="color:SteelBlue;">string</span> ***name***, [DocumentEntryList](#documententrylist) ***documentList***, <span style="color:SteelBlue;">string</span> *folder*, <span style="color:SteelBlue;">string</span> *storage*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *destFileName*, <span style="color:SteelBlue;">string</span> *revisionAuthor*, <span style="color:SteelBlue;">string</span> *revisionDateTime*)
+- AppendDocumentRequest(<span style="color:SteelBlue;">string</span> ***name***, [DocumentEntryList](#documententrylist) ***documentList***, <span style="color:SteelBlue;">string</span> *folder*, <span style="color:SteelBlue;">string</span> *storage*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *encryptedPassword*, <span style="color:SteelBlue;">string</span> *destFileName*, <span style="color:SteelBlue;">string</span> *revisionAuthor*, <span style="color:SteelBlue;">string</span> *revisionDateTime*)
 
 Each of those arguments initializes the corresponding self-titled property:
 
@@ -481,7 +458,8 @@ Each of those arguments initializes the corresponding self-titled property:
 | *folder*             | Folder               | <span style="color:SteelBlue;">string</span>  | Original document folder. |
 | *storage*            | Storage              | <span style="color:SteelBlue;">string</span>  | Original document storage. |
 | *loadEncoding*       | LoadEncoding         | <span style="color:SteelBlue;">string</span>  | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
-| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password for opening an encrypted document. |
+| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| *encryptedPassword*  | EncryptedPassword    | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
 | *destFileName*       | DestFileName         | <span style="color:SteelBlue;">string</span>  | Result path of the document after the operation. If this parameter is omitted then result of the operation will be saved as the source document. |
 | *revisionAuthor*     | RevisionAuthor       | <span style="color:SteelBlue;">string</span>  | Initials of the author to use for revisions.If you set this parameter and then make some changes to the document programmatically, save the document and later open the document in MS Word you will see these changes as revisions. |
 | *revisionDateTime*   | RevisionDateTime     | <span style="color:SteelBlue;">string</span>  | The date and time to use for revisions. |
@@ -495,7 +473,7 @@ Represents a request model for [WordsApi.CompareDocumentOnline()](/words/compare
 An object of the **CompareDocumentOnlineRequest** class is created by the following constructor methods:
 
 - CompareDocumentOnlineRequest()
-- CompareDocumentOnlineRequest(<span style="color:SteelBlue;">Stream</span> ***document***, [CompareData](#comparedata) ***compareData***, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *destFileName*)
+- CompareDocumentOnlineRequest(<span style="color:SteelBlue;">Stream</span> ***document***, [CompareData](#comparedata) ***compareData***, <span style="color:SteelBlue;">Stream</span> *comparingDocument*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *encryptedPassword*, <span style="color:SteelBlue;">string</span> *destFileName*, <span style="color:SteelBlue;">string</span> *encryptedPassword2*)
 
 Each of those arguments initializes the corresponding self-titled property:
 
@@ -503,9 +481,12 @@ Each of those arguments initializes the corresponding self-titled property:
 |----------------------|----------------------|-----------------------------------------------|-------------|
 | ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | The document. |
 | ***compareData***    | CompareData          | [CompareData](#comparedata)                   | Compare data. |
+| *comparingDocument*  | ComparingDocument    | <span style="color:SteelBlue;">Stream</span>  | The comparing document. |
 | *loadEncoding*       | LoadEncoding         | <span style="color:SteelBlue;">string</span>  | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
-| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password for opening an encrypted document. |
+| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| *encryptedPassword*  | EncryptedPassword    | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
 | *destFileName*       | DestFileName         | <span style="color:SteelBlue;">string</span>  | Result path of the document after the operation. If this parameter is omitted then result of the operation will be saved as the source document. |
+| *encryptedPassword2* | EncryptedPassword2   | <span style="color:SteelBlue;">string</span>  | encrypted password for the second document. |
 
 
 
@@ -533,7 +514,7 @@ Represents a request model for [WordsApi.CompareDocument()](/words/compare/) ope
 An object of the **CompareDocumentRequest** class is created by the following constructor methods:
 
 - CompareDocumentRequest()
-- CompareDocumentRequest(<span style="color:SteelBlue;">string</span> ***name***, [CompareData](#comparedata) ***compareData***, <span style="color:SteelBlue;">string</span> *folder*, <span style="color:SteelBlue;">string</span> *storage*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *destFileName*)
+- CompareDocumentRequest(<span style="color:SteelBlue;">string</span> ***name***, [CompareData](#comparedata) ***compareData***, <span style="color:SteelBlue;">string</span> *folder*, <span style="color:SteelBlue;">string</span> *storage*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *encryptedPassword*, <span style="color:SteelBlue;">string</span> *destFileName*, <span style="color:SteelBlue;">string</span> *encryptedPassword2*)
 
 Each of those arguments initializes the corresponding self-titled property:
 
@@ -544,8 +525,10 @@ Each of those arguments initializes the corresponding self-titled property:
 | *folder*             | Folder               | <span style="color:SteelBlue;">string</span>  | Original document folder. |
 | *storage*            | Storage              | <span style="color:SteelBlue;">string</span>  | Original document storage. |
 | *loadEncoding*       | LoadEncoding         | <span style="color:SteelBlue;">string</span>  | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
-| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password for opening an encrypted document. |
+| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| *encryptedPassword*  | EncryptedPassword    | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
 | *destFileName*       | DestFileName         | <span style="color:SteelBlue;">string</span>  | Result path of the document after the operation. If this parameter is omitted then result of the operation will be saved as the source document. |
+| *encryptedPassword2* | EncryptedPassword2   | <span style="color:SteelBlue;">string</span>  | encrypted password for the second document. |
 
 
 
@@ -597,7 +580,7 @@ Represents a request model for [WordsApi.GetDocument()](/words/documents/informa
 An object of the **GetDocumentRequest** class is created by the following constructor methods:
 
 - GetDocumentRequest()
-- GetDocumentRequest(<span style="color:SteelBlue;">string</span> ***documentName***, <span style="color:SteelBlue;">string</span> *folder*, <span style="color:SteelBlue;">string</span> *storage*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*)
+- GetDocumentRequest(<span style="color:SteelBlue;">string</span> ***documentName***, <span style="color:SteelBlue;">string</span> *folder*, <span style="color:SteelBlue;">string</span> *storage*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *encryptedPassword*)
 
 Each of those arguments initializes the corresponding self-titled property:
 
@@ -607,7 +590,8 @@ Each of those arguments initializes the corresponding self-titled property:
 | *folder*             | Folder               | <span style="color:SteelBlue;">string</span>  | Original document folder. |
 | *storage*            | Storage              | <span style="color:SteelBlue;">string</span>  | Original document storage. |
 | *loadEncoding*       | LoadEncoding         | <span style="color:SteelBlue;">string</span>  | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
-| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password for opening an encrypted document. |
+| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| *encryptedPassword*  | EncryptedPassword    | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
 
 
 
@@ -618,7 +602,7 @@ Represents a request model for [WordsApi.GetDocumentWithFormat()](/words/convert
 An object of the **GetDocumentWithFormatRequest** class is created by the following constructor methods:
 
 - GetDocumentWithFormatRequest()
-- GetDocumentWithFormatRequest(<span style="color:SteelBlue;">string</span> ***name***, <span style="color:SteelBlue;">string</span> ***format***, <span style="color:SteelBlue;">string</span> *folder*, <span style="color:SteelBlue;">string</span> *storage*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *outPath*, <span style="color:SteelBlue;">string</span> *fontsLocation*)
+- GetDocumentWithFormatRequest(<span style="color:SteelBlue;">string</span> ***name***, <span style="color:SteelBlue;">string</span> ***format***, <span style="color:SteelBlue;">string</span> *folder*, <span style="color:SteelBlue;">string</span> *storage*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *encryptedPassword*, <span style="color:SteelBlue;">string</span> *outPath*, <span style="color:SteelBlue;">string</span> *fontsLocation*)
 
 Each of those arguments initializes the corresponding self-titled property:
 
@@ -629,7 +613,8 @@ Each of those arguments initializes the corresponding self-titled property:
 | *folder*             | Folder               | <span style="color:SteelBlue;">string</span>  | Original document folder. |
 | *storage*            | Storage              | <span style="color:SteelBlue;">string</span>  | Original document storage. |
 | *loadEncoding*       | LoadEncoding         | <span style="color:SteelBlue;">string</span>  | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
-| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password for opening an encrypted document. |
+| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| *encryptedPassword*  | EncryptedPassword    | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
 | *outPath*            | OutPath              | <span style="color:SteelBlue;">string</span>  | The path to the output document. |
 | *fontsLocation*      | FontsLocation        | <span style="color:SteelBlue;">string</span>  | Folder in filestorage with custom fonts. |
 
@@ -660,7 +645,7 @@ Represents a request model for [WordsApi](/words/spec/wordsapi#wordsapi) operati
 An object of the **OptimizeDocumentOnlineRequest** class is created by the following constructor methods:
 
 - OptimizeDocumentOnlineRequest()
-- OptimizeDocumentOnlineRequest(<span style="color:SteelBlue;">Stream</span> ***document***, [OptimizationOptions](#optimizationoptions) ***options***, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *destFileName*, <span style="color:SteelBlue;">string</span> *revisionAuthor*, <span style="color:SteelBlue;">string</span> *revisionDateTime*)
+- OptimizeDocumentOnlineRequest(<span style="color:SteelBlue;">Stream</span> ***document***, [OptimizationOptions](#optimizationoptions) ***options***, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *encryptedPassword*, <span style="color:SteelBlue;">string</span> *destFileName*, <span style="color:SteelBlue;">string</span> *revisionAuthor*, <span style="color:SteelBlue;">string</span> *revisionDateTime*)
 
 Each of those arguments initializes the corresponding self-titled property:
 
@@ -669,7 +654,8 @@ Each of those arguments initializes the corresponding self-titled property:
 | ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | The document. |
 | ***options***        | Options              | [OptimizationOptions](#optimizationoptions)   | The document optimization options. |
 | *loadEncoding*       | LoadEncoding         | <span style="color:SteelBlue;">string</span>  | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
-| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password for opening an encrypted document. |
+| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| *encryptedPassword*  | EncryptedPassword    | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
 | *destFileName*       | DestFileName         | <span style="color:SteelBlue;">string</span>  | Result path of the document after the operation. If this parameter is omitted then result of the operation will be saved as the source document. |
 | *revisionAuthor*     | RevisionAuthor       | <span style="color:SteelBlue;">string</span>  | Initials of the author to use for revisions.If you set this parameter and then make some changes to the document programmatically, save the document and later open the document in MS Word you will see these changes as revisions. |
 | *revisionDateTime*   | RevisionDateTime     | <span style="color:SteelBlue;">string</span>  | The date and time to use for revisions. |
@@ -683,7 +669,7 @@ Represents a request model for [WordsApi](/words/spec/wordsapi#wordsapi) operati
 An object of the **OptimizeDocumentRequest** class is created by the following constructor methods:
 
 - OptimizeDocumentRequest()
-- OptimizeDocumentRequest(<span style="color:SteelBlue;">string</span> ***name***, [OptimizationOptions](#optimizationoptions) ***options***, <span style="color:SteelBlue;">string</span> *folder*, <span style="color:SteelBlue;">string</span> *storage*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *destFileName*, <span style="color:SteelBlue;">string</span> *revisionAuthor*, <span style="color:SteelBlue;">string</span> *revisionDateTime*)
+- OptimizeDocumentRequest(<span style="color:SteelBlue;">string</span> ***name***, [OptimizationOptions](#optimizationoptions) ***options***, <span style="color:SteelBlue;">string</span> *folder*, <span style="color:SteelBlue;">string</span> *storage*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *encryptedPassword*, <span style="color:SteelBlue;">string</span> *destFileName*, <span style="color:SteelBlue;">string</span> *revisionAuthor*, <span style="color:SteelBlue;">string</span> *revisionDateTime*)
 
 Each of those arguments initializes the corresponding self-titled property:
 
@@ -694,7 +680,8 @@ Each of those arguments initializes the corresponding self-titled property:
 | *folder*             | Folder               | <span style="color:SteelBlue;">string</span>  | Original document folder. |
 | *storage*            | Storage              | <span style="color:SteelBlue;">string</span>  | Original document storage. |
 | *loadEncoding*       | LoadEncoding         | <span style="color:SteelBlue;">string</span>  | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
-| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password for opening an encrypted document. |
+| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| *encryptedPassword*  | EncryptedPassword    | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
 | *destFileName*       | DestFileName         | <span style="color:SteelBlue;">string</span>  | Result path of the document after the operation. If this parameter is omitted then result of the operation will be saved as the source document. |
 | *revisionAuthor*     | RevisionAuthor       | <span style="color:SteelBlue;">string</span>  | Initials of the author to use for revisions.If you set this parameter and then make some changes to the document programmatically, save the document and later open the document in MS Word you will see these changes as revisions. |
 | *revisionDateTime*   | RevisionDateTime     | <span style="color:SteelBlue;">string</span>  | The date and time to use for revisions. |
@@ -708,7 +695,7 @@ Represents a request model for [WordsApi.SaveAsOnline()](/words/convert/pdf-to-w
 An object of the **SaveAsOnlineRequest** class is created by the following constructor methods:
 
 - SaveAsOnlineRequest()
-- SaveAsOnlineRequest(<span style="color:SteelBlue;">Stream</span> ***document***, [SaveOptionsData](#saveoptionsdata) ***saveOptionsData***, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *fontsLocation*)
+- SaveAsOnlineRequest(<span style="color:SteelBlue;">Stream</span> ***document***, [SaveOptionsData](#saveoptionsdata) ***saveOptionsData***, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *encryptedPassword*, <span style="color:SteelBlue;">string</span> *fontsLocation*)
 
 Each of those arguments initializes the corresponding self-titled property:
 
@@ -717,7 +704,8 @@ Each of those arguments initializes the corresponding self-titled property:
 | ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | The document. |
 | ***saveOptionsData*** | SaveOptionsData      | [SaveOptionsData](#saveoptionsdata)           | Save options. |
 | *loadEncoding*       | LoadEncoding         | <span style="color:SteelBlue;">string</span>  | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
-| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password for opening an encrypted document. |
+| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| *encryptedPassword*  | EncryptedPassword    | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
 | *fontsLocation*      | FontsLocation        | <span style="color:SteelBlue;">string</span>  | Folder in filestorage with custom fonts. |
 
 
@@ -746,7 +734,7 @@ Represents a request model for [WordsApi.SaveAsRangeOnline()](/words/range/) ope
 An object of the **SaveAsRangeOnlineRequest** class is created by the following constructor methods:
 
 - SaveAsRangeOnlineRequest()
-- SaveAsRangeOnlineRequest(<span style="color:SteelBlue;">Stream</span> ***document***, <span style="color:SteelBlue;">string</span> ***rangeStartIdentifier***, [RangeDocument](#rangedocument) ***documentParameters***, <span style="color:SteelBlue;">string</span> *rangeEndIdentifier*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*)
+- SaveAsRangeOnlineRequest(<span style="color:SteelBlue;">Stream</span> ***document***, <span style="color:SteelBlue;">string</span> ***rangeStartIdentifier***, [RangeDocument](#rangedocument) ***documentParameters***, <span style="color:SteelBlue;">string</span> *rangeEndIdentifier*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *encryptedPassword*)
 
 Each of those arguments initializes the corresponding self-titled property:
 
@@ -757,7 +745,8 @@ Each of those arguments initializes the corresponding self-titled property:
 | ***documentParameters*** | DocumentParameters   | [RangeDocument](#rangedocument)               | Parameters of a new document. |
 | *rangeEndIdentifier* | RangeEndIdentifier   | <span style="color:SteelBlue;">string</span>  | The range end identifier. |
 | *loadEncoding*       | LoadEncoding         | <span style="color:SteelBlue;">string</span>  | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
-| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password for opening an encrypted document. |
+| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| *encryptedPassword*  | EncryptedPassword    | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
 
 
 
@@ -785,7 +774,7 @@ Represents a request model for [WordsApi.SaveAsRange()](/words/range/) operation
 An object of the **SaveAsRangeRequest** class is created by the following constructor methods:
 
 - SaveAsRangeRequest()
-- SaveAsRangeRequest(<span style="color:SteelBlue;">string</span> ***name***, <span style="color:SteelBlue;">string</span> ***rangeStartIdentifier***, [RangeDocument](#rangedocument) ***documentParameters***, <span style="color:SteelBlue;">string</span> *rangeEndIdentifier*, <span style="color:SteelBlue;">string</span> *folder*, <span style="color:SteelBlue;">string</span> *storage*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*)
+- SaveAsRangeRequest(<span style="color:SteelBlue;">string</span> ***name***, <span style="color:SteelBlue;">string</span> ***rangeStartIdentifier***, [RangeDocument](#rangedocument) ***documentParameters***, <span style="color:SteelBlue;">string</span> *rangeEndIdentifier*, <span style="color:SteelBlue;">string</span> *folder*, <span style="color:SteelBlue;">string</span> *storage*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *encryptedPassword*)
 
 Each of those arguments initializes the corresponding self-titled property:
 
@@ -798,7 +787,8 @@ Each of those arguments initializes the corresponding self-titled property:
 | *folder*             | Folder               | <span style="color:SteelBlue;">string</span>  | Original document folder. |
 | *storage*            | Storage              | <span style="color:SteelBlue;">string</span>  | Original document storage. |
 | *loadEncoding*       | LoadEncoding         | <span style="color:SteelBlue;">string</span>  | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
-| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password for opening an encrypted document. |
+| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| *encryptedPassword*  | EncryptedPassword    | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
 
 
 
@@ -809,7 +799,7 @@ Represents a request model for [WordsApi.SaveAs()](/words/convert/pdf-to-word/) 
 An object of the **SaveAsRequest** class is created by the following constructor methods:
 
 - SaveAsRequest()
-- SaveAsRequest(<span style="color:SteelBlue;">string</span> ***name***, [SaveOptionsData](#saveoptionsdata) ***saveOptionsData***, <span style="color:SteelBlue;">string</span> *folder*, <span style="color:SteelBlue;">string</span> *storage*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *fontsLocation*)
+- SaveAsRequest(<span style="color:SteelBlue;">string</span> ***name***, [SaveOptionsData](#saveoptionsdata) ***saveOptionsData***, <span style="color:SteelBlue;">string</span> *folder*, <span style="color:SteelBlue;">string</span> *storage*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *encryptedPassword*, <span style="color:SteelBlue;">string</span> *fontsLocation*)
 
 Each of those arguments initializes the corresponding self-titled property:
 
@@ -820,7 +810,8 @@ Each of those arguments initializes the corresponding self-titled property:
 | *folder*             | Folder               | <span style="color:SteelBlue;">string</span>  | Original document folder. |
 | *storage*            | Storage              | <span style="color:SteelBlue;">string</span>  | Original document storage. |
 | *loadEncoding*       | LoadEncoding         | <span style="color:SteelBlue;">string</span>  | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
-| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password for opening an encrypted document. |
+| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| *encryptedPassword*  | EncryptedPassword    | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
 | *fontsLocation*      | FontsLocation        | <span style="color:SteelBlue;">string</span>  | Folder in filestorage with custom fonts. |
 
 
@@ -832,7 +823,7 @@ Represents a request model for [WordsApi.SaveAsTiffOnline()](/words/convert/docu
 An object of the **SaveAsTiffOnlineRequest** class is created by the following constructor methods:
 
 - SaveAsTiffOnlineRequest()
-- SaveAsTiffOnlineRequest(<span style="color:SteelBlue;">Stream</span> ***document***, [TiffSaveOptionsData](#tiffsaveoptionsdata) ***saveOptions***, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">bool?</span> *useAntiAliasing*, <span style="color:SteelBlue;">bool?</span> *useHighQualityRendering*, <span style="color:SteelBlue;">double?</span> *imageBrightness*, <span style="color:SteelBlue;">string</span> *imageColorMode*, <span style="color:SteelBlue;">double?</span> *imageContrast*, <span style="color:SteelBlue;">string</span> *numeralFormat*, <span style="color:SteelBlue;">int?</span> *pageCount*, <span style="color:SteelBlue;">int?</span> *pageIndex*, <span style="color:SteelBlue;">string</span> *paperColor*, <span style="color:SteelBlue;">string</span> *pixelFormat*, <span style="color:SteelBlue;">double?</span> *resolution*, <span style="color:SteelBlue;">double?</span> *scale*, <span style="color:SteelBlue;">string</span> *tiffCompression*, <span style="color:SteelBlue;">string</span> *dmlRenderingMode*, <span style="color:SteelBlue;">string</span> *dmlEffectsRenderingMode*, <span style="color:SteelBlue;">string</span> *tiffBinarizationMethod*, <span style="color:SteelBlue;">bool?</span> *zipOutput*, <span style="color:SteelBlue;">string</span> *fontsLocation*)
+- SaveAsTiffOnlineRequest(<span style="color:SteelBlue;">Stream</span> ***document***, [TiffSaveOptionsData](#tiffsaveoptionsdata) ***saveOptions***, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *encryptedPassword*, <span style="color:SteelBlue;">bool?</span> *useAntiAliasing*, <span style="color:SteelBlue;">bool?</span> *useHighQualityRendering*, <span style="color:SteelBlue;">double?</span> *imageBrightness*, <span style="color:SteelBlue;">string</span> *imageColorMode*, <span style="color:SteelBlue;">double?</span> *imageContrast*, <span style="color:SteelBlue;">string</span> *numeralFormat*, <span style="color:SteelBlue;">int?</span> *pageCount*, <span style="color:SteelBlue;">int?</span> *pageIndex*, <span style="color:SteelBlue;">string</span> *paperColor*, <span style="color:SteelBlue;">string</span> *pixelFormat*, <span style="color:SteelBlue;">double?</span> *resolution*, <span style="color:SteelBlue;">double?</span> *scale*, <span style="color:SteelBlue;">string</span> *tiffCompression*, <span style="color:SteelBlue;">string</span> *dmlRenderingMode*, <span style="color:SteelBlue;">string</span> *dmlEffectsRenderingMode*, <span style="color:SteelBlue;">string</span> *tiffBinarizationMethod*, <span style="color:SteelBlue;">bool?</span> *zipOutput*, <span style="color:SteelBlue;">string</span> *fontsLocation*)
 
 Each of those arguments initializes the corresponding self-titled property:
 
@@ -841,7 +832,8 @@ Each of those arguments initializes the corresponding self-titled property:
 | ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | The document. |
 | ***saveOptions***    | SaveOptions          | [TiffSaveOptionsData](#tiffsaveoptionsdata)   | Tiff save options. |
 | *loadEncoding*       | LoadEncoding         | <span style="color:SteelBlue;">string</span>  | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
-| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password for opening an encrypted document. |
+| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| *encryptedPassword*  | EncryptedPassword    | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
 | *useAntiAliasing*    | UseAntiAliasing      | <span style="color:SteelBlue;">bool?</span>   | The flag indicating whether to use antialiasing. |
 | *useHighQualityRendering* | UseHighQualityRendering | <span style="color:SteelBlue;">bool?</span>   | The flag indicating whether to use high quality. |
 | *imageBrightness*    | ImageBrightness      | <span style="color:SteelBlue;">double?</span> | The level of brightness for the generated images. |
@@ -887,7 +879,7 @@ Represents a request model for [WordsApi.SaveAsTiff()](/words/convert/document-t
 An object of the **SaveAsTiffRequest** class is created by the following constructor methods:
 
 - SaveAsTiffRequest()
-- SaveAsTiffRequest(<span style="color:SteelBlue;">string</span> ***name***, [TiffSaveOptionsData](#tiffsaveoptionsdata) ***saveOptions***, <span style="color:SteelBlue;">string</span> *folder*, <span style="color:SteelBlue;">string</span> *storage*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">bool?</span> *useAntiAliasing*, <span style="color:SteelBlue;">bool?</span> *useHighQualityRendering*, <span style="color:SteelBlue;">double?</span> *imageBrightness*, <span style="color:SteelBlue;">string</span> *imageColorMode*, <span style="color:SteelBlue;">double?</span> *imageContrast*, <span style="color:SteelBlue;">string</span> *numeralFormat*, <span style="color:SteelBlue;">int?</span> *pageCount*, <span style="color:SteelBlue;">int?</span> *pageIndex*, <span style="color:SteelBlue;">string</span> *paperColor*, <span style="color:SteelBlue;">string</span> *pixelFormat*, <span style="color:SteelBlue;">double?</span> *resolution*, <span style="color:SteelBlue;">double?</span> *scale*, <span style="color:SteelBlue;">string</span> *tiffCompression*, <span style="color:SteelBlue;">string</span> *dmlRenderingMode*, <span style="color:SteelBlue;">string</span> *dmlEffectsRenderingMode*, <span style="color:SteelBlue;">string</span> *tiffBinarizationMethod*, <span style="color:SteelBlue;">bool?</span> *zipOutput*, <span style="color:SteelBlue;">string</span> *fontsLocation*)
+- SaveAsTiffRequest(<span style="color:SteelBlue;">string</span> ***name***, [TiffSaveOptionsData](#tiffsaveoptionsdata) ***saveOptions***, <span style="color:SteelBlue;">string</span> *folder*, <span style="color:SteelBlue;">string</span> *storage*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *encryptedPassword*, <span style="color:SteelBlue;">bool?</span> *useAntiAliasing*, <span style="color:SteelBlue;">bool?</span> *useHighQualityRendering*, <span style="color:SteelBlue;">double?</span> *imageBrightness*, <span style="color:SteelBlue;">string</span> *imageColorMode*, <span style="color:SteelBlue;">double?</span> *imageContrast*, <span style="color:SteelBlue;">string</span> *numeralFormat*, <span style="color:SteelBlue;">int?</span> *pageCount*, <span style="color:SteelBlue;">int?</span> *pageIndex*, <span style="color:SteelBlue;">string</span> *paperColor*, <span style="color:SteelBlue;">string</span> *pixelFormat*, <span style="color:SteelBlue;">double?</span> *resolution*, <span style="color:SteelBlue;">double?</span> *scale*, <span style="color:SteelBlue;">string</span> *tiffCompression*, <span style="color:SteelBlue;">string</span> *dmlRenderingMode*, <span style="color:SteelBlue;">string</span> *dmlEffectsRenderingMode*, <span style="color:SteelBlue;">string</span> *tiffBinarizationMethod*, <span style="color:SteelBlue;">bool?</span> *zipOutput*, <span style="color:SteelBlue;">string</span> *fontsLocation*)
 
 Each of those arguments initializes the corresponding self-titled property:
 
@@ -898,7 +890,8 @@ Each of those arguments initializes the corresponding self-titled property:
 | *folder*             | Folder               | <span style="color:SteelBlue;">string</span>  | Original document folder. |
 | *storage*            | Storage              | <span style="color:SteelBlue;">string</span>  | Original document storage. |
 | *loadEncoding*       | LoadEncoding         | <span style="color:SteelBlue;">string</span>  | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
-| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password for opening an encrypted document. |
+| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| *encryptedPassword*  | EncryptedPassword    | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
 | *useAntiAliasing*    | UseAntiAliasing      | <span style="color:SteelBlue;">bool?</span>   | The flag indicating whether to use antialiasing. |
 | *useHighQualityRendering* | UseHighQualityRendering | <span style="color:SteelBlue;">bool?</span>   | The flag indicating whether to use high quality. |
 | *imageBrightness*    | ImageBrightness      | <span style="color:SteelBlue;">double?</span> | The level of brightness for the generated images. |
@@ -941,7 +934,7 @@ Represents a request model for [WordsApi.SplitDocumentOnline()](/words/split/) o
 An object of the **SplitDocumentOnlineRequest** class is created by the following constructor methods:
 
 - SplitDocumentOnlineRequest()
-- SplitDocumentOnlineRequest(<span style="color:SteelBlue;">Stream</span> ***document***, <span style="color:SteelBlue;">string</span> ***format***, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *destFileName*, <span style="color:SteelBlue;">int?</span> *from*, <span style="color:SteelBlue;">int?</span> *to*, <span style="color:SteelBlue;">bool?</span> *zipOutput*, <span style="color:SteelBlue;">string</span> *fontsLocation*)
+- SplitDocumentOnlineRequest(<span style="color:SteelBlue;">Stream</span> ***document***, <span style="color:SteelBlue;">string</span> ***format***, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *encryptedPassword*, <span style="color:SteelBlue;">string</span> *destFileName*, <span style="color:SteelBlue;">int?</span> *from*, <span style="color:SteelBlue;">int?</span> *to*, <span style="color:SteelBlue;">bool?</span> *zipOutput*, <span style="color:SteelBlue;">string</span> *fontsLocation*)
 
 Each of those arguments initializes the corresponding self-titled property:
 
@@ -950,7 +943,8 @@ Each of those arguments initializes the corresponding self-titled property:
 | ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | The document. |
 | ***format***         | Format               | <span style="color:SteelBlue;">string</span>  | The format to split. |
 | *loadEncoding*       | LoadEncoding         | <span style="color:SteelBlue;">string</span>  | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
-| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password for opening an encrypted document. |
+| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| *encryptedPassword*  | EncryptedPassword    | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
 | *destFileName*       | DestFileName         | <span style="color:SteelBlue;">string</span>  | Result path of the document after the operation. If this parameter is omitted then result of the operation will be saved as the source document. |
 | *from*               | From                 | <span style="color:SteelBlue;">int?</span>    | The start page. |
 | *to*                 | To                   | <span style="color:SteelBlue;">int?</span>    | The end page. |
@@ -983,7 +977,7 @@ Represents a request model for [WordsApi.SplitDocument()](/words/split/) operati
 An object of the **SplitDocumentRequest** class is created by the following constructor methods:
 
 - SplitDocumentRequest()
-- SplitDocumentRequest(<span style="color:SteelBlue;">string</span> ***name***, <span style="color:SteelBlue;">string</span> ***format***, <span style="color:SteelBlue;">string</span> *folder*, <span style="color:SteelBlue;">string</span> *storage*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *destFileName*, <span style="color:SteelBlue;">int?</span> *from*, <span style="color:SteelBlue;">int?</span> *to*, <span style="color:SteelBlue;">bool?</span> *zipOutput*, <span style="color:SteelBlue;">string</span> *fontsLocation*)
+- SplitDocumentRequest(<span style="color:SteelBlue;">string</span> ***name***, <span style="color:SteelBlue;">string</span> ***format***, <span style="color:SteelBlue;">string</span> *folder*, <span style="color:SteelBlue;">string</span> *storage*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *encryptedPassword*, <span style="color:SteelBlue;">string</span> *destFileName*, <span style="color:SteelBlue;">int?</span> *from*, <span style="color:SteelBlue;">int?</span> *to*, <span style="color:SteelBlue;">bool?</span> *zipOutput*, <span style="color:SteelBlue;">string</span> *fontsLocation*)
 
 Each of those arguments initializes the corresponding self-titled property:
 
@@ -994,7 +988,8 @@ Each of those arguments initializes the corresponding self-titled property:
 | *folder*             | Folder               | <span style="color:SteelBlue;">string</span>  | Original document folder. |
 | *storage*            | Storage              | <span style="color:SteelBlue;">string</span>  | Original document storage. |
 | *loadEncoding*       | LoadEncoding         | <span style="color:SteelBlue;">string</span>  | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
-| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password for opening an encrypted document. |
+| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| *encryptedPassword*  | EncryptedPassword    | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
 | *destFileName*       | DestFileName         | <span style="color:SteelBlue;">string</span>  | Result path of the document after the operation. If this parameter is omitted then result of the operation will be saved as the source document. |
 | *from*               | From                 | <span style="color:SteelBlue;">int?</span>    | The start page. |
 | *to*                 | To                   | <span style="color:SteelBlue;">int?</span>    | The end page. |
@@ -1022,6 +1017,16 @@ The following properties are defined:
 The following values are defined: Current, New.
 
 
+## CompressionLevelEnum
+
+The following values are defined: Normal, Maximum, Fast, SuperFast, public, public, public, public, <returns>.
+
+
+## Dml3DEffectsRenderingModeEnum
+
+The following values are defined: Basic, Advanced, public, public, public, public, public, public, public, public, public, public, public, public, public, public, public, <returns>.
+
+
 ## Document.SourceFormatEnum
 
 The following values are defined: Unknown, Doc, Dot, DocPreWord60, Docx, Docm, Dotx, Dotm, FlatOpc, Rtf, WordML, Html, Mhtml, Epub, Text, Odt, Ott, Pdf, Xps, Tiff, Svg.
@@ -1030,29 +1035,4 @@ The following values are defined: Unknown, Doc, Dot, DocPreWord60, Docx, Docm, D
 ## OptimizationOptions.MsWordVersionEnum
 
 The following values are defined: Word2000, Word2002, Word2003, Word2007, Word2010, Word2013, Word2016, Word2019.
-
-
-## StringFormatData.AlignmentEnum
-
-The following values are defined: Near, Center, Far.
-
-
-## StringFormatData.FormatFlagsEnum
-
-The following values are defined: DirectionRightToLeft, DirectionVertical, FitBlackBox, DisplayFormatControl, NoFontFallback, MeasureTrailingSpaces, NoWrap, LineLimit, NoClip.
-
-
-## StringFormatData.HotkeyPrefixEnum
-
-The following values are defined: None, Show, Hide.
-
-
-## StringFormatData.LineAlignmentEnum
-
-The following values are defined: Near, Center, Far.
-
-
-## StringFormatData.TrimmingEnum
-
-The following values are defined: None, Character, Word, EllipsisCharacter, EllipsisWord, EllipsisPath.
 

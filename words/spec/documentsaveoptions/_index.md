@@ -1,11 +1,11 @@
----
+﻿---
 title: "DocumentSaveOptions"
 second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /spec/documentsaveoptions/
 description: "DocumentSaveOptions"
 notoc: true
-weight: 190
+weight: 200
 ---
 
 
@@ -31,19 +31,7 @@ The following properties are defined:
 
 | Property             | Type                                          | Description |
 |----------------------|-----------------------------------------------|-------------|
-| AllowEmbeddingPostScriptFonts | <span style="color:SteelBlue;">bool</span>    | Gets or sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is false.. |
-| CustomTimeZoneInfoData | [TimeZoneInfoData](/words/spec/document#timezoneinfodata) | Gets or sets CustomTimeZoneInfo. |
-| Dml3DEffectsRenderingMode | [Dml3DEffectsRenderingModeEnum](#saveoptionsdata.dml3deffectsrenderingmodeenum) | Gets or sets the value determining how 3D effects are rendered. |
-| DmlEffectsRenderingMode | <span style="color:SteelBlue;">string</span>  | Gets or sets the value determining how DrawingML effects are rendered. { Simplified | None | Fine }. |
-| DmlRenderingMode     | <span style="color:SteelBlue;">string</span>  | Gets or sets the option that controls how DrawingML shapes are rendered. |
-| FileName             | <span style="color:SteelBlue;">string</span>  | Gets or sets the name of destination file. |
-| SaveFormat           | <span style="color:SteelBlue;">string</span>  | Gets or sets the format of save. |
-| UpdateCreatedTimeProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value determining whether the Aspose.Words.Properties.BuiltInDocumentProperties.CreatedTime property is updated before saving. Default value is false. |
-| UpdateFields         | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether fields should be updated before saving the document to a fixed page format. The default value is true. |
-| UpdateLastPrintedProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether the Aspose.Words.Properties.BuiltInDocumentProperties.LastPrinted property is updated before saving. |
-| UpdateLastSavedTimeProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether the Aspose.Words.Properties.BuiltInDocumentProperties.LastSavedTime property is updated before saving. |
-| UpdateSdtContent     | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether content of StructuredDocumentTag is updated before saving. |
-| ZipOutput            | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether to zip output or not. The default value is false. |
+| [JsonConverter       | <span style="color:SteelBlue;">int</span>     | Gets or sets the value determining how 3D effects are rendered. |
 | ColorMode            | <span style="color:SteelBlue;">string</span>  | Gets or sets the value determining how colors are rendered. { Normal | Grayscale}. |
 | JpegQuality          | <span style="color:SteelBlue;">int</span>     | Gets or sets the quality of the JPEG images inside PDF document. |
 | MetafileRenderingOptions | [MetafileRenderingOptionsData](#metafilerenderingoptionsdata) | Gets or sets the metafile rendering options. |
@@ -51,7 +39,6 @@ The following properties are defined:
 | OptimizeOutput       | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether it is required to optimize output of XPS. If this flag is set redundant nested canvases and empty canvases are removed, also neighbor glyphs with the same formatting are concatenated. Note: The accuracy of the content display may be affected if this property is set to true.. The default value is false. |
 | PageCount            | <span style="color:SteelBlue;">int</span>     | Gets or sets the number of pages to render. |
 | PageIndex            | <span style="color:SteelBlue;">int</span>     | Gets or sets the 0-based index of the first page to render. |
-| GraphicsQualityOptions | [GraphicsQualityOptionsData](#graphicsqualityoptionsdata) | Gets or sets the additional System.Drawing.Graphics quality options. |
 | HorizontalResolution | <span style="color:SteelBlue;">double</span>  | Gets or sets the horizontal resolution in dots per inch for the generated images. This property has effect only when saving to raster image formats. The default value is 96. |
 | ImageBrightness      | <span style="color:SteelBlue;">double</span>  | Gets or sets the brightness level of the image. |
 | ImageColorMode       | <span style="color:SteelBlue;">string</span>  | Gets or sets the color mode of the image. |
@@ -66,6 +53,18 @@ The following properties are defined:
 | VerticalResolution   | <span style="color:SteelBlue;">double</span>  | Gets or sets the vertical resolution in dots per inch for the generated images. This property has effect only when saving to raster image formats. The default value is 96. |
 
 
+## DocmSaveOptionsData
+
+Represents a container class for docm save options.
+
+The following properties are defined:
+
+| Property             | Type                                          | Description |
+|----------------------|-----------------------------------------------|-------------|
+| [JsonConverter       | <span style="color:SteelBlue;">int</span>     | Gets or sets the value determining how 3D effects are rendered. |
+| [JsonConverter       | <span style="color:SteelBlue;">int</span>     | Gets or sets the compression level. |
+
+
 ## DocSaveOptionsData
 
 Represents a container class for doc/dot save options.
@@ -74,23 +73,62 @@ The following properties are defined:
 
 | Property             | Type                                          | Description |
 |----------------------|-----------------------------------------------|-------------|
-| AllowEmbeddingPostScriptFonts | <span style="color:SteelBlue;">bool</span>    | Gets or sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is false.. |
-| CustomTimeZoneInfoData | [TimeZoneInfoData](/words/spec/document#timezoneinfodata) | Gets or sets CustomTimeZoneInfo. |
-| Dml3DEffectsRenderingMode | [Dml3DEffectsRenderingModeEnum](#saveoptionsdata.dml3deffectsrenderingmodeenum) | Gets or sets the value determining how 3D effects are rendered. |
-| DmlEffectsRenderingMode | <span style="color:SteelBlue;">string</span>  | Gets or sets the value determining how DrawingML effects are rendered. { Simplified | None | Fine }. |
-| DmlRenderingMode     | <span style="color:SteelBlue;">string</span>  | Gets or sets the option that controls how DrawingML shapes are rendered. |
-| FileName             | <span style="color:SteelBlue;">string</span>  | Gets or sets the name of destination file. |
-| SaveFormat           | <span style="color:SteelBlue;">string</span>  | Gets or sets the format of save. |
-| UpdateCreatedTimeProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value determining whether the Aspose.Words.Properties.BuiltInDocumentProperties.CreatedTime property is updated before saving. Default value is false. |
-| UpdateFields         | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether fields should be updated before saving the document to a fixed page format. The default value is true. |
-| UpdateLastPrintedProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether the Aspose.Words.Properties.BuiltInDocumentProperties.LastPrinted property is updated before saving. |
-| UpdateLastSavedTimeProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether the Aspose.Words.Properties.BuiltInDocumentProperties.LastSavedTime property is updated before saving. |
-| UpdateSdtContent     | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether content of StructuredDocumentTag is updated before saving. |
-| ZipOutput            | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether to zip output or not. The default value is false. |
+| [JsonConverter       | <span style="color:SteelBlue;">int</span>     | Gets or sets the value determining how 3D effects are rendered. |
 | AlwaysCompressMetafiles | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating when False, that small metafiles are not compressed for performance reason. The default value is true, all metafiles are compressed regardless of its size. |
 | Password             | <span style="color:SteelBlue;">string</span>  | Gets or sets the password. |
 | SavePictureBullet    | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating when False, that PictureBullet data is not saved to the output document. The default value is true. |
 | SaveRoutingSlip      | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether to save RoutingSlip data to output document. |
+
+
+## DocxSaveOptionsData
+
+Represents a container class for docx save options.
+
+The following properties are defined:
+
+| Property             | Type                                          | Description |
+|----------------------|-----------------------------------------------|-------------|
+| [JsonConverter       | <span style="color:SteelBlue;">int</span>     | Gets or sets the value determining how 3D effects are rendered. |
+| [JsonConverter       | <span style="color:SteelBlue;">int</span>     | Gets or sets the compression level. |
+
+
+## DotmSaveOptionsData
+
+Represents a container class for dotm save options.
+
+The following properties are defined:
+
+| Property             | Type                                          | Description |
+|----------------------|-----------------------------------------------|-------------|
+| [JsonConverter       | <span style="color:SteelBlue;">int</span>     | Gets or sets the value determining how 3D effects are rendered. |
+| [JsonConverter       | <span style="color:SteelBlue;">int</span>     | Gets or sets the compression level. |
+
+
+## DotSaveOptionsData
+
+Represents a container class for dot save options.
+
+The following properties are defined:
+
+| Property             | Type                                          | Description |
+|----------------------|-----------------------------------------------|-------------|
+| [JsonConverter       | <span style="color:SteelBlue;">int</span>     | Gets or sets the value determining how 3D effects are rendered. |
+| AlwaysCompressMetafiles | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating when False, that small metafiles are not compressed for performance reason. The default value is true, all metafiles are compressed regardless of its size. |
+| Password             | <span style="color:SteelBlue;">string</span>  | Gets or sets the password. |
+| SavePictureBullet    | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating when False, that PictureBullet data is not saved to the output document. The default value is true. |
+| SaveRoutingSlip      | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether to save RoutingSlip data to output document. |
+
+
+## DotxSaveOptionsData
+
+Represents a container class for dotx save options.
+
+The following properties are defined:
+
+| Property             | Type                                          | Description |
+|----------------------|-----------------------------------------------|-------------|
+| [JsonConverter       | <span style="color:SteelBlue;">int</span>     | Gets or sets the value determining how 3D effects are rendered. |
+| [JsonConverter       | <span style="color:SteelBlue;">int</span>     | Gets or sets the compression level. |
 
 
 ## EmfSaveOptionsData
@@ -101,19 +139,7 @@ The following properties are defined:
 
 | Property             | Type                                          | Description |
 |----------------------|-----------------------------------------------|-------------|
-| AllowEmbeddingPostScriptFonts | <span style="color:SteelBlue;">bool</span>    | Gets or sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is false.. |
-| CustomTimeZoneInfoData | [TimeZoneInfoData](/words/spec/document#timezoneinfodata) | Gets or sets CustomTimeZoneInfo. |
-| Dml3DEffectsRenderingMode | [Dml3DEffectsRenderingModeEnum](#saveoptionsdata.dml3deffectsrenderingmodeenum) | Gets or sets the value determining how 3D effects are rendered. |
-| DmlEffectsRenderingMode | <span style="color:SteelBlue;">string</span>  | Gets or sets the value determining how DrawingML effects are rendered. { Simplified | None | Fine }. |
-| DmlRenderingMode     | <span style="color:SteelBlue;">string</span>  | Gets or sets the option that controls how DrawingML shapes are rendered. |
-| FileName             | <span style="color:SteelBlue;">string</span>  | Gets or sets the name of destination file. |
-| SaveFormat           | <span style="color:SteelBlue;">string</span>  | Gets or sets the format of save. |
-| UpdateCreatedTimeProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value determining whether the Aspose.Words.Properties.BuiltInDocumentProperties.CreatedTime property is updated before saving. Default value is false. |
-| UpdateFields         | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether fields should be updated before saving the document to a fixed page format. The default value is true. |
-| UpdateLastPrintedProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether the Aspose.Words.Properties.BuiltInDocumentProperties.LastPrinted property is updated before saving. |
-| UpdateLastSavedTimeProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether the Aspose.Words.Properties.BuiltInDocumentProperties.LastSavedTime property is updated before saving. |
-| UpdateSdtContent     | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether content of StructuredDocumentTag is updated before saving. |
-| ZipOutput            | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether to zip output or not. The default value is false. |
+| [JsonConverter       | <span style="color:SteelBlue;">int</span>     | Gets or sets the value determining how 3D effects are rendered. |
 | ColorMode            | <span style="color:SteelBlue;">string</span>  | Gets or sets the value determining how colors are rendered. { Normal | Grayscale}. |
 | JpegQuality          | <span style="color:SteelBlue;">int</span>     | Gets or sets the quality of the JPEG images inside PDF document. |
 | MetafileRenderingOptions | [MetafileRenderingOptionsData](#metafilerenderingoptionsdata) | Gets or sets the metafile rendering options. |
@@ -121,7 +147,6 @@ The following properties are defined:
 | OptimizeOutput       | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether it is required to optimize output of XPS. If this flag is set redundant nested canvases and empty canvases are removed, also neighbor glyphs with the same formatting are concatenated. Note: The accuracy of the content display may be affected if this property is set to true.. The default value is false. |
 | PageCount            | <span style="color:SteelBlue;">int</span>     | Gets or sets the number of pages to render. |
 | PageIndex            | <span style="color:SteelBlue;">int</span>     | Gets or sets the 0-based index of the first page to render. |
-| GraphicsQualityOptions | [GraphicsQualityOptionsData](#graphicsqualityoptionsdata) | Gets or sets the additional System.Drawing.Graphics quality options. |
 | HorizontalResolution | <span style="color:SteelBlue;">double</span>  | Gets or sets the horizontal resolution in dots per inch for the generated images. This property has effect only when saving to raster image formats. The default value is 96. |
 | ImageBrightness      | <span style="color:SteelBlue;">double</span>  | Gets or sets the brightness level of the image. |
 | ImageColorMode       | <span style="color:SteelBlue;">string</span>  | Gets or sets the color mode of the image. |
@@ -144,19 +169,7 @@ The following properties are defined:
 
 | Property             | Type                                          | Description |
 |----------------------|-----------------------------------------------|-------------|
-| AllowEmbeddingPostScriptFonts | <span style="color:SteelBlue;">bool</span>    | Gets or sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is false.. |
-| CustomTimeZoneInfoData | [TimeZoneInfoData](/words/spec/document#timezoneinfodata) | Gets or sets CustomTimeZoneInfo. |
-| Dml3DEffectsRenderingMode | [Dml3DEffectsRenderingModeEnum](#saveoptionsdata.dml3deffectsrenderingmodeenum) | Gets or sets the value determining how 3D effects are rendered. |
-| DmlEffectsRenderingMode | <span style="color:SteelBlue;">string</span>  | Gets or sets the value determining how DrawingML effects are rendered. { Simplified | None | Fine }. |
-| DmlRenderingMode     | <span style="color:SteelBlue;">string</span>  | Gets or sets the option that controls how DrawingML shapes are rendered. |
-| FileName             | <span style="color:SteelBlue;">string</span>  | Gets or sets the name of destination file. |
-| SaveFormat           | <span style="color:SteelBlue;">string</span>  | Gets or sets the format of save. |
-| UpdateCreatedTimeProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value determining whether the Aspose.Words.Properties.BuiltInDocumentProperties.CreatedTime property is updated before saving. Default value is false. |
-| UpdateFields         | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether fields should be updated before saving the document to a fixed page format. The default value is true. |
-| UpdateLastPrintedProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether the Aspose.Words.Properties.BuiltInDocumentProperties.LastPrinted property is updated before saving. |
-| UpdateLastSavedTimeProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether the Aspose.Words.Properties.BuiltInDocumentProperties.LastSavedTime property is updated before saving. |
-| UpdateSdtContent     | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether content of StructuredDocumentTag is updated before saving. |
-| ZipOutput            | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether to zip output or not. The default value is false. |
+| [JsonConverter       | <span style="color:SteelBlue;">int</span>     | Gets or sets the value determining how 3D effects are rendered. |
 | AllowNegativeIndent  | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether negative left and right indents of paragraphs are allowed (not normalized) . |
 | CssClassNamePrefix   | <span style="color:SteelBlue;">string</span>  | Gets or sets the prefix which is added to all CSS class names. The default value is an empty string and generated CSS class names have no common prefix. If this value is not empty, all CSS classes generated by Aspose.Words will start with the specified prefix.This might be useful, for example, if you add custom CSS to generated documents and want to prevent class name conflicts. If the value is not null or empty, it must be a valid CSS identifier. |
 | CssStyleSheetFileName | <span style="color:SteelBlue;">string</span>  | Gets or sets the name of the CSS file written when the document is exported to HTML. |
@@ -207,19 +220,7 @@ The following properties are defined:
 
 | Property             | Type                                          | Description |
 |----------------------|-----------------------------------------------|-------------|
-| AllowEmbeddingPostScriptFonts | <span style="color:SteelBlue;">bool</span>    | Gets or sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is false.. |
-| CustomTimeZoneInfoData | [TimeZoneInfoData](/words/spec/document#timezoneinfodata) | Gets or sets CustomTimeZoneInfo. |
-| Dml3DEffectsRenderingMode | [Dml3DEffectsRenderingModeEnum](#saveoptionsdata.dml3deffectsrenderingmodeenum) | Gets or sets the value determining how 3D effects are rendered. |
-| DmlEffectsRenderingMode | <span style="color:SteelBlue;">string</span>  | Gets or sets the value determining how DrawingML effects are rendered. { Simplified | None | Fine }. |
-| DmlRenderingMode     | <span style="color:SteelBlue;">string</span>  | Gets or sets the option that controls how DrawingML shapes are rendered. |
-| FileName             | <span style="color:SteelBlue;">string</span>  | Gets or sets the name of destination file. |
-| SaveFormat           | <span style="color:SteelBlue;">string</span>  | Gets or sets the format of save. |
-| UpdateCreatedTimeProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value determining whether the Aspose.Words.Properties.BuiltInDocumentProperties.CreatedTime property is updated before saving. Default value is false. |
-| UpdateFields         | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether fields should be updated before saving the document to a fixed page format. The default value is true. |
-| UpdateLastPrintedProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether the Aspose.Words.Properties.BuiltInDocumentProperties.LastPrinted property is updated before saving. |
-| UpdateLastSavedTimeProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether the Aspose.Words.Properties.BuiltInDocumentProperties.LastSavedTime property is updated before saving. |
-| UpdateSdtContent     | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether content of StructuredDocumentTag is updated before saving. |
-| ZipOutput            | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether to zip output or not. The default value is false. |
+| [JsonConverter       | <span style="color:SteelBlue;">int</span>     | Gets or sets the value determining how 3D effects are rendered. |
 | ColorMode            | <span style="color:SteelBlue;">string</span>  | Gets or sets the value determining how colors are rendered. { Normal | Grayscale}. |
 | JpegQuality          | <span style="color:SteelBlue;">int</span>     | Gets or sets the quality of the JPEG images inside PDF document. |
 | MetafileRenderingOptions | [MetafileRenderingOptionsData](#metafilerenderingoptionsdata) | Gets or sets the metafile rendering options. |
@@ -227,6 +228,54 @@ The following properties are defined:
 | OptimizeOutput       | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether it is required to optimize output of XPS. If this flag is set redundant nested canvases and empty canvases are removed, also neighbor glyphs with the same formatting are concatenated. Note: The accuracy of the content display may be affected if this property is set to true.. The default value is false. |
 | PageCount            | <span style="color:SteelBlue;">int</span>     | Gets or sets the number of pages to render. |
 | PageIndex            | <span style="color:SteelBlue;">int</span>     | Gets or sets the 0-based index of the first page to render. |
+
+
+## FlatOpcMacroSaveOptionsData
+
+Represents a container class for fopc_macro save options.
+
+The following properties are defined:
+
+| Property             | Type                                          | Description |
+|----------------------|-----------------------------------------------|-------------|
+| [JsonConverter       | <span style="color:SteelBlue;">int</span>     | Gets or sets the value determining how 3D effects are rendered. |
+| [JsonConverter       | <span style="color:SteelBlue;">int</span>     | Gets or sets the compression level. |
+
+
+## FlatOpcSaveOptionsData
+
+Represents a container class for fopc save options.
+
+The following properties are defined:
+
+| Property             | Type                                          | Description |
+|----------------------|-----------------------------------------------|-------------|
+| [JsonConverter       | <span style="color:SteelBlue;">int</span>     | Gets or sets the value determining how 3D effects are rendered. |
+| [JsonConverter       | <span style="color:SteelBlue;">int</span>     | Gets or sets the compression level. |
+
+
+## FlatOpcTemplateMacroSaveOptionsData
+
+Represents a container class for fopc_template_macro save options.
+
+The following properties are defined:
+
+| Property             | Type                                          | Description |
+|----------------------|-----------------------------------------------|-------------|
+| [JsonConverter       | <span style="color:SteelBlue;">int</span>     | Gets or sets the value determining how 3D effects are rendered. |
+| [JsonConverter       | <span style="color:SteelBlue;">int</span>     | Gets or sets the compression level. |
+
+
+## FlatOpcTemplateSaveOptionsData
+
+Represents a container class for fopc_template save options.
+
+The following properties are defined:
+
+| Property             | Type                                          | Description |
+|----------------------|-----------------------------------------------|-------------|
+| [JsonConverter       | <span style="color:SteelBlue;">int</span>     | Gets or sets the value determining how 3D effects are rendered. |
+| [JsonConverter       | <span style="color:SteelBlue;">int</span>     | Gets or sets the compression level. |
 
 
 ## GifSaveOptionsData
@@ -237,19 +286,7 @@ The following properties are defined:
 
 | Property             | Type                                          | Description |
 |----------------------|-----------------------------------------------|-------------|
-| AllowEmbeddingPostScriptFonts | <span style="color:SteelBlue;">bool</span>    | Gets or sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is false.. |
-| CustomTimeZoneInfoData | [TimeZoneInfoData](/words/spec/document#timezoneinfodata) | Gets or sets CustomTimeZoneInfo. |
-| Dml3DEffectsRenderingMode | [Dml3DEffectsRenderingModeEnum](#saveoptionsdata.dml3deffectsrenderingmodeenum) | Gets or sets the value determining how 3D effects are rendered. |
-| DmlEffectsRenderingMode | <span style="color:SteelBlue;">string</span>  | Gets or sets the value determining how DrawingML effects are rendered. { Simplified | None | Fine }. |
-| DmlRenderingMode     | <span style="color:SteelBlue;">string</span>  | Gets or sets the option that controls how DrawingML shapes are rendered. |
-| FileName             | <span style="color:SteelBlue;">string</span>  | Gets or sets the name of destination file. |
-| SaveFormat           | <span style="color:SteelBlue;">string</span>  | Gets or sets the format of save. |
-| UpdateCreatedTimeProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value determining whether the Aspose.Words.Properties.BuiltInDocumentProperties.CreatedTime property is updated before saving. Default value is false. |
-| UpdateFields         | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether fields should be updated before saving the document to a fixed page format. The default value is true. |
-| UpdateLastPrintedProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether the Aspose.Words.Properties.BuiltInDocumentProperties.LastPrinted property is updated before saving. |
-| UpdateLastSavedTimeProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether the Aspose.Words.Properties.BuiltInDocumentProperties.LastSavedTime property is updated before saving. |
-| UpdateSdtContent     | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether content of StructuredDocumentTag is updated before saving. |
-| ZipOutput            | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether to zip output or not. The default value is false. |
+| [JsonConverter       | <span style="color:SteelBlue;">int</span>     | Gets or sets the value determining how 3D effects are rendered. |
 | ColorMode            | <span style="color:SteelBlue;">string</span>  | Gets or sets the value determining how colors are rendered. { Normal | Grayscale}. |
 | JpegQuality          | <span style="color:SteelBlue;">int</span>     | Gets or sets the quality of the JPEG images inside PDF document. |
 | MetafileRenderingOptions | [MetafileRenderingOptionsData](#metafilerenderingoptionsdata) | Gets or sets the metafile rendering options. |
@@ -257,7 +294,6 @@ The following properties are defined:
 | OptimizeOutput       | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether it is required to optimize output of XPS. If this flag is set redundant nested canvases and empty canvases are removed, also neighbor glyphs with the same formatting are concatenated. Note: The accuracy of the content display may be affected if this property is set to true.. The default value is false. |
 | PageCount            | <span style="color:SteelBlue;">int</span>     | Gets or sets the number of pages to render. |
 | PageIndex            | <span style="color:SteelBlue;">int</span>     | Gets or sets the 0-based index of the first page to render. |
-| GraphicsQualityOptions | [GraphicsQualityOptionsData](#graphicsqualityoptionsdata) | Gets or sets the additional System.Drawing.Graphics quality options. |
 | HorizontalResolution | <span style="color:SteelBlue;">double</span>  | Gets or sets the horizontal resolution in dots per inch for the generated images. This property has effect only when saving to raster image formats. The default value is 96. |
 | ImageBrightness      | <span style="color:SteelBlue;">double</span>  | Gets or sets the brightness level of the image. |
 | ImageColorMode       | <span style="color:SteelBlue;">string</span>  | Gets or sets the color mode of the image. |
@@ -280,19 +316,7 @@ The following properties are defined:
 
 | Property             | Type                                          | Description |
 |----------------------|-----------------------------------------------|-------------|
-| AllowEmbeddingPostScriptFonts | <span style="color:SteelBlue;">bool</span>    | Gets or sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is false.. |
-| CustomTimeZoneInfoData | [TimeZoneInfoData](/words/spec/document#timezoneinfodata) | Gets or sets CustomTimeZoneInfo. |
-| Dml3DEffectsRenderingMode | [Dml3DEffectsRenderingModeEnum](#saveoptionsdata.dml3deffectsrenderingmodeenum) | Gets or sets the value determining how 3D effects are rendered. |
-| DmlEffectsRenderingMode | <span style="color:SteelBlue;">string</span>  | Gets or sets the value determining how DrawingML effects are rendered. { Simplified | None | Fine }. |
-| DmlRenderingMode     | <span style="color:SteelBlue;">string</span>  | Gets or sets the option that controls how DrawingML shapes are rendered. |
-| FileName             | <span style="color:SteelBlue;">string</span>  | Gets or sets the name of destination file. |
-| SaveFormat           | <span style="color:SteelBlue;">string</span>  | Gets or sets the format of save. |
-| UpdateCreatedTimeProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value determining whether the Aspose.Words.Properties.BuiltInDocumentProperties.CreatedTime property is updated before saving. Default value is false. |
-| UpdateFields         | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether fields should be updated before saving the document to a fixed page format. The default value is true. |
-| UpdateLastPrintedProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether the Aspose.Words.Properties.BuiltInDocumentProperties.LastPrinted property is updated before saving. |
-| UpdateLastSavedTimeProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether the Aspose.Words.Properties.BuiltInDocumentProperties.LastSavedTime property is updated before saving. |
-| UpdateSdtContent     | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether content of StructuredDocumentTag is updated before saving. |
-| ZipOutput            | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether to zip output or not. The default value is false. |
+| [JsonConverter       | <span style="color:SteelBlue;">int</span>     | Gets or sets the value determining how 3D effects are rendered. |
 | ColorMode            | <span style="color:SteelBlue;">string</span>  | Gets or sets the value determining how colors are rendered. { Normal | Grayscale}. |
 | JpegQuality          | <span style="color:SteelBlue;">int</span>     | Gets or sets the quality of the JPEG images inside PDF document. |
 | MetafileRenderingOptions | [MetafileRenderingOptionsData](#metafilerenderingoptionsdata) | Gets or sets the metafile rendering options. |
@@ -324,19 +348,7 @@ The following properties are defined:
 
 | Property             | Type                                          | Description |
 |----------------------|-----------------------------------------------|-------------|
-| AllowEmbeddingPostScriptFonts | <span style="color:SteelBlue;">bool</span>    | Gets or sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is false.. |
-| CustomTimeZoneInfoData | [TimeZoneInfoData](/words/spec/document#timezoneinfodata) | Gets or sets CustomTimeZoneInfo. |
-| Dml3DEffectsRenderingMode | [Dml3DEffectsRenderingModeEnum](#saveoptionsdata.dml3deffectsrenderingmodeenum) | Gets or sets the value determining how 3D effects are rendered. |
-| DmlEffectsRenderingMode | <span style="color:SteelBlue;">string</span>  | Gets or sets the value determining how DrawingML effects are rendered. { Simplified | None | Fine }. |
-| DmlRenderingMode     | <span style="color:SteelBlue;">string</span>  | Gets or sets the option that controls how DrawingML shapes are rendered. |
-| FileName             | <span style="color:SteelBlue;">string</span>  | Gets or sets the name of destination file. |
-| SaveFormat           | <span style="color:SteelBlue;">string</span>  | Gets or sets the format of save. |
-| UpdateCreatedTimeProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value determining whether the Aspose.Words.Properties.BuiltInDocumentProperties.CreatedTime property is updated before saving. Default value is false. |
-| UpdateFields         | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether fields should be updated before saving the document to a fixed page format. The default value is true. |
-| UpdateLastPrintedProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether the Aspose.Words.Properties.BuiltInDocumentProperties.LastPrinted property is updated before saving. |
-| UpdateLastSavedTimeProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether the Aspose.Words.Properties.BuiltInDocumentProperties.LastSavedTime property is updated before saving. |
-| UpdateSdtContent     | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether content of StructuredDocumentTag is updated before saving. |
-| ZipOutput            | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether to zip output or not. The default value is false. |
+| [JsonConverter       | <span style="color:SteelBlue;">int</span>     | Gets or sets the value determining how 3D effects are rendered. |
 | AllowNegativeIndent  | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether negative left and right indents of paragraphs are allowed (not normalized) . |
 | CssClassNamePrefix   | <span style="color:SteelBlue;">string</span>  | Gets or sets the prefix which is added to all CSS class names. The default value is an empty string and generated CSS class names have no common prefix. If this value is not empty, all CSS classes generated by Aspose.Words will start with the specified prefix.This might be useful, for example, if you add custom CSS to generated documents and want to prevent class name conflicts. If the value is not null or empty, it must be a valid CSS identifier. |
 | CssStyleSheetFileName | <span style="color:SteelBlue;">string</span>  | Gets or sets the name of the CSS file written when the document is exported to HTML. |
@@ -386,19 +398,7 @@ The following properties are defined:
 
 | Property             | Type                                          | Description |
 |----------------------|-----------------------------------------------|-------------|
-| AllowEmbeddingPostScriptFonts | <span style="color:SteelBlue;">bool</span>    | Gets or sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is false.. |
-| CustomTimeZoneInfoData | [TimeZoneInfoData](/words/spec/document#timezoneinfodata) | Gets or sets CustomTimeZoneInfo. |
-| Dml3DEffectsRenderingMode | [Dml3DEffectsRenderingModeEnum](#saveoptionsdata.dml3deffectsrenderingmodeenum) | Gets or sets the value determining how 3D effects are rendered. |
-| DmlEffectsRenderingMode | <span style="color:SteelBlue;">string</span>  | Gets or sets the value determining how DrawingML effects are rendered. { Simplified | None | Fine }. |
-| DmlRenderingMode     | <span style="color:SteelBlue;">string</span>  | Gets or sets the option that controls how DrawingML shapes are rendered. |
-| FileName             | <span style="color:SteelBlue;">string</span>  | Gets or sets the name of destination file. |
-| SaveFormat           | <span style="color:SteelBlue;">string</span>  | Gets or sets the format of save. |
-| UpdateCreatedTimeProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value determining whether the Aspose.Words.Properties.BuiltInDocumentProperties.CreatedTime property is updated before saving. Default value is false. |
-| UpdateFields         | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether fields should be updated before saving the document to a fixed page format. The default value is true. |
-| UpdateLastPrintedProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether the Aspose.Words.Properties.BuiltInDocumentProperties.LastPrinted property is updated before saving. |
-| UpdateLastSavedTimeProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether the Aspose.Words.Properties.BuiltInDocumentProperties.LastSavedTime property is updated before saving. |
-| UpdateSdtContent     | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether content of StructuredDocumentTag is updated before saving. |
-| ZipOutput            | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether to zip output or not. The default value is false. |
+| [JsonConverter       | <span style="color:SteelBlue;">int</span>     | Gets or sets the value determining how 3D effects are rendered. |
 | ColorMode            | <span style="color:SteelBlue;">string</span>  | Gets or sets the value determining how colors are rendered. { Normal | Grayscale}. |
 | JpegQuality          | <span style="color:SteelBlue;">int</span>     | Gets or sets the quality of the JPEG images inside PDF document. |
 | MetafileRenderingOptions | [MetafileRenderingOptionsData](#metafilerenderingoptionsdata) | Gets or sets the metafile rendering options. |
@@ -406,7 +406,6 @@ The following properties are defined:
 | OptimizeOutput       | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether it is required to optimize output of XPS. If this flag is set redundant nested canvases and empty canvases are removed, also neighbor glyphs with the same formatting are concatenated. Note: The accuracy of the content display may be affected if this property is set to true.. The default value is false. |
 | PageCount            | <span style="color:SteelBlue;">int</span>     | Gets or sets the number of pages to render. |
 | PageIndex            | <span style="color:SteelBlue;">int</span>     | Gets or sets the 0-based index of the first page to render. |
-| GraphicsQualityOptions | [GraphicsQualityOptionsData](#graphicsqualityoptionsdata) | Gets or sets the additional System.Drawing.Graphics quality options. |
 | HorizontalResolution | <span style="color:SteelBlue;">double</span>  | Gets or sets the horizontal resolution in dots per inch for the generated images. This property has effect only when saving to raster image formats. The default value is 96. |
 | ImageBrightness      | <span style="color:SteelBlue;">double</span>  | Gets or sets the brightness level of the image. |
 | ImageColorMode       | <span style="color:SteelBlue;">string</span>  | Gets or sets the color mode of the image. |
@@ -429,19 +428,7 @@ The following properties are defined:
 
 | Property             | Type                                          | Description |
 |----------------------|-----------------------------------------------|-------------|
-| AllowEmbeddingPostScriptFonts | <span style="color:SteelBlue;">bool</span>    | Gets or sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is false.. |
-| CustomTimeZoneInfoData | [TimeZoneInfoData](/words/spec/document#timezoneinfodata) | Gets or sets CustomTimeZoneInfo. |
-| Dml3DEffectsRenderingMode | [Dml3DEffectsRenderingModeEnum](#saveoptionsdata.dml3deffectsrenderingmodeenum) | Gets or sets the value determining how 3D effects are rendered. |
-| DmlEffectsRenderingMode | <span style="color:SteelBlue;">string</span>  | Gets or sets the value determining how DrawingML effects are rendered. { Simplified | None | Fine }. |
-| DmlRenderingMode     | <span style="color:SteelBlue;">string</span>  | Gets or sets the option that controls how DrawingML shapes are rendered. |
-| FileName             | <span style="color:SteelBlue;">string</span>  | Gets or sets the name of destination file. |
-| SaveFormat           | <span style="color:SteelBlue;">string</span>  | Gets or sets the format of save. |
-| UpdateCreatedTimeProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value determining whether the Aspose.Words.Properties.BuiltInDocumentProperties.CreatedTime property is updated before saving. Default value is false. |
-| UpdateFields         | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether fields should be updated before saving the document to a fixed page format. The default value is true. |
-| UpdateLastPrintedProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether the Aspose.Words.Properties.BuiltInDocumentProperties.LastPrinted property is updated before saving. |
-| UpdateLastSavedTimeProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether the Aspose.Words.Properties.BuiltInDocumentProperties.LastSavedTime property is updated before saving. |
-| UpdateSdtContent     | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether content of StructuredDocumentTag is updated before saving. |
-| ZipOutput            | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether to zip output or not. The default value is false. |
+| [JsonConverter       | <span style="color:SteelBlue;">int</span>     | Gets or sets the value determining how 3D effects are rendered. |
 | ColorMode            | <span style="color:SteelBlue;">string</span>  | Gets or sets the value determining how colors are rendered. { Normal | Grayscale}. |
 | JpegQuality          | <span style="color:SteelBlue;">int</span>     | Gets or sets the quality of the JPEG images inside PDF document. |
 | MetafileRenderingOptions | [MetafileRenderingOptionsData](#metafilerenderingoptionsdata) | Gets or sets the metafile rendering options. |
@@ -449,7 +436,6 @@ The following properties are defined:
 | OptimizeOutput       | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether it is required to optimize output of XPS. If this flag is set redundant nested canvases and empty canvases are removed, also neighbor glyphs with the same formatting are concatenated. Note: The accuracy of the content display may be affected if this property is set to true.. The default value is false. |
 | PageCount            | <span style="color:SteelBlue;">int</span>     | Gets or sets the number of pages to render. |
 | PageIndex            | <span style="color:SteelBlue;">int</span>     | Gets or sets the 0-based index of the first page to render. |
-| GraphicsQualityOptions | [GraphicsQualityOptionsData](#graphicsqualityoptionsdata) | Gets or sets the additional System.Drawing.Graphics quality options. |
 | HorizontalResolution | <span style="color:SteelBlue;">double</span>  | Gets or sets the horizontal resolution in dots per inch for the generated images. This property has effect only when saving to raster image formats. The default value is 96. |
 | ImageBrightness      | <span style="color:SteelBlue;">double</span>  | Gets or sets the brightness level of the image. |
 | ImageColorMode       | <span style="color:SteelBlue;">string</span>  | Gets or sets the color mode of the image. |
@@ -472,23 +458,8 @@ The following properties are defined:
 
 | Property             | Type                                          | Description |
 |----------------------|-----------------------------------------------|-------------|
-| AllowEmbeddingPostScriptFonts | <span style="color:SteelBlue;">bool</span>    | Gets or sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is false.. |
-| CustomTimeZoneInfoData | [TimeZoneInfoData](/words/spec/document#timezoneinfodata) | Gets or sets CustomTimeZoneInfo. |
-| Dml3DEffectsRenderingMode | [Dml3DEffectsRenderingModeEnum](#saveoptionsdata.dml3deffectsrenderingmodeenum) | Gets or sets the value determining how 3D effects are rendered. |
-| DmlEffectsRenderingMode | <span style="color:SteelBlue;">string</span>  | Gets or sets the value determining how DrawingML effects are rendered. { Simplified | None | Fine }. |
-| DmlRenderingMode     | <span style="color:SteelBlue;">string</span>  | Gets or sets the option that controls how DrawingML shapes are rendered. |
-| FileName             | <span style="color:SteelBlue;">string</span>  | Gets or sets the name of destination file. |
-| SaveFormat           | <span style="color:SteelBlue;">string</span>  | Gets or sets the format of save. |
-| UpdateCreatedTimeProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value determining whether the Aspose.Words.Properties.BuiltInDocumentProperties.CreatedTime property is updated before saving. Default value is false. |
-| UpdateFields         | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether fields should be updated before saving the document to a fixed page format. The default value is true. |
-| UpdateLastPrintedProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether the Aspose.Words.Properties.BuiltInDocumentProperties.LastPrinted property is updated before saving. |
-| UpdateLastSavedTimeProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether the Aspose.Words.Properties.BuiltInDocumentProperties.LastSavedTime property is updated before saving. |
-| UpdateSdtContent     | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether content of StructuredDocumentTag is updated before saving. |
-| ZipOutput            | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether to zip output or not. The default value is false. |
-| Encoding             | <span style="color:SteelBlue;">string</span>  | Gets or sets the character encoding to use when exporting in plain text format. |
-| ExportHeadersFootersMode | [ExportHeadersFootersModeEnum](#txtsaveoptionsbasedata.exportheadersfootersmodeenum) | Gets or sets the option that controls whether to output headers and footers when exporting in plain text format. default value is TxtExportHeadersFootersMode.PrimaryOnly. |
-| ForcePageBreaks      | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether the page breaks should be preserved during export. The default value is false. |
-| ParagraphBreak       | <span style="color:SteelBlue;">string</span>  | Gets or sets the string to use as a paragraph break when exporting in plain text format. |
+| [JsonConverter       | <span style="color:SteelBlue;">int</span>     | Gets or sets the value determining how 3D effects are rendered. |
+| [JsonConverter       | <span style="color:SteelBlue;">int</span>     | Gets or sets the option that controls whether to output headers and footers when exporting in plain text format. default value is TxtExportHeadersFootersMode.PrimaryOnly. |
 | TableContentAlignment | [TableContentAlignmentEnum](#markdownsaveoptionsdata.tablecontentalignmentenum) | Gets or sets the value, that specifies how to align contents in tables when exporting into the Markdown format. The default value is Auto. |
 
 
@@ -500,19 +471,7 @@ The following properties are defined:
 
 | Property             | Type                                          | Description |
 |----------------------|-----------------------------------------------|-------------|
-| AllowEmbeddingPostScriptFonts | <span style="color:SteelBlue;">bool</span>    | Gets or sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is false.. |
-| CustomTimeZoneInfoData | [TimeZoneInfoData](/words/spec/document#timezoneinfodata) | Gets or sets CustomTimeZoneInfo. |
-| Dml3DEffectsRenderingMode | [Dml3DEffectsRenderingModeEnum](#saveoptionsdata.dml3deffectsrenderingmodeenum) | Gets or sets the value determining how 3D effects are rendered. |
-| DmlEffectsRenderingMode | <span style="color:SteelBlue;">string</span>  | Gets or sets the value determining how DrawingML effects are rendered. { Simplified | None | Fine }. |
-| DmlRenderingMode     | <span style="color:SteelBlue;">string</span>  | Gets or sets the option that controls how DrawingML shapes are rendered. |
-| FileName             | <span style="color:SteelBlue;">string</span>  | Gets or sets the name of destination file. |
-| SaveFormat           | <span style="color:SteelBlue;">string</span>  | Gets or sets the format of save. |
-| UpdateCreatedTimeProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value determining whether the Aspose.Words.Properties.BuiltInDocumentProperties.CreatedTime property is updated before saving. Default value is false. |
-| UpdateFields         | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether fields should be updated before saving the document to a fixed page format. The default value is true. |
-| UpdateLastPrintedProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether the Aspose.Words.Properties.BuiltInDocumentProperties.LastPrinted property is updated before saving. |
-| UpdateLastSavedTimeProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether the Aspose.Words.Properties.BuiltInDocumentProperties.LastSavedTime property is updated before saving. |
-| UpdateSdtContent     | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether content of StructuredDocumentTag is updated before saving. |
-| ZipOutput            | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether to zip output or not. The default value is false. |
+| [JsonConverter       | <span style="color:SteelBlue;">int</span>     | Gets or sets the value determining how 3D effects are rendered. |
 | AllowNegativeIndent  | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether negative left and right indents of paragraphs are allowed (not normalized) . |
 | CssClassNamePrefix   | <span style="color:SteelBlue;">string</span>  | Gets or sets the prefix which is added to all CSS class names. The default value is an empty string and generated CSS class names have no common prefix. If this value is not empty, all CSS classes generated by Aspose.Words will start with the specified prefix.This might be useful, for example, if you add custom CSS to generated documents and want to prevent class name conflicts. If the value is not null or empty, it must be a valid CSS identifier. |
 | CssStyleSheetFileName | <span style="color:SteelBlue;">string</span>  | Gets or sets the name of the CSS file written when the document is exported to HTML. |
@@ -563,19 +522,7 @@ The following properties are defined:
 
 | Property             | Type                                          | Description |
 |----------------------|-----------------------------------------------|-------------|
-| AllowEmbeddingPostScriptFonts | <span style="color:SteelBlue;">bool</span>    | Gets or sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is false.. |
-| CustomTimeZoneInfoData | [TimeZoneInfoData](/words/spec/document#timezoneinfodata) | Gets or sets CustomTimeZoneInfo. |
-| Dml3DEffectsRenderingMode | [Dml3DEffectsRenderingModeEnum](#saveoptionsdata.dml3deffectsrenderingmodeenum) | Gets or sets the value determining how 3D effects are rendered. |
-| DmlEffectsRenderingMode | <span style="color:SteelBlue;">string</span>  | Gets or sets the value determining how DrawingML effects are rendered. { Simplified | None | Fine }. |
-| DmlRenderingMode     | <span style="color:SteelBlue;">string</span>  | Gets or sets the option that controls how DrawingML shapes are rendered. |
-| FileName             | <span style="color:SteelBlue;">string</span>  | Gets or sets the name of destination file. |
-| SaveFormat           | <span style="color:SteelBlue;">string</span>  | Gets or sets the format of save. |
-| UpdateCreatedTimeProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value determining whether the Aspose.Words.Properties.BuiltInDocumentProperties.CreatedTime property is updated before saving. Default value is false. |
-| UpdateFields         | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether fields should be updated before saving the document to a fixed page format. The default value is true. |
-| UpdateLastPrintedProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether the Aspose.Words.Properties.BuiltInDocumentProperties.LastPrinted property is updated before saving. |
-| UpdateLastSavedTimeProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether the Aspose.Words.Properties.BuiltInDocumentProperties.LastSavedTime property is updated before saving. |
-| UpdateSdtContent     | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether content of StructuredDocumentTag is updated before saving. |
-| ZipOutput            | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether to zip output or not. The default value is false. |
+| [JsonConverter       | <span style="color:SteelBlue;">int</span>     | Gets or sets the value determining how 3D effects are rendered. |
 | IsStrictSchema11     | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether export should correspond to ODT specification 1.1 strictly. |
 | MeasureUnit          | [MeasureUnitEnum](#odtsaveoptionsdata.measureunitenum) | Gets or sets the units of measure to apply to document content. The default value is Aspose.Words.Saving.OdtSaveMeasureUnit.Centimeters. Open Office uses centimeters when specifying lengths, widths and other measurable formatting and content properties in documents whereas MS Office uses inches. |
 | Password             | <span style="color:SteelBlue;">string</span>  | Gets or sets the password to encrypt document. |
@@ -590,22 +537,44 @@ The following properties are defined:
 
 | Property             | Type                                          | Description |
 |----------------------|-----------------------------------------------|-------------|
-| AllowEmbeddingPostScriptFonts | <span style="color:SteelBlue;">bool</span>    | Gets or sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is false.. |
-| CustomTimeZoneInfoData | [TimeZoneInfoData](/words/spec/document#timezoneinfodata) | Gets or sets CustomTimeZoneInfo. |
-| Dml3DEffectsRenderingMode | [Dml3DEffectsRenderingModeEnum](#saveoptionsdata.dml3deffectsrenderingmodeenum) | Gets or sets the value determining how 3D effects are rendered. |
-| DmlEffectsRenderingMode | <span style="color:SteelBlue;">string</span>  | Gets or sets the value determining how DrawingML effects are rendered. { Simplified | None | Fine }. |
-| DmlRenderingMode     | <span style="color:SteelBlue;">string</span>  | Gets or sets the option that controls how DrawingML shapes are rendered. |
-| FileName             | <span style="color:SteelBlue;">string</span>  | Gets or sets the name of destination file. |
-| SaveFormat           | <span style="color:SteelBlue;">string</span>  | Gets or sets the format of save. |
-| UpdateCreatedTimeProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value determining whether the Aspose.Words.Properties.BuiltInDocumentProperties.CreatedTime property is updated before saving. Default value is false. |
-| UpdateFields         | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether fields should be updated before saving the document to a fixed page format. The default value is true. |
-| UpdateLastPrintedProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether the Aspose.Words.Properties.BuiltInDocumentProperties.LastPrinted property is updated before saving. |
-| UpdateLastSavedTimeProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether the Aspose.Words.Properties.BuiltInDocumentProperties.LastSavedTime property is updated before saving. |
-| UpdateSdtContent     | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether content of StructuredDocumentTag is updated before saving. |
-| ZipOutput            | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether to zip output or not. The default value is false. |
-| Compliance           | <span style="color:SteelBlue;">string</span>  | Gets or sets the oOXML version for the output document. |
-| CompressionLevel     | [CompressionLevelEnum](#ooxmlsaveoptionsdata.compressionlevelenum) | Gets or sets the compression level. |
-| Password             | <span style="color:SteelBlue;">string</span>  | Gets or sets the password to encrypt document using ECMA376 Standard encryption algorithm. |
+| [JsonConverter       | <span style="color:SteelBlue;">int</span>     | Gets or sets the value determining how 3D effects are rendered. |
+| [JsonConverter       | <span style="color:SteelBlue;">int</span>     | Gets or sets the compression level. |
+
+
+## OpenXpsSaveOptionsData
+
+Represents a container class for xps save options.
+
+The following properties are defined:
+
+| Property             | Type                                          | Description |
+|----------------------|-----------------------------------------------|-------------|
+| [JsonConverter       | <span style="color:SteelBlue;">int</span>     | Gets or sets the value determining how 3D effects are rendered. |
+| ColorMode            | <span style="color:SteelBlue;">string</span>  | Gets or sets the value determining how colors are rendered. { Normal | Grayscale}. |
+| JpegQuality          | <span style="color:SteelBlue;">int</span>     | Gets or sets the quality of the JPEG images inside PDF document. |
+| MetafileRenderingOptions | [MetafileRenderingOptionsData](#metafilerenderingoptionsdata) | Gets or sets the metafile rendering options. |
+| NumeralFormat        | <span style="color:SteelBlue;">string</span>  | Gets or sets the symbol set, that is used to represent numbers while rendering to fixed page formats. |
+| OptimizeOutput       | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether it is required to optimize output of XPS. If this flag is set redundant nested canvases and empty canvases are removed, also neighbor glyphs with the same formatting are concatenated. Note: The accuracy of the content display may be affected if this property is set to true.. The default value is false. |
+| PageCount            | <span style="color:SteelBlue;">int</span>     | Gets or sets the number of pages to render. |
+| PageIndex            | <span style="color:SteelBlue;">int</span>     | Gets or sets the 0-based index of the first page to render. |
+| BookmarksOutlineLevel | <span style="color:SteelBlue;">int</span>     | Gets or sets the level in the XPS document outline at which to display Word bookmarks. |
+| HeadingsOutlineLevels | <span style="color:SteelBlue;">int</span>     | Gets or sets the number of heading levels (paragraphs formatted with the Heading styles) to include in the XPS document outline. |
+| OutlineOptions       | [OutlineOptionsData](#outlineoptionsdata)     | Gets or sets the outline options. |
+| UseBookFoldPrintingSettings | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether the document should be saved using a booklet printing layout. |
+
+
+## OttSaveOptionsData
+
+Represents a container class for ott save options.
+
+The following properties are defined:
+
+| Property             | Type                                          | Description |
+|----------------------|-----------------------------------------------|-------------|
+| [JsonConverter       | <span style="color:SteelBlue;">int</span>     | Gets or sets the value determining how 3D effects are rendered. |
+| IsStrictSchema11     | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether export should correspond to ODT specification 1.1 strictly. |
+| MeasureUnit          | [MeasureUnitEnum](#odtsaveoptionsdata.measureunitenum) | Gets or sets the units of measure to apply to document content. The default value is Aspose.Words.Saving.OdtSaveMeasureUnit.Centimeters. Open Office uses centimeters when specifying lengths, widths and other measurable formatting and content properties in documents whereas MS Office uses inches. |
+| Password             | <span style="color:SteelBlue;">string</span>  | Gets or sets the password to encrypt document. |
 | PrettyFormat         | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether to use pretty formats output. |
 
 
@@ -617,19 +586,7 @@ The following properties are defined:
 
 | Property             | Type                                          | Description |
 |----------------------|-----------------------------------------------|-------------|
-| AllowEmbeddingPostScriptFonts | <span style="color:SteelBlue;">bool</span>    | Gets or sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is false.. |
-| CustomTimeZoneInfoData | [TimeZoneInfoData](/words/spec/document#timezoneinfodata) | Gets or sets CustomTimeZoneInfo. |
-| Dml3DEffectsRenderingMode | [Dml3DEffectsRenderingModeEnum](#saveoptionsdata.dml3deffectsrenderingmodeenum) | Gets or sets the value determining how 3D effects are rendered. |
-| DmlEffectsRenderingMode | <span style="color:SteelBlue;">string</span>  | Gets or sets the value determining how DrawingML effects are rendered. { Simplified | None | Fine }. |
-| DmlRenderingMode     | <span style="color:SteelBlue;">string</span>  | Gets or sets the option that controls how DrawingML shapes are rendered. |
-| FileName             | <span style="color:SteelBlue;">string</span>  | Gets or sets the name of destination file. |
-| SaveFormat           | <span style="color:SteelBlue;">string</span>  | Gets or sets the format of save. |
-| UpdateCreatedTimeProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value determining whether the Aspose.Words.Properties.BuiltInDocumentProperties.CreatedTime property is updated before saving. Default value is false. |
-| UpdateFields         | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether fields should be updated before saving the document to a fixed page format. The default value is true. |
-| UpdateLastPrintedProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether the Aspose.Words.Properties.BuiltInDocumentProperties.LastPrinted property is updated before saving. |
-| UpdateLastSavedTimeProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether the Aspose.Words.Properties.BuiltInDocumentProperties.LastSavedTime property is updated before saving. |
-| UpdateSdtContent     | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether content of StructuredDocumentTag is updated before saving. |
-| ZipOutput            | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether to zip output or not. The default value is false. |
+| [JsonConverter       | <span style="color:SteelBlue;">int</span>     | Gets or sets the value determining how 3D effects are rendered. |
 | ColorMode            | <span style="color:SteelBlue;">string</span>  | Gets or sets the value determining how colors are rendered. { Normal | Grayscale}. |
 | JpegQuality          | <span style="color:SteelBlue;">int</span>     | Gets or sets the quality of the JPEG images inside PDF document. |
 | MetafileRenderingOptions | [MetafileRenderingOptionsData](#metafilerenderingoptionsdata) | Gets or sets the metafile rendering options. |
@@ -649,19 +606,7 @@ The following properties are defined:
 
 | Property             | Type                                          | Description |
 |----------------------|-----------------------------------------------|-------------|
-| AllowEmbeddingPostScriptFonts | <span style="color:SteelBlue;">bool</span>    | Gets or sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is false.. |
-| CustomTimeZoneInfoData | [TimeZoneInfoData](/words/spec/document#timezoneinfodata) | Gets or sets CustomTimeZoneInfo. |
-| Dml3DEffectsRenderingMode | [Dml3DEffectsRenderingModeEnum](#saveoptionsdata.dml3deffectsrenderingmodeenum) | Gets or sets the value determining how 3D effects are rendered. |
-| DmlEffectsRenderingMode | <span style="color:SteelBlue;">string</span>  | Gets or sets the value determining how DrawingML effects are rendered. { Simplified | None | Fine }. |
-| DmlRenderingMode     | <span style="color:SteelBlue;">string</span>  | Gets or sets the option that controls how DrawingML shapes are rendered. |
-| FileName             | <span style="color:SteelBlue;">string</span>  | Gets or sets the name of destination file. |
-| SaveFormat           | <span style="color:SteelBlue;">string</span>  | Gets or sets the format of save. |
-| UpdateCreatedTimeProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value determining whether the Aspose.Words.Properties.BuiltInDocumentProperties.CreatedTime property is updated before saving. Default value is false. |
-| UpdateFields         | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether fields should be updated before saving the document to a fixed page format. The default value is true. |
-| UpdateLastPrintedProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether the Aspose.Words.Properties.BuiltInDocumentProperties.LastPrinted property is updated before saving. |
-| UpdateLastSavedTimeProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether the Aspose.Words.Properties.BuiltInDocumentProperties.LastSavedTime property is updated before saving. |
-| UpdateSdtContent     | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether content of StructuredDocumentTag is updated before saving. |
-| ZipOutput            | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether to zip output or not. The default value is false. |
+| [JsonConverter       | <span style="color:SteelBlue;">int</span>     | Gets or sets the value determining how 3D effects are rendered. |
 | ColorMode            | <span style="color:SteelBlue;">string</span>  | Gets or sets the value determining how colors are rendered. { Normal | Grayscale}. |
 | JpegQuality          | <span style="color:SteelBlue;">int</span>     | Gets or sets the quality of the JPEG images inside PDF document. |
 | MetafileRenderingOptions | [MetafileRenderingOptionsData](#metafilerenderingoptionsdata) | Gets or sets the metafile rendering options. |
@@ -678,6 +623,7 @@ The following properties are defined:
 | EmbedFullFonts       | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether fonts are embedded into the resulting PDF documents. |
 | EncryptionDetails    | [PdfEncryptionDetailsData](#pdfencryptiondetailsdata) | Gets or sets the details for encrypting the output PDF document. |
 | ExportDocumentStructure | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether to export document structure. |
+| ExportLanguageToSpanTag | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value determining whether or not to create a "Span" tag in the document structure to export the text language. |
 | FontEmbeddingMode    | <span style="color:SteelBlue;">string</span>  | Gets or sets the font embedding mode. |
 | HeaderFooterBookmarksExportMode | [HeaderFooterBookmarksExportModeEnum](#pdfsaveoptionsdata.headerfooterbookmarksexportmodeenum) | Gets or sets the option that controls how bookmarks in headers/footers are exported. The default value is Aspose.Words.Saving.HeaderFooterBookmarksExportMode.All. |
 | ImageColorSpaceExportMode | <span style="color:SteelBlue;">string</span>  | Gets or sets the option that controls how the color space will be selected for the images in PDF document. |
@@ -703,19 +649,7 @@ The following properties are defined:
 
 | Property             | Type                                          | Description |
 |----------------------|-----------------------------------------------|-------------|
-| AllowEmbeddingPostScriptFonts | <span style="color:SteelBlue;">bool</span>    | Gets or sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is false.. |
-| CustomTimeZoneInfoData | [TimeZoneInfoData](/words/spec/document#timezoneinfodata) | Gets or sets CustomTimeZoneInfo. |
-| Dml3DEffectsRenderingMode | [Dml3DEffectsRenderingModeEnum](#saveoptionsdata.dml3deffectsrenderingmodeenum) | Gets or sets the value determining how 3D effects are rendered. |
-| DmlEffectsRenderingMode | <span style="color:SteelBlue;">string</span>  | Gets or sets the value determining how DrawingML effects are rendered. { Simplified | None | Fine }. |
-| DmlRenderingMode     | <span style="color:SteelBlue;">string</span>  | Gets or sets the option that controls how DrawingML shapes are rendered. |
-| FileName             | <span style="color:SteelBlue;">string</span>  | Gets or sets the name of destination file. |
-| SaveFormat           | <span style="color:SteelBlue;">string</span>  | Gets or sets the format of save. |
-| UpdateCreatedTimeProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value determining whether the Aspose.Words.Properties.BuiltInDocumentProperties.CreatedTime property is updated before saving. Default value is false. |
-| UpdateFields         | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether fields should be updated before saving the document to a fixed page format. The default value is true. |
-| UpdateLastPrintedProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether the Aspose.Words.Properties.BuiltInDocumentProperties.LastPrinted property is updated before saving. |
-| UpdateLastSavedTimeProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether the Aspose.Words.Properties.BuiltInDocumentProperties.LastSavedTime property is updated before saving. |
-| UpdateSdtContent     | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether content of StructuredDocumentTag is updated before saving. |
-| ZipOutput            | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether to zip output or not. The default value is false. |
+| [JsonConverter       | <span style="color:SteelBlue;">int</span>     | Gets or sets the value determining how 3D effects are rendered. |
 | ColorMode            | <span style="color:SteelBlue;">string</span>  | Gets or sets the value determining how colors are rendered. { Normal | Grayscale}. |
 | JpegQuality          | <span style="color:SteelBlue;">int</span>     | Gets or sets the quality of the JPEG images inside PDF document. |
 | MetafileRenderingOptions | [MetafileRenderingOptionsData](#metafilerenderingoptionsdata) | Gets or sets the metafile rendering options. |
@@ -723,7 +657,6 @@ The following properties are defined:
 | OptimizeOutput       | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether it is required to optimize output of XPS. If this flag is set redundant nested canvases and empty canvases are removed, also neighbor glyphs with the same formatting are concatenated. Note: The accuracy of the content display may be affected if this property is set to true.. The default value is false. |
 | PageCount            | <span style="color:SteelBlue;">int</span>     | Gets or sets the number of pages to render. |
 | PageIndex            | <span style="color:SteelBlue;">int</span>     | Gets or sets the 0-based index of the first page to render. |
-| GraphicsQualityOptions | [GraphicsQualityOptionsData](#graphicsqualityoptionsdata) | Gets or sets the additional System.Drawing.Graphics quality options. |
 | HorizontalResolution | <span style="color:SteelBlue;">double</span>  | Gets or sets the horizontal resolution in dots per inch for the generated images. This property has effect only when saving to raster image formats. The default value is 96. |
 | ImageBrightness      | <span style="color:SteelBlue;">double</span>  | Gets or sets the brightness level of the image. |
 | ImageColorMode       | <span style="color:SteelBlue;">string</span>  | Gets or sets the color mode of the image. |
@@ -746,19 +679,7 @@ The following properties are defined:
 
 | Property             | Type                                          | Description |
 |----------------------|-----------------------------------------------|-------------|
-| AllowEmbeddingPostScriptFonts | <span style="color:SteelBlue;">bool</span>    | Gets or sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is false.. |
-| CustomTimeZoneInfoData | [TimeZoneInfoData](/words/spec/document#timezoneinfodata) | Gets or sets CustomTimeZoneInfo. |
-| Dml3DEffectsRenderingMode | [Dml3DEffectsRenderingModeEnum](#saveoptionsdata.dml3deffectsrenderingmodeenum) | Gets or sets the value determining how 3D effects are rendered. |
-| DmlEffectsRenderingMode | <span style="color:SteelBlue;">string</span>  | Gets or sets the value determining how DrawingML effects are rendered. { Simplified | None | Fine }. |
-| DmlRenderingMode     | <span style="color:SteelBlue;">string</span>  | Gets or sets the option that controls how DrawingML shapes are rendered. |
-| FileName             | <span style="color:SteelBlue;">string</span>  | Gets or sets the name of destination file. |
-| SaveFormat           | <span style="color:SteelBlue;">string</span>  | Gets or sets the format of save. |
-| UpdateCreatedTimeProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value determining whether the Aspose.Words.Properties.BuiltInDocumentProperties.CreatedTime property is updated before saving. Default value is false. |
-| UpdateFields         | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether fields should be updated before saving the document to a fixed page format. The default value is true. |
-| UpdateLastPrintedProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether the Aspose.Words.Properties.BuiltInDocumentProperties.LastPrinted property is updated before saving. |
-| UpdateLastSavedTimeProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether the Aspose.Words.Properties.BuiltInDocumentProperties.LastSavedTime property is updated before saving. |
-| UpdateSdtContent     | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether content of StructuredDocumentTag is updated before saving. |
-| ZipOutput            | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether to zip output or not. The default value is false. |
+| [JsonConverter       | <span style="color:SteelBlue;">int</span>     | Gets or sets the value determining how 3D effects are rendered. |
 | ColorMode            | <span style="color:SteelBlue;">string</span>  | Gets or sets the value determining how colors are rendered. { Normal | Grayscale}. |
 | JpegQuality          | <span style="color:SteelBlue;">int</span>     | Gets or sets the quality of the JPEG images inside PDF document. |
 | MetafileRenderingOptions | [MetafileRenderingOptionsData](#metafilerenderingoptionsdata) | Gets or sets the metafile rendering options. |
@@ -777,19 +698,7 @@ The following properties are defined:
 
 | Property             | Type                                          | Description |
 |----------------------|-----------------------------------------------|-------------|
-| AllowEmbeddingPostScriptFonts | <span style="color:SteelBlue;">bool</span>    | Gets or sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is false.. |
-| CustomTimeZoneInfoData | [TimeZoneInfoData](/words/spec/document#timezoneinfodata) | Gets or sets CustomTimeZoneInfo. |
-| Dml3DEffectsRenderingMode | [Dml3DEffectsRenderingModeEnum](#saveoptionsdata.dml3deffectsrenderingmodeenum) | Gets or sets the value determining how 3D effects are rendered. |
-| DmlEffectsRenderingMode | <span style="color:SteelBlue;">string</span>  | Gets or sets the value determining how DrawingML effects are rendered. { Simplified | None | Fine }. |
-| DmlRenderingMode     | <span style="color:SteelBlue;">string</span>  | Gets or sets the option that controls how DrawingML shapes are rendered. |
-| FileName             | <span style="color:SteelBlue;">string</span>  | Gets or sets the name of destination file. |
-| SaveFormat           | <span style="color:SteelBlue;">string</span>  | Gets or sets the format of save. |
-| UpdateCreatedTimeProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value determining whether the Aspose.Words.Properties.BuiltInDocumentProperties.CreatedTime property is updated before saving. Default value is false. |
-| UpdateFields         | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether fields should be updated before saving the document to a fixed page format. The default value is true. |
-| UpdateLastPrintedProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether the Aspose.Words.Properties.BuiltInDocumentProperties.LastPrinted property is updated before saving. |
-| UpdateLastSavedTimeProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether the Aspose.Words.Properties.BuiltInDocumentProperties.LastSavedTime property is updated before saving. |
-| UpdateSdtContent     | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether content of StructuredDocumentTag is updated before saving. |
-| ZipOutput            | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether to zip output or not. The default value is false. |
+| [JsonConverter       | <span style="color:SteelBlue;">int</span>     | Gets or sets the value determining how 3D effects are rendered. |
 | ExportCompactSize    | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether to make output RTF documents smaller in size, but if they contain RTL (right-to-left) text, it will not be displayed correctly. |
 | ExportImagesForOldReaders | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether the keywords for "old readers" are written to RTF or not. |
 | PrettyFormat         | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether to use pretty formats output. |
@@ -804,19 +713,7 @@ The following properties are defined:
 
 | Property             | Type                                          | Description |
 |----------------------|-----------------------------------------------|-------------|
-| AllowEmbeddingPostScriptFonts | <span style="color:SteelBlue;">bool</span>    | Gets or sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is false.. |
-| CustomTimeZoneInfoData | [TimeZoneInfoData](/words/spec/document#timezoneinfodata) | Gets or sets CustomTimeZoneInfo. |
-| Dml3DEffectsRenderingMode | [Dml3DEffectsRenderingModeEnum](#saveoptionsdata.dml3deffectsrenderingmodeenum) | Gets or sets the value determining how 3D effects are rendered. |
-| DmlEffectsRenderingMode | <span style="color:SteelBlue;">string</span>  | Gets or sets the value determining how DrawingML effects are rendered. { Simplified | None | Fine }. |
-| DmlRenderingMode     | <span style="color:SteelBlue;">string</span>  | Gets or sets the option that controls how DrawingML shapes are rendered. |
-| FileName             | <span style="color:SteelBlue;">string</span>  | Gets or sets the name of destination file. |
-| SaveFormat           | <span style="color:SteelBlue;">string</span>  | Gets or sets the format of save. |
-| UpdateCreatedTimeProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value determining whether the Aspose.Words.Properties.BuiltInDocumentProperties.CreatedTime property is updated before saving. Default value is false. |
-| UpdateFields         | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether fields should be updated before saving the document to a fixed page format. The default value is true. |
-| UpdateLastPrintedProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether the Aspose.Words.Properties.BuiltInDocumentProperties.LastPrinted property is updated before saving. |
-| UpdateLastSavedTimeProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether the Aspose.Words.Properties.BuiltInDocumentProperties.LastSavedTime property is updated before saving. |
-| UpdateSdtContent     | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether content of StructuredDocumentTag is updated before saving. |
-| ZipOutput            | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether to zip output or not. The default value is false. |
+| [JsonConverter       | <span style="color:SteelBlue;">int</span>     | Gets or sets the value determining how 3D effects are rendered. |
 | ColorMode            | <span style="color:SteelBlue;">string</span>  | Gets or sets the value determining how colors are rendered. { Normal | Grayscale}. |
 | JpegQuality          | <span style="color:SteelBlue;">int</span>     | Gets or sets the quality of the JPEG images inside PDF document. |
 | MetafileRenderingOptions | [MetafileRenderingOptionsData](#metafilerenderingoptionsdata) | Gets or sets the metafile rendering options. |
@@ -840,24 +737,10 @@ The following properties are defined:
 
 | Property             | Type                                          | Description |
 |----------------------|-----------------------------------------------|-------------|
-| AllowEmbeddingPostScriptFonts | <span style="color:SteelBlue;">bool</span>    | Gets or sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is false.. |
-| CustomTimeZoneInfoData | [TimeZoneInfoData](/words/spec/document#timezoneinfodata) | Gets or sets CustomTimeZoneInfo. |
-| Dml3DEffectsRenderingMode | [Dml3DEffectsRenderingModeEnum](#saveoptionsdata.dml3deffectsrenderingmodeenum) | Gets or sets the value determining how 3D effects are rendered. |
-| DmlEffectsRenderingMode | <span style="color:SteelBlue;">string</span>  | Gets or sets the value determining how DrawingML effects are rendered. { Simplified | None | Fine }. |
-| DmlRenderingMode     | <span style="color:SteelBlue;">string</span>  | Gets or sets the option that controls how DrawingML shapes are rendered. |
-| FileName             | <span style="color:SteelBlue;">string</span>  | Gets or sets the name of destination file. |
-| SaveFormat           | <span style="color:SteelBlue;">string</span>  | Gets or sets the format of save. |
-| UpdateCreatedTimeProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value determining whether the Aspose.Words.Properties.BuiltInDocumentProperties.CreatedTime property is updated before saving. Default value is false. |
-| UpdateFields         | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether fields should be updated before saving the document to a fixed page format. The default value is true. |
-| UpdateLastPrintedProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether the Aspose.Words.Properties.BuiltInDocumentProperties.LastPrinted property is updated before saving. |
-| UpdateLastSavedTimeProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether the Aspose.Words.Properties.BuiltInDocumentProperties.LastSavedTime property is updated before saving. |
-| UpdateSdtContent     | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether content of StructuredDocumentTag is updated before saving. |
-| ZipOutput            | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether to zip output or not. The default value is false. |
-| Encoding             | <span style="color:SteelBlue;">string</span>  | Gets or sets the character encoding to use when exporting in plain text format. |
-| ExportHeadersFootersMode | [ExportHeadersFootersModeEnum](#txtsaveoptionsbasedata.exportheadersfootersmodeenum) | Gets or sets the option that controls whether to output headers and footers when exporting in plain text format. default value is TxtExportHeadersFootersMode.PrimaryOnly. |
-| ForcePageBreaks      | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether the page breaks should be preserved during export. The default value is false. |
-| ParagraphBreak       | <span style="color:SteelBlue;">string</span>  | Gets or sets the string to use as a paragraph break when exporting in plain text format. |
+| [JsonConverter       | <span style="color:SteelBlue;">int</span>     | Gets or sets the value determining how 3D effects are rendered. |
+| [JsonConverter       | <span style="color:SteelBlue;">int</span>     | Gets or sets the option that controls whether to output headers and footers when exporting in plain text format. default value is TxtExportHeadersFootersMode.PrimaryOnly. |
 | AddBidiMarks         | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether to add bi-directional marks before each BiDi run when exporting in plain text format. The default value is true. |
+| MaxCharactersPerLine | <span style="color:SteelBlue;">int</span>     | Gets or sets an integer value that specifies the maximum number of characters per one line. The default value is 0, that means no limit. |
 | PreserveTableLayout  | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether the program should attempt to preserve layout of tables when saving in the plain text format. |
 | SimplifyListLabels   | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether the program should simplify list labels in case of complex label formatting not being adequately represented by plain text. |
 
@@ -870,23 +753,8 @@ The following properties are defined:
 
 | Property             | Type                                          | Description |
 |----------------------|-----------------------------------------------|-------------|
-| AllowEmbeddingPostScriptFonts | <span style="color:SteelBlue;">bool</span>    | Gets or sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is false.. |
-| CustomTimeZoneInfoData | [TimeZoneInfoData](/words/spec/document#timezoneinfodata) | Gets or sets CustomTimeZoneInfo. |
-| Dml3DEffectsRenderingMode | [Dml3DEffectsRenderingModeEnum](#saveoptionsdata.dml3deffectsrenderingmodeenum) | Gets or sets the value determining how 3D effects are rendered. |
-| DmlEffectsRenderingMode | <span style="color:SteelBlue;">string</span>  | Gets or sets the value determining how DrawingML effects are rendered. { Simplified | None | Fine }. |
-| DmlRenderingMode     | <span style="color:SteelBlue;">string</span>  | Gets or sets the option that controls how DrawingML shapes are rendered. |
-| FileName             | <span style="color:SteelBlue;">string</span>  | Gets or sets the name of destination file. |
-| SaveFormat           | <span style="color:SteelBlue;">string</span>  | Gets or sets the format of save. |
-| UpdateCreatedTimeProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value determining whether the Aspose.Words.Properties.BuiltInDocumentProperties.CreatedTime property is updated before saving. Default value is false. |
-| UpdateFields         | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether fields should be updated before saving the document to a fixed page format. The default value is true. |
-| UpdateLastPrintedProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether the Aspose.Words.Properties.BuiltInDocumentProperties.LastPrinted property is updated before saving. |
-| UpdateLastSavedTimeProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether the Aspose.Words.Properties.BuiltInDocumentProperties.LastSavedTime property is updated before saving. |
-| UpdateSdtContent     | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether content of StructuredDocumentTag is updated before saving. |
-| ZipOutput            | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether to zip output or not. The default value is false. |
-| Encoding             | <span style="color:SteelBlue;">string</span>  | Gets or sets the character encoding to use when exporting in plain text format. |
-| ExportHeadersFootersMode | [ExportHeadersFootersModeEnum](#txtsaveoptionsbasedata.exportheadersfootersmodeenum) | Gets or sets the option that controls whether to output headers and footers when exporting in plain text format. default value is TxtExportHeadersFootersMode.PrimaryOnly. |
-| ForcePageBreaks      | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether the page breaks should be preserved during export. The default value is false. |
-| ParagraphBreak       | <span style="color:SteelBlue;">string</span>  | Gets or sets the string to use as a paragraph break when exporting in plain text format. |
+| [JsonConverter       | <span style="color:SteelBlue;">int</span>     | Gets or sets the value determining how 3D effects are rendered. |
+| [JsonConverter       | <span style="color:SteelBlue;">int</span>     | Gets or sets the option that controls whether to output headers and footers when exporting in plain text format. default value is TxtExportHeadersFootersMode.PrimaryOnly. |
 
 
 ## WordMLSaveOptionsData
@@ -897,19 +765,7 @@ The following properties are defined:
 
 | Property             | Type                                          | Description |
 |----------------------|-----------------------------------------------|-------------|
-| AllowEmbeddingPostScriptFonts | <span style="color:SteelBlue;">bool</span>    | Gets or sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is false.. |
-| CustomTimeZoneInfoData | [TimeZoneInfoData](/words/spec/document#timezoneinfodata) | Gets or sets CustomTimeZoneInfo. |
-| Dml3DEffectsRenderingMode | [Dml3DEffectsRenderingModeEnum](#saveoptionsdata.dml3deffectsrenderingmodeenum) | Gets or sets the value determining how 3D effects are rendered. |
-| DmlEffectsRenderingMode | <span style="color:SteelBlue;">string</span>  | Gets or sets the value determining how DrawingML effects are rendered. { Simplified | None | Fine }. |
-| DmlRenderingMode     | <span style="color:SteelBlue;">string</span>  | Gets or sets the option that controls how DrawingML shapes are rendered. |
-| FileName             | <span style="color:SteelBlue;">string</span>  | Gets or sets the name of destination file. |
-| SaveFormat           | <span style="color:SteelBlue;">string</span>  | Gets or sets the format of save. |
-| UpdateCreatedTimeProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value determining whether the Aspose.Words.Properties.BuiltInDocumentProperties.CreatedTime property is updated before saving. Default value is false. |
-| UpdateFields         | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether fields should be updated before saving the document to a fixed page format. The default value is true. |
-| UpdateLastPrintedProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether the Aspose.Words.Properties.BuiltInDocumentProperties.LastPrinted property is updated before saving. |
-| UpdateLastSavedTimeProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether the Aspose.Words.Properties.BuiltInDocumentProperties.LastSavedTime property is updated before saving. |
-| UpdateSdtContent     | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether content of StructuredDocumentTag is updated before saving. |
-| ZipOutput            | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether to zip output or not. The default value is false. |
+| [JsonConverter       | <span style="color:SteelBlue;">int</span>     | Gets or sets the value determining how 3D effects are rendered. |
 | PrettyFormat         | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether to use pretty formats output. |
 
 
@@ -921,19 +777,7 @@ The following properties are defined:
 
 | Property             | Type                                          | Description |
 |----------------------|-----------------------------------------------|-------------|
-| AllowEmbeddingPostScriptFonts | <span style="color:SteelBlue;">bool</span>    | Gets or sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is false.. |
-| CustomTimeZoneInfoData | [TimeZoneInfoData](/words/spec/document#timezoneinfodata) | Gets or sets CustomTimeZoneInfo. |
-| Dml3DEffectsRenderingMode | [Dml3DEffectsRenderingModeEnum](#saveoptionsdata.dml3deffectsrenderingmodeenum) | Gets or sets the value determining how 3D effects are rendered. |
-| DmlEffectsRenderingMode | <span style="color:SteelBlue;">string</span>  | Gets or sets the value determining how DrawingML effects are rendered. { Simplified | None | Fine }. |
-| DmlRenderingMode     | <span style="color:SteelBlue;">string</span>  | Gets or sets the option that controls how DrawingML shapes are rendered. |
-| FileName             | <span style="color:SteelBlue;">string</span>  | Gets or sets the name of destination file. |
-| SaveFormat           | <span style="color:SteelBlue;">string</span>  | Gets or sets the format of save. |
-| UpdateCreatedTimeProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value determining whether the Aspose.Words.Properties.BuiltInDocumentProperties.CreatedTime property is updated before saving. Default value is false. |
-| UpdateFields         | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether fields should be updated before saving the document to a fixed page format. The default value is true. |
-| UpdateLastPrintedProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether the Aspose.Words.Properties.BuiltInDocumentProperties.LastPrinted property is updated before saving. |
-| UpdateLastSavedTimeProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether the Aspose.Words.Properties.BuiltInDocumentProperties.LastSavedTime property is updated before saving. |
-| UpdateSdtContent     | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether content of StructuredDocumentTag is updated before saving. |
-| ZipOutput            | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether to zip output or not. The default value is false. |
+| [JsonConverter       | <span style="color:SteelBlue;">int</span>     | Gets or sets the value determining how 3D effects are rendered. |
 | ColorMode            | <span style="color:SteelBlue;">string</span>  | Gets or sets the value determining how colors are rendered. { Normal | Grayscale}. |
 | JpegQuality          | <span style="color:SteelBlue;">int</span>     | Gets or sets the quality of the JPEG images inside PDF document. |
 | MetafileRenderingOptions | [MetafileRenderingOptionsData](#metafilerenderingoptionsdata) | Gets or sets the metafile rendering options. |
@@ -945,6 +789,19 @@ The following properties are defined:
 | ResourcesFolderAlias | <span style="color:SteelBlue;">string</span>  | Gets or sets the name of the folder used to construct image URIs written into an fixed page Xaml document. The default value is null. |
 
 
+## XamlFlowPackSaveOptionsData
+
+Represents a container class for xamlflow_pack save options.
+
+The following properties are defined:
+
+| Property             | Type                                          | Description |
+|----------------------|-----------------------------------------------|-------------|
+| [JsonConverter       | <span style="color:SteelBlue;">int</span>     | Gets or sets the value determining how 3D effects are rendered. |
+| ImagesFolder         | <span style="color:SteelBlue;">string</span>  | Gets or sets the physical folder where images are saved when exporting. |
+| ImagesFolderAlias    | <span style="color:SteelBlue;">string</span>  | Gets or sets the name of the folder used to construct image URIs. |
+
+
 ## XamlFlowSaveOptionsData
 
 Represents a container class for xaml flow save options.
@@ -953,19 +810,7 @@ The following properties are defined:
 
 | Property             | Type                                          | Description |
 |----------------------|-----------------------------------------------|-------------|
-| AllowEmbeddingPostScriptFonts | <span style="color:SteelBlue;">bool</span>    | Gets or sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is false.. |
-| CustomTimeZoneInfoData | [TimeZoneInfoData](/words/spec/document#timezoneinfodata) | Gets or sets CustomTimeZoneInfo. |
-| Dml3DEffectsRenderingMode | [Dml3DEffectsRenderingModeEnum](#saveoptionsdata.dml3deffectsrenderingmodeenum) | Gets or sets the value determining how 3D effects are rendered. |
-| DmlEffectsRenderingMode | <span style="color:SteelBlue;">string</span>  | Gets or sets the value determining how DrawingML effects are rendered. { Simplified | None | Fine }. |
-| DmlRenderingMode     | <span style="color:SteelBlue;">string</span>  | Gets or sets the option that controls how DrawingML shapes are rendered. |
-| FileName             | <span style="color:SteelBlue;">string</span>  | Gets or sets the name of destination file. |
-| SaveFormat           | <span style="color:SteelBlue;">string</span>  | Gets or sets the format of save. |
-| UpdateCreatedTimeProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value determining whether the Aspose.Words.Properties.BuiltInDocumentProperties.CreatedTime property is updated before saving. Default value is false. |
-| UpdateFields         | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether fields should be updated before saving the document to a fixed page format. The default value is true. |
-| UpdateLastPrintedProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether the Aspose.Words.Properties.BuiltInDocumentProperties.LastPrinted property is updated before saving. |
-| UpdateLastSavedTimeProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether the Aspose.Words.Properties.BuiltInDocumentProperties.LastSavedTime property is updated before saving. |
-| UpdateSdtContent     | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether content of StructuredDocumentTag is updated before saving. |
-| ZipOutput            | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether to zip output or not. The default value is false. |
+| [JsonConverter       | <span style="color:SteelBlue;">int</span>     | Gets or sets the value determining how 3D effects are rendered. |
 | ImagesFolder         | <span style="color:SteelBlue;">string</span>  | Gets or sets the physical folder where images are saved when exporting. |
 | ImagesFolderAlias    | <span style="color:SteelBlue;">string</span>  | Gets or sets the name of the folder used to construct image URIs. |
 
@@ -978,19 +823,7 @@ The following properties are defined:
 
 | Property             | Type                                          | Description |
 |----------------------|-----------------------------------------------|-------------|
-| AllowEmbeddingPostScriptFonts | <span style="color:SteelBlue;">bool</span>    | Gets or sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is false.. |
-| CustomTimeZoneInfoData | [TimeZoneInfoData](/words/spec/document#timezoneinfodata) | Gets or sets CustomTimeZoneInfo. |
-| Dml3DEffectsRenderingMode | [Dml3DEffectsRenderingModeEnum](#saveoptionsdata.dml3deffectsrenderingmodeenum) | Gets or sets the value determining how 3D effects are rendered. |
-| DmlEffectsRenderingMode | <span style="color:SteelBlue;">string</span>  | Gets or sets the value determining how DrawingML effects are rendered. { Simplified | None | Fine }. |
-| DmlRenderingMode     | <span style="color:SteelBlue;">string</span>  | Gets or sets the option that controls how DrawingML shapes are rendered. |
-| FileName             | <span style="color:SteelBlue;">string</span>  | Gets or sets the name of destination file. |
-| SaveFormat           | <span style="color:SteelBlue;">string</span>  | Gets or sets the format of save. |
-| UpdateCreatedTimeProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value determining whether the Aspose.Words.Properties.BuiltInDocumentProperties.CreatedTime property is updated before saving. Default value is false. |
-| UpdateFields         | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether fields should be updated before saving the document to a fixed page format. The default value is true. |
-| UpdateLastPrintedProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether the Aspose.Words.Properties.BuiltInDocumentProperties.LastPrinted property is updated before saving. |
-| UpdateLastSavedTimeProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether the Aspose.Words.Properties.BuiltInDocumentProperties.LastSavedTime property is updated before saving. |
-| UpdateSdtContent     | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether content of StructuredDocumentTag is updated before saving. |
-| ZipOutput            | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether to zip output or not. The default value is false. |
+| [JsonConverter       | <span style="color:SteelBlue;">int</span>     | Gets or sets the value determining how 3D effects are rendered. |
 | ColorMode            | <span style="color:SteelBlue;">string</span>  | Gets or sets the value determining how colors are rendered. { Normal | Grayscale}. |
 | JpegQuality          | <span style="color:SteelBlue;">int</span>     | Gets or sets the quality of the JPEG images inside PDF document. |
 | MetafileRenderingOptions | [MetafileRenderingOptionsData](#metafilerenderingoptionsdata) | Gets or sets the metafile rendering options. |
@@ -1031,24 +864,6 @@ The following properties are defined:
 | DownsampleImages     | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether images should be downsampled. |
 | Resolution           | <span style="color:SteelBlue;">int</span>     | Gets or sets the resolution in pixels per inch which the images should be downsampled to. |
 | ResolutionThreshold  | <span style="color:SteelBlue;">int</span>     | Gets or sets the threshold resolution in pixels per inch. If resolution of an image in the document is less than threshold value, the downsampling algorithm will not be applied. A value of 0 means the threshold check is not used and all images that can be reduced in size are downsampled. |
-
-
-## GraphicsQualityOptionsData
-
-Represents a allows to specify additional System.Drawing.Graphics quality options.
-
-This class is used in [ImageSaveOptionsData](#imagesaveoptionsdata).
-
-The following properties are defined:
-
-| Property             | Type                                          | Description |
-|----------------------|-----------------------------------------------|-------------|
-| CompositingMode      | [CompositingModeEnum](#graphicsqualityoptionsdata.compositingmodeenum) | Gets or sets the value, that specifies how composited images are drawn to this Graphics. |
-| CompositingQuality   | [CompositingQualityEnum](#graphicsqualityoptionsdata.compositingqualityenum) | Gets or sets the rendering quality of composited images drawn to this Graphics. |
-| InterpolationMode    | [InterpolationModeEnum](#graphicsqualityoptionsdata.interpolationmodeenum) | Gets or sets the interpolation mode associated with this Graphics. |
-| SmoothingMode        | [SmoothingModeEnum](#graphicsqualityoptionsdata.smoothingmodeenum) | Gets or sets the rendering quality for this Graphics. |
-| StringFormat         | [StringFormatData](#stringformatdata)         | Gets or sets text layout information (such as alignment, orientation and tab stops) display manipulations (such as ellipsis insertion and national digit substitution) and OpenType features. |
-| TextRenderingHint    | [TextRenderingHintEnum](#graphicsqualityoptionsdata.textrenderinghintenum) | Gets or sets the rendering mode for text associated with this Graphics. |
 
 
 ## MetafileRenderingOptionsData
@@ -1119,48 +934,6 @@ The following properties are defined:
 | UserPassword         | <span style="color:SteelBlue;">string</span>  | Gets or sets the user password required for opening the encrypted PDF document. |
 
 
-## StringFormatData
-
-Represents a allows to specify System.Drawing.StringFormat options.
-
-This class is used in [GraphicsQualityOptionsData](#graphicsqualityoptionsdata).
-
-The following properties are defined:
-
-| Property             | Type                                          | Description |
-|----------------------|-----------------------------------------------|-------------|
-| Alignment            | [AlignmentEnum](#markdownsaveoptionsdata.tablecontentalignmentenum) | Gets or sets horizontal alignment of the string. |
-| FormatFlags          | [FormatFlagsEnum](/words/spec/document#stringformatdata.formatflagsenum) | Gets or sets the System.Drawing.StringFormatFlags enumeration, that contains formatting information. |
-| HotkeyPrefix         | [HotkeyPrefixEnum](/words/spec/document#stringformatdata.hotkeyprefixenum) | Gets or sets the System.Drawing.Text.HotkeyPrefix object for this System.Drawing.StringFormat object. |
-| LineAlignment        | [LineAlignmentEnum](/words/spec/document#stringformatdata.linealignmentenum) | Gets or sets the vertical alignment of the string. |
-| Trimming             | [TrimmingEnum](/words/spec/document#stringformatdata.trimmingenum) | Gets or sets the System.Drawing.StringTrimming enumeration for this System.Drawing.StringFormat object. |
-
-
-## GraphicsQualityOptionsData.CompositingModeEnum
-
-The following values are defined: SourceOver, SourceCopy.
-
-
-## GraphicsQualityOptionsData.CompositingQualityEnum
-
-The following values are defined: Default, HighSpeed, HighQuality, GammaCorrected, AssumeLinear, Invalid.
-
-
-## GraphicsQualityOptionsData.InterpolationModeEnum
-
-The following values are defined: Default, Low, High, Bilinear, Bicubic, NearestNeighbor, HighQualityBilinear, HighQualityBicubic, Invalid.
-
-
-## GraphicsQualityOptionsData.SmoothingModeEnum
-
-The following values are defined: Default, HighSpeed, HighQuality, None, AntiAlias, Invalid.
-
-
-## GraphicsQualityOptionsData.TextRenderingHintEnum
-
-The following values are defined: SystemDefault, SingleBitPerPixelGridFit, SingleBitPerPixel, AntiAliasGridFit, AntiAlias, ClearTypeGridFit.
-
-
 ## HtmlSaveOptionsData.HtmlVersionEnum
 
 The following values are defined: Xhtml, Html5.
@@ -1186,22 +959,7 @@ The following values are defined: Auto, Left, Center, Right.
 The following values are defined: Centimeters, Inches.
 
 
-## OoxmlSaveOptionsData.CompressionLevelEnum
-
-The following values are defined: Normal, Maximum, Fast, SuperFast.
-
-
 ## PdfSaveOptionsData.HeaderFooterBookmarksExportModeEnum
 
 The following values are defined: None, First, All.
-
-
-## SaveOptionsData.Dml3DEffectsRenderingModeEnum
-
-The following values are defined: Basic, Advanced.
-
-
-## TxtSaveOptionsBaseData.ExportHeadersFootersModeEnum
-
-The following values are defined: None, PrimaryOnly, AllAtEnd.
 

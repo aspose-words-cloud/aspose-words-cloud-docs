@@ -1,11 +1,11 @@
----
+﻿---
 title: "DocumentClassification"
 second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /spec/documentclassification/
 description: "DocumentClassification"
 notoc: true
-weight: 150
+weight: 160
 ---
 
 
@@ -72,7 +72,7 @@ Represents a request model for [WordsApi.ClassifyDocumentOnline()](/words/classi
 An object of the **ClassifyDocumentOnlineRequest** class is created by the following constructor methods:
 
 - ClassifyDocumentOnlineRequest()
-- ClassifyDocumentOnlineRequest(<span style="color:SteelBlue;">Stream</span> ***document***, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *bestClassesCount*, <span style="color:SteelBlue;">string</span> *taxonomy*)
+- ClassifyDocumentOnlineRequest(<span style="color:SteelBlue;">Stream</span> ***document***, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *encryptedPassword*, <span style="color:SteelBlue;">string</span> *bestClassesCount*, <span style="color:SteelBlue;">string</span> *taxonomy*)
 
 Each of those arguments initializes the corresponding self-titled property:
 
@@ -80,7 +80,8 @@ Each of those arguments initializes the corresponding self-titled property:
 |----------------------|----------------------|-----------------------------------------------|-------------|
 | ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | The document. |
 | *loadEncoding*       | LoadEncoding         | <span style="color:SteelBlue;">string</span>  | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
-| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password for opening an encrypted document. |
+| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| *encryptedPassword*  | EncryptedPassword    | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
 | *bestClassesCount*   | BestClassesCount     | <span style="color:SteelBlue;">string</span>  | The number of the best classes to return. |
 | *taxonomy*           | Taxonomy             | <span style="color:SteelBlue;">string</span>  | The taxonomy to use. |
 
@@ -93,7 +94,7 @@ Represents a request model for [WordsApi.ClassifyDocument()](/words/classificati
 An object of the **ClassifyDocumentRequest** class is created by the following constructor methods:
 
 - ClassifyDocumentRequest()
-- ClassifyDocumentRequest(<span style="color:SteelBlue;">string</span> ***name***, <span style="color:SteelBlue;">string</span> *folder*, <span style="color:SteelBlue;">string</span> *storage*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *bestClassesCount*, <span style="color:SteelBlue;">string</span> *taxonomy*)
+- ClassifyDocumentRequest(<span style="color:SteelBlue;">string</span> ***name***, <span style="color:SteelBlue;">string</span> *folder*, <span style="color:SteelBlue;">string</span> *storage*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *encryptedPassword*, <span style="color:SteelBlue;">string</span> *bestClassesCount*, <span style="color:SteelBlue;">string</span> *taxonomy*)
 
 Each of those arguments initializes the corresponding self-titled property:
 
@@ -103,7 +104,8 @@ Each of those arguments initializes the corresponding self-titled property:
 | *folder*             | Folder               | <span style="color:SteelBlue;">string</span>  | Original document folder. |
 | *storage*            | Storage              | <span style="color:SteelBlue;">string</span>  | Original document storage. |
 | *loadEncoding*       | LoadEncoding         | <span style="color:SteelBlue;">string</span>  | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
-| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password for opening an encrypted document. |
+| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| *encryptedPassword*  | EncryptedPassword    | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
 | *bestClassesCount*   | BestClassesCount     | <span style="color:SteelBlue;">string</span>  | The number of the best classes to return. |
 | *taxonomy*           | Taxonomy             | <span style="color:SteelBlue;">string</span>  | The taxonomy to use. |
 

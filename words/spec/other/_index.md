@@ -1,12 +1,26 @@
----
+﻿---
 title: "Other"
 second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /spec/other/
 description: "Other"
 notoc: true
-weight: 330
+weight: 340
 ---
+
+
+## InfoAdditionalItem
+
+Represents a info additional item.
+
+This class is used in [InfoResponse](#inforesponse).
+
+The following properties are defined:
+
+| Property             | Type                                          | Description |
+|----------------------|-----------------------------------------------|-------------|
+| Key                  | <span style="color:SteelBlue;">string</span>  | Gets or sets Key. |
+| Value                | <span style="color:SteelBlue;">string</span>  | Gets or sets Value. |
 
 
 ## IRequestModel
@@ -39,6 +53,22 @@ Represents a request with format of output document.
 Represents a request which can use custom fonts.
 
 
+## InfoResponse
+
+Represents a response with API info.
+
+This class is inherited from [WordsResponse](/words/spec/style#wordsresponse) and used in [WordsApi](/words/spec/wordsapi#wordsapi).
+
+The following properties are defined:
+
+| Property             | Type                                          | Description |
+|----------------------|-----------------------------------------------|-------------|
+| RequestId            | <span style="color:SteelBlue;">string</span>  | Gets or sets the request Id. |
+| AdditionalInfo       | List&lt;[InfoAdditionalItem](#infoadditionalitem)&gt; | Gets or sets additional info. |
+| Name                 | <span style="color:SteelBlue;">string</span>  | Gets or sets application name. |
+| Version              | <span style="color:SteelBlue;">string</span>  | Gets or sets version. |
+
+
 ## IPutExecuteRequest
 
 Represents a interface to specify template and body for putexecute operations.
@@ -47,6 +77,31 @@ Represents a interface to specify template and body for putexecute operations.
 ## IWordDocumentRequest
 
 Represents a request for operation with word document.
+
+
+## PublicKeyResponse
+
+Represents a rEST response for RSA public key info.
+
+This class is inherited from [WordsResponse](/words/spec/style#wordsresponse) and used in [WordsApi](/words/spec/wordsapi#wordsapi).
+
+The following properties are defined:
+
+| Property             | Type                                          | Description |
+|----------------------|-----------------------------------------------|-------------|
+| RequestId            | <span style="color:SteelBlue;">string</span>  | Gets or sets the request Id. |
+| Exponent             | <span style="color:SteelBlue;">string</span>  | Gets or sets RSA key exponent as Base64 string. |
+| Modulus              | <span style="color:SteelBlue;">string</span>  | Gets or sets RSA key modulus as Base64 string. |
+
+
+## GetInfoRequest
+
+Represents a request model for [WordsApi](/words/spec/wordsapi#wordsapi) operation.
+
+
+## GetPublicKeyRequest
+
+Represents a request model for [WordsApi](/words/spec/wordsapi#wordsapi) operation.
 
 
 ## HeaderFooterNodePathBuilder

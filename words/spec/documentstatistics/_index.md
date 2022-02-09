@@ -1,11 +1,11 @@
----
+﻿---
 title: "DocumentStatistics"
 second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /spec/documentstatistics/
 description: "DocumentStatistics"
 notoc: true
-weight: 200
+weight: 210
 ---
 
 
@@ -101,7 +101,7 @@ Represents a request model for [WordsApi.GetDocumentStatisticsOnline()](/words/d
 An object of the **GetDocumentStatisticsOnlineRequest** class is created by the following constructor methods:
 
 - GetDocumentStatisticsOnlineRequest()
-- GetDocumentStatisticsOnlineRequest(<span style="color:SteelBlue;">Stream</span> ***document***, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">bool?</span> *includeComments*, <span style="color:SteelBlue;">bool?</span> *includeFootnotes*, <span style="color:SteelBlue;">bool?</span> *includeTextInShapes*)
+- GetDocumentStatisticsOnlineRequest(<span style="color:SteelBlue;">Stream</span> ***document***, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *encryptedPassword*, <span style="color:SteelBlue;">bool?</span> *includeComments*, <span style="color:SteelBlue;">bool?</span> *includeFootnotes*, <span style="color:SteelBlue;">bool?</span> *includeTextInShapes*)
 
 Each of those arguments initializes the corresponding self-titled property:
 
@@ -109,7 +109,8 @@ Each of those arguments initializes the corresponding self-titled property:
 |----------------------|----------------------|-----------------------------------------------|-------------|
 | ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | The document. |
 | *loadEncoding*       | LoadEncoding         | <span style="color:SteelBlue;">string</span>  | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
-| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password for opening an encrypted document. |
+| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| *encryptedPassword*  | EncryptedPassword    | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
 | *includeComments*    | IncludeComments      | <span style="color:SteelBlue;">bool?</span>   | The flag indicating whether to include comments from the WordCount. The default value is "false". |
 | *includeFootnotes*   | IncludeFootnotes     | <span style="color:SteelBlue;">bool?</span>   | The flag indicating whether to include footnotes from the WordCount. The default value is "false". |
 | *includeTextInShapes* | IncludeTextInShapes  | <span style="color:SteelBlue;">bool?</span>   | The flag indicating whether to include shape's text from the WordCount. The default value is "false". |
@@ -123,7 +124,7 @@ Represents a request model for [WordsApi.GetDocumentStatistics()](/words/documen
 An object of the **GetDocumentStatisticsRequest** class is created by the following constructor methods:
 
 - GetDocumentStatisticsRequest()
-- GetDocumentStatisticsRequest(<span style="color:SteelBlue;">string</span> ***name***, <span style="color:SteelBlue;">string</span> *folder*, <span style="color:SteelBlue;">string</span> *storage*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">bool?</span> *includeComments*, <span style="color:SteelBlue;">bool?</span> *includeFootnotes*, <span style="color:SteelBlue;">bool?</span> *includeTextInShapes*)
+- GetDocumentStatisticsRequest(<span style="color:SteelBlue;">string</span> ***name***, <span style="color:SteelBlue;">string</span> *folder*, <span style="color:SteelBlue;">string</span> *storage*, <span style="color:SteelBlue;">string</span> *loadEncoding*, <span style="color:SteelBlue;">string</span> *password*, <span style="color:SteelBlue;">string</span> *encryptedPassword*, <span style="color:SteelBlue;">bool?</span> *includeComments*, <span style="color:SteelBlue;">bool?</span> *includeFootnotes*, <span style="color:SteelBlue;">bool?</span> *includeTextInShapes*)
 
 Each of those arguments initializes the corresponding self-titled property:
 
@@ -133,7 +134,8 @@ Each of those arguments initializes the corresponding self-titled property:
 | *folder*             | Folder               | <span style="color:SteelBlue;">string</span>  | Original document folder. |
 | *storage*            | Storage              | <span style="color:SteelBlue;">string</span>  | Original document storage. |
 | *loadEncoding*       | LoadEncoding         | <span style="color:SteelBlue;">string</span>  | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
-| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password for opening an encrypted document. |
+| *password*           | Password             | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| *encryptedPassword*  | EncryptedPassword    | <span style="color:SteelBlue;">string</span>  | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
 | *includeComments*    | IncludeComments      | <span style="color:SteelBlue;">bool?</span>   | The flag indicating whether to include comments from the WordCount. The default value is "false". |
 | *includeFootnotes*   | IncludeFootnotes     | <span style="color:SteelBlue;">bool?</span>   | The flag indicating whether to include footnotes from the WordCount. The default value is "false". |
 | *includeTextInShapes* | IncludeTextInShapes  | <span style="color:SteelBlue;">bool?</span>   | The flag indicating whether to include shape's text from the WordCount. The default value is "false". |
