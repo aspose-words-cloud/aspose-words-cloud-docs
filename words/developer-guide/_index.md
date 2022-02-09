@@ -44,7 +44,6 @@ weight: 20
         </ul>
     </div>
 </div>
-
 {{< /tab >}}
 {{< tab tabNum="2" >}}
 
@@ -55,7 +54,6 @@ weight: 20
     <li><a href="/words/convert/document-to-tiff/">Convert a Document to TIFF with Detailed Settings</a></li>    
     <li><a href="/words/convert/conversion-settings/">Convert a Document to Destination Format with Detailed Settings and Save Result to Storage</a></li>
 </ul>
-
 {{< /tab >}}
 {{< tab tabNum="3" >}}
 
@@ -66,7 +64,6 @@ weight: 20
     <li><a href="/words/sections/update/">Update the Page Setup of a Section</a></li>
     <li><a href="/words/insert-page-numbers/">Insert Page Numbers in a Document</a></li>
 </ul>
-
 {{< /tab >}}
 {{< tab tabNum="4" >}}
 <div class="row">
@@ -108,7 +105,6 @@ weight: 20
         </ul>
     </div>
 </div>
-
 {{< /tab >}}
 {{< tab tabNum="5" >}}
 
@@ -120,7 +116,6 @@ weight: 20
     <li><a href="/words/tables/add-cell/">Add a Cell to Table Row</a></li>
     <li><a href="/words/tables/update-cell-format/">Update a Table Cell Format</a></li>
 </ul>
-
 {{< /tab >}}
 {{< tab tabNum="6" >}}
 
@@ -139,7 +134,6 @@ weight: 20
         <li><a href="/words/mail-merge/insert-images/">Insert Images During Mail Merge</a></li>
     </ul>
 </div>
-
 {{< /tab >}}
 {{< tab tabNum="7" >}}
 
@@ -152,7 +146,6 @@ weight: 20
     <li><a href="/words/range/">Working with Range</a></li>
     <li><a href="/words/documents/save-webpage/">Save a Webpage in a Word Document</a></li>
 </ul>
-
 {{< /tab >}}
 {{< tab tabNum="8" >}}
     
@@ -163,6 +156,5 @@ weight: 20
     <li><a href="/words/plugins/dynamics-crm/">Aspose.Words Cloud for Dynamics CRM</a></li>
     <li><a href="/words/plugins/drupal/">Aspose.Words Cloud for Drupal</a></li>    
 </ul>
-    
-{{< /tab >}}
+    {{< /tab >}}
 {{< /tabs >}}   

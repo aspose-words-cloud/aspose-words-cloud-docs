@@ -69,7 +69,7 @@ The batch request structure could be conditionally described by the following ta
   </tr>
 </table>
 
-Note, that inner requests, as opposed to ordinary requests, should not have the "https://api.aspose.cloud/v4.0/words/" prefix after the HTTP verbs, which are **GET** and **PUT** in the example. The server will reply with a multipart response containing data for every inner request. The third request will contain the resulting PDF document.
+Note, that inner requests, as opposed to ordinary requests, should not have the https://api.aspose.cloud/v4.0/words/ prefix after the HTTP verbs, which are **GET** and **PUT** in the example. The server will reply with a multipart response containing data for every inner request. The third request will contain the resulting PDF document.
 
 {{% alert style="info" %}}
 

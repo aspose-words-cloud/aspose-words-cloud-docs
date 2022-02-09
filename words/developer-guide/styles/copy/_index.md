@@ -18,108 +18,15 @@ The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Styles/Cop
 You can use **cURL** command-line tool to access Aspose.Words web services easily. The following example shows how to make calls to Cloud API with cURL.
 
 {{< nosnippet >}}
-{{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
+{{< tabs tabTotal="2" tabID="1" tabName1="cURL Request" tabName2="Postman Request" >}}
 {{< tab tabNum="1" >}}
-
-```bash
-# cURL example to get a list of sections
-curl -X POST "https://api.aspose.cloud/v4.0/words/TestCopyStyle.docx/styles/copy?storage=First%20Storage" 
-
--H  "accept: application/json" 
-
--H  "Authorization: Bearer  
-
--H  "Content-Type: application/json" -d "{\"StyleName\":\"Heading 1\"}"
-```
-<p style="margin-top:-32px;font-size:80%;font-style:italic">To get a JWT token use this <a href="/words/getting-started/quickstart/">instruction</a></p>
-
+	{{< gist "aspose-words-cloud-gists" "8a52e648cd36d3e0a7402727561073b6" "CopyStyleOnline.curl" >}}
+	<p style="margin-top:-32px;font-size:80%;font-style:italic">To get a JWT token use this <a href="/words/getting-started/quickstart/">instruction</a></p>
 {{< /tab >}}
 {{< tab tabNum="2" >}}
-
-```json
-{
-  "Style": {
-    "Font": {
-      "AllCaps": false,
-      "Bidi": false,
-      "Bold": true,
-      "BoldBi": true,
-      "Border": {
-        "Color": {
-          "Web": "",
-          "Alpha": 0
-        },
-        "DistanceFromText": 0,
-        "LineStyle": "None",
-        "LineWidth": 0,
-        "Shadow": false
-      },
-      "Color": {
-        "Web": "",
-        "Alpha": 0
-      },
-      "ComplexScript": false,
-      "DoubleStrikeThrough": false,
-      "Emboss": false,
-      "Engrave": false,
-      "Hidden": false,
-      "HighlightColor": {
-        "Web": "",
-        "Alpha": 0
-      },
-      "Italic": false,
-      "ItalicBi": false,
-      "Kerning": 16,
-      "LocaleId": 1033,
-      "LocaleIdBi": 1025,
-      "LocaleIdFarEast": 1033,
-      "Name": "Cambria",
-      "NameAscii": "Cambria",
-      "NameBi": "Times New Roman",
-      "NameFarEast": "Times New Roman",
-      "NameOther": "Cambria",
-      "NoProofing": false,
-      "Outline": false,
-      "Position": 0,
-      "Scaling": 100,
-      "Shadow": false,
-      "Size": 16,
-      "SizeBi": 16,
-      "SmallCaps": false,
-      "Spacing": 0,
-      "StrikeThrough": false,
-      "StyleIdentifier": "DefaultParagraphFont",
-      "StyleName": "Default Paragraph Font",
-      "Subscript": false,
-      "Superscript": false,
-      "TextEffect": "None",
-      "Underline": "None",
-      "UnderlineColor": {
-        "Web": "",
-        "Alpha": 0
-      }
-    },
-    "BuiltIn": false,
-    "NextParagraphStyleName": "Normal",
-    "BaseStyleName": "Normal",
-    "IsQuickStyle": true,
-    "LinkedStyleName": "Heading 1 Char_1",
-    "Type": "Paragraph",
-    "IsHeading": false,
-    "StyleIdentifier": "User",
-    "Name": "Heading 1_1",
-    "link": {
-      "Href": "https://api.aspose.cloud/v4.0/words/TestCopyStyle.docx/styles/Heading 1_1",
-      "Rel": "self"
-    }
-  },
-  "RequestId": "Root=1-5ee50c07-f937b2b8a85579585f700c2c"
-}
-```
-
+	{{< gist "aspose-words-cloud-gists" "894866974db18d27af2a7f67dd929b6f" "CopyStyleOnline.json" >}}
+	<p style="margin-top:-32px;font-size:80%;font-style:italic">To get a JWT token use this <a href="/words/getting-started/quickstart/">instruction</a></p>
 {{< /tab >}}
-{{< /tabs >}}
-{{< /nosnippet >}}
 
 ## Cloud SDK Family
 
@@ -128,6 +35,40 @@ Using an SDK is the best way to speed up the development. An SDK takes care of l
 The following code examples demonstrate how to make calls to Aspose.Words web services using various SDKs:
 
 {{< nosnippet >}}
-{{< tabs tabTotal="0" tabID="4" >}}
+{{< tabs tabTotal="11" tabID="1" tabName1="Python" tabName2="Java" tabName3="Node.js" tabName4="C#" tabName5="PHP" tabName6="C++" tabName7="Go" tabName8="Ruby" tabName9="Swift" tabName10="Dart" tabName11="Curl" >}}
+{{< tab tabNum="1" >}}
+{{< gist "aspose-words-cloud-gists" "e26813ced70692c544820cd8011ee7e0" "CopyStyleOnline.py" >}}
+{{< /tab >}}
+{{< tab tabNum="2" >}}
+{{< gist "aspose-words-cloud-gists" "caede439bfd2e57c3010befe504faff4" "CopyStyleOnline.java" >}}
+{{< /tab >}}
+{{< tab tabNum="3" >}}
+{{< gist "aspose-words-cloud-gists" "a9510e4b51613f1138e7c1ec09634c4a" "CopyStyleOnline.js" >}}
+{{< /tab >}}
+{{< tab tabNum="4" >}}
+{{< gist "aspose-words-cloud-gists" "374e1e3dd4bca8f696f29d913645f549" "CopyStyleOnline.cs" >}}
+{{< /tab >}}
+{{< tab tabNum="5" >}}
+{{< gist "aspose-words-cloud-gists" "e2a72445b96362dc0117f06ab54bb94a" "CopyStyleOnline.php" >}}
+{{< /tab >}}
+{{< tab tabNum="6" >}}
+{{< gist "aspose-words-cloud-gists" "49aa5151a094849179bae8672c887a0e" "CopyStyleOnline.cpp" >}}
+{{< /tab >}}
+{{< tab tabNum="7" >}}
+{{< gist "aspose-words-cloud-gists" "625ca80adffd779e8f6e3611551e14d5" "config.json" >}}
+{{< gist "aspose-words-cloud-gists" "625ca80adffd779e8f6e3611551e14d5" "CopyStyleOnline.go" >}}
+{{< /tab >}}
+{{< tab tabNum="8" >}}
+{{< gist "aspose-words-cloud-gists" "339f3835a4c0a536c81ec941de29baf7" "CopyStyleOnline.rb" >}}
+{{< /tab >}}
+{{< tab tabNum="9" >}}
+{{< gist "aspose-words-cloud-gists" "790dbd2edd5d36f170732366f52cac4c" "CopyStyleOnline.swift" >}}
+{{< /tab >}}
+{{< tab tabNum="10" >}}
+{{< gist "aspose-words-cloud-gists" "6aae628cf2b878b78fea177c3171c6bf" "CopyStyleOnline.dart" >}}
+{{< /tab >}}
+{{< tab tabNum="11" >}}
+{{< gist "aspose-words-cloud-gists" "8a52e648cd36d3e0a7402727561073b6" "CopyStyleOnline.curl" >}}
+{{< /tab >}}
 {{< /tabs >}}
 {{< /nosnippet >}}
