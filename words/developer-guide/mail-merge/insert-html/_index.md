@@ -16,7 +16,7 @@ Please escape HTML characters in data source string and use "format"="html" attr
 
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/MailMerge/ExecuteMailMerge) lets you call the REST API directly from the browser.
 
-You can use **cURL** command-line tool to access Aspose.Words web services easily. The following example shows how to make calls to Cloud API with cURL. Feel free to download and explore sample input [template.doc](template.doc) and [TestExecuteMailMergeData.xml](TestExecuteMailMergeData.xml) files designed to act as a demonstration and let you figure out the details quickly. The output document would be as follows: [TestPostDocumentExecuteMailMerge.docx](TestPostDocumentExecuteMailMerge.docx).
+You can use **cURL** and **Postman** to access Aspose.Words Cloud API. The following examples demonstate how to do it. Please refer to the <a href="/words/getting-started/quickstart/">instructions</a> to get a 'JWT_TOKEN' for authorization. Feel free to download and explore sample input [template.doc](template.doc) and [TestExecuteMailMergeData.xml](TestExecuteMailMergeData.xml) files designed to act as a demonstration and let you figure out the details quickly. The output document would be as follows: [TestPostDocumentExecuteMailMerge.docx](TestPostDocumentExecuteMailMerge.docx).
 
 {{< nosnippet >}}
 {{< tabs tabTotal="3" tabID="1" tabName1="cURL Request" tabName2="Postman Request" tabName3="Server Response" >}}

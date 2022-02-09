@@ -43,7 +43,7 @@ The following URIs are used to address REST resources:
 
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/DrawingObjects/GetDocumentDrawingObjectByIndex) defines a publicly accessible programming interface and lets you carry out REST interactions directly from a web browser. 
 
-You can use **cURL** command-line tool to access Aspose.Words web services easily. The following example shows how to make calls to Cloud API with cURL. Feel free to download and explore sample input [test_multi_pages.docx](test_multi_pages.docx) and output [drawingObject.png](drawingObject.png) files designed to act as a demonstration and let you figure out the details quickly.
+You can use **cURL** and **Postman** to access Aspose.Words Cloud API. The following examples demonstate how to do it. Please refer to the <a href="/words/getting-started/quickstart/">instructions</a> to get a 'JWT_TOKEN' for authorization. Feel free to download and explore sample input [test_multi_pages.docx](test_multi_pages.docx) and output [drawingObject.png](drawingObject.png) files designed to act as a demonstration and let you figure out the details quickly.
 
 {{< nosnippet >}}
 {{< tabs tabTotal="3" tabID="2" tabName1="cURL Request" tabName2="Postman Request" tabName3="Server Response" >}}

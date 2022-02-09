@@ -40,7 +40,7 @@ Both **JSON** and **XML** data formats are supported. Choosing the appropriate d
 
 The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/MailMerge/ExecuteMailMergeOnline) defines a publicly accessible programming interface and lets you carry out REST interactions directly from a web browser.
 
-You can use **cURL** command-line tool to access Aspose.Words web services easily. The following example shows how to make calls to Cloud API with cURL.
+You can use **cURL** and **Postman** to access Aspose.Words Cloud API. The following examples demonstate how to do it. Please refer to the <a href="/words/getting-started/quickstart/">instructions</a> to get a 'JWT_TOKEN' for authorization.
 
 **Case 1**: MailMerge Template
 

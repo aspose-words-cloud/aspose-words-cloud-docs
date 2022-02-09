@@ -68,7 +68,7 @@ The important properties are described below:
 |Underline|Underline|Specifies the type of underline applied to the font.|
 |UnderlineColor|Color|Specifies the color of the underline applied to the font.|
 
-You can use **cURL** command-line tool to access Aspose.Words web services easily. The following example shows how to make calls to Cloud API with cURL. Feel free to download and explore sample input [SampleWordDocument.docx](SampleWordDocument.docx) and output [ResultWordDocument.docx](ResultWordDocument.docx) files designed to act as a demonstration and let you figure out the details quickly.
+You can use **cURL** and **Postman** to access Aspose.Words Cloud API. The following examples demonstate how to do it. Please refer to the <a href="/words/getting-started/quickstart/">instructions</a> to get a 'JWT_TOKEN' for authorization. Feel free to download and explore sample input [SampleWordDocument.docx](SampleWordDocument.docx) and output [ResultWordDocument.docx](ResultWordDocument.docx) files designed to act as a demonstration and let you figure out the details quickly.
 
 {{< nosnippet >}}
 {{< tabs tabTotal="3" tabID="1" tabName1="cURL Request" tabName2="Postman Request" tabName3="Server Response" >}}

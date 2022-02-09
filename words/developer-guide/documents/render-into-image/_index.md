@@ -45,7 +45,7 @@ The [OpenAPI Specification](https://apireference.aspose.cloud/words/#/Render) le
 - [Renders drawing object to a specified format](https://apireference.aspose.cloud/words/#/Render/RenderDrawingObject).
 - [Renders math object to a specified format](https://apireference.aspose.cloud/words/#/Render/RenderMathObject).
 
-You can use **cURL** command-line tool to access Aspose.Words web services easily. The following example shows how to make calls to Cloud API with cURL.
+You can use **cURL** and **Postman** to access Aspose.Words Cloud API. The following examples demonstate how to do it. Please refer to the <a href="/words/getting-started/quickstart/">instructions</a> to get a 'JWT_TOKEN' for authorization.
 
 **Case 1**: Render a page of the document in BMP format:
 
