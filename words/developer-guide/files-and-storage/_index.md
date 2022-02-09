@@ -22,7 +22,9 @@ You can use cURL command-line utility to test this REST API. The following examp
 {{< tabs tabTotal="1" tabID="1" tabName1="Request" >}}
 {{< tab tabNum="1" >}}
 {{< gist "aspose-words-cloud-gists" "8a52e648cd36d3e0a7402727561073b6" "GetFilesList.curl" >}}
+
 <p style="margin-top:-32px;font-size:80%;font-style:italic">To get a JWT token use this <a href="/words/getting-started/quickstart/">instruction</a></p>
+
 {{< /tab >}}
 {{< /tabs >}}
 {{< /nosnippet >}}
@@ -39,11 +41,15 @@ The following code demonstrates how to upload a file to Cloud Storage with cURL.
 {{< tabs tabTotal="3" tabID="4" tabName1="cURL Request" tabName2="Postman Request" tabName3="Server Response" >}}
 {{< tab tabNum="1" >}}
 {{< gist "aspose-words-cloud-gists" "8a52e648cd36d3e0a7402727561073b6" "UploadFile.curl" >}}
+
 <p style="margin-top:-32px;font-size:80%;font-style:italic">To get a JWT token use this <a href="/words/getting-started/quickstart/">instruction</a></p>
+
 {{< /tab >}}
 {{< tab tabNum="2" >}}
 {{< gist "aspose-words-cloud-gists" "894866974db18d27af2a7f67dd929b6f" "UploadFile.json" >}}
+
 <p style="margin-top:-32px;font-size:80%;font-style:italic">To get a JWT token use this <a href="/words/getting-started/quickstart/">instruction</a></p>
+
 {{< /tab >}}
 {{< tab tabNum="3" >}}
 ```json
@@ -71,7 +77,9 @@ The following code demonstrates how to copy a file to a new location in Cloud St
 {{< tabs tabTotal="1" tabID="8" tabName1="Request" >}}
 {{< tab tabNum="1" >}}
 {{< gist "aspose-words-cloud-gists" "8a52e648cd36d3e0a7402727561073b6" "CopyFile.curl" >}}
+
 <p style="margin-top:-32px;font-size:80%;font-style:italic">To get a JWT token use this <a href="/words/getting-started/quickstart/">instruction</a></p>
+
 {{< /tab >}}
 {{< /tabs >}}
 {{< /nosnippet >}}
@@ -88,7 +96,9 @@ The following code demonstrates how to move a file to a new location in Cloud St
 {{< tabs tabTotal="1" tabID="11" tabName1="Request" >}}
 {{< tab tabNum="1" >}}
 {{< gist "aspose-words-cloud-gists" "8a52e648cd36d3e0a7402727561073b6" "MoveFile.curl" >}}
+
 <p style="margin-top:-32px;font-size:80%;font-style:italic">To get a JWT token use this <a href="/words/getting-started/quickstart/">instruction</a></p>
+
 {{< /tab >}}
 {{< /tabs >}}
 {{< /nosnippet >}}
@@ -105,7 +115,9 @@ The following code demonstrates how to delete a file from Cloud Storage with cUR
 {{< tabs tabTotal="1" tabID="14" tabName1="Request" >}}
 {{< tab tabNum="1" >}}
 {{< gist "aspose-words-cloud-gists" "8a52e648cd36d3e0a7402727561073b6" "DeleteFile.curl" >}}
+
 <p style="margin-top:-32px;font-size:80%;font-style:italic">To get a JWT token use this <a href="/words/getting-started/quickstart/">instruction</a></p>
+
 {{< /tab >}}
 {{< /tabs >}}
 {{< /nosnippet >}}
