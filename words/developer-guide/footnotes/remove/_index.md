@@ -66,7 +66,7 @@ Download sample [Footnote.doc](/words/footnotes/Footnote.doc) file designed to a
 {{< /tabs >}}
 {{< /nosnippet >}}
 
-## Cloud SDK Family
+## Aspose.Words Cloud SDK Family
 
 Using SDK is the best way to speed up the development. Please go to the [GitHub](https://github.com/aspose-words-cloud) repository to explore a wide family of our Cloud SDKs. These powerful libraries take care of all low-level programming details and let you focus on your primary tasks.
 
