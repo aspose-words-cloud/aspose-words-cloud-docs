@@ -21,8 +21,6 @@ The page contains release notes for Aspose.Words Cloud 22.3 – [API Reference]
   - `GetPublicKey` method is no longer billable
 - Various other fixes and imporvements
 
-- Numerous fixes and improvements
-
 ## PDF to Word conversion improvements
 
 - Fixed a rare error that could occur when processing encrypted PDF content
