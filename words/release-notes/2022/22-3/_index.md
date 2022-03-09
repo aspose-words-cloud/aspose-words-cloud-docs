@@ -48,8 +48,8 @@ The page contains release notes for Aspose.Words Cloud 22.3 – [API Reference]
 | #                | Summary                                                                                       | Category    |
 |------------------|-----------------------------------------------------------------------------------------------|-------------|
 | WORDSCLOUD-1907  | Text is not exported correctly when converting from OCR PDF to DOCX/MD format                 | Bug         |
-| WORDSCLOUD-1931  | An error occurs when trying to replace (insert) text with HTML in a text document using the Range API | Bug         |
-| WORDSCLOUD-1936  | API calls to `getPublicKey method should not be billable                                      | Bug         |
+| WORDSCLOUD-1931  | An error occurs when trying to replace (insert) text with HTML in a document using the Range API | Bug      |
+| WORDSCLOUD-1936  | API calls to `getPublicKey` method should not be billable                                     | Bug         |
 | WORDSNET-23026   | `InvalidOperationException`: Encrypt element in the trailer dictionary must also be dictionary  | Bug       |
 | WORDSNET-23037   | `IndexOutOfRangeException` at `JBig2Decoder.JBIG2Bitmap.DuplicateRow`                         | Bug         |
 | WORDSNET-23190   | `KeyNotFoundException`: MediaBox was not present in the dictionary                            | Bug         |
