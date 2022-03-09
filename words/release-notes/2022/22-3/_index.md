@@ -18,7 +18,7 @@ The page contains release notes for Aspose.Words Cloud 22.3 – [API Reference]
 - Improved data security:
   - Parameters containing sensitive data are transmitted only in encrypted form. The names of such parameters have been prefixed with 'encrypted'
   - Added the `Encrypt` method to encrypt data with an API public key. This method can be used to generate encrypted parameter values
-  - `GetPublicKey` method is no longer billable
+  - API calls to `GetPublicKey` method are no longer billable
 - Various other fixes and imporvements
 
 ## PDF to Word conversion improvements
@@ -40,14 +40,17 @@ The page contains release notes for Aspose.Words Cloud 22.3 – [API Reference]
 - The online methods return a dictionary of files in responses, with the original filename included as a key, instead of the file's content
 - Parameters containing sensitive data are transmitted in encrypted form. The names of such parameters are prefixed with 'encrypted'
 - Added the `Encrypt` method to encrypt data with an API public key. This method can be used to generate encrypted parameter values
-- `GetPublicKey` method is no longer billable
+- API calls to `GetPublicKey` method are no longer billable
 - The data type of some members of the `SaveOptions` class, as well as classes inherited from it, has been changed from `string` to the corresponding enums
 
 ## All changes
 
 | #                | Summary                                                                                       | Category    |
 |------------------|-----------------------------------------------------------------------------------------------|-------------|
-| WORDSNET-23026   | `InvalidOperationException`: Encrypt element in the trailer dictionary must also be dictionary  | Bug         |
+| WORDSCLOUD-1907  | Text is not exported correctly when converting from OCR PDF to DOCX/MD format                 | Bug         |
+| WORDSCLOUD-1931  | An error occurs when trying to replace (insert) text with HTML in a text document using the Range API | Bug         |
+| WORDSCLOUD-1936  | API calls to `getPublicKey method should not be billable                                      | Bug         |
+| WORDSNET-23026   | `InvalidOperationException`: Encrypt element in the trailer dictionary must also be dictionary  | Bug       |
 | WORDSNET-23037   | `IndexOutOfRangeException` at `JBig2Decoder.JBIG2Bitmap.DuplicateRow`                         | Bug         |
 | WORDSNET-23190   | `KeyNotFoundException`: MediaBox was not present in the dictionary                            | Bug         |
 | WORDSNET-23191   | `KeyNotFoundException`: Dictionary doesn't contain 'S' entry                                  | Bug         |
