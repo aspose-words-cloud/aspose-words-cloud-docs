@@ -139,7 +139,7 @@ You can find a lot of other examples in [Python](https://gist.github.com/aspose-
 {{< gist "aspose-words-cloud-gists" "e2a72445b96362dc0117f06ab54bb94a" "GetCustomXmlPartOnline.php" >}}
 {{< /tab >}}
 {{< tab tabNum="6" >}}
-{{< gist "aspose-words-cloud-gists" "49aa5151a094849179bae8672c887a0e" "GetCustomXmlPartOnline.go" >}}
+{{< gist "aspose-words-cloud-gists" "49aa5151a094849179bae8672c887a0e" "GetCustomXmlPartOnline.cpp" >}}
 {{< /tab >}}
 {{< tab tabNum="7" >}}
 {{< gist "aspose-words-cloud-gists" "625ca80adffd779e8f6e3611551e14d5" "config.json" >}}
