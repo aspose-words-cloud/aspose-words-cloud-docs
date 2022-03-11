@@ -240,14 +240,14 @@ Represents a response model for [WordsApi.UpdateBookmarkOnline()](/words/bookmar
 
 An object of the **UpdateBookmarkOnlineResponse** class is created by the following constructor methods:
 
-- UpdateBookmarkOnlineResponse([BookmarkResponse](#bookmarkresponse) ***model***, <span style="color:SteelBlue;">Stream</span> ***document***)
+- UpdateBookmarkOnlineResponse([BookmarkResponse](#bookmarkresponse) ***model***, Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; ***document***)
 
 Each of those arguments initializes the corresponding self-titled property:
 
 | Argument             | Property             | Type                                          | Description |
 |----------------------|----------------------|-----------------------------------------------|-------------|
 | ***model***          | Model                | [BookmarkResponse](#bookmarkresponse)         | The response model. |
-| ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | The document after modification. |
+| ***document***       | Document             | Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; | The document after modification. |
 
 
 

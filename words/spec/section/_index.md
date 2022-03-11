@@ -22,7 +22,7 @@ weight: 430
   <tr>
     <td style="vertical-align:middle;" class="bg-white" rowspan="2"><strong><i>Delete</i><strong></td>
     <td style="vertical-align:middle;" class="bg-white"><a href="#deletesectiononlinerequest">DeleteSectionOnlineRequest</a></td>
-    <td style="vertical-align:middle;" class="bg-white" colspan="2"><span style="color:SteelBlue;">System.IO.Stream</span></td>
+    <td style="vertical-align:middle;" class="bg-white" colspan="2"><span style="color:SteelBlue;">Dictionary<string,Stream></span></td>
     <td style="vertical-align:middle;" class="bg-white" rowspan="2"></td>
   </tr>
   <tr>
@@ -411,14 +411,14 @@ Represents a response model for [WordsApi.UpdateSectionPageSetupOnline()](/words
 
 An object of the **UpdateSectionPageSetupOnlineResponse** class is created by the following constructor methods:
 
-- UpdateSectionPageSetupOnlineResponse([SectionPageSetupResponse](#sectionpagesetupresponse) ***model***, <span style="color:SteelBlue;">Stream</span> ***document***)
+- UpdateSectionPageSetupOnlineResponse([SectionPageSetupResponse](#sectionpagesetupresponse) ***model***, Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; ***document***)
 
 Each of those arguments initializes the corresponding self-titled property:
 
 | Argument             | Property             | Type                                          | Description |
 |----------------------|----------------------|-----------------------------------------------|-------------|
 | ***model***          | Model                | [SectionPageSetupResponse](#sectionpagesetupresponse) | The response model. |
-| ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | The document after modification. |
+| ***document***       | Document             | Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; | The document after modification. |
 
 
 

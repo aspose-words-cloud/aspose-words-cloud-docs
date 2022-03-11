@@ -86,14 +86,14 @@ Represents a response model for [WordsApi.AcceptAllRevisionsOnline()](/words/doc
 
 An object of the **AcceptAllRevisionsOnlineResponse** class is created by the following constructor methods:
 
-- AcceptAllRevisionsOnlineResponse([RevisionsModificationResponse](#revisionsmodificationresponse) ***model***, <span style="color:SteelBlue;">Stream</span> ***document***)
+- AcceptAllRevisionsOnlineResponse([RevisionsModificationResponse](#revisionsmodificationresponse) ***model***, Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; ***document***)
 
 Each of those arguments initializes the corresponding self-titled property:
 
 | Argument             | Property             | Type                                          | Description |
 |----------------------|----------------------|-----------------------------------------------|-------------|
 | ***model***          | Model                | [RevisionsModificationResponse](#revisionsmodificationresponse) | The response model. |
-| ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | The document after modification. |
+| ***document***       | Document             | Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; | The document after modification. |
 
 
 
@@ -147,14 +147,14 @@ Represents a response model for [WordsApi.RejectAllRevisionsOnline()](/words/doc
 
 An object of the **RejectAllRevisionsOnlineResponse** class is created by the following constructor methods:
 
-- RejectAllRevisionsOnlineResponse([RevisionsModificationResponse](#revisionsmodificationresponse) ***model***, <span style="color:SteelBlue;">Stream</span> ***document***)
+- RejectAllRevisionsOnlineResponse([RevisionsModificationResponse](#revisionsmodificationresponse) ***model***, Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; ***document***)
 
 Each of those arguments initializes the corresponding self-titled property:
 
 | Argument             | Property             | Type                                          | Description |
 |----------------------|----------------------|-----------------------------------------------|-------------|
 | ***model***          | Model                | [RevisionsModificationResponse](#revisionsmodificationresponse) | The response model. |
-| ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | The document after modification. |
+| ***document***       | Document             | Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; | The document after modification. |
 
 
 

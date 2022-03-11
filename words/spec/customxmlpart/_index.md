@@ -22,7 +22,7 @@ weight: 140
   <tr>
     <td style="vertical-align:middle;" class="bg-white" rowspan="4"><strong><i>Delete</i><strong></td>
     <td style="vertical-align:middle;" class="bg-white"><a href="#deletecustomxmlpartonlinerequest">DeleteCustomXmlPartOnlineRequest</a></td>
-    <td style="vertical-align:middle;" class="bg-white" colspan="2"><span style="color:SteelBlue;">System.IO.Stream</span></td>
+    <td style="vertical-align:middle;" class="bg-white" colspan="2"><span style="color:SteelBlue;">Dictionary<string,Stream></span></td>
     <td style="vertical-align:middle;" class="bg-white" rowspan="4"></td>
   </tr>
   <tr>
@@ -31,7 +31,7 @@ weight: 140
   </tr>
   <tr>
     <td style="vertical-align:middle;" class="bg-white"><a href="#deletecustomxmlpartsonlinerequest">DeleteCustomXmlPartsOnlineRequest</a></td>
-    <td style="vertical-align:middle;" class="bg-white" colspan="2"><span style="color:SteelBlue;">System.IO.Stream</span></td>
+    <td style="vertical-align:middle;" class="bg-white" colspan="2"><span style="color:SteelBlue;">Dictionary<string,Stream></span></td>
   </tr>
   <tr>
     <td style="vertical-align:middle;" class="bg-white"><a href="#deletecustomxmlpartsrequest">DeleteCustomXmlPartsRequest</a></td>
@@ -392,14 +392,14 @@ Represents a response model for [WordsApi](/words/spec/wordsapi#wordsapi) operat
 
 An object of the **InsertCustomXmlPartOnlineResponse** class is created by the following constructor methods:
 
-- InsertCustomXmlPartOnlineResponse([CustomXmlPartResponse](#customxmlpartresponse) ***model***, <span style="color:SteelBlue;">Stream</span> ***document***)
+- InsertCustomXmlPartOnlineResponse([CustomXmlPartResponse](#customxmlpartresponse) ***model***, Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; ***document***)
 
 Each of those arguments initializes the corresponding self-titled property:
 
 | Argument             | Property             | Type                                          | Description |
 |----------------------|----------------------|-----------------------------------------------|-------------|
 | ***model***          | Model                | [CustomXmlPartResponse](#customxmlpartresponse) | The response model. |
-| ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | The document after modification. |
+| ***document***       | Document             | Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; | The document after modification. |
 
 
 
@@ -460,14 +460,14 @@ Represents a response model for [WordsApi](/words/spec/wordsapi#wordsapi) operat
 
 An object of the **UpdateCustomXmlPartOnlineResponse** class is created by the following constructor methods:
 
-- UpdateCustomXmlPartOnlineResponse([CustomXmlPartResponse](#customxmlpartresponse) ***model***, <span style="color:SteelBlue;">Stream</span> ***document***)
+- UpdateCustomXmlPartOnlineResponse([CustomXmlPartResponse](#customxmlpartresponse) ***model***, Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; ***document***)
 
 Each of those arguments initializes the corresponding self-titled property:
 
 | Argument             | Property             | Type                                          | Description |
 |----------------------|----------------------|-----------------------------------------------|-------------|
 | ***model***          | Model                | [CustomXmlPartResponse](#customxmlpartresponse) | The response model. |
-| ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | The document after modification. |
+| ***document***       | Document             | Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; | The document after modification. |
 
 
 

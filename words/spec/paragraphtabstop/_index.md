@@ -136,14 +136,14 @@ Represents a response model for [WordsApi.DeleteAllParagraphTabStopsOnline()](/w
 
 An object of the **DeleteAllParagraphTabStopsOnlineResponse** class is created by the following constructor methods:
 
-- DeleteAllParagraphTabStopsOnlineResponse([TabStopsResponse](#tabstopsresponse) ***model***, <span style="color:SteelBlue;">Stream</span> ***document***)
+- DeleteAllParagraphTabStopsOnlineResponse([TabStopsResponse](#tabstopsresponse) ***model***, Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; ***document***)
 
 Each of those arguments initializes the corresponding self-titled property:
 
 | Argument             | Property             | Type                                          | Description |
 |----------------------|----------------------|-----------------------------------------------|-------------|
 | ***model***          | Model                | [TabStopsResponse](#tabstopsresponse)         | The response model. |
-| ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | The document after modification. |
+| ***document***       | Document             | Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; | The document after modification. |
 
 
 
@@ -202,14 +202,14 @@ Represents a response model for [WordsApi.DeleteParagraphTabStopOnline()](/words
 
 An object of the **DeleteParagraphTabStopOnlineResponse** class is created by the following constructor methods:
 
-- DeleteParagraphTabStopOnlineResponse([TabStopsResponse](#tabstopsresponse) ***model***, <span style="color:SteelBlue;">Stream</span> ***document***)
+- DeleteParagraphTabStopOnlineResponse([TabStopsResponse](#tabstopsresponse) ***model***, Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; ***document***)
 
 Each of those arguments initializes the corresponding self-titled property:
 
 | Argument             | Property             | Type                                          | Description |
 |----------------------|----------------------|-----------------------------------------------|-------------|
 | ***model***          | Model                | [TabStopsResponse](#tabstopsresponse)         | The response model. |
-| ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | The document after modification. |
+| ***document***       | Document             | Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; | The document after modification. |
 
 
 
@@ -315,14 +315,14 @@ Represents a response model for [WordsApi.InsertOrUpdateParagraphTabStopOnline()
 
 An object of the **InsertOrUpdateParagraphTabStopOnlineResponse** class is created by the following constructor methods:
 
-- InsertOrUpdateParagraphTabStopOnlineResponse([TabStopsResponse](#tabstopsresponse) ***model***, <span style="color:SteelBlue;">Stream</span> ***document***)
+- InsertOrUpdateParagraphTabStopOnlineResponse([TabStopsResponse](#tabstopsresponse) ***model***, Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; ***document***)
 
 Each of those arguments initializes the corresponding self-titled property:
 
 | Argument             | Property             | Type                                          | Description |
 |----------------------|----------------------|-----------------------------------------------|-------------|
 | ***model***          | Model                | [TabStopsResponse](#tabstopsresponse)         | The response model. |
-| ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | The document after modification. |
+| ***document***       | Document             | Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; | The document after modification. |
 
 
 

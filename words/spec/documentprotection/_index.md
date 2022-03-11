@@ -140,14 +140,14 @@ Represents a response model for [WordsApi.ProtectDocumentOnline()](/words/docume
 
 An object of the **ProtectDocumentOnlineResponse** class is created by the following constructor methods:
 
-- ProtectDocumentOnlineResponse([ProtectionDataResponse](#protectiondataresponse) ***model***, <span style="color:SteelBlue;">Stream</span> ***document***)
+- ProtectDocumentOnlineResponse([ProtectionDataResponse](#protectiondataresponse) ***model***, Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; ***document***)
 
 Each of those arguments initializes the corresponding self-titled property:
 
 | Argument             | Property             | Type                                          | Description |
 |----------------------|----------------------|-----------------------------------------------|-------------|
 | ***model***          | Model                | [ProtectionDataResponse](#protectiondataresponse) | The response model. |
-| ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | The document after modification. |
+| ***document***       | Document             | Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; | The document after modification. |
 
 
 
@@ -233,14 +233,14 @@ Represents a response model for [WordsApi.UnprotectDocumentOnline()](/words/docu
 
 An object of the **UnprotectDocumentOnlineResponse** class is created by the following constructor methods:
 
-- UnprotectDocumentOnlineResponse([ProtectionDataResponse](#protectiondataresponse) ***model***, <span style="color:SteelBlue;">Stream</span> ***document***)
+- UnprotectDocumentOnlineResponse([ProtectionDataResponse](#protectiondataresponse) ***model***, Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; ***document***)
 
 Each of those arguments initializes the corresponding self-titled property:
 
 | Argument             | Property             | Type                                          | Description |
 |----------------------|----------------------|-----------------------------------------------|-------------|
 | ***model***          | Model                | [ProtectionDataResponse](#protectiondataresponse) | The response model. |
-| ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | The document after modification. |
+| ***document***       | Document             | Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; | The document after modification. |
 
 
 

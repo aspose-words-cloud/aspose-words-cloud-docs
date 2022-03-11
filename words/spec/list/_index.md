@@ -309,14 +309,14 @@ Represents a response model for [WordsApi.InsertListOnline()](/words/lists/inser
 
 An object of the **InsertListOnlineResponse** class is created by the following constructor methods:
 
-- InsertListOnlineResponse([ListResponse](#listresponse) ***model***, <span style="color:SteelBlue;">Stream</span> ***document***)
+- InsertListOnlineResponse([ListResponse](#listresponse) ***model***, Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; ***document***)
 
 Each of those arguments initializes the corresponding self-titled property:
 
 | Argument             | Property             | Type                                          | Description |
 |----------------------|----------------------|-----------------------------------------------|-------------|
 | ***model***          | Model                | [ListResponse](#listresponse)                 | The response model. |
-| ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | The document after modification. |
+| ***document***       | Document             | Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; | The document after modification. |
 
 
 
@@ -406,14 +406,14 @@ Represents a response model for [WordsApi.UpdateListLevelOnline()](/words/lists/
 
 An object of the **UpdateListLevelOnlineResponse** class is created by the following constructor methods:
 
-- UpdateListLevelOnlineResponse([ListResponse](#listresponse) ***model***, <span style="color:SteelBlue;">Stream</span> ***document***)
+- UpdateListLevelOnlineResponse([ListResponse](#listresponse) ***model***, Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; ***document***)
 
 Each of those arguments initializes the corresponding self-titled property:
 
 | Argument             | Property             | Type                                          | Description |
 |----------------------|----------------------|-----------------------------------------------|-------------|
 | ***model***          | Model                | [ListResponse](#listresponse)                 | The response model. |
-| ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | The document after modification. |
+| ***document***       | Document             | Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; | The document after modification. |
 
 
 
@@ -476,14 +476,14 @@ Represents a response model for [WordsApi.UpdateListOnline()](/words/lists/updat
 
 An object of the **UpdateListOnlineResponse** class is created by the following constructor methods:
 
-- UpdateListOnlineResponse([ListResponse](#listresponse) ***model***, <span style="color:SteelBlue;">Stream</span> ***document***)
+- UpdateListOnlineResponse([ListResponse](#listresponse) ***model***, Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; ***document***)
 
 Each of those arguments initializes the corresponding self-titled property:
 
 | Argument             | Property             | Type                                          | Description |
 |----------------------|----------------------|-----------------------------------------------|-------------|
 | ***model***          | Model                | [ListResponse](#listresponse)                 | The response model. |
-| ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | The document after modification. |
+| ***document***       | Document             | Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; | The document after modification. |
 
 
 

@@ -22,7 +22,7 @@ weight: 320
   <tr>
     <td style="vertical-align:middle;" class="bg-white" rowspan="2"><strong><i>Delete</i><strong></td>
     <td style="vertical-align:middle;" class="bg-white"><a href="#deletemacrosonlinerequest">DeleteMacrosOnlineRequest</a></td>
-    <td style="vertical-align:middle;" class="bg-white" colspan="2"><span style="color:SteelBlue;">System.IO.Stream</span></td>
+    <td style="vertical-align:middle;" class="bg-white" colspan="2"><span style="color:SteelBlue;">Dictionary<string,Stream></span></td>
     <td style="vertical-align:middle;" class="bg-white" rowspan="2"></td>
   </tr>
   <tr>

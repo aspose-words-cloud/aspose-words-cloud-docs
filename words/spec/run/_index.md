@@ -22,7 +22,7 @@ weight: 420
   <tr>
     <td style="vertical-align:middle;" class="bg-white" rowspan="2"><strong><i>Delete</i><strong></td>
     <td style="vertical-align:middle;" class="bg-white"><a href="#deleterunonlinerequest">DeleteRunOnlineRequest</a></td>
-    <td style="vertical-align:middle;" class="bg-white" colspan="2"><span style="color:SteelBlue;">System.IO.Stream</span></td>
+    <td style="vertical-align:middle;" class="bg-white" colspan="2"><span style="color:SteelBlue;">Dictionary<string,Stream></span></td>
     <td style="vertical-align:middle;" class="bg-white" rowspan="2"></td>
   </tr>
   <tr>
@@ -402,14 +402,14 @@ Represents a response model for [WordsApi.InsertRunOnline()](/words/paragraphs/a
 
 An object of the **InsertRunOnlineResponse** class is created by the following constructor methods:
 
-- InsertRunOnlineResponse([RunResponse](#runresponse) ***model***, <span style="color:SteelBlue;">Stream</span> ***document***)
+- InsertRunOnlineResponse([RunResponse](#runresponse) ***model***, Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; ***document***)
 
 Each of those arguments initializes the corresponding self-titled property:
 
 | Argument             | Property             | Type                                          | Description |
 |----------------------|----------------------|-----------------------------------------------|-------------|
 | ***model***          | Model                | [RunResponse](#runresponse)                   | The response model. |
-| ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | The document after modification. |
+| ***document***       | Document             | Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; | The document after modification. |
 
 
 
@@ -501,14 +501,14 @@ Represents a response model for [WordsApi.UpdateRunFontOnline()](/words/paragrap
 
 An object of the **UpdateRunFontOnlineResponse** class is created by the following constructor methods:
 
-- UpdateRunFontOnlineResponse([FontResponse](#fontresponse) ***model***, <span style="color:SteelBlue;">Stream</span> ***document***)
+- UpdateRunFontOnlineResponse([FontResponse](#fontresponse) ***model***, Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; ***document***)
 
 Each of those arguments initializes the corresponding self-titled property:
 
 | Argument             | Property             | Type                                          | Description |
 |----------------------|----------------------|-----------------------------------------------|-------------|
 | ***model***          | Model                | [FontResponse](#fontresponse)                 | The response model. |
-| ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | The document after modification. |
+| ***document***       | Document             | Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; | The document after modification. |
 
 
 
@@ -572,14 +572,14 @@ Represents a response model for [WordsApi.UpdateRunOnline()](/words/paragraphs/u
 
 An object of the **UpdateRunOnlineResponse** class is created by the following constructor methods:
 
-- UpdateRunOnlineResponse([RunResponse](#runresponse) ***model***, <span style="color:SteelBlue;">Stream</span> ***document***)
+- UpdateRunOnlineResponse([RunResponse](#runresponse) ***model***, Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; ***document***)
 
 Each of those arguments initializes the corresponding self-titled property:
 
 | Argument             | Property             | Type                                          | Description |
 |----------------------|----------------------|-----------------------------------------------|-------------|
 | ***model***          | Model                | [RunResponse](#runresponse)                   | The response model. |
-| ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | The document after modification. |
+| ***document***       | Document             | Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; | The document after modification. |
 
 
 

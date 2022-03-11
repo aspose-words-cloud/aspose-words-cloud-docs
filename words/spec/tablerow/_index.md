@@ -22,7 +22,7 @@ weight: 480
   <tr>
     <td style="vertical-align:middle;" class="bg-white" rowspan="2"><strong><i>Delete</i><strong></td>
     <td style="vertical-align:middle;" class="bg-white"><a href="#deletetablerowonlinerequest">DeleteTableRowOnlineRequest</a></td>
-    <td style="vertical-align:middle;" class="bg-white" colspan="2"><span style="color:SteelBlue;">System.IO.Stream</span></td>
+    <td style="vertical-align:middle;" class="bg-white" colspan="2"><span style="color:SteelBlue;">Dictionary<string,Stream></span></td>
     <td style="vertical-align:middle;" class="bg-white" rowspan="2"></td>
   </tr>
   <tr>
@@ -310,14 +310,14 @@ Represents a response model for [WordsApi.InsertTableRowOnline()](/words/tables/
 
 An object of the **InsertTableRowOnlineResponse** class is created by the following constructor methods:
 
-- InsertTableRowOnlineResponse([TableRowResponse](#tablerowresponse) ***model***, <span style="color:SteelBlue;">Stream</span> ***document***)
+- InsertTableRowOnlineResponse([TableRowResponse](#tablerowresponse) ***model***, Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; ***document***)
 
 Each of those arguments initializes the corresponding self-titled property:
 
 | Argument             | Property             | Type                                          | Description |
 |----------------------|----------------------|-----------------------------------------------|-------------|
 | ***model***          | Model                | [TableRowResponse](#tablerowresponse)         | The response model. |
-| ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | The document after modification. |
+| ***document***       | Document             | Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; | The document after modification. |
 
 
 
@@ -408,14 +408,14 @@ Represents a response model for [WordsApi.UpdateTableRowFormatOnline()](/words/t
 
 An object of the **UpdateTableRowFormatOnlineResponse** class is created by the following constructor methods:
 
-- UpdateTableRowFormatOnlineResponse([TableRowFormatResponse](#tablerowformatresponse) ***model***, <span style="color:SteelBlue;">Stream</span> ***document***)
+- UpdateTableRowFormatOnlineResponse([TableRowFormatResponse](#tablerowformatresponse) ***model***, Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; ***document***)
 
 Each of those arguments initializes the corresponding self-titled property:
 
 | Argument             | Property             | Type                                          | Description |
 |----------------------|----------------------|-----------------------------------------------|-------------|
 | ***model***          | Model                | [TableRowFormatResponse](#tablerowformatresponse) | The response model. |
-| ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | The document after modification. |
+| ***document***       | Document             | Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; | The document after modification. |
 
 
 

@@ -98,14 +98,14 @@ Represents a response model for [WordsApi.DeleteWatermarkOnline()](/words/waterm
 
 An object of the **DeleteWatermarkOnlineResponse** class is created by the following constructor methods:
 
-- DeleteWatermarkOnlineResponse([DocumentResponse](/words/spec/document#documentresponse) ***model***, <span style="color:SteelBlue;">Stream</span> ***document***)
+- DeleteWatermarkOnlineResponse([DocumentResponse](/words/spec/document#documentresponse) ***model***, Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; ***document***)
 
 Each of those arguments initializes the corresponding self-titled property:
 
 | Argument             | Property             | Type                                          | Description |
 |----------------------|----------------------|-----------------------------------------------|-------------|
 | ***model***          | Model                | [DocumentResponse](/words/spec/document#documentresponse) | The response model. |
-| ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | The document after modification. |
+| ***document***       | Document             | Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; | The document after modification. |
 
 
 
@@ -166,14 +166,14 @@ Represents a response model for [WordsApi.InsertWatermarkImageOnline()](/words/w
 
 An object of the **InsertWatermarkImageOnlineResponse** class is created by the following constructor methods:
 
-- InsertWatermarkImageOnlineResponse([DocumentResponse](/words/spec/document#documentresponse) ***model***, <span style="color:SteelBlue;">Stream</span> ***document***)
+- InsertWatermarkImageOnlineResponse([DocumentResponse](/words/spec/document#documentresponse) ***model***, Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; ***document***)
 
 Each of those arguments initializes the corresponding self-titled property:
 
 | Argument             | Property             | Type                                          | Description |
 |----------------------|----------------------|-----------------------------------------------|-------------|
 | ***model***          | Model                | [DocumentResponse](/words/spec/document#documentresponse) | The response model. |
-| ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | The document after modification. |
+| ***document***       | Document             | Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; | The document after modification. |
 
 
 
@@ -235,14 +235,14 @@ Represents a response model for [WordsApi.InsertWatermarkTextOnline()](/words/wa
 
 An object of the **InsertWatermarkTextOnlineResponse** class is created by the following constructor methods:
 
-- InsertWatermarkTextOnlineResponse([DocumentResponse](/words/spec/document#documentresponse) ***model***, <span style="color:SteelBlue;">Stream</span> ***document***)
+- InsertWatermarkTextOnlineResponse([DocumentResponse](/words/spec/document#documentresponse) ***model***, Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; ***document***)
 
 Each of those arguments initializes the corresponding self-titled property:
 
 | Argument             | Property             | Type                                          | Description |
 |----------------------|----------------------|-----------------------------------------------|-------------|
 | ***model***          | Model                | [DocumentResponse](/words/spec/document#documentresponse) | The response model. |
-| ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | The document after modification. |
+| ***document***       | Document             | Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; | The document after modification. |
 
 
 

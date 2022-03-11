@@ -42,7 +42,7 @@ weight: 240
   <tr>
     <td style="vertical-align:middle;" class="bg-white"><strong><i>Download</i><strong></td>
     <td style="vertical-align:middle;" class="bg-white"><a href="#downloadfilerequest">DownloadFileRequest</a></td>
-    <td style="vertical-align:middle;" class="bg-white" colspan="2"><span style="color:SteelBlue;">System.IO.Stream</span></td>
+    <td style="vertical-align:middle;" class="bg-white" colspan="2"><span style="color:SteelBlue;">Stream</span></td>
   </tr>
   <tr>
     <td style="vertical-align:middle;" class="bg-white"><strong><i>Get</i><strong></td>

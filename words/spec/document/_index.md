@@ -44,7 +44,7 @@ weight: 150
   <tr>
     <td style="vertical-align:middle;" class="bg-white"><strong><i>Convert</i><strong></td>
     <td style="vertical-align:middle;" class="bg-white"><a href="#convertdocumentrequest">ConvertDocumentRequest</a></td>
-    <td style="vertical-align:middle;" class="bg-white" colspan="2"><span style="color:SteelBlue;">System.IO.Stream</span></td>
+    <td style="vertical-align:middle;" class="bg-white" colspan="2"><span style="color:SteelBlue;">Stream</span></td>
     <td style="vertical-align:middle;" class="bg-white"></td>
   </tr>
   <tr>
@@ -59,7 +59,7 @@ weight: 150
   </tr>
   <tr>
     <td style="vertical-align:middle;" class="bg-white"><a href="#getdocumentwithformatrequest">GetDocumentWithFormatRequest</a></td>
-    <td style="vertical-align:middle;" class="bg-white" colspan="2"><span style="color:SteelBlue;">System.IO.Stream</span></td>
+    <td style="vertical-align:middle;" class="bg-white" colspan="2"><span style="color:SteelBlue;">Stream</span></td>
     <td style="vertical-align:middle;" class="bg-white"></td>
   </tr>
   <tr>
@@ -71,7 +71,7 @@ weight: 150
   <tr>
     <td style="vertical-align:middle;" class="bg-white" rowspan="2"><strong><i>Optimize</i><strong></td>
     <td style="vertical-align:middle;" class="bg-white"><a href="#optimizedocumentonlinerequest">OptimizeDocumentOnlineRequest</a></td>
-    <td style="vertical-align:middle;" class="bg-white"><span style="color:SteelBlue;">System.IO.Stream</span></td>
+    <td style="vertical-align:middle;" class="bg-white"><span style="color:SteelBlue;">Dictionary<string,Stream></span></td>
     <td style="vertical-align:middle;" class="bg-white" rowspan="2"><a href="#optimizationoptions">OptimizationOptions</a></td>
   </tr>
   <tr>
@@ -187,9 +187,9 @@ The following properties are defined:
 
 | Property             | Type                                          | Description |
 |----------------------|-----------------------------------------------|-------------|
+| EncryptedPassword    | <span style="color:SteelBlue;">string</span>  | Gets or sets document password encrypted on API public key. The default value is null (the document has no password) . |
 | Href                 | <span style="color:SteelBlue;">string</span>  | Gets or sets the path to document to append at the server. |
 | ImportFormatMode     | <span style="color:SteelBlue;">string</span>  | Gets or sets the option that controls formatting will be used: appended or destination document. Can be KeepSourceFormatting or UseDestinationStyles. |
-| Password             | <span style="color:SteelBlue;">string</span>  | Gets or sets document password encrypted on API public key. The default value is null (the document has no password) . |
 
 
 ## DocumentEntryList
@@ -210,7 +210,7 @@ The following properties are defined:
 
 Represents a dTO container with a position in the document tree.
 
-This class is used in [Comment](/words/spec/comment#comment), [CommentBase](/words/spec/comment#commentbase), [CommentInsert](/words/spec/comment#commentinsert), [CommentUpdate](/words/spec/comment#commentupdate), [DrawingObjectInsert](/words/spec/drawingobject#drawingobjectinsert), [Footnote](/words/spec/footnote#footnote), [SearchResult](/words/spec/text#searchresult), [TableInsert](/words/spec/table#tableinsert), [TableInsertDto](/words/spec/table#tableinsertdto).
+This class is used in [Comment](/words/spec/comment#comment), [CommentBase](/words/spec/comment#commentbase), [CommentInsert](/words/spec/comment#commentinsert), [CommentUpdate](/words/spec/comment#commentupdate), [DrawingObjectInsert](/words/spec/drawingobject#drawingobjectinsert), [Footnote](/words/spec/footnote#footnote), [FootnoteBase](/words/spec/footnote#footnotebase), [SearchResult](/words/spec/text#searchresult), [TableInsert](/words/spec/table#tableinsert), [TableInsertDto](/words/spec/table#tableinsertdto).
 
 The following properties are defined:
 
@@ -329,11 +329,25 @@ Represents a base container class for save options data.
 
 This class is used in [LoadWebDocumentData](#loadwebdocumentdata), [SaveAsOnlineRequest](#saveasonlinerequest), [SaveAsRequest](#saveasrequest).
 
-A single `[JsonConverter` property is defined:
+The following properties are defined:
 
 | Property             | Type                                          | Description |
 |----------------------|-----------------------------------------------|-------------|
-| [JsonConverter       | <span style="color:SteelBlue;">int</span>     | Gets or sets the value determining how 3D effects are rendered. |
+| AllowEmbeddingPostScriptFonts | <span style="color:SteelBlue;">bool</span>    | Gets or sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is false.. |
+| CustomTimeZoneInfoData | [TimeZoneInfoData](#timezoneinfodata)         | Gets or sets CustomTimeZoneInfo. |
+| Dml3DEffectsRenderingMode | [Dml3DEffectsRenderingModeEnum](/words/spec/documentsaveoptions#saveoptionsdata.dml3deffectsrenderingmodeenum) | Gets or sets the value determining how 3D effects are rendered. |
+| DmlEffectsRenderingMode | [DmlEffectsRenderingModeEnum](/words/spec/documentsaveoptions#saveoptionsdata.dmleffectsrenderingmodeenum) | Gets or sets the value determining how DrawingML effects are rendered. { Simplified | None | Fine }. |
+| DmlRenderingMode     | [DmlRenderingModeEnum](/words/spec/documentsaveoptions#saveoptionsdata.dmlrenderingmodeenum) | Gets or sets the option that controls how DrawingML shapes are rendered. |
+| FileName             | <span style="color:SteelBlue;">string</span>  | Gets or sets the name of destination file. |
+| FlatOpcXmlMappingOnly | <span style="color:SteelBlue;">bool</span>    | Gets or sets value determining which document formats are allowed to be mapped by Aspose.Words.Markup.StructuredDocumentTag.XmlMapping. By default only Aspose.Words.LoadFormat.FlatOpc document format is allowed to be mapped. |
+| ImlRenderingMode     | [ImlRenderingModeEnum](/words/spec/documentsaveoptions#saveoptionsdata.imlrenderingmodeenum) | Gets or sets the value determining how ink (InkML) objects are rendered. |
+| SaveFormat           | <span style="color:SteelBlue;">string</span>  | Gets the format of save. |
+| UpdateCreatedTimeProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value determining whether the Aspose.Words.Properties.BuiltInDocumentProperties.CreatedTime property is updated before saving. Default value is false. |
+| UpdateFields         | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether fields should be updated before saving the document to a fixed page format. The default value is true. |
+| UpdateLastPrintedProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether the Aspose.Words.Properties.BuiltInDocumentProperties.LastPrinted property is updated before saving. |
+| UpdateLastSavedTimeProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether the Aspose.Words.Properties.BuiltInDocumentProperties.LastSavedTime property is updated before saving. |
+| UpdateSdtContent     | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether content of StructuredDocumentTag is updated before saving. |
+| ZipOutput            | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether to zip output or not. The default value is false. |
 
 
 ## TiffSaveOptionsData
@@ -346,20 +360,34 @@ The following properties are defined:
 
 | Property             | Type                                          | Description |
 |----------------------|-----------------------------------------------|-------------|
-| [JsonConverter       | <span style="color:SteelBlue;">int</span>     | Gets or sets the value determining how 3D effects are rendered. |
-| ColorMode            | <span style="color:SteelBlue;">string</span>  | Gets or sets the value determining how colors are rendered. { Normal | Grayscale}. |
+| AllowEmbeddingPostScriptFonts | <span style="color:SteelBlue;">bool</span>    | Gets or sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is false.. |
+| CustomTimeZoneInfoData | [TimeZoneInfoData](#timezoneinfodata)         | Gets or sets CustomTimeZoneInfo. |
+| Dml3DEffectsRenderingMode | [Dml3DEffectsRenderingModeEnum](/words/spec/documentsaveoptions#saveoptionsdata.dml3deffectsrenderingmodeenum) | Gets or sets the value determining how 3D effects are rendered. |
+| DmlEffectsRenderingMode | [DmlEffectsRenderingModeEnum](/words/spec/documentsaveoptions#saveoptionsdata.dmleffectsrenderingmodeenum) | Gets or sets the value determining how DrawingML effects are rendered. { Simplified | None | Fine }. |
+| DmlRenderingMode     | [DmlRenderingModeEnum](/words/spec/documentsaveoptions#saveoptionsdata.dmlrenderingmodeenum) | Gets or sets the option that controls how DrawingML shapes are rendered. |
+| FileName             | <span style="color:SteelBlue;">string</span>  | Gets or sets the name of destination file. |
+| FlatOpcXmlMappingOnly | <span style="color:SteelBlue;">bool</span>    | Gets or sets value determining which document formats are allowed to be mapped by Aspose.Words.Markup.StructuredDocumentTag.XmlMapping. By default only Aspose.Words.LoadFormat.FlatOpc document format is allowed to be mapped. |
+| ImlRenderingMode     | [ImlRenderingModeEnum](/words/spec/documentsaveoptions#saveoptionsdata.imlrenderingmodeenum) | Gets or sets the value determining how ink (InkML) objects are rendered. |
+| SaveFormat           | <span style="color:SteelBlue;">string</span>  | Gets the format of save. |
+| UpdateCreatedTimeProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value determining whether the Aspose.Words.Properties.BuiltInDocumentProperties.CreatedTime property is updated before saving. Default value is false. |
+| UpdateFields         | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether fields should be updated before saving the document to a fixed page format. The default value is true. |
+| UpdateLastPrintedProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether the Aspose.Words.Properties.BuiltInDocumentProperties.LastPrinted property is updated before saving. |
+| UpdateLastSavedTimeProperty | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether the Aspose.Words.Properties.BuiltInDocumentProperties.LastSavedTime property is updated before saving. |
+| UpdateSdtContent     | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether content of StructuredDocumentTag is updated before saving. |
+| ZipOutput            | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether to zip output or not. The default value is false. |
+| ColorMode            | [ColorModeEnum](/words/spec/documentsaveoptions#fixedpagesaveoptionsdata.colormodeenum) | Gets or sets the value determining how colors are rendered. { Normal | Grayscale}. |
 | JpegQuality          | <span style="color:SteelBlue;">int</span>     | Gets or sets the quality of the JPEG images inside PDF document. |
 | MetafileRenderingOptions | [MetafileRenderingOptionsData](/words/spec/documentsaveoptions#metafilerenderingoptionsdata) | Gets or sets the metafile rendering options. |
-| NumeralFormat        | <span style="color:SteelBlue;">string</span>  | Gets or sets the symbol set, that is used to represent numbers while rendering to fixed page formats. |
+| NumeralFormat        | [NumeralFormatEnum](/words/spec/documentsaveoptions#fixedpagesaveoptionsdata.numeralformatenum) | Gets or sets the symbol set, that is used to represent numbers while rendering to fixed page formats. |
 | OptimizeOutput       | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether it is required to optimize output of XPS. If this flag is set redundant nested canvases and empty canvases are removed, also neighbor glyphs with the same formatting are concatenated. Note: The accuracy of the content display may be affected if this property is set to true.. The default value is false. |
 | PageCount            | <span style="color:SteelBlue;">int</span>     | Gets or sets the number of pages to render. |
 | PageIndex            | <span style="color:SteelBlue;">int</span>     | Gets or sets the 0-based index of the first page to render. |
 | HorizontalResolution | <span style="color:SteelBlue;">double</span>  | Gets or sets the horizontal resolution in dots per inch for the generated images. This property has effect only when saving to raster image formats. The default value is 96. |
 | ImageBrightness      | <span style="color:SteelBlue;">double</span>  | Gets or sets the brightness level of the image. |
-| ImageColorMode       | <span style="color:SteelBlue;">string</span>  | Gets or sets the color mode of the image. |
+| ImageColorMode       | [ImageColorModeEnum](/words/spec/documentsaveoptions#imagesaveoptionsdata.imagecolormodeenum) | Gets or sets the color mode of the image. |
 | ImageContrast        | <span style="color:SteelBlue;">double</span>  | Gets or sets the contrast level of the image. |
 | PaperColor           | <span style="color:SteelBlue;">string</span>  | Gets or sets the background (paper) color of the image. |
-| PixelFormat          | <span style="color:SteelBlue;">string</span>  | Gets or sets the pixel format of the image. |
+| PixelFormat          | [PixelFormatEnum](/words/spec/documentsaveoptions#imagesaveoptionsdata.pixelformatenum) | Gets or sets the pixel format of the image. |
 | Resolution           | <span style="color:SteelBlue;">double</span>  | Gets or sets both horizontal and vertical resolution in dots per inch for the generated images. This property has effect only when saving to raster image formats. The default value is 96. |
 | Scale                | <span style="color:SteelBlue;">double</span>  | Gets or sets the zoom factor of the image. |
 | UseAntiAliasing      | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether to use anti-aliasing for rendering. |
@@ -367,13 +395,15 @@ The following properties are defined:
 | UseHighQualityRendering | <span style="color:SteelBlue;">bool</span>    | Gets or sets a value indicating whether to use high quality (i.e. slow) rendering algorithms. |
 | VerticalResolution   | <span style="color:SteelBlue;">double</span>  | Gets or sets the vertical resolution in dots per inch for the generated images. This property has effect only when saving to raster image formats. The default value is 96. |
 | ThresholdForFloydSteinbergDithering | <span style="color:SteelBlue;">int</span>     | Gets or sets the threshold that determines the value of the binarization error in the Floyd-Steinberg method. when ImageBinarizationMethod is ImageBinarizationMethod.FloydSteinbergDithering. Default value is 128. |
-| TiffBinarizationMethod | <span style="color:SteelBlue;">string</span>  | Gets or sets the method used while converting images to 1 bpp format. |
-| TiffCompression      | <span style="color:SteelBlue;">string</span>  | Gets or sets the type of compression. |
+| TiffBinarizationMethod | [TiffBinarizationMethodEnum](/words/spec/documentsaveoptions#tiffsaveoptionsdata.tiffbinarizationmethodenum) | Gets or sets the method used while converting images to 1 bpp format. |
+| TiffCompression      | [TiffCompressionEnum](/words/spec/documentsaveoptions#tiffsaveoptionsdata.tiffcompressionenum) | Gets or sets the type of compression. |
 
 
 ## TimeZoneInfoData
 
 Represents a class to specify TimeZoneInfo parameters.
+
+This class is used in [BmpSaveOptionsData](/words/spec/documentsaveoptions#bmpsaveoptionsdata), [DocmSaveOptionsData](/words/spec/documentsaveoptions#docmsaveoptionsdata), [DocSaveOptionsData](/words/spec/documentsaveoptions#docsaveoptionsdata), [DocxSaveOptionsData](/words/spec/documentsaveoptions#docxsaveoptionsdata), [DotmSaveOptionsData](/words/spec/documentsaveoptions#dotmsaveoptionsdata), [DotSaveOptionsData](/words/spec/documentsaveoptions#dotsaveoptionsdata), [DotxSaveOptionsData](/words/spec/documentsaveoptions#dotxsaveoptionsdata), [EmfSaveOptionsData](/words/spec/documentsaveoptions#emfsaveoptionsdata), [EpubSaveOptionsData](/words/spec/documentsaveoptions#epubsaveoptionsdata), [FixedPageSaveOptionsData](/words/spec/documentsaveoptions#fixedpagesaveoptionsdata), [FlatOpcMacroSaveOptionsData](/words/spec/documentsaveoptions#flatopcmacrosaveoptionsdata), [FlatOpcSaveOptionsData](/words/spec/documentsaveoptions#flatopcsaveoptionsdata), [FlatOpcTemplateMacroSaveOptionsData](/words/spec/documentsaveoptions#flatopctemplatemacrosaveoptionsdata), [FlatOpcTemplateSaveOptionsData](/words/spec/documentsaveoptions#flatopctemplatesaveoptionsdata), [GifSaveOptionsData](/words/spec/documentsaveoptions#gifsaveoptionsdata), [HtmlFixedSaveOptionsData](/words/spec/documentsaveoptions#htmlfixedsaveoptionsdata), [HtmlSaveOptionsData](/words/spec/documentsaveoptions#htmlsaveoptionsdata), [ImageSaveOptionsData](/words/spec/documentsaveoptions#imagesaveoptionsdata), [JpegSaveOptionsData](/words/spec/documentsaveoptions#jpegsaveoptionsdata), [MhtmlSaveOptionsData](/words/spec/documentsaveoptions#mhtmlsaveoptionsdata), [OdtSaveOptionsData](/words/spec/documentsaveoptions#odtsaveoptionsdata), [OoxmlSaveOptionsData](/words/spec/documentsaveoptions#ooxmlsaveoptionsdata), [OttSaveOptionsData](/words/spec/documentsaveoptions#ottsaveoptionsdata), [PclSaveOptionsData](/words/spec/documentsaveoptions#pclsaveoptionsdata), [PdfSaveOptionsData](/words/spec/documentsaveoptions#pdfsaveoptionsdata), [PngSaveOptionsData](/words/spec/documentsaveoptions#pngsaveoptionsdata), [PsSaveOptionsData](/words/spec/documentsaveoptions#pssaveoptionsdata), [RtfSaveOptionsData](/words/spec/documentsaveoptions#rtfsaveoptionsdata), [SaveOptionsData](#saveoptionsdata), [SvgSaveOptionsData](/words/spec/documentsaveoptions#svgsaveoptionsdata), [TiffSaveOptionsData](#tiffsaveoptionsdata), [TxtSaveOptionsBaseData](/words/spec/documentsaveoptions#txtsaveoptionsbasedata), [WordMLSaveOptionsData](/words/spec/documentsaveoptions#wordmlsaveoptionsdata), [XamlFixedSaveOptionsData](/words/spec/documentsaveoptions#xamlfixedsaveoptionsdata), [XamlFlowSaveOptionsData](/words/spec/documentsaveoptions#xamlflowsaveoptionsdata), [XpsSaveOptionsData](/words/spec/documentsaveoptions#xpssaveoptionsdata).
 
 The following properties are defined:
 
@@ -429,14 +459,14 @@ Represents a response model for [WordsApi.AppendDocumentOnline()](/words/merge/)
 
 An object of the **AppendDocumentOnlineResponse** class is created by the following constructor methods:
 
-- AppendDocumentOnlineResponse([DocumentResponse](#documentresponse) ***model***, <span style="color:SteelBlue;">Stream</span> ***document***)
+- AppendDocumentOnlineResponse([DocumentResponse](#documentresponse) ***model***, Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; ***document***)
 
 Each of those arguments initializes the corresponding self-titled property:
 
 | Argument             | Property             | Type                                          | Description |
 |----------------------|----------------------|-----------------------------------------------|-------------|
 | ***model***          | Model                | [DocumentResponse](#documentresponse)         | The response model. |
-| ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | The document after modification. |
+| ***document***       | Document             | Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; | The document after modification. |
 
 
 
@@ -496,14 +526,14 @@ Represents a response model for [WordsApi.CompareDocumentOnline()](/words/compar
 
 An object of the **CompareDocumentOnlineResponse** class is created by the following constructor methods:
 
-- CompareDocumentOnlineResponse([DocumentResponse](#documentresponse) ***model***, <span style="color:SteelBlue;">Stream</span> ***document***)
+- CompareDocumentOnlineResponse([DocumentResponse](#documentresponse) ***model***, Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; ***document***)
 
 Each of those arguments initializes the corresponding self-titled property:
 
 | Argument             | Property             | Type                                          | Description |
 |----------------------|----------------------|-----------------------------------------------|-------------|
 | ***model***          | Model                | [DocumentResponse](#documentresponse)         | The response model. |
-| ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | The document after modification. |
+| ***document***       | Document             | Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; | The document after modification. |
 
 
 
@@ -716,14 +746,14 @@ Represents a response model for [WordsApi.SaveAsOnline()](/words/convert/pdf-to-
 
 An object of the **SaveAsOnlineResponse** class is created by the following constructor methods:
 
-- SaveAsOnlineResponse([SaveResponse](#saveresponse) ***model***, <span style="color:SteelBlue;">Stream</span> ***document***)
+- SaveAsOnlineResponse([SaveResponse](#saveresponse) ***model***, Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; ***document***)
 
 Each of those arguments initializes the corresponding self-titled property:
 
 | Argument             | Property             | Type                                          | Description |
 |----------------------|----------------------|-----------------------------------------------|-------------|
 | ***model***          | Model                | [SaveResponse](#saveresponse)                 | The response model. |
-| ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | The document after modification. |
+| ***document***       | Document             | Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; | The document after modification. |
 
 
 
@@ -756,14 +786,14 @@ Represents a response model for [WordsApi.SaveAsRangeOnline()](/words/range/) op
 
 An object of the **SaveAsRangeOnlineResponse** class is created by the following constructor methods:
 
-- SaveAsRangeOnlineResponse([DocumentResponse](#documentresponse) ***model***, <span style="color:SteelBlue;">Stream</span> ***document***)
+- SaveAsRangeOnlineResponse([DocumentResponse](#documentresponse) ***model***, Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; ***document***)
 
 Each of those arguments initializes the corresponding self-titled property:
 
 | Argument             | Property             | Type                                          | Description |
 |----------------------|----------------------|-----------------------------------------------|-------------|
 | ***model***          | Model                | [DocumentResponse](#documentresponse)         | The response model. |
-| ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | The document after modification. |
+| ***document***       | Document             | Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; | The document after modification. |
 
 
 
@@ -861,14 +891,14 @@ Represents a response model for [WordsApi.SaveAsTiffOnline()](/words/convert/doc
 
 An object of the **SaveAsTiffOnlineResponse** class is created by the following constructor methods:
 
-- SaveAsTiffOnlineResponse([SaveResponse](#saveresponse) ***model***, <span style="color:SteelBlue;">Stream</span> ***document***)
+- SaveAsTiffOnlineResponse([SaveResponse](#saveresponse) ***model***, Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; ***document***)
 
 Each of those arguments initializes the corresponding self-titled property:
 
 | Argument             | Property             | Type                                          | Description |
 |----------------------|----------------------|-----------------------------------------------|-------------|
 | ***model***          | Model                | [SaveResponse](#saveresponse)                 | The response model. |
-| ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | The document after modification. |
+| ***document***       | Document             | Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; | The document after modification. |
 
 
 
@@ -959,14 +989,14 @@ Represents a response model for [WordsApi.SplitDocumentOnline()](/words/split/) 
 
 An object of the **SplitDocumentOnlineResponse** class is created by the following constructor methods:
 
-- SplitDocumentOnlineResponse([SplitDocumentResponse](#splitdocumentresponse) ***model***, <span style="color:SteelBlue;">Stream</span> ***document***)
+- SplitDocumentOnlineResponse([SplitDocumentResponse](#splitdocumentresponse) ***model***, Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; ***document***)
 
 Each of those arguments initializes the corresponding self-titled property:
 
 | Argument             | Property             | Type                                          | Description |
 |----------------------|----------------------|-----------------------------------------------|-------------|
 | ***model***          | Model                | [SplitDocumentResponse](#splitdocumentresponse) | The response model. |
-| ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | The document after modification. |
+| ***document***       | Document             | Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; | The document after modification. |
 
 
 
@@ -1015,16 +1045,6 @@ The following properties are defined:
 ## CompareOptions.TargetEnum
 
 The following values are defined: Current, New.
-
-
-## CompressionLevelEnum
-
-The following values are defined: Normal, Maximum, Fast, SuperFast, public, public, public, public, <returns>.
-
-
-## Dml3DEffectsRenderingModeEnum
-
-The following values are defined: Basic, Advanced, public, public, public, public, public, public, public, public, public, public, public, public, public, public, public, <returns>.
 
 
 ## Document.SourceFormatEnum

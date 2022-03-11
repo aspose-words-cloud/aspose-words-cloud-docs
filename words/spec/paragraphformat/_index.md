@@ -267,14 +267,14 @@ Represents a response model for [WordsApi.UpdateParagraphFormatOnline()](/words/
 
 An object of the **UpdateParagraphFormatOnlineResponse** class is created by the following constructor methods:
 
-- UpdateParagraphFormatOnlineResponse([ParagraphFormatResponse](#paragraphformatresponse) ***model***, <span style="color:SteelBlue;">Stream</span> ***document***)
+- UpdateParagraphFormatOnlineResponse([ParagraphFormatResponse](#paragraphformatresponse) ***model***, Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; ***document***)
 
 Each of those arguments initializes the corresponding self-titled property:
 
 | Argument             | Property             | Type                                          | Description |
 |----------------------|----------------------|-----------------------------------------------|-------------|
 | ***model***          | Model                | [ParagraphFormatResponse](#paragraphformatresponse) | The response model. |
-| ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | The document after modification. |
+| ***document***       | Document             | Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; | The document after modification. |
 
 
 

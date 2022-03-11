@@ -163,14 +163,14 @@ Represents a response model for [WordsApi.DeleteBorderOnline()](/words/tables/re
 
 An object of the **DeleteBorderOnlineResponse** class is created by the following constructor methods:
 
-- DeleteBorderOnlineResponse([BorderResponse](#borderresponse) ***model***, <span style="color:SteelBlue;">Stream</span> ***document***)
+- DeleteBorderOnlineResponse([BorderResponse](#borderresponse) ***model***, Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; ***document***)
 
 Each of those arguments initializes the corresponding self-titled property:
 
 | Argument             | Property             | Type                                          | Description |
 |----------------------|----------------------|-----------------------------------------------|-------------|
 | ***model***          | Model                | [BorderResponse](#borderresponse)             | The response model. |
-| ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | The document after modification. |
+| ***document***       | Document             | Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; | The document after modification. |
 
 
 
@@ -231,14 +231,14 @@ Represents a response model for [WordsApi.DeleteBordersOnline()](/words/tables/r
 
 An object of the **DeleteBordersOnlineResponse** class is created by the following constructor methods:
 
-- DeleteBordersOnlineResponse([BordersResponse](#bordersresponse) ***model***, <span style="color:SteelBlue;">Stream</span> ***document***)
+- DeleteBordersOnlineResponse([BordersResponse](#bordersresponse) ***model***, Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; ***document***)
 
 Each of those arguments initializes the corresponding self-titled property:
 
 | Argument             | Property             | Type                                          | Description |
 |----------------------|----------------------|-----------------------------------------------|-------------|
 | ***model***          | Model                | [BordersResponse](#bordersresponse)           | The response model. |
-| ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | The document after modification. |
+| ***document***       | Document             | Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; | The document after modification. |
 
 
 
@@ -390,14 +390,14 @@ Represents a response model for [WordsApi.UpdateBorderOnline()](/words/tables/up
 
 An object of the **UpdateBorderOnlineResponse** class is created by the following constructor methods:
 
-- UpdateBorderOnlineResponse([BorderResponse](#borderresponse) ***model***, <span style="color:SteelBlue;">Stream</span> ***document***)
+- UpdateBorderOnlineResponse([BorderResponse](#borderresponse) ***model***, Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; ***document***)
 
 Each of those arguments initializes the corresponding self-titled property:
 
 | Argument             | Property             | Type                                          | Description |
 |----------------------|----------------------|-----------------------------------------------|-------------|
 | ***model***          | Model                | [BorderResponse](#borderresponse)             | The response model. |
-| ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | The document after modification. |
+| ***document***       | Document             | Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; | The document after modification. |
 
 
 

@@ -22,7 +22,7 @@ weight: 230
   <tr>
     <td style="vertical-align:middle;" class="bg-white" rowspan="4"><strong><i>Delete</i><strong></td>
     <td style="vertical-align:middle;" class="bg-white"><a href="#deletefieldonlinerequest">DeleteFieldOnlineRequest</a></td>
-    <td style="vertical-align:middle;" class="bg-white" colspan="2"><span style="color:SteelBlue;">System.IO.Stream</span></td>
+    <td style="vertical-align:middle;" class="bg-white" colspan="2"><span style="color:SteelBlue;">Dictionary<string,Stream></span></td>
     <td style="vertical-align:middle;" class="bg-white" rowspan="4"></td>
   </tr>
   <tr>
@@ -31,7 +31,7 @@ weight: 230
   </tr>
   <tr>
     <td style="vertical-align:middle;" class="bg-white"><a href="#deletefieldsonlinerequest">DeleteFieldsOnlineRequest</a></td>
-    <td style="vertical-align:middle;" class="bg-white" colspan="2"><span style="color:SteelBlue;">System.IO.Stream</span></td>
+    <td style="vertical-align:middle;" class="bg-white" colspan="2"><span style="color:SteelBlue;">Dictionary<string,Stream></span></td>
   </tr>
   <tr>
     <td style="vertical-align:middle;" class="bg-white"><a href="#deletefieldsrequest">DeleteFieldsRequest</a></td>
@@ -342,7 +342,7 @@ The following properties are defined:
 
 ## GetDocumentFieldNamesOnlineRequest
 
-Represents a request model for [WordsApi.GetDocumentFieldNamesOnline()](/words/mail-merge/read-field-names/) operation.
+Represents a request model for [WordsApi.GetDocumentFieldNamesOnline()](/words/mail-merge/read-field-names-online/) operation.
 
 An object of the **GetDocumentFieldNamesOnlineRequest** class is created by the following constructor methods:
 
@@ -363,7 +363,7 @@ Each of those arguments initializes the corresponding self-titled property:
 
 ## GetDocumentFieldNamesRequest
 
-Represents a request model for [WordsApi.GetDocumentFieldNames()](/words/mail-merge/read-field-names/) operation.
+Represents a request model for [WordsApi.GetDocumentFieldNames()](/words/mail-merge/read-field-names-online/) operation.
 
 An object of the **GetDocumentFieldNamesRequest** class is created by the following constructor methods:
 
@@ -506,14 +506,14 @@ Represents a response model for [WordsApi.InsertFieldOnline()](/words/fields/add
 
 An object of the **InsertFieldOnlineResponse** class is created by the following constructor methods:
 
-- InsertFieldOnlineResponse([FieldResponse](#fieldresponse) ***model***, <span style="color:SteelBlue;">Stream</span> ***document***)
+- InsertFieldOnlineResponse([FieldResponse](#fieldresponse) ***model***, Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; ***document***)
 
 Each of those arguments initializes the corresponding self-titled property:
 
 | Argument             | Property             | Type                                          | Description |
 |----------------------|----------------------|-----------------------------------------------|-------------|
 | ***model***          | Model                | [FieldResponse](#fieldresponse)               | The response model. |
-| ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | The document after modification. |
+| ***document***       | Document             | Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; | The document after modification. |
 
 
 
@@ -577,14 +577,14 @@ Represents a response model for [WordsApi.UpdateFieldOnline()](/words/fields/upd
 
 An object of the **UpdateFieldOnlineResponse** class is created by the following constructor methods:
 
-- UpdateFieldOnlineResponse([FieldResponse](#fieldresponse) ***model***, <span style="color:SteelBlue;">Stream</span> ***document***)
+- UpdateFieldOnlineResponse([FieldResponse](#fieldresponse) ***model***, Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; ***document***)
 
 Each of those arguments initializes the corresponding self-titled property:
 
 | Argument             | Property             | Type                                          | Description |
 |----------------------|----------------------|-----------------------------------------------|-------------|
 | ***model***          | Model                | [FieldResponse](#fieldresponse)               | The response model. |
-| ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | The document after modification. |
+| ***document***       | Document             | Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; | The document after modification. |
 
 
 
@@ -643,14 +643,14 @@ Represents a response model for [WordsApi.UpdateFieldsOnline()](/words/fields/up
 
 An object of the **UpdateFieldsOnlineResponse** class is created by the following constructor methods:
 
-- UpdateFieldsOnlineResponse([DocumentResponse](/words/spec/document#documentresponse) ***model***, <span style="color:SteelBlue;">Stream</span> ***document***)
+- UpdateFieldsOnlineResponse([DocumentResponse](/words/spec/document#documentresponse) ***model***, Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; ***document***)
 
 Each of those arguments initializes the corresponding self-titled property:
 
 | Argument             | Property             | Type                                          | Description |
 |----------------------|----------------------|-----------------------------------------------|-------------|
 | ***model***          | Model                | [DocumentResponse](/words/spec/document#documentresponse) | The response model. |
-| ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | The document after modification. |
+| ***document***       | Document             | Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; | The document after modification. |
 
 
 

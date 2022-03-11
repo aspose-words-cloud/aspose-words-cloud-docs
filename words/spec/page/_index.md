@@ -33,7 +33,7 @@ weight: 350
   <tr>
     <td style="vertical-align:middle;" class="bg-white" rowspan="2"><strong><i>Render</i><strong></td>
     <td style="vertical-align:middle;" class="bg-white"><a href="#renderpageonlinerequest">RenderPageOnlineRequest</a></td>
-    <td style="vertical-align:middle;" class="bg-white" rowspan="2" colspan="2"><span style="color:SteelBlue;">System.IO.Stream</span></td>
+    <td style="vertical-align:middle;" class="bg-white" rowspan="2" colspan="2"><span style="color:SteelBlue;">Stream</span></td>
     <td style="vertical-align:middle;" class="bg-white" rowspan="2"></td>
   </tr>
   <tr>
@@ -89,14 +89,14 @@ Represents a response model for [WordsApi.InsertPageNumbersOnline()](/words/inse
 
 An object of the **InsertPageNumbersOnlineResponse** class is created by the following constructor methods:
 
-- InsertPageNumbersOnlineResponse([DocumentResponse](/words/spec/document#documentresponse) ***model***, <span style="color:SteelBlue;">Stream</span> ***document***)
+- InsertPageNumbersOnlineResponse([DocumentResponse](/words/spec/document#documentresponse) ***model***, Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; ***document***)
 
 Each of those arguments initializes the corresponding self-titled property:
 
 | Argument             | Property             | Type                                          | Description |
 |----------------------|----------------------|-----------------------------------------------|-------------|
 | ***model***          | Model                | [DocumentResponse](/words/spec/document#documentresponse) | The response model. |
-| ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | The document after modification. |
+| ***document***       | Document             | Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; | The document after modification. |
 
 
 

@@ -11,7 +11,7 @@ weight: 510
 
 ## ApiError
 
-Represents a api error.
+Represents an API error.
 
 This class is used in [WordsApiErrorResponse](#wordsapierrorresponse).
 
@@ -27,7 +27,7 @@ The following properties are defined:
 
 ## WordsApiLink
 
-Represents a provides information for the words API resource link.
+Provides information on the Words API resource link.
 
 This class is inherited from [Link](/words/spec/document#link) and used in [Bookmark](/words/spec/bookmark#bookmark), [Bookmarks](/words/spec/bookmark#bookmarks), [Border](/words/spec/border#border), [BordersCollection](/words/spec/border#borderscollection), [Comment](/words/spec/comment#comment), [CommentLink](/words/spec/comment#commentlink), [CommentsCollection](/words/spec/comment#commentscollection), [CustomXmlPart](/words/spec/customxmlpart#customxmlpart), [CustomXmlPartInsert](/words/spec/customxmlpart#customxmlpartinsert), [CustomXmlPartLink](/words/spec/customxmlpart#customxmlpartlink), [CustomXmlPartsCollection](/words/spec/customxmlpart#customxmlpartscollection), [CustomXmlPartUpdate](/words/spec/customxmlpart#customxmlpartupdate), [DocumentProperties](/words/spec/documentproperties#documentproperties), [DocumentProperty](/words/spec/documentproperties#documentproperty), [DrawingObject](/words/spec/drawingobject#drawingobject), [DrawingObjectCollection](/words/spec/drawingobject#drawingobjectcollection), [DrawingObjectLink](/words/spec/drawingobject#drawingobjectlink), [Field](/words/spec/field#field), [FieldCollection](/words/spec/field#fieldcollection), [FieldLink](/words/spec/field#fieldlink), [FieldNames](/words/spec/field#fieldnames), [Font](/words/spec/font#font), [Footnote](/words/spec/footnote#footnote), [FootnoteCollection](/words/spec/footnote#footnotecollection), [FootnoteLink](/words/spec/footnote#footnotelink), [FormField](/words/spec/formfield#formfield), [FormFieldCheckbox](/words/spec/formfield#formfieldcheckbox), [FormFieldCollection](/words/spec/formfield#formfieldcollection), [FormFieldDropDown](/words/spec/formfield#formfielddropdown), [FormFieldTextInput](/words/spec/formfield#formfieldtextinput), [HeaderFooter](/words/spec/headerfooter#headerfooter), [HeaderFooterLink](/words/spec/headerfooter#headerfooterlink), [HeaderFooterLinkCollection](/words/spec/headerfooter#headerfooterlinkcollection), [Hyperlink](/words/spec/hyperlink#hyperlink), [Hyperlinks](/words/spec/hyperlink#hyperlinks), [LinkElement](/words/spec/link#linkelement), [ListFormat](/words/spec/paragraphlist#listformat), [ListInfo](/words/spec/list#listinfo), [ListLevel](/words/spec/list#listlevel), [ListLevels](/words/spec/list#listlevels), [Lists](/words/spec/list#lists), [NodeLink](/words/spec/link#nodelink), [OfficeMathLink](/words/spec/link#officemathlink), [OfficeMathObject](/words/spec/mathobject#officemathobject), [OfficeMathObjectsCollection](/words/spec/mathobject#officemathobjectscollection), [PageSetup](/words/spec/section#pagesetup), [Paragraph](/words/spec/paragraph#paragraph), [ParagraphFormat](/words/spec/paragraphformat#paragraphformat), [ParagraphFormatBase](/words/spec/paragraphformat#paragraphformatbase), [ParagraphFormatUpdate](/words/spec/paragraphformat#paragraphformatupdate), [ParagraphLink](/words/spec/paragraph#paragraphlink), [ParagraphLinkCollection](/words/spec/paragraph#paragraphlinkcollection), [Run](/words/spec/run#run), [RunLink](/words/spec/run#runlink), [Runs](/words/spec/run#runs), [SearchResultsCollection](/words/spec/text#searchresultscollection), [Section](/words/spec/section#section), [SectionLink](/words/spec/section#sectionlink), [SectionLinkCollection](/words/spec/section#sectionlinkcollection), [Style](/words/spec/style#style), [Table](/words/spec/table#table), [TableCell](/words/spec/tablecell#tablecell), [TableCellFormat](/words/spec/tablecell#tablecellformat), [TableLink](/words/spec/table#tablelink), [TableLinkCollection](/words/spec/table#tablelinkcollection), [TableProperties](/words/spec/tableproperties#tableproperties), [TableRow](/words/spec/tablerow#tablerow), [TableRowFormat](/words/spec/tablerow#tablerowformat).
 
@@ -43,7 +43,7 @@ The following properties are defined:
 
 ## WordsApiErrorResponse
 
-Represents a REST response with an API error.
+Represents a REST response with an error.
 
 The following properties are defined:
 
@@ -55,7 +55,7 @@ The following properties are defined:
 
 ## ApiException
 
-Represents a aPI exception.
+Represents an API exception.
 
 An object of the **ApiException** class is created by the following constructor methods:
 
@@ -90,12 +90,14 @@ The following properties are defined:
 | ClientId             | <span style="color:SteelBlue;">string</span>  | Gets or sets the client id. |
 | ClientSecret         | <span style="color:SteelBlue;">string</span>  | Gets or sets the client secret. |
 | Timeout              | <span style="color:SteelBlue;">int</span>     | Gets or sets a request timeout in seconds. Default is 100 seconds. |
+| Modulus              | <span style="color:SteelBlue;">string</span>  | Gets or sets RSA encryptor modulus as base64 string. |
+| Exponent             | <span style="color:SteelBlue;">string</span>  | Gets or sets RSA encryptor expoenent as base64 string. |
 | AuthType             | [AuthType](#authtype)                         | Authentication type. Default is OAuth 2.0 |
 
 
 ## WordsApi
 
-Represents a aspose.Words for Cloud API.
+Aspose.Words for Cloud API.
 
 An object of the **WordsApi** class is created by the following constructor methods:
 
@@ -134,13 +136,13 @@ An object of the **WordsApi** class is created by the following constructor meth
   </tr>
 </table>
 - [DocumentResponse](/words/spec/document#documentresponse) **BuildReport**([BuildReportRequest](/words/spec/report#buildreportrequest) *request*) - executes the report generation process using the specified document template and the external data source in XML, JSON or CSV format.
-- <span style="color:SteelBlue;">System.IO.Stream</span> **BuildReportOnline**([BuildReportOnlineRequest](/words/spec/report#buildreportonlinerequest) *request*) - executes the report generation process online using the specified document template and the external data source in XML, JSON or CSV format.
+- <span style="color:SteelBlue;">Stream</span> **BuildReportOnline**([BuildReportOnlineRequest](/words/spec/report#buildreportonlinerequest) *request*) - executes the report generation process online using the specified document template and the external data source in XML, JSON or CSV format.
 - [ClassificationResponse](/words/spec/documentclassification#classificationresponse) **Classify**([ClassifyRequest](/words/spec/documentclassification#classifyrequest) *request*) - runs a multi-class text classification for the specified raw text.
 - [ClassificationResponse](/words/spec/documentclassification#classificationresponse) **ClassifyDocument**([ClassifyDocumentRequest](/words/spec/documentclassification#classifydocumentrequest) *request*) - runs a multi-class text classification for the document.
 - [ClassificationResponse](/words/spec/documentclassification#classificationresponse) **ClassifyDocumentOnline**([ClassifyDocumentOnlineRequest](/words/spec/documentclassification#classifydocumentonlinerequest) *request*) - runs a multi-class text classification for the document.
 - [DocumentResponse](/words/spec/document#documentresponse) **CompareDocument**([CompareDocumentRequest](/words/spec/document#comparedocumentrequest) *request*) - compares two documents.
 - [CompareDocumentOnlineResponse](/words/spec/document#comparedocumentonlineresponse) **CompareDocumentOnline**([CompareDocumentOnlineRequest](/words/spec/document#comparedocumentonlinerequest) *request*) - compares two documents.
-- <span style="color:SteelBlue;">System.IO.Stream</span> **ConvertDocument**([ConvertDocumentRequest](/words/spec/document#convertdocumentrequest) *request*) - converts a document on a local drive to the specified format.
+- <span style="color:SteelBlue;">Stream</span> **ConvertDocument**([ConvertDocumentRequest](/words/spec/document#convertdocumentrequest) *request*) - converts a document on a local drive to the specified format.
 - <span style="color:SteelBlue;">Task</span> **CopyFile**([CopyFileRequest](/words/spec/file#copyfilerequest) *request*) - copy file.
 - <span style="color:SteelBlue;">Task</span> **CopyFolder**([CopyFolderRequest](/words/spec/file#copyfolderrequest) *request*) - copy folder.
 - [StyleResponse](/words/spec/style#styleresponse) **CopyStyle**([CopyStyleRequest](/words/spec/style#copystylerequest) *request*) - makes a copy of the style in the document.
@@ -156,56 +158,57 @@ An object of the **WordsApi** class is created by the following constructor meth
 - [BordersResponse](/words/spec/border#bordersresponse) **DeleteBorders**([DeleteBordersRequest](/words/spec/border#deletebordersrequest) *request*) - the 'nodePath' parameter should refer to a paragraph, a cell or a row.
 - [DeleteBordersOnlineResponse](/words/spec/border#deletebordersonlineresponse) **DeleteBordersOnline**([DeleteBordersOnlineRequest](/words/spec/border#deletebordersonlinerequest) *request*) - removes borders from the document node.
 - <span style="color:SteelBlue;">Task</span> **DeleteComment**([DeleteCommentRequest](/words/spec/comment#deletecommentrequest) *request*) - removes a comment from the document.
-- <span style="color:SteelBlue;">System.IO.Stream</span> **DeleteCommentOnline**([DeleteCommentOnlineRequest](/words/spec/comment#deletecommentonlinerequest) *request*) - removes a comment from the document.
+- <span style="color:SteelBlue;">Dictionary<string,Stream></span> **DeleteCommentOnline**([DeleteCommentOnlineRequest](/words/spec/comment#deletecommentonlinerequest) *request*) - removes a comment from the document.
 - <span style="color:SteelBlue;">Task</span> **DeleteComments**([DeleteCommentsRequest](/words/spec/comment#deletecommentsrequest) *request*) - removes all comments from the document.
-- <span style="color:SteelBlue;">System.IO.Stream</span> **DeleteCommentsOnline**([DeleteCommentsOnlineRequest](/words/spec/comment#deletecommentsonlinerequest) *request*) - removes all comments from the document.
+- <span style="color:SteelBlue;">Dictionary<string,Stream></span> **DeleteCommentsOnline**([DeleteCommentsOnlineRequest](/words/spec/comment#deletecommentsonlinerequest) *request*) - removes all comments from the document.
 - <span style="color:SteelBlue;">Task</span> **DeleteCustomXmlPart**([DeleteCustomXmlPartRequest](/words/spec/customxmlpart#deletecustomxmlpartrequest) *request*) - removes the custom xml part from the document.
-- <span style="color:SteelBlue;">System.IO.Stream</span> **DeleteCustomXmlPartOnline**([DeleteCustomXmlPartOnlineRequest](/words/spec/customxmlpart#deletecustomxmlpartonlinerequest) *request*) - removes the custom xml part from the document.
+- <span style="color:SteelBlue;">Dictionary<string,Stream></span> **DeleteCustomXmlPartOnline**([DeleteCustomXmlPartOnlineRequest](/words/spec/customxmlpart#deletecustomxmlpartonlinerequest) *request*) - removes the custom xml part from the document.
 - <span style="color:SteelBlue;">Task</span> **DeleteCustomXmlParts**([DeleteCustomXmlPartsRequest](/words/spec/customxmlpart#deletecustomxmlpartsrequest) *request*) - removes all custom xml parts from the document.
-- <span style="color:SteelBlue;">System.IO.Stream</span> **DeleteCustomXmlPartsOnline**([DeleteCustomXmlPartsOnlineRequest](/words/spec/customxmlpart#deletecustomxmlpartsonlinerequest) *request*) - removes all custom xml parts from the document.
+- <span style="color:SteelBlue;">Dictionary<string,Stream></span> **DeleteCustomXmlPartsOnline**([DeleteCustomXmlPartsOnlineRequest](/words/spec/customxmlpart#deletecustomxmlpartsonlinerequest) *request*) - removes all custom xml parts from the document.
 - <span style="color:SteelBlue;">Task</span> **DeleteDocumentProperty**([DeleteDocumentPropertyRequest](/words/spec/documentproperties#deletedocumentpropertyrequest) *request*) - removes a document property.
-- <span style="color:SteelBlue;">System.IO.Stream</span> **DeleteDocumentPropertyOnline**([DeleteDocumentPropertyOnlineRequest](/words/spec/documentproperties#deletedocumentpropertyonlinerequest) *request*) - removes a document property.
+- <span style="color:SteelBlue;">Dictionary<string,Stream></span> **DeleteDocumentPropertyOnline**([DeleteDocumentPropertyOnlineRequest](/words/spec/documentproperties#deletedocumentpropertyonlinerequest) *request*) - removes a document property.
 - <span style="color:SteelBlue;">Task</span> **DeleteDrawingObject**([DeleteDrawingObjectRequest](/words/spec/drawingobject#deletedrawingobjectrequest) *request*) - removes a DrawingObject from the document node.
-- <span style="color:SteelBlue;">System.IO.Stream</span> **DeleteDrawingObjectOnline**([DeleteDrawingObjectOnlineRequest](/words/spec/drawingobject#deletedrawingobjectonlinerequest) *request*) - removes a DrawingObject from the document node.
+- <span style="color:SteelBlue;">Dictionary<string,Stream></span> **DeleteDrawingObjectOnline**([DeleteDrawingObjectOnlineRequest](/words/spec/drawingobject#deletedrawingobjectonlinerequest) *request*) - removes a DrawingObject from the document node.
 - <span style="color:SteelBlue;">Task</span> **DeleteField**([DeleteFieldRequest](/words/spec/field#deletefieldrequest) *request*) - removes a field from the document node.
-- <span style="color:SteelBlue;">System.IO.Stream</span> **DeleteFieldOnline**([DeleteFieldOnlineRequest](/words/spec/field#deletefieldonlinerequest) *request*) - removes a field from the document node.
+- <span style="color:SteelBlue;">Dictionary<string,Stream></span> **DeleteFieldOnline**([DeleteFieldOnlineRequest](/words/spec/field#deletefieldonlinerequest) *request*) - removes a field from the document node.
 - <span style="color:SteelBlue;">Task</span> **DeleteFields**([DeleteFieldsRequest](/words/spec/field#deletefieldsrequest) *request*) - removes fields from the document node.
-- <span style="color:SteelBlue;">System.IO.Stream</span> **DeleteFieldsOnline**([DeleteFieldsOnlineRequest](/words/spec/field#deletefieldsonlinerequest) *request*) - removes fields from the document node.
+- <span style="color:SteelBlue;">Dictionary<string,Stream></span> **DeleteFieldsOnline**([DeleteFieldsOnlineRequest](/words/spec/field#deletefieldsonlinerequest) *request*) - removes fields from the document node.
 - <span style="color:SteelBlue;">Task</span> **DeleteFile**([DeleteFileRequest](/words/spec/file#deletefilerequest) *request*) - delete file.
 - <span style="color:SteelBlue;">Task</span> **DeleteFolder**([DeleteFolderRequest](/words/spec/file#deletefolderrequest) *request*) - delete folder.
 - <span style="color:SteelBlue;">Task</span> **DeleteFootnote**([DeleteFootnoteRequest](/words/spec/footnote#deletefootnoterequest) *request*) - removes a footnote from the document node.
-- <span style="color:SteelBlue;">System.IO.Stream</span> **DeleteFootnoteOnline**([DeleteFootnoteOnlineRequest](/words/spec/footnote#deletefootnoteonlinerequest) *request*) - removes a footnote from the document node.
+- <span style="color:SteelBlue;">Dictionary<string,Stream></span> **DeleteFootnoteOnline**([DeleteFootnoteOnlineRequest](/words/spec/footnote#deletefootnoteonlinerequest) *request*) - removes a footnote from the document node.
 - <span style="color:SteelBlue;">Task</span> **DeleteFormField**([DeleteFormFieldRequest](/words/spec/formfield#deleteformfieldrequest) *request*) - removes a form field from the document node.
-- <span style="color:SteelBlue;">System.IO.Stream</span> **DeleteFormFieldOnline**([DeleteFormFieldOnlineRequest](/words/spec/formfield#deleteformfieldonlinerequest) *request*) - removes a form field from the document node.
+- <span style="color:SteelBlue;">Dictionary<string,Stream></span> **DeleteFormFieldOnline**([DeleteFormFieldOnlineRequest](/words/spec/formfield#deleteformfieldonlinerequest) *request*) - removes a form field from the document node.
 - <span style="color:SteelBlue;">Task</span> **DeleteHeaderFooter**([DeleteHeaderFooterRequest](/words/spec/headerfooter#deleteheaderfooterrequest) *request*) - removes a HeaderFooter object from the document section.
-- <span style="color:SteelBlue;">System.IO.Stream</span> **DeleteHeaderFooterOnline**([DeleteHeaderFooterOnlineRequest](/words/spec/headerfooter#deleteheaderfooteronlinerequest) *request*) - removes a HeaderFooter object from the document section.
+- <span style="color:SteelBlue;">Dictionary<string,Stream></span> **DeleteHeaderFooterOnline**([DeleteHeaderFooterOnlineRequest](/words/spec/headerfooter#deleteheaderfooteronlinerequest) *request*) - removes a HeaderFooter object from the document section.
 - <span style="color:SteelBlue;">Task</span> **DeleteHeadersFooters**([DeleteHeadersFootersRequest](/words/spec/headerfooter#deleteheadersfootersrequest) *request*) - removes HeaderFooter objects from the document section.
-- <span style="color:SteelBlue;">System.IO.Stream</span> **DeleteHeadersFootersOnline**([DeleteHeadersFootersOnlineRequest](/words/spec/headerfooter#deleteheadersfootersonlinerequest) *request*) - removes HeaderFooter objects from the document section.
+- <span style="color:SteelBlue;">Dictionary<string,Stream></span> **DeleteHeadersFootersOnline**([DeleteHeadersFootersOnlineRequest](/words/spec/headerfooter#deleteheadersfootersonlinerequest) *request*) - removes HeaderFooter objects from the document section.
 - <span style="color:SteelBlue;">Task</span> **DeleteMacros**([DeleteMacrosRequest](/words/spec/macros#deletemacrosrequest) *request*) - removes macros from the document.
-- <span style="color:SteelBlue;">System.IO.Stream</span> **DeleteMacrosOnline**([DeleteMacrosOnlineRequest](/words/spec/macros#deletemacrosonlinerequest) *request*) - removes macros from the document.
+- <span style="color:SteelBlue;">Dictionary<string,Stream></span> **DeleteMacrosOnline**([DeleteMacrosOnlineRequest](/words/spec/macros#deletemacrosonlinerequest) *request*) - removes macros from the document.
 - <span style="color:SteelBlue;">Task</span> **DeleteOfficeMathObject**([DeleteOfficeMathObjectRequest](/words/spec/mathobject#deleteofficemathobjectrequest) *request*) - removes an OfficeMath object from the document node.
-- <span style="color:SteelBlue;">System.IO.Stream</span> **DeleteOfficeMathObjectOnline**([DeleteOfficeMathObjectOnlineRequest](/words/spec/mathobject#deleteofficemathobjectonlinerequest) *request*) - removes an OfficeMath object from the document node.
+- <span style="color:SteelBlue;">Dictionary<string,Stream></span> **DeleteOfficeMathObjectOnline**([DeleteOfficeMathObjectOnlineRequest](/words/spec/mathobject#deleteofficemathobjectonlinerequest) *request*) - removes an OfficeMath object from the document node.
 - <span style="color:SteelBlue;">Task</span> **DeleteParagraph**([DeleteParagraphRequest](/words/spec/paragraph#deleteparagraphrequest) *request*) - removes a paragraph from the document node.
 - [ParagraphListFormatResponse](/words/spec/paragraphlist#paragraphlistformatresponse) **DeleteParagraphListFormat**([DeleteParagraphListFormatRequest](/words/spec/paragraphlist#deleteparagraphlistformatrequest) *request*) - removes the formatting properties of a paragraph list from the document node.
 - [DeleteParagraphListFormatOnlineResponse](/words/spec/paragraphlist#deleteparagraphlistformatonlineresponse) **DeleteParagraphListFormatOnline**([DeleteParagraphListFormatOnlineRequest](/words/spec/paragraphlist#deleteparagraphlistformatonlinerequest) *request*) - removes the formatting properties of a paragraph list from the document node.
-- <span style="color:SteelBlue;">System.IO.Stream</span> **DeleteParagraphOnline**([DeleteParagraphOnlineRequest](/words/spec/paragraph#deleteparagraphonlinerequest) *request*) - removes a paragraph from the document node.
+- <span style="color:SteelBlue;">Dictionary<string,Stream></span> **DeleteParagraphOnline**([DeleteParagraphOnlineRequest](/words/spec/paragraph#deleteparagraphonlinerequest) *request*) - removes a paragraph from the document node.
 - [TabStopsResponse](/words/spec/paragraphtabstop#tabstopsresponse) **DeleteParagraphTabStop**([DeleteParagraphTabStopRequest](/words/spec/paragraphtabstop#deleteparagraphtabstoprequest) *request*) - removes a paragraph tab stop from the document node.
 - [DeleteParagraphTabStopOnlineResponse](/words/spec/paragraphtabstop#deleteparagraphtabstoponlineresponse) **DeleteParagraphTabStopOnline**([DeleteParagraphTabStopOnlineRequest](/words/spec/paragraphtabstop#deleteparagraphtabstoponlinerequest) *request*) - removes a paragraph tab stop from the document node.
 - <span style="color:SteelBlue;">Task</span> **DeleteRun**([DeleteRunRequest](/words/spec/run#deleterunrequest) *request*) - removes a Run object from the paragraph.
-- <span style="color:SteelBlue;">System.IO.Stream</span> **DeleteRunOnline**([DeleteRunOnlineRequest](/words/spec/run#deleterunonlinerequest) *request*) - removes a Run object from the paragraph.
+- <span style="color:SteelBlue;">Dictionary<string,Stream></span> **DeleteRunOnline**([DeleteRunOnlineRequest](/words/spec/run#deleterunonlinerequest) *request*) - removes a Run object from the paragraph.
 - <span style="color:SteelBlue;">Task</span> **DeleteSection**([DeleteSectionRequest](/words/spec/section#deletesectionrequest) *request*) - removes a section from the document.
-- <span style="color:SteelBlue;">System.IO.Stream</span> **DeleteSectionOnline**([DeleteSectionOnlineRequest](/words/spec/section#deletesectiononlinerequest) *request*) - removes a section from the document.
+- <span style="color:SteelBlue;">Dictionary<string,Stream></span> **DeleteSectionOnline**([DeleteSectionOnlineRequest](/words/spec/section#deletesectiononlinerequest) *request*) - removes a section from the document.
 - <span style="color:SteelBlue;">Task</span> **DeleteTable**([DeleteTableRequest](/words/spec/table#deletetablerequest) *request*) - removes a table from the document node.
 - <span style="color:SteelBlue;">Task</span> **DeleteTableCell**([DeleteTableCellRequest](/words/spec/tablecell#deletetablecellrequest) *request*) - removes a cell from the table row.
-- <span style="color:SteelBlue;">System.IO.Stream</span> **DeleteTableCellOnline**([DeleteTableCellOnlineRequest](/words/spec/tablecell#deletetablecellonlinerequest) *request*) - removes a cell from the table row.
-- <span style="color:SteelBlue;">System.IO.Stream</span> **DeleteTableOnline**([DeleteTableOnlineRequest](/words/spec/table#deletetableonlinerequest) *request*) - removes a table from the document node.
+- <span style="color:SteelBlue;">Dictionary<string,Stream></span> **DeleteTableCellOnline**([DeleteTableCellOnlineRequest](/words/spec/tablecell#deletetablecellonlinerequest) *request*) - removes a cell from the table row.
+- <span style="color:SteelBlue;">Dictionary<string,Stream></span> **DeleteTableOnline**([DeleteTableOnlineRequest](/words/spec/table#deletetableonlinerequest) *request*) - removes a table from the document node.
 - <span style="color:SteelBlue;">Task</span> **DeleteTableRow**([DeleteTableRowRequest](/words/spec/tablerow#deletetablerowrequest) *request*) - removes a row from the table.
-- <span style="color:SteelBlue;">System.IO.Stream</span> **DeleteTableRowOnline**([DeleteTableRowOnlineRequest](/words/spec/tablerow#deletetablerowonlinerequest) *request*) - removes a row from the table.
+- <span style="color:SteelBlue;">Dictionary<string,Stream></span> **DeleteTableRowOnline**([DeleteTableRowOnlineRequest](/words/spec/tablerow#deletetablerowonlinerequest) *request*) - removes a row from the table.
 - [DocumentResponse](/words/spec/document#documentresponse) **DeleteWatermark**([DeleteWatermarkRequest](/words/spec/watermark#deletewatermarkrequest) *request*) - removes a watermark from the document.
 - [DeleteWatermarkOnlineResponse](/words/spec/watermark#deletewatermarkonlineresponse) **DeleteWatermarkOnline**([DeleteWatermarkOnlineRequest](/words/spec/watermark#deletewatermarkonlinerequest) *request*) - removes a watermark from the document.
-- <span style="color:SteelBlue;">System.IO.Stream</span> **DownloadFile**([DownloadFileRequest](/words/spec/file#downloadfilerequest) *request*) - download file.
+- <span style="color:SteelBlue;">Stream</span> **DownloadFile**([DownloadFileRequest](/words/spec/file#downloadfilerequest) *request*) - download file.
+- <span style="color:SteelBlue;">string</span> **Encrypt**(<span style="color:SteelBlue;">string</span> *data*) - encrypt a string.
 - [DocumentResponse](/words/spec/document#documentresponse) **ExecuteMailMerge**([ExecuteMailMergeRequest](/words/spec/report#executemailmergerequest) *request*) - executes a Mail Merge operation.
-- <span style="color:SteelBlue;">System.IO.Stream</span> **ExecuteMailMergeOnline**([ExecuteMailMergeOnlineRequest](/words/spec/report#executemailmergeonlinerequest) *request*) - executes a Mail Merge operation online.
+- <span style="color:SteelBlue;">Stream</span> **ExecuteMailMergeOnline**([ExecuteMailMergeOnlineRequest](/words/spec/report#executemailmergeonlinerequest) *request*) - executes a Mail Merge operation online.
 - [AvailableFontsResponse](/words/spec/font#availablefontsresponse) **GetAvailableFonts**([GetAvailableFontsRequest](/words/spec/font#getavailablefontsrequest) *request*) - reads available fonts from the document.
 - [BookmarkResponse](/words/spec/bookmark#bookmarkresponse) **GetBookmarkByName**([GetBookmarkByNameRequest](/words/spec/bookmark#getbookmarkbynamerequest) *request*) - reads a bookmark, specified by name, from the document.
 - [BookmarkResponse](/words/spec/bookmark#bookmarkresponse) **GetBookmarkByNameOnline**([GetBookmarkByNameOnlineRequest](/words/spec/bookmark#getbookmarkbynameonlinerequest) *request*) - reads a bookmark, specified by name, from the document.
@@ -226,10 +229,10 @@ An object of the **WordsApi** class is created by the following constructor meth
 - [DocumentResponse](/words/spec/document#documentresponse) **GetDocument**([GetDocumentRequest](/words/spec/document#getdocumentrequest) *request*) - reads common information from the document.
 - [DrawingObjectResponse](/words/spec/drawingobject#drawingobjectresponse) **GetDocumentDrawingObjectByIndex**([GetDocumentDrawingObjectByIndexRequest](/words/spec/drawingobject#getdocumentdrawingobjectbyindexrequest) *request*) - reads a DrawingObject from the document node.
 - [DrawingObjectResponse](/words/spec/drawingobject#drawingobjectresponse) **GetDocumentDrawingObjectByIndexOnline**([GetDocumentDrawingObjectByIndexOnlineRequest](/words/spec/drawingobject#getdocumentdrawingobjectbyindexonlinerequest) *request*) - reads a DrawingObject from the document node.
-- <span style="color:SteelBlue;">System.IO.Stream</span> **GetDocumentDrawingObjectImageData**([GetDocumentDrawingObjectImageDataRequest](/words/spec/drawingobject#getdocumentdrawingobjectimagedatarequest) *request*) - reads image data of a DrawingObject from the document node.
-- <span style="color:SteelBlue;">System.IO.Stream</span> **GetDocumentDrawingObjectImageDataOnline**([GetDocumentDrawingObjectImageDataOnlineRequest](/words/spec/drawingobject#getdocumentdrawingobjectimagedataonlinerequest) *request*) - reads image data of a DrawingObject from the document node.
-- <span style="color:SteelBlue;">System.IO.Stream</span> **GetDocumentDrawingObjectOleData**([GetDocumentDrawingObjectOleDataRequest](/words/spec/drawingobject#getdocumentdrawingobjectoledatarequest) *request*) - reads OLE data of a DrawingObject from the document node.
-- <span style="color:SteelBlue;">System.IO.Stream</span> **GetDocumentDrawingObjectOleDataOnline**([GetDocumentDrawingObjectOleDataOnlineRequest](/words/spec/drawingobject#getdocumentdrawingobjectoledataonlinerequest) *request*) - reads OLE data of a DrawingObject from the document node.
+- <span style="color:SteelBlue;">Stream</span> **GetDocumentDrawingObjectImageData**([GetDocumentDrawingObjectImageDataRequest](/words/spec/drawingobject#getdocumentdrawingobjectimagedatarequest) *request*) - reads image data of a DrawingObject from the document node.
+- <span style="color:SteelBlue;">Stream</span> **GetDocumentDrawingObjectImageDataOnline**([GetDocumentDrawingObjectImageDataOnlineRequest](/words/spec/drawingobject#getdocumentdrawingobjectimagedataonlinerequest) *request*) - reads image data of a DrawingObject from the document node.
+- <span style="color:SteelBlue;">Stream</span> **GetDocumentDrawingObjectOleData**([GetDocumentDrawingObjectOleDataRequest](/words/spec/drawingobject#getdocumentdrawingobjectoledatarequest) *request*) - reads OLE data of a DrawingObject from the document node.
+- <span style="color:SteelBlue;">Stream</span> **GetDocumentDrawingObjectOleDataOnline**([GetDocumentDrawingObjectOleDataOnlineRequest](/words/spec/drawingobject#getdocumentdrawingobjectoledataonlinerequest) *request*) - reads OLE data of a DrawingObject from the document node.
 - [DrawingObjectsResponse](/words/spec/drawingobject#drawingobjectsresponse) **GetDocumentDrawingObjects**([GetDocumentDrawingObjectsRequest](/words/spec/drawingobject#getdocumentdrawingobjectsrequest) *request*) - reads DrawingObjects from the document node.
 - [DrawingObjectsResponse](/words/spec/drawingobject#drawingobjectsresponse) **GetDocumentDrawingObjectsOnline**([GetDocumentDrawingObjectsOnlineRequest](/words/spec/drawingobject#getdocumentdrawingobjectsonlinerequest) *request*) - reads DrawingObjects from the document node.
 - [FieldNamesResponse](/words/spec/field#fieldnamesresponse) **GetDocumentFieldNames**([GetDocumentFieldNamesRequest](/words/spec/field#getdocumentfieldnamesrequest) *request*) - reads merge field names from the document.
@@ -246,7 +249,7 @@ An object of the **WordsApi** class is created by the following constructor meth
 - [ProtectionDataResponse](/words/spec/documentprotection#protectiondataresponse) **GetDocumentProtectionOnline**([GetDocumentProtectionOnlineRequest](/words/spec/documentprotection#getdocumentprotectiononlinerequest) *request*) - reads protection properties from the document.
 - [StatDataResponse](/words/spec/documentstatistics#statdataresponse) **GetDocumentStatistics**([GetDocumentStatisticsRequest](/words/spec/documentstatistics#getdocumentstatisticsrequest) *request*) - reads document statistics.
 - [StatDataResponse](/words/spec/documentstatistics#statdataresponse) **GetDocumentStatisticsOnline**([GetDocumentStatisticsOnlineRequest](/words/spec/documentstatistics#getdocumentstatisticsonlinerequest) *request*) - reads document statistics.
-- <span style="color:SteelBlue;">System.IO.Stream</span> **GetDocumentWithFormat**([GetDocumentWithFormatRequest](/words/spec/document#getdocumentwithformatrequest) *request*) - converts a document in cloud storage to the specified format.
+- <span style="color:SteelBlue;">Stream</span> **GetDocumentWithFormat**([GetDocumentWithFormatRequest](/words/spec/document#getdocumentwithformatrequest) *request*) - converts a document in cloud storage to the specified format.
 - [FieldResponse](/words/spec/field#fieldresponse) **GetField**([GetFieldRequest](/words/spec/field#getfieldrequest) *request*) - reads a field from the document node.
 - [FieldResponse](/words/spec/field#fieldresponse) **GetFieldOnline**([GetFieldOnlineRequest](/words/spec/field#getfieldonlinerequest) *request*) - reads a field from the document node.
 - [FieldsResponse](/words/spec/field#fieldsresponse) **GetFields**([GetFieldsRequest](/words/spec/field#getfieldsrequest) *request*) - reads fields from the document node.
@@ -360,23 +363,23 @@ An object of the **WordsApi** class is created by the following constructor meth
 - <span style="color:SteelBlue;">Task</span> **MoveFile**([MoveFileRequest](/words/spec/file#movefilerequest) *request*) - move file.
 - <span style="color:SteelBlue;">Task</span> **MoveFolder**([MoveFolderRequest](/words/spec/file#movefolderrequest) *request*) - move folder.
 - <span style="color:SteelBlue;">Task</span> **OptimizeDocument**([OptimizeDocumentRequest](/words/spec/document#optimizedocumentrequest) *request*) - applies document content optimization options, specific to a particular versions of Microsoft Word.
-- <span style="color:SteelBlue;">System.IO.Stream</span> **OptimizeDocumentOnline**([OptimizeDocumentOnlineRequest](/words/spec/document#optimizedocumentonlinerequest) *request*) - applies document content optimization options, specific to a particular versions of Microsoft Word.
+- <span style="color:SteelBlue;">Dictionary<string,Stream></span> **OptimizeDocumentOnline**([OptimizeDocumentOnlineRequest](/words/spec/document#optimizedocumentonlinerequest) *request*) - applies document content optimization options, specific to a particular versions of Microsoft Word.
 - [ProtectionDataResponse](/words/spec/documentprotection#protectiondataresponse) **ProtectDocument**([ProtectDocumentRequest](/words/spec/documentprotection#protectdocumentrequest) *request*) - adds protection to the document.
 - [ProtectDocumentOnlineResponse](/words/spec/documentprotection#protectdocumentonlineresponse) **ProtectDocumentOnline**([ProtectDocumentOnlineRequest](/words/spec/documentprotection#protectdocumentonlinerequest) *request*) - adds protection to the document.
 - [RevisionsModificationResponse](/words/spec/documentrevision#revisionsmodificationresponse) **RejectAllRevisions**([RejectAllRevisionsRequest](/words/spec/documentrevision#rejectallrevisionsrequest) *request*) - rejects all revisions in the document.
 - [RejectAllRevisionsOnlineResponse](/words/spec/documentrevision#rejectallrevisionsonlineresponse) **RejectAllRevisionsOnline**([RejectAllRevisionsOnlineRequest](/words/spec/documentrevision#rejectallrevisionsonlinerequest) *request*) - rejects all revisions in the document.
 - [DocumentResponse](/words/spec/document#documentresponse) **RemoveRange**([RemoveRangeRequest](/words/spec/range#removerangerequest) *request*) - removes a range from the document.
 - [RemoveRangeOnlineResponse](/words/spec/range#removerangeonlineresponse) **RemoveRangeOnline**([RemoveRangeOnlineRequest](/words/spec/range#removerangeonlinerequest) *request*) - removes a range from the document.
-- <span style="color:SteelBlue;">System.IO.Stream</span> **RenderDrawingObject**([RenderDrawingObjectRequest](/words/spec/drawingobject#renderdrawingobjectrequest) *request*) - renders a DrawingObject to the specified format.
-- <span style="color:SteelBlue;">System.IO.Stream</span> **RenderDrawingObjectOnline**([RenderDrawingObjectOnlineRequest](/words/spec/drawingobject#renderdrawingobjectonlinerequest) *request*) - renders a DrawingObject to the specified format.
-- <span style="color:SteelBlue;">System.IO.Stream</span> **RenderMathObject**([RenderMathObjectRequest](/words/spec/mathobject#rendermathobjectrequest) *request*) - renders an OfficeMath object to the specified format.
-- <span style="color:SteelBlue;">System.IO.Stream</span> **RenderMathObjectOnline**([RenderMathObjectOnlineRequest](/words/spec/mathobject#rendermathobjectonlinerequest) *request*) - renders an OfficeMath object to the specified format.
-- <span style="color:SteelBlue;">System.IO.Stream</span> **RenderPage**([RenderPageRequest](/words/spec/page#renderpagerequest) *request*) - renders a page to the specified format.
-- <span style="color:SteelBlue;">System.IO.Stream</span> **RenderPageOnline**([RenderPageOnlineRequest](/words/spec/page#renderpageonlinerequest) *request*) - renders a page to the specified format.
-- <span style="color:SteelBlue;">System.IO.Stream</span> **RenderParagraph**([RenderParagraphRequest](/words/spec/paragraph#renderparagraphrequest) *request*) - renders a paragraph to the specified format.
-- <span style="color:SteelBlue;">System.IO.Stream</span> **RenderParagraphOnline**([RenderParagraphOnlineRequest](/words/spec/paragraph#renderparagraphonlinerequest) *request*) - renders a paragraph to the specified format.
-- <span style="color:SteelBlue;">System.IO.Stream</span> **RenderTable**([RenderTableRequest](/words/spec/table#rendertablerequest) *request*) - renders a table to the specified format.
-- <span style="color:SteelBlue;">System.IO.Stream</span> **RenderTableOnline**([RenderTableOnlineRequest](/words/spec/table#rendertableonlinerequest) *request*) - renders a table to the specified format.
+- <span style="color:SteelBlue;">Stream</span> **RenderDrawingObject**([RenderDrawingObjectRequest](/words/spec/drawingobject#renderdrawingobjectrequest) *request*) - renders a DrawingObject to the specified format.
+- <span style="color:SteelBlue;">Stream</span> **RenderDrawingObjectOnline**([RenderDrawingObjectOnlineRequest](/words/spec/drawingobject#renderdrawingobjectonlinerequest) *request*) - renders a DrawingObject to the specified format.
+- <span style="color:SteelBlue;">Stream</span> **RenderMathObject**([RenderMathObjectRequest](/words/spec/mathobject#rendermathobjectrequest) *request*) - renders an OfficeMath object to the specified format.
+- <span style="color:SteelBlue;">Stream</span> **RenderMathObjectOnline**([RenderMathObjectOnlineRequest](/words/spec/mathobject#rendermathobjectonlinerequest) *request*) - renders an OfficeMath object to the specified format.
+- <span style="color:SteelBlue;">Stream</span> **RenderPage**([RenderPageRequest](/words/spec/page#renderpagerequest) *request*) - renders a page to the specified format.
+- <span style="color:SteelBlue;">Stream</span> **RenderPageOnline**([RenderPageOnlineRequest](/words/spec/page#renderpageonlinerequest) *request*) - renders a page to the specified format.
+- <span style="color:SteelBlue;">Stream</span> **RenderParagraph**([RenderParagraphRequest](/words/spec/paragraph#renderparagraphrequest) *request*) - renders a paragraph to the specified format.
+- <span style="color:SteelBlue;">Stream</span> **RenderParagraphOnline**([RenderParagraphOnlineRequest](/words/spec/paragraph#renderparagraphonlinerequest) *request*) - renders a paragraph to the specified format.
+- <span style="color:SteelBlue;">Stream</span> **RenderTable**([RenderTableRequest](/words/spec/table#rendertablerequest) *request*) - renders a table to the specified format.
+- <span style="color:SteelBlue;">Stream</span> **RenderTableOnline**([RenderTableOnlineRequest](/words/spec/table#rendertableonlinerequest) *request*) - renders a table to the specified format.
 - [ReplaceTextResponse](/words/spec/text#replacetextresponse) **ReplaceText**([ReplaceTextRequest](/words/spec/text#replacetextrequest) *request*) - replaces text in the document.
 - [ReplaceTextOnlineResponse](/words/spec/text#replacetextonlineresponse) **ReplaceTextOnline**([ReplaceTextOnlineRequest](/words/spec/text#replacetextonlinerequest) *request*) - replaces text in the document.
 - [DocumentResponse](/words/spec/document#documentresponse) **ReplaceWithText**([ReplaceWithTextRequest](/words/spec/text#replacewithtextrequest) *request*) - replaces a range with text in the document.
@@ -440,6 +443,4 @@ An object of the **WordsApi** class is created by the following constructor meth
 ## AuthType
 
 This class is used in [Configuration](#configuration).
-
-The following values are defined: OAuth2, RequestSignature.
 

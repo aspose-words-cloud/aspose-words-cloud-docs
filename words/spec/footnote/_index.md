@@ -22,7 +22,7 @@ weight: 260
   <tr>
     <td style="vertical-align:middle;" class="bg-white" rowspan="2"><strong><i>Delete</i><strong></td>
     <td style="vertical-align:middle;" class="bg-white"><a href="#deletefootnoteonlinerequest">DeleteFootnoteOnlineRequest</a></td>
-    <td style="vertical-align:middle;" class="bg-white" colspan="2"><span style="color:SteelBlue;">System.IO.Stream</span></td>
+    <td style="vertical-align:middle;" class="bg-white" colspan="2"><span style="color:SteelBlue;">Dictionary<string,Stream></span></td>
     <td style="vertical-align:middle;" class="bg-white" rowspan="2"></td>
   </tr>
   <tr>
@@ -85,7 +85,7 @@ The following properties are defined:
 | Link                 | [WordsApiLink](/words/spec/wordsapi#wordsapilink) | Gets or sets the link to the document. |
 | NodeId               | <span style="color:SteelBlue;">string</span>  | Gets or sets the node id. |
 | Content              | [StoryChildNodes](/words/spec/document#storychildnodes) | Gets or sets the content of the footnote. |
-| FootnoteType         | [FootnoteTypeEnum](#footnotetypeenum)         | Gets or sets the value, that specifies whether this is a footnote or endnote. |
+| FootnoteType         | [FootnoteTypeEnum](#footnote.footnotetypeenum) | Gets or sets the value, that specifies whether this is a footnote or endnote. |
 | Position             | [DocumentPosition](/words/spec/document#documentposition) | Gets or sets the link to comment range start node. |
 | ReferenceMark        | <span style="color:SteelBlue;">string</span>  | Gets or sets the custom reference mark to be used for this footnote. Default value is Empty, meaning auto-numbered footnotes are used. |
 | Text                 | <span style="color:SteelBlue;">string</span>  | Gets or sets text of the footnote. |
@@ -95,11 +95,14 @@ The following properties are defined:
 
 Represents a footnote base class.
 
-A single `[JsonConverter` property is defined:
+The following properties are defined:
 
 | Property             | Type                                          | Description |
 |----------------------|-----------------------------------------------|-------------|
-| [JsonConverter       | <span style="color:SteelBlue;">int</span>     | Gets or sets the option, that specifies whether this is a footnote or endnote. |
+| FootnoteType         | [FootnoteTypeEnum](#footnote.footnotetypeenum) | Gets or sets the option, that specifies whether this is a footnote or endnote. |
+| Position             | [DocumentPosition](/words/spec/document#documentposition) | Gets or sets the link to comment range start node. |
+| ReferenceMark        | <span style="color:SteelBlue;">string</span>  | Gets or sets the custom reference mark to be used for this footnote. Default value is Empty, meaning auto-numbered footnotes are used. |
+| Text                 | <span style="color:SteelBlue;">string</span>  | Gets or sets text of the footnote. |
 
 
 ## FootnoteCollection
@@ -122,11 +125,14 @@ Represents a footnote for insert.
 
 This class is inherited from [FootnoteBase](#footnotebase) and used in [InsertFootnoteOnlineRequest](#insertfootnoteonlinerequest), [InsertFootnoteRequest](#insertfootnoterequest).
 
-A single `[JsonConverter` property is defined:
+The following properties are defined:
 
 | Property             | Type                                          | Description |
 |----------------------|-----------------------------------------------|-------------|
-| [JsonConverter       | <span style="color:SteelBlue;">int</span>     | Gets or sets the option, that specifies whether this is a footnote or endnote. |
+| FootnoteType         | [FootnoteTypeEnum](#footnote.footnotetypeenum) | Gets or sets the option, that specifies whether this is a footnote or endnote. |
+| Position             | [DocumentPosition](/words/spec/document#documentposition) | Gets or sets the link to comment range start node. |
+| ReferenceMark        | <span style="color:SteelBlue;">string</span>  | Gets or sets the custom reference mark to be used for this footnote. Default value is Empty, meaning auto-numbered footnotes are used. |
+| Text                 | <span style="color:SteelBlue;">string</span>  | Gets or sets text of the footnote. |
 
 
 ## FootnoteLink
@@ -147,11 +153,14 @@ Represents a footnote for update.
 
 This class is inherited from [FootnoteBase](#footnotebase) and used in [UpdateFootnoteOnlineRequest](#updatefootnoteonlinerequest), [UpdateFootnoteRequest](#updatefootnoterequest).
 
-A single `[JsonConverter` property is defined:
+The following properties are defined:
 
 | Property             | Type                                          | Description |
 |----------------------|-----------------------------------------------|-------------|
-| [JsonConverter       | <span style="color:SteelBlue;">int</span>     | Gets or sets the option, that specifies whether this is a footnote or endnote. |
+| FootnoteType         | [FootnoteTypeEnum](#footnote.footnotetypeenum) | Gets or sets the option, that specifies whether this is a footnote or endnote. |
+| Position             | [DocumentPosition](/words/spec/document#documentposition) | Gets or sets the link to comment range start node. |
+| ReferenceMark        | <span style="color:SteelBlue;">string</span>  | Gets or sets the custom reference mark to be used for this footnote. Default value is Empty, meaning auto-numbered footnotes are used. |
+| Text                 | <span style="color:SteelBlue;">string</span>  | Gets or sets text of the footnote. |
 
 
 ## DeleteFootnoteOnlineRequest
@@ -355,14 +364,14 @@ Represents a response model for [WordsApi.InsertFootnoteOnline()](/words/footnot
 
 An object of the **InsertFootnoteOnlineResponse** class is created by the following constructor methods:
 
-- InsertFootnoteOnlineResponse([FootnoteResponse](#footnoteresponse) ***model***, <span style="color:SteelBlue;">Stream</span> ***document***)
+- InsertFootnoteOnlineResponse([FootnoteResponse](#footnoteresponse) ***model***, Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; ***document***)
 
 Each of those arguments initializes the corresponding self-titled property:
 
 | Argument             | Property             | Type                                          | Description |
 |----------------------|----------------------|-----------------------------------------------|-------------|
 | ***model***          | Model                | [FootnoteResponse](#footnoteresponse)         | The response model. |
-| ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | The document after modification. |
+| ***document***       | Document             | Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; | The document after modification. |
 
 
 
@@ -425,14 +434,14 @@ Represents a response model for [WordsApi.UpdateFootnoteOnline()](/words/footnot
 
 An object of the **UpdateFootnoteOnlineResponse** class is created by the following constructor methods:
 
-- UpdateFootnoteOnlineResponse([FootnoteResponse](#footnoteresponse) ***model***, <span style="color:SteelBlue;">Stream</span> ***document***)
+- UpdateFootnoteOnlineResponse([FootnoteResponse](#footnoteresponse) ***model***, Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; ***document***)
 
 Each of those arguments initializes the corresponding self-titled property:
 
 | Argument             | Property             | Type                                          | Description |
 |----------------------|----------------------|-----------------------------------------------|-------------|
 | ***model***          | Model                | [FootnoteResponse](#footnoteresponse)         | The response model. |
-| ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | The document after modification. |
+| ***document***       | Document             | Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; | The document after modification. |
 
 
 
@@ -469,9 +478,7 @@ Each of those arguments initializes the corresponding self-titled property:
 The following values are defined: Footnote, Endnote.
 
 
-## FootnoteTypeEnum
+## FootnoteBase.FootnoteTypeEnum
 
-This class is used in [Footnote](#footnote).
-
-The following values are defined: Footnote, Endnote, public, public, public, public, <returns>.
+The following values are defined: Footnote, Endnote.
 

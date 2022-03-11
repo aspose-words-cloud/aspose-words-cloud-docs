@@ -22,7 +22,7 @@ weight: 130
   <tr>
     <td style="vertical-align:middle;" class="bg-white" rowspan="4"><strong><i>Delete</i><strong></td>
     <td style="vertical-align:middle;" class="bg-white"><a href="#deletecommentonlinerequest">DeleteCommentOnlineRequest</a></td>
-    <td style="vertical-align:middle;" class="bg-white" colspan="2"><span style="color:SteelBlue;">System.IO.Stream</span></td>
+    <td style="vertical-align:middle;" class="bg-white" colspan="2"><span style="color:SteelBlue;">Dictionary<string,Stream></span></td>
     <td style="vertical-align:middle;" class="bg-white" rowspan="4"></td>
   </tr>
   <tr>
@@ -31,7 +31,7 @@ weight: 130
   </tr>
   <tr>
     <td style="vertical-align:middle;" class="bg-white"><a href="#deletecommentsonlinerequest">DeleteCommentsOnlineRequest</a></td>
-    <td style="vertical-align:middle;" class="bg-white" colspan="2"><span style="color:SteelBlue;">System.IO.Stream</span></td>
+    <td style="vertical-align:middle;" class="bg-white" colspan="2"><span style="color:SteelBlue;">Dictionary<string,Stream></span></td>
   </tr>
   <tr>
     <td style="vertical-align:middle;" class="bg-white"><a href="#deletecommentsrequest">DeleteCommentsRequest</a></td>
@@ -419,14 +419,14 @@ Represents a response model for [WordsApi.InsertCommentOnline()](/words/comments
 
 An object of the **InsertCommentOnlineResponse** class is created by the following constructor methods:
 
-- InsertCommentOnlineResponse([CommentResponse](#commentresponse) ***model***, <span style="color:SteelBlue;">Stream</span> ***document***)
+- InsertCommentOnlineResponse([CommentResponse](#commentresponse) ***model***, Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; ***document***)
 
 Each of those arguments initializes the corresponding self-titled property:
 
 | Argument             | Property             | Type                                          | Description |
 |----------------------|----------------------|-----------------------------------------------|-------------|
 | ***model***          | Model                | [CommentResponse](#commentresponse)           | The response model. |
-| ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | The document after modification. |
+| ***document***       | Document             | Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; | The document after modification. |
 
 
 
@@ -487,14 +487,14 @@ Represents a response model for [WordsApi.UpdateCommentOnline()](/words/comments
 
 An object of the **UpdateCommentOnlineResponse** class is created by the following constructor methods:
 
-- UpdateCommentOnlineResponse([CommentResponse](#commentresponse) ***model***, <span style="color:SteelBlue;">Stream</span> ***document***)
+- UpdateCommentOnlineResponse([CommentResponse](#commentresponse) ***model***, Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; ***document***)
 
 Each of those arguments initializes the corresponding self-titled property:
 
 | Argument             | Property             | Type                                          | Description |
 |----------------------|----------------------|-----------------------------------------------|-------------|
 | ***model***          | Model                | [CommentResponse](#commentresponse)           | The response model. |
-| ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | The document after modification. |
+| ***document***       | Document             | Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; | The document after modification. |
 
 
 

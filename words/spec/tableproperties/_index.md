@@ -165,14 +165,14 @@ Represents a response model for [WordsApi.UpdateTablePropertiesOnline()](/words/
 
 An object of the **UpdateTablePropertiesOnlineResponse** class is created by the following constructor methods:
 
-- UpdateTablePropertiesOnlineResponse([TablePropertiesResponse](#tablepropertiesresponse) ***model***, <span style="color:SteelBlue;">Stream</span> ***document***)
+- UpdateTablePropertiesOnlineResponse([TablePropertiesResponse](#tablepropertiesresponse) ***model***, Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; ***document***)
 
 Each of those arguments initializes the corresponding self-titled property:
 
 | Argument             | Property             | Type                                          | Description |
 |----------------------|----------------------|-----------------------------------------------|-------------|
 | ***model***          | Model                | [TablePropertiesResponse](#tablepropertiesresponse) | The response model. |
-| ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | The document after modification. |
+| ***document***       | Document             | Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; | The document after modification. |
 
 
 

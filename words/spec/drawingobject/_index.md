@@ -22,7 +22,7 @@ weight: 220
   <tr>
     <td style="vertical-align:middle;" class="bg-white" rowspan="2"><strong><i>Delete</i><strong></td>
     <td style="vertical-align:middle;" class="bg-white"><a href="#deletedrawingobjectonlinerequest">DeleteDrawingObjectOnlineRequest</a></td>
-    <td style="vertical-align:middle;" class="bg-white" colspan="2"><span style="color:SteelBlue;">System.IO.Stream</span></td>
+    <td style="vertical-align:middle;" class="bg-white" colspan="2"><span style="color:SteelBlue;">Dictionary<string,Stream></span></td>
     <td style="vertical-align:middle;" class="bg-white" rowspan="2"></td>
   </tr>
   <tr>
@@ -40,7 +40,7 @@ weight: 220
   </tr>
   <tr>
     <td style="vertical-align:middle;" class="bg-white"><a href="#getdocumentdrawingobjectimagedataonlinerequest">GetDocumentDrawingObjectImageDataOnlineRequest</a></td>
-    <td style="vertical-align:middle;" class="bg-white" rowspan="4" colspan="2"><span style="color:SteelBlue;">System.IO.Stream</span></td>
+    <td style="vertical-align:middle;" class="bg-white" rowspan="4" colspan="2"><span style="color:SteelBlue;">Stream</span></td>
     <td style="vertical-align:middle;" class="bg-white" rowspan="4"></td>
   </tr>
   <tr>
@@ -74,7 +74,7 @@ weight: 220
   <tr>
     <td style="vertical-align:middle;" class="bg-white" rowspan="2"><strong><i>Render</i><strong></td>
     <td style="vertical-align:middle;" class="bg-white"><a href="#renderdrawingobjectonlinerequest">RenderDrawingObjectOnlineRequest</a></td>
-    <td style="vertical-align:middle;" class="bg-white" rowspan="2" colspan="2"><span style="color:SteelBlue;">System.IO.Stream</span></td>
+    <td style="vertical-align:middle;" class="bg-white" rowspan="2" colspan="2"><span style="color:SteelBlue;">Stream</span></td>
     <td style="vertical-align:middle;" class="bg-white" rowspan="2"></td>
   </tr>
   <tr>
@@ -478,14 +478,14 @@ Represents a response model for [WordsApi.InsertDrawingObjectOnline()](/words/dr
 
 An object of the **InsertDrawingObjectOnlineResponse** class is created by the following constructor methods:
 
-- InsertDrawingObjectOnlineResponse([DrawingObjectResponse](#drawingobjectresponse) ***model***, <span style="color:SteelBlue;">Stream</span> ***document***)
+- InsertDrawingObjectOnlineResponse([DrawingObjectResponse](#drawingobjectresponse) ***model***, Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; ***document***)
 
 Each of those arguments initializes the corresponding self-titled property:
 
 | Argument             | Property             | Type                                          | Description |
 |----------------------|----------------------|-----------------------------------------------|-------------|
 | ***model***          | Model                | [DrawingObjectResponse](#drawingobjectresponse) | The response model. |
-| ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | The document after modification. |
+| ***document***       | Document             | Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; | The document after modification. |
 
 
 
@@ -602,14 +602,14 @@ Represents a response model for [WordsApi.UpdateDrawingObjectOnline()](/words/dr
 
 An object of the **UpdateDrawingObjectOnlineResponse** class is created by the following constructor methods:
 
-- UpdateDrawingObjectOnlineResponse([DrawingObjectResponse](#drawingobjectresponse) ***model***, <span style="color:SteelBlue;">Stream</span> ***document***)
+- UpdateDrawingObjectOnlineResponse([DrawingObjectResponse](#drawingobjectresponse) ***model***, Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; ***document***)
 
 Each of those arguments initializes the corresponding self-titled property:
 
 | Argument             | Property             | Type                                          | Description |
 |----------------------|----------------------|-----------------------------------------------|-------------|
 | ***model***          | Model                | [DrawingObjectResponse](#drawingobjectresponse) | The response model. |
-| ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | The document after modification. |
+| ***document***       | Document             | Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; | The document after modification. |
 
 
 

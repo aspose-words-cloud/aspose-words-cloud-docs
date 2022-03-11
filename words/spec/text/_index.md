@@ -142,14 +142,14 @@ Represents a response model for [WordsApi.ReplaceTextOnline()](/words/text/repla
 
 An object of the **ReplaceTextOnlineResponse** class is created by the following constructor methods:
 
-- ReplaceTextOnlineResponse([ReplaceTextResponse](#replacetextresponse) ***model***, <span style="color:SteelBlue;">Stream</span> ***document***)
+- ReplaceTextOnlineResponse([ReplaceTextResponse](#replacetextresponse) ***model***, Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; ***document***)
 
 Each of those arguments initializes the corresponding self-titled property:
 
 | Argument             | Property             | Type                                          | Description |
 |----------------------|----------------------|-----------------------------------------------|-------------|
 | ***model***          | Model                | [ReplaceTextResponse](#replacetextresponse)   | The response model. |
-| ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | The document after modification. |
+| ***document***       | Document             | Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; | The document after modification. |
 
 
 
@@ -224,14 +224,14 @@ Represents a response model for [WordsApi](/words/spec/wordsapi#wordsapi) operat
 
 An object of the **ReplaceWithTextOnlineResponse** class is created by the following constructor methods:
 
-- ReplaceWithTextOnlineResponse([DocumentResponse](/words/spec/document#documentresponse) ***model***, <span style="color:SteelBlue;">Stream</span> ***document***)
+- ReplaceWithTextOnlineResponse([DocumentResponse](/words/spec/document#documentresponse) ***model***, Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; ***document***)
 
 Each of those arguments initializes the corresponding self-titled property:
 
 | Argument             | Property             | Type                                          | Description |
 |----------------------|----------------------|-----------------------------------------------|-------------|
 | ***model***          | Model                | [DocumentResponse](/words/spec/document#documentresponse) | The response model. |
-| ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | The document after modification. |
+| ***document***       | Document             | Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; | The document after modification. |
 
 
 

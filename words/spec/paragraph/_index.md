@@ -22,7 +22,7 @@ weight: 360
   <tr>
     <td style="vertical-align:middle;" class="bg-white" rowspan="2"><strong><i>Delete</i><strong></td>
     <td style="vertical-align:middle;" class="bg-white"><a href="#deleteparagraphonlinerequest">DeleteParagraphOnlineRequest</a></td>
-    <td style="vertical-align:middle;" class="bg-white" colspan="2"><span style="color:SteelBlue;">System.IO.Stream</span></td>
+    <td style="vertical-align:middle;" class="bg-white" colspan="2"><span style="color:SteelBlue;">Dictionary<string,Stream></span></td>
     <td style="vertical-align:middle;" class="bg-white" rowspan="2"></td>
   </tr>
   <tr>
@@ -60,7 +60,7 @@ weight: 360
   <tr>
     <td style="vertical-align:middle;" class="bg-white" rowspan="2"><strong><i>Render</i><strong></td>
     <td style="vertical-align:middle;" class="bg-white"><a href="#renderparagraphonlinerequest">RenderParagraphOnlineRequest</a></td>
-    <td style="vertical-align:middle;" class="bg-white" rowspan="2" colspan="2"><span style="color:SteelBlue;">System.IO.Stream</span></td>
+    <td style="vertical-align:middle;" class="bg-white" rowspan="2" colspan="2"><span style="color:SteelBlue;">Stream</span></td>
     <td style="vertical-align:middle;" class="bg-white" rowspan="2"></td>
   </tr>
   <tr>
@@ -301,14 +301,14 @@ Represents a response model for [WordsApi.InsertParagraphOnline()](/words/paragr
 
 An object of the **InsertParagraphOnlineResponse** class is created by the following constructor methods:
 
-- InsertParagraphOnlineResponse([ParagraphResponse](#paragraphresponse) ***model***, <span style="color:SteelBlue;">Stream</span> ***document***)
+- InsertParagraphOnlineResponse([ParagraphResponse](#paragraphresponse) ***model***, Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; ***document***)
 
 Each of those arguments initializes the corresponding self-titled property:
 
 | Argument             | Property             | Type                                          | Description |
 |----------------------|----------------------|-----------------------------------------------|-------------|
 | ***model***          | Model                | [ParagraphResponse](#paragraphresponse)       | The response model. |
-| ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | The document after modification. |
+| ***document***       | Document             | Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; | The document after modification. |
 
 
 

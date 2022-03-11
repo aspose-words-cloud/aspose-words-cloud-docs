@@ -108,7 +108,7 @@ The following properties are defined:
 | Name                 | <span style="color:SteelBlue;">string</span>  | Gets or sets the name of the style. |
 | NextParagraphStyleName | <span style="color:SteelBlue;">string</span>  | Gets or sets the name of the style to be applied automatically to a new paragraph inserted after a paragraph formatted with the specified style. |
 | StyleIdentifier      | [StyleIdentifierEnum](#paragraphformatbase.styleidentifierenum) | Gets or sets the locale independent style identifier for a built-in style. |
-| Type                 | [TypeEnum](#style.typeenum)                   | Gets or sets the style type (paragraph or character) . |
+| Type                 | [TypeEnum](#htmlsaveoptionsdata.cssstylesheettypeenum) | Gets or sets the style type (paragraph or character) . |
 
 
 ## XmlColor
@@ -226,14 +226,14 @@ Represents a response model for [WordsApi.ApplyStyleToDocumentElementOnline()](/
 
 An object of the **ApplyStyleToDocumentElementOnlineResponse** class is created by the following constructor methods:
 
-- ApplyStyleToDocumentElementOnlineResponse([WordsResponse](#wordsresponse) ***model***, <span style="color:SteelBlue;">Stream</span> ***document***)
+- ApplyStyleToDocumentElementOnlineResponse([WordsResponse](#wordsresponse) ***model***, Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; ***document***)
 
 Each of those arguments initializes the corresponding self-titled property:
 
 | Argument             | Property             | Type                                          | Description |
 |----------------------|----------------------|-----------------------------------------------|-------------|
 | ***model***          | Model                | [WordsResponse](#wordsresponse)               | The response model. |
-| ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | The document after modification. |
+| ***document***       | Document             | Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; | The document after modification. |
 
 
 
@@ -294,14 +294,14 @@ Represents a response model for [WordsApi.CopyStyleOnline()](/words/styles/copy/
 
 An object of the **CopyStyleOnlineResponse** class is created by the following constructor methods:
 
-- CopyStyleOnlineResponse([StyleResponse](#styleresponse) ***model***, <span style="color:SteelBlue;">Stream</span> ***document***)
+- CopyStyleOnlineResponse([StyleResponse](#styleresponse) ***model***, Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; ***document***)
 
 Each of those arguments initializes the corresponding self-titled property:
 
 | Argument             | Property             | Type                                          | Description |
 |----------------------|----------------------|-----------------------------------------------|-------------|
 | ***model***          | Model                | [StyleResponse](#styleresponse)               | The response model. |
-| ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | The document after modification. |
+| ***document***       | Document             | Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; | The document after modification. |
 
 
 
@@ -491,14 +491,14 @@ Represents a response model for [WordsApi.InsertStyleOnline()](/words/styles/ins
 
 An object of the **InsertStyleOnlineResponse** class is created by the following constructor methods:
 
-- InsertStyleOnlineResponse([StyleResponse](#styleresponse) ***model***, <span style="color:SteelBlue;">Stream</span> ***document***)
+- InsertStyleOnlineResponse([StyleResponse](#styleresponse) ***model***, Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; ***document***)
 
 Each of those arguments initializes the corresponding self-titled property:
 
 | Argument             | Property             | Type                                          | Description |
 |----------------------|----------------------|-----------------------------------------------|-------------|
 | ***model***          | Model                | [StyleResponse](#styleresponse)               | The response model. |
-| ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | The document after modification. |
+| ***document***       | Document             | Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; | The document after modification. |
 
 
 
@@ -573,14 +573,14 @@ Represents a response model for [WordsApi.UpdateStyleOnline()](/words/styles/upd
 
 An object of the **UpdateStyleOnlineResponse** class is created by the following constructor methods:
 
-- UpdateStyleOnlineResponse([StyleResponse](#styleresponse) ***model***, <span style="color:SteelBlue;">Stream</span> ***document***)
+- UpdateStyleOnlineResponse([StyleResponse](#styleresponse) ***model***, Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; ***document***)
 
 Each of those arguments initializes the corresponding self-titled property:
 
 | Argument             | Property             | Type                                          | Description |
 |----------------------|----------------------|-----------------------------------------------|-------------|
 | ***model***          | Model                | [StyleResponse](#styleresponse)               | The response model. |
-| ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | The document after modification. |
+| ***document***       | Document             | Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; | The document after modification. |
 
 
 
@@ -622,6 +622,11 @@ A single `RequestId` property is defined:
 | Property             | Type                                          | Description |
 |----------------------|-----------------------------------------------|-------------|
 | RequestId            | <span style="color:SteelBlue;">string</span>  | Gets or sets the request Id. |
+
+
+## HtmlSaveOptionsData.CssStyleSheetTypeEnum
+
+The following values are defined: Inline, Embedded, External.
 
 
 ## ParagraphFormatBase.StyleIdentifierEnum

@@ -329,3 +329,8 @@ An object of the **TableRowNodePathBuilder** class is created by the following c
 - <span style="color:SteelBlue;">string</span> **Build**() - build node path for given node.
 - [TableCellNodePathBuilder](#tablecellnodepathbuilder) **Cells**(<span style="color:SteelBlue;">int</span> *index*) - gets a node path builder for cell nodes.
 
+
+## PdfDigitalSignatureDetailsData.HashAlgorithmEnum
+
+The following values are defined: Sha1, Sha256, Sha384, Sha512, Md5, RipeMD160.
+

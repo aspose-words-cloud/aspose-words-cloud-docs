@@ -22,7 +22,7 @@ weight: 280
   <tr>
     <td style="vertical-align:middle;" class="bg-white" rowspan="4"><strong><i>Delete</i><strong></td>
     <td style="vertical-align:middle;" class="bg-white"><a href="#deleteheaderfooteronlinerequest">DeleteHeaderFooterOnlineRequest</a></td>
-    <td style="vertical-align:middle;" class="bg-white" colspan="2"><span style="color:SteelBlue;">System.IO.Stream</span></td>
+    <td style="vertical-align:middle;" class="bg-white" colspan="2"><span style="color:SteelBlue;">Dictionary<string,Stream></span></td>
     <td style="vertical-align:middle;" class="bg-white" rowspan="4"></td>
   </tr>
   <tr>
@@ -31,7 +31,7 @@ weight: 280
   </tr>
   <tr>
     <td style="vertical-align:middle;" class="bg-white"><a href="#deleteheadersfootersonlinerequest">DeleteHeadersFootersOnlineRequest</a></td>
-    <td style="vertical-align:middle;" class="bg-white" colspan="2"><span style="color:SteelBlue;">System.IO.Stream</span></td>
+    <td style="vertical-align:middle;" class="bg-white" colspan="2"><span style="color:SteelBlue;">Dictionary<string,Stream></span></td>
   </tr>
   <tr>
     <td style="vertical-align:middle;" class="bg-white"><a href="#deleteheadersfootersrequest">DeleteHeadersFootersRequest</a></td>
@@ -423,14 +423,14 @@ Represents a response model for [WordsApi.InsertHeaderFooterOnline()](/words/hea
 
 An object of the **InsertHeaderFooterOnlineResponse** class is created by the following constructor methods:
 
-- InsertHeaderFooterOnlineResponse([HeaderFooterResponse](#headerfooterresponse) ***model***, <span style="color:SteelBlue;">Stream</span> ***document***)
+- InsertHeaderFooterOnlineResponse([HeaderFooterResponse](#headerfooterresponse) ***model***, Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; ***document***)
 
 Each of those arguments initializes the corresponding self-titled property:
 
 | Argument             | Property             | Type                                          | Description |
 |----------------------|----------------------|-----------------------------------------------|-------------|
 | ***model***          | Model                | [HeaderFooterResponse](#headerfooterresponse) | The response model. |
-| ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | The document after modification. |
+| ***document***       | Document             | Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; | The document after modification. |
 
 
 
@@ -459,11 +459,6 @@ Each of those arguments initializes the corresponding self-titled property:
 | *revisionAuthor*     | RevisionAuthor       | <span style="color:SteelBlue;">string</span>  | Initials of the author to use for revisions.If you set this parameter and then make some changes to the document programmatically, save the document and later open the document in MS Word you will see these changes as revisions. |
 | *revisionDateTime*   | RevisionDateTime     | <span style="color:SteelBlue;">string</span>  | The date and time to use for revisions. |
 
-
-
-## ExportHeadersFootersModeEnum
-
-The following values are defined: None, PrimaryOnly, AllAtEnd, public, public, public, public, <returns>.
 
 
 ## HeaderFooterLink.TypeEnum

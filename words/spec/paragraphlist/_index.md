@@ -113,14 +113,14 @@ Represents a response model for [WordsApi.DeleteParagraphListFormatOnline()](/wo
 
 An object of the **DeleteParagraphListFormatOnlineResponse** class is created by the following constructor methods:
 
-- DeleteParagraphListFormatOnlineResponse([ParagraphListFormatResponse](#paragraphlistformatresponse) ***model***, <span style="color:SteelBlue;">Stream</span> ***document***)
+- DeleteParagraphListFormatOnlineResponse([ParagraphListFormatResponse](#paragraphlistformatresponse) ***model***, Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; ***document***)
 
 Each of those arguments initializes the corresponding self-titled property:
 
 | Argument             | Property             | Type                                          | Description |
 |----------------------|----------------------|-----------------------------------------------|-------------|
 | ***model***          | Model                | [ParagraphListFormatResponse](#paragraphlistformatresponse) | The response model. |
-| ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | The document after modification. |
+| ***document***       | Document             | Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; | The document after modification. |
 
 
 
@@ -243,14 +243,14 @@ Represents a response model for [WordsApi.UpdateParagraphListFormatOnline()](/wo
 
 An object of the **UpdateParagraphListFormatOnlineResponse** class is created by the following constructor methods:
 
-- UpdateParagraphListFormatOnlineResponse([ParagraphListFormatResponse](#paragraphlistformatresponse) ***model***, <span style="color:SteelBlue;">Stream</span> ***document***)
+- UpdateParagraphListFormatOnlineResponse([ParagraphListFormatResponse](#paragraphlistformatresponse) ***model***, Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; ***document***)
 
 Each of those arguments initializes the corresponding self-titled property:
 
 | Argument             | Property             | Type                                          | Description |
 |----------------------|----------------------|-----------------------------------------------|-------------|
 | ***model***          | Model                | [ParagraphListFormatResponse](#paragraphlistformatresponse) | The response model. |
-| ***document***       | Document             | <span style="color:SteelBlue;">Stream</span>  | The document after modification. |
+| ***document***       | Document             | Dictionary&lt;<span style="color:SteelBlue;">string,Stream</span>&gt; | The document after modification. |
 
 
 

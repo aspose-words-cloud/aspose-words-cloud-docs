@@ -22,7 +22,7 @@ weight: 410
   <tr>
     <td style="vertical-align:middle;" class="bg-white" rowspan="2"><strong><i>Build</i><strong></td>
     <td style="vertical-align:middle;" class="bg-white"><a href="#buildreportonlinerequest">BuildReportOnlineRequest</a></td>
-    <td style="vertical-align:middle;" class="bg-white"><span style="color:SteelBlue;">System.IO.Stream</span></td>
+    <td style="vertical-align:middle;" class="bg-white"><span style="color:SteelBlue;">Stream</span></td>
     <td style="vertical-align:middle;" class="bg-white"><a href="#reportenginesettings">ReportEngineSettings</a></td>
   </tr>
   <tr>
@@ -33,7 +33,7 @@ weight: 410
   <tr>
     <td style="vertical-align:middle;" class="bg-white" rowspan="2"><strong><i>Execute</i><strong></td>
     <td style="vertical-align:middle;" class="bg-white"><a href="#executemailmergeonlinerequest">ExecuteMailMergeOnlineRequest</a></td>
-    <td style="vertical-align:middle;" class="bg-white"><span style="color:SteelBlue;">System.IO.Stream</span></td>
+    <td style="vertical-align:middle;" class="bg-white"><span style="color:SteelBlue;">Stream</span></td>
     <td style="vertical-align:middle;" class="bg-white"><a href="#fieldoptions">FieldOptions</a></td>
   </tr>
   <tr>
@@ -105,8 +105,6 @@ The following properties are defined:
 
 This class is used in [ReportEngineSettings](#reportenginesettings).
 
-The following values are defined: None, AllowMissingMembers, RemoveEmptyParagraphs, InlineErrorMessages, UseLegacyHeaderFooterVisiting.
-
 
 ## ReportEngineSettings
 
@@ -156,7 +154,7 @@ A single `AlwaysGenerateRootObject` property is defined:
 
 ## BuildReportOnlineRequest
 
-Represents a request model for [WordsApi.BuildReportOnline()](/words/report/build/) operation.
+Represents a request model for [WordsApi.BuildReportOnline()](/words/report/build-online/) operation.
 
 An object of the **BuildReportOnlineRequest** class is created by the following constructor methods:
 
@@ -176,7 +174,7 @@ Each of those arguments initializes the corresponding self-titled property:
 
 ## BuildReportRequest
 
-Represents a request model for [WordsApi.BuildReport()](/words/report/build/) operation.
+Represents a request model for [WordsApi.BuildReport()](/words/report/build-online/) operation.
 
 An object of the **BuildReportRequest** class is created by the following constructor methods:
 
