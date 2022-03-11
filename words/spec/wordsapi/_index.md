@@ -121,7 +121,7 @@ An object of the **WordsApi** class is created by the following constructor meth
 - [WordsResponse](/words/spec/style#wordsresponse) **ApplyStyleToDocumentElement**([ApplyStyleToDocumentElementRequest](/words/spec/style#applystyletodocumentelementrequest) *request*) - applies a style to the document node.
 - [ApplyStyleToDocumentElementOnlineResponse](/words/spec/style#applystyletodocumentelementonlineresponse) **ApplyStyleToDocumentElementOnline**([ApplyStyleToDocumentElementOnlineRequest](/words/spec/style#applystyletodocumentelementonlinerequest) *request*) - applies a style to the document node.
 - <span style="color:SteelBlue;">object</span> **Batch**([BatchPartRequest](/words/spec/batch#batchpartrequest)[] *requests*) - batch request.
--<span style="color:SteelBlue;">object</span> Batch(<span style="color:SteelBlue;">bool</span> ***displayIntermediateResults***, [BatchPartRequest](/words/spec/batch#batchpartrequest)[] ***requests***)</br>- batch request, where:
+- <span style="color:SteelBlue;">object</span> Batch(<span style="color:SteelBlue;">bool</span> ***displayIntermediateResults***, [BatchPartRequest](/words/spec/batch#batchpartrequest)[] ***requests***)</br>- batch request, where:
 
 <table>
   <tr>
@@ -135,6 +135,7 @@ An object of the **WordsApi** class is created by the following constructor meth
     <td>Array of <see cref="BatchPartRequest" /> requests.</td>
   </tr>
 </table>
+
 - [DocumentResponse](/words/spec/document#documentresponse) **BuildReport**([BuildReportRequest](/words/spec/report#buildreportrequest) *request*) - executes the report generation process using the specified document template and the external data source in XML, JSON or CSV format.
 - <span style="color:SteelBlue;">Stream</span> **BuildReportOnline**([BuildReportOnlineRequest](/words/spec/report#buildreportonlinerequest) *request*) - executes the report generation process online using the specified document template and the external data source in XML, JSON or CSV format.
 - [ClassificationResponse](/words/spec/documentclassification#classificationresponse) **Classify**([ClassifyRequest](/words/spec/documentclassification#classifyrequest) *request*) - runs a multi-class text classification for the specified raw text.
