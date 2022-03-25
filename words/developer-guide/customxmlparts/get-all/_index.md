@@ -1,5 +1,5 @@
 ---
-title: "Get"
+title: "Get All"
 second_title: "Custom XML Parts in a Word document"
 type: docs
 url: /customxmlparts/get-all/

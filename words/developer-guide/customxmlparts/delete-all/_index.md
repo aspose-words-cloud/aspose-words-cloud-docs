@@ -1,5 +1,5 @@
 ---
-title: "Delete"
+title: "Delete All"
 second_title: "Custom XML Parts in a Word document"
 type: docs
 url: /customxmlparts/delete-all/
