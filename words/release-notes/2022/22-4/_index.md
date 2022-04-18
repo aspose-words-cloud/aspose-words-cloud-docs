@@ -33,7 +33,7 @@ The page contains release notes for Aspose.Words Cloud 22.4 – [API Reference]
 **All SDKs**: 
 
 - Enhanced HTML export: added support for `ExportShapesAsSvg` in `HtmlSaveOptions`
-- Added new endpoint "~/styles/copy_from"
+- Added new endpoint `~/styles/copy_from`
 
 **.NET SDK**: implemented the ability to set proxy configuration
 
