@@ -3,7 +3,7 @@ title: "Delete All"
 second_title: "Custom XML Parts in a Word document"
 type: docs
 url: /customxmlparts/delete-all/
-description: "Delete Custom XML Parts in a Word document"
+description: "Delete All Custom XML Parts in a Word document"
 weight: 15
 ---
 
