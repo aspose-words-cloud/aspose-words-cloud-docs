@@ -43,7 +43,7 @@ The page contains release notes for Aspose.Words Cloud 22.4 – [API Reference]
 |------------------|-----------------------------------------------------------------------------------------------|-------------|
 | WORDSCLOUD-1662   | Implement `Document.CopyStylesFromTemplate` feature                                               | New Feature  |
 | WORDSCLOUD-1927   | Add support for `ExportShapesAsSvg` in `HtmlSaveOptions`                                          | New Feature  |
-| WORDSCLOUD-1961   | Implement the ability to set proxy server configuration in 'Aspose.Words Cloud SDK for .NET'      | New Feature  |
+| WORDSCLOUD-1961   | Implement the ability to set proxy configuration in 'Aspose.Words Cloud SDK for .NET'             | New Feature  |
 | WORDSCLOUD-1933   | Issue with detecting custom footnotes in multipage PDF                                            | Bug          |
 | WORDSCLOUD-1958   | Error when calling `AppendDocumentOnline` method in PHP SDK                                       | Bug          |
 | WORDSCLOUD-1960   | Array indexing fails with exception in PHP SDK                                                    | Bug          |
