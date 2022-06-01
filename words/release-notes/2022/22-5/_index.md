@@ -17,7 +17,7 @@ The page contains release notes for Aspose.Words Cloud 22.5 – [API Reference]
 
 - Improved processing of incorrect UTF-16 hexadecimal values that are used in Unicode character maps
 - Fixed visibility of graphic elements when they intersect with tables below or above them
-- Implemented conversion of PDF pages with multiple image layers (now they are merged into a single image)
+- Implemented conversion of PDF pages with multiple image layers (they are merged now into a single image)
 - Fixed `InvalidOperationException` in footnote detection code
 - Changed the line spacing in paragraphs from 'Exactly' to 'At least' to improve the editability of the resulting documents
 
