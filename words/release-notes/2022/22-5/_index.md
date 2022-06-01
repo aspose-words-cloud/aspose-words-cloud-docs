@@ -12,8 +12,6 @@ The page contains release notes for Aspose.Words Cloud 22.5 – [API Reference]
 
 ## Important Changes and New Features
 
-## Words Cloud Changes
-
 
 ## PDF to Word conversion improvements
 
