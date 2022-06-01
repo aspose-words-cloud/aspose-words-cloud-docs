@@ -5,7 +5,7 @@ type: docs
 url: /release-notes/2022/22-5/
 aliases: [/aspose-words-cloud-22-5-release-notes/]
 description: "Aspose Words Cloud 22.5 Release Notes"
-weight: 55
+weight: 50
 ---
 
 The page contains release notes for Aspose.Words Cloud 22.5 – [API Reference](https://apireference.aspose.cloud/words/).
