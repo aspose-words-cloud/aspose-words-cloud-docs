@@ -31,13 +31,13 @@ The page contains release notes for Aspose.Words Cloud 22.6 – [API Reference]
 ## Cloud SDK Changes
 
 - **All SDKs**:
-    - Bookmarks API: added 'DeleteBookmark' and 'DeleteBookmarkOnline' methods to remove a bookmark specified by name from a document
-    - Bookmarks API: added 'DeleteBookmarks' and 'DeleteBookmarksOnline' methods to remove all bookmarks from a document
-    - Bookmarks API: added 'InsertBookmark' and 'InsertBookmarkOnline' methods to create new bookmarks in a document
-    - Support for all save formats for the 'CreateDocument' operation was implemented
+    - Bookmarks API: added methods to remove a bookmark specified by name from a document
+    - Bookmarks API: added methods to remove all bookmarks from a document
+    - Bookmarks API: added methods to create new bookmarks in a document
+    - Added support for all save formats for the 'CreateDocument' operation
 
 - **Ruby SDK**:
-    - Added support for 'dependsOn' feature for batch requests
+    - Added support for the 'dependsOn' feature in batch requests
 
 
 ## All changes
