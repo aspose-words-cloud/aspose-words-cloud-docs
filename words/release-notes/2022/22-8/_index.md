@@ -15,7 +15,7 @@ The page contains release notes for Aspose.Words Cloud 22.8 – [API Reference]
 ## Words Cloud Changes
 
 - Improved performance when working with Azure Cloud Storage
-- Fixed styles/formatting issue when converting "DOCX to HTML"
+- Fixed styles/formatting error when converting DOCX to HTML
 - Fixed import algorithms in AppendDocument API (when `KeepSourceFormatting` option is enabled)
 
 
