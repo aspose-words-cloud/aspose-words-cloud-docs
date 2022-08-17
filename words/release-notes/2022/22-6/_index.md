@@ -16,7 +16,7 @@ The page contains release notes for Aspose.Words Cloud 22.6 – [API Reference]
 
 - Bookmarks API: added 'DeleteBookmark' and 'DeleteBookmarkOnline' methods to remove a bookmark specified by name from a document
 - Bookmarks API: added 'DeleteBookmarks' and 'DeleteBookmarksOnline' methods to remove all bookmarks from a document
-- Bookmarks API: added 'InsertBookmark' and 'InsertBookmarkOnline' methods to create new bookmarks in a document
+- Bookmarks API: added 'InsertBookmark' and 'InsertBookmarkOnline' methods to create a new bookmark in a document
 - The 'Create Document' endpoint now supports all file formats supported by Aspose.Words
 
 
