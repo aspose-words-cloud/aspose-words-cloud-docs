@@ -40,7 +40,7 @@ The page contains release notes for Aspose.Words Cloud 22.9 – [API Reference]
 | WORDSCLOUD-2058 | AppendDocument API: content is appended to the last page of a previous document, instead of starting on a new page | Bug      |
 | WORDSCLOUD-2059 | Implement password-protected document conversions using the ConvertDocument API                      | Feature  |
 | WORDSCLOUD-2093 | Implement support for images in `CompressDocument` method                                            | Feature  |
-| WORDSNET-24063  | After PDF import, RTL table of contents is corrupted                                                 | Bug      |
-| WORDSNET-24062  | After PDF import, RTL content is reversed and contains extra spaces                                  | Bug      |
+| WORDSNET-24063  | RTL table of contents is corrupted after PDF import                                                  | Bug      |
+| WORDSNET-24062  | RTL content is reversed and contains extra spaces after PDF import                                   | Bug      |
 | WORDSNET-24199  | `ArgumentException` is thrown due to an empty key in `CustomDocumentProperties`                      | Bug      |
 | WORDSNET-23174  | `LibTiff` library throws `IndexOutOfRangeException`                                                  | Bug      |
