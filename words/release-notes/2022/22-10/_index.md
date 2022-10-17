@@ -17,7 +17,7 @@ The page contains release notes for Aspose.Words Cloud 22.10 – [API Reference
 - Removed the deprecated `FlatOpcXmlMappingOnly` save option
 - Added support for `PdfSaveOptions.CacheHeaderFooterShapes` save option
 - Implemented the ability to set a custom `StartingNumber` in InsertPageNumbers API
-- Added EMF format support for Convert API
+- Added EMF format support for ConvertDocument API
 - A new implementation of the `AppendDocumentOnline` method
 
 
