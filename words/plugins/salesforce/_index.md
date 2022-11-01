@@ -71,7 +71,7 @@ Please follow these steps to get started:
 - Open Build > Develop > Pages
 - Click on Preview AsposeCloudHome in New Window
 - Register / Login Aspose Account
-- Upload following files to your aspose account [TestMailMerge.docx](/documents/TestMailMerge.docx) and [mail_merge_data.xml](/documents/mail_merge_data.xml)
+- Upload following files to your aspose account [TestMailMerge.docx](TestMailMerge.docx) and [mail_merge_data.xml](mail_merge_data.xml)
 - Fill the form on AsposeCloudHome page
 - Make sure you have api.aspose.com/v1.1 enabled under your Remote Site Settings
 
