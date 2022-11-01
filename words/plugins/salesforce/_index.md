@@ -8,7 +8,7 @@ description: "Aspose Words Cloud for Salesforce"
 weight: 30
 ---
 
-Apex is a strongly typed, object-oriented programming language that allows developers to execute flow and transaction control statements on the Force.com platform server in conjunction with calls to the Force.com​ API.
+Apex is a strongly typed, object-oriented programming language that allows developers to execute flow and transaction control statements on the Force.com platform server in conjunction with calls to the Force.com API.
 
 ## Aspose.Words Cloud for Salesforce
 
@@ -18,7 +18,7 @@ Aspose.Words Cloud for Salesforce is a series of examples we provide to our user
 
 Along with this project we’ve also set up salesforce package which you can install on your Salesforce platform.
 
-- [Aspose.Words sample](https://ap1.salesforce.com/packaging/installPackage.apexp?p0=04t900000002D7B).
+- [Aspose.Words sample](https://ap1.salesforce.com/packaging/installPackage.apexp?p0=04t900000002D7B)
 
 ## System Requirements
 
@@ -39,7 +39,7 @@ It supports salesforce's "Force.com" platform.
 
 We believe the key to success lies in our ability to support and establish mutually beneficial long-term relationships with our customers. Our experts are here to answer your questions, help you troubleshoot issues, improve your experience and increase satisfaction with our products. If you have any questions and need support on Aspose Cloud for Salesforce you can log them using any of the following platforms.
 
-- [Github](https://github.com/asposemarketplace/Aspose_for_Salesforce/issues).
+- [Github](https://github.com/asposemarketplace/Aspose_for_Salesforce/issues)
 
 ## Installation
 
@@ -47,7 +47,7 @@ We believe the key to success lies in our ability to support and establish mutua
 
 You can download the Aspose.Words Cloud for Salesforce from one of the following locations:
 
-- Download from [Github](https://github.com/asposemarketplace/Aspose_for_SalesForce/archive/master.zip).
+- Download from [Github](https://github.com/asposemarketplace/Aspose_for_SalesForce/archive/master.zip)
 
 ### Installing
 
@@ -56,7 +56,7 @@ Once downloaded, please follow these steps to deploy Aspose.Words Cloud on Sales
 ### Import Aspose.Words Cloud for Salesforce as project in Eclipse as Force.com project
 
 - File > Import General > Existing Projects into Workspace
-- Select the Aspose_for_SalesForce/Aspose.Words Sample unziped folder as root directory.
+- Select the Aspose_for_SalesForce/Aspose.Words Sample unziped folder as root directory
 
 ### Deploy on Salesforce
 
@@ -67,13 +67,13 @@ Once downloaded, please follow these steps to deploy Aspose.Words Cloud on Sales
 After you have installed the Aspose.Words Cloud for Salesforce it is really simple to start using it.
 Please follow these steps to get started:
 
-- Login to your Salesforce Account on www.salesforce.com.
-- Open Build > Develop > Pages.
-- Click on Preview AsposeCloudHome in New Window.
-- Register / Login Aspose Account.
-- Upload following files to your aspose account [TestMailMerge.doc](https://dl.dropbox.com/u/5464471/TestMailMerge.doc) and [mail_merge_data.xml](https://dl.dropbox.com/u/5464471/mail_merge_data.xml).
-- Fill the form on AsposeCloudHome page.
-- Make sure you have api.aspose.com/v1.1 enabled under your Remote Site Settings.
+- Login to your Salesforce Account on www.salesforce.com
+- Open Build > Develop > Pages
+- Click on Preview AsposeCloudHome in New Window
+- Register / Login Aspose Account
+- Upload following files to your aspose account [TestMailMerge.docx](/TestMailMerge.docx) and [mail_merge_data.xml](/mail_merge_data.xml)
+- Fill the form on AsposeCloudHome page
+- Make sure you have api.aspose.com/v1.1 enabled under your Remote Site Settings
 
 ## Code Sample
 

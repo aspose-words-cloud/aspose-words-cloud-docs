@@ -45,7 +45,7 @@ Here you will find a complete list of supported file formats, as well as a short
 |[XamlFlow](https://docs.fileformat.com/web/xaml/)|**Beta.** Extensible Application Markup Language format as a flow document.| |{{< emoticons/tick >}}|
 |[XamlFlowPack](https://docs.fileformat.com/web/xaml/)|**Beta.** Extensible Application Markup Language package format as a flow document.| |{{< emoticons/tick >}}|
 |[TIFF](https://docs.fileformat.com/image/tiff/)|Single or multipage Tagged Image File format.| |{{< emoticons/tick >}}|
-|[PNG](https://docs.fileformat.com/Image/png/)|Portable Network Graphic format.| |{{< emoticons/tick >}}|
+|[PNG](https://docs.fileformat.com/image/png/)|Portable Network Graphic format.| |{{< emoticons/tick >}}|
 |[BMP](https://docs.fileformat.com/image/bmp/)|Bitmap image format.| |{{< emoticons/tick >}}|
 |[EMF](https://docs.fileformat.com/image/emf/)|Vector Enhanced Metafile image format.| |{{< emoticons/tick >}}|
 |[JPEG](https://docs.fileformat.com/image/jpeg/)|Joint Photographic Experts Group image format.| |{{< emoticons/tick >}}|

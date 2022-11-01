@@ -15,7 +15,7 @@ For example, you must have been in a situation when you have a massive [DOCX](ht
 
 Task to split a [DOCX](https://docs.fileformat.com/word-processing/docx/) document by hand with manual copying and pasting may be a long, labor-intensive, sub-optimal approach. Instead, you can improve your efficiency dramatically with this API by breaking Word document into files, while specifying operation parameters as you need.
 
-Using this API you can easily split a [DOC](https://docs.fileformat.com/word-processing/doc/), [DOT](https://docs.fileformat.com/word-processing/dot/), [DOCX](https://docs.fileformat.com/word-processing/docx/), [DOTX](https://docs.fileformat.com/word-processing/dotx/), [RTF](https://docs.fileformat.com/word-processing/rtf/), [ODT](https://docs.fileformat.com/word-processing/odt/), [OTT](https://docs.fileformat.com/word-processing/ott/), [TXT](https://docs.fileformat.com/word-processing/txt/) document and save the results to [DOC](https://docs.fileformat.com/word-processing/doc/), [DOCX](https://docs.fileformat.com/word-processing/docx/), [PDF](https://docs.fileformat.com/pdf/), [ODT](https://docs.fileformat.com/word-processing/odt/), [RTF](https://docs.fileformat.com/word-processing/rtf/), [HTML](https://docs.fileformat.com/web/html/), [JPEG](https://docs.fileformat.com/image/jpeg/), [PNG](https://docs.fileformat.com/Image/png/) and many other file formats.
+Using this API you can easily split a [DOC](https://docs.fileformat.com/word-processing/doc/), [DOT](https://docs.fileformat.com/word-processing/dot/), [DOCX](https://docs.fileformat.com/word-processing/docx/), [DOTX](https://docs.fileformat.com/word-processing/dotx/), [RTF](https://docs.fileformat.com/word-processing/rtf/), [ODT](https://docs.fileformat.com/word-processing/odt/), [OTT](https://docs.fileformat.com/word-processing/ott/), [TXT](https://docs.fileformat.com/word-processing/txt/) document and save the results to [DOC](https://docs.fileformat.com/word-processing/doc/), [DOCX](https://docs.fileformat.com/word-processing/docx/), [PDF](https://docs.fileformat.com/pdf/), [ODT](https://docs.fileformat.com/word-processing/odt/), [RTF](https://docs.fileformat.com/word-processing/rtf/), [HTML](https://docs.fileformat.com/web/html/), [JPEG](https://docs.fileformat.com/image/jpeg/), [PNG](https://docs.fileformat.com/image/png/) and many other file formats.
 
 ## Usage examples with cURL and Postman
 
@@ -27,13 +27,11 @@ You can carry out REST API interactions using `cURL` and `Postman`. Please read 
 {{< gist "aspose-words-cloud-gists" "8a52e648cd36d3e0a7402727561073b6" "SplitDocumentOnline.curl" >}}
 
 <p style="margin-top:-32px;font-size:80%;font-style:italic">To get a JWT token use this <a href="/words/getting-started/quickstart/">instruction</a></p>
-
 {{< /tab >}}
 {{< tab tabNum="2" >}}
 {{< gist "aspose-words-cloud-gists" "894866974db18d27af2a7f67dd929b6f" "SplitDocumentOnline.json" >}}
 
 <p style="margin-top:-32px;font-size:80%;font-style:italic">To get a JWT token use this <a href="/words/getting-started/quickstart/">instruction</a></p>
-
 {{< /tab >}}
 {{< tab tabNum="3" >}}
 ```json

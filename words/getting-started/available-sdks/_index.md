@@ -19,7 +19,7 @@ Our supported SDKs are 100% tested. They are open source and released to the pub
 ## Cloud SDK Family
 
 {{< nosnippet >}}
-{{< tabs tabTotal="10" tabID="1" tabName1=".NET" tabName2="C++" tabName3="Java" tabName4="PHP" tabName5="Ruby" tabName6="Python" tabName7="Node.js" tabName8="Android" >}}
+{{< tabs tabTotal="10" tabID="1" tabName1=".NET" tabName2="C++" tabName3="Java" tabName4="PHP" tabName5="Ruby" tabName6="Python" tabName7="Node.js" >}}
 {{< tab tabNum="1" >}}
 
 **Aspose.Words Cloud SDK for .NET** allows you to work with Aspose.Words Cloud REST APIs in your .NET applications easily.
@@ -67,13 +67,6 @@ You can download the Python SDK from the [GitHub repository](https://github.com/
 **Aspose.Words Cloud SDK for Node.js** provides the capabilities to work with Aspose.Words Cloud REST APIs in Node.js applications. Use the SDK to produce stunning applications.
 
 You can download the Node.js SDK from the [GitHub repository](https://github.com/aspose-words-cloud/aspose-words-cloud-node).
-
-{{< /tab >}}
-{{< tab tabNum="8" >}}
-
-**Aspose.Words Cloud SDK for Android** is a sleek and simple approach to incorporate the capabilities of Aspose.Words Cloud API in Android applications.
-
-You can download the Android SDK from the [GitHub repository](https://github.com/aspose-words-cloud/aspose-words-cloud-android).
 
 {{< /tab >}}
 {{< /tabs >}}

@@ -40,7 +40,7 @@ The following table lists the file formats, that Words Cloud API supports for da
 |[ott](https://docs.fileformat.com/word-processing/ott/)|OdtSaveOptions|
 |[pcl](https://docs.fileformat.com/page-description-language/pcl/)|PclSaveOptions|
 |[pdf](https://docs.fileformat.com/pdf/)|PdfSaveOptions|
-|[png](https://docs.fileformat.com/Image/png/)|PngSaveOptions|
+|[png](https://docs.fileformat.com/image/png/)|PngSaveOptions|
 |[ps](https://docs.fileformat.com/page-description-language/ps/)|PsSaveOptions|
 |[rtf](https://docs.fileformat.com/word-processing/rtf/)|Rich Text Format File|
 |[svg](https://docs.fileformat.com/page-description-language/svg/)|SvgSaveOptions|
@@ -81,13 +81,11 @@ You can carry out REST API interactions using `cURL` and `Postman`. Please read 
 {{< gist "aspose-words-cloud-gists" "8a52e648cd36d3e0a7402727561073b6" "SaveAsOnline_2.curl" >}}
 
 <p style="margin-top:-32px;font-size:80%;font-style:italic">To get a JWT token use this <a href="/words/getting-started/quickstart/">instruction</a></p>
-
 {{< /tab >}}
 {{< tab tabNum="2" >}}
 {{< gist "aspose-words-cloud-gists" "894866974db18d27af2a7f67dd929b6f" "SaveAsOnline_2.json" >}}
 
 <p style="margin-top:-32px;font-size:80%;font-style:italic">To get a JWT token use this <a href="/words/getting-started/quickstart/">instruction</a></p>
-
 {{< /tab >}}
 {{< tab tabNum="3" >}}
 ```json

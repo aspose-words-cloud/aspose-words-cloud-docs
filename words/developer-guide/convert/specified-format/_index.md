@@ -38,7 +38,7 @@ The list of supported formats is provided below:
 |[ott](https://docs.fileformat.com/word-processing/ott/)|OpenDocument Document Template|
 |[pcl](https://docs.fileformat.com/page-description-language/pcl/)|Printer Command Language File|
 |[pdf](https://docs.fileformat.com/pdf/)|Portable Document Format File|
-|[png](https://docs.fileformat.com/Image/png/)|Portable Network Graphic|
+|[png](https://docs.fileformat.com/image/png/)|Portable Network Graphic|
 |[rtf](https://docs.fileformat.com/word-processing/rtf/)|Rich Text Format File|
 |[svg](https://docs.fileformat.com/page-description-language/svg/)|Scalable Vector Graphics File|
 |[swf](https://docs.fileformat.com/page-description-language/swf/)|Shockwave Flash Movie(removed)|
@@ -68,13 +68,11 @@ Download sample [TableDocument.doc](TableDocument.doc) and output [TableDocument
 {{< gist "aspose-words-cloud-gists" "8a52e648cd36d3e0a7402727561073b6" "ConvertDocument_1.curl" >}}
 
 <p style="margin-top:-32px;font-size:80%;font-style:italic">To get a JWT token use this <a href="/words/getting-started/quickstart/">instruction</a></p>
-
 {{< /tab >}}
 {{< tab tabNum="2" >}}
 {{< gist "aspose-words-cloud-gists" "894866974db18d27af2a7f67dd929b6f" "ConvertDocument_1.json" >}}
 
 <p style="margin-top:-32px;font-size:80%;font-style:italic">To get a JWT token use this <a href="/words/getting-started/quickstart/">instruction</a></p>
-
 {{< /tab >}}
 {{< tab tabNum="3" >}}
 ```json

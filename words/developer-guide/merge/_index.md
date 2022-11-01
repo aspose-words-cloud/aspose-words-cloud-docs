@@ -13,8 +13,8 @@ Aspose provides a powerful API to merge and combine multiple documents into one.
 
 With this API you can join several Word documents into one, that is easier to review, print and share. For example, you can merge DOCX files and save them into a single consolidated [PDF](https://docs.fileformat.com/pdf/).
 
-The API supports a variety of input and output formats and allows you to combine multiple [DOC](https://docs.fileformat.com/word-processing/doc/), [DOT](https://docs.fileformat.com/word-processing/dot/), [DOCX](https://docs.fileformat.com/word-processing/docx/), [DOTX](https://docs.fileformat.com/word-processing/dotx/), [RTF](https://docs.fileformat.com/word-processing/rtf/), [ODT](https://docs.fileformat.com/word-processing/odt/), [OTT](https://docs.fileformat.com/word-processing/ott/), [TXT](https://docs.fileformat.com/word-processing/txt/), [HTML](https://docs.fileformat.com/web/html/) files and download the result in [DOCX](https://docs.fileformat.com/word-processing/docx/), [PDF](https://docs.fileformat.com/pdf/), [HTML](https://docs.fileformat.com/web/html/), [EPUB](https://docs.fileformat.com/ebook/epub/), [PNG](https://docs.fileformat.com/Image/png/), [JPEG](https://docs.fileformat.com/image/jpeg/) and other formats. 
- 
+The API supports a variety of input and output formats and allows you to combine multiple [DOC](https://docs.fileformat.com/word-processing/doc/), [DOT](https://docs.fileformat.com/word-processing/dot/), [DOCX](https://docs.fileformat.com/word-processing/docx/), [DOTX](https://docs.fileformat.com/word-processing/dotx/), [RTF](https://docs.fileformat.com/word-processing/rtf/), [ODT](https://docs.fileformat.com/word-processing/odt/), [OTT](https://docs.fileformat.com/word-processing/ott/), [TXT](https://docs.fileformat.com/word-processing/txt/), [HTML](https://docs.fileformat.com/web/html/) files and download the result in [DOCX](https://docs.fileformat.com/word-processing/docx/), [PDF](https://docs.fileformat.com/pdf/), [HTML](https://docs.fileformat.com/web/html/), [EPUB](https://docs.fileformat.com/ebook/epub/), [PNG](https://docs.fileformat.com/image/png/), [JPEG](https://docs.fileformat.com/image/jpeg/) and other formats. 
+
 To append Word documents to the source document,  you need to specify their names in the `documentList` parameter. The resulting changes are saved in the source document if the `destFileName` parameter is missing.
 
 The description of the important API parameters is given below:
@@ -36,13 +36,11 @@ Download sample [test_doc.docx](test_doc.docx), [test_multi_pages.docx](test_mul
 {{< gist "aspose-words-cloud-gists" "8a52e648cd36d3e0a7402727561073b6" "AppendDocumentOnline.curl" >}}
 
 <p style="margin-top:-32px;font-size:80%;font-style:italic">To get a JWT token use this <a href="/words/getting-started/quickstart/">instruction</a></p>
-
 {{< /tab >}}
 {{< tab tabNum="2" >}}
 {{< gist "aspose-words-cloud-gists" "894866974db18d27af2a7f67dd929b6f" "AppendDocumentOnline.json" >}}
 
 <p style="margin-top:-32px;font-size:80%;font-style:italic">To get a JWT token use this <a href="/words/getting-started/quickstart/">instruction</a></p>
-
 {{< /tab >}}
 {{< tab tabNum="3" >}}
 ```json
