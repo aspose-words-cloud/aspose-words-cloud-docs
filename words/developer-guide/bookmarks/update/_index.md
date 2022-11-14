@@ -1,4 +1,4 @@
----
+﻿---
 title: "Update"
 second_title: "Bookmarks in a Word Document"
 type: docs
@@ -8,66 +8,74 @@ description: "Update bookmarks in a Word document"
 weight: 30
 ---
 
-This REST API updates a `Bookmark`.
+Updates a bookmark in the document.
 
-Important properties are the following:
+## REST API
 
-|Property Name|Type|Description|
-| :- | :- | :- |
-|Name|string|Name of the selected bookmark|
-|Text|string|The text contained within this bookmark|
+| Server                         | REST endpoint        | HTTP method  |
+|--------------------------------|----------------------|--------------|
+| https://api.aspose.cloud/v4.0  | [/words/online/put/bookmarks/{bookmarkName}](https://api.aspose.cloud/v4.0/words/online/put/bookmarks/{bookmarkName}) | PUT |
 
-## Usage examples with cURL and Postman
+, where:
 
-[Aspose.Words Cloud APIs Swagger UI](https://apireference.aspose.cloud/words/#/Bookmarks/UpdateBookmark). The following examples demonstate how to create requests with **cURL** and **Postman**. Please read these <a href="/words/getting-started/quickstart/">instructions</a> to receive a personal `JWT_TOKEN` for authorization.
+* `bookmarkName` - the name of the bookmark.
+
+You can use these parameters in a REST request:
+
+| Name                 | Type   | Description                                                  |
+|----------------------|--------|--------------------------------------------------------------|
+| `loadEncoding`       | string | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
+| `password`           | string | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| `encryptedPassword`  | string | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
+| `destFileName`       | string | Result path of the document after the operation. If this parameter is omitted then result of the operation will be saved as the source document. |
+| `revisionAuthor`     | string | Initials of the author to use for revisions.If you set this parameter and then make some changes to the document programmatically, save the document and later open the document in MS Word you will see these changes as revisions. |
+| `revisionDateTime`   | string | The date and time to use for revisions.                      |
+
+
+{{% alert style="info" %}}
+**Note**: to access this REST API, you need to register and get personal credentials. Use the '[Quick Start](/getting-started/quickstart/)' guide to go through the procedure in a couple of minutes.
+{{% /alert %}}
+
+
+## Supported File Formats
+
+The following input file formats are supported: DOC, DOT, DOCX, DOCM, DOTX, DOTM, FlatOPC (with and without macros), RTF, WordML, HTML, MHTHML, MOBI, CHM, AZW3, EPUB, ODT, OTT, TXT, Markdown, PDF, XML.
+
+The following output file formats are supported: DOC, DOT, DOCX, DOCM, DOTX, DOTM, FlatOPC (with and without macros), RTF, WordML, HTML, MTHML, AZW3, EPUB, ODT, OTT, TXT, Markdown, PDF, XPS, XAML (fixed and flow), SVG, OpenXPS, PS, PCL, TIFF, PNG, BMP, EMF, JPG, GIF.
+
+
+## Usage Examples
+
+Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
+
+### How to Update bookmarks in a Word document using cURL or Postman
+
+One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
 {{< nosnippet >}}
-{{< tabs tabTotal="3" tabID="1" tabName1="cURL Request" tabName2="Postman Request" tabName3="Server Response" >}}
+{{< tabs tabTotal="2" tabID="1" tabName1="cURL Request" tabName2="Postman Request" >}}
 {{< tab tabNum="1" >}}
 {{< gist "aspose-words-cloud-gists" "8a52e648cd36d3e0a7402727561073b6" "UpdateBookmarkOnline.curl" >}}
 
-<p style="margin-top:-32px;font-size:80%;font-style:italic">To get a JWT token use this <a href="/words/getting-started/quickstart/">instruction</a></p>
+<p style="margin-top:-32px;font-size:80%;font-style:italic">To get a JWT token use these <a href="/words/getting-started/quickstart/">instructions</a></p>
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
 {{< gist "aspose-words-cloud-gists" "894866974db18d27af2a7f67dd929b6f" "UpdateBookmarkOnline.json" >}}
 
-<p style="margin-top:-32px;font-size:80%;font-style:italic">To get a JWT token use this <a href="/words/getting-started/quickstart/">instruction</a></p>
+<p style="margin-top:-32px;font-size:80%;font-style:italic">To get a JWT token use these <a href="/words/getting-started/quickstart/">instructions</a></p>
 
-{{< /tab >}}
-{{< tab tabNum="3" >}}
-```json
-{
-  "Bookmark": {
-    "Name": "aspose",
-    "Text": "This will be the text for Aspose",
-    "link": {
-      "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/bookmarks/aspose",
-      "Rel": "self",
-      "Type": null,
-      "Title": null
-    }
-  },
-  "Code": 200,
-  "Status": "OK"
-}
-```
 {{< /tab >}}
 {{< /tabs >}}
 {{< /nosnippet >}}
 
-## Aspose.Words Cloud SDK Family
 
-Using SDK is the quickest way to speed up the development. Please go to the [GitHub](https://github.com/aspose-words-cloud) repository to explore a wide family of our Cloud SDKs. These powerful libraries take care of all low-level programming details and let you focus on your primary tasks.
+### How to Update bookmarks in a Word document using Python, Java, C#, C++, JavaScript and other programming languages
 
-## Usage examples in Python, Java, C#, etc.
-
-The following code samples show how to interact with the REST API using almost any mainstream programming language.
-
-You can find a lot of other examples in [Python](https://gist.github.com/aspose-words-cloud-gists/e26813ced70692c544820cd8011ee7e0), [Java](https://gist.github.com/aspose-words-cloud-gists/caede439bfd2e57c3010befe504faff4), [C#](https://gist.github.com/aspose-words-cloud-gists/374e1e3dd4bca8f696f29d913645f549), [JavaScript](https://gist.github.com/aspose-words-cloud-gists/a9510e4b51613f1138e7c1ec09634c4a), [PHP](https://gist.github.com/aspose-words-cloud-gists/e2a72445b96362dc0117f06ab54bb94a), [C++](https://gist.github.com/aspose-words-cloud-gists/49aa5151a094849179bae8672c887a0e), [Golang](https://gist.github.com/aspose-words-cloud-gists/625ca80adffd779e8f6e3611551e14d5), [Ruby](https://gist.github.com/aspose-words-cloud-gists/339f3835a4c0a536c81ec941de29baf7), [Swift](https://gist.github.com/aspose-words-cloud-gists/790dbd2edd5d36f170732366f52cac4c), [Dart](https://gist.github.com/aspose-words-cloud-gists/6aae628cf2b878b78fea177c3171c6bf) on GitHub. All codes are thoroughly tested and ready for production use.
+Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 
 {{< nosnippet >}}
-{{< tabs tabTotal="10" tabID="4" tabName1="Python" tabName2="Java" tabName3="Node.js" tabName4="C#" tabName5="PHP" tabName6="C++" tabName7="Go" tabName8="Ruby" tabName9="Swift" tabName10="Dart" >}}
+{{< tabs tabTotal="10" tabID="2" tabName1="Python" tabName2="Java" tabName3="Node.js" tabName4="C#" tabName5="PHP" tabName6="C++" tabName7="Go" tabName8="Ruby" tabName9="Swift" tabName10="Dart" >}}
 {{< tab tabNum="1" >}}
 {{< gist "aspose-words-cloud-gists" "e26813ced70692c544820cd8011ee7e0" "UpdateBookmarkOnline.py" >}}
 {{< /tab >}}
@@ -101,3 +109,7 @@ You can find a lot of other examples in [Python](https://gist.github.com/aspose-
 {{< /tab >}}
 {{< /tabs >}}
 {{< /nosnippet >}}
+
+You can also visit our [GitHub repository](https://github.com/aspose-words-cloud) to explore a wide family of Aspose.Words Cloud SDKs. These software libraries take care of all low-level document-processing details and let you focus on your primary tasks.
+
+

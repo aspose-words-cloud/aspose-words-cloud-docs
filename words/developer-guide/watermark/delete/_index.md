@@ -1,4 +1,4 @@
----
+﻿---
 title: "Delete the watermark from a Word Document"
 second_title: "Aspose Words Cloud Docs"
 type: docs
@@ -8,222 +8,70 @@ description: "Delete a watermark from a Word document"
 weight: 10
 ---
 
-This REST API deletes a `Watermark`.
+Removes a watermark from the document.
 
-## Usage examples with cURL and Postman
+## REST API
 
-You can carry out REST API interactions using `cURL` and `Postman`. Please read these <a href="/words/getting-started/quickstart/">instructions</a> to receive a personal `JWT_TOKEN` for authorization.
+| Server                         | REST endpoint        | HTTP method  |
+|--------------------------------|----------------------|--------------|
+| https://api.aspose.cloud/v4.0  | [/words/online/post/watermarks/deleteLast](https://api.aspose.cloud/v4.0/words/online/post/watermarks/deleteLast) | PUT |
+
+You can use these parameters in a REST request:
+
+| Name                 | Type   | Description                                                  |
+|----------------------|--------|--------------------------------------------------------------|
+| `loadEncoding`       | string | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
+| `password`           | string | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| `encryptedPassword`  | string | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
+| `destFileName`       | string | Result path of the document after the operation. If this parameter is omitted then result of the operation will be saved as the source document. |
+| `revisionAuthor`     | string | Initials of the author to use for revisions.If you set this parameter and then make some changes to the document programmatically, save the document and later open the document in MS Word you will see these changes as revisions. |
+| `revisionDateTime`   | string | The date and time to use for revisions.                      |
+
+
+{{% alert style="info" %}}
+**Note**: to access this REST API, you need to register and get personal credentials. Use the '[Quick Start](/getting-started/quickstart/)' guide to go through the procedure in a couple of minutes.
+{{% /alert %}}
+
+
+## Supported File Formats
+
+The following input file formats are supported: DOC, DOT, DOCX, DOCM, DOTX, DOTM, FlatOPC (with and without macros), RTF, WordML, HTML, MHTHML, MOBI, CHM, AZW3, EPUB, ODT, OTT, TXT, Markdown, PDF, XML.
+
+The following output file formats are supported: DOC, DOT, DOCX, DOCM, DOTX, DOTM, FlatOPC (with and without macros), RTF, WordML, HTML, MTHML, AZW3, EPUB, ODT, OTT, TXT, Markdown, PDF, XPS, XAML (fixed and flow), SVG, OpenXPS, PS, PCL, TIFF, PNG, BMP, EMF, JPG, GIF.
+
+
+## Usage Examples
+
+Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
+
+### How to Delete a watermark from a Word document using cURL or Postman
+
+One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
 {{< nosnippet >}}
-{{< tabs tabTotal="3" tabID="1" tabName1="cURL Request" tabName2="Postman Request" tabName3="Server Response" >}}
+{{< tabs tabTotal="2" tabID="1" tabName1="cURL Request" tabName2="Postman Request" >}}
 {{< tab tabNum="1" >}}
 {{< gist "aspose-words-cloud-gists" "8a52e648cd36d3e0a7402727561073b6" "DeleteWatermarkOnline.curl" >}}
 
-<p style="margin-top:-32px;font-size:80%;font-style:italic">To get a JWT token use this <a href="/words/getting-started/quickstart/">instruction</a></p>
+<p style="margin-top:-32px;font-size:80%;font-style:italic">To get a JWT token use these <a href="/words/getting-started/quickstart/">instructions</a></p>
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
 {{< gist "aspose-words-cloud-gists" "894866974db18d27af2a7f67dd929b6f" "DeleteWatermarkOnline.json" >}}
 
-<p style="margin-top:-32px;font-size:80%;font-style:italic">To get a JWT token use this <a href="/words/getting-started/quickstart/">instruction</a></p>
+<p style="margin-top:-32px;font-size:80%;font-style:italic">To get a JWT token use these <a href="/words/getting-started/quickstart/">instructions</a></p>
 
-{{< /tab >}}
-{{< tab tabNum="3" >}}
-```json
-{
-  "Document": {
-    "Links": [
-      {
-        "Href": "test_doc.docx",
-        "Rel": "self",
-        "Type": null,
-        "Title": null
-      },
-      {
-        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=doc",
-        "Rel": "alternate",
-        "Type": "application/msword",
-        "Title": "Download as DOC"
-      },
-      {
-        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=dot",
-        "Rel": "alternate",
-        "Type": "application/msword",
-        "Title": "Download as DOT"
-      },
-      {
-        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=docx",
-        "Rel": "alternate",
-        "Type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-        "Title": "Download as DOCX"
-      },
-      {
-        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=docm",
-        "Rel": "alternate",
-        "Type": "application/vnd.ms-word.document.macroEnabled.12",
-        "Title": "Download as DOCM"
-      },
-      {
-        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=dotx",
-        "Rel": "alternate",
-        "Type": "application/vnd.openxmlformats-officedocument.wordprocessingml.template",
-        "Title": "Download as DOTX"
-      },
-      {
-        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=dotm",
-        "Rel": "alternate",
-        "Type": "application/vnd.ms-word.template.macroEnabled.12",
-        "Title": "Download as DOTM"
-      },
-      {
-        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=flatopc",
-        "Rel": "alternate",
-        "Type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-        "Title": "Download as FLATOPC"
-      },
-      {
-        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=rtf",
-        "Rel": "alternate",
-        "Type": "application/rtf",
-        "Title": "Download as RTF"
-      },
-      {
-        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=wml",
-        "Rel": "alternate",
-        "Type": "text/xml",
-        "Title": "Download as WML"
-      },
-      {
-        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=odt",
-        "Rel": "alternate",
-        "Type": "application/vnd.oasis.opendocument.text",
-        "Title": "Download as ODT"
-      },
-      {
-        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=ott",
-        "Rel": "alternate",
-        "Type": "application/vnd.oasis.opendocument.text-template",
-        "Title": "Download as OTT"
-      },
-      {
-        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=txt",
-        "Rel": "alternate",
-        "Type": "text/plain",
-        "Title": "Download as TXT"
-      },
-      {
-        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=mhtml",
-        "Rel": "alternate",
-        "Type": "multipart/related",
-        "Title": "Download as MHTML"
-      },
-      {
-        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=epub",
-        "Rel": "alternate",
-        "Type": "application/epub+zip",
-        "Title": "Download as EPUB"
-      },
-      {
-        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=pdf",
-        "Rel": "alternate",
-        "Type": "application/pdf",
-        "Title": "Download as PDF"
-      },
-      {
-        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=xps",
-        "Rel": "alternate",
-        "Type": "application/vnd.ms-xpsdocument",
-        "Title": "Download as XPS"
-      },
-      {
-        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=tiff",
-        "Rel": "alternate",
-        "Type": "image/tiff",
-        "Title": "Download as TIFF"
-      },
-      {
-        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=png",
-        "Rel": "alternate",
-        "Type": "image/png",
-        "Title": "Download as PNG"
-      },
-      {
-        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=jpeg",
-        "Rel": "alternate",
-        "Type": "image/jpeg",
-        "Title": "Download as JPEG"
-      },
-      {
-        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=bmp",
-        "Rel": "alternate",
-        "Type": "image/bmp",
-        "Title": "Download as BMP"
-      },
-      {
-        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=gif",
-        "Rel": "alternate",
-        "Type": "image/gif",
-        "Title": "Download as GIF"
-      },
-      {
-        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=svg",
-        "Rel": "alternate",
-        "Type": "image/svg+xml",
-        "Title": "Download as SVG"
-      },
-      {
-        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=html",
-        "Rel": "alternate",
-        "Type": "text/html",
-        "Title": "Download as HTML"
-      },
-      {
-        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=htmlfixed",
-        "Rel": "alternate",
-        "Type": "text/html",
-        "Title": "Download as HTMLFIXED"
-      },
-      {
-        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx?format=pcl",
-        "Rel": "alternate",
-        "Type": "application/x-pcl",
-        "Title": "Download as PCL"
-      }
-    ],
-    "FileName": "test_doc.docx",
-    "SourceFormat": 4,
-    "IsEncrypted": false,
-    "IsSigned": false,
-    "DocumentProperties": {
-      "List": null,
-      "link": {
-        "Href": "https://api.aspose.cloud/v4.0/words/test_doc.docx/documentProperties",
-        "Rel": "self",
-        "Type": null,
-        "Title": null
-      }
-    }
-  },
-  "Code": 200,
-  "Status": "OK"
-}
-```
 {{< /tab >}}
 {{< /tabs >}}
 {{< /nosnippet >}}
 
-## Aspose.Words Cloud SDK Family
 
-Using SDK is the best way to speed up the development. Please go to the [GitHub](https://github.com/aspose-words-cloud) repository to explore a wide family of our Cloud SDKs. These powerful libraries take care of all low-level programming details and let you focus on your primary tasks.
+### How to Delete a watermark from a Word document using Python, Java, C#, C++, JavaScript and other programming languages
 
-## Usage examples in Python, Java, C#, etc.
-
-The following code samples show how to interact with the REST API using almost any mainstream programming language.
-
-You can find a lot of other examples in [Python](https://gist.github.com/aspose-words-cloud-gists/e26813ced70692c544820cd8011ee7e0), [Java](https://gist.github.com/aspose-words-cloud-gists/caede439bfd2e57c3010befe504faff4), [C#](https://gist.github.com/aspose-words-cloud-gists/374e1e3dd4bca8f696f29d913645f549), [JavaScript](https://gist.github.com/aspose-words-cloud-gists/a9510e4b51613f1138e7c1ec09634c4a), [PHP](https://gist.github.com/aspose-words-cloud-gists/e2a72445b96362dc0117f06ab54bb94a), [C++](https://gist.github.com/aspose-words-cloud-gists/49aa5151a094849179bae8672c887a0e), [Golang](https://gist.github.com/aspose-words-cloud-gists/625ca80adffd779e8f6e3611551e14d5), [Ruby](https://gist.github.com/aspose-words-cloud-gists/339f3835a4c0a536c81ec941de29baf7), [Swift](https://gist.github.com/aspose-words-cloud-gists/790dbd2edd5d36f170732366f52cac4c), [Dart](https://gist.github.com/aspose-words-cloud-gists/6aae628cf2b878b78fea177c3171c6bf) on GitHub. All codes are thoroughly tested and ready for production use.
+Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 
 {{< nosnippet >}}
-{{< tabs tabTotal="10" tabID="4" tabName1="Python" tabName2="Java" tabName3="Node.js" tabName4="C#" tabName5="PHP" tabName6="C++" tabName7="Go" tabName8="Ruby" tabName9="Swift" tabName10="Dart" >}}
+{{< tabs tabTotal="10" tabID="2" tabName1="Python" tabName2="Java" tabName3="Node.js" tabName4="C#" tabName5="PHP" tabName6="C++" tabName7="Go" tabName8="Ruby" tabName9="Swift" tabName10="Dart" >}}
 {{< tab tabNum="1" >}}
 {{< gist "aspose-words-cloud-gists" "e26813ced70692c544820cd8011ee7e0" "DeleteWatermarkOnline.py" >}}
 {{< /tab >}}
@@ -257,3 +105,7 @@ You can find a lot of other examples in [Python](https://gist.github.com/aspose-
 {{< /tab >}}
 {{< /tabs >}}
 {{< /nosnippet >}}
+
+You can also visit our [GitHub repository](https://github.com/aspose-words-cloud) to explore a wide family of Aspose.Words Cloud SDKs. These software libraries take care of all low-level document-processing details and let you focus on your primary tasks.
+
+
