@@ -1,0 +1,15 @@
+﻿This REST API updates a `DrawingObject`.
+
+The request is an HTTP request with multipart content (see [RFC 2046](http://tools.ietf.org/html/rfc2046#page-17) or [RFC 1341](http://www.w3.org/Protocols/rfc1341/7_2_Multipart.html)). The first part of the multipart content contains the drawing object data and the second contains a binary image.
+
+The important parameters are described in the following table:
+
+|Parameter Name|Type|Description|
+| :- | :- | :- |
+|RelativeHorizontalPosition|Aspose.Words.Drawing.ShapeBase.RelativeHorizontalPosition|Specifies where the distance to the image is measured.|
+|RelativeVerticalPosition|Aspose.Words.Drawing.ShapeBase.RelativeVerticalPosition|Specifies where the distance to the image is measured.|
+|Left|double|Distance in points from the origin to the left side of the image.|
+|Top|double|Distance in points from the origin to the top side of the image.|
+|Width|double|Width of the drawing objects in points.|
+|Height|double|Height of the drawing object in points.|
+|WrapType|Aspose.Words.Drawing.ShapeBase.WrapType|Specifies how to wrap text around the image.|

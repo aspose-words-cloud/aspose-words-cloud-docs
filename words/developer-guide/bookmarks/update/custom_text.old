@@ -1,0 +1,8 @@
+﻿This REST API updates a `Bookmark`.
+
+Important properties are the following:
+
+|Property Name|Type|Description|
+| :- | :- | :- |
+|Name|string|Name of the selected bookmark|
+|Text|string|The text contained within this bookmark|

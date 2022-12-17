@@ -1,0 +1,14 @@
+﻿Aspose provides a powerful API to merge and combine multiple documents into one. It's a common document automation task with several practical applications, that may enable greater consistency, streamline document workflows and reduce paper usage.
+
+With this API you can join several Word documents into one, that is easier to review, print and share. For example, you can merge DOCX files and save them into a single consolidated [PDF](https://docs.fileformat.com/pdf/).
+
+The API supports a variety of input and output formats and allows you to combine multiple [DOC](https://docs.fileformat.com/word-processing/doc/), [DOT](https://docs.fileformat.com/word-processing/dot/), [DOCX](https://docs.fileformat.com/word-processing/docx/), [DOTX](https://docs.fileformat.com/word-processing/dotx/), [RTF](https://docs.fileformat.com/word-processing/rtf/), [ODT](https://docs.fileformat.com/word-processing/odt/), [OTT](https://docs.fileformat.com/word-processing/ott/), [TXT](https://docs.fileformat.com/word-processing/txt/), [HTML](https://docs.fileformat.com/web/html/) files and download the result in [DOCX](https://docs.fileformat.com/word-processing/docx/), [PDF](https://docs.fileformat.com/pdf/), [HTML](https://docs.fileformat.com/web/html/), [EPUB](https://docs.fileformat.com/ebook/epub/), [PNG](https://docs.fileformat.com/image/png/), [JPEG](https://docs.fileformat.com/image/jpeg/) and other formats. 
+
+To append Word documents to the source document,  you need to specify their names in the `documentList` parameter. The resulting changes are saved in the source document if the `destFileName` parameter is missing.
+
+The description of the important API parameters is given below:
+
+|Name|Type|Description|
+| :- | :- | :- |
+|Href|string|Path of the document to append.|
+|ImportFormatMode|string|Defines which formatting will be used: appended or destination document. Possible values are **KeepSourceFormatting** or **UseDestinationStyles**. |

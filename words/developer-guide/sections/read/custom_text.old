@@ -1,0 +1,35 @@
+﻿This REST API reads a page setup of a `Section`. 
+
+The resource properties are the following:
+
+|Property Name|Type|Description|
+| :- | :- | :- |
+|Bidi|bool|Specifies that this section contains bidirectional (complex scripts) text.|
+|BorderAlwaysInFront|bool|Specifies where the page border is positioned relative to intersecting texts and objects.|
+|BorderAppliesTo|PageBorderAppliesTo|Specifies which pages the page border is printed on.|
+|BorderDistanceFrom|PageBorderDistanceFrom|Specifies a value that indicates whether the specified page border is measured from the edge of the page or from the text it surrounds.|
+|BottomMargin|double|Specifies the distance (in points) between the bottom edge of the page and the bottom boundary of the body text.|
+|DifferentFirstPageHeaderFooter|bool|True if a different header or footer is used on the first page.|
+|FirstPageTray|int|Specifies the paper tray (bin) to use for the first page of a section. The value is implementation (printer) specific.|
+|FooterDistance|double|Specifies the distance (in points) between the footer and the bottom of the page.|
+|Gutter|double|Specifies the amount of extra space added to the margin for document binding.|
+|HeaderDistance|double|Specifies the distance (in points) between the header and the top of the page.|
+|LeftMargin|double|Specifies the distance (in points) between the left edge of the page and the left boundary of the body text.|
+|LineNumberCountBy|int|Specifies the numeric increment for line numbers.|
+|LineNumberDistanceFromText|double|Specifies the distance between the right edge of line numbers and the left edge of the document. Set this property to zero for the automatic distance between the line numbers and text of the document.|
+|LineNumberRestartMode|LineNumberRestartMode|Specifies the way line numbering runs that is, whether it starts over at the beginning of a new page or section or runs continuously.|
+|LineStartingNumber|int|Specifies the starting line number.|
+|Orientation|Orientation|Specifies the orientation of the page. Changing 'Orientation' swaps 'PageWidth' and 'PageHeight'.|
+|OtherPagesTray|int|Specifies the paper tray (bin) to be used for all but the first page of a section. The value is implementation (printer) specific.|
+|PageHeight|double|Specifies the height of the page in points.|
+|PageNumberStyle|NumberStyle|Specifies the page number format.|
+|PageStartingNumber|int|Specifies the starting page number of the section. The 'RestartPageNumbering' property, if set to false, will override the 'PageStartingNumber' property so that page numbering can continue from the previous section.|
+|PageWidth|double|Specifies the width of the page in points.|
+|PaperSize|PaperSize|Specifies the paper size. Setting this property updates 'PageWidth' and 'PageHeight' values. Setting this value to 'Custom' does not change existing values.|
+|RestartPageNumbering|bool|True if page numbering restarts at the beginning of the section. If set to false, the 'RestartPageNumbering' property will override the 'PageStartingNumber' property so that page numbering can continue from the previous section.|
+|RightMargin|double|Specifies the distance (in points) between the right edge of the page and the right boundary of the body text.|
+|RtlGutter|bool|Specifies whether Microsoft Word uses gutters for the section based on a right-to-left language or a left-to-right language.|
+|SectionStart|SectionStart|Specifies the type of section break for the specified object.|
+|SuppressEndnotes|bool|True if endnotes are printed at the end of the next section that doesn't suppress endnotes. Suppressed endnotes are printed before the endnotes in that section.|
+|TopMargin|double|Specifies the distance (in points) between the top edge of the page and the top boundary of the body text.|
+|VerticalAlignment|PageVerticalAlignment|Specifies the vertical alignment of text on each page in a document or section.|

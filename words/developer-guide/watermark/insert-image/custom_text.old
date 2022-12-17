@@ -1,0 +1,8 @@
+﻿This REST API inserts a `Watermark` image.
+
+The important request parameters are the following:
+
+|Parameter Name|Type|Query String/HTTP Body|Description|
+| :- | :- | :- | :- |
+|image|string|Query string: imageFile=ImagesFolder/watermark.jpg|The image file server full name. If the name is empty the image is expected in request content.|
+|rotationAngle|double|Query string: rotationAngle = -42.5|The watermark rotation angle.|

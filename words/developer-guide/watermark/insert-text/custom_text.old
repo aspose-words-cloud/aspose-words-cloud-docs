@@ -1,0 +1,7 @@
+﻿This REST API insert a `Watermark` text. The object will appear as a `Watermark` throughout the document. 
+
+The important request parameters are the following:
+
+|Parameter Name|Type|Query String/HTTP Body|Description|
+| :- | :- | :- | :- |
+|watermarkText |string|Query String/HTTP Body: text=DRAFT|Watermark text.|

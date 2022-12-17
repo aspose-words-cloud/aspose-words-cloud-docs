@@ -1,0 +1,8 @@
+﻿This REST API retrieves a `Section`.
+
+Important properties are the following:
+
+|Property Name|Type|Description|
+| :- | :- | :- |
+|Paragraphs|Link|Represents a link to a list of all paragraphs that are contained in the section.|
+|PageSetup|Link|Represents a link to the section's page setup resource.|

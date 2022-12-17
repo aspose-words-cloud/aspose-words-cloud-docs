@@ -1,0 +1,11 @@
+﻿This REST API adds a protection to a document.
+
+A password is always required. If you want to change the type of protection, then ProtectionType is required. If you want to change the password, then NewPassword is required. If you want to change both of the type of protection and the password, then both ProtectionType and NewPassword are required.
+
+Important properties are the following:
+
+|Property Name|Type|Description|
+| :- | :- | :- |
+|ProtectionType|string|Document protection type, one from: AllowOnlyComments, AllowOnlyFormFields, AllowOnlyRevisions, ReadOnly, NoProtection.|
+|Password|string|Current document protection password.|
+|NewPassword|string|New document protection password.|

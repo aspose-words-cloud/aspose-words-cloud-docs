@@ -1,0 +1,10 @@
+﻿This REST API saves a Web page into a Word document format.
+
+The request parameters are given below:
+
+|Parameter Name|Type|Description|
+| :- | :- | :- |
+|LoadingDocumentUrl|string|Web document URL|
+|SaveOptions|SaveOptions|Save options|
+
+Please check [Convert Document to Destination Format with Detailed Settings and Save Result to Storage](/words/convert/conversion-settings/) article to know the SaveOptions of different formats.

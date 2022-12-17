@@ -1,0 +1,5 @@
+﻿This example explains how to retrieve Mail Merge field names from a document online. [This API](https://apireference.aspose.cloud/words/#/MailMerge/GetDocumentFieldNamesOnline) assumes we send the document in the request body.
+
+The following is a description of the most important parameters:
+
+- **useNonMergeFields**. Result includes "mustache" field names if UseNonMergeFields is true

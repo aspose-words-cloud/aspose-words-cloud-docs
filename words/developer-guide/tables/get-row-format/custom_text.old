@@ -1,0 +1,10 @@
+﻿This REST API retrieves table's `Row` formatting properties.
+
+Important properties are the following:
+
+|Property Name|Type|Description|
+| :- | :- | :- |
+|Height|double|Specifies the height of the table row in points.|
+|HeightRule|HeightRule|Specifies the rule for determining the height of the table row.|
+|AllowBreakAcrossPages|bool|True if the text in a table row is allowed to split across a page break.|
+|HeadingFormat|bool|True if the row is repeated as a table heading on every page when the table spans more than one page.|

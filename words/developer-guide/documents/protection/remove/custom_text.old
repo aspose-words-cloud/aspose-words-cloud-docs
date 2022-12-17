@@ -1,0 +1,9 @@
+﻿This REST API removes a protection.
+
+Important properties are the following:
+
+|Property Name|Type|Description|
+| :- | :- | :- |
+|ProtectionType|string|Document protection type, one from: AllowOnlyComments, AllowOnlyFormFields, AllowOnlyRevisions, ReadOnly, NoProtection.|
+|Password|string|Current document protection password.|
+|NewPassword|string|New document protection password.|

@@ -1,0 +1,12 @@
+﻿This REST API adds a Header or a Footer to a document.
+
+The request body should contain a type of header/footer, and the allowed values of headerFooterType are:
+
+|Value|Description|
+| :- | :- |
+|HeaderEven|The header for even-numbered pages.|
+|HeaderPrimary|Primary header, also used for odd-numbered pages|
+|FooterEven|Footer for even-numbered pages.|
+|FooterPrimary|Primary footer, also used for odd-numbered pages.|
+|HeaderFirst|The header for the first page of the section.|
+|FooterFirst|Footer for the first page of the section.|

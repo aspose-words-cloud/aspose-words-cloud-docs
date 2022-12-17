@@ -1,0 +1,3 @@
+﻿This REST API deletes a document property.
+
+Built-in document property resources cannot be removed and return an **HTTP 400** error response.

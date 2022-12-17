@@ -1,0 +1,7 @@
+﻿This REST API retrieves protection information.
+
+Important properties are the following:
+
+|Property Name|Type|Description|
+| :- | :- | :- |
+|ProtectionType|string|Document protection type, one from: AllowOnlyComments, AllowOnlyFormFields, AllowOnlyRevisions, ReadOnly, NoProtection.|

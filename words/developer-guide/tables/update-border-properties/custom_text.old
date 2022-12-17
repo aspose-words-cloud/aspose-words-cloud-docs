@@ -1,0 +1,12 @@
+﻿This REST API updates table's border properties.
+
+Important properties are the following:
+
+|Property Name|Type|Description|
+| :- | :- | :- |
+|BorderType|BorderType|Gets the border type.|
+|Color|Color|Specifies the border color.|
+|DistanceFromText|double|Specifies distance of the border from text or from the page edge in points.|
+|LineStyle|LineStyle|Specifies the border style.|
+|LineWidth|LineWidth|Specifies the border width in points.|
+|Shadow|bool|Specifies a value indicating whether the border has a shadow.|

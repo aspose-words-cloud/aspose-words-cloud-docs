@@ -1,0 +1,20 @@
+﻿This REST API retrieves a collection of `Font` items, which consists of three groups:
+
+- SystemFonts - Represents all TrueType fonts installed on the server.
+- AdditionalFonts - Set of fonts, which have been added by the aspose team to the server additionally.
+- CustomFonts - User's fonts from "fontsLocation" folder in file storage.
+
+The API request parameters are:
+
+|Parameter Name|HTTP Method(s)|Type|Query String/HTTPBody|Description|
+| :- | :- | :- | :- | :- |
+|fontsLocation|GET|string|Query String: fontsLocation=CustomFonts|A folder in file storage with custom fonts.|
+
+and **FontInfo** properties are:
+
+|Name|Description)|
+| :- | :- |
+|FontFamilyName|The family name of the font.|
+|FullFontName|Full name of the font.|
+|Version|Version string of the font.|
+|FilePath|Path to the font file if any. It does not exist for "CustomFonts" collection.|

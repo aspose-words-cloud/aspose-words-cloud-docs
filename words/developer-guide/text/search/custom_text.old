@@ -1,0 +1,7 @@
+﻿This REST API searches text in a document. It finds all occurrences of a character pattern specified by a **Regular Expression**.
+
+Request parameters are the following:
+
+|Parameter Name|Type|Query String/HTTPBody|Description|
+| :- | :- | :- | :- |
+|pattern|string|Query String: pattern="pattern"|The regular expression used to find matches.|

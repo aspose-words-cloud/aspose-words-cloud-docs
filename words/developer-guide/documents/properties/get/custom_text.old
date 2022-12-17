@@ -1,0 +1,9 @@
+﻿This REST API reads a document property info, specified by property name.
+
+A document property is described by the following format:
+
+|Property Name|Description|
+| :- | :- |
+|Name|The name of the property.  <br>Two properties cannot have the same name; attempts to create one would return a 400 BadRequest.  <br>BuiltIn property names cannot be changed; attempts to create one would return a 400 BadRequest|
+|Value|The value of the property.|
+|BuiltIn|A value indicating whether the property is a built-in type. Values - 1 = True, 0 = No.|

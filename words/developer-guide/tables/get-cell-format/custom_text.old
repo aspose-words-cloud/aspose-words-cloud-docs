@@ -1,0 +1,18 @@
+﻿This REST API retrieves table's `Cell` formatting properties.
+
+Important properties are the following:
+
+|Property Name|Type|Description|
+| :- | :- | :- |
+|BottomPadding|double|Specifies the amount of space (in points) to add below the contents of the cell.|
+|FitText|bool|If true, fits text in the cell, compressing each paragraph to the width of the cell.|
+|HorizontalMerge|CellMerge|Specifies how the cell is merged horizontally with other cells in the row.|
+|LeftPadding|double|Specifies the amount of space (in points) to add to the left of the contents of the cell.|
+|Orientation|TextOrientation|Specifies the orientation of text in a table cell.|
+|PreferredWidth|PreferredWidth|Specifies the preferred width of the cell.|
+|RightPadding|double|Specifies the amount of space (in points) to add to the right of the contents of the cell.|
+|TopPadding|double|Specifies the amount of space (in points) to add above the contents of the cell.|
+|VerticalAlignment|CellVerticalAlignment|Specifies the vertical alignment of text in the cell.|
+|VerticalMerge|CellMerge|Specifies how the cell is merged with other cells vertically.|
+|Width|double|Gets the width of the cell in points.|
+|WrapText|bool|If true, wrap the text for the cell.|

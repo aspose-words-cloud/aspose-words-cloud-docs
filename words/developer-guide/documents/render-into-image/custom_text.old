@@ -1,0 +1,26 @@
+﻿This REST API renders complex parts of a document to a specified image format.
+
+The following elements can be rendered:
+
+- page
+- paragraph
+- table
+- drawingObject
+- officeMathObject
+
+Request parameters are the following:
+
+|Parameter Name|Type|Query String/HTTPBody|Description|
+| :- | :- | :- | :- |
+|format|string|Query String: format=jpeg|Return the document in the specified format. Valid values for this parameter are given below.|
+
+The following formats are supported:
+
+|format parameter value|Format of the returned Presentation|
+| :- | :- |
+|bmp|Bitmap image file|
+|gif|Gif Image|
+|jpeg|JPEG Image|
+|png|Portable Network Graphic|
+|svg|Scalable Vector Graphics File|
+|tiff|Tagged Image File Format|

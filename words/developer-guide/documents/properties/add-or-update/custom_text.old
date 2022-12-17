@@ -1,0 +1,9 @@
+﻿This REST API adds a new or updates an existing document property.
+
+A document property is described by the following format:
+
+|Property Name|Description|
+| :- | :- |
+|Name|The name of the property.|
+|Value|The value of the property.|
+|BuiltIn|A value indicating whether the property is a built-in type. Values - 1 = True, 0 = False.|
