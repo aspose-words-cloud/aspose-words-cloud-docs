@@ -37,12 +37,11 @@ You can use the following optional parameters in a REST request:
 | `TextType`           | TextTypeEnum  | Range's text type.                                           |
 
 
-### DocumentResponse Response
+### DocumentResponse
 
 | Property Name        | Type   | Description                                                  |
 |----------------------|--------|--------------------------------------------------------------|
 | `Document`           | Document  | Document description.                                        |
-
 
 
 {{% alert style="info" %}}

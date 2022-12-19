@@ -31,12 +31,11 @@ You can use the following optional parameters in a REST request:
 
 
 
-### DocumentResponse Response
+### DocumentResponse
 
 | Property Name        | Type   | Description                                                  |
 |----------------------|--------|--------------------------------------------------------------|
 | `Document`           | Document  | Document description.                                        |
-
 
 
 {{% alert style="info" %}}
