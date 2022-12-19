@@ -1,7 +1,7 @@
 ﻿---
 title: "Get a List of Files"
 type: docs
-url: /files-and-storage/getfiles/
+url: /files-and-storage/get-files/
 description: "Get a list of files from a folder in Cloud Storage"
 weight: 70
 ---

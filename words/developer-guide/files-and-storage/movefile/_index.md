@@ -1,7 +1,7 @@
 ﻿---
 title: "Move a File"
 type: docs
-url: /files-and-storage/movefile/
+url: /files-and-storage/move-file/
 description: "Move a file to a new location in Cloud Storage"
 weight: 80
 ---

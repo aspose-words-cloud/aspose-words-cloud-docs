@@ -1,7 +1,7 @@
 ﻿---
 title: "Create a Folder"
 type: docs
-url: /files-and-storage/createfolder/
+url: /files-and-storage/create-folder/
 description: "Create a folder in Cloud Storage"
 weight: 30
 ---

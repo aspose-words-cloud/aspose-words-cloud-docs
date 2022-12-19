@@ -1,7 +1,7 @@
 ﻿---
 title: "Upload a File"
 type: docs
-url: /files-and-storage/uploadfile/
+url: /files-and-storage/upload-file/
 description: "Upload a file to Cloud Storage"
 weight: 100
 ---

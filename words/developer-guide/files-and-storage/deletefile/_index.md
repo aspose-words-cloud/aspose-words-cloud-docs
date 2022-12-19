@@ -1,7 +1,7 @@
 ﻿---
 title: "Delete a File"
 type: docs
-url: /files-and-storage/deletefile/
+url: /files-and-storage/delete-file/
 description: "Delete a file in Cloud Storage"
 weight: 40
 ---

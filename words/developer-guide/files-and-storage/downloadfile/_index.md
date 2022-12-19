@@ -1,7 +1,7 @@
 ﻿---
 title: "Download a File"
 type: docs
-url: /files-and-storage/downloadfile/
+url: /files-and-storage/download-file/
 description: "Download a file from Cloud Storage"
 weight: 60
 ---

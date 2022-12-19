@@ -1,7 +1,7 @@
 ﻿---
 title: "Copy a Folder"
 type: docs
-url: /files-and-storage/copyfolder/
+url: /files-and-storage/copy-folder/
 description: "Copy a folder to a new location in Cloud Storage"
 weight: 20
 ---

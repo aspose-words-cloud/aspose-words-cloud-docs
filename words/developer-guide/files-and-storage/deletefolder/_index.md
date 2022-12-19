@@ -1,7 +1,7 @@
 ﻿---
 title: "Delete a Folder"
 type: docs
-url: /files-and-storage/deletefolder/
+url: /files-and-storage/delete-folder/
 description: "Delete a folder in Cloud Storage"
 weight: 50
 ---
