@@ -4,30 +4,30 @@ second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /range/remove/
 description: "Remove a range from the document"
-weight: 10
+weight: 30
 ---
 
 Removes a range from the document.
 
 ## REST API
 
-| Server                         | REST endpoint        | HTTP method  |
-|--------------------------------|----------------------|--------------|
-| https://api.aspose.cloud/v4.0  | /words/online/delete/range/{rangeStartIdentifier}/{rangeEndIdentifier} | PUT         |
+| Server                         | Method | Endpoint             |
+|--------------------------------|--------|----------------------|
+| https://api.aspose.cloud/v4.0  | PUT    | /words/online/delete/range/{rangeStartIdentifier}/{rangeEndIdentifier} |
 
 , where:
 
 * **`rangeStartIdentifier`** (required) - the range start identifier.
 * `rangeEndIdentifier` - the range end identifier.
 
-You can use the following optional parameters in a REST request:
+You can use the following parameters in a REST request:
 
-| Parameter Name       | Type   | Description                                                  |
-|----------------------|--------|------------------------------------------------------|
-| `loadEncoding`       | string | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
-| `password`           | string | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
-| `encryptedPassword`  | string | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
-| `destFileName`       | string | Result path of the document after the operation. If this parameter is omitted then result of the operation will be saved as the source document. |
+| Parameter Name       | Data Type | Required/Optionanl | Description                     |
+|----------------------|-----------|--------------------|---------------------------------|
+| `loadEncoding`       | string    | Optional           | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
+| `password`           | string    | Optional           | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| `encryptedPassword`  | string    | Optional           | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
+| `destFileName`       | string    | Optional           | Result path of the document after the operation. If this parameter is omitted then result of the operation will be saved as the source document. |
 
 
 
