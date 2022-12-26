@@ -1,4 +1,4 @@
----
+﻿---
 title: "Protection"
 second_title: "Aspose Words Cloud Docs"
 type: docs
