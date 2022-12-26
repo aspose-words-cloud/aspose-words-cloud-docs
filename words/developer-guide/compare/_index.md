@@ -4,7 +4,7 @@ second_title: "Documents"
 type: docs
 url: /compare/
 aliases: [/compare-documents/]
-description: "Learn how to compare Word documents"
+description: "Compare Word documents"
 weight: 40
 ---
 
@@ -44,7 +44,7 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to learn how to compare Word documents using cURL or Postman
+### How to compare Word documents using cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -66,7 +66,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to learn how to compare Word documents using Python, Java, C#, C++, JavaScript and other programming languages
+### How to compare Word documents using Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 
