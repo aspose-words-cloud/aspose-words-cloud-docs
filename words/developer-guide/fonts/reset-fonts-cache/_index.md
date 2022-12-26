@@ -12,28 +12,20 @@ Clears the font cache.
 
 ## REST API
 
-| Server                         | REST endpoint        | HTTP method  |
-|--------------------------------|----------------------|--------------|
-| https://api.aspose.cloud/v4.0  | [/words/fonts/cache](https://api.aspose.cloud/v4.0/words/fonts/cache) | DELETE |
-
+| Server                         | Method | Endpoint             |
+|--------------------------------|--------|----------------------|
+| https://api.aspose.cloud/v4.0  | DELETE | /words/fonts/cache |
 
 {{% alert style="info" %}}
 **Note**: to access this REST API, you need to register and get personal credentials. Use the '[Quick Start](/getting-started/quickstart/)' guide to go through the procedure in a couple of minutes.
 {{% /alert %}}
 
 
-## Supported File Formats
-
-The following input file formats are supported: DOC, DOT, DOCX, DOCM, DOTX, DOTM, FlatOPC (with and without macros), RTF, WordML, HTML, MHTHML, MOBI, CHM, AZW3, EPUB, ODT, OTT, TXT, Markdown, PDF, XML.
-
-The following output file formats are supported: DOC, DOT, DOCX, DOCM, DOTX, DOTM, FlatOPC (with and without macros), RTF, WordML, HTML, MTHML, AZW3, EPUB, ODT, OTT, TXT, Markdown, PDF, XPS, XAML (fixed and flow), SVG, OpenXPS, PS, PCL, TIFF, PNG, BMP, EMF, JPG, GIF.
-
-
 ## Usage Examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to Reset fonts cache using cURL or Postman
+### How to reset fonts cache using cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -55,7 +47,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to Reset fonts cache using Python, Java, C#, C++, JavaScript and other programming languages
+### How to reset fonts cache using Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 
@@ -95,6 +87,9 @@ Using SDK is the quickest way to speed up the development. Please take a look at
 {{< /tabs >}}
 {{< /nosnippet >}}
 
-You can also visit our [GitHub repository](https://github.com/aspose-words-cloud) to explore a wide family of Aspose.Words Cloud SDKs. These software libraries take care of all low-level document-processing details and let you focus on your primary tasks.
+
+## See Also
+
+ * [GitHub repository](https://github.com/aspose-words-cloud) - explore Aspose.Words Cloud SDK Family. These software libraries take care of all low-level document-processing details.
 
 

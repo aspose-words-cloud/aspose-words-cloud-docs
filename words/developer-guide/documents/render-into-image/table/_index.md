@@ -22,7 +22,7 @@ Renders a table to the specified format.
 
 You can use the following parameters in a REST request:
 
-| Parameter Name       | Data Type | Required/Optionanl | Description                     |
+| Parameter Name       | Data Type | Required/Optional  | Description                     |
 |----------------------|-----------|--------------------|---------------------------------|
 | `format`             | string    | Required           | The destination format.                                      |
 | `loadEncoding`       | string    | Optional           | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
@@ -32,25 +32,22 @@ You can use the following parameters in a REST request:
 | `fontsLocation`      | string    | Optional           | Folder in filestorage with custom fonts.                     |
 
 
+Use `$multipart/form-data` request to combine one or more properties into a single body:
 
+| Property Name        | Data Type | Required/Optional  | Description                     |
+|----------------------|-----------|--------------------|---------------------------------|
+| `document`           | string(binary) | Required           | The document.                                                |
 
 {{% alert style="info" %}}
 **Note**: to access this REST API, you need to register and get personal credentials. Use the '[Quick Start](/getting-started/quickstart/)' guide to go through the procedure in a couple of minutes.
 {{% /alert %}}
 
 
-## Supported File Formats
-
-The following input file formats are supported: DOC, DOT, DOCX, DOCM, DOTX, DOTM, FlatOPC (with and without macros), RTF, WordML, HTML, MHTHML, MOBI, CHM, AZW3, EPUB, ODT, OTT, TXT, Markdown, PDF, XML.
-
-The following output file formats are supported: DOC, DOT, DOCX, DOCM, DOTX, DOTM, FlatOPC (with and without macros), RTF, WordML, HTML, MTHML, AZW3, EPUB, ODT, OTT, TXT, Markdown, PDF, XPS, XAML (fixed and flow), SVG, OpenXPS, PS, PCL, TIFF, PNG, BMP, EMF, JPG, GIF.
-
-
 ## Usage Examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to Render a table in image format using cURL or Postman
+### How to render a table in image format using cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -72,7 +69,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to Render a table in image format using Python, Java, C#, C++, JavaScript and other programming languages
+### How to render a table in image format using Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

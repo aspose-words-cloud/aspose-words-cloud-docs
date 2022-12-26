@@ -1,128 +1,78 @@
----
+﻿---
 title: "Read the Page Setup of a Section"
 second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /sections/read/
 aliases: [/read-the-page-setup-of-a-section/]
-keywords: "page setup word,get sections,section break word,Section Break, Word, Microsoft Word, Word Documents"
 description: "Read a page setup of a section in a Word document"
+keywords: "page setup word,get sections,section break word,Section Break, Word, Microsoft Word, Word Documents"
 weight: 30
 ---
 
-This REST API reads a page setup of a `Section`. 
+Reads the page setup of a section from the document.
 
-The resource properties are the following:
+## REST API
 
-|Property Name|Type|Description|
-| :- | :- | :- |
-|Bidi|bool|Specifies that this section contains bidirectional (complex scripts) text.|
-|BorderAlwaysInFront|bool|Specifies where the page border is positioned relative to intersecting texts and objects.|
-|BorderAppliesTo|PageBorderAppliesTo|Specifies which pages the page border is printed on.|
-|BorderDistanceFrom|PageBorderDistanceFrom|Specifies a value that indicates whether the specified page border is measured from the edge of the page or from the text it surrounds.|
-|BottomMargin|double|Specifies the distance (in points) between the bottom edge of the page and the bottom boundary of the body text.|
-|DifferentFirstPageHeaderFooter|bool|True if a different header or footer is used on the first page.|
-|FirstPageTray|int|Specifies the paper tray (bin) to use for the first page of a section. The value is implementation (printer) specific.|
-|FooterDistance|double|Specifies the distance (in points) between the footer and the bottom of the page.|
-|Gutter|double|Specifies the amount of extra space added to the margin for document binding.|
-|HeaderDistance|double|Specifies the distance (in points) between the header and the top of the page.|
-|LeftMargin|double|Specifies the distance (in points) between the left edge of the page and the left boundary of the body text.|
-|LineNumberCountBy|int|Specifies the numeric increment for line numbers.|
-|LineNumberDistanceFromText|double|Specifies the distance between the right edge of line numbers and the left edge of the document. Set this property to zero for the automatic distance between the line numbers and text of the document.|
-|LineNumberRestartMode|LineNumberRestartMode|Specifies the way line numbering runs that is, whether it starts over at the beginning of a new page or section or runs continuously.|
-|LineStartingNumber|int|Specifies the starting line number.|
-|Orientation|Orientation|Specifies the orientation of the page. Changing 'Orientation' swaps 'PageWidth' and 'PageHeight'.|
-|OtherPagesTray|int|Specifies the paper tray (bin) to be used for all but the first page of a section. The value is implementation (printer) specific.|
-|PageHeight|double|Specifies the height of the page in points.|
-|PageNumberStyle|NumberStyle|Specifies the page number format.|
-|PageStartingNumber|int|Specifies the starting page number of the section. The 'RestartPageNumbering' property, if set to false, will override the 'PageStartingNumber' property so that page numbering can continue from the previous section.|
-|PageWidth|double|Specifies the width of the page in points.|
-|PaperSize|PaperSize|Specifies the paper size. Setting this property updates 'PageWidth' and 'PageHeight' values. Setting this value to 'Custom' does not change existing values.|
-|RestartPageNumbering|bool|True if page numbering restarts at the beginning of the section. If set to false, the 'RestartPageNumbering' property will override the 'PageStartingNumber' property so that page numbering can continue from the previous section.|
-|RightMargin|double|Specifies the distance (in points) between the right edge of the page and the right boundary of the body text.|
-|RtlGutter|bool|Specifies whether Microsoft Word uses gutters for the section based on a right-to-left language or a left-to-right language.|
-|SectionStart|SectionStart|Specifies the type of section break for the specified object.|
-|SuppressEndnotes|bool|True if endnotes are printed at the end of the next section that doesn't suppress endnotes. Suppressed endnotes are printed before the endnotes in that section.|
-|TopMargin|double|Specifies the distance (in points) between the top edge of the page and the top boundary of the body text.|
-|VerticalAlignment|PageVerticalAlignment|Specifies the vertical alignment of text on each page in a document or section.|
+| Server                         | Method | Endpoint             |
+|--------------------------------|--------|----------------------|
+| https://api.aspose.cloud/v4.0  | PUT    | /words/online/get/sections/{sectionIndex}/pageSetup |
 
-## Usage examples with cURL and Postman
+, where:
 
-You can carry out REST API interactions using `cURL` and `Postman`. Please read these <a href="/words/getting-started/quickstart/">instructions</a> to receive a personal `JWT_TOKEN` for authorization.
+* **`sectionIndex`** (required) - the index of the section.
+
+You can use the following parameters in a REST request:
+
+| Parameter Name       | Data Type | Required/Optional  | Description                     |
+|----------------------|-----------|--------------------|---------------------------------|
+| `loadEncoding`       | string    | Optional           | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
+| `password`           | string    | Optional           | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| `encryptedPassword`  | string    | Optional           | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
+
+
+Use `$multipart/form-data` request to combine one or more properties into a single body:
+
+| Property Name        | Data Type | Required/Optional  | Description                     |
+|----------------------|-----------|--------------------|---------------------------------|
+| `document`           | string(binary) | Required           | The document.                                                |
+
+{{% alert style="info" %}}
+**Note**: to access this REST API, you need to register and get personal credentials. Use the '[Quick Start](/getting-started/quickstart/)' guide to go through the procedure in a couple of minutes.
+{{% /alert %}}
+
+
+## Usage Examples
+
+Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
+
+### How to read a page setup of a section in a Word document using cURL or Postman
+
+One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
 {{< nosnippet >}}
-{{< tabs tabTotal="3" tabID="1" tabName1="cURL Request" tabName2="Postman Request" tabName3="Server Response" >}}
+{{< tabs tabTotal="2" tabID="1" tabName1="cURL Request" tabName2="Postman Request" >}}
 {{< tab tabNum="1" >}}
 {{< gist "aspose-words-cloud-gists" "8a52e648cd36d3e0a7402727561073b6" "GetSectionPageSetupOnline.curl" >}}
 
-<p style="margin-top:-32px;font-size:80%;font-style:italic">To get a JWT token use this <a href="/words/getting-started/quickstart/">instruction</a></p>
+<p style="margin-top:-32px;font-size:80%;font-style:italic">To get a JWT token use these <a href="/words/getting-started/quickstart/">instructions</a></p>
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
 {{< gist "aspose-words-cloud-gists" "894866974db18d27af2a7f67dd929b6f" "GetSectionPageSetupOnline.json" >}}
 
-<p style="margin-top:-32px;font-size:80%;font-style:italic">To get a JWT token use this <a href="/words/getting-started/quickstart/">instruction</a></p>
+<p style="margin-top:-32px;font-size:80%;font-style:italic">To get a JWT token use these <a href="/words/getting-started/quickstart/">instructions</a></p>
 
-{{< /tab >}}
-{{< tab tabNum="3" >}}
-```json
-{
-  "PageSetup": {
-    "Bidi": false,
-    "BorderAlwaysInFront": true,
-    "BorderAppliesTo": "AllPages",
-    "BorderDistanceFrom": "Text",
-    "BottomMargin": 56.7,
-    "DifferentFirstPageHeaderFooter": false,
-    "FirstPageTray": 0,
-    "FooterDistance": 42.5,
-    "Gutter": 0.0,
-    "HeaderDistance": 35.45,
-    "LeftMargin": 56.7,
-    "LineNumberCountBy": 0,
-    "LineNumberDistanceFromText": 0.0,
-    "LineNumberRestartMode": "RestartPage",
-    "LineStartingNumber": 1,
-    "Orientation": "Portrait",
-    "OtherPagesTray": 0,
-    "PageHeight": 841.9,
-    "PageNumberStyle": "Arabic",
-    "PageStartingNumber": 1,
-    "PageWidth": 595.3,
-    "PaperSize": "A4",
-    "RestartPageNumbering": false,
-    "RightMargin": 56.7,
-    "RtlGutter": true,
-    "SectionStart": "NewPage",
-    "SuppressEndnotes": false,
-    "TopMargin": 56.7,
-    "VerticalAlignment": "Top",
-    "link": {
-      "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/pagesetup",
-      "Rel": "self",
-      "Type": null,
-      "Title": null
-    }
-  },
-  "Code": 200,
-  "Status": "OK"
-}
-```
 {{< /tab >}}
 {{< /tabs >}}
 {{< /nosnippet >}}
 
-## Aspose.Words Cloud SDK Family
 
-Using SDK is the best way to speed up the development. Please go to the [GitHub](https://github.com/aspose-words-cloud) repository to explore a wide family of our Cloud SDKs. These powerful libraries take care of all low-level programming details and let you focus on your primary tasks.
+### How to read a page setup of a section in a Word document using Python, Java, C#, C++, JavaScript and other programming languages
 
-## Usage examples in Python, Java, C#, etc.
-
-The following code samples show how to interact with the REST API using almost any mainstream programming language.
-
-You can find a lot of other examples in [Python](https://gist.github.com/aspose-words-cloud-gists/e26813ced70692c544820cd8011ee7e0), [Java](https://gist.github.com/aspose-words-cloud-gists/caede439bfd2e57c3010befe504faff4), [C#](https://gist.github.com/aspose-words-cloud-gists/374e1e3dd4bca8f696f29d913645f549), [JavaScript](https://gist.github.com/aspose-words-cloud-gists/a9510e4b51613f1138e7c1ec09634c4a), [PHP](https://gist.github.com/aspose-words-cloud-gists/e2a72445b96362dc0117f06ab54bb94a), [C++](https://gist.github.com/aspose-words-cloud-gists/49aa5151a094849179bae8672c887a0e), [Golang](https://gist.github.com/aspose-words-cloud-gists/625ca80adffd779e8f6e3611551e14d5), [Ruby](https://gist.github.com/aspose-words-cloud-gists/339f3835a4c0a536c81ec941de29baf7), [Swift](https://gist.github.com/aspose-words-cloud-gists/790dbd2edd5d36f170732366f52cac4c), [Dart](https://gist.github.com/aspose-words-cloud-gists/6aae628cf2b878b78fea177c3171c6bf) on GitHub. All codes are thoroughly tested and ready for production use.
+Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 
 {{< nosnippet >}}
-{{< tabs tabTotal="10" tabID="4" tabName1="Python" tabName2="Java" tabName3="Node.js" tabName4="C#" tabName5="PHP" tabName6="C++" tabName7="Go" tabName8="Ruby" tabName9="Swift" tabName10="Dart" >}}
+{{< tabs tabTotal="10" tabID="2" tabName1="Python" tabName2="Java" tabName3="Node.js" tabName4="C#" tabName5="PHP" tabName6="C++" tabName7="Go" tabName8="Ruby" tabName9="Swift" tabName10="Dart" >}}
 {{< tab tabNum="1" >}}
 {{< gist "aspose-words-cloud-gists" "e26813ced70692c544820cd8011ee7e0" "GetSectionPageSetupOnline.py" >}}
 {{< /tab >}}
@@ -156,3 +106,10 @@ You can find a lot of other examples in [Python](https://gist.github.com/aspose-
 {{< /tab >}}
 {{< /tabs >}}
 {{< /nosnippet >}}
+
+
+## See Also
+
+ * [GitHub repository](https://github.com/aspose-words-cloud) - explore Aspose.Words Cloud SDK Family. These software libraries take care of all low-level document-processing details.
+
+

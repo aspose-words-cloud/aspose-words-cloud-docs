@@ -1,77 +1,93 @@
----
+﻿---
 title: "Convert Document to TIFF"
 second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /convert/document-to-tiff/
 aliases: [/convert-document-to-tiff-with-detailed-settings/]
-keywords: "tiff file, Microsoft Word document,convert to, word to doc, save word file as PDF, convert Word document to HTML, TIFF file"
 description: "Convert Word document to TIFF format"
+keywords: "tiff file, Microsoft Word document,convert to, word to doc, save word file as PDF, convert Word document to HTML, TIFF file"
 weight: 30
 ---
 
-[PUT /words/{name}/saveAs/tiff](https://apireference.aspose.cloud/words/#/Convert/SaveAsTiff) API lets you convert MS Word document to [TIFF](https://docs.fileformat.com/image/tiff/) file with additional settings and save the result to the storage. The resulting image save to the same folder and storage where the original document is. A relative path can be used here for some sub-folder of the document folder.
+Converts a document to TIFF format using detailed conversion settings.
 
-## Usage examples with cURL and Postman
+## REST API
 
-You can carry out REST API interactions using `cURL` and `Postman`. Please read these <a href="/words/getting-started/quickstart/">instructions</a> to receive a personal `JWT_TOKEN` for authorization.
+| Server                         | Method | Endpoint             |
+|--------------------------------|--------|----------------------|
+| https://api.aspose.cloud/v4.0  | PUT    | /words/online/put/saveAs/tiff |
 
-Download sample [test_multi_pages.docx](test_multi_pages.docx) and output [abc.tiff](abc.tiff) files for testing purposes.
+You can use the following parameters in a REST request:
+
+| Parameter Name       | Data Type | Required/Optional  | Description                     |
+|----------------------|-----------|--------------------|---------------------------------|
+| `loadEncoding`       | string    | Optional           | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
+| `password`           | string    | Optional           | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| `encryptedPassword`  | string    | Optional           | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
+| `useAntiAliasing`    | boolean   | Optional           | The flag indicating whether to use antialiasing.             |
+| `useHighQualityRendering` | boolean   | Optional           | The flag indicating whether to use high quality.             |
+| `imageBrightness`    | number(double) | Optional           | The level of brightness for the generated images.            |
+| `imageColorMode`     | string    | Optional           | The color mode for the generated images.                     |
+| `imageContrast`      | number(double) | Optional           | The contrast for the generated images.                       |
+| `numeralFormat`      | string    | Optional           | The images numeral format.                                   |
+| `pageCount`          | integer(int32) | Optional           | The number of pages to render.                               |
+| `pageIndex`          | integer(int32) | Optional           | The index of the page to start rendering.                    |
+| `paperColor`         | string    | Optional           | The background image color.                                  |
+| `pixelFormat`        | string    | Optional           | The pixel format of the generated images.                    |
+| `resolution`         | number(double) | Optional           | The resolution of the generated images.                      |
+| `scale`              | number(double) | Optional           | The zoom factor for the generated images.                    |
+| `tiffCompression`    | string    | Optional           | The compression tipe.                                        |
+| `dmlRenderingMode`   | string    | Optional           | The optional dml rendering mode. The default value is Fallback. |
+| `dmlEffectsRenderingMode` | string    | Optional           | The optional dml effects rendering mode. The default value is Simplified. |
+| `tiffBinarizationMethod` | string    | Optional           | The optional TIFF binarization method. Possible values are: FloydSteinbergDithering, Threshold. |
+| `zipOutput`          | boolean   | Optional           | The flag indicating whether to ZIP the output.               |
+| `fontsLocation`      | string    | Optional           | Folder in filestorage with custom fonts.                     |
+
+
+Use `$multipart/form-data` request to combine one or more properties into a single body:
+
+| Property Name        | Data Type | Required/Optional  | Description                     |
+|----------------------|-----------|--------------------|---------------------------------|
+| `document`           | string(binary) | Required           | The document.                                                |
+| `saveOptions`        | TiffSaveOptionsData | Required           | Tiff save options.                                           |
+
+{{% alert style="info" %}}
+**Note**: to access this REST API, you need to register and get personal credentials. Use the '[Quick Start](/getting-started/quickstart/)' guide to go through the procedure in a couple of minutes.
+{{% /alert %}}
+
+
+## Usage Examples
+
+Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
+
+### How to convert Word document to TIFF format using cURL or Postman
+
+One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
 {{< nosnippet >}}
-{{< tabs tabTotal="3" tabID="1" tabName1="cURL Request" tabName2="Postman Request" tabName3="Server Response" >}}
+{{< tabs tabTotal="2" tabID="1" tabName1="cURL Request" tabName2="Postman Request" >}}
 {{< tab tabNum="1" >}}
 {{< gist "aspose-words-cloud-gists" "8a52e648cd36d3e0a7402727561073b6" "SaveAsTiffOnline.curl" >}}
 
-<p style="margin-top:-32px;font-size:80%;font-style:italic">To get a JWT token use this <a href="/words/getting-started/quickstart/">instruction</a></p>
+<p style="margin-top:-32px;font-size:80%;font-style:italic">To get a JWT token use these <a href="/words/getting-started/quickstart/">instructions</a></p>
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
 {{< gist "aspose-words-cloud-gists" "894866974db18d27af2a7f67dd929b6f" "SaveAsTiffOnline.json" >}}
 
-<p style="margin-top:-32px;font-size:80%;font-style:italic">To get a JWT token use this <a href="/words/getting-started/quickstart/">instruction</a></p>
+<p style="margin-top:-32px;font-size:80%;font-style:italic">To get a JWT token use these <a href="/words/getting-started/quickstart/">instructions</a></p>
 
-{{< /tab >}}
-{{< tab tabNum="3" >}}
-```json
-{
-  "SaveResult": {
-    "SourceDocument": {
-      "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx",
-      "Rel": "self",
-      "Type": null,
-      "Title": null
-    },
-    "DestDocument": {
-      "Href": "abc.tiff",
-      "Rel": "saved",
-      "Type": null,
-      "Title": null
-    },
-    "AdditionalItems": [
-    ]
-  },
-  "Code": 200,
-  "Status": "OK"
-}
-```
 {{< /tab >}}
 {{< /tabs >}}
 {{< /nosnippet >}}
 
-## Aspose.Words Cloud SDK Family
 
-Using SDK is the best way to speed up the development. Our Cloud SDKs take care of low-level details and let you focus on your primary tasks.
+### How to convert Word document to TIFF format using Python, Java, C#, C++, JavaScript and other programming languages
 
-Please check out the [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words SDKs.
-
-## Usage examples in Python, Java, C#, etc.
-
-The following code samples show how to interact with the REST API using almost any mainstream programming language.
-
-You can find a lot of other examples in [Python](https://gist.github.com/aspose-words-cloud-gists/e26813ced70692c544820cd8011ee7e0), [Java](https://gist.github.com/aspose-words-cloud-gists/caede439bfd2e57c3010befe504faff4), [C#](https://gist.github.com/aspose-words-cloud-gists/374e1e3dd4bca8f696f29d913645f549), [JavaScript](https://gist.github.com/aspose-words-cloud-gists/a9510e4b51613f1138e7c1ec09634c4a), [PHP](https://gist.github.com/aspose-words-cloud-gists/e2a72445b96362dc0117f06ab54bb94a), [C++](https://gist.github.com/aspose-words-cloud-gists/49aa5151a094849179bae8672c887a0e), [Golang](https://gist.github.com/aspose-words-cloud-gists/625ca80adffd779e8f6e3611551e14d5), [Ruby](https://gist.github.com/aspose-words-cloud-gists/339f3835a4c0a536c81ec941de29baf7), [Swift](https://gist.github.com/aspose-words-cloud-gists/790dbd2edd5d36f170732366f52cac4c), [Dart](https://gist.github.com/aspose-words-cloud-gists/6aae628cf2b878b78fea177c3171c6bf) on GitHub. All codes are thoroughly tested and ready for production use.
+Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 
 {{< nosnippet >}}
-{{< tabs tabTotal="10" tabID="4" tabName1="Python" tabName2="Java" tabName3="Node.js" tabName4="C#" tabName5="PHP" tabName6="C++" tabName7="Go" tabName8="Ruby" tabName9="Swift" tabName10="Dart" >}}
+{{< tabs tabTotal="10" tabID="2" tabName1="Python" tabName2="Java" tabName3="Node.js" tabName4="C#" tabName5="PHP" tabName6="C++" tabName7="Go" tabName8="Ruby" tabName9="Swift" tabName10="Dart" >}}
 {{< tab tabNum="1" >}}
 {{< gist "aspose-words-cloud-gists" "e26813ced70692c544820cd8011ee7e0" "SaveAsTiffOnline.py" >}}
 {{< /tab >}}
@@ -106,7 +122,9 @@ You can find a lot of other examples in [Python](https://gist.github.com/aspose-
 {{< /tabs >}}
 {{< /nosnippet >}}
 
-## See also
 
-- Product page description: <a href="https://products.aspose.cloud/words/python/convert" target="_blank">Python</a>, <a href="https://products.aspose.cloud/words/net/convert" target="_blank">C#</a>, <a href="https://products.aspose.cloud/words/java/convert" target="_blank">Java</a>, <a href="https://products.aspose.cloud/words/nodejs/convert" target="_blank">Node.js</a>, <a href="https://products.aspose.cloud/words/php/convert" target="_blank">PHP</a>, <a href="https://products.aspose.cloud/words/go/convert" target="_blank">Go</a>
-- <a href="https://products.aspose.app/words/conversion" target="_blank">Free online conversion app</a>
+## See Also
+
+ * [GitHub repository](https://github.com/aspose-words-cloud) - explore Aspose.Words Cloud SDK Family. These software libraries take care of all low-level document-processing details.
+
+

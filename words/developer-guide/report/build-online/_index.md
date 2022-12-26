@@ -12,34 +12,35 @@ Executes the report generation process online using the specified document templ
 
 ## REST API
 
-| Server                         | REST endpoint        | HTTP method  |
-|--------------------------------|----------------------|--------------|
-| https://api.aspose.cloud/v4.0  | [/words/buildReport](https://api.aspose.cloud/v4.0/words/buildReport) | PUT |
+| Server                         | Method | Endpoint             |
+|--------------------------------|--------|----------------------|
+| https://api.aspose.cloud/v4.0  | PUT    | /words/buildReport |
 
-You can use these parameters in a REST request:
+You can use the following parameters in a REST request:
 
-| Name                 | Type   | Description                                                  |
-|----------------------|--------|--------------------------------------------------------------|
-| `documentFileName`   | string | The filename of the output document, that will be used when the resulting document has a dynamic field {filename}. If it is not set, the "template" will be used instead. |
+| Parameter Name       | Data Type | Required/Optional  | Description                     |
+|----------------------|-----------|--------------------|---------------------------------|
+| `documentFileName`   | string    | Optional           | The filename of the output document, that will be used when the resulting document has a dynamic field {filename}. If it is not set, the "template" will be used instead. |
 
+
+Use `$multipart/form-data` request to combine one or more properties into a single body:
+
+| Property Name        | Data Type | Required/Optional  | Description                     |
+|----------------------|-----------|--------------------|---------------------------------|
+| `template`           | string(binary) | Required           | File with template                                           |
+| `data`               | string    | Required           | A string providing a data to populate the specified template. The string must be of one of the following types: xml, json, csv |
+| `reportEngineSettings` | ReportEngineSettings | Required           | An object providing a settings of report engine.             |
 
 {{% alert style="info" %}}
 **Note**: to access this REST API, you need to register and get personal credentials. Use the '[Quick Start](/getting-started/quickstart/)' guide to go through the procedure in a couple of minutes.
 {{% /alert %}}
 
 
-## Supported File Formats
-
-The following input file formats are supported: DOC, DOT, DOCX, DOCM, DOTX, DOTM, FlatOPC (with and without macros), RTF, WordML, HTML, MHTHML, MOBI, CHM, AZW3, EPUB, ODT, OTT, TXT, Markdown, PDF, XML.
-
-The following output file formats are supported: DOC, DOT, DOCX, DOCM, DOTX, DOTM, FlatOPC (with and without macros), RTF, WordML, HTML, MTHML, AZW3, EPUB, ODT, OTT, TXT, Markdown, PDF, XPS, XAML (fixed and flow), SVG, OpenXPS, PS, PCL, TIFF, PNG, BMP, EMF, JPG, GIF.
-
-
 ## Usage Examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to Generate a report online using cURL or Postman
+### How to generate a report online using cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -61,7 +62,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to Generate a report online using Python, Java, C#, C++, JavaScript and other programming languages
+### How to generate a report online using Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 
@@ -101,6 +102,9 @@ Using SDK is the quickest way to speed up the development. Please take a look at
 {{< /tabs >}}
 {{< /nosnippet >}}
 
-You can also visit our [GitHub repository](https://github.com/aspose-words-cloud) to explore a wide family of Aspose.Words Cloud SDKs. These software libraries take care of all low-level document-processing details and let you focus on your primary tasks.
+
+## See Also
+
+ * [GitHub repository](https://github.com/aspose-words-cloud) - explore Aspose.Words Cloud SDK Family. These software libraries take care of all low-level document-processing details.
 
 

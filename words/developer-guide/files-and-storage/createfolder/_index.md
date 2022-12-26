@@ -10,40 +10,30 @@ Create the folder
 
 ## REST API
 
-| Server                         | REST endpoint        | HTTP method  |
-|--------------------------------|----------------------|--------------|
-| https://api.aspose.cloud/v4.0  | /words1.0/storage/folder/{path} | PUT         |
+| Server                         | Method | Endpoint             |
+|--------------------------------|--------|----------------------|
+| https://api.aspose.cloud/v4.0  | PUT    | /words/storage/folder/{path} |
 
 , where:
 
-* **`path`** (required) - folder path to create e.g. 'folder_1/folder_2/'
+* **`path`** (required) - target folder's path e.g. Folder1/Folder2/. The folders will be created recursively
 
-You can use the following optional parameters in a REST request:
+You can use the following parameters in a REST request:
 
-| Parameter Name       | Type   | Description                                                  |
-|----------------------|--------|------------------------------------------------------|
-| `storageName`        | string | Storage name                                                 |
-
-
-
+| Parameter Name       | Data Type | Required/Optional  | Description                     |
+|----------------------|-----------|--------------------|---------------------------------|
+| `storageName`        | string    | Optional           | Storage name                                                 |
 
 {{% alert style="info" %}}
 **Note**: to access this REST API, you need to register and get personal credentials. Use the '[Quick Start](/getting-started/quickstart/)' guide to go through the procedure in a couple of minutes.
 {{% /alert %}}
 
 
-## Supported File Formats
-
-The following input file formats are supported: DOC, DOT, DOCX, DOCM, DOTX, DOTM, FlatOPC (with and without macros), RTF, WordML, HTML, MHTHML, MOBI, CHM, AZW3, EPUB, ODT, OTT, TXT, Markdown, PDF, XML.
-
-The following output file formats are supported: DOC, DOT, DOCX, DOCM, DOTX, DOTM, FlatOPC (with and without macros), RTF, WordML, HTML, MTHML, AZW3, EPUB, ODT, OTT, TXT, Markdown, PDF, XPS, XAML (fixed and flow), SVG, OpenXPS, PS, PCL, TIFF, PNG, BMP, EMF, JPG, GIF.
-
-
 ## Usage Examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to Create a folder in Cloud Storage using cURL or Postman
+### How to create a folder in Cloud Storage using cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -65,7 +55,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to Create a folder in Cloud Storage using Python, Java, C#, C++, JavaScript and other programming languages
+### How to create a folder in Cloud Storage using Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

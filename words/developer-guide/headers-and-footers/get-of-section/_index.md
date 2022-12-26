@@ -23,7 +23,7 @@ Reads a HeaderFooter object from the document section.
 
 You can use the following parameters in a REST request:
 
-| Parameter Name       | Data Type | Required/Optionanl | Description                     |
+| Parameter Name       | Data Type | Required/Optional  | Description                     |
 |----------------------|-----------|--------------------|---------------------------------|
 | `loadEncoding`       | string    | Optional           | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
 | `password`           | string    | Optional           | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
@@ -31,35 +31,22 @@ You can use the following parameters in a REST request:
 | `filterByType`       | string    | Optional           | The list of HeaderFooter types.                              |
 
 
+Use `$multipart/form-data` request to combine one or more properties into a single body:
 
-### HeaderFooter Response
-
-| Property Name        | Type   | Description                                                  |
-|----------------------|--------|--------------------------------------------------------------|
-| `ChildNodes`         | NodeLink  | Child nodes.                                                 |
-| `DrawingObjects`     | LinkElement  | Link to DrawingObjects resource.                             |
-| `Link`               | WordsApiLink  | Link to the document.                                        |
-| `Paragraphs`         | LinkElement  | Link to Paragraphs resource.                                 |
-| `Type`               | TypeEnum  | Paragraph's text.                                            |
-
+| Property Name        | Data Type | Required/Optional  | Description                     |
+|----------------------|-----------|--------------------|---------------------------------|
+| `document`           | string(binary) | Required           | The document.                                                |
 
 {{% alert style="info" %}}
 **Note**: to access this REST API, you need to register and get personal credentials. Use the '[Quick Start](/getting-started/quickstart/)' guide to go through the procedure in a couple of minutes.
 {{% /alert %}}
 
 
-## Supported File Formats
-
-The following input file formats are supported: DOC, DOT, DOCX, DOCM, DOTX, DOTM, FlatOPC (with and without macros), RTF, WordML, HTML, MHTHML, MOBI, CHM, AZW3, EPUB, ODT, OTT, TXT, Markdown, PDF, XML.
-
-The following output file formats are supported: DOC, DOT, DOCX, DOCM, DOTX, DOTM, FlatOPC (with and without macros), RTF, WordML, HTML, MTHML, AZW3, EPUB, ODT, OTT, TXT, Markdown, PDF, XPS, XAML (fixed and flow), SVG, OpenXPS, PS, PCL, TIFF, PNG, BMP, EMF, JPG, GIF.
-
-
 ## Usage Examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to Get a Header or Footer of a Section using cURL or Postman
+### How to get a Header or Footer of a Section using cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -81,7 +68,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to Get a Header or Footer of a Section using Python, Java, C#, C++, JavaScript and other programming languages
+### How to get a Header or Footer of a Section using Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

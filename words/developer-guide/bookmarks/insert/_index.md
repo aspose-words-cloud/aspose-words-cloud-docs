@@ -11,56 +11,39 @@ Inserts a new bookmark to the document.
 
 ## REST API
 
-| Server                         | REST endpoint        | HTTP method  |
-|--------------------------------|----------------------|--------------|
-| https://api.aspose.cloud/v4.0  | /words/online/post/bookmarks | PUT         |
+| Server                         | Method | Endpoint             |
+|--------------------------------|--------|----------------------|
+| https://api.aspose.cloud/v4.0  | PUT    | /words/online/post/bookmarks |
 
-You can use the following optional parameters in a REST request:
+You can use the following parameters in a REST request:
 
-| Parameter Name       | Type   | Description                                                  |
-|----------------------|--------|------------------------------------------------------|
-| `loadEncoding`       | string | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
-| `password`           | string | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
-| `encryptedPassword`  | string | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
-| `destFileName`       | string | Result path of the document after the operation. If this parameter is omitted then result of the operation will be saved as the source document. |
-| `revisionAuthor`     | string | Initials of the author to use for revisions.If you set this parameter and then make some changes to the document programmatically, save the document and later open the document in MS Word you will see these changes as revisions. |
-| `revisionDateTime`   | string | The date and time to use for revisions.                      |
-
-### BookmarkInsert
-
-| Property Name        | Type   | Description                                                  |
-|----------------------|--------|--------------------------------------------------------------|
-| `EndRange`           | DocumentPosition  | Link to end bookmark node.                                   |
-| `Name`               | string  | Name of the bookmark.                                        |
-| `StartRange`         | DocumentPosition  | Link to start bookmark node.                                 |
-| `Text`               | string  | Text, enclosed in the bookmark.                              |
+| Parameter Name       | Data Type | Required/Optional  | Description                     |
+|----------------------|-----------|--------------------|---------------------------------|
+| `loadEncoding`       | string    | Optional           | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
+| `password`           | string    | Optional           | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| `encryptedPassword`  | string    | Optional           | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
+| `destFileName`       | string    | Optional           | Result path of the document after the operation. If this parameter is omitted then result of the operation will be saved as the source document. |
+| `revisionAuthor`     | string    | Optional           | Initials of the author to use for revisions.If you set this parameter and then make some changes to the document programmatically, save the document and later open the document in MS Word you will see these changes as revisions. |
+| `revisionDateTime`   | string    | Optional           | The date and time to use for revisions.                      |
 
 
-### BookmarkResponse
+Use `$multipart/form-data` request to combine one or more properties into a single body:
 
-| Property Name        | Type   | Description                                                  |
-|----------------------|--------|--------------------------------------------------------------|
-| `Bookmark`           | Bookmark  | Bookmark.                                                    |
-
-
+| Property Name        | Data Type | Required/Optional  | Description                     |
+|----------------------|-----------|--------------------|---------------------------------|
+| `document`           | string(binary) | Required           | The document.                                                |
+| `bookmark`           | BookmarkInsert | Required           | Bookmark to insert.                                          |
 
 {{% alert style="info" %}}
 **Note**: to access this REST API, you need to register and get personal credentials. Use the '[Quick Start](/getting-started/quickstart/)' guide to go through the procedure in a couple of minutes.
 {{% /alert %}}
 
 
-## Supported File Formats
-
-The following input file formats are supported: DOC, DOT, DOCX, DOCM, DOTX, DOTM, FlatOPC (with and without macros), RTF, WordML, HTML, MHTHML, MOBI, CHM, AZW3, EPUB, ODT, OTT, TXT, Markdown, PDF, XML.
-
-The following output file formats are supported: DOC, DOT, DOCX, DOCM, DOTX, DOTM, FlatOPC (with and without macros), RTF, WordML, HTML, MTHML, AZW3, EPUB, ODT, OTT, TXT, Markdown, PDF, XPS, XAML (fixed and flow), SVG, OpenXPS, PS, PCL, TIFF, PNG, BMP, EMF, JPG, GIF.
-
-
 ## Usage Examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to Insert a bookmark to a Word document using cURL or Postman
+### How to insert a bookmark to a Word document using cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -82,7 +65,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to Insert a bookmark to a Word document using Python, Java, C#, C++, JavaScript and other programming languages
+### How to insert a bookmark to a Word document using Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

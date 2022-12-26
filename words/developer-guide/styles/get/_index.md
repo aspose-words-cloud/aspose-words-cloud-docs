@@ -12,57 +12,39 @@ Reads a style from the document node.
 
 ## REST API
 
-| Server                         | REST endpoint        | HTTP method  |
-|--------------------------------|----------------------|--------------|
-| https://api.aspose.cloud/v4.0  | /words/online/get/{styledNodePath}/style | PUT         |
+| Server                         | Method | Endpoint             |
+|--------------------------------|--------|----------------------|
+| https://api.aspose.cloud/v4.0  | PUT    | /words/online/get/{styledNodePath}/style |
 
 , where:
 
 * **`styledNodePath`** (required) - the path to the node in the document tree, that supports styles: ParagraphFormat, List, ListLevel, Table.
 
-You can use the following optional parameters in a REST request:
+You can use the following parameters in a REST request:
 
-| Parameter Name       | Type   | Description                                                  |
-|----------------------|--------|------------------------------------------------------|
-| `loadEncoding`       | string | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
-| `password`           | string | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
-| `encryptedPassword`  | string | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
-
-
-
-### Response Style
-| `Aliases`            | string  | All aliases of this style. If style has no aliases then empty array of string is returned. |
-| `BaseStyleName`      | string  | Name of the style this style is based on.                    |
-| `BuiltIn`            | bool   | A value indicating whether this style is one of the built-in styles in MS Word. |
-| `Font`               | Font   | Character formatting of the style.                           |
-| `IsHeading`          | bool   | A value indicating whether the style is one of the built-in Heading styles. |
-| `IsQuickStyle`       | bool   | A value indicating whether this style is shown in the Quick Style gallery inside MS Word UI. |
-| `Link`               | WordsApiLink  | Link to the document.                                        |
-| `LinkedStyleName`    | string  | Name of the Style linked to this one. Returns Empty string if no styles are linked. |
-| `Name`               | string  | Name of the style.                                           |
-| `NextParagraphStyleName` | string  | Name of the style to be applied automatically to a new paragraph inserted after a paragraph formatted with the specified style. |
-| `StyleIdentifier`    | StyleIdentifierEnum  | Locale independent style identifier for a built-in style.    |
-| `Type`               | TypeEnum  | Style type (paragraph or character) .                        |
+| Parameter Name       | Data Type | Required/Optional  | Description                     |
+|----------------------|-----------|--------------------|---------------------------------|
+| `loadEncoding`       | string    | Optional           | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
+| `password`           | string    | Optional           | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| `encryptedPassword`  | string    | Optional           | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
 
 
+Use `$multipart/form-data` request to combine one or more properties into a single body:
+
+| Property Name        | Data Type | Required/Optional  | Description                     |
+|----------------------|-----------|--------------------|---------------------------------|
+| `document`           | string(binary) | Required           | The document.                                                |
 
 {{% alert style="info" %}}
 **Note**: to access this REST API, you need to register and get personal credentials. Use the '[Quick Start](/getting-started/quickstart/)' guide to go through the procedure in a couple of minutes.
 {{% /alert %}}
 
 
-## Supported File Formats
-
-The following input file formats are supported: DOC, DOT, DOCX, DOCM, DOTX, DOTM, FlatOPC (with and without macros), RTF, WordML, HTML, MHTHML, MOBI, CHM, AZW3, EPUB, ODT, OTT, TXT, Markdown, PDF, XML.
-
-The following output file formats are supported: DOC, DOT, DOCX, DOCM, DOTX, DOTM, FlatOPC (with and without macros), RTF, WordML, HTML, MTHML, AZW3, EPUB, ODT, OTT, TXT, Markdown, PDF, XPS, XAML (fixed and flow), SVG, OpenXPS, PS, PCL, TIFF, PNG, BMP, EMF, JPG, GIF.
-
-
 ## Usage Examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to Get a style from an element in a Word document using cURL or Postman
+### How to get a style from an element in a Word document using cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -84,7 +66,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to Get a style from an element in a Word document using Python, Java, C#, C++, JavaScript and other programming languages
+### How to get a style from an element in a Word document using Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 
@@ -124,6 +106,9 @@ Using SDK is the quickest way to speed up the development. Please take a look at
 {{< /tabs >}}
 {{< /nosnippet >}}
 
-You can also visit our [GitHub repository](https://github.com/aspose-words-cloud) to explore Aspose.Words Cloud SDK Family. These software libraries take care of all low-level document-processing details and let you focus on your primary tasks.
+
+## See Also
+
+ * [GitHub repository](https://github.com/aspose-words-cloud) - explore Aspose.Words Cloud SDK Family. These software libraries take care of all low-level document-processing details.
 
 
