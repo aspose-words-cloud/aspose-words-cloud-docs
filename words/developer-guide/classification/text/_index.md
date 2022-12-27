@@ -10,7 +10,7 @@ weight: 20
 
 Runs a multi-class text classification for the specified raw text.
 
-## REST API
+## Classify the text documents into one or many categories online REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
@@ -34,11 +34,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Usage Examples
+## Classify the text documents into one or many categories online usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to classify the text documents into one or many categories using cURL or Postman
+### How to classify the text documents into one or many categories online with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -60,7 +60,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to classify the text documents into one or many categories using Python, Java, C#, C++, JavaScript and other programming languages
+### How to classify the text documents into one or many categories online in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 
@@ -103,6 +103,6 @@ Using SDK is the quickest way to speed up the development. Please take a look at
 
 ## See Also
 
- * [GitHub repository](https://github.com/aspose-words-cloud) - explore Aspose.Words Cloud SDK Family. These software libraries take care of all low-level document-processing details.
+ * [GitHub repository](https://github.com/aspose-words-cloud) — explore Aspose.Words Cloud SDK Family. These software libraries take care of all low-level document-processing details.
 
 
