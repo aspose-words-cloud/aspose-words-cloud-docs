@@ -30,7 +30,7 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 | `text`               | string    | Required           | The text to classify.                                        |
 
 {{% alert style="info" %}}
-**Note**: to access this REST API, you need to register and get personal credentials. Use the '[Quick Start](/getting-started/quickstart/)' guide to go through the procedure in a couple of minutes.
+**Note**: to access this REST API, you need to register and get personal credentials. Use the '[Quick Start](/words/getting-started/quickstart/)' guide to go through the procedure in a couple of minutes.
 {{% /alert %}}
 
 
