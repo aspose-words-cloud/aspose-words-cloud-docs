@@ -717,7 +717,7 @@ weight: 50
       <td><a href="/words/spec/tablecell#inserttablecellonlinerequest">InsertTableCellOnlineRequest<a></td>
     </tr>
     <tr>
-      <td><a href="/words/spec/iencryptor#iencryptor">IEncryptor<a></td>
+      <td>IEncryptor</td>
       <td><a href="/words/spec/formfield#insertformfieldrequest">InsertFormFieldRequest<a></td>
       <td><a href="/words/spec/tablecell#inserttablecellonlineresponse">InsertTableCellOnlineResponse<a></td>
     </tr>
