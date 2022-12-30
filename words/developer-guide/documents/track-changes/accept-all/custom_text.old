@@ -1,0 +1,9 @@
+﻿This REST API accepts all revisions in a document.
+
+Request parameters are the following:
+
+|Parameter Name|Type|Query String/HTTP Body|Description|
+| :- | :- | :- | :- |
+|destFileName|string|Query string: destFileName=AfterAcceptAll.doc|Result path of the document after the operation. If this parameter is omitted then the result of the operation will be saved as the source document.|
+|folder|string|Query string: folder=MyFolder|Original document folder.|
+|storage|string|Query string: storage=MyAmazonS3Storage|Original document storage.|

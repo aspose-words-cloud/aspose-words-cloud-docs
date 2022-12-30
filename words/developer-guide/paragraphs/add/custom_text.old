@@ -1,0 +1,8 @@
+﻿This REST API adds a `Paragraph`.
+
+Request parameters are the following:
+
+|Parameter Name|Type|Query String/HTTPBody|Description|
+| :- | :- | :- | :- |
+|insertBeforeNode|string|Query String: insertBeforeNode="nodeId"|Paragraph will be inserted before node with id="nodeId".|
+|text|string|Request body|A paragraph will be inserted with text "text".|

@@ -1,111 +1,76 @@
----
+﻿---
 title: "Document Classification"
 second_title: "Aspose Words Cloud Docs"
 type: docs
-url: /classification/document
+url: /classification/document/
 aliases: [/document-classification/]
+description: "Work with document classification"
 keywords: "Document Classification, Taxanomy, IAB-2 taxonomy, Document Taxonomy, Word, Microsoft Word"
-description: "Learn how to work with document classification"
 weight: 10
 ---
 
-The businesses are now receiving different kind of text-based documents. These documents might be brochures, emails, letters, support tickets and many more. It becomes more challenging when executives or any concerned people need an immediate insight from the all text-based documents. The organizations know well that their data should be accumulated categorically. Hence, they are creating taxonomies. When the data is indexed in a taxonomy, users can find what they actually required.
+Runs a multi-class text classification for the document.
 
-The [Taxonomy (general)](https://en.wikipedia.org/wiki/Taxonomy_\(general\)) is the practice and science of classification of things or concepts, including the principles that underlie such classification. In our case, this is a list of text categories. The Aspose.Words Cloud support two taxonomies for now:
+## Work with document classification REST API
 
-- **IAB-2 taxonomy**: <https://www.iab.com/guidelines/taxonomy/>
-- **Documents taxonomy:**
-   - ADVE - advertisements, brochures
-   - Email
-   - Form
-   - Letter
-   - Memo - memorandums
-   - News - articles, including news articles
-   - Invoice
-   - Report
-   - Resume
-   - Scientific - scientific papers
-   - Other - the other classes of documents or cases where the classifier is not sure
+| Server                         | Method | Endpoint             |
+|--------------------------------|--------|----------------------|
+| https://api.aspose.cloud/v4.0  | PUT    | /words/online/get/classify |
 
-The following is a description of the most important parameters:
+You can use the following parameters in a REST request:
 
-- **Parameter Name**: bestClassesCount
-- **Description**: Count of top classes for the target text
-- **Parameter Name**: taxonomy
-- **Description**: Taxonomy to classify with. If the field is empty or "default" then IAB-2 taxonomy will be used. Documents taxonomy will be used in other cases.
+| Parameter Name       | Data Type | Required/Optional  | Description                     |
+|----------------------|-----------|--------------------|---------------------------------|
+| `loadEncoding`       | string    | Optional           | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
+| `password`           | string    | Optional           | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| `encryptedPassword`  | string    | Optional           | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
+| `bestClassesCount`   | string    | Optional           | The number of the best classes to return.                    |
+| `taxonomy`           | string    | Optional           | The taxonomy to use.                                         |
 
-Document classification supports classifying documents stored on Aspose Storage or any of [the supported storage](https://docs.aspose.cloud/display/storagecloud/How+to+Configure+3rd+Party+Cloud+Storages). API supports all document formats [supported by other Aspose.Words Cloud methods](https://products.aspose.cloud/words/cloud), including PDF which will be implicitly [converted to Word format](/words/convert/pdf-to-word/).
 
+Use `$multipart/form-data` request to combine one or more properties into a single body:
+
+| Property Name        | Data Type | Required/Optional  | Description                     |
+|----------------------|-----------|--------------------|---------------------------------|
+| `document`           | string(binary) | Required           | The document.                                                |
 
 {{% alert style="info" %}}
-
-The SDKs in C#, Java, PHP, Ruby, Python, Node.js, Swift and Go are available for download. Also the sample code are given below for each of the SDKs:
-
+**Note**: to access this REST API, you need to register and get personal credentials. Use the '[Quick Start](/getting-started/quickstart/)' guide to go through the procedure in a couple of minutes.
 {{% /alert %}}
 
-## Usage examples with cURL and Postman
 
-You can carry out REST API interactions using `cURL` and `Postman`. Please read these <a href="/words/getting-started/quickstart/">instructions</a> to receive a personal `JWT_TOKEN` for authorization.
+## Work with document classification usage examples
 
-Download sample [test_multi_pages.docx](test_multi_pages.docx) file for testing purposes.
+Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
+
+### How to work with document classification with cURL or Postman
+
+One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
 {{< nosnippet >}}
-{{< tabs tabTotal="3" tabID="1" tabName1="cURL Request" tabName2="Postman Request" tabName3="Server Response" >}}
+{{< tabs tabTotal="2" tabID="1" tabName1="cURL Request" tabName2="Postman Request" >}}
 {{< tab tabNum="1" >}}
 {{< gist "aspose-words-cloud-gists" "8a52e648cd36d3e0a7402727561073b6" "ClassifyDocumentOnline.curl" >}}
 
-<p style="margin-top:-32px;font-size:80%;font-style:italic">To get a JWT token use this <a href="/words/getting-started/quickstart/">instruction</a></p>
+<p style="margin-top:-32px;font-size:80%;font-style:italic">To get a JWT token use these <a href="/words/getting-started/quickstart/">instructions</a></p>
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
 {{< gist "aspose-words-cloud-gists" "894866974db18d27af2a7f67dd929b6f" "ClassifyDocumentOnline.json" >}}
 
-<p style="margin-top:-32px;font-size:80%;font-style:italic">To get a JWT token use this <a href="/words/getting-started/quickstart/">instruction</a></p>
+<p style="margin-top:-32px;font-size:80%;font-style:italic">To get a JWT token use these <a href="/words/getting-started/quickstart/">instructions</a></p>
 
-{{< /tab >}}
-{{< tab tabNum="3" >}}
-```json
-{
-  "BestClassName": "Report",
-  "BestClassProbability": 50.0,
-  "BestResults": [
-    {
-      "ClassName": "Report",
-      "ClassProbability": 50.0
-    },
-    {
-      "ClassName": "Letter",
-      "ClassProbability": 25.0
-    },
-    {
-      "ClassName": "Memo",
-      "ClassProbability": 12.5
-    }
-  ],
-  "Code": 200,
-  "Status": "OK"
-}
-```
 {{< /tab >}}
 {{< /tabs >}}
 {{< /nosnippet >}}
 
-## Aspose.Words Cloud SDK Family
 
-Using SDK is the best way to speed up the development. Our Cloud SDKs take care of low-level details and let you focus on your primary tasks.
+### How to work with document classification in Python, Java, C#, C++, JavaScript and other programming languages
 
-Please check out the [GitHub repository](https://github.com/aspose-words-cloud) for a complete list of Aspose.Words SDKs.
-
-## Usage examples in Python, Java, C#, etc.
-
-The following code samples show how to interact with the REST API using almost any mainstream programming language.
-
-You can find a lot of The following code samples show how to interact with the REST API using almost any mainstream programming language.
-
-You can find a lot of other examples in [Python](https://gist.github.com/aspose-words-cloud-gists/e26813ced70692c544820cd8011ee7e0), [Java](https://gist.github.com/aspose-words-cloud-gists/caede439bfd2e57c3010befe504faff4), [C#](https://gist.github.com/aspose-words-cloud-gists/374e1e3dd4bca8f696f29d913645f549), [JavaScript](https://gist.github.com/aspose-words-cloud-gists/a9510e4b51613f1138e7c1ec09634c4a), [PHP](https://gist.github.com/aspose-words-cloud-gists/e2a72445b96362dc0117f06ab54bb94a), [C++](https://gist.github.com/aspose-words-cloud-gists/49aa5151a094849179bae8672c887a0e), [Golang](https://gist.github.com/aspose-words-cloud-gists/625ca80adffd779e8f6e3611551e14d5), [Ruby](https://gist.github.com/aspose-words-cloud-gists/339f3835a4c0a536c81ec941de29baf7), [Swift](https://gist.github.com/aspose-words-cloud-gists/790dbd2edd5d36f170732366f52cac4c), [Dart](https://gist.github.com/aspose-words-cloud-gists/6aae628cf2b878b78fea177c3171c6bf) on GitHub. All codes are thoroughly tested and ready for production use.
+Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 
 {{< nosnippet >}}
-{{< tabs tabTotal="10" tabID="4" tabName1="Python" tabName2="Java" tabName3="Node.js" tabName4="C#" tabName5="PHP" tabName6="C++" tabName7="Go" tabName8="Ruby" tabName9="Swift" tabName10="Dart" >}}
+{{< tabs tabTotal="10" tabID="2" tabName1="Python" tabName2="Java" tabName3="Node.js" tabName4="C#" tabName5="PHP" tabName6="C++" tabName7="Go" tabName8="Ruby" tabName9="Swift" tabName10="Dart" >}}
 {{< tab tabNum="1" >}}
 {{< gist "aspose-words-cloud-gists" "e26813ced70692c544820cd8011ee7e0" "ClassifyDocumentOnline.py" >}}
 {{< /tab >}}
@@ -139,3 +104,10 @@ You can find a lot of other examples in [Python](https://gist.github.com/aspose-
 {{< /tab >}}
 {{< /tabs >}}
 {{< /nosnippet >}}
+
+
+## See Also
+
+ * [GitHub repository](https://github.com/aspose-words-cloud) — explore Aspose.Words Cloud SDK Family. These software libraries take care of all low-level document-processing details.
+
+

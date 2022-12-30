@@ -1,4 +1,4 @@
----
+﻿---
 title: "Get Form Fields from Document"
 second_title: "Aspose Words Cloud Docs"
 type: docs
@@ -8,187 +8,70 @@ description: "Get all form fields from a Word document"
 weight: 20
 ---
 
-This REST API retrieves form fields from a document, a section or a paragraph.
+Reads form fields from the document node.
 
-## Usage examples with cURL and Postman
+## Get all form fields from Word document REST API
 
-The following URIs are used to address REST resources:
+| Server                         | Method | Endpoint             |
+|--------------------------------|--------|----------------------|
+| https://api.aspose.cloud/v4.0  | PUT    | /words/online/get/{nodePath}/formfields |
 
-```HTML
-~/{file-name}/formfields
-~/{file-name}/{nodePath}/formfields
-```
 , where:
 
-- *{file-name}* is a filename of a document.
-- *{nodePath}* is a path to a node in a document. If this parameter is used, elements contained within a specified node will be processed:
-  - *sections/{sectionIndex}* - references a section.
-  - *paragraphs/{paragraphIndex}* - references a paragraph.
-  - *sections/{sectionIndex}/paragraphs/{paragraphIndex}* - references a paragraph within a section.
+* **`nodePath`** (required) - the path to the node in the document tree.
 
-You can carry out REST API interactions using `cURL` and `Postman`. Please read these <a href="/words/getting-started/quickstart/">instructions</a> to receive a personal `JWT_TOKEN` for authorization.
+You can use the following parameters in a REST request:
 
-Download sample [FormFilled.docx](/words/formfields/FormFilled.docx) file for testing purposes.
+| Parameter Name       | Data Type | Required/Optional  | Description                     |
+|----------------------|-----------|--------------------|---------------------------------|
+| `loadEncoding`       | string    | Optional           | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
+| `password`           | string    | Optional           | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| `encryptedPassword`  | string    | Optional           | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
+
+
+Use `$multipart/form-data` request to combine one or more properties into a single body:
+
+| Property Name        | Data Type | Required/Optional  | Description                     |
+|----------------------|-----------|--------------------|---------------------------------|
+| `document`           | string(binary) | Required           | The document.                                                |
+
+{{% alert style="info" %}}
+**Note**: to access this REST API, you need to register and get personal credentials. Use the '[Quick Start](/getting-started/quickstart/)' guide to go through the procedure in a couple of minutes.
+{{% /alert %}}
+
+
+## Get all form fields from Word document usage examples
+
+Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
+
+### How to get all form fields from Word document with cURL or Postman
+
+One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
 {{< nosnippet >}}
-{{< tabs tabTotal="3" tabID="2" tabName1="cURL Request" tabName2="Postman Request" tabName3="Server Response" >}}
+{{< tabs tabTotal="2" tabID="1" tabName1="cURL Request" tabName2="Postman Request" >}}
 {{< tab tabNum="1" >}}
 {{< gist "aspose-words-cloud-gists" "8a52e648cd36d3e0a7402727561073b6" "GetFormFieldsOnline.curl" >}}
 
-<p style="margin-top:-32px;font-size:80%;font-style:italic">To get a JWT token use this <a href="/words/getting-started/quickstart/">instruction</a></p>
+<p style="margin-top:-32px;font-size:80%;font-style:italic">To get a JWT token use these <a href="/words/getting-started/quickstart/">instructions</a></p>
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
 {{< gist "aspose-words-cloud-gists" "894866974db18d27af2a7f67dd929b6f" "GetFormFieldsOnline.json" >}}
 
-<p style="margin-top:-32px;font-size:80%;font-style:italic">To get a JWT token use this <a href="/words/getting-started/quickstart/">instruction</a></p>
+<p style="margin-top:-32px;font-size:80%;font-style:italic">To get a JWT token use these <a href="/words/getting-started/quickstart/">instructions</a></p>
 
-{{< /tab >}}
-{{< tab tabNum="3" >}}
-```json
-{
-  "FormFields": {
-    "List": [
-      {
-        "NodeId": "0.1.0.1.0.0",
-        "Name": "FullName",
-        "Enabled": true,
-        "StatusText": "Enter your name and surname (trimmed to 50 characters).",
-        "OwnStatus": true,
-        "HelpText": "Enter your name and surname (trimmed to 50 characters).",
-        "OwnHelp": true,
-        "CalculateOnExit": false,
-        "EntryMacro": "",
-        "ExitMacro": "",
-        "TextInputFormat": "TITLE CASE",
-        "TextInputType": "Regular",
-        "TextInputDefault": "",
-        "MaxLength": 50,
-        "link": {
-          "Href": "https://api.aspose.cloud/v4.0/words/FormFilled.docx/sections/0/tables/0/rows/0/cells/1/paragraphs/0/formfields/0",
-          "Rel": "self",
-          "Type": null,
-          "Title": null
-        }
-      },
-      {
-        "NodeId": "0.1.1.1.0.0",
-        "Name": "BirthDate",
-        "Enabled": true,
-        "StatusText": "Enter your date of birth.",
-        "OwnStatus": true,
-        "HelpText": "Enter your date of birth.",
-        "OwnHelp": true,
-        "CalculateOnExit": false,
-        "EntryMacro": "",
-        "ExitMacro": "",
-        "TextInputFormat": "yyyy-MM-dd",
-        "TextInputType": "Date",
-        "TextInputDefault": "",
-        "MaxLength": 0,
-        "link": {
-          "Href": "https://api.aspose.cloud/v4.0/words/FormFilled.docx/sections/0/tables/0/rows/1/cells/1/paragraphs/0/formfields/0",
-          "Rel": "self",
-          "Type": null,
-          "Title": null
-        }
-      },
-      {
-        "NodeId": "0.1.2.1.0.1",
-        "Name": "Salary",
-        "Enabled": true,
-        "StatusText": "Enter your monthly salary in USD.",
-        "OwnStatus": true,
-        "HelpText": "Enter your monthly salary in USD.",
-        "OwnHelp": true,
-        "CalculateOnExit": false,
-        "EntryMacro": "",
-        "ExitMacro": "",
-        "TextInputFormat": "#,##0.00",
-        "TextInputType": "Number",
-        "TextInputDefault": "",
-        "MaxLength": 0,
-        "link": {
-          "Href": "https://api.aspose.cloud/v4.0/words/FormFilled.docx/sections/0/tables/0/rows/2/cells/1/paragraphs/0/formfields/0",
-          "Rel": "self",
-          "Type": null,
-          "Title": null
-        }
-      },
-      {
-        "NodeId": "0.1.3.1.0.0",
-        "Name": "Married",
-        "Enabled": true,
-        "StatusText": "Mark as checked if you are married.",
-        "OwnStatus": true,
-        "HelpText": "Mark as checked if you are married.",
-        "OwnHelp": true,
-        "CalculateOnExit": false,
-        "EntryMacro": "",
-        "ExitMacro": "",
-        "IsCheckBoxExactSize": false,
-        "CheckBoxSize": 10.0,
-        "Checked": true,
-        "link": {
-          "Href": "https://api.aspose.cloud/v4.0/words/FormFilled.docx/sections/0/tables/0/rows/3/cells/1/paragraphs/0/formfields/0",
-          "Rel": "self",
-          "Type": null,
-          "Title": null
-        }
-      },
-      {
-        "NodeId": "0.1.4.1.0.0",
-        "Name": "Gender",
-        "Enabled": true,
-        "StatusText": "Select your gender.",
-        "OwnStatus": true,
-        "HelpText": "Select your gender.",
-        "OwnHelp": true,
-        "CalculateOnExit": false,
-        "EntryMacro": "",
-        "ExitMacro": "",
-        "DropDownSelectedIndex": 1,
-        "DropDownItems": [
-          "<Select gender>",
-          "Male",
-          "Female"
-
-        ],
-        "link": {
-          "Href": "https://api.aspose.cloud/v4.0/words/FormFilled.docx/sections/0/tables/0/rows/4/cells/1/paragraphs/0/formfields/0",
-          "Rel": "self",
-          "Type": null,
-          "Title": null
-        }
-      }
-    ],
-    "link": {
-      "Href": "https://api.aspose.cloud/v4.0/words/FormFilled.docx/formfields",
-      "Rel": "self",
-      "Type": null,
-      "Title": null
-    }
-  },
-  "Code": 200,
-  "Status": "OK"
-}
-```
 {{< /tab >}}
 {{< /tabs >}}
 {{< /nosnippet >}}
 
-## Aspose.Words Cloud SDK Family
 
-Using SDK is the best way to speed up the development. Please go to the [GitHub](https://github.com/aspose-words-cloud) repository to explore a wide family of our Cloud SDKs. These powerful libraries take care of all low-level programming details and let you focus on your primary tasks.
+### How to get all form fields from Word document in Python, Java, C#, C++, JavaScript and other programming languages
 
-## Usage examples in Python, Java, C#, etc.
-
-The following code samples show how to interact with the REST API using almost any mainstream programming language.
-
-You can find a lot of other examples in [Python](https://gist.github.com/aspose-words-cloud-gists/e26813ced70692c544820cd8011ee7e0), [Java](https://gist.github.com/aspose-words-cloud-gists/caede439bfd2e57c3010befe504faff4), [C#](https://gist.github.com/aspose-words-cloud-gists/374e1e3dd4bca8f696f29d913645f549), [JavaScript](https://gist.github.com/aspose-words-cloud-gists/a9510e4b51613f1138e7c1ec09634c4a), [PHP](https://gist.github.com/aspose-words-cloud-gists/e2a72445b96362dc0117f06ab54bb94a), [C++](https://gist.github.com/aspose-words-cloud-gists/49aa5151a094849179bae8672c887a0e), [Golang](https://gist.github.com/aspose-words-cloud-gists/625ca80adffd779e8f6e3611551e14d5), [Ruby](https://gist.github.com/aspose-words-cloud-gists/339f3835a4c0a536c81ec941de29baf7), [Swift](https://gist.github.com/aspose-words-cloud-gists/790dbd2edd5d36f170732366f52cac4c), [Dart](https://gist.github.com/aspose-words-cloud-gists/6aae628cf2b878b78fea177c3171c6bf) on GitHub. All codes are thoroughly tested and ready for production use.
+Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 
 {{< nosnippet >}}
-{{< tabs tabTotal="11" tabID="5" tabName1="Python" tabName2="Java" tabName3="Node.js" tabName4="C#" tabName5="PHP" tabName6="C++" tabName7="Go" tabName8="Ruby" tabName9="Swift" tabName10="Dart" tabName11="Curl" >}}
+{{< tabs tabTotal="10" tabID="2" tabName1="Python" tabName2="Java" tabName3="Node.js" tabName4="C#" tabName5="PHP" tabName6="C++" tabName7="Go" tabName8="Ruby" tabName9="Swift" tabName10="Dart" >}}
 {{< tab tabNum="1" >}}
 {{< gist "aspose-words-cloud-gists" "e26813ced70692c544820cd8011ee7e0" "GetFormFieldsOnline.py" >}}
 {{< /tab >}}
@@ -222,3 +105,10 @@ You can find a lot of other examples in [Python](https://gist.github.com/aspose-
 {{< /tab >}}
 {{< /tabs >}}
 {{< /nosnippet >}}
+
+
+## See Also
+
+ * [GitHub repository](https://github.com/aspose-words-cloud) — explore Aspose.Words Cloud SDK Family. These software libraries take care of all low-level document-processing details.
+
+

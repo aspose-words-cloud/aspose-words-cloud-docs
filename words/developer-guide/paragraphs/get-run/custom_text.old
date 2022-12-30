@@ -1,0 +1,7 @@
+﻿This REST API retrieves a `Run` from a `Paragraph`.
+
+Important properties are the following:
+
+|Property Name|Type|Description|
+| :- | :- | :- |
+|Text|string|Returns run text|

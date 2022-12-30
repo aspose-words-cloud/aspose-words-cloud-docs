@@ -1,0 +1,7 @@
+﻿This REST API adds a `Field`. 
+
+The request parameters are:
+
+|Parameter Name|Type|Query String/HTTPBody|Description|
+| :- | :- | :- | :- |
+|insertBeforeNode|string|Query String: insertBeforeNode="nodeId"|The field will be inserted before a node with id="nodeId".|

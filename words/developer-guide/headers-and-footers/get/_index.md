@@ -1,4 +1,4 @@
----
+﻿---
 title: "Get"
 second_title: "Headers and Footers in a Document"
 type: docs
@@ -8,147 +8,71 @@ description: "Get a headers or a footers from a Word document"
 weight: 40
 ---
 
-This REST API retrieves a Header or a Footer.
+Reads a HeaderFooter object from the document.
 
-## Usage examples with cURL and Postman
+## Get headers or footers from Word document REST API
 
-```JAVA
-~/{file-name}/headersFooters/{index}
-~/{file-name}/sections/{sectionIndex}/headersFooters/{index}
-```
+| Server                         | Method | Endpoint             |
+|--------------------------------|--------|----------------------|
+| https://api.aspose.cloud/v4.0  | PUT    | /words/online/get/headersfooters/{headerFooterIndex} |
 
-- *{file-name}* is the name of a Word document containing elements.
-- *{sectionIndex}* is the index of a section that contains headers and footers. If this syntax is used, only elements within a specified section are returned.
-- *{index}* is the index of specific header/footer.
+, where:
 
-You can carry out REST API interactions using `cURL` and `Postman`. Please read these <a href="/words/getting-started/quickstart/">instructions</a> to receive a personal `JWT_TOKEN` for authorization.
+* **`headerFooterIndex`** (required) - the index of the HeaderFooter object.
 
-**Case 1**: Get a Header or Footer in a Document
+You can use the following parameters in a REST request:
+
+| Parameter Name       | Data Type | Required/Optional  | Description                     |
+|----------------------|-----------|--------------------|---------------------------------|
+| `loadEncoding`       | string    | Optional           | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
+| `password`           | string    | Optional           | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| `encryptedPassword`  | string    | Optional           | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
+| `filterByType`       | string    | Optional           | The list of HeaderFooter types.                              |
+
+
+Use `$multipart/form-data` request to combine one or more properties into a single body:
+
+| Property Name        | Data Type | Required/Optional  | Description                     |
+|----------------------|-----------|--------------------|---------------------------------|
+| `document`           | string(binary) | Required           | The document.                                                |
+
+{{% alert style="info" %}}
+**Note**: to access this REST API, you need to register and get personal credentials. Use the '[Quick Start](/getting-started/quickstart/)' guide to go through the procedure in a couple of minutes.
+{{% /alert %}}
+
+
+## Get headers or footers from Word document usage examples
+
+Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
+
+### How to get headers or footers from Word document with cURL or Postman
+
+One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
 {{< nosnippet >}}
-{{< tabs tabTotal="3" tabID="2" tabName1="cURL Request" tabName2="Postman Request" tabName3="Server Response" >}}
+{{< tabs tabTotal="2" tabID="1" tabName1="cURL Request" tabName2="Postman Request" >}}
 {{< tab tabNum="1" >}}
-{{< gist "aspose-words-cloud-gists" "8a52e648cd36d3e0a7402727561073b6" "GetHeaderFooterOfSectionOnline.curl" >}}
+{{< gist "aspose-words-cloud-gists" "8a52e648cd36d3e0a7402727561073b6" "GetHeaderFooterOnline.curl" >}}
 
-<p style="margin-top:-32px;font-size:80%;font-style:italic">To get a JWT token use this <a href="/words/getting-started/quickstart/">instruction</a></p>
+<p style="margin-top:-32px;font-size:80%;font-style:italic">To get a JWT token use these <a href="/words/getting-started/quickstart/">instructions</a></p>
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
-{{< gist "aspose-words-cloud-gists" "894866974db18d27af2a7f67dd929b6f" "GetHeaderFooterOfSectionOnline.json" >}}
+{{< gist "aspose-words-cloud-gists" "894866974db18d27af2a7f67dd929b6f" "GetHeaderFooterOnline.json" >}}
 
-<p style="margin-top:-32px;font-size:80%;font-style:italic">To get a JWT token use this <a href="/words/getting-started/quickstart/">instruction</a></p>
+<p style="margin-top:-32px;font-size:80%;font-style:italic">To get a JWT token use these <a href="/words/getting-started/quickstart/">instructions</a></p>
 
-{{< /tab >}}
-{{< tab tabNum="3" >}}
-```json
-{
-  "HeaderFooter": {
-    "Paragraphs": {
-      "link": {
-        "Href": "https://api.aspose.cloud/v4.0/words/HeadersFooters.doc/sections/0/headersfooters/0/paragraphs",
-        "Rel": "self",
-        "Type": null,
-        "Title": null
-      }
-    },
-    "DrawingObjects": {
-      "link": {
-        "Href": "https://api.aspose.cloud/v4.0/words/HeadersFooters.doc/sections/0/headersfooters/0/drawingObjects",
-        "Rel": "self",
-        "Type": null,
-        "Title": null
-      }
-    },
-    "Type": "HeaderEven",
-    "link": {
-      "Href": "https://api.aspose.cloud/v4.0/words/HeadersFooters.doc/sections/0/headersfooters/0",
-      "Rel": "self",
-      "Type": null,
-      "Title": null
-    }
-  },
-  "Code": 200,
-  "Status": "OK"
-}
-```
 {{< /tab >}}
 {{< /tabs >}}
 {{< /nosnippet >}}
 
-**Case 2**: Get a Header or Footer in a Section
+
+### How to get headers or footers from Word document in Python, Java, C#, C++, JavaScript and other programming languages
+
+Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 
 {{< nosnippet >}}
-{{< tabs tabTotal="3" tabID="5" tabName1="cURL Request" tabName2="Postman Request" tabName3="Server Response" >}}
-{{< tab tabNum="1" >}}
-
-```JAVA
-# Please get your `Client Id` and `Secret` credentials from https://dashboard.aspose.cloud/applications.
-# Place `Client Id` in client_id argument. Place `Secret` in client_secret argument.
-curl -v "https://api.aspose.cloud/connect/token" \
--X POST \
--d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
--H "Content-Type: application/x-www-form-urlencoded" \
--H "Accept: application/json"
-
-# cURL example to get an individual header/footer in a section
-curl -v "https://api.aspose.cloud/v4.0/words/HeadersFooters.doc/sections/0/headersfooters/0" \
--X GET \
--H "Content-Type: application/json" \
--H "Accept: application/json" \
--H "Authorization: Bearer <jwt token>"
-```
-{{< /tab >}}
-{{< tab tabNum="2" >}}
-
-```JAVA
-{
-  "HeaderFooter": {
-    "Paragraphs": {
-      "link": {
-        "Href": "https://api.aspose.cloud/v4.0/words/HeadersFooters.doc/sections/0/headersfooters/0/paragraphs",
-        "Rel": "self",
-        "Type": null,
-        "Title": null
-      }
-    },
-    "DrawingObjects": {
-      "link": {
-        "Href": "https://api.aspose.cloud/v4.0/words/HeadersFooters.doc/sections/0/headersfooters/0/drawingObjects",
-        "Rel": "self",
-        "Type": null,
-        "Title": null
-      }
-    },
-    "Type": "HeaderEven",
-    "link": {
-      "Href": "https://api.aspose.cloud/v4.0/words/HeadersFooters.doc/sections/0/headersfooters/0",
-      "Rel": "self",
-      "Type": null,
-      "Title": null
-    }
-  },
-  "Code": 200,
-  "Status": "OK"
-}
-```
-{{< /tab >}}
-{{< /tabs >}}
-{{< /nosnippet >}}
-
-## Aspose.Words Cloud SDK Family
-
-Using SDK is the best way to speed up the development. Please go to the [GitHub](https://github.com/aspose-words-cloud) repository to explore a wide family of our Cloud SDKs. These powerful libraries take care of all low-level programming details and let you focus on your primary tasks.
-
-## Usage examples in Python, Java, C#, etc.
-
-The following code samples show how to interact with the REST API using almost any mainstream programming language.
-
-You can find a lot of other examples in [Python](https://gist.github.com/aspose-words-cloud-gists/e26813ced70692c544820cd8011ee7e0), [Java](https://gist.github.com/aspose-words-cloud-gists/caede439bfd2e57c3010befe504faff4), [C#](https://gist.github.com/aspose-words-cloud-gists/374e1e3dd4bca8f696f29d913645f549), [JavaScript](https://gist.github.com/aspose-words-cloud-gists/a9510e4b51613f1138e7c1ec09634c4a), [PHP](https://gist.github.com/aspose-words-cloud-gists/e2a72445b96362dc0117f06ab54bb94a), [C++](https://gist.github.com/aspose-words-cloud-gists/49aa5151a094849179bae8672c887a0e), [Golang](https://gist.github.com/aspose-words-cloud-gists/625ca80adffd779e8f6e3611551e14d5), [Ruby](https://gist.github.com/aspose-words-cloud-gists/339f3835a4c0a536c81ec941de29baf7), [Swift](https://gist.github.com/aspose-words-cloud-gists/790dbd2edd5d36f170732366f52cac4c), [Dart](https://gist.github.com/aspose-words-cloud-gists/6aae628cf2b878b78fea177c3171c6bf) on GitHub. All codes are thoroughly tested and ready for production use.
-
-**Case 1: Get a Header or Footer in a Document**
-
-{{< nosnippet >}}
-{{< tabs tabTotal="10" tabID="8" tabName1="Python" tabName2="Java" tabName3="Node.js" tabName4="C#" tabName5="PHP" tabName6="C++" tabName7="Go" tabName8="Ruby" tabName9="Swift" tabName10="Dart" >}}
+{{< tabs tabTotal="10" tabID="2" tabName1="Python" tabName2="Java" tabName3="Node.js" tabName4="C#" tabName5="PHP" tabName6="C++" tabName7="Go" tabName8="Ruby" tabName9="Swift" tabName10="Dart" >}}
 {{< tab tabNum="1" >}}
 {{< gist "aspose-words-cloud-gists" "e26813ced70692c544820cd8011ee7e0" "GetHeaderFooterOnline.py" >}}
 {{< /tab >}}
@@ -183,40 +107,9 @@ You can find a lot of other examples in [Python](https://gist.github.com/aspose-
 {{< /tabs >}}
 {{< /nosnippet >}}
 
-**Case 2: Get a Header or Footer in a Section**
 
-{{< nosnippet >}}
-{{< tabs tabTotal="10" tabID="9" tabName1="Python" tabName2="Java" tabName3="Node.js" tabName4="C#" tabName5="PHP" tabName6="C++" tabName7="Go" tabName8="Ruby" tabName9="Swift" tabName10="Dart" >}}
-{{< tab tabNum="1" >}}
-{{< gist "aspose-words-cloud-gists" "e26813ced70692c544820cd8011ee7e0" "GetHeaderFooterOfSectionOnline.py" >}}
-{{< /tab >}}
-{{< tab tabNum="2" >}}
-{{< gist "aspose-words-cloud-gists" "caede439bfd2e57c3010befe504faff4" "GetHeaderFooterOfSectionOnline.java" >}}
-{{< /tab >}}
-{{< tab tabNum="3" >}}
-{{< gist "aspose-words-cloud-gists" "a9510e4b51613f1138e7c1ec09634c4a" "GetHeaderFooterOfSectionOnline.js" >}}
-{{< /tab >}}
-{{< tab tabNum="4" >}}
-{{< gist "aspose-words-cloud-gists" "374e1e3dd4bca8f696f29d913645f549" "GetHeaderFooterOfSectionOnline.cs" >}}
-{{< /tab >}}
-{{< tab tabNum="5" >}}
-{{< gist "aspose-words-cloud-gists" "e2a72445b96362dc0117f06ab54bb94a" "GetHeaderFooterOfSectionOnline.php" >}}
-{{< /tab >}}
-{{< tab tabNum="6" >}}
-{{< gist "aspose-words-cloud-gists" "49aa5151a094849179bae8672c887a0e" "GetHeaderFooterOfSectionOnline.cpp" >}}
-{{< /tab >}}
-{{< tab tabNum="7" >}}
-{{< gist "aspose-words-cloud-gists" "625ca80adffd779e8f6e3611551e14d5" "config.json" >}}
-{{< gist "aspose-words-cloud-gists" "625ca80adffd779e8f6e3611551e14d5" "GetHeaderFooterOfSectionOnline.go" >}}
-{{< /tab >}}
-{{< tab tabNum="8" >}}
-{{< gist "aspose-words-cloud-gists" "339f3835a4c0a536c81ec941de29baf7" "GetHeaderFooterOfSectionOnline.rb" >}}
-{{< /tab >}}
-{{< tab tabNum="9" >}}
-{{< gist "aspose-words-cloud-gists" "790dbd2edd5d36f170732366f52cac4c" "GetHeaderFooterOfSectionOnline.swift" >}}
-{{< /tab >}}
-{{< tab tabNum="10" >}}
-{{< gist "aspose-words-cloud-gists" "6aae628cf2b878b78fea177c3171c6bf" "GetHeaderFooterOfSectionOnline.dart" >}}
-{{< /tab >}}
-{{< /tabs >}}
-{{< /nosnippet >}}
+## See Also
+
+ * [GitHub repository](https://github.com/aspose-words-cloud) — explore Aspose.Words Cloud SDK Family. These software libraries take care of all low-level document-processing details.
+
+

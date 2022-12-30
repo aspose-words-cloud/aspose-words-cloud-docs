@@ -1,0 +1,19 @@
+﻿This REST API removes all comments in a Word document at once. You can get rid of the comments and produce a clean document copy without extra information behind.
+
+The parameters used in this API are the following:
+
+|Property Name |Type  |Description|
+| :-           | :-   | :-        |
+|**name**      |string|The filename of the input document.|
+|folder        |string|Original document folder.|
+|storage       |string|Original document storage.|
+|loadEncoding  |string|Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML.|
+|password      |string|Password for opening an encrypted document.|
+|revisionAuthor|string|The author of comments.|
+|revisionDateTime|string|The date and time of comments.|
+
+{{% alert style="info" %}}
+
+Please remember, deleting all comments from a document will permanently remove them beyond recovery! If you are hesitant about doing this operation, make a document copy first and work on the copy.
+
+{{% /alert %}}

@@ -1,9 +1,10 @@
----
-title: "Working With Paragraph Lists"
+﻿---
+title: "Lists"
 second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /paragraphs/lists/
-aliases: [/working-with-paragraph-lists/]
-description: "Learn how to work with paragraph lists in a Word document"
+aliases: [/working-with-lists/]
+description: "Work with lists in a Word document"
 weight: 150
 ---
+

@@ -1,0 +1,45 @@
+﻿This REST API adds a form field to a paragraph.
+
+The resource properties are:
+
+|Property Name|Type|Description|
+| :- | :- | :- |
+|Name|string|Specifies the form field name.|
+|Enabled|bool|True if a form field is enabled.|
+|StatusText|string|Specifies the text that is displayed in the status bar when a form field has the focus.|
+|OwnStatus|bool|Specifies the source of the text that is displayed in the status bar when a form field has the focus.|
+|HelpText|string|Specifies the text that is displayed in a message box when the form field has the focus and the user presses F1.|
+|OwnHelp|bool|Specifies the source of the text that is displayed in a message box when a form field has the focus and the user presses F1.|
+|CalculateOnExit|bool|True if references to the specified form field are automatically updated whenever the field is exited.|
+|EntryMacro|string|Specifies an entry macro name for the form field.|
+|ExitMacro|string|Specifies an exit macro name for the form field.|
+
+**Text input properties**
+
+|Property Name|Type|Description|
+| :- | :- | :- |
+|TextInputFormat|string|Specifies the text formatting for a text form field.|
+|TextInputType|TextFormFieldType|Specifies the type of a text form field.|
+|TextInputDefault|string|Specifies the default string or a calculation expression of a text form field.|
+|MaxLength|int|The maximum length for the text field. Zero when the length is not limited.|
+
+**Checkbox properties**
+
+|Property Name|Type|Description|
+| :- | :- | :- |
+|IsCheckBoxExactSize|bool|Specifies the boolean value that indicates whether the size of the textbox is automatic or specified explicitly.|
+|CheckBoxSize|double|Specifies the size of the checkbox in points. Has effect only when "IsCheckBoxExactSize" is true.|
+|Checked|bool|Specifies the checked status of the checkbox form field.|
+
+**DropDown properties**
+
+|Property Name|Type|Description|
+| :- | :- | :- |
+|DropDownSelectedIndex|int|Specifies the index specifying the currently selected item in a dropdown form field.|
+|DropDownItems|string[]|Provides access to the items of a dropdown form field.|
+
+The **Request Parameters** are:
+
+|Parameter Name|Type|Query String/HTTPBody|Description|
+| :- | :- | :- | :- |
+|insertBeforeNode|string|Query String: insertBeforeNode="nodeId"|Form field will be inserted before node with id="nodeId".|

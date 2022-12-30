@@ -1,4 +1,4 @@
----
+﻿---
 title: "Get Font of Run"
 second_title: "Paragraphs in a Document"
 type: docs
@@ -8,172 +8,71 @@ description: "Get a font of a run, contained within a paragraph, in a Word docum
 weight: 70
 ---
 
-This REST API retrieves a `Font` of a `Run`, contained within a `Paragraph`.
+Reads the font properties of a Run object from the paragraph.
 
-Important properties are the following:
+## Get font of run, contained within paragraph, in Word document REST API
 
-|Property Name|Type|Description|
-| :- | :- | :- |
-|AllCaps|bool|True if the font is formatted as all capital letters.|
-|Bidi|bool|Specifies whether the contents of this run shall have right-to-left characteristics.|
-|Bold|bool|True if the font is formatted as bold.|
-|BoldBi|bool|True if the right-to-left text is formatted as bold.|
-|Border|Border|Border object that specifies border for the font.|
-|Color|Color|Specifies the color of the font.|
-|ComplexScript|bool|Specifies whether the contents of this run shall be treated as complex script text regardless of their Unicode character values when determining the formatting for this run.|
-|DoubleStrikeThrough|bool|True if the font is formatted as double strikethrough text.|
-|Emboss|bool|True if the font is formatted as embossed.|
-|Engrave|bool|True if the font is formatted as engraved.|
-|Hidden|bool|True if the font is formatted as hidden text.|
-|HighlightColor|Color|Specifies the highlight (marker) color.|
-|Italic|bool|True if the font is formatted as italic.|
-|ItalicBi|bool|True if the right-to-left text is formatted as italic.|
-|Kerning|double|Specifies the font size at which kerning starts.|
-|LocaleId|int|Specifies the locale identifier (language) of the formatted characters. For the list of locale identifiers see <http://www.microsoft.com/globaldev/reference/lcid-all.mspx>|
-|LocaleIdBi|int|Specifies the locale identifier (language) of the formatted right-to-left characters. For the list of locale identifiers see <http://www.microsoft.com/globaldev/reference/lcid-all.mspx>|
-|LocaleIdFarEast|int|Specifies the locale identifier (language) of the formatted Asian characters. For the list of locale identifiers see <http://www.microsoft.com/globaldev/reference/lcid-all.mspx>|
-|Name|string|Specifies the name of the font.|
-|NameAscii|bool|Specifies the font used for Latin text (characters with character codes from 0 (zero) through 127).|
-|NameBi|bool|Specifies the name of the font in a right-to-left language document.|
-|NameFarEast|bool|Specifies an East Asian font name.|
-|NameOther|bool|Specifies the font used for characters with character codes from 128 through 255.|
-|NoProofing|bool|True when the formatted characters are not to be spell checked.|
-|Outline|bool|True if the font is formatted as an outline.|
-|Position|double|Specifies the position of the text (in points) relative to the base line. A positive number raises the text, and a negative number lowers it.|
-|Scaling|int|Specifies character width scaling in percent.|
-|Shadow|bool|True if the font is formatted as shadowed.|
-|Size|double|Specifies the font size in points.|
-|SizeBi|double|Specifies the font size in points used in a right-to-left document.|
-|SmallCaps|bool|True if the font is formatted as small capital letters.|
-|Spacing|double|Specifies the spacing (in points) between characters.|
-|StrikeThrough|bool|True if the font is formatted as strikethrough text.|
-|StyleIdentifier|StyleIdentifier|Specifies the locale independent style identifier of the character style applied to this formatting.|
-|StyleName|string|Specifies the name of the character style applied to this formatting.|
-|Subscript|bool|True if the font is formatted as a subscript.|
-|Superscript|bool|True if the font is formatted as superscript.|
-|TextEffect|TextEffect|Specifies the font animation effect.|
-|Underline|Underline|Specifies the type of underline applied to the font.|
-|UnderlineColor|Color|Specifies the color of the underline applied to the font.|
+| Server                         | Method | Endpoint             |
+|--------------------------------|--------|----------------------|
+| https://api.aspose.cloud/v4.0  | PUT    | /words/online/get/{paragraphPath}/runs/{index}/font |
 
-## Usage examples with cURL and Postman
-
-```JAVA
-~/{file-name}/{paragraphPath}/runs/{index}/font
-```
 , where:
 
-- *{file-name}* is a filename of a document.
-- *{paragraphPath}* is a path to a specific paragraph in a document:
-  - *paragraphs/{paragraphIndex}* - references a paragraph.
-  - *sections/{sectionIndex}/paragraphs/{paragraphIndex}* - references a paragraph within a section.
-- *{index}* is an index of a run.
+* **`paragraphPath`** (required) - the path to the paragraph in the document tree.
+* **`index`** (required) - object index.
 
-You can carry out REST API interactions using `cURL` and `Postman`. Please read these <a href="/words/getting-started/quickstart/">instructions</a> to receive a personal `JWT_TOKEN` for authorization.
+You can use the following parameters in a REST request:
+
+| Parameter Name       | Data Type | Required/Optional  | Description                     |
+|----------------------|-----------|--------------------|---------------------------------|
+| `loadEncoding`       | string    | Optional           | Encoding that will be used to load an HTML (or TXT) document if the encoding is not specified in HTML. |
+| `password`           | string    | Optional           | Password of protected Word document. Use the parameter to pass a password via SDK. SDK encrypts it automatically. We don't recommend to use the parameter to pass a plain password for direct call of API. |
+| `encryptedPassword`  | string    | Optional           | Password of protected Word document. Use the parameter to pass an encrypted password for direct calls of API. See SDK code for encyption details. |
+
+
+Use `$multipart/form-data` request to combine one or more properties into a single body:
+
+| Property Name        | Data Type | Required/Optional  | Description                     |
+|----------------------|-----------|--------------------|---------------------------------|
+| `document`           | string(binary) | Required           | The document.                                                |
+
+{{% alert style="info" %}}
+**Note**: to access this REST API, you need to register and get personal credentials. Use the '[Quick Start](/getting-started/quickstart/)' guide to go through the procedure in a couple of minutes.
+{{% /alert %}}
+
+
+## Get font of run, contained within paragraph, in Word document usage examples
+
+Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
+
+### How to get font of run, contained within paragraph, in Word document with cURL or Postman
+
+One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
 {{< nosnippet >}}
-{{< tabs tabTotal="3" tabID="2" tabName1="cURL Request" tabName2="Postman Request" tabName3="Server Response" >}}
+{{< tabs tabTotal="2" tabID="1" tabName1="cURL Request" tabName2="Postman Request" >}}
 {{< tab tabNum="1" >}}
 {{< gist "aspose-words-cloud-gists" "8a52e648cd36d3e0a7402727561073b6" "GetRunFontOnline.curl" >}}
 
-<p style="margin-top:-32px;font-size:80%;font-style:italic">To get a JWT token use this <a href="/words/getting-started/quickstart/">instruction</a></p>
+<p style="margin-top:-32px;font-size:80%;font-style:italic">To get a JWT token use these <a href="/words/getting-started/quickstart/">instructions</a></p>
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
 {{< gist "aspose-words-cloud-gists" "894866974db18d27af2a7f67dd929b6f" "GetRunFontOnline.json" >}}
 
-<p style="margin-top:-32px;font-size:80%;font-style:italic">To get a JWT token use this <a href="/words/getting-started/quickstart/">instruction</a></p>
+<p style="margin-top:-32px;font-size:80%;font-style:italic">To get a JWT token use these <a href="/words/getting-started/quickstart/">instructions</a></p>
 
-{{< /tab >}}
-{{< tab tabNum="3" >}}
-```json
-{
-  "Font": {
-    "AllCaps": false,
-    "Bidi": false,
-    "Bold": false,
-    "BoldBi": false,
-    "Border": {
-      "Color": {
-        "Web": "",
-        "Alpha": 0
-      },
-      "DistanceFromText": 0.0,
-      "LineStyle": "None",
-      "LineWidth": 0.0,
-      "Shadow": false,
-      "link": null
-    },
-    "Color": {
-      "Web": "",
-      "Alpha": 0
-    },
-    "ComplexScript": false,
-    "DoubleStrikeThrough": false,
-    "Emboss": false,
-    "Engrave": false,
-    "Hidden": false,
-    "HighlightColor": {
-      "Web": "",
-      "Alpha": 0
-    },
-    "Italic": false,
-    "ItalicBi": false,
-    "Kerning": 0.0,
-    "LocaleId": 1033,
-    "LocaleIdBi": 1025,
-    "LocaleIdFarEast": 1033,
-    "Name": "Times New Roman",
-    "NameAscii": "Times New Roman",
-    "NameBi": "Times New Roman",
-    "NameFarEast": "Arial Unicode MS",
-    "NameOther": "Times New Roman",
-    "NoProofing": false,
-    "Outline": false,
-    "Position": 0.0,
-    "Scaling": 100,
-    "Shadow": false,
-    "Size": 12.0,
-    "SizeBi": 12.0,
-    "SmallCaps": false,
-    "Spacing": 0.0,
-    "StrikeThrough": false,
-    "StyleIdentifier": "DefaultParagraphFont",
-    "StyleName": "Default Paragraph Font",
-    "Subscript": false,
-    "Superscript": false,
-    "TextEffect": "None",
-    "Underline": "None",
-    "UnderlineColor": {
-      "Web": "",
-      "Alpha": 0
-    },
-    "link": {
-      "Href": "https://api.aspose.cloud/v4.0/words/test_multi_pages.docx/sections/0/headersfooters/0/paragraphs/0/runs/1/font",
-      "Rel": "self",
-      "Type": null,
-      "Title": null
-    }
-  },
-  "Code": 200,
-  "Status": "OK"
-}
-```
 {{< /tab >}}
 {{< /tabs >}}
 {{< /nosnippet >}}
 
-## Aspose.Words Cloud SDK Family
 
-Using SDK is the best way to speed up the development. Please go to the [GitHub](https://github.com/aspose-words-cloud) repository to explore a wide family of our Cloud SDKs. These powerful libraries take care of all low-level programming details and let you focus on your primary tasks.
+### How to get font of run, contained within paragraph, in Word document in Python, Java, C#, C++, JavaScript and other programming languages
 
-## Usage examples in Python, Java, C#, etc.
-
-The following code samples show how to interact with the REST API using almost any mainstream programming language.
-
-You can find a lot of other examples in [Python](https://gist.github.com/aspose-words-cloud-gists/e26813ced70692c544820cd8011ee7e0), [Java](https://gist.github.com/aspose-words-cloud-gists/caede439bfd2e57c3010befe504faff4), [C#](https://gist.github.com/aspose-words-cloud-gists/374e1e3dd4bca8f696f29d913645f549), [JavaScript](https://gist.github.com/aspose-words-cloud-gists/a9510e4b51613f1138e7c1ec09634c4a), [PHP](https://gist.github.com/aspose-words-cloud-gists/e2a72445b96362dc0117f06ab54bb94a), [C++](https://gist.github.com/aspose-words-cloud-gists/49aa5151a094849179bae8672c887a0e), [Golang](https://gist.github.com/aspose-words-cloud-gists/625ca80adffd779e8f6e3611551e14d5), [Ruby](https://gist.github.com/aspose-words-cloud-gists/339f3835a4c0a536c81ec941de29baf7), [Swift](https://gist.github.com/aspose-words-cloud-gists/790dbd2edd5d36f170732366f52cac4c), [Dart](https://gist.github.com/aspose-words-cloud-gists/6aae628cf2b878b78fea177c3171c6bf) on GitHub. All codes are thoroughly tested and ready for production use.
+Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 
 {{< nosnippet >}}
-{{< tabs tabTotal="11" tabID="5" tabName1="Python" tabName2="Java" tabName3="Node.js" tabName4="C#" tabName5="PHP" tabName6="C++" tabName7="Go" tabName8="Ruby" tabName9="Swift" tabName10="Dart" tabName11="Curl" >}}
+{{< tabs tabTotal="10" tabID="2" tabName1="Python" tabName2="Java" tabName3="Node.js" tabName4="C#" tabName5="PHP" tabName6="C++" tabName7="Go" tabName8="Ruby" tabName9="Swift" tabName10="Dart" >}}
 {{< tab tabNum="1" >}}
 {{< gist "aspose-words-cloud-gists" "e26813ced70692c544820cd8011ee7e0" "GetRunFontOnline.py" >}}
 {{< /tab >}}
@@ -207,3 +106,10 @@ You can find a lot of other examples in [Python](https://gist.github.com/aspose-
 {{< /tab >}}
 {{< /tabs >}}
 {{< /nosnippet >}}
+
+
+## See Also
+
+ * [GitHub repository](https://github.com/aspose-words-cloud) — explore Aspose.Words Cloud SDK Family. These software libraries take care of all low-level document-processing details.
+
+

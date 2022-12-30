@@ -1,0 +1,20 @@
+﻿This REST API updates `Table` properties.
+
+Important properties are the following:
+
+|Property Name|Type|Description|
+| :- | :- | :- |
+|Alignment|TableAlignment|Specifies how an inline table is aligned in the document.|
+|AllowAutoFit|bool|Allows Microsoft Word and Aspose.Words to automatically resize cells in a table to fit their contents.|
+|Bidi|bool|Specifies whether this is a right-to-left table.|
+|BottomPadding|double|Specifies the amount of space (in points) to add below the contents of cells.|
+|CellSpacing|double|Specifies the amount of space (in points) between the cells.|
+|LeftIndent|double|Specifies the value that represents the left indent of the table.|
+|LeftPadding|double|Specifies the amount of space (in points) to add to the left of the contents of cells.|
+|PreferredWidth|PreferredWidth|Specifies the table preferred width as a percentage, a number of points or a special "auto" value.|
+|RightPadding|double|Specifies the amount of space (in points) to add to the right of the contents of cells.|
+|StyleIdentifier|StyleIdentifier|Specifies the local independent style identifier of the table style applied to this table.|
+|StyleName|string|Specifies the name of the table style applied to this table.|
+|StyleOptions|TableStyleOptions|Specifies bit flags that specify how a table style is applied to this table.|
+|TextWrapping|TextWrapping|Specifies TextWrapping for a table.|
+|TopPadding|double|Specifies the amount of space (in points) to add above the contents of cells.|

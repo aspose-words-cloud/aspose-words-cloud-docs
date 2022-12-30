@@ -1,0 +1,9 @@
+﻿This REST API retrieves a `Hyperlink`.
+
+Important properties are the following:
+
+|Property Name|Type|Description|
+| :- | :- | :- |
+|Id|int|Hyperlink identifier.|
+|DisplayText|string|Text of the hyperlink as it is presented in a Word document.|
+|Value|string|Destination of the hyperlink.|

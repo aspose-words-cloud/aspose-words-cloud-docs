@@ -1,0 +1,19 @@
+﻿This REST API replaces text in a document.
+
+If a captured or replacement string contains one or more special characters: paragraph break, cell break, section break, field start, field separator, field end, inline picture, drawing object, footnote, the API returns **HTTP 400** error response.
+
+Request parameters are the following:
+
+|Parameter Name|Type|Description|
+| :- | :- | :- |
+|OldValue|string|Old text value (or regex pattern (see "IsOldValueRegex")) to replace.|
+|NewValue|string|New text value to replace by.|
+|IsMatchCase|bool|Flag, true means the search is case-sensitive; false means the search is not case-sensitive. Not used if "IsOldValueRegex" is set.|
+|IsMatchWholeWord|bool|The flag means that only whole word matched are replaced. Not used if "IsOldValueRegex" is set.|
+|IsOldValueRegex|bool|The flag means that "OldValue" contains regex expression.|
+
+Important properties are the following:
+
+|Property Name|Type|Description|
+| :- | :- | :- |
+|Matches|integer|Returns the number of matches.|

@@ -1,0 +1,3 @@
+﻿This REST API retrieves an embedded OLE file from a `DrawingObject`.
+
+The API response contains an embedded OLE file of the first drawing object of the document. However, returns an error if the drawing object does not have an embedded OLE file.

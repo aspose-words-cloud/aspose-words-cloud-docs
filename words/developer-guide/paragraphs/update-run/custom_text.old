@@ -1,0 +1,7 @@
+﻿This REST API updates `Run` properties. 
+
+Important properties are the following:
+
+|Property Name|Type|Description|
+| :- | :- | :- |
+|Text|string|Specifies run text|

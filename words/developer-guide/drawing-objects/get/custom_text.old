@@ -1,0 +1,15 @@
+﻿This REST API retrieves a `DrawingObject`. You can also convert a `DrawingObject` to a required format.
+
+Important properties are the following:
+
+|Property Name|Type|Description|
+| :- | :- | :- |
+|Width|double|Width of drawing object.|
+|Height|double|Height of drawing object.|
+|Left|double|Position of the left edge of the containing block of the drawing object.|
+|RelativeHorizontalPosition|RelativeHorizontalPosition|Specifies what the horizontal position of a shape or text frame is relative. See possible values and more info at [.NET API Reference.](https://apireference.aspose.com/net/words/aspose.words.drawing/relativehorizontalposition)|
+|Top|double|Position of the top edge of the containing block of the drawing object.|
+|RelativeVerticalPosition|RelativeVerticalPosition|Specifies what the vertical position of a shape or text frame is relative. See possible values and more info at [.NET API Reference.](https://apireference.aspose.com/net/words/aspose.words.drawing/relativeverticalposition)|
+|WrapType|WrapType|Specifies how text is wrapped around a shape or picture. See possible values and more info at [.NET API Reference](https://apireference.aspose.com/net/words/aspose.words.drawing/wraptype).|
+|imageDataLink|link|Link to embedded image resource, if present.|
+|oleDataLink|link|Link to embedded OLE resource, if present.|

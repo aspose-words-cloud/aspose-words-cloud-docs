@@ -1,0 +1,33 @@
+﻿The businesses are now receiving different kind of text-based documents. These documents might be brochures, emails, letters, support tickets and many more. It becomes more challenging when executives or any concerned people need an immediate insight from the all text-based documents. The organizations know well that their data should be accumulated categorically. Hence, they are creating taxonomies. When the data is indexed in a taxonomy, users can find what they actually required.
+
+The [Taxonomy (general)](https://en.wikipedia.org/wiki/Taxonomy_\(general\)) is the practice and science of classification of things or concepts, including the principles that underlie such classification. In our case, this is a list of text categories. The Aspose.Words Cloud support two taxonomies for now:
+
+- **IAB-2 taxonomy**: <https://www.iab.com/guidelines/taxonomy/>
+- **Documents taxonomy:**
+   - ADVE - advertisements, brochures
+   - Email
+   - Form
+   - Letter
+   - Memo - memorandums
+   - News - articles, including news articles
+   - Invoice
+   - Report
+   - Resume
+   - Scientific - scientific papers
+   - Other - the other classes of documents or cases where the classifier is not sure
+
+The following is a description of the most important parameters:
+
+- **Parameter Name**: bestClassesCount
+- **Description**: Count of top classes for the target text
+- **Parameter Name**: taxonomy
+- **Description**: Taxonomy to classify with. If the field is empty or "default" then IAB-2 taxonomy will be used. Documents taxonomy will be used in other cases.
+
+Document classification supports classifying documents stored on Aspose Storage or any of [the supported storage](https://docs.aspose.cloud/display/storagecloud/How+to+Configure+3rd+Party+Cloud+Storages). API supports all document formats [supported by other Aspose.Words Cloud methods](https://products.aspose.cloud/words/cloud), including PDF which will be implicitly [converted to Word format](/words/convert/pdf-to-word/).
+
+
+{{% alert style="info" %}}
+
+The SDKs in C#, Java, PHP, Ruby, Python, Node.js, Swift and Go are available for download. Also the sample code are given below for each of the SDKs:
+
+{{% /alert %}}

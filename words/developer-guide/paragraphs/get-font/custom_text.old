@@ -1,0 +1,46 @@
+﻿This REST API retrieves a `Font` of a `Run`, contained within a `Paragraph`.
+
+Important properties are the following:
+
+|Property Name|Type|Description|
+| :- | :- | :- |
+|AllCaps|bool|True if the font is formatted as all capital letters.|
+|Bidi|bool|Specifies whether the contents of this run shall have right-to-left characteristics.|
+|Bold|bool|True if the font is formatted as bold.|
+|BoldBi|bool|True if the right-to-left text is formatted as bold.|
+|Border|Border|Border object that specifies border for the font.|
+|Color|Color|Specifies the color of the font.|
+|ComplexScript|bool|Specifies whether the contents of this run shall be treated as complex script text regardless of their Unicode character values when determining the formatting for this run.|
+|DoubleStrikeThrough|bool|True if the font is formatted as double strikethrough text.|
+|Emboss|bool|True if the font is formatted as embossed.|
+|Engrave|bool|True if the font is formatted as engraved.|
+|Hidden|bool|True if the font is formatted as hidden text.|
+|HighlightColor|Color|Specifies the highlight (marker) color.|
+|Italic|bool|True if the font is formatted as italic.|
+|ItalicBi|bool|True if the right-to-left text is formatted as italic.|
+|Kerning|double|Specifies the font size at which kerning starts.|
+|LocaleId|int|Specifies the locale identifier (language) of the formatted characters. For the list of locale identifiers see <http://www.microsoft.com/globaldev/reference/lcid-all.mspx>|
+|LocaleIdBi|int|Specifies the locale identifier (language) of the formatted right-to-left characters. For the list of locale identifiers see <http://www.microsoft.com/globaldev/reference/lcid-all.mspx>|
+|LocaleIdFarEast|int|Specifies the locale identifier (language) of the formatted Asian characters. For the list of locale identifiers see <http://www.microsoft.com/globaldev/reference/lcid-all.mspx>|
+|Name|string|Specifies the name of the font.|
+|NameAscii|bool|Specifies the font used for Latin text (characters with character codes from 0 (zero) through 127).|
+|NameBi|bool|Specifies the name of the font in a right-to-left language document.|
+|NameFarEast|bool|Specifies an East Asian font name.|
+|NameOther|bool|Specifies the font used for characters with character codes from 128 through 255.|
+|NoProofing|bool|True when the formatted characters are not to be spell checked.|
+|Outline|bool|True if the font is formatted as an outline.|
+|Position|double|Specifies the position of the text (in points) relative to the base line. A positive number raises the text, and a negative number lowers it.|
+|Scaling|int|Specifies character width scaling in percent.|
+|Shadow|bool|True if the font is formatted as shadowed.|
+|Size|double|Specifies the font size in points.|
+|SizeBi|double|Specifies the font size in points used in a right-to-left document.|
+|SmallCaps|bool|True if the font is formatted as small capital letters.|
+|Spacing|double|Specifies the spacing (in points) between characters.|
+|StrikeThrough|bool|True if the font is formatted as strikethrough text.|
+|StyleIdentifier|StyleIdentifier|Specifies the locale independent style identifier of the character style applied to this formatting.|
+|StyleName|string|Specifies the name of the character style applied to this formatting.|
+|Subscript|bool|True if the font is formatted as a subscript.|
+|Superscript|bool|True if the font is formatted as superscript.|
+|TextEffect|TextEffect|Specifies the font animation effect.|
+|Underline|Underline|Specifies the type of underline applied to the font.|
+|UnderlineColor|Color|Specifies the color of the underline applied to the font.|

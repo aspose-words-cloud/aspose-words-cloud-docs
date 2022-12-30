@@ -1,0 +1,9 @@
+﻿This REST API retrieves statistical information from a document.
+
+Request parameters are the following:
+
+|Parameter Name|Type|Query String/HTTPBody|Description|
+| :- | :- | :- | :- |
+|includeComments|bool|Query String: includeComments=true|Support including/excluding comments from the WordCount. The default value is "false".|
+|includeFootnotes|bool|Query String: includeFootnotes=true|Support including/excluding footnotes from the WordCount. The default value is "false".|
+|includeTextInShapes|bool|Query String: includeTextInShapes=true|Support including/excluding shape's text from the WordCount. The default value is "false".|
