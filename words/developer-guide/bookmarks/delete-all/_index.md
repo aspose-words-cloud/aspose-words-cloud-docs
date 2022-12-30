@@ -1,5 +1,5 @@
 ﻿---
-title: "Delete"
+title: "Delete All"
 second_title: "Bookmarks in a Word Document"
 type: docs
 url: /bookmarks/delete-all/
