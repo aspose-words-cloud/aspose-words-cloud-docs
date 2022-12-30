@@ -10,7 +10,7 @@ weight: 10
 
 Reads protection properties from the document.
 
-## Get word document protection info online REST API
+## Get word document protection info REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
@@ -36,11 +36,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Get word document protection info online usage examples
+## Get word document protection info usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to get word document protection info online with cURL or Postman
+### How to get word document protection info with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -62,7 +62,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to get word document protection info online in Python, Java, C#, C++, JavaScript and other programming languages
+### How to get word document protection info in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

@@ -9,7 +9,7 @@ weight: 40
 
 Renders a DrawingObject to the specified format.
 
-## Render DrawingObject in image format online REST API
+## Render DrawingObject in image format REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
@@ -43,11 +43,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Render DrawingObject in image format online usage examples
+## Render DrawingObject in image format usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to render DrawingObject in image format online with cURL or Postman
+### How to render DrawingObject in image format with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -69,7 +69,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to render DrawingObject in image format online in Python, Java, C#, C++, JavaScript and other programming languages
+### How to render DrawingObject in image format in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

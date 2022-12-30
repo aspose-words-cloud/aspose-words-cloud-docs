@@ -9,7 +9,7 @@ weight: 8
 
 Returns application info.
 
-## Get application info online REST API
+## Get application info REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
@@ -20,11 +20,11 @@ Returns application info.
 {{% /alert %}}
 
 
-## Get application info online usage examples
+## Get application info usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to get application info online with cURL or Postman
+### How to get application info with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -46,7 +46,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to get application info online in Python, Java, C#, C++, JavaScript and other programming languages
+### How to get application info in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

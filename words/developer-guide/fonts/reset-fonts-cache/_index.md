@@ -10,7 +10,7 @@ weight: 20
 
 Clears the font cache.
 
-## Reset fonts cache online REST API
+## Reset fonts cache REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
@@ -21,11 +21,11 @@ Clears the font cache.
 {{% /alert %}}
 
 
-## Reset fonts cache online usage examples
+## Reset fonts cache usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to reset fonts cache online with cURL or Postman
+### How to reset fonts cache with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -47,7 +47,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to reset fonts cache online in Python, Java, C#, C++, JavaScript and other programming languages
+### How to reset fonts cache in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

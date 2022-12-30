@@ -11,7 +11,7 @@ weight: 190
 
 Inserts page numbers to the document.
 
-## Insert page numbers into Word online REST API
+## Insert page numbers into Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
@@ -41,11 +41,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Insert page numbers into Word online usage examples
+## Insert page numbers into Word document usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to insert page numbers into Word online with cURL or Postman
+### How to insert page numbers into Word document with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -67,7 +67,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to insert page numbers into Word online in Python, Java, C#, C++, JavaScript and other programming languages
+### How to insert page numbers into Word document in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

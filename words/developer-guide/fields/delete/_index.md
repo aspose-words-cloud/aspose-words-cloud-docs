@@ -10,7 +10,7 @@ weight: 20
 
 Removes a field from the document node.
 
-## Delete field from Word online REST API
+## Delete field from Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
@@ -44,11 +44,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Delete field from Word online usage examples
+## Delete field from Word document usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to delete field from Word online with cURL or Postman
+### How to delete field from Word document with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -70,7 +70,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to delete field from Word online in Python, Java, C#, C++, JavaScript and other programming languages
+### How to delete field from Word document in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

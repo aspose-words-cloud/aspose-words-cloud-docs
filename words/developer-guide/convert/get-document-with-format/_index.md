@@ -9,7 +9,7 @@ weight: 32
 
 Converts a document in cloud storage to the specified format.
 
-## Converts document in cloud storage to the specified format online REST API
+## Converts document in cloud storage to the specified format REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
@@ -37,11 +37,11 @@ You can use the following parameters in a REST request:
 {{% /alert %}}
 
 
-## Converts document in cloud storage to the specified format online usage examples
+## Converts document in cloud storage to the specified format usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to converts document in cloud storage to the specified format online with cURL or Postman
+### How to converts document in cloud storage to the specified format with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -63,7 +63,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to converts document in cloud storage to the specified format online in Python, Java, C#, C++, JavaScript and other programming languages
+### How to converts document in cloud storage to the specified format in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

@@ -10,7 +10,7 @@ weight: 130
 
 Updates the formatting properties of a paragraph in the document node.
 
-## Update paragraph formatting properties in Word online REST API
+## Update paragraph formatting properties in Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
@@ -45,11 +45,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Update paragraph formatting properties in Word online usage examples
+## Update paragraph formatting properties in Word document usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to update paragraph formatting properties in Word online with cURL or Postman
+### How to update paragraph formatting properties in Word document with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -71,7 +71,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to update paragraph formatting properties in Word online in Python, Java, C#, C++, JavaScript and other programming languages
+### How to update paragraph formatting properties in Word document in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

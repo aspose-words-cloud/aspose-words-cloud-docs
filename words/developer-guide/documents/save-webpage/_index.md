@@ -10,7 +10,7 @@ weight: 80
 
 Downloads a document from the Web using URL and saves it to cloud storage in the specified format.
 
-## Save web page into Word online REST API
+## Save web page into Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
@@ -39,11 +39,11 @@ You can use the following parameters in a REST request:
 {{% /alert %}}
 
 
-## Save web page into Word online usage examples
+## Save web page into Word document usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to save web page into Word online with cURL or Postman
+### How to save web page into Word document with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -65,7 +65,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to save web page into Word online in Python, Java, C#, C++, JavaScript and other programming languages
+### How to save web page into Word document in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 
