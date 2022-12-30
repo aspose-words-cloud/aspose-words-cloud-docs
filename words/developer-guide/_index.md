@@ -129,9 +129,8 @@ weight: 20
 <div class="col-md-6">
     <p>MailMerge</p>
     <ul>
-        <li><a href="/words/mail-merge/populate-with-data/">Populate MailMerge Template with Data</a></li>
-        <li><a href="/words/mail-merge/insert-html/">Insert HTML During Mail Merge</a></li>
-        <li><a href="/words/mail-merge/insert-images/">Insert Images During Mail Merge</a></li>
+        <li><a href="/words/mail-merge/execute/">Execute MailMerge Operation</a></li>
+        <li><a href="/words/mail-merge/read-field-names-online/">Get Mail Merge field names</a></li>
     </ul>
 </div>
 {{< /tab >}}
