@@ -122,8 +122,7 @@ weight: 20
 <div class="col-md-6">
     <p>Report Generation</p>
     <ul>
-        <li><a href="/words/report/build/">Generate Report from Template and json Data</a></li>
-        <li><a href="/words/report/build-online/">Generate Report Online</a></li>        
+        <li><a href="/words/report/build-online/">Build Report Online</a></li>        
     </ul>
 </div>
 <div class="col-md-6">
