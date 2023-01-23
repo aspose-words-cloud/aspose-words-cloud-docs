@@ -1,16 +1,14 @@
 ﻿---
-title: "Protect the unprotected Document"
-second_title: "Aspose Words Cloud Docs"
+title: "Add protection to a Word document"
 type: docs
 url: /documents/protection/add/
-aliases: [/protect-the-unprotected-document/]
 description: "Add protection to a Word document"
 weight: 20
 ---
 
-Adds protection to the document.
+Adds protection to a Word document.
 
-## Add protection to Word document REST API
+## Add protection to a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
@@ -38,11 +36,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Add protection to Word document usage examples
+## Add protection to a Word document usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to add protection to Word document with cURL or Postman
+### How to add protection to a Word document with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -64,7 +62,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to add protection to Word document in Python, Java, C#, C++, JavaScript and other programming languages
+### How to add protection to a Word document in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

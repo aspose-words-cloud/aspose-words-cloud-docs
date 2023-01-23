@@ -1,15 +1,14 @@
 ﻿---
-title: "Render a page of the document in image format"
-second_title: "Aspose Words Cloud Docs"
+title: "Render a Word document page as an image"
 type: docs
 url: /documents/render-into-image/page/
-description: "Render a page of the document in image format."
+description: "Render a Word document page as an image"
 weight: 10
 ---
 
-Renders a page to the specified format.
+Renders a Word document page as an image.
 
-## Render page of the document in image format REST API
+## Render a Word document page as an image REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
@@ -41,11 +40,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Render page of the document in image format usage examples
+## Render a Word document page as an image usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to render page of the document in image format with cURL or Postman
+### How to render a Word document page as an image with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -67,7 +66,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to render page of the document in image format in Python, Java, C#, C++, JavaScript and other programming languages
+### How to render a Word document page as an image in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

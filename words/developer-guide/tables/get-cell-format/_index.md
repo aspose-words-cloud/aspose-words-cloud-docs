@@ -1,16 +1,14 @@
 ﻿---
-title: "Get a Table Cell Format"
-second_title: "Aspose Words Cloud Docs"
+title: "Get the formatting properties of a table cell in a Word document"
 type: docs
 url: /tables/get-cell-format/
-aliases: [/get-a-table-cell-format/]
-description: "Get table's cell formatting properties in a Word document"
+description: "Get the formatting properties of a table cell in a Word document"
 weight: 120
 ---
 
-Reads the formatting properties of a table cell.
+Returns the formatting properties of a table cell in a Word document.
 
-## Get table's cell formatting properties in Word document REST API
+## Get the formatting properties of a table cell in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
@@ -41,11 +39,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Get table's cell formatting properties in Word document usage examples
+## Get the formatting properties of a table cell in a Word document usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to get table's cell formatting properties in Word document with cURL or Postman
+### How to get the formatting properties of a table cell in a Word document with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -67,7 +65,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to get table's cell formatting properties in Word document in Python, Java, C#, C++, JavaScript and other programming languages
+### How to get the formatting properties of a table cell in a Word document in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

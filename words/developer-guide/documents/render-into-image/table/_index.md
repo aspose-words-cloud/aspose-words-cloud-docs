@@ -1,15 +1,14 @@
 ﻿---
-title: "Render a table in image format"
-second_title: "Aspose Words Cloud Docs"
+title: "Render a table as an image"
 type: docs
 url: /documents/render-into-image/table/
-description: "Render a table in image format."
+description: "Render a table as an image"
 weight: 30
 ---
 
-Renders a table to the specified format.
+Renders a table as an image.
 
-## Render table in image format REST API
+## Render a table as an image REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
@@ -43,11 +42,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Render table in image format usage examples
+## Render a table as an image usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to render table in image format with cURL or Postman
+### How to render a table as an image with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -69,7 +68,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to render table in image format in Python, Java, C#, C++, JavaScript and other programming languages
+### How to render a table as an image in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

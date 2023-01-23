@@ -1,16 +1,14 @@
 ﻿---
-title: "Remove Form Field from Document"
-second_title: "Aspose Words Cloud Docs"
+title: "Delete a `FormField` from a Word document"
 type: docs
 url: /formfields/remove/
-aliases: [/remove-form-field-from-document/]
-description: "Remove a form field from a Word document"
+description: "Delete a `FormField` from a Word document"
 weight: 40
 ---
 
-Removes a form field from the document node.
+Deletes a `FormField` from a Word document.
 
-## Remove form field from Word document REST API
+## Delete a `FormField` from a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
@@ -44,11 +42,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Remove form field from Word document usage examples
+## Delete a `FormField` from a Word document usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to remove form field from Word document with cURL or Postman
+### How to delete a `FormField` from a Word document with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -70,7 +68,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to remove form field from Word document in Python, Java, C#, C++, JavaScript and other programming languages
+### How to delete a `FormField` from a Word document in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

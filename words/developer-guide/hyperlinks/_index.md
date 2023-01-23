@@ -1,10 +1,8 @@
 ﻿---
-title: "Hyperlinks"
-second_title: "Aspose Words Cloud Docs"
+title: "Work with Hyperlinks in a Word document"
 type: docs
 url: /hyperlinks/
-aliases: [/working-with-hyperlinks/]
-description: "Work with hyperlinks in a Word document"
+description: "Work with Hyperlinks in a Word document"
 weight: 140
 ---
 

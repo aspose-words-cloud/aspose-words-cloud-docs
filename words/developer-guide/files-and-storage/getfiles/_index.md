@@ -1,14 +1,14 @@
 ﻿---
-title: "Get a List of Files"
+title: "Get a list of files from a folder in Cloud Storage"
 type: docs
 url: /files-and-storage/get-files/
 description: "Get a list of files from a folder in Cloud Storage"
 weight: 70
 ---
 
-Get all files and folders within a folder
+Returns a list of files from a folder in Cloud Storage.
 
-## Get list of files from folder in Cloud Storage REST API
+## Get a list of files from a folder in Cloud Storage REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
@@ -29,11 +29,11 @@ You can use the following parameters in a REST request:
 {{% /alert %}}
 
 
-## Get list of files from folder in Cloud Storage usage examples
+## Get a list of files from a folder in Cloud Storage usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to get list of files from folder in Cloud Storage with cURL or Postman
+### How to get a list of files from a folder in Cloud Storage with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -55,7 +55,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to get list of files from folder in Cloud Storage in Python, Java, C#, C++, JavaScript and other programming languages
+### How to get a list of files from a folder in Cloud Storage in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

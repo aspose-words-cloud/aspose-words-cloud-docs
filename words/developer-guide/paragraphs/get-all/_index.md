@@ -1,16 +1,14 @@
 ﻿---
-title: "Get all"
-second_title: "Paragraphs in a Document"
+title: "Get all paragraphs in a Word document"
 type: docs
 url: /paragraphs/get-all/
-aliases: [/get-all-paragraphs-from-a-word-document/]
 description: "Get all paragraphs in a Word document"
 weight: 40
 ---
 
-Reads paragraphs from the document node.
+Returns all paragraphs in a Word document.
 
-## Get all paragraphs in Word document REST API
+## Get all paragraphs in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
@@ -40,11 +38,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Get all paragraphs in Word document usage examples
+## Get all paragraphs in a Word document usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to get all paragraphs in Word document with cURL or Postman
+### How to get all paragraphs in a Word document with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -66,7 +64,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to get all paragraphs in Word document in Python, Java, C#, C++, JavaScript and other programming languages
+### How to get all paragraphs in a Word document in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

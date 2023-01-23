@@ -1,16 +1,14 @@
 ﻿---
-title: "Delete"
-second_title: "Drawing Objects in a Word Document"
+title: "Delete a `DrawingObject` from a Word document"
 type: docs
 url: /drawing-objects/delete/
-aliases: [/delete-drawing-object-from-document/]
-description: "Delete drawing objects from a Word document"
+description: "Delete a `DrawingObject` from a Word document"
 weight: 20
 ---
 
-Removes a DrawingObject from the document node.
+Deletes a `DrawingObject` from a Word document.
 
-## Delete drawing objects from Word document REST API
+## Delete a `DrawingObject` from a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
@@ -44,11 +42,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Delete drawing objects from Word document usage examples
+## Delete a `DrawingObject` from a Word document usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to delete drawing objects from Word document with cURL or Postman
+### How to delete a `DrawingObject` from a Word document with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -70,7 +68,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to delete drawing objects from Word document in Python, Java, C#, C++, JavaScript and other programming languages
+### How to delete a `DrawingObject` from a Word document in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

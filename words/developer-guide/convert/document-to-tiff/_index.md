@@ -1,17 +1,16 @@
 ﻿---
-title: "Convert Document to TIFF"
-second_title: "Aspose Words Cloud Docs"
+title: "Convert Word document to TIFF image format"
 type: docs
 url: /convert/document-to-tiff/
-aliases: [/convert-document-to-tiff-with-detailed-settings/]
-description: "Convert Word document to TIFF format"
-keywords: "tiff file, Microsoft Word document,convert to, word to doc, save word file as PDF, convert Word document to HTML, TIFF file"
+description: "Convert Word document to TIFF image format"
 weight: 30
 ---
 
-Converts a document to TIFF format using detailed conversion settings.
+The Aspose Words Cloud API includes a `SaveAsTiffOnline` method that allows developers to convert a Word document to the TIFF image format using detailed conversion settings.
+The TIFF (Tagged Image File Format) format is a widely used graphics format. One of the key features of the TIFF format is its ability to support multiple pages. This makes it a popular choice when working with documents such as multi-page drawings, photographs, and scanned documents. TIFF files can also be saved in a variety of color depths, including grayscale, which makes it a versatile format for a wide range of applications.
+Another advantage of the TIFF format is its support for lossless compression. When a TIFF image is compressed, no information is lost, and the image can be restored to its original quality. This feature makes the TIFF format ideal for archiving and editing images, as well as for high-quality printing. Compared to other image formats such as JPG and PNG, TIFF is a more suitable for printing, as it supports CMYK color model while JPG and PNG support RGB.
 
-## Convert Word document to TIFF format REST API
+## Convert Word document to TIFF image format REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
@@ -56,11 +55,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Convert Word document to TIFF format usage examples
+## Convert Word document to TIFF image format usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to convert Word document to TIFF format with cURL or Postman
+### How to convert Word document to TIFF image format with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -82,7 +81,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to convert Word document to TIFF format in Python, Java, C#, C++, JavaScript and other programming languages
+### How to convert Word document to TIFF image format in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

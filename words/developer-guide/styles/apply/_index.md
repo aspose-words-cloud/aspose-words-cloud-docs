@@ -1,16 +1,14 @@
 ﻿---
-title: "Apply Style from Document Element"
-second_title: "Aspose Words Cloud Docs"
+title: "Apply a style to an element in a Word document."
 type: docs
 url: /styles/apply/
-aliases: [/apply-style-from-document-element/]
-description: "Apply a style from an element in a Word document"
+description: "Apply a style to an element in a Word document."
 weight: 10
 ---
 
-Applies a style to the document node.
+Applies a style to an element in a Word document.
 
-## Apply style from an element in Word document REST API
+## Apply a style to an element in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
@@ -44,11 +42,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Apply style from an element in Word document usage examples
+## Apply a style to an element in a Word document usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to apply style from an element in Word document with cURL or Postman
+### How to apply a style to an element in a Word document with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -70,7 +68,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to apply style from an element in Word document in Python, Java, C#, C++, JavaScript and other programming languages
+### How to apply a style to an element in a Word document in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

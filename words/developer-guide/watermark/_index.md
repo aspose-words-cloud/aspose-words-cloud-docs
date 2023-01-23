@@ -1,10 +1,8 @@
 ﻿---
-title: "Watermark"
-second_title: "Aspose Words Cloud Docs"
+title: "Work with Watermarks in a Word document"
 type: docs
 url: /watermark/
-aliases: [/working-with-watermark/]
-description: "Work with watermarks in a Word document"
+description: "Work with Watermarks in a Word document"
 weight: 280
 ---
 

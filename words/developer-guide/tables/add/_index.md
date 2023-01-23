@@ -1,16 +1,14 @@
 ﻿---
-title: "Add Table to a Document"
-second_title: "Aspose Words Cloud Docs"
+title: "Insert a table a Word document"
 type: docs
 url: /tables/add/
-aliases: [/add-table-to-a-document/]
-description: "Add a table to a Word document"
+description: "Insert a table a Word document"
 weight: 30
 ---
 
-Inserts a new table to the document node.
+Inserts a new table a Word document.
 
-## Add table to Word document REST API
+## Insert a table a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
@@ -44,11 +42,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Add table to Word document usage examples
+## Insert a table a Word document usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to add table to Word document with cURL or Postman
+### How to insert a table a Word document with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -70,7 +68,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to add table to Word document in Python, Java, C#, C++, JavaScript and other programming languages
+### How to insert a table a Word document in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

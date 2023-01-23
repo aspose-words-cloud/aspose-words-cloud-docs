@@ -1,16 +1,14 @@
 ﻿---
-title: "Get Run"
-second_title: "Paragraphs in a Document"
+title: "Get a `Run` object in a Word document"
 type: docs
 url: /paragraphs/get-run/
-aliases: [/get-a-run-in-the-paragraph/]
-description: "Get a run from a paragraphs in a Word document"
+description: "Get a `Run` object in a Word document"
 weight: 80
 ---
 
-Reads a Run object from the paragraph.
+Returns a `Run` object in a Word document.
 
-## Get run from paragraphs in Word document REST API
+## Get a `Run` object in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
@@ -41,11 +39,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Get run from paragraphs in Word document usage examples
+## Get a `Run` object in a Word document usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to get run from paragraphs in Word document with cURL or Postman
+### How to get a `Run` object in a Word document with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -67,7 +65,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to get run from paragraphs in Word document in Python, Java, C#, C++, JavaScript and other programming languages
+### How to get a `Run` object in a Word document in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

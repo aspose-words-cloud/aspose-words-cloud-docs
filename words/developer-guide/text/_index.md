@@ -1,9 +1,10 @@
----
-title: "Text"
-second_title: "Aspose Words Cloud Docs"
+﻿---
+title: "Classify text"
 type: docs
 url: /text/
-aliases: [/working-with-text/]
-description: "Learn how to work with a text in a Word document"
-weight: 270
+description: "Classify text"
+weight: 20
 ---
+
+Runs a multi-class text classification for the specified raw text.
+

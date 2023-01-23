@@ -1,10 +1,8 @@
 ﻿---
-title: "Tables"
-second_title: "Aspose Words Cloud Docs"
+title: "Work with Tables in a Word document"
 type: docs
 url: /tables/
-aliases: [/working-with-tables/]
-description: "Work with tables in a Word document"
+description: "Work with Tables in a Word document"
 weight: 260
 ---
 

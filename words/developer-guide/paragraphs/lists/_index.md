@@ -1,10 +1,8 @@
 ﻿---
-title: "Lists"
-second_title: "Aspose Words Cloud Docs"
+title: "Work with Lists in a Word document"
 type: docs
 url: /paragraphs/lists/
-aliases: [/working-with-lists/]
-description: "Work with lists in a Word document"
+description: "Work with Lists in a Word document"
 weight: 150
 ---
 

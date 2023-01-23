@@ -1,10 +1,8 @@
 ﻿---
-title: "Styles"
-second_title: "Aspose Words Cloud Docs"
+title: "Work with Styles in a Word document"
 type: docs
 url: /styles/
-aliases: [/working-with-styles/]
-description: "Work with styles in a Word document"
+description: "Work with Styles in a Word document"
 weight: 250
 ---
 

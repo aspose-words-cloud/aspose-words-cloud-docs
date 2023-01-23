@@ -1,10 +1,8 @@
 ﻿---
-title: "Drawing Objects"
-second_title: "Aspose Words Cloud Docs"
+title: "Work with DrawingObjects"
 type: docs
 url: /drawing-objects/
-aliases: [/working-with-drawing-objects/]
-description: "Work with drawing objects"
+description: "Work with DrawingObjects"
 weight: 70
 ---
 

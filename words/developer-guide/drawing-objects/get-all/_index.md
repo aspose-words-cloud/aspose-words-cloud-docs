@@ -1,16 +1,14 @@
 ﻿---
-title: "Get all"
-second_title: "Drawing Objects in a Word Document"
+title: "Get all DrawingObjects in a Word document"
 type: docs
 url: /drawing-objects/get-all/
-aliases: [/get-all-drawing-objects-from-a-word-document/]
-description: "Get all drawing objects from a Word document"
+description: "Get all DrawingObjects in a Word document"
 weight: 40
 ---
 
-Reads DrawingObjects from the document node.
+Returns all DrawingObjects in a Word document.
 
-## Get all drawing objects from Word document REST API
+## Get all DrawingObjects in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
@@ -40,11 +38,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Get all drawing objects from Word document usage examples
+## Get all DrawingObjects in a Word document usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to get all drawing objects from Word document with cURL or Postman
+### How to get all DrawingObjects in a Word document with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -66,7 +64,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to get all drawing objects from Word document in Python, Java, C#, C++, JavaScript and other programming languages
+### How to get all DrawingObjects in a Word document in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

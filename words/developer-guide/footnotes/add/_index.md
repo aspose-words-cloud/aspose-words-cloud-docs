@@ -1,16 +1,14 @@
 ﻿---
-title: "Add Footnote to Document"
-second_title: "Aspose Words Cloud Docs"
+title: "Insert a footnote into a Word document"
 type: docs
 url: /footnotes/add/
-aliases: [/add-footnote-to-document/]
-description: "Add a footnote to a Word document"
+description: "Insert a footnote into a Word document"
 weight: 10
 ---
 
-Inserts a new footnote to the document node.
+Inserts a footnote into a Word document.
 
-## Add footnote to Word document REST API
+## Insert a footnote into a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
@@ -44,11 +42,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Add footnote to Word document usage examples
+## Insert a footnote into a Word document usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to add footnote to Word document with cURL or Postman
+### How to insert a footnote into a Word document with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -70,7 +68,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to add footnote to Word document in Python, Java, C#, C++, JavaScript and other programming languages
+### How to insert a footnote into a Word document in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

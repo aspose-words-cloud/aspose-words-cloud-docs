@@ -1,16 +1,14 @@
 ﻿---
-title: "Replace"
-second_title: "Text in a Word Document"
+title: "Replace text in a Word Document"
 type: docs
 url: /text/replace/
-aliases: [/replace-document-text/]
-description: "Replace document text in a Word document"
-weight: 10
+description: "Replace text in a Word Document"
+weight: 20
 ---
 
-Replaces text in the document.
+Replaces text in a Word document.
 
-## Replace document text in Word document REST API
+## Replace text in a Word Document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
@@ -40,11 +38,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Replace document text in Word document usage examples
+## Replace text in a Word Document usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to replace document text in Word document with cURL or Postman
+### How to replace text in a Word Document with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -66,7 +64,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to replace document text in Word document in Python, Java, C#, C++, JavaScript and other programming languages
+### How to replace text in a Word Document in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

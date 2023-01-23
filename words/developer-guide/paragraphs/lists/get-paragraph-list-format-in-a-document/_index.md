@@ -1,16 +1,14 @@
 ﻿---
-title: "Get Paragraph List Format in a Document"
-second_title: "Aspose Words Cloud Docs"
+title: "Get the formatting properties of a paragraph list from a Word document"
 type: docs
 url: /paragraphs/lists/get-paragraph-list-format-in-a-document/
-aliases: [/get-paragraph-list-format-in-a-document/]
-description: "Get paragraph's list formatting in a Word document"
+description: "Get the formatting properties of a paragraph list from a Word document"
 weight: 20
 ---
 
-Reads the formatting properties of a paragraph list from the document node.
+Returns the formatting properties of a paragraph list from a Word document.
 
-## Get paragraph's list formatting in Word document REST API
+## Get the formatting properties of a paragraph list from a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
@@ -41,11 +39,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Get paragraph's list formatting in Word document usage examples
+## Get the formatting properties of a paragraph list from a Word document usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to get paragraph's list formatting in Word document with cURL or Postman
+### How to get the formatting properties of a paragraph list from a Word document with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -67,7 +65,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to get paragraph's list formatting in Word document in Python, Java, C#, C++, JavaScript and other programming languages
+### How to get the formatting properties of a paragraph list from a Word document in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

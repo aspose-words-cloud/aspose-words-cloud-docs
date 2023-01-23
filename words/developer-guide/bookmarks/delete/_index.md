@@ -1,15 +1,14 @@
 ﻿---
-title: "Delete"
-second_title: "Bookmark in a Word Document"
+title: "Delete a bookmark from a Word Document"
 type: docs
 url: /bookmarks/delete/
-description: "Delete a bookmark in a Word document"
+description: "Delete a bookmark from a Word Document"
 weight: 40
 ---
 
-Removes a bookmark from the document.
+This REST API deletes a bookmark by its name from a Word document. It takes the document file and the bookmark name as inputs.
 
-## Delete bookmark in Word document REST API
+## Delete a bookmark from a Word Document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
@@ -42,11 +41,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Delete bookmark in Word document usage examples
+## Delete a bookmark from a Word Document usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to delete bookmark in Word document with cURL or Postman
+### How to delete a bookmark from a Word Document with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -68,7 +67,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to delete bookmark in Word document in Python, Java, C#, C++, JavaScript and other programming languages
+### How to delete a bookmark from a Word Document in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

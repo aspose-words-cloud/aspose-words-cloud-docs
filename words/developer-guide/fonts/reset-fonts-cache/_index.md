@@ -1,16 +1,14 @@
 ﻿---
-title: "Reset Fonts Cache"
-second_title: "Aspose Words Cloud Docs"
+title: "Clear the font cache in a Word document"
 type: docs
 url: /fonts/reset-fonts-cache/
-aliases: [/reset-fonts-cache/]
-description: "Reset fonts cache"
+description: "Clear the font cache in a Word document"
 weight: 20
 ---
 
-Clears the font cache.
+Clears the font cache in a Word document.
 
-## Reset fonts cache REST API
+## Clear the font cache in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
@@ -21,11 +19,11 @@ Clears the font cache.
 {{% /alert %}}
 
 
-## Reset fonts cache usage examples
+## Clear the font cache in a Word document usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to reset fonts cache with cURL or Postman
+### How to clear the font cache in a Word document with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -47,7 +45,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to reset fonts cache in Python, Java, C#, C++, JavaScript and other programming languages
+### How to clear the font cache in a Word document in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

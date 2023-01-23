@@ -1,16 +1,14 @@
 ﻿---
-title: "Generate Report Online"
-second_title: "Aspose Words Cloud Docs"
+title: "Runs a report generation process"
 type: docs
 url: /report/build-online/
-aliases: [/build-report-online/]
-description: "Generate a report online"
+description: "Runs a report generation process"
 weight: 20
 ---
 
-Executes the report generation process online using the specified document template and the external data source in XML, JSON or CSV format.
+Runs a report generation process using the specified document template and an external data source in XML, JSON, or CSV format.
 
-## Generate report online REST API
+## Runs a report generation process REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
@@ -36,11 +34,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Generate report online usage examples
+## Runs a report generation process usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to generate report online with cURL or Postman
+### How to runs a report generation process with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -62,7 +60,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to generate report online in Python, Java, C#, C++, JavaScript and other programming languages
+### How to runs a report generation process in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

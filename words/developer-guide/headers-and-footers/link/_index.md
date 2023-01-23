@@ -1,15 +1,14 @@
 ﻿---
-title: "Link"
-second_title: "Header or Footer of a section"
+title: "Link headers/footers of a section to the previous one"
 type: docs
 url: /headers-and-footers/link/
-description: "Links headers/footers of a section to the previous one."
+description: "Link headers/footers of a section to the previous one"
 weight: 80
 ---
 
-Links headers / footers of the section to the previous one.
+Links headers/footers of the section to the previous one.
 
-## Links headers/footers of section to the previous one REST API
+## Link headers/footers of a section to the previous one REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
@@ -39,11 +38,11 @@ You can use the following parameters in a REST request:
 {{% /alert %}}
 
 
-## Links headers/footers of section to the previous one usage examples
+## Link headers/footers of a section to the previous one usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to links headers/footers of section to the previous one with cURL or Postman
+### How to link headers/footers of a section to the previous one with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -65,7 +64,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to links headers/footers of section to the previous one in Python, Java, C#, C++, JavaScript and other programming languages
+### How to link headers/footers of a section to the previous one in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

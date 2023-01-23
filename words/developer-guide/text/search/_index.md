@@ -1,16 +1,14 @@
 ﻿---
-title: "Search"
-second_title: "Text in a Word Document"
+title: "Search text in a Word document"
 type: docs
 url: /text/search/
-aliases: [/search-text-in-a-word-document/]
 description: "Search text in a Word document"
-weight: 20
+weight: 10
 ---
 
-Searches text, specified by the regular expression, in the document.
+Searches text, specified by the regular expression, in a Word document.
 
-## Search text in Word document REST API
+## Search text in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
@@ -37,11 +35,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Search text in Word document usage examples
+## Search text in a Word document usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to search text in Word document with cURL or Postman
+### How to search text in a Word document with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -63,7 +61,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to search text in Word document in Python, Java, C#, C++, JavaScript and other programming languages
+### How to search text in a Word document in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

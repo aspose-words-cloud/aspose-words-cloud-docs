@@ -1,17 +1,14 @@
 ﻿---
-title: "Merge"
-second_title: "Aspose Words Cloud Docs"
+title: "Merge several Word, PDF documents to a single document"
 type: docs
 url: /merge/
-aliases: [/appending-a-document/]
-description: "Merge Word documents. Merge DOCX, PDF, RTF into one with a single request."
-keywords: "document append, merge"
+description: "Merge several Word, PDF documents to a single document"
 weight: 180
 ---
 
-Appends documents to the original document.
+Merges several Word, PDF documents to a single document.
 
-## Merge Word documents. Merge DOCX, PDF, RTF into one with single request REST API
+## Merge several Word, PDF documents to a single document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
@@ -41,11 +38,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Merge Word documents. Merge DOCX, PDF, RTF into one with single request usage examples
+## Merge several Word, PDF documents to a single document usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to merge Word documents. Merge DOCX, PDF, RTF into one with single request with cURL or Postman
+### How to merge several Word, PDF documents to a single document with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -67,7 +64,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to merge Word documents. Merge DOCX, PDF, RTF into one with single request in Python, Java, C#, C++, JavaScript and other programming languages
+### How to merge several Word, PDF documents to a single document in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

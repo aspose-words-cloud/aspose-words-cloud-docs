@@ -1,10 +1,8 @@
 ﻿---
-title: "Reports"
-second_title: "Aspose Words Cloud Docs"
+title: "Work with Document generation and Reporting"
 type: docs
 url: /report/
-aliases: [/working-with-reports/]
-description: "Work with reports"
+description: "Work with Document generation and Reporting"
 weight: 220
 ---
 

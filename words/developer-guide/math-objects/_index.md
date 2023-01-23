@@ -1,10 +1,8 @@
 ﻿---
-title: "Math Objects"
-second_title: "Aspose Words Cloud Docs"
+title: "Work with OfficeMath objects in a Word document"
 type: docs
 url: /math-objects/
-aliases: [/working-with-math-objects/]
-description: "Work with math objects in a Word document"
+description: "Work with OfficeMath objects in a Word document"
 weight: 170
 ---
 

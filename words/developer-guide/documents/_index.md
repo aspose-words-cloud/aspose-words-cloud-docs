@@ -1,9 +1,7 @@
 ﻿---
-title: "Documents"
-second_title: "Aspose Words Cloud Docs"
+title: "Work with documents"
 type: docs
 url: /documents/
-aliases: [/working-with-documents/]
 description: "Work with documents"
 weight: 60
 ---

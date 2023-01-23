@@ -1,16 +1,14 @@
 ﻿---
-title: "Remove"
-second_title: "Paragraphs in a Document"
+title: "Delete a paragraph from a Word document"
 type: docs
 url: /paragraphs/remove/
-aliases: [/remove-paragraph-from-document/]
-description: "Remove a paragraph from a Word document"
+description: "Delete a paragraph from a Word document"
 weight: 90
 ---
 
-Removes a paragraph from the document node.
+Deletes a paragraph from a Word document.
 
-## Remove paragraph from Word document REST API
+## Delete a paragraph from a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
@@ -44,11 +42,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Remove paragraph from Word document usage examples
+## Delete a paragraph from a Word document usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to remove paragraph from Word document with cURL or Postman
+### How to delete a paragraph from a Word document with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -70,7 +68,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to remove paragraph from Word document in Python, Java, C#, C++, JavaScript and other programming languages
+### How to delete a paragraph from a Word document in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

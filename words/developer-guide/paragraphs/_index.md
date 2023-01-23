@@ -1,10 +1,8 @@
 ﻿---
-title: "Paragraphs"
-second_title: "Aspose Words Cloud Docs"
+title: "Work with Paragraphs in a Word document"
 type: docs
 url: /paragraphs/
-aliases: [/working-with-paragraphs/]
-description: "Work with paragraphs in a Word document"
+description: "Work with Paragraphs in a Word document"
 weight: 200
 ---
 

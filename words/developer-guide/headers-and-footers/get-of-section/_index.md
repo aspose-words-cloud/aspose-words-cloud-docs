@@ -1,16 +1,14 @@
 ﻿---
-title: "Get"
-second_title: "Header or Footer of a Section"
+title: "Get a Header/Footer of a Section"
 type: docs
 url: /headers-and-footers/get-of-section/
-aliases: [/get-a-header-or-footer-of-a-section/]
-description: "Get a Header or Footer of a Section"
+description: "Get a Header/Footer of a Section"
 weight: 41
 ---
 
-Reads a HeaderFooter object from the document section.
+Returns a HeaderFooter object from the document section.
 
-## Get Header or Footer of Section REST API
+## Get a Header/Footer of a Section REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
@@ -42,11 +40,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Get Header or Footer of Section usage examples
+## Get a Header/Footer of a Section usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to get Header or Footer of Section with cURL or Postman
+### How to get a Header/Footer of a Section with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -68,7 +66,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to get Header or Footer of Section in Python, Java, C#, C++, JavaScript and other programming languages
+### How to get a Header/Footer of a Section in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

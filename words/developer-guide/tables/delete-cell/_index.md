@@ -1,16 +1,14 @@
 ﻿---
-title: "Delete a Table Cell"
-second_title: "Aspose Words Cloud Docs"
+title: "Delete a cell from a table in a Word document"
 type: docs
 url: /tables/delete-cell/
-aliases: [/delete-a-table-cell/]
-description: "Delete a table's cell from a Word document"
+description: "Delete a cell from a table in a Word document"
 weight: 40
 ---
 
-Removes a cell from the table row.
+Deletes a cell from a table in a Word document.
 
-## Delete table's cell from Word document REST API
+## Delete a cell from a table in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
@@ -44,11 +42,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Delete table's cell from Word document usage examples
+## Delete a cell from a table in a Word document usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to delete table's cell from Word document with cURL or Postman
+### How to delete a cell from a table in a Word document with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -70,7 +68,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to delete table's cell from Word document in Python, Java, C#, C++, JavaScript and other programming languages
+### How to delete a cell from a table in a Word document in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

@@ -1,16 +1,14 @@
 ﻿---
-title: "Get a Border"
-second_title: "Aspose Words Cloud Docs"
+title: "Get a table border in a Word document"
 type: docs
 url: /tables/get-border/
-aliases: [/get-a-border/]
-description: "Get a table's border in a Word document"
+description: "Get a table border in a Word document"
 weight: 70
 ---
 
-Reads a border from the document node.
+Returns a table border in a Word document.
 
-## Get table's border in Word document REST API
+## Get a table border in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
@@ -41,11 +39,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Get table's border in Word document usage examples
+## Get a table border in a Word document usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to get table's border in Word document with cURL or Postman
+### How to get a table border in a Word document with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -67,7 +65,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to get table's border in Word document in Python, Java, C#, C++, JavaScript and other programming languages
+### How to get a table border in a Word document in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

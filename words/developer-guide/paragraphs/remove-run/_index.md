@@ -1,16 +1,14 @@
 ﻿---
-title: "Remove Run"
-second_title: "Paragraphs in a Document"
+title: "Delete a Run object from a Word document"
 type: docs
 url: /paragraphs/remove-run/
-aliases: [/remove-run-from-document/]
-description: "Remove a run from a paragraph in a Word document"
+description: "Delete a Run object from a Word document"
 weight: 100
 ---
 
-Removes a Run object from the paragraph.
+Deletes a `Run` object from a Word document.
 
-## Remove run from paragraph in Word document REST API
+## Delete a Run object from a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
@@ -44,11 +42,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Remove run from paragraph in Word document usage examples
+## Delete a Run object from a Word document usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to remove run from paragraph in Word document with cURL or Postman
+### How to delete a Run object from a Word document with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -70,7 +68,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to remove run from paragraph in Word document in Python, Java, C#, C++, JavaScript and other programming languages
+### How to delete a Run object from a Word document in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

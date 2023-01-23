@@ -1,16 +1,14 @@
 ﻿---
-title: "Get Font of Run"
-second_title: "Paragraphs in a Document"
+title: "Get font properties of a `Run` object in a Word document"
 type: docs
 url: /paragraphs/get-font/
-aliases: [/get-font-of-run/]
-description: "Get a font of a run, contained within a paragraph, in a Word document"
+description: "Get font properties of a `Run` object in a Word document"
 weight: 70
 ---
 
-Reads the font properties of a Run object from the paragraph.
+Returns font properties of a `Run` object in a Word document.
 
-## Get font of run, contained within paragraph, in Word document REST API
+## Get font properties of a `Run` object in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
@@ -41,11 +39,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Get font of run, contained within paragraph, in Word document usage examples
+## Get font properties of a `Run` object in a Word document usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to get font of run, contained within paragraph, in Word document with cURL or Postman
+### How to get font properties of a `Run` object in a Word document with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -67,7 +65,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to get font of run, contained within paragraph, in Word document in Python, Java, C#, C++, JavaScript and other programming languages
+### How to get font properties of a `Run` object in a Word document in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

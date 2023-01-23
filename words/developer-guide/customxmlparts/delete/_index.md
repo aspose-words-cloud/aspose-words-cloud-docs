@@ -1,15 +1,14 @@
 ﻿---
-title: "Delete"
-second_title: "Custom XML Part in a Word document"
+title: "Delete CustomXmlParts from a Word document"
 type: docs
 url: /customxmlparts/delete/
-description: "Delete Custom XML Part in a Word document"
+description: "Delete CustomXmlParts from a Word document"
 weight: 10
 ---
 
-Removes the custom xml part from the document.
+Deletes `CustomXmlParts` from a Word document.
 
-## Delete Custom XML Part in Word document REST API
+## Delete CustomXmlParts from a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
@@ -42,11 +41,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Delete Custom XML Part in Word document usage examples
+## Delete CustomXmlParts from a Word document usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to delete Custom XML Part in Word document with cURL or Postman
+### How to delete CustomXmlParts from a Word document with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -68,7 +67,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to delete Custom XML Part in Word document in Python, Java, C#, C++, JavaScript and other programming languages
+### How to delete CustomXmlParts from a Word document in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

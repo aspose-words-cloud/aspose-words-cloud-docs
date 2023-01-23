@@ -1,16 +1,14 @@
 ﻿---
-title: "Render Complex Parts of a Word Document Into the Image"
-second_title: "Aspose Words Cloud Docs"
+title: "Renders an OfficeMath object as an image"
 type: docs
-url: /documents/render-into-image/render-into-image/
-aliases: [/render-complex-parts-of-a-word-document-into-the-image/]
-description: "Render complex parts of a Word document into an image."
+url: /documents/render-into-image/mathobject/
+description: "Renders an OfficeMath object as an image"
 weight: 70
 ---
 
-Renders an OfficeMath object to the specified format.
+Renders an `OfficeMath` object as an image.
 
-## Render complex parts of Word document into an image REST API
+## Renders an OfficeMath object as an image REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
@@ -44,11 +42,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Render complex parts of Word document into an image usage examples
+## Renders an OfficeMath object as an image usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to render complex parts of Word document into an image with cURL or Postman
+### How to renders an OfficeMath object as an image with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -70,7 +68,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to render complex parts of Word document into an image in Python, Java, C#, C++, JavaScript and other programming languages
+### How to renders an OfficeMath object as an image in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

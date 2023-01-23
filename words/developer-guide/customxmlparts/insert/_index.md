@@ -1,15 +1,14 @@
 ﻿---
-title: "Insert"
-second_title: "Custom XML Part into a Word document"
+title: "Insert a CustomXmlPart into a Word document"
 type: docs
 url: /customxmlparts/insert/
-description: "Insert Custom XML Part into a Word document"
+description: "Insert a CustomXmlPart into a Word document"
 weight: 30
 ---
 
-Inserts a new custom xml part to the document.
+Inserts a new `CustomXmlPart` into a Word document.
 
-## Insert Custom XML Part into Word document REST API
+## Insert a CustomXmlPart into a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
@@ -39,11 +38,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Insert Custom XML Part into Word document usage examples
+## Insert a CustomXmlPart into a Word document usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to insert Custom XML Part into Word document with cURL or Postman
+### How to insert a CustomXmlPart into a Word document with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -65,7 +64,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to insert Custom XML Part into Word document in Python, Java, C#, C++, JavaScript and other programming languages
+### How to insert a CustomXmlPart into a Word document in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

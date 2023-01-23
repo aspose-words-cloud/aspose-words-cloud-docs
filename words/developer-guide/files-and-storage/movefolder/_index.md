@@ -1,14 +1,14 @@
 ﻿---
-title: "Move a Folder"
+title: "Move a folder to a new location in Cloud Storage"
 type: docs
 url: /files-and-storage/move-folder/
 description: "Move a folder to a new location in Cloud Storage"
 weight: 90
 ---
 
-Move folder
+Moves a folder to a new location in Cloud Storage.
 
-## Move folder to new location in Cloud Storage REST API
+## Move a folder to a new location in Cloud Storage REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
@@ -31,11 +31,11 @@ You can use the following parameters in a REST request:
 {{% /alert %}}
 
 
-## Move folder to new location in Cloud Storage usage examples
+## Move a folder to a new location in Cloud Storage usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to move folder to new location in Cloud Storage with cURL or Postman
+### How to move a folder to a new location in Cloud Storage with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -57,7 +57,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to move folder to new location in Cloud Storage in Python, Java, C#, C++, JavaScript and other programming languages
+### How to move a folder to a new location in Cloud Storage in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

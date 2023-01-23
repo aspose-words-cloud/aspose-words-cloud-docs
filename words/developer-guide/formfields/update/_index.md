@@ -1,16 +1,14 @@
 ﻿---
-title: "Update Properties of a Form Field"
-second_title: "Aspose Words Cloud Docs"
+title: "Update a FormField in a Word document"
 type: docs
 url: /formfields/update/
-aliases: [/update-properties-of-a-form-field/]
-description: "Update properties of a form field in a Word document"
+description: "Update a FormField in a Word document"
 weight: 50
 ---
 
-Updates a form field in the document node.
+Updates a `FormField` in a Word document.
 
-## Update properties of form field in Word document REST API
+## Update a FormField in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
@@ -45,11 +43,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Update properties of form field in Word document usage examples
+## Update a FormField in a Word document usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to update properties of form field in Word document with cURL or Postman
+### How to update a FormField in a Word document with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -71,7 +69,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to update properties of form field in Word document in Python, Java, C#, C++, JavaScript and other programming languages
+### How to update a FormField in a Word document in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

@@ -1,16 +1,14 @@
 ﻿---
-title: "Add New or Update Existing Document Property"
-second_title: "Aspose Words Cloud Docs"
+title: "Create a new or update an existing property in a Word document"
 type: docs
 url: /documents/properties/add-or-update/
-aliases: [/add-new-or-update-existing-document-property/]
-description: "Add a new or update an existing document property"
+description: "Create a new or update an existing property in a Word document"
 weight: 10
 ---
 
-Adds a new or updates an existing document property.
+Creates a new or updates an existing property in a Word document.
 
-## Add new or update an existing document property REST API
+## Create a new or update an existing property in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
@@ -44,11 +42,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Add new or update an existing document property usage examples
+## Create a new or update an existing property in a Word document usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to add new or update an existing document property with cURL or Postman
+### How to create a new or update an existing property in a Word document with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -70,7 +68,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to add new or update an existing document property in Python, Java, C#, C++, JavaScript and other programming languages
+### How to create a new or update an existing property in a Word document in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

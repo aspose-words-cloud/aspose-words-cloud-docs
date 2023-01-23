@@ -1,16 +1,14 @@
 ﻿---
-title: "Add Cell to Table Row"
-second_title: "Aspose Words Cloud Docs"
+title: "Insert a cell into a given row of a table in a Word document"
 type: docs
 url: /tables/add-cell/
-aliases: [/add-cell-to-table-row/]
-description: "Add a cell to a table's row in a Word document"
+description: "Insert a cell into a given row of a table in a Word document"
 weight: 20
 ---
 
-Inserts a new cell to the table row.
+Inserts a new cell into a given row of a table in a Word document.
 
-## Add cell to table's row in Word document REST API
+## Insert a cell into a given row of a table in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
@@ -44,11 +42,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Add cell to table's row in Word document usage examples
+## Insert a cell into a given row of a table in a Word document usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to add cell to table's row in Word document with cURL or Postman
+### How to insert a cell into a given row of a table in a Word document with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -70,7 +68,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to add cell to table's row in Word document in Python, Java, C#, C++, JavaScript and other programming languages
+### How to insert a cell into a given row of a table in a Word document in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

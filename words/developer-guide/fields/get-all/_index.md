@@ -1,16 +1,14 @@
 ﻿---
-title: "Get all"
-second_title: "Fields in a Document"
+title: "Get all fields in a Word document"
 type: docs
 url: /fields/get-all/
-aliases: [/get-all-fields-from-a-document/]
-description: "Get all fields from a Word document"
+description: "Get all fields in a Word document"
 weight: 40
 ---
 
-Reads fields from the document node.
+This REST API returns all fields in a Word document. It takes the document file as an input and returns an array of field objects, each containing the field type, name and properties.
 
-## Get all fields from Word document REST API
+## Get all fields in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
@@ -40,11 +38,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Get all fields from Word document usage examples
+## Get all fields in a Word document usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to get all fields from Word document with cURL or Postman
+### How to get all fields in a Word document with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -66,7 +64,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to get all fields from Word document in Python, Java, C#, C++, JavaScript and other programming languages
+### How to get all fields in a Word document in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

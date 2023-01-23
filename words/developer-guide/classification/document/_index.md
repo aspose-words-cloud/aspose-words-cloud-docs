@@ -1,17 +1,20 @@
 ﻿---
-title: "Document Classification"
-second_title: "Aspose Words Cloud Docs"
+title: "Classify a Word document"
 type: docs
 url: /classification/document/
-aliases: [/document-classification/]
-description: "Work with document classification"
-keywords: "Document Classification, Taxanomy, IAB-2 taxonomy, Document Taxonomy, Word, Microsoft Word"
+description: "Classify a Word document"
 weight: 10
 ---
 
-Runs a multi-class text classification for the document.
+Document taxonomy refers to the process of classifying and organizing documents according to their content. It is a way of automatically grouping documents into categories and subcategories based on the topics or subjects they cover. Document taxonomies can be used to classify a wide variety of content, such as email attachments, news articles, research papers, company reports, and so on.
+The main goal of document taxonomy is to make it easier to find and retrieve relevant documents. By organizing documents into groups, it becomes easier to navigate through large collections of files and find the required information. This can improve efficiency and productivity, particularly in organizations that rely heavily on document management.
+Aspose.Words REST API includes a `ClassifyDocumentOnline` method that allows developers to automatically classify documents according to their content. The currently supported taxonomies are:
+ * [IAB-2 Taxonomy](https://www.iab.com/guidelines/taxonomy/)
+ * Documents Taxonomy
+ * 2-Class Sentiment Taxonomy: negative/positive
+ * 3-Class Setiment taxonomy: negative/neutral,positive
 
-## Work with document classification REST API
+## Classify a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
@@ -39,11 +42,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Work with document classification usage examples
+## Classify a Word document usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to work with document classification with cURL or Postman
+### How to classify a Word document with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -65,7 +68,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to work with document classification in Python, Java, C#, C++, JavaScript and other programming languages
+### How to classify a Word document in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

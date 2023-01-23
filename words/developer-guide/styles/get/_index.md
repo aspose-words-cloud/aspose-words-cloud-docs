@@ -1,16 +1,14 @@
 ﻿---
-title: "Get Style from Document Element"
-second_title: "Aspose Words Cloud Docs"
+title: "Get the style of the document element"
 type: docs
 url: /styles/get/
-aliases: [/get-style-from-document-element/]
-description: "Get a style from an element in a Word document"
+description: "Get the style of the document element"
 weight: 30
 ---
 
-Reads a style from the document node.
+Returns the style of the specified document element.
 
-## Get style from an element in Word document REST API
+## Get the style of the document element REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
@@ -40,11 +38,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Get style from an element in Word document usage examples
+## Get the style of the document element usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to get style from an element in Word document with cURL or Postman
+### How to get the style of the document element with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -66,7 +64,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to get style from an element in Word document in Python, Java, C#, C++, JavaScript and other programming languages
+### How to get the style of the document element in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

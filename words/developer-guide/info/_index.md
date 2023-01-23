@@ -1,15 +1,15 @@
 ﻿---
-title: "Get application info"
+title: "Retrieve information about the application"
 type: docs
 url: /info/
-aliases: [/get-info/]
-description: "Get application info"
+description: "Retrieve information about the application"
 weight: 8
 ---
 
-Returns application info.
+Aspose.Words REST API includes a `GetInfo` method that allows developers to retrieve information about the application, such as the version number and build date.
+This method can be useful for troubleshooting and for keeping track of which version of the application is in use. It can also be used to verify that the application is up-to-date.
 
-## Get application info REST API
+## Retrieve information about the application REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
@@ -20,11 +20,11 @@ Returns application info.
 {{% /alert %}}
 
 
-## Get application info usage examples
+## Retrieve information about the application usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to get application info with cURL or Postman
+### How to retrieve information about the application with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -46,7 +46,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to get application info in Python, Java, C#, C++, JavaScript and other programming languages
+### How to retrieve information about the application in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

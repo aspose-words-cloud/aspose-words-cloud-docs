@@ -1,16 +1,14 @@
 ﻿---
-title: "Update Comments"
-second_title: "Aspose Words Cloud Docs"
+title: "Update a comment in a Word document"
 type: docs
 url: /comments/update/
-aliases: [/update-the-comment-in-a-word-document/]
 description: "Update a comment in a Word document"
 weight: 50
 ---
 
-Updates a comment in the document.
+This REST API updates a comment in a Word document. It takes the document file, comment index, and the new comment text as inputs.
 
-## Update comment in Word document REST API
+## Update a comment in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
@@ -44,11 +42,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Update comment in Word document usage examples
+## Update a comment in a Word document usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to update comment in Word document with cURL or Postman
+### How to update a comment in a Word document with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -70,7 +68,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to update comment in Word document in Python, Java, C#, C++, JavaScript and other programming languages
+### How to update a comment in a Word document in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 
