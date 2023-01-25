@@ -1,8 +1,11 @@
 ﻿---
 title: "Delete a Run object from a Word document"
+second_title: " online"
+articleTitle: "Delete a Run object"
+linktitle: "Delete a Run object"
 type: docs
 url: /paragraphs/remove-run/
-description: "Delete a Run object from a Word document"
+description: "Delete a Run object from a Word document programmatically via Cloud API."
 weight: 100
 ---
 

@@ -1,12 +1,15 @@
 ﻿---
 title: "Delete a footnote from a Word document"
+second_title: " online"
+articleTitle: "Delete a footnote"
+linktitle: "Delete a footnote"
 type: docs
 url: /footnotes/remove/
-description: "Delete a footnote from a Word document"
+description: "Delete a footnote from a Word document programmatically via Cloud API."
 weight: 40
 ---
 
-Deletes a footnote from a Word document.
+This REST API deletes a footnote from a Word document.
 
 ## Delete a footnote from a Word document REST API
 

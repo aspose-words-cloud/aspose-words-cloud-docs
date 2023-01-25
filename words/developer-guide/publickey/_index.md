@@ -1,8 +1,11 @@
 ﻿---
 title: "Get asymmetric public key"
+second_title: " online"
+articleTitle: "Get asymmetric public key"
+linktitle: "Get asymmetric public key"
 type: docs
 url: /publickey/
-description: "Get asymmetric public key"
+description: "Get asymmetric public key programmatically via Cloud API."
 weight: 7
 ---
 

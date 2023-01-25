@@ -1,8 +1,11 @@
 ﻿---
 title: "Get a hyperlink in a Word document"
+second_title: " online"
+articleTitle: "Get a hyperlink"
+linktitle: "Get a hyperlink"
 type: docs
 url: /hyperlinks/get/
-description: "Get a hyperlink in a Word document"
+description: "Get a hyperlink in a Word document programmatically via Cloud API."
 weight: 10
 ---
 

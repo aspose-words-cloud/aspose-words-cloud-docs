@@ -1,8 +1,11 @@
 ﻿---
 title: "Insert a List into a Word document"
+second_title: " online"
+articleTitle: "Insert a List"
+linktitle: "Insert a List"
 type: docs
 url: /lists/insert/
-description: "Insert a List into a Word document"
+description: "Insert a List into a Word document programmatically via Cloud API."
 weight: 30
 ---
 

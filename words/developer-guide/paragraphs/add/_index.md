@@ -1,8 +1,11 @@
 ﻿---
 title: "Add a paragraph to a Word document"
+second_title: " online"
+articleTitle: "Add a paragraph"
+linktitle: "Add a paragraph"
 type: docs
 url: /paragraphs/add/
-description: "Add a paragraph to a Word document"
+description: "Add a paragraph to a Word document programmatically via Cloud API."
 weight: 10
 ---
 

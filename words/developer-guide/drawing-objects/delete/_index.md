@@ -1,8 +1,11 @@
 ﻿---
 title: "Delete a `DrawingObject` from a Word document"
+second_title: " online"
+articleTitle: "Delete a `DrawingObject`"
+linktitle: "Delete a `DrawingObject`"
 type: docs
 url: /drawing-objects/delete/
-description: "Delete a `DrawingObject` from a Word document"
+description: "Delete a `DrawingObject` from a Word document programmatically via Cloud API."
 weight: 20
 ---
 

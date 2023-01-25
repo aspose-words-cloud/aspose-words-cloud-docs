@@ -1,8 +1,11 @@
 ﻿---
 title: "Apply a style to an element in a Word document."
+second_title: " online"
+articleTitle: "Apply a style to an element in a Word document."
+linktitle: "Apply a style to an element in a Word document."
 type: docs
 url: /styles/apply/
-description: "Apply a style to an element in a Word document."
+description: "Apply a style to an element in a Word document. programmatically via Cloud API."
 weight: 10
 ---
 

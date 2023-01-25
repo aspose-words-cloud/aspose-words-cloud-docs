@@ -1,8 +1,11 @@
 ﻿---
 title: "Update table properties in a Word document"
+second_title: " online"
+articleTitle: "Update table properties"
+linktitle: "Update table properties"
 type: docs
 url: /tables/update-properties/
-description: "Update table properties in a Word document"
+description: "Update table properties in a Word document programmatically via Cloud API."
 weight: 210
 ---
 

@@ -1,8 +1,11 @@
 ﻿---
 title: "Get embedded OLE data from a DrawingObject in a Word document"
+second_title: " online"
+articleTitle: "Get embedded OLE data from a DrawingObject"
+linktitle: "Get embedded OLE data from a DrawingObject"
 type: docs
 url: /drawing-objects/get-ole-file/
-description: "Get embedded OLE data from a DrawingObject in a Word document"
+description: "Get embedded OLE data from a DrawingObject in a Word document programmatically via Cloud API."
 weight: 60
 ---
 

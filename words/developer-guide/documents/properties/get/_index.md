@@ -1,8 +1,11 @@
 ﻿---
 title: "Get a property in a Word document"
+second_title: " online"
+articleTitle: "Get a property"
+linktitle: "Get a property"
 type: docs
 url: /documents/properties/get/
-description: "Get a property in a Word document"
+description: "Get a property in a Word document programmatically via Cloud API."
 weight: 30
 ---
 

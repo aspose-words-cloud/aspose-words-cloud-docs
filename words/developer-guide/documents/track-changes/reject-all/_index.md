@@ -1,8 +1,11 @@
 ﻿---
 title: "Reject all revisions in a Word document"
+second_title: " online"
+articleTitle: "Reject all revisions"
+linktitle: "Reject all revisions"
 type: docs
 url: /documents/track-changes/reject-all/
-description: "Reject all revisions in a Word document"
+description: "Reject all revisions in a Word document programmatically via Cloud API."
 weight: 20
 ---
 

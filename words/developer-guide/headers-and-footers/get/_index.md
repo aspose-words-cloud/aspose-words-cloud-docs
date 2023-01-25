@@ -1,8 +1,11 @@
 ﻿---
 title: "Get a HeaderFooter in a Word document"
+second_title: " online"
+articleTitle: "Get a HeaderFooter"
+linktitle: "Get a HeaderFooter"
 type: docs
 url: /headers-and-footers/get/
-description: "Get a HeaderFooter in a Word document"
+description: "Get a HeaderFooter in a Word document programmatically via Cloud API."
 weight: 40
 ---
 

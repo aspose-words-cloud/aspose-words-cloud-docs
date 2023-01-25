@@ -1,8 +1,11 @@
 ﻿---
 title: "Create a new or update an existing property in a Word document"
+second_title: " online"
+articleTitle: "Create a new or update an existing property"
+linktitle: "Create a new or update an existing property"
 type: docs
 url: /documents/properties/add-or-update/
-description: "Create a new or update an existing property in a Word document"
+description: "Create a new or update an existing property in a Word document programmatically via Cloud API."
 weight: 10
 ---
 

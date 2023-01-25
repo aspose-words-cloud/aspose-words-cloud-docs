@@ -1,8 +1,11 @@
 ﻿---
 title: "Get the image data of a DrawingObject in a Word document."
+second_title: " online"
+articleTitle: "Get the image data of a DrawingObject in a Word document."
+linktitle: "Get the image data of a DrawingObject in a Word document."
 type: docs
 url: /drawing-objects/get-image-data/
-description: "Get the image data of a DrawingObject in a Word document."
+description: "Get the image data of a DrawingObject in a Word document. programmatically via Cloud API."
 weight: 50
 ---
 

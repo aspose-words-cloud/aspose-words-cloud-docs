@@ -1,8 +1,11 @@
 ﻿---
 title: "Get a CustomXmlPart in a Word document"
+second_title: " online"
+articleTitle: "Get a CustomXmlPart"
+linktitle: "Get a CustomXmlPart"
 type: docs
 url: /customxmlparts/get/
-description: "Get a CustomXmlPart in a Word document"
+description: "Get a CustomXmlPart in a Word document programmatically via Cloud API."
 weight: 20
 ---
 

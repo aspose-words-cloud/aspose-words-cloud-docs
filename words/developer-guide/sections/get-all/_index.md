@@ -1,8 +1,11 @@
 ﻿---
 title: "Get all sections in a Word document"
+second_title: " online"
+articleTitle: "Get all sections"
+linktitle: "Get all sections"
 type: docs
 url: /sections/get-all/
-description: "Get all sections in a Word document"
+description: "Get all sections in a Word document programmatically via Cloud API."
 weight: 10
 ---
 

@@ -1,8 +1,11 @@
 ﻿---
 title: "Delete a cell from a table in a Word document"
+second_title: " online"
+articleTitle: "Delete a cell from a table"
+linktitle: "Delete a cell from a table"
 type: docs
 url: /tables/delete-cell/
-description: "Delete a cell from a table in a Word document"
+description: "Delete a cell from a table in a Word document programmatically via Cloud API."
 weight: 40
 ---
 

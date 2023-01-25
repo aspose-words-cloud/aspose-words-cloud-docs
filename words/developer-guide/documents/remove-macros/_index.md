@@ -1,8 +1,11 @@
 ﻿---
 title: "Remove all macros from a Word document"
+second_title: " online"
+articleTitle: "Remove all macros"
+linktitle: "Remove all macros"
 type: docs
 url: /documents/remove-macros/
-description: "Remove all macros from a Word document"
+description: "Remove all macros from a Word document programmatically via Cloud API."
 weight: 60
 ---
 

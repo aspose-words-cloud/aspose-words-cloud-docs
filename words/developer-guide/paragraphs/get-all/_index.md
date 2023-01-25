@@ -1,8 +1,11 @@
 ﻿---
 title: "Get all paragraphs in a Word document"
+second_title: " online"
+articleTitle: "Get all paragraphs"
+linktitle: "Get all paragraphs"
 type: docs
 url: /paragraphs/get-all/
-description: "Get all paragraphs in a Word document"
+description: "Get all paragraphs in a Word document programmatically via Cloud API."
 weight: 40
 ---
 

@@ -1,8 +1,11 @@
 ﻿---
 title: "Insert a row into a table in a Word document"
+second_title: " online"
+articleTitle: "Insert a row into a table"
+linktitle: "Insert a row into a table"
 type: docs
 url: /tables/add-row/
-description: "Insert a row into a table in a Word document"
+description: "Insert a row into a table in a Word document programmatically via Cloud API."
 weight: 10
 ---
 

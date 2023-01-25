@@ -1,8 +1,11 @@
 ﻿---
 title: "Classify text"
+second_title: " online"
+articleTitle: "Classify text"
+linktitle: "Classify text"
 type: docs
 url: /classification/text/
-description: "Classify text"
+description: "Classify text programmatically via Cloud API."
 weight: 20
 ---
 

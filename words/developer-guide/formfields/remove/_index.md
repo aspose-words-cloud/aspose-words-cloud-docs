@@ -1,12 +1,15 @@
 ﻿---
 title: "Delete a `FormField` from a Word document"
+second_title: " online"
+articleTitle: "Delete a `FormField`"
+linktitle: "Delete a `FormField`"
 type: docs
 url: /formfields/remove/
-description: "Delete a `FormField` from a Word document"
+description: "Delete a `FormField` from a Word document programmatically via Cloud API."
 weight: 40
 ---
 
-Deletes a `FormField` from a Word document.
+This REST API deletes a `FormField` from a Word document.
 
 ## Delete a `FormField` from a Word document REST API
 

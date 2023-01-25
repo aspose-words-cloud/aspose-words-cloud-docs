@@ -1,8 +1,11 @@
 ﻿---
 title: "Get the formatting properties of a paragraph in a Word document"
+second_title: " online"
+articleTitle: "Get the formatting properties of a paragraph"
+linktitle: "Get the formatting properties of a paragraph"
 type: docs
 url: /paragraphs/get-all-formatting/
-description: "Get the formatting properties of a paragraph in a Word document"
+description: "Get the formatting properties of a paragraph in a Word document programmatically via Cloud API."
 weight: 60
 ---
 

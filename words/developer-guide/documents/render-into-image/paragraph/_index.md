@@ -1,8 +1,11 @@
 ﻿---
 title: "Render a paragraph as an image"
+second_title: " online"
+articleTitle: "Render a paragraph as an image"
+linktitle: "Render a paragraph as an image"
 type: docs
 url: /documents/render-into-image/paragraph/
-description: "Render a paragraph as an image"
+description: "Render a paragraph as an image programmatically via Cloud API."
 weight: 20
 ---
 

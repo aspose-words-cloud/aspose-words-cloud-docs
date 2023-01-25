@@ -1,8 +1,11 @@
 ﻿---
 title: "Get all fields in a Word document"
+second_title: " online"
+articleTitle: "Get all fields"
+linktitle: "Get all fields"
 type: docs
 url: /fields/get-all/
-description: "Get all fields in a Word document"
+description: "Get all fields in a Word document programmatically via Cloud API."
 weight: 40
 ---
 

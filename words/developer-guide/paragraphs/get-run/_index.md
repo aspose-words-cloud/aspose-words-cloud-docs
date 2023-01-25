@@ -1,8 +1,11 @@
 ﻿---
 title: "Get a `Run` object in a Word document"
+second_title: " online"
+articleTitle: "Get a `Run` object"
+linktitle: "Get a `Run` object"
 type: docs
 url: /paragraphs/get-run/
-description: "Get a `Run` object in a Word document"
+description: "Get a `Run` object in a Word document programmatically via Cloud API."
 weight: 80
 ---
 

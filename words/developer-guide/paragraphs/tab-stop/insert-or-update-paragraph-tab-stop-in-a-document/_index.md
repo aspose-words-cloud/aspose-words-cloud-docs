@@ -1,8 +1,11 @@
 ﻿---
 title: "Insert or update a paragraph tab stop in a Word document"
+second_title: " online"
+articleTitle: "Insert or update a paragraph tab stop"
+linktitle: "Insert or update a paragraph tab stop"
 type: docs
 url: /paragraphs/tab-stop/insert-or-update-paragraph-tab-stop-in-a-document/
-description: "Insert or update a paragraph tab stop in a Word document"
+description: "Insert or update a paragraph tab stop in a Word document programmatically via Cloud API."
 weight: 40
 ---
 

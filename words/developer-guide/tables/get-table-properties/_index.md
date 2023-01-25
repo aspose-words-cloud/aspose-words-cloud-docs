@@ -1,8 +1,11 @@
 ﻿---
 title: "Get table properties in a Word document"
+second_title: " online"
+articleTitle: "Get table properties"
+linktitle: "Get table properties"
 type: docs
 url: /tables/get-table-properties/
-description: "Get table properties in a Word document"
+description: "Get table properties in a Word document programmatically via Cloud API."
 weight: 150
 ---
 

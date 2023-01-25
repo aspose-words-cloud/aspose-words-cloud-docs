@@ -1,8 +1,11 @@
 ﻿---
 title: "Get paragraph tab stops in a Word document"
+second_title: " online"
+articleTitle: "Get paragraph tab stops"
+linktitle: "Get paragraph tab stops"
 type: docs
 url: /paragraphs/tab-stop/get-paragraph-tab-stop-in-a-document/
-description: "Get paragraph tab stops in a Word document"
+description: "Get paragraph tab stops in a Word document programmatically via Cloud API."
 weight: 30
 ---
 

@@ -1,8 +1,12 @@
 ﻿---
-title: "Work with Hyperlinks in a Word document"
+title: "Working with Hyperlinks in a Word document"
+second_title: " online"
+articleTitle: "Working with Hyperlinks"
+linktitle: "Hyperlinks"
 type: docs
 url: /hyperlinks/
-description: "Work with Hyperlinks in a Word document"
+description: "Insert, edit, delete Hyperlinks in a Word document programmatically via Cloud API."
 weight: 140
 ---
 
+{{<list-children-pages>}}

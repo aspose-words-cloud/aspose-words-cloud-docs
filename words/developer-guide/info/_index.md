@@ -1,8 +1,11 @@
 ﻿---
 title: "Retrieve information about the application"
+second_title: " online"
+articleTitle: "Retrieve information about the application"
+linktitle: "Retrieve information about the application"
 type: docs
 url: /info/
-description: "Retrieve information about the application"
+description: "Retrieve information about the application programmatically via Cloud API."
 weight: 8
 ---
 

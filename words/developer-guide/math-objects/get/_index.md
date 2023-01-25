@@ -1,8 +1,11 @@
 ﻿---
 title: "Get an OfficeMath object in a Word document"
+second_title: " online"
+articleTitle: "Get an OfficeMath object"
+linktitle: "Get an OfficeMath object"
 type: docs
 url: /math-objects/get/
-description: "Get an OfficeMath object in a Word document"
+description: "Get an OfficeMath object in a Word document programmatically via Cloud API."
 weight: 10
 ---
 

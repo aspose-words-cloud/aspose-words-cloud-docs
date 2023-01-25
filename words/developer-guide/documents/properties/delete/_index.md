@@ -1,8 +1,11 @@
 ﻿---
 title: "Delete a property from a Word document"
+second_title: " online"
+articleTitle: "Delete a property"
+linktitle: "Delete a property"
 type: docs
 url: /documents/properties/delete/
-description: "Delete a property from a Word document"
+description: "Delete a property from a Word document programmatically via Cloud API."
 weight: 20
 ---
 

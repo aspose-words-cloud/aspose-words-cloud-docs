@@ -1,8 +1,11 @@
 ﻿---
 title: "Render a Word document page as an image"
+second_title: " online"
+articleTitle: "Render a Word document page as an image"
+linktitle: "Render a Word document page as an image"
 type: docs
 url: /documents/render-into-image/page/
-description: "Render a Word document page as an image"
+description: "Render a Word document page as an image programmatically via Cloud API."
 weight: 10
 ---
 

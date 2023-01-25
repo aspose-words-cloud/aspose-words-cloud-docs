@@ -1,12 +1,15 @@
 ﻿---
 title: "Get a list of files from a folder in Cloud Storage"
+second_title: " online"
+articleTitle: "Get a list of files from a folder in Cloud Storage"
+linktitle: "Get a list of files from a folder in Cloud Storage"
 type: docs
 url: /files-and-storage/get-files/
-description: "Get a list of files from a folder in Cloud Storage"
+description: "Get a list of files from a folder in Cloud Storage programmatically via Cloud API."
 weight: 70
 ---
 
-Returns a list of files from a folder in Cloud Storage.
+This REST API returns a list of files from a folder in Cloud Storage.
 
 ## Get a list of files from a folder in Cloud Storage REST API
 

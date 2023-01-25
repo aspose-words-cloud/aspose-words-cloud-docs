@@ -1,8 +1,11 @@
 ﻿---
 title: "Convert a document to the specified format"
+second_title: " online"
+articleTitle: "Convert a document to the specified format"
+linktitle: "Convert a document to the specified format"
 type: docs
 url: /convert/get-document-with-format/
-description: "Convert a document to the specified format"
+description: "Convert a document to the specified format programmatically via Cloud API."
 weight: 32
 ---
 

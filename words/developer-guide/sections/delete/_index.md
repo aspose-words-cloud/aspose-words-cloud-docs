@@ -1,8 +1,11 @@
 ﻿---
 title: "Delete a section from a Word document"
+second_title: " online"
+articleTitle: "Delete a section"
+linktitle: "Delete a section"
 type: docs
 url: /sections/delete/
-description: "Delete a section from a Word document"
+description: "Delete a section from a Word document programmatically via Cloud API."
 weight: 50
 ---
 

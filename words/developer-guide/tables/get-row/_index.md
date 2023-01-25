@@ -1,8 +1,11 @@
 ﻿---
 title: "Get table row in a Word document"
+second_title: " online"
+articleTitle: "Get table row"
+linktitle: "Get table row"
 type: docs
 url: /tables/get-row/
-description: "Get table row in a Word document"
+description: "Get table row in a Word document programmatically via Cloud API."
 weight: 130
 ---
 

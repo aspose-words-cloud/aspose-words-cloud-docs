@@ -1,8 +1,11 @@
 ﻿---
 title: "Update a comment in a Word document"
+second_title: " online"
+articleTitle: "Update a comment"
+linktitle: "Update a comment"
 type: docs
 url: /comments/update/
-description: "Update a comment in a Word document"
+description: "Update a comment in a Word document programmatically via Cloud API."
 weight: 50
 ---
 

@@ -1,12 +1,15 @@
 ﻿---
 title: "Get a FormField in a Word document"
+second_title: " online"
+articleTitle: "Get a FormField"
+linktitle: "Get a FormField"
 type: docs
 url: /formfields/get/
-description: "Get a FormField in a Word document"
+description: "Get a FormField in a Word document programmatically via Cloud API."
 weight: 30
 ---
 
-Returns a `FormField` in a Word document.
+This REST API returns a `FormField` in a Word document.
 
 ## Get a FormField in a Word document REST API
 

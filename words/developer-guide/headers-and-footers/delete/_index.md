@@ -1,8 +1,11 @@
 ﻿---
 title: "Delete a `HeaderFooter` object from a Word document"
+second_title: " online"
+articleTitle: "Delete a `HeaderFooter` object"
+linktitle: "Delete a `HeaderFooter` object"
 type: docs
 url: /headers-and-footers/delete/
-description: "Delete a `HeaderFooter` object from a Word document"
+description: "Delete a `HeaderFooter` object from a Word document programmatically via Cloud API."
 weight: 20
 ---
 

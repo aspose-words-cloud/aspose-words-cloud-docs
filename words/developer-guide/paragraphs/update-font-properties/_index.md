@@ -1,8 +1,11 @@
 ﻿---
 title: "Update font properties for text in a Word document."
+second_title: " online"
+articleTitle: "Update font properties for text in a Word document."
+linktitle: "Update font properties for text in a Word document."
 type: docs
 url: /paragraphs/update-font-properties/
-description: "Update font properties for text in a Word document."
+description: "Update font properties for text in a Word document. programmatically via Cloud API."
 weight: 120
 ---
 

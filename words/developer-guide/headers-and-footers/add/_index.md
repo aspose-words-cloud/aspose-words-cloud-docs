@@ -1,8 +1,11 @@
 ﻿---
 title: "Insert a HeaderFooter into a Word document"
+second_title: " online"
+articleTitle: "Insert a HeaderFooter"
+linktitle: "Insert a HeaderFooter"
 type: docs
 url: /headers-and-footers/add/
-description: "Insert a HeaderFooter into a Word document"
+description: "Insert a HeaderFooter into a Word document programmatically via Cloud API."
 weight: 10
 ---
 

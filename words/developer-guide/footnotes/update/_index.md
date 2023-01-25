@@ -1,12 +1,15 @@
 ﻿---
 title: "Update a Footnote in a Word document"
+second_title: " online"
+articleTitle: "Update a Footnote"
+linktitle: "Update a Footnote"
 type: docs
 url: /footnotes/update/
-description: "Update a Footnote in a Word document"
+description: "Update a Footnote in a Word document programmatically via Cloud API."
 weight: 50
 ---
 
-Updates a `Footnote` in a Word document.
+This REST API updates a footnote in a Word document.
 
 ## Update a Footnote in a Word document REST API
 

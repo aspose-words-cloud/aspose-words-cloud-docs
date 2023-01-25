@@ -1,8 +1,11 @@
 ﻿---
 title: "Update the formatting properties of a paragraph in a Word document"
+second_title: " online"
+articleTitle: "Update the formatting properties of a paragraph"
+linktitle: "Update the formatting properties of a paragraph"
 type: docs
 url: /paragraphs/update/
-description: "Update the formatting properties of a paragraph in a Word document"
+description: "Update the formatting properties of a paragraph in a Word document programmatically via Cloud API."
 weight: 130
 ---
 

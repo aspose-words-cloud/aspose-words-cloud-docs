@@ -1,8 +1,11 @@
 ﻿---
 title: "Search text in a Word document"
+second_title: " online"
+articleTitle: "Search text"
+linktitle: "Search text"
 type: docs
 url: /text/search/
-description: "Search text in a Word document"
+description: "Search text in a Word document programmatically via Cloud API."
 weight: 10
 ---
 

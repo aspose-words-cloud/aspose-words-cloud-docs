@@ -1,8 +1,12 @@
 ﻿---
-title: "Work with DrawingObjects"
+title: "Working with DrawingObjects"
+second_title: " online"
+articleTitle: "Working with DrawingObjects"
+linktitle: "DrawingObjects"
 type: docs
 url: /drawing-objects/
-description: "Work with DrawingObjects"
+description: "Insert, edit, delete DrawingObjects programmatically via Cloud API."
 weight: 70
 ---
 
+{{<list-children-pages>}}

@@ -1,8 +1,11 @@
 ﻿---
 title: "Get the page settings of a Section in a Word document"
+second_title: " online"
+articleTitle: "Get the page settings of a Section"
+linktitle: "Get the page settings of a Section"
 type: docs
 url: /sections/read/
-description: "Get the page settings of a Section in a Word document"
+description: "Get the page settings of a Section in a Word document programmatically via Cloud API."
 weight: 30
 ---
 

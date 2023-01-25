@@ -1,12 +1,15 @@
 ﻿---
 title: "Get all footnotes from a Word document"
+second_title: " online"
+articleTitle: "Get all footnotes"
+linktitle: "Get all footnotes"
 type: docs
 url: /footnotes/get-all/
-description: "Get all footnotes from a Word document"
+description: "Get all footnotes from a Word document programmatically via Cloud API."
 weight: 30
 ---
 
-Returns all footnotes from a Word document.
+This REST API returns all footnotes from a Word document.
 
 ## Get all footnotes from a Word document REST API
 

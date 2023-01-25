@@ -1,8 +1,11 @@
 ﻿---
 title: "Delete watermark from a Word document"
+second_title: " online"
+articleTitle: "Delete watermark"
+linktitle: "Delete watermark"
 type: docs
 url: /watermark/delete/
-description: "Delete watermark from a Word document"
+description: "Delete watermark from a Word document programmatically via Cloud API."
 weight: 10
 ---
 

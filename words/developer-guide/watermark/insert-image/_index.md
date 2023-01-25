@@ -1,8 +1,11 @@
 ﻿---
 title: "Insert watermark image into a Word document"
+second_title: " online"
+articleTitle: "Insert watermark image"
+linktitle: "Insert watermark image"
 type: docs
 url: /watermark/insert-image/
-description: "Insert watermark image into a Word document"
+description: "Insert watermark image into a Word document programmatically via Cloud API."
 weight: 20
 ---
 

@@ -1,8 +1,11 @@
 ﻿---
 title: "Delete all HeaderFooter objects from a Word document"
+second_title: " online"
+articleTitle: "Delete all HeaderFooter objects"
+linktitle: "Delete all HeaderFooter objects"
 type: docs
 url: /headers-and-footers/delete-all/
-description: "Delete all HeaderFooter objects from a Word document"
+description: "Delete all HeaderFooter objects from a Word document programmatically via Cloud API."
 weight: 30
 ---
 

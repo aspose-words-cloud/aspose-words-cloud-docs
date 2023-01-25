@@ -1,8 +1,11 @@
 ﻿---
 title: "Get a Header/Footer of a Section"
+second_title: " online"
+articleTitle: "Get a Header/Footer of a Section"
+linktitle: "Get a Header/Footer of a Section"
 type: docs
 url: /headers-and-footers/get-of-section/
-description: "Get a Header/Footer of a Section"
+description: "Get a Header/Footer of a Section programmatically via Cloud API."
 weight: 41
 ---
 

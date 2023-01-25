@@ -1,12 +1,15 @@
 ﻿---
 title: "Update a FormField in a Word document"
+second_title: " online"
+articleTitle: "Update a FormField"
+linktitle: "Update a FormField"
 type: docs
 url: /formfields/update/
-description: "Update a FormField in a Word document"
+description: "Update a FormField in a Word document programmatically via Cloud API."
 weight: 50
 ---
 
-Updates a `FormField` in a Word document.
+This REST API updates a `FormField` in a Word document.
 
 ## Update a FormField in a Word document REST API
 

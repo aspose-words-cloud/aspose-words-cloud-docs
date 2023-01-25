@@ -1,8 +1,11 @@
 ﻿---
 title: "Get a section in a Word document"
+second_title: " online"
+articleTitle: "Get a section"
+linktitle: "Get a section"
 type: docs
 url: /sections/get/
-description: "Get a section in a Word document"
+description: "Get a section in a Word document programmatically via Cloud API."
 weight: 20
 ---
 

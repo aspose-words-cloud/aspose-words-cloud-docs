@@ -1,8 +1,11 @@
 ﻿---
 title: "Update the border properties of a table in a Word document"
+second_title: " online"
+articleTitle: "Update the border properties of a table"
+linktitle: "Update the border properties of a table"
 type: docs
 url: /tables/update-border-properties/
-description: "Update the border properties of a table in a Word document"
+description: "Update the border properties of a table in a Word document programmatically via Cloud API."
 weight: 200
 ---
 

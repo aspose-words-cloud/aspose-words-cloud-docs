@@ -1,8 +1,11 @@
 ﻿---
 title: "Compare two Word documents"
+second_title: " online"
+articleTitle: "Compare two Word documents"
+linktitle: "Compare two Word documents"
 type: docs
 url: /compare/
-description: "Compare two Word documents"
+description: "Compare two Word documents programmatically via Cloud API."
 weight: 40
 ---
 

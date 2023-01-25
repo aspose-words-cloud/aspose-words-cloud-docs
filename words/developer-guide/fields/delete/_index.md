@@ -1,8 +1,11 @@
 ﻿---
 title: "Delete a field from a Word document"
+second_title: " online"
+articleTitle: "Delete a field"
+linktitle: "Delete a field"
 type: docs
 url: /fields/delete/
-description: "Delete a field from a Word document"
+description: "Delete a field from a Word document programmatically via Cloud API."
 weight: 20
 ---
 

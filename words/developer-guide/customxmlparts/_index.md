@@ -1,8 +1,11 @@
 ﻿---
-title: "Work with `CustomXmlParts` in a Word document"
+title: "Working with `CustomXmlParts` in a Word document"
+second_title: " online"
+articleTitle: "Working with `CustomXmlParts`"
+linktitle: "`CustomXmlParts`"
 type: docs
 url: /customxmlparts/
-description: "Work with `CustomXmlParts` in a Word document"
+description: "Insert, edit, delete `CustomXmlParts` in a Word document programmatically via Cloud API."
 weight: 40
 ---
 
@@ -12,3 +15,4 @@ Another use of `CustomXMLParts` is to store application-specific data that is no
 CustomXMLParts are also used in the context of document automation, for example in the workflow of a company, to store data for tracking and approval processes, such as the name of the person who reviewed a document, the date it was reviewed, and their comments.
 Aspose.Words REST API allows developers to work with `CustomXmlParts` and includes several related methods:
 
+{{<list-children-pages>}}

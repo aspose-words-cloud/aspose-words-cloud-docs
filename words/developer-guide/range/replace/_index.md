@@ -1,8 +1,11 @@
 ﻿---
 title: "Replace a Range with text in a Word document"
+second_title: " online"
+articleTitle: "Replace a Range with text"
+linktitle: "Replace a Range with text"
 type: docs
 url: /range/replace/
-description: "Replace a Range with text in a Word document"
+description: "Replace a Range with text in a Word document programmatically via Cloud API."
 weight: 40
 ---
 

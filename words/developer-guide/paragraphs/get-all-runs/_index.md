@@ -1,8 +1,11 @@
 ﻿---
 title: "Get all Run objects in a Word document"
+second_title: " online"
+articleTitle: "Get all Run objects"
+linktitle: "Get all Run objects"
 type: docs
 url: /paragraphs/get-all-runs/
-description: "Get all Run objects in a Word document"
+description: "Get all Run objects in a Word document programmatically via Cloud API."
 weight: 50
 ---
 

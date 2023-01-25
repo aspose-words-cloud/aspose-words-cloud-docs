@@ -1,8 +1,11 @@
 ﻿---
 title: "Accept all revisions in a Word document"
+second_title: " online"
+articleTitle: "Accept all revisions"
+linktitle: "Accept all revisions"
 type: docs
 url: /documents/track-changes/accept-all/
-description: "Accept all revisions in a Word document"
+description: "Accept all revisions in a Word document programmatically via Cloud API."
 weight: 10
 ---
 

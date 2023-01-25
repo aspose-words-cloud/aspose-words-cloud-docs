@@ -1,8 +1,11 @@
 ﻿---
 title: "Get all table borders in a Word document"
+second_title: " online"
+articleTitle: "Get all table borders"
+linktitle: "Get all table borders"
 type: docs
 url: /tables/get-borders/
-description: "Get all table borders in a Word document"
+description: "Get all table borders in a Word document programmatically via Cloud API."
 weight: 80
 ---
 

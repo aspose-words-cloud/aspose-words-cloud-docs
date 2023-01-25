@@ -1,8 +1,11 @@
 ﻿---
 title: "Render a DrawingObject as an image"
+second_title: " online"
+articleTitle: "Render a DrawingObject as an image"
+linktitle: "Render a DrawingObject as an image"
 type: docs
 url: /documents/render-into-image/drawringobject/
-description: "Render a DrawingObject as an image"
+description: "Render a DrawingObject as an image programmatically via Cloud API."
 weight: 40
 ---
 

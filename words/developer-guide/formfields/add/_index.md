@@ -1,12 +1,15 @@
 ﻿---
 title: "Insert a FormField into a Word document"
+second_title: " online"
+articleTitle: "Insert a FormField"
+linktitle: "Insert a FormField"
 type: docs
 url: /formfields/add/
-description: "Insert a FormField into a Word document"
+description: "Insert a FormField into a Word document programmatically via Cloud API."
 weight: 10
 ---
 
-Inserts a `FormField` into a Word document.
+This REST API inserts a `FormField` into a Word document.
 
 ## Insert a FormField into a Word document REST API
 

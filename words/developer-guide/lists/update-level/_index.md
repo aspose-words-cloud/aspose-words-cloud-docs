@@ -1,8 +1,11 @@
 ﻿---
 title: "Update a list's level in a Word document"
+second_title: " online"
+articleTitle: "Update a list's level"
+linktitle: "Update a list's level"
 type: docs
 url: /lists/update-level/
-description: "Update a list's level in a Word document"
+description: "Update a list's level in a Word document programmatically via Cloud API."
 weight: 50
 ---
 

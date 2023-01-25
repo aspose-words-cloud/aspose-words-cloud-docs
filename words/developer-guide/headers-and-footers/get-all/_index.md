@@ -1,8 +1,11 @@
 ﻿---
 title: "Get all headers/footers in a Word document"
+second_title: " online"
+articleTitle: "Get all headers/footers"
+linktitle: "Get all headers/footers"
 type: docs
 url: /headers-and-footers/get-all/
-description: "Get all headers/footers in a Word document"
+description: "Get all headers/footers in a Word document programmatically via Cloud API."
 weight: 50
 ---
 

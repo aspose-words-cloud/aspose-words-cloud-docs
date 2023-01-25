@@ -1,12 +1,15 @@
 ﻿---
 title: "Get all fonts in a Word document"
+second_title: " online"
+articleTitle: "Get all fonts"
+linktitle: "Get all fonts"
 type: docs
 url: /fonts/gets-the-list-of-fonts/
-description: "Get all fonts in a Word document"
+description: "Get all fonts in a Word document programmatically via Cloud API."
 weight: 10
 ---
 
-Returns all fonts in a Word document.
+This REST API returns all fonts in a Word document.
 
 ## Get all fonts in a Word document REST API
 

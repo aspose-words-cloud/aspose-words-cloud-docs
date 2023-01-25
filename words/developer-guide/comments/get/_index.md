@@ -1,8 +1,11 @@
 ﻿---
 title: "Get a comment in a Word document"
+second_title: " online"
+articleTitle: "Get a comment"
+linktitle: "Get a comment"
 type: docs
 url: /comments/get/
-description: "Get a comment in a Word document"
+description: "Get a comment in a Word document programmatically via Cloud API."
 weight: 30
 ---
 

@@ -1,8 +1,11 @@
 ﻿---
 title: "Get a table cell in a Word document"
+second_title: " online"
+articleTitle: "Get a table cell"
+linktitle: "Get a table cell"
 type: docs
 url: /tables/get-cell/
-description: "Get a table cell in a Word document"
+description: "Get a table cell in a Word document programmatically via Cloud API."
 weight: 110
 ---
 

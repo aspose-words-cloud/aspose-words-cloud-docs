@@ -1,8 +1,11 @@
 ﻿---
 title: "Update the formatting properties of a table row in a Word document"
+second_title: " online"
+articleTitle: "Update the formatting properties of a table row"
+linktitle: "Update the formatting properties of a table row"
 type: docs
 url: /tables/update-row-format/
-description: "Update the formatting properties of a table row in a Word document"
+description: "Update the formatting properties of a table row in a Word document programmatically via Cloud API."
 weight: 190
 ---
 

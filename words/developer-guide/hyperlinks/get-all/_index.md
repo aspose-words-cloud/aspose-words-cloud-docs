@@ -1,8 +1,11 @@
 ﻿---
 title: "Get all hyperlinks in a Word document"
+second_title: " online"
+articleTitle: "Get all hyperlinks"
+linktitle: "Get all hyperlinks"
 type: docs
 url: /hyperlinks/get-all/
-description: "Get all hyperlinks in a Word document"
+description: "Get all hyperlinks in a Word document programmatically via Cloud API."
 weight: 20
 ---
 

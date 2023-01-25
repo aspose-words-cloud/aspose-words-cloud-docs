@@ -1,12 +1,15 @@
 ﻿---
 title: "Delete a file in Cloud Storage"
+second_title: " online"
+articleTitle: "Delete a file in Cloud Storage"
+linktitle: "Delete a file in Cloud Storage"
 type: docs
 url: /files-and-storage/delete-file/
-description: "Delete a file in Cloud Storage"
+description: "Delete a file in Cloud Storage programmatically via Cloud API."
 weight: 40
 ---
 
-Deletes a file in Cloud Storage.
+This REST API deletes a file in Cloud Storage.
 
 ## Delete a file in Cloud Storage REST API
 

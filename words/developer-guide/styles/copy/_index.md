@@ -1,8 +1,11 @@
 ﻿---
 title: "Copy the style of the specified Word document element"
+second_title: " online"
+articleTitle: "Copy the style of the specified Word document element"
+linktitle: "Copy the style of the specified Word document element"
 type: docs
 url: /styles/copy/
-description: "Copy the style of the specified Word document element"
+description: "Copy the style of the specified Word document element programmatically via Cloud API."
 weight: 20
 ---
 

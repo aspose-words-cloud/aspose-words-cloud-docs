@@ -1,12 +1,15 @@
 ﻿---
 title: "Create a folder in Cloud Storage"
+second_title: " online"
+articleTitle: "Create a folder in Cloud Storage"
+linktitle: "Create a folder in Cloud Storage"
 type: docs
 url: /files-and-storage/create-folder/
-description: "Create a folder in Cloud Storage"
+description: "Create a folder in Cloud Storage programmatically via Cloud API."
 weight: 30
 ---
 
-Creates a folder in Cloud Storage.
+This REST API creates a folder in Cloud Storage.
 
 ## Create a folder in Cloud Storage REST API
 

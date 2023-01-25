@@ -1,8 +1,11 @@
 ﻿---
 title: "Update the page settings of a Section in a Word document"
+second_title: " online"
+articleTitle: "Update the page settings of a Section"
+linktitle: "Update the page settings of a Section"
 type: docs
 url: /sections/update/
-description: "Update the page settings of a Section in a Word document"
+description: "Update the page settings of a Section in a Word document programmatically via Cloud API."
 weight: 40
 ---
 

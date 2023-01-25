@@ -1,8 +1,11 @@
 ﻿---
 title: "Get a List in a Word document"
+second_title: " online"
+articleTitle: "Get a List"
+linktitle: "Get a List"
 type: docs
 url: /lists/get/
-description: "Get a List in a Word document"
+description: "Get a List in a Word document programmatically via Cloud API."
 weight: 10
 ---
 

@@ -1,8 +1,11 @@
 ﻿---
 title: "Get the Range text in a Word document"
+second_title: " online"
+articleTitle: "Get the Range text"
+linktitle: "Get the Range text"
 type: docs
 url: /range/get/
-description: "Get the Range text in a Word document"
+description: "Get the Range text in a Word document programmatically via Cloud API."
 weight: 10
 ---
 

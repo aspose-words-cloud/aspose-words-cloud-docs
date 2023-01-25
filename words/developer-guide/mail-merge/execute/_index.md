@@ -1,8 +1,11 @@
 ﻿---
 title: "Execute Mail Merge online"
+second_title: " online"
+articleTitle: "Execute Mail Merge online"
+linktitle: "Execute Mail Merge online"
 type: docs
 url: /mail-merge/execute/
-description: "Execute Mail Merge online"
+description: "Execute Mail Merge online programmatically via Cloud API."
 weight: 10
 ---
 

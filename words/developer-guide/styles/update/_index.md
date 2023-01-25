@@ -1,8 +1,11 @@
 ﻿---
 title: "Update the style of an element in a Word document"
+second_title: " online"
+articleTitle: "Update the style of an element"
+linktitle: "Update the style of an element"
 type: docs
 url: /styles/update/
-description: "Update the style of an element in a Word document"
+description: "Update the style of an element in a Word document programmatically via Cloud API."
 weight: 60
 ---
 

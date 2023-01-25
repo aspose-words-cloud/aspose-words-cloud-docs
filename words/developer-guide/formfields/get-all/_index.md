@@ -1,12 +1,15 @@
 ﻿---
 title: "Get all FormFields in a Word document"
+second_title: " online"
+articleTitle: "Get all FormFields"
+linktitle: "Get all FormFields"
 type: docs
 url: /formfields/get-all/
-description: "Get all FormFields in a Word document"
+description: "Get all FormFields in a Word document programmatically via Cloud API."
 weight: 20
 ---
 
-Returns all `FormFields` in a Word document.
+This REST API returns all `FormFields` in a Word document.
 
 ## Get all FormFields in a Word document REST API
 

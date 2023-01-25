@@ -1,12 +1,15 @@
 ﻿---
 title: "Insert a footnote into a Word document"
+second_title: " online"
+articleTitle: "Insert a footnote"
+linktitle: "Insert a footnote"
 type: docs
 url: /footnotes/add/
-description: "Insert a footnote into a Word document"
+description: "Insert a footnote into a Word document programmatically via Cloud API."
 weight: 10
 ---
 
-Inserts a footnote into a Word document.
+This REST API inserts a footnote into a Word document.
 
 ## Insert a footnote into a Word document REST API
 

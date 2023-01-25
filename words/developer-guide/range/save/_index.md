@@ -1,8 +1,11 @@
 ﻿---
 title: "Save the specified Range as a new document"
+second_title: " online"
+articleTitle: "Save the specified Range as a new document"
+linktitle: "Save the specified Range as a new document"
 type: docs
 url: /range/save/
-description: "Save the specified Range as a new document"
+description: "Save the specified Range as a new document programmatically via Cloud API."
 weight: 20
 ---
 

@@ -1,8 +1,11 @@
 ﻿---
 title: "Get all styles in a Word document"
+second_title: " online"
+articleTitle: "Get all styles"
+linktitle: "Get all styles"
 type: docs
 url: /styles/get-all/
-description: "Get all styles in a Word document"
+description: "Get all styles in a Word document programmatically via Cloud API."
 weight: 40
 ---
 

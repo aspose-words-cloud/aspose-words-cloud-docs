@@ -1,12 +1,15 @@
 ﻿---
 title: "Upload a file to Cloud Storage"
+second_title: " online"
+articleTitle: "Upload a file to Cloud Storage"
+linktitle: "Upload a file to Cloud Storage"
 type: docs
 url: /files-and-storage/upload-file/
-description: "Upload a file to Cloud Storage"
+description: "Upload a file to Cloud Storage programmatically via Cloud API."
 weight: 100
 ---
 
-Uploads a file to Cloud Storage.
+This REST API uploads a file to Cloud Storage.
 
 ## Upload a file to Cloud Storage REST API
 

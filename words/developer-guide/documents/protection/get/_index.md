@@ -1,8 +1,11 @@
 ﻿---
 title: "Get information about Word document protection"
+second_title: " online"
+articleTitle: "Get information about Word document protection"
+linktitle: "Get information about Word document protection"
 type: docs
 url: /documents/protection/get/
-description: "Get information about Word document protection"
+description: "Get information about Word document protection programmatically via Cloud API."
 weight: 10
 ---
 

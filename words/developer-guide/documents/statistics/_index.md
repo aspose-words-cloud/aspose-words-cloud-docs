@@ -1,8 +1,11 @@
 ﻿---
 title: "Get statistics on a Word document"
+second_title: " online"
+articleTitle: "Get statistics on"
+linktitle: "Get statistics on"
 type: docs
 url: /documents/statistics/
-description: "Get statistics on a Word document"
+description: "Get statistics on a Word document programmatically via Cloud API."
 weight: 40
 ---
 

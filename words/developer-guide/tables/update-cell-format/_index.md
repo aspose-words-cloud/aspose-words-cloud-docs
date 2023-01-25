@@ -1,8 +1,11 @@
 ﻿---
 title: "Updates the formatting properties of a table cell in a Word document"
+second_title: " online"
+articleTitle: "Updates the formatting properties of a table cell"
+linktitle: "Updates the formatting properties of a table cell"
 type: docs
 url: /tables/update-cell-format/
-description: "Updates the formatting properties of a table cell in a Word document"
+description: "Updates the formatting properties of a table cell in a Word document programmatically via Cloud API."
 weight: 180
 ---
 

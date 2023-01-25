@@ -1,8 +1,11 @@
 ﻿---
 title: "Link headers/footers of a section to the previous one"
+second_title: " online"
+articleTitle: "Link headers/footers of a section to the previous one"
+linktitle: "Link headers/footers of a section to the previous one"
 type: docs
 url: /headers-and-footers/link/
-description: "Link headers/footers of a section to the previous one"
+description: "Link headers/footers of a section to the previous one programmatically via Cloud API."
 weight: 80
 ---
 

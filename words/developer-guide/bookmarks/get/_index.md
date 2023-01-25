@@ -1,14 +1,17 @@
 ﻿---
-title: "Get all bookmarks in a Word Document"
+title: "Get all bookmarks in a Word document"
+second_title: " online"
+articleTitle: "Get all bookmarks"
+linktitle: "Get all bookmarks"
 type: docs
 url: /bookmarks/get/
-description: "Get all bookmarks in a Word Document"
+description: "Get all bookmarks in a Word document programmatically via Cloud API."
 weight: 10
 ---
 
 This REST API returns all bookmarks in a Word document. It takes the document file as an input and returns an array of bookmark objects, each containing the bookmark name and location in the document.
 
-## Get all bookmarks in a Word Document REST API
+## Get all bookmarks in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
@@ -34,11 +37,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Get all bookmarks in a Word Document usage examples
+## Get all bookmarks in a Word document usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to get all bookmarks in a Word Document with cURL or Postman
+### How to get all bookmarks in a Word document with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -60,7 +63,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to get all bookmarks in a Word Document in Python, Java, C#, C++, JavaScript and other programming languages
+### How to get all bookmarks in a Word document in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

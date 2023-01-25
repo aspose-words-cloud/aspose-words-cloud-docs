@@ -1,8 +1,11 @@
 ﻿---
 title: "Insert a style for an element in a Word document"
+second_title: " online"
+articleTitle: "Insert a style for an element"
+linktitle: "Insert a style for an element"
 type: docs
 url: /styles/insert/
-description: "Insert a style for an element in a Word document"
+description: "Insert a style for an element in a Word document programmatically via Cloud API."
 weight: 50
 ---
 

@@ -1,8 +1,11 @@
 ﻿---
 title: "Delete a table from a Word document"
+second_title: " online"
+articleTitle: "Delete a table"
+linktitle: "Delete a table"
 type: docs
 url: /tables/delete/
-description: "Delete a table from a Word document"
+description: "Delete a table from a Word document programmatically via Cloud API."
 weight: 50
 ---
 

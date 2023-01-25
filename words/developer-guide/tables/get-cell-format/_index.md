@@ -1,8 +1,11 @@
 ﻿---
 title: "Get the formatting properties of a table cell in a Word document"
+second_title: " online"
+articleTitle: "Get the formatting properties of a table cell"
+linktitle: "Get the formatting properties of a table cell"
 type: docs
 url: /tables/get-cell-format/
-description: "Get the formatting properties of a table cell in a Word document"
+description: "Get the formatting properties of a table cell in a Word document programmatically via Cloud API."
 weight: 120
 ---
 

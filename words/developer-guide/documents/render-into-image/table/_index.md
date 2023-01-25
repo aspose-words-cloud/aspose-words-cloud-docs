@@ -1,8 +1,11 @@
 ﻿---
 title: "Render a table as an image"
+second_title: " online"
+articleTitle: "Render a table as an image"
+linktitle: "Render a table as an image"
 type: docs
 url: /documents/render-into-image/table/
-description: "Render a table as an image"
+description: "Render a table as an image programmatically via Cloud API."
 weight: 30
 ---
 

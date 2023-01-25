@@ -1,8 +1,11 @@
 ﻿---
 title: "Insert a bookmark into a Word document"
+second_title: " online"
+articleTitle: "Insert a bookmark"
+linktitle: "Insert a bookmark"
 type: docs
 url: /bookmarks/insert/
-description: "Insert a bookmark into a Word document"
+description: "Insert a bookmark into a Word document programmatically via Cloud API."
 weight: 31
 ---
 

@@ -1,8 +1,11 @@
 ﻿---
 title: "Update a field in a Word document"
+second_title: " online"
+articleTitle: "Update a field"
+linktitle: "Update a field"
 type: docs
 url: /fields/update-field-properties/
-description: "Update a field in a Word document"
+description: "Update a field in a Word document programmatically via Cloud API."
 weight: 70
 ---
 

@@ -1,8 +1,11 @@
 ﻿---
 title: "Get a table border in a Word document"
+second_title: " online"
+articleTitle: "Get a table border"
+linktitle: "Get a table border"
 type: docs
 url: /tables/get-border/
-description: "Get a table border in a Word document"
+description: "Get a table border in a Word document programmatically via Cloud API."
 weight: 70
 ---
 

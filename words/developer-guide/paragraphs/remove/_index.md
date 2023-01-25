@@ -1,8 +1,11 @@
 ﻿---
 title: "Delete a paragraph from a Word document"
+second_title: " online"
+articleTitle: "Delete a paragraph"
+linktitle: "Delete a paragraph"
 type: docs
 url: /paragraphs/remove/
-description: "Delete a paragraph from a Word document"
+description: "Delete a paragraph from a Word document programmatically via Cloud API."
 weight: 90
 ---
 

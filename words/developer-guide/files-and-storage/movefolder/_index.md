@@ -1,12 +1,15 @@
 ﻿---
 title: "Move a folder to a new location in Cloud Storage"
+second_title: " online"
+articleTitle: "Move a folder to a new location in Cloud Storage"
+linktitle: "Move a folder to a new location in Cloud Storage"
 type: docs
 url: /files-and-storage/move-folder/
-description: "Move a folder to a new location in Cloud Storage"
+description: "Move a folder to a new location in Cloud Storage programmatically via Cloud API."
 weight: 90
 ---
 
-Moves a folder to a new location in Cloud Storage.
+This REST API moves a folder to a new location in Cloud Storage.
 
 ## Move a folder to a new location in Cloud Storage REST API
 

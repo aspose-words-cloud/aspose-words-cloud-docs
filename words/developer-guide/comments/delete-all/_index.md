@@ -1,8 +1,11 @@
 ﻿---
 title: "Delete all comments from a Word document"
+second_title: " online"
+articleTitle: "Delete all comments"
+linktitle: "Delete all comments"
 type: docs
 url: /comments/delete-all/
-description: "Delete all comments from a Word document"
+description: "Delete all comments from a Word document programmatically via Cloud API."
 weight: 25
 ---
 

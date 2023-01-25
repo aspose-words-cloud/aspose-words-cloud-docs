@@ -1,8 +1,11 @@
 ﻿---
 title: "Insert a Run object into a paragraph in a Word document"
+second_title: " online"
+articleTitle: "Insert a Run object into a paragraph"
+linktitle: "Insert a Run object into a paragraph"
 type: docs
 url: /paragraphs/add-run/
-description: "Insert a Run object into a paragraph in a Word document"
+description: "Insert a Run object into a paragraph in a Word document programmatically via Cloud API."
 weight: 20
 ---
 

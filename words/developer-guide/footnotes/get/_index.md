@@ -1,12 +1,15 @@
 ﻿---
 title: "Get a footnote from a Word document"
+second_title: " online"
+articleTitle: "Get a footnote"
+linktitle: "Get a footnote"
 type: docs
 url: /footnotes/get/
-description: "Get a footnote from a Word document"
+description: "Get a footnote from a Word document programmatically via Cloud API."
 weight: 20
 ---
 
-Returns a footnote from a Word document.
+This REST API returns a footnote from a Word document.
 
 ## Get a footnote from a Word document REST API
 

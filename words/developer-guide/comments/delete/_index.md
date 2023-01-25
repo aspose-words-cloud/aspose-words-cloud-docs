@@ -1,8 +1,11 @@
 ﻿---
 title: "Delete a comment from a Word document"
+second_title: " online"
+articleTitle: "Delete a comment"
+linktitle: "Delete a comment"
 type: docs
 url: /comments/delete/
-description: "Delete a comment from a Word document"
+description: "Delete a comment from a Word document programmatically via Cloud API."
 weight: 20
 ---
 

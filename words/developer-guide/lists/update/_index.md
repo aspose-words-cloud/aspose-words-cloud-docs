@@ -1,8 +1,11 @@
 ﻿---
 title: "Update a List in a Word document"
+second_title: " online"
+articleTitle: "Update a List"
+linktitle: "Update a List"
 type: docs
 url: /lists/update/
-description: "Update a List in a Word document"
+description: "Update a List in a Word document programmatically via Cloud API."
 weight: 40
 ---
 

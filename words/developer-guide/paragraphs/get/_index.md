@@ -1,8 +1,11 @@
 ﻿---
 title: "Get a paragraph in a Word document"
+second_title: " online"
+articleTitle: "Get a paragraph"
+linktitle: "Get a paragraph"
 type: docs
 url: /paragraphs/get/
-description: "Get a paragraph in a Word document"
+description: "Get a paragraph in a Word document programmatically via Cloud API."
 weight: 30
 ---
 

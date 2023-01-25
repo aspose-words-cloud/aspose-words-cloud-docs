@@ -1,8 +1,11 @@
 ﻿---
 title: "Get all comments in a Word document"
+second_title: " online"
+articleTitle: "Get all comments"
+linktitle: "Get all comments"
 type: docs
 url: /comments/get-all/
-description: "Get all comments in a Word document"
+description: "Get all comments in a Word document programmatically via Cloud API."
 weight: 40
 ---
 

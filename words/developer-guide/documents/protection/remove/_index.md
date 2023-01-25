@@ -1,8 +1,11 @@
 ﻿---
 title: "Remove protection from a Word document"
+second_title: " online"
+articleTitle: "Remove protection"
+linktitle: "Remove protection"
 type: docs
 url: /documents/protection/remove/
-description: "Remove protection from a Word document"
+description: "Remove protection from a Word document programmatically via Cloud API."
 weight: 30
 ---
 

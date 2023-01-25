@@ -1,8 +1,11 @@
 ﻿---
 title: "Update a `DrawingObject` in a Word document"
+second_title: " online"
+articleTitle: "Update a `DrawingObject`"
+linktitle: "Update a `DrawingObject`"
 type: docs
 url: /drawing-objects/update/
-description: "Update a `DrawingObject` in a Word document"
+description: "Update a `DrawingObject` in a Word document programmatically via Cloud API."
 weight: 70
 ---
 

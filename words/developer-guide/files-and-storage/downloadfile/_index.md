@@ -1,12 +1,15 @@
 ﻿---
 title: "Download a file from Cloud Storage"
+second_title: " online"
+articleTitle: "Download a file from Cloud Storage"
+linktitle: "Download a file from Cloud Storage"
 type: docs
 url: /files-and-storage/download-file/
-description: "Download a file from Cloud Storage"
+description: "Download a file from Cloud Storage programmatically via Cloud API."
 weight: 60
 ---
 
-Downloads a file from Cloud Storage.
+This REST API downloads a file from Cloud Storage.
 
 ## Download a file from Cloud Storage REST API
 

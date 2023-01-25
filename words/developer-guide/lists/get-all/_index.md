@@ -1,8 +1,11 @@
 ﻿---
 title: "Get all Lists in a Word document"
+second_title: " online"
+articleTitle: "Get all Lists"
+linktitle: "Get all Lists"
 type: docs
 url: /lists/get-all/
-description: "Get all Lists in a Word document"
+description: "Get all Lists in a Word document programmatically via Cloud API."
 weight: 20
 ---
 

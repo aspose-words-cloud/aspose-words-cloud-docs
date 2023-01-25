@@ -1,8 +1,11 @@
 ﻿---
 title: "Get a style in a Word document"
+second_title: " online"
+articleTitle: "Get a style"
+linktitle: "Get a style"
 type: docs
 url: /styles/read/
-description: "Get a style in a Word document"
+description: "Get a style in a Word document programmatically via Cloud API."
 weight: 30
 ---
 

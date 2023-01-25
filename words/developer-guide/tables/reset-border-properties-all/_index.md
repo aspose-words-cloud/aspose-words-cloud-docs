@@ -1,8 +1,11 @@
 ﻿---
 title: "Reset all border properties of a table in a Word document"
+second_title: " online"
+articleTitle: "Reset all border properties of a table"
+linktitle: "Reset all border properties of a table"
 type: docs
 url: /tables/reset-border-properties-all/
-description: "Reset all border properties of a table in a Word document"
+description: "Reset all border properties of a table in a Word document programmatically via Cloud API."
 weight: 170
 ---
 

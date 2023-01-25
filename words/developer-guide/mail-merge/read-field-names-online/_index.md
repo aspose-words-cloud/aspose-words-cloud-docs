@@ -1,8 +1,11 @@
 ﻿---
 title: "Get all field names in a Word document"
+second_title: " online"
+articleTitle: "Get all field names"
+linktitle: "Get all field names"
 type: docs
 url: /mail-merge/read-field-names-online/
-description: "Get all field names in a Word document"
+description: "Get all field names in a Word document programmatically via Cloud API."
 weight: 60
 ---
 

@@ -1,12 +1,15 @@
 ﻿---
 title: "Clear the font cache in a Word document"
+second_title: " online"
+articleTitle: "Clear the font cache"
+linktitle: "Clear the font cache"
 type: docs
 url: /fonts/reset-fonts-cache/
-description: "Clear the font cache in a Word document"
+description: "Clear the font cache in a Word document programmatically via Cloud API."
 weight: 20
 ---
 
-Clears the font cache in a Word document.
+This REST API clears the font cache in a Word document.
 
 ## Clear the font cache in a Word document REST API
 

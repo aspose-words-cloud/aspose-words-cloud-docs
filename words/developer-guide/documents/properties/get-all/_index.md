@@ -1,8 +1,11 @@
 ﻿---
 title: "Get all properties in a Word document"
+second_title: " online"
+articleTitle: "Get all properties"
+linktitle: "Get all properties"
 type: docs
 url: /documents/properties/get-all/
-description: "Get all properties in a Word document"
+description: "Get all properties in a Word document programmatically via Cloud API."
 weight: 40
 ---
 

@@ -1,8 +1,11 @@
 ﻿---
 title: "Update a CustomXmlPart in a Word document"
+second_title: " online"
+articleTitle: "Update a CustomXmlPart"
+linktitle: "Update a CustomXmlPart"
 type: docs
 url: /customxmlparts/update/
-description: "Update a CustomXmlPart in a Word document"
+description: "Update a CustomXmlPart in a Word document programmatically via Cloud API."
 weight: 40
 ---
 

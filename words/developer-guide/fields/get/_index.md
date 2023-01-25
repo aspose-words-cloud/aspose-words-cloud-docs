@@ -1,8 +1,11 @@
 ﻿---
 title: "Get a field in a Word document"
+second_title: " online"
+articleTitle: "Get a field"
+linktitle: "Get a field"
 type: docs
 url: /fields/get/
-description: "Get a field in a Word document"
+description: "Get a field in a Word document programmatically via Cloud API."
 weight: 30
 ---
 

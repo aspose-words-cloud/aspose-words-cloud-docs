@@ -1,8 +1,11 @@
 ﻿---
 title: "Get a table in a Word document"
+second_title: " online"
+articleTitle: "Get a table"
+linktitle: "Get a table"
 type: docs
 url: /tables/get/
-description: "Get a table in a Word document"
+description: "Get a table in a Word document programmatically via Cloud API."
 weight: 100
 ---
 

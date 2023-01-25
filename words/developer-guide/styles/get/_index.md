@@ -1,8 +1,11 @@
 ﻿---
 title: "Get the style of the document element"
+second_title: " online"
+articleTitle: "Get the style of the document element"
+linktitle: "Get the style of the document element"
 type: docs
 url: /styles/get/
-description: "Get the style of the document element"
+description: "Get the style of the document element programmatically via Cloud API."
 weight: 30
 ---
 

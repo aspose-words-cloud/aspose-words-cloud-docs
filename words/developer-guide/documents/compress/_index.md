@@ -1,8 +1,11 @@
 ﻿---
 title: "Compress a Word document"
+second_title: " online"
+articleTitle: "Compress"
+linktitle: "Compress"
 type: docs
 url: /documents/compress/
-description: "Compress a Word document"
+description: "Compress a Word document programmatically via Cloud API."
 weight: 11
 ---
 

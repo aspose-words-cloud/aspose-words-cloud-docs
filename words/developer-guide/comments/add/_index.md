@@ -1,8 +1,11 @@
 ﻿---
 title: "Insert a comment into a Word document"
+second_title: " online"
+articleTitle: "Insert a comment"
+linktitle: "Insert a comment"
 type: docs
 url: /comments/add/
-description: "Insert a comment into a Word document"
+description: "Insert a comment into a Word document programmatically via Cloud API."
 weight: 10
 ---
 

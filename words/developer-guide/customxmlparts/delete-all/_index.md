@@ -1,8 +1,11 @@
 ﻿---
 title: "Delete all CustomXmlParts from a Word document"
+second_title: " online"
+articleTitle: "Delete all CustomXmlParts"
+linktitle: "Delete all CustomXmlParts"
 type: docs
 url: /customxmlparts/delete-all/
-description: "Delete all CustomXmlParts from a Word document"
+description: "Delete all CustomXmlParts from a Word document programmatically via Cloud API."
 weight: 15
 ---
 

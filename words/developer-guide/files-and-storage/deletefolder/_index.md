@@ -1,12 +1,15 @@
 ﻿---
 title: "Delete a folder in Cloud Storage"
+second_title: " online"
+articleTitle: "Delete a folder in Cloud Storage"
+linktitle: "Delete a folder in Cloud Storage"
 type: docs
 url: /files-and-storage/delete-folder/
-description: "Delete a folder in Cloud Storage"
+description: "Delete a folder in Cloud Storage programmatically via Cloud API."
 weight: 50
 ---
 
-Deletes a folder in Cloud Storage.
+This REST API deletes a folder in Cloud Storage.
 
 ## Delete a folder in Cloud Storage REST API
 

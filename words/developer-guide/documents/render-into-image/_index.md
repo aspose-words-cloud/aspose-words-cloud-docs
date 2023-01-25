@@ -1,19 +1,12 @@
----
-title: "Render Complex Parts of a Word Document Into the Image"
-second_title: "Aspose Words Cloud Docs"
+﻿---
+title: "Render parts of a Word document into an image"
+second_title: " online"
+articleTitle: "Render parts of a Word document into an image"
+linktitle: "Render parts of a Word document into an image"
 type: docs
 url: /documents/render-into-image/
-aliases: [/render-complex-parts-of-a-word-document-into-the-image/]
-description: "Render complex parts of a Word document into an image."
+description: "Render parts of a Word document into an image programmatically via Cloud API."
 weight: 70
 ---
 
-This REST API renders complex parts of a document to a specified image format.
-
-The following elements can be rendered:
-
-- page
-- paragraph
-- table
-- drawingObject
-- officeMathObject
+{{<list-children-pages>}}

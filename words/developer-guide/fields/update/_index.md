@@ -1,8 +1,11 @@
 ﻿---
 title: "Update all field values in a Word document"
+second_title: " online"
+articleTitle: "Update all field values"
+linktitle: "Update all field values"
 type: docs
 url: /fields/update/
-description: "Update all field values in a Word document"
+description: "Update all field values in a Word document programmatically via Cloud API."
 weight: 60
 ---
 

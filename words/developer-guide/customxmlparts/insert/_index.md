@@ -1,8 +1,11 @@
 ﻿---
 title: "Insert a CustomXmlPart into a Word document"
+second_title: " online"
+articleTitle: "Insert a CustomXmlPart"
+linktitle: "Insert a CustomXmlPart"
 type: docs
 url: /customxmlparts/insert/
-description: "Insert a CustomXmlPart into a Word document"
+description: "Insert a CustomXmlPart into a Word document programmatically via Cloud API."
 weight: 30
 ---
 

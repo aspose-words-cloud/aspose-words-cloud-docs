@@ -1,8 +1,11 @@
 ﻿---
 title: "Get all OfficeMath objects in a Word document"
+second_title: " online"
+articleTitle: "Get all OfficeMath objects"
+linktitle: "Get all OfficeMath objects"
 type: docs
 url: /math-objects/get-all/
-description: "Get all OfficeMath objects in a Word document"
+description: "Get all OfficeMath objects in a Word document programmatically via Cloud API."
 weight: 20
 ---
 

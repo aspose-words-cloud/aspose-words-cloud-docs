@@ -1,8 +1,11 @@
 ﻿---
 title: "Get font properties of a `Run` object in a Word document"
+second_title: " online"
+articleTitle: "Get font properties of a `Run` object"
+linktitle: "Get font properties of a `Run` object"
 type: docs
 url: /paragraphs/get-font/
-description: "Get font properties of a `Run` object in a Word document"
+description: "Get font properties of a `Run` object in a Word document programmatically via Cloud API."
 weight: 70
 ---
 

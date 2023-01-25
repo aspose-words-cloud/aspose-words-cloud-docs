@@ -1,8 +1,11 @@
 ﻿---
 title: "Get a DrawingObject in a Word document"
+second_title: " online"
+articleTitle: "Get a DrawingObject"
+linktitle: "Get a DrawingObject"
 type: docs
 url: /drawing-objects/get/
-description: "Get a DrawingObject in a Word document"
+description: "Get a DrawingObject in a Word document programmatically via Cloud API."
 weight: 30
 ---
 

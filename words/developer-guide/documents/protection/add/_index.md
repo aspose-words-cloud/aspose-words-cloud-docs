@@ -1,8 +1,11 @@
 ﻿---
 title: "Add protection to a Word document"
+second_title: " online"
+articleTitle: "Add protection"
+linktitle: "Add protection"
 type: docs
 url: /documents/protection/add/
-description: "Add protection to a Word document"
+description: "Add protection to a Word document programmatically via Cloud API."
 weight: 20
 ---
 

@@ -1,8 +1,11 @@
 ﻿---
 title: "Insert a table a Word document"
+second_title: " online"
+articleTitle: "Insert a table"
+linktitle: "Insert a table"
 type: docs
 url: /tables/add/
-description: "Insert a table a Word document"
+description: "Insert a table a Word document programmatically via Cloud API."
 weight: 30
 ---
 

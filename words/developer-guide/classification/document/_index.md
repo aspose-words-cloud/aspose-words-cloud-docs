@@ -1,8 +1,11 @@
 ﻿---
 title: "Classify a Word document"
+second_title: " online"
+articleTitle: "Classify"
+linktitle: "Classify"
 type: docs
 url: /classification/document/
-description: "Classify a Word document"
+description: "Classify a Word document programmatically via Cloud API."
 weight: 10
 ---
 

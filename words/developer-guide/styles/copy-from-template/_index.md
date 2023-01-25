@@ -1,8 +1,11 @@
 ﻿---
 title: "Copy all styles from the source document to the target document"
+second_title: " online"
+articleTitle: "Copy all styles from the source document to the target document"
+linktitle: "Copy all styles from the source document to the target document"
 type: docs
 url: /styles/copy-from-template/
-description: "Copy all styles from the source document to the target document"
+description: "Copy all styles from the source document to the target document programmatically via Cloud API."
 weight: 21
 ---
 

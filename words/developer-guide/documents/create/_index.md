@@ -1,8 +1,11 @@
 ﻿---
 title: "Create a new document"
+second_title: " online"
+articleTitle: "Create a new document"
+linktitle: "Create a new document"
 type: docs
 url: /documents/create/
-description: "Create a new document"
+description: "Create a new document programmatically via Cloud API."
 weight: 10
 ---
 

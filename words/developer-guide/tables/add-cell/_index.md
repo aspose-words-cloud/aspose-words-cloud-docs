@@ -1,8 +1,11 @@
 ﻿---
 title: "Insert a cell into a given row of a table in a Word document"
+second_title: " online"
+articleTitle: "Insert a cell into a given row of a table"
+linktitle: "Insert a cell into a given row of a table"
 type: docs
 url: /tables/add-cell/
-description: "Insert a cell into a given row of a table in a Word document"
+description: "Insert a cell into a given row of a table in a Word document programmatically via Cloud API."
 weight: 20
 ---
 

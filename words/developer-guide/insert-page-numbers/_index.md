@@ -1,8 +1,11 @@
 ﻿---
 title: "Insert page numbers into a Word document"
+second_title: " online"
+articleTitle: "Insert page numbers"
+linktitle: "Insert page numbers"
 type: docs
 url: /insert-page-numbers/
-description: "Insert page numbers into a Word document"
+description: "Insert page numbers into a Word document programmatically via Cloud API."
 weight: 190
 ---
 

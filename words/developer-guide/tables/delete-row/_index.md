@@ -1,8 +1,11 @@
 ﻿---
 title: "Delete a row from a table in a Word document"
+second_title: " online"
+articleTitle: "Delete a row from a table"
+linktitle: "Delete a row from a table"
 type: docs
 url: /tables/delete-row/
-description: "Delete a row from a table in a Word document"
+description: "Delete a row from a table in a Word document programmatically via Cloud API."
 weight: 60
 ---
 

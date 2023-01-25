@@ -1,8 +1,11 @@
 ﻿---
 title: "Delete a Range from a Word document"
+second_title: " online"
+articleTitle: "Delete a Range"
+linktitle: "Delete a Range"
 type: docs
 url: /range/remove/
-description: "Delete a Range from a Word document"
+description: "Delete a Range from a Word document programmatically via Cloud API."
 weight: 30
 ---
 

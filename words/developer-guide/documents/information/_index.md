@@ -1,8 +1,11 @@
 ﻿---
 title: "Get general information about a Word document"
+second_title: " online"
+articleTitle: "Get general information about"
+linktitle: "Get general information about"
 type: docs
 url: /documents/information/
-description: "Get general information about a Word document"
+description: "Get general information about a Word document programmatically via Cloud API."
 weight: 30
 ---
 

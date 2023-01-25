@@ -1,8 +1,11 @@
 ﻿---
 title: "Runs a report generation process"
+second_title: " online"
+articleTitle: "Runs a report generation process"
+linktitle: "Runs a report generation process"
 type: docs
 url: /report/build-online/
-description: "Runs a report generation process"
+description: "Runs a report generation process programmatically via Cloud API."
 weight: 20
 ---
 

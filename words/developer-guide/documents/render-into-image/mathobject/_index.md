@@ -1,8 +1,11 @@
 ﻿---
 title: "Renders an OfficeMath object as an image"
+second_title: " online"
+articleTitle: "Renders an OfficeMath object as an image"
+linktitle: "Renders an OfficeMath object as an image"
 type: docs
 url: /documents/render-into-image/mathobject/
-description: "Renders an OfficeMath object as an image"
+description: "Renders an OfficeMath object as an image programmatically via Cloud API."
 weight: 70
 ---
 

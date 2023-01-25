@@ -1,8 +1,11 @@
 ﻿---
 title: "Insert a DrawingObject into a Word document"
+second_title: " online"
+articleTitle: "Insert a DrawingObject"
+linktitle: "Insert a DrawingObject"
 type: docs
 url: /drawing-objects/add/
-description: "Insert a DrawingObject into a Word document"
+description: "Insert a DrawingObject into a Word document programmatically via Cloud API."
 weight: 10
 ---
 

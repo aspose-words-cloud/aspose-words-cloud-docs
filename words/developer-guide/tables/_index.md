@@ -1,8 +1,12 @@
 ﻿---
-title: "Work with Tables in a Word document"
+title: "Working with Tables in a Word document"
+second_title: " online"
+articleTitle: "Working with Tables"
+linktitle: "Tables"
 type: docs
 url: /tables/
-description: "Work with Tables in a Word document"
+description: "Insert, edit, delete Tables in a Word document programmatically via Cloud API."
 weight: 260
 ---
 
+{{<list-children-pages>}}

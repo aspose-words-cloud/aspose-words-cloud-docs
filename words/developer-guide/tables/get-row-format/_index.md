@@ -1,8 +1,11 @@
 ﻿---
 title: "Get the formatting properties of a table row in a Word document"
+second_title: " online"
+articleTitle: "Get the formatting properties of a table row"
+linktitle: "Get the formatting properties of a table row"
 type: docs
 url: /tables/get-row-format/
-description: "Get the formatting properties of a table row in a Word document"
+description: "Get the formatting properties of a table row in a Word document programmatically via Cloud API."
 weight: 140
 ---
 

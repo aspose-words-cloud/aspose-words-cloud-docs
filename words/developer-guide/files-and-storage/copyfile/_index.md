@@ -1,12 +1,15 @@
 ﻿---
 title: "Copy a file to a new location in Cloud Storage"
+second_title: " online"
+articleTitle: "Copy a file to a new location in Cloud Storage"
+linktitle: "Copy a file to a new location in Cloud Storage"
 type: docs
 url: /files-and-storage/copy-file/
-description: "Copy a file to a new location in Cloud Storage"
+description: "Copy a file to a new location in Cloud Storage programmatically via Cloud API."
 weight: 10
 ---
 
-Copies a file to a new location in Cloud Storage.
+This REST API copies a file to a new location in Cloud Storage.
 
 ## Copy a file to a new location in Cloud Storage REST API
 

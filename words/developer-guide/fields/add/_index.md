@@ -1,8 +1,11 @@
 ﻿---
 title: "Insert a field into a Word document"
+second_title: " online"
+articleTitle: "Insert a field"
+linktitle: "Insert a field"
 type: docs
 url: /fields/add/
-description: "Insert a field into a Word document"
+description: "Insert a field into a Word document programmatically via Cloud API."
 weight: 10
 ---
 
