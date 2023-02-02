@@ -1,6 +1,5 @@
 ﻿---
-title: "Delete an OfficeMath object from a Word document"
-second_title: " online"
+title: "Delete an OfficeMath object from a Word document online"
 articleTitle: "Delete an OfficeMath object"
 linktitle: "Delete an OfficeMath object"
 type: docs
@@ -11,11 +10,12 @@ weight: 30
 
 Deletes an `OfficeMath` object from a Word document.
 
+
 ## Delete an OfficeMath object from a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/delete/{nodePath}/OfficeMathObjects/{index} |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/delete/{nodePath}/OfficeMathObjects/{index}` |
 
 , where:
 

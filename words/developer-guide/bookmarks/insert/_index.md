@@ -1,6 +1,5 @@
 ﻿---
-title: "Insert a bookmark into a Word document"
-second_title: " online"
+title: "Insert a bookmark into a Word document online"
 articleTitle: "Insert a bookmark"
 linktitle: "Insert a bookmark"
 type: docs
@@ -9,13 +8,14 @@ description: "Insert a bookmark into a Word document programmatically via Cloud 
 weight: 31
 ---
 
-This REST API inserts a new bookmark in a Word document. It takes the document file, bookmark name, and the location where the bookmark should be inserted as inputs.
+This REST API inserts a new bookmark in a Word document.
+
 
 ## Insert a bookmark into a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/post/bookmarks |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/post/bookmarks` |
 
 You can use the following parameters in a REST request:
 

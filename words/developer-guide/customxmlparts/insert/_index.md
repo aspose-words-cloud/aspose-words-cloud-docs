@@ -1,6 +1,5 @@
 ﻿---
-title: "Insert a CustomXmlPart into a Word document"
-second_title: " online"
+title: "Insert a CustomXmlPart into a Word document online"
 articleTitle: "Insert a CustomXmlPart"
 linktitle: "Insert a CustomXmlPart"
 type: docs
@@ -11,11 +10,12 @@ weight: 30
 
 Inserts a new `CustomXmlPart` into a Word document.
 
+
 ## Insert a CustomXmlPart into a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/post/customXmlParts |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/post/customXmlParts` |
 
 You can use the following parameters in a REST request:
 

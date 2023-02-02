@@ -1,6 +1,5 @@
 ﻿---
-title: "Copy all styles from the source document to the target document"
-second_title: " online"
+title: "Copy all styles from the source document to the target document online"
 articleTitle: "Copy all styles from the source document to the target document"
 linktitle: "Copy all styles from the source document to the target document"
 type: docs
@@ -11,11 +10,12 @@ weight: 21
 
 Copies all styles from the source document to the target document.
 
+
 ## Copy all styles from the source document to the target document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/{name}/styles/copy_from |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/{name}/styles/copy_from` |
 
 , where:
 

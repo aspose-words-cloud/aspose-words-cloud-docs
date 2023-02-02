@@ -1,6 +1,5 @@
 ﻿---
-title: "Insert a row into a table in a Word document"
-second_title: " online"
+title: "Insert a row into a table in a Word document online"
 articleTitle: "Insert a row into a table"
 linktitle: "Insert a row into a table"
 type: docs
@@ -11,11 +10,12 @@ weight: 10
 
 Inserts a new row into a table in a Word document.
 
+
 ## Insert a row into a table in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/post/{tablePath}/rows |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/post/{tablePath}/rows` |
 
 , where:
 

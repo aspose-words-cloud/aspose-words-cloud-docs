@@ -1,6 +1,5 @@
 ﻿---
-title: "Working with OfficeMath objects in a Word document"
-second_title: " online"
+title: "Working with OfficeMath objects in a Word document online"
 articleTitle: "Working with OfficeMath objects"
 linktitle: "OfficeMath objects"
 type: docs

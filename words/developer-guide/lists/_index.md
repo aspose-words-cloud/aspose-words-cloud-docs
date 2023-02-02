@@ -1,6 +1,5 @@
 ﻿---
-title: "Working with Lists in a Word document"
-second_title: " online"
+title: "Working with Lists in a Word document online"
 articleTitle: "Working with Lists"
 linktitle: "Lists"
 type: docs

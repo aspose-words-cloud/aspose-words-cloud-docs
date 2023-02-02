@@ -1,6 +1,5 @@
 ﻿---
-title: "Get font properties of a `Run` object in a Word document"
-second_title: " online"
+title: "Get font properties of a `Run` object in a Word document online"
 articleTitle: "Get font properties of a `Run` object"
 linktitle: "Get font properties of a `Run` object"
 type: docs
@@ -11,11 +10,12 @@ weight: 70
 
 Returns font properties of a `Run` object in a Word document.
 
+
 ## Get font properties of a `Run` object in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/get/{paragraphPath}/runs/{index}/font |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/get/{paragraphPath}/runs/{index}/font` |
 
 , where:
 

@@ -1,6 +1,5 @@
 ﻿---
-title: "Update a bookmark in a Word document"
-second_title: " online"
+title: "Update a bookmark in a Word document online"
 articleTitle: "Update a bookmark"
 linktitle: "Update a bookmark"
 type: docs
@@ -9,13 +8,14 @@ description: "Update a bookmark in a Word document programmatically via Cloud AP
 weight: 30
 ---
 
-This REST API updates a bookmark by its name in a Word document. It takes the document file, bookmark name, and new bookmark data as inputs.
+This REST API updates a bookmark by its name in a Word document.
+
 
 ## Update a bookmark in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/put/bookmarks/{bookmarkName} |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/put/bookmarks/{bookmarkName}` |
 
 , where:
 

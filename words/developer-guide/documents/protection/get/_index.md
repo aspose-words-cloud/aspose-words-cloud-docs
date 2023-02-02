@@ -1,6 +1,5 @@
 ﻿---
-title: "Get information about Word document protection"
-second_title: " online"
+title: "Get information about Word document protection online"
 articleTitle: "Get information about Word document protection"
 linktitle: "Get information about Word document protection"
 type: docs
@@ -11,11 +10,12 @@ weight: 10
 
 Returns information about Word document protection.
 
+
 ## Get information about Word document protection REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/get/protection |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/get/protection` |
 
 You can use the following parameters in a REST request:
 

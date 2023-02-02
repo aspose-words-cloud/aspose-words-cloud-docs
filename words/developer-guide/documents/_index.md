@@ -1,6 +1,5 @@
 ﻿---
-title: "Working with documents"
-second_title: " online"
+title: "Working with documents online"
 articleTitle: "Working with documents"
 linktitle: "Documents"
 type: docs

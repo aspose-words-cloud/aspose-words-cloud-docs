@@ -1,6 +1,5 @@
 ﻿---
-title: "Classify text"
-second_title: " online"
+title: "Classify text online"
 articleTitle: "Classify text"
 linktitle: "Classify text"
 type: docs
@@ -11,11 +10,12 @@ weight: 20
 
 Runs a multi-class text classification for the specified raw text.
 
+
 ## Classify text REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/classify |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/classify` |
 
 You can use the following parameters in a REST request:
 

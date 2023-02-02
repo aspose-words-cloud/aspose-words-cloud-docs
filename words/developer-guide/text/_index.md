@@ -1,6 +1,5 @@
 ﻿---
-title: "Classify text"
-second_title: " online"
+title: "Classify text online"
 articleTitle: "Classify text"
 linktitle: "Classify text"
 type: docs
@@ -10,5 +9,6 @@ weight: 20
 ---
 
 Runs a multi-class text classification for the specified raw text.
+
 
 {{<list-children-pages>}}

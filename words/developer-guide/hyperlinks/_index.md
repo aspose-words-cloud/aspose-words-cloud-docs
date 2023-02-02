@@ -1,6 +1,5 @@
 ﻿---
-title: "Working with Hyperlinks in a Word document"
-second_title: " online"
+title: "Working with Hyperlinks in a Word document online"
 articleTitle: "Working with Hyperlinks"
 linktitle: "Hyperlinks"
 type: docs

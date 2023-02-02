@@ -1,6 +1,5 @@
 ﻿---
-title: "Track revision changes in a Word document"
-second_title: " online"
+title: "Track revision changes in a Word document online"
 articleTitle: "Track revision changes"
 linktitle: "Track revision changes"
 type: docs

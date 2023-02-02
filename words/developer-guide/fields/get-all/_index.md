@@ -1,6 +1,5 @@
 ﻿---
-title: "Get all fields in a Word document"
-second_title: " online"
+title: "Get all fields in a Word document online"
 articleTitle: "Get all fields"
 linktitle: "Get all fields"
 type: docs
@@ -9,13 +8,14 @@ description: "Get all fields in a Word document programmatically via Cloud API."
 weight: 40
 ---
 
-This REST API returns all fields in a Word document. It takes the document file as an input and returns an array of field objects, each containing the field type, name and properties.
+This REST API returns all fields in a Word document.
+
 
 ## Get all fields in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/get/{nodePath}/fields |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/get/{nodePath}/fields` |
 
 , where:
 

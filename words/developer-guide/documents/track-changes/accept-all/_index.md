@@ -1,6 +1,5 @@
 ﻿---
-title: "Accept all revisions in a Word document"
-second_title: " online"
+title: "Accept all revisions in a Word document online"
 articleTitle: "Accept all revisions"
 linktitle: "Accept all revisions"
 type: docs
@@ -11,11 +10,12 @@ weight: 10
 
 Accepts all revisions in a Word document.
 
+
 ## Accept all revisions in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/put/revisions/acceptAll |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/put/revisions/acceptAll` |
 
 You can use the following parameters in a REST request:
 

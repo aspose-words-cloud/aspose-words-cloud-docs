@@ -1,6 +1,5 @@
 ﻿---
-title: "Add protection to a Word document"
-second_title: " online"
+title: "Add protection to a Word document online"
 articleTitle: "Add protection"
 linktitle: "Add protection"
 type: docs
@@ -11,11 +10,12 @@ weight: 20
 
 Adds protection to a Word document.
 
+
 ## Add protection to a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/put/protection |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/put/protection` |
 
 You can use the following parameters in a REST request:
 

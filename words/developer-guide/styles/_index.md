@@ -1,6 +1,5 @@
 ﻿---
-title: "Working with Styles in a Word document"
-second_title: " online"
+title: "Working with Styles in a Word document online"
 articleTitle: "Working with Styles"
 linktitle: "Styles"
 type: docs

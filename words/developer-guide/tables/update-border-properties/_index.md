@@ -1,6 +1,5 @@
 ﻿---
-title: "Update the border properties of a table in a Word document"
-second_title: " online"
+title: "Update the border properties of a table in a Word document online"
 articleTitle: "Update the border properties of a table"
 linktitle: "Update the border properties of a table"
 type: docs
@@ -11,11 +10,12 @@ weight: 200
 
 Updates the border properties of a table in a Word document.
 
+
 ## Update the border properties of a table in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/put/{nodePath}/borders/{borderType} |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/put/{nodePath}/borders/{borderType}` |
 
 , where:
 

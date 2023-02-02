@@ -1,6 +1,5 @@
 ﻿---
-title: "Update font properties for text in a Word document."
-second_title: " online"
+title: "Update font properties for text in a Word document. online"
 articleTitle: "Update font properties for text in a Word document."
 linktitle: "Update font properties for text in a Word document."
 type: docs
@@ -11,11 +10,12 @@ weight: 120
 
 Updates font properties for text in a Word document.
 
+
 ## Update font properties for text in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/put/{paragraphPath}/runs/{index}/font |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/put/{paragraphPath}/runs/{index}/font` |
 
 , where:
 

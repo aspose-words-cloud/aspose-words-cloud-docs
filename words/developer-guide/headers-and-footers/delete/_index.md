@@ -1,6 +1,5 @@
 ﻿---
-title: "Delete a `HeaderFooter` object from a Word document"
-second_title: " online"
+title: "Delete a `HeaderFooter` object from a Word document online"
 articleTitle: "Delete a `HeaderFooter` object"
 linktitle: "Delete a `HeaderFooter` object"
 type: docs
@@ -11,11 +10,12 @@ weight: 20
 
 Deletes a `HeaderFooter` object from a Word document.
 
+
 ## Delete a `HeaderFooter` object from a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/delete/{sectionPath}/headersfooters/{index} |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/delete/{sectionPath}/headersfooters/{index}` |
 
 , where:
 

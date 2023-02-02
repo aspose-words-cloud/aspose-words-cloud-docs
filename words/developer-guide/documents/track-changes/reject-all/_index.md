@@ -1,6 +1,5 @@
 ﻿---
-title: "Reject all revisions in a Word document"
-second_title: " online"
+title: "Reject all revisions in a Word document online"
 articleTitle: "Reject all revisions"
 linktitle: "Reject all revisions"
 type: docs
@@ -11,11 +10,12 @@ weight: 20
 
 Rejects all revisions in a Word document.
 
+
 ## Reject all revisions in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/put/revisions/rejectAll |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/put/revisions/rejectAll` |
 
 You can use the following parameters in a REST request:
 

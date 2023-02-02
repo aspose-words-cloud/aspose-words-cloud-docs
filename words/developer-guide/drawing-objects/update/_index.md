@@ -1,6 +1,5 @@
 ﻿---
-title: "Update a `DrawingObject` in a Word document"
-second_title: " online"
+title: "Update a `DrawingObject` in a Word document online"
 articleTitle: "Update a `DrawingObject`"
 linktitle: "Update a `DrawingObject`"
 type: docs
@@ -11,11 +10,12 @@ weight: 70
 
 Updates a `DrawingObject` in a Word document.
 
+
 ## Update a `DrawingObject` in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/put/{nodePath}/drawingObjects/{index} |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/put/{nodePath}/drawingObjects/{index}` |
 
 , where:
 

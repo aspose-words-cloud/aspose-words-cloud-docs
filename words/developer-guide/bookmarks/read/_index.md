@@ -1,6 +1,5 @@
 ﻿---
-title: "Get a bookmark in a Word document"
-second_title: " online"
+title: "Get a bookmark in a Word document online"
 articleTitle: "Get a bookmark"
 linktitle: "Get a bookmark"
 type: docs
@@ -9,13 +8,14 @@ description: "Get a bookmark in a Word document programmatically via Cloud API."
 weight: 20
 ---
 
-This REST API returns a bookmark specified by its name. It takes the document file and the bookmark name as inputs and returns a bookmark object containing the bookmark name and location in the document.
+This REST API returns a bookmark specified by its name.
+
 
 ## Get a bookmark in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/get/bookmarks/{bookmarkName} |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/get/bookmarks/{bookmarkName}` |
 
 , where:
 

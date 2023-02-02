@@ -1,6 +1,5 @@
 ﻿---
-title: "Delete a Range from a Word document"
-second_title: " online"
+title: "Delete a Range from a Word document online"
 articleTitle: "Delete a Range"
 linktitle: "Delete a Range"
 type: docs
@@ -11,11 +10,12 @@ weight: 30
 
 Deletes a `Range` object from a Word document.
 
+
 ## Delete a Range from a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/delete/range/{rangeStartIdentifier}/{rangeEndIdentifier} |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/delete/range/{rangeStartIdentifier}/{rangeEndIdentifier}` |
 
 , where:
 

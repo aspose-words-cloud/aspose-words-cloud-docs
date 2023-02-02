@@ -1,6 +1,5 @@
 ﻿---
-title: "Convert a document to the specified format"
-second_title: " online"
+title: "Convert a document to the specified format online"
 articleTitle: "Convert a document to the specified format"
 linktitle: "Convert a document to the specified format"
 type: docs
@@ -11,11 +10,12 @@ weight: 32
 
 Converts a document to the specified format.
 
+
 ## Convert a document to the specified format REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | GET    | /words/{name} |
+| `https://api.aspose.cloud/v4.0`  | GET    | `/words/{name}` |
 
 , where:
 

@@ -1,6 +1,5 @@
 ﻿---
-title: "Insert a comment into a Word document"
-second_title: " online"
+title: "Insert a comment into a Word document online"
 articleTitle: "Insert a comment"
 linktitle: "Insert a comment"
 type: docs
@@ -9,13 +8,14 @@ description: "Insert a comment into a Word document programmatically via Cloud A
 weight: 10
 ---
 
-This REST API inserts a new comment in a Word document. It takes the document file, comment text, and the location where the comment should be inserted as inputs.
+This REST API inserts a new comment in a Word document.
+
 
 ## Insert a comment into a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/post/comments |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/post/comments` |
 
 You can use the following parameters in a REST request:
 

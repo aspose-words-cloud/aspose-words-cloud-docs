@@ -1,6 +1,5 @@
 ﻿---
-title: "Insert a DrawingObject into a Word document"
-second_title: " online"
+title: "Insert a DrawingObject into a Word document online"
 articleTitle: "Insert a DrawingObject"
 linktitle: "Insert a DrawingObject"
 type: docs
@@ -11,11 +10,12 @@ weight: 10
 
 Inserts a `DrawingObject` into a Word document.
 
+
 ## Insert a DrawingObject into a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/post/{nodePath}/drawingObjects |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/post/{nodePath}/drawingObjects` |
 
 , where:
 

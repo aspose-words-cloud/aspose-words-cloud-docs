@@ -1,6 +1,5 @@
 ﻿---
-title: "Get general information about a Word document"
-second_title: " online"
+title: "Get general information about a Word document online"
 articleTitle: "Get general information about"
 linktitle: "Get general information about"
 type: docs
@@ -11,11 +10,12 @@ weight: 30
 
 Get general information about a Word document.
 
+
 ## Get general information about a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | GET    | /words/{documentName} |
+| `https://api.aspose.cloud/v4.0`  | GET    | `/words/{documentName}` |
 
 , where:
 

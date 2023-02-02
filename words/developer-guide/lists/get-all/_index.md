@@ -1,6 +1,5 @@
 ﻿---
-title: "Get all Lists in a Word document"
-second_title: " online"
+title: "Get all Lists in a Word document online"
 articleTitle: "Get all Lists"
 linktitle: "Get all Lists"
 type: docs
@@ -11,11 +10,12 @@ weight: 20
 
 Returns all Lists in a Word document.
 
+
 ## Get all Lists in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/get/lists |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/get/lists` |
 
 You can use the following parameters in a REST request:
 

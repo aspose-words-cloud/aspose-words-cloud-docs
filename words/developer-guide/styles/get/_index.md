@@ -1,6 +1,5 @@
 ﻿---
-title: "Get the style of the document element"
-second_title: " online"
+title: "Get the style of the document element online"
 articleTitle: "Get the style of the document element"
 linktitle: "Get the style of the document element"
 type: docs
@@ -11,11 +10,12 @@ weight: 30
 
 Returns the style of the specified document element.
 
+
 ## Get the style of the document element REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/get/{styledNodePath}/style |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/get/{styledNodePath}/style` |
 
 , where:
 

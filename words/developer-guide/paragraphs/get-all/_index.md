@@ -1,6 +1,5 @@
 ﻿---
-title: "Get all paragraphs in a Word document"
-second_title: " online"
+title: "Get all paragraphs in a Word document online"
 articleTitle: "Get all paragraphs"
 linktitle: "Get all paragraphs"
 type: docs
@@ -11,11 +10,12 @@ weight: 40
 
 Returns all paragraphs in a Word document.
 
+
 ## Get all paragraphs in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/get/{nodePath}/paragraphs |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/get/{nodePath}/paragraphs` |
 
 , where:
 

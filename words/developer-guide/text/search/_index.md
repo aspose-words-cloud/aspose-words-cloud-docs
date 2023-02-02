@@ -1,6 +1,5 @@
 ﻿---
-title: "Search text in a Word document"
-second_title: " online"
+title: "Search text in a Word document online"
 articleTitle: "Search text"
 linktitle: "Search text"
 type: docs
@@ -11,11 +10,12 @@ weight: 10
 
 Searches text, specified by the regular expression, in a Word document.
 
+
 ## Search text in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/get/search |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/get/search` |
 
 You can use the following parameters in a REST request:
 

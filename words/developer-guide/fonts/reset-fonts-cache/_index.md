@@ -1,6 +1,5 @@
 ﻿---
-title: "Clear the font cache in a Word document"
-second_title: " online"
+title: "Clear the font cache in a Word document online"
 articleTitle: "Clear the font cache"
 linktitle: "Clear the font cache"
 type: docs
@@ -11,11 +10,12 @@ weight: 20
 
 This REST API clears the font cache in a Word document.
 
+
 ## Clear the font cache in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | DELETE | /words/fonts/cache |
+| `https://api.aspose.cloud/v4.0`  | DELETE | `/words/fonts/cache` |
 
 {{% alert style="info" %}}
 **Note**: to access this REST API, you need to register and get personal credentials. Use the '[Quick Start](/words/getting-started/quickstart/)' guide to go through the procedure in a couple of minutes.

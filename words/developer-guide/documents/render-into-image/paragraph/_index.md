@@ -1,6 +1,5 @@
 ﻿---
-title: "Render a paragraph as an image"
-second_title: " online"
+title: "Render a paragraph as an image online"
 articleTitle: "Render a paragraph as an image"
 linktitle: "Render a paragraph as an image"
 type: docs
@@ -11,11 +10,12 @@ weight: 20
 
 Renders a paragraph as an image.
 
+
 ## Render a paragraph as an image REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/get/{nodePath}/paragraphs/{index}/render |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/get/{nodePath}/paragraphs/{index}/render` |
 
 , where:
 

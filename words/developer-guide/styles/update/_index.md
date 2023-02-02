@@ -1,6 +1,5 @@
 ﻿---
-title: "Update the style of an element in a Word document"
-second_title: " online"
+title: "Update the style of an element in a Word document online"
 articleTitle: "Update the style of an element"
 linktitle: "Update the style of an element"
 type: docs
@@ -11,11 +10,12 @@ weight: 60
 
 Updates the style of an element in a Word document.
 
+
 ## Update the style of an element in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/put/styles/{styleName}/update |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/put/styles/{styleName}/update` |
 
 , where:
 

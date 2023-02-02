@@ -1,6 +1,5 @@
 ﻿---
-title: "Working with Paragraphs in a Word document"
-second_title: " online"
+title: "Working with Paragraphs in a Word document online"
 articleTitle: "Working with Paragraphs"
 linktitle: "Paragraphs"
 type: docs

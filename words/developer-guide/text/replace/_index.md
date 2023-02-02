@@ -1,6 +1,5 @@
 ﻿---
-title: "Replace text in a Word document"
-second_title: " online"
+title: "Replace text in a Word document online"
 articleTitle: "Replace text"
 linktitle: "Replace text"
 type: docs
@@ -11,11 +10,12 @@ weight: 20
 
 Replaces text in a Word document.
 
+
 ## Replace text in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/put/replaceText |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/put/replaceText` |
 
 You can use the following parameters in a REST request:
 

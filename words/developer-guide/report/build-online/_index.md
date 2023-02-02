@@ -1,6 +1,5 @@
 ﻿---
-title: "Runs a report generation process"
-second_title: " online"
+title: "Runs a report generation process online"
 articleTitle: "Runs a report generation process"
 linktitle: "Runs a report generation process"
 type: docs
@@ -11,11 +10,12 @@ weight: 20
 
 Runs a report generation process using the specified document template and an external data source in XML, JSON, or CSV format.
 
+
 ## Runs a report generation process REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/buildReport |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/buildReport` |
 
 You can use the following parameters in a REST request:
 

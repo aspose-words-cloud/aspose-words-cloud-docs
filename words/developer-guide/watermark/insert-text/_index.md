@@ -1,6 +1,5 @@
 ﻿---
-title: "Insert watermark text into a Word document"
-second_title: " online"
+title: "Insert watermark text into a Word document online"
 articleTitle: "Insert watermark text"
 linktitle: "Insert watermark text"
 type: docs
@@ -11,11 +10,12 @@ weight: 30
 
 Inserts watermark text into a Word document.
 
+
 ## Insert watermark text into a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/post/watermarks/texts |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/post/watermarks/texts` |
 
 You can use the following parameters in a REST request:
 

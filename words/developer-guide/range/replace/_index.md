@@ -1,6 +1,5 @@
 ﻿---
-title: "Replace a Range with text in a Word document"
-second_title: " online"
+title: "Replace a Range with text in a Word document online"
 articleTitle: "Replace a Range with text"
 linktitle: "Replace a Range with text"
 type: docs
@@ -11,11 +10,12 @@ weight: 40
 
 Replaces a `Range` with text in a Word document.
 
+
 ## Replace a Range with text in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/post/range/{rangeStartIdentifier}/{rangeEndIdentifier} |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/post/range/{rangeStartIdentifier}/{rangeEndIdentifier}` |
 
 , where:
 

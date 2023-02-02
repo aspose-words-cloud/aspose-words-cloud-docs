@@ -1,6 +1,5 @@
 ﻿---
-title: "Working with Tables in a Word document"
-second_title: " online"
+title: "Working with Tables in a Word document online"
 articleTitle: "Working with Tables"
 linktitle: "Tables"
 type: docs

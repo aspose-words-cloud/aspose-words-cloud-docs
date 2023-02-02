@@ -1,6 +1,5 @@
 ﻿---
-title: "Upload a file to Cloud Storage"
-second_title: " online"
+title: "Upload a file to Cloud Storage online"
 articleTitle: "Upload a file to Cloud Storage"
 linktitle: "Upload a file to Cloud Storage"
 type: docs
@@ -11,11 +10,12 @@ weight: 100
 
 This REST API uploads a file to Cloud Storage.
 
+
 ## Upload a file to Cloud Storage REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/storage/file/{path} |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/storage/file/{path}` |
 
 , where:
 

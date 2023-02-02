@@ -1,6 +1,5 @@
 ﻿---
-title: "Classify documents and text into categories"
-second_title: " online"
+title: "Classify documents and text into categories online"
 articleTitle: "Classify documents and text into categories"
 linktitle: "Classify documents and text into categories"
 type: docs

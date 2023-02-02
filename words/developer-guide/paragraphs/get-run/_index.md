@@ -1,6 +1,5 @@
 ﻿---
-title: "Get a `Run` object in a Word document"
-second_title: " online"
+title: "Get a `Run` object in a Word document online"
 articleTitle: "Get a `Run` object"
 linktitle: "Get a `Run` object"
 type: docs
@@ -11,11 +10,12 @@ weight: 80
 
 Returns a `Run` object in a Word document.
 
+
 ## Get a `Run` object in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/get/{paragraphPath}/runs/{index} |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/get/{paragraphPath}/runs/{index}` |
 
 , where:
 

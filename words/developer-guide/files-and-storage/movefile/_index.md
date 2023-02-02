@@ -1,6 +1,5 @@
 ﻿---
-title: "Move a file to a new location in Cloud Storage"
-second_title: " online"
+title: "Move a file to a new location in Cloud Storage online"
 articleTitle: "Move a file to a new location in Cloud Storage"
 linktitle: "Move a file to a new location in Cloud Storage"
 type: docs
@@ -11,11 +10,12 @@ weight: 80
 
 This REST API moves a file to a new location in Cloud Storage.
 
+
 ## Move a file to a new location in Cloud Storage REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/storage/file/move/{srcPath} |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/storage/file/move/{srcPath}` |
 
 , where:
 

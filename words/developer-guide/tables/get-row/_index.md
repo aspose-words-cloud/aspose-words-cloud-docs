@@ -1,6 +1,5 @@
 ﻿---
-title: "Get table row in a Word document"
-second_title: " online"
+title: "Get table row in a Word document online"
 articleTitle: "Get table row"
 linktitle: "Get table row"
 type: docs
@@ -11,11 +10,12 @@ weight: 130
 
 Returns table row in a Word document.
 
+
 ## Get table row in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/get/{tablePath}/rows/{index} |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/get/{tablePath}/rows/{index}` |
 
 , where:
 

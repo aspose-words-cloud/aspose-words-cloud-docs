@@ -1,6 +1,5 @@
 ﻿---
-title: "Update a comment in a Word document"
-second_title: " online"
+title: "Update a comment in a Word document online"
 articleTitle: "Update a comment"
 linktitle: "Update a comment"
 type: docs
@@ -9,13 +8,14 @@ description: "Update a comment in a Word document programmatically via Cloud API
 weight: 50
 ---
 
-This REST API updates a comment in a Word document. It takes the document file, comment index, and the new comment text as inputs.
+This REST API updates a comment in a Word document.
+
 
 ## Update a comment in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/put/comments/{commentIndex} |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/put/comments/{commentIndex}` |
 
 , where:
 

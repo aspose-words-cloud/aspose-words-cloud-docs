@@ -1,6 +1,5 @@
 ﻿---
-title: "Get all bookmarks in a Word document"
-second_title: " online"
+title: "Get all bookmarks in a Word document online"
 articleTitle: "Get all bookmarks"
 linktitle: "Get all bookmarks"
 type: docs
@@ -9,13 +8,14 @@ description: "Get all bookmarks in a Word document programmatically via Cloud AP
 weight: 10
 ---
 
-This REST API returns all bookmarks in a Word document. It takes the document file as an input and returns an array of bookmark objects, each containing the bookmark name and location in the document.
+This REST API returns all bookmarks in a Word document.
+
 
 ## Get all bookmarks in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/get/bookmarks |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/get/bookmarks` |
 
 You can use the following parameters in a REST request:
 

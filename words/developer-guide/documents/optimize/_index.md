@@ -1,6 +1,5 @@
 ﻿---
-title: "Apply content optimization options, specific to a particular versions of Microsoft Word"
-second_title: " online"
+title: "Apply content optimization options, specific to a particular versions of Microsoft Word online"
 articleTitle: "Apply content optimization options, specific to a particular versions of Microsoft Word"
 linktitle: "Apply content optimization options, specific to a particular versions of Microsoft Word"
 type: docs
@@ -11,11 +10,12 @@ weight: 12
 
 Applies content optimization options, specific to a particular versions of Microsoft Word.
 
+
 ## Apply content optimization options, specific to a particular versions of Microsoft Word REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/put/compatibility/optimize |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/put/compatibility/optimize` |
 
 You can use the following parameters in a REST request:
 

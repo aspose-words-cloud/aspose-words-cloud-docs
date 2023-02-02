@@ -1,6 +1,5 @@
 ﻿---
-title: "Download a file from Cloud Storage"
-second_title: " online"
+title: "Download a file from Cloud Storage online"
 articleTitle: "Download a file from Cloud Storage"
 linktitle: "Download a file from Cloud Storage"
 type: docs
@@ -11,11 +10,12 @@ weight: 60
 
 This REST API downloads a file from Cloud Storage.
 
+
 ## Download a file from Cloud Storage REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | GET    | /words/storage/file/{path} |
+| `https://api.aspose.cloud/v4.0`  | GET    | `/words/storage/file/{path}` |
 
 , where:
 

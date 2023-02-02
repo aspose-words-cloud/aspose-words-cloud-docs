@@ -1,6 +1,5 @@
 ﻿---
-title: "Download a Web page and save it in the specified document format"
-second_title: " online"
+title: "Download a Web page and save it in the specified document format online"
 articleTitle: "Download a Web page and save it in the specified document format"
 linktitle: "Download a Web page and save it in the specified document format"
 type: docs
@@ -11,11 +10,12 @@ weight: 80
 
 Downloads a Web page and saves it in the specified document format.
 
+
 ## Download a Web page and save it in the specified document format REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/loadWebDocument |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/loadWebDocument` |
 
 You can use the following parameters in a REST request:
 

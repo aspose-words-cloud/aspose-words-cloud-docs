@@ -1,6 +1,5 @@
 ﻿---
-title: "Update the formatting properties of a paragraph in a Word document"
-second_title: " online"
+title: "Update the formatting properties of a paragraph in a Word document online"
 articleTitle: "Update the formatting properties of a paragraph"
 linktitle: "Update the formatting properties of a paragraph"
 type: docs
@@ -11,11 +10,12 @@ weight: 130
 
 Updates the formatting properties of a paragraph in a Word document.
 
+
 ## Update the formatting properties of a paragraph in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/put/{nodePath}/paragraphs/{index}/format |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/put/{nodePath}/paragraphs/{index}/format` |
 
 , where:
 

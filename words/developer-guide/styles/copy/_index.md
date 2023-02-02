@@ -1,6 +1,5 @@
 ﻿---
-title: "Copy the style of the specified Word document element"
-second_title: " online"
+title: "Copy the style of the specified Word document element online"
 articleTitle: "Copy the style of the specified Word document element"
 linktitle: "Copy the style of the specified Word document element"
 type: docs
@@ -11,11 +10,12 @@ weight: 20
 
 Copies the style of the specified Word document element.
 
+
 ## Copy the style of the specified Word document element REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/post/styles/copy |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/post/styles/copy` |
 
 You can use the following parameters in a REST request:
 

@@ -1,6 +1,5 @@
 ﻿---
-title: "Delete a cell from a table in a Word document"
-second_title: " online"
+title: "Delete a cell from a table in a Word document online"
 articleTitle: "Delete a cell from a table"
 linktitle: "Delete a cell from a table"
 type: docs
@@ -11,11 +10,12 @@ weight: 40
 
 Deletes a cell from a table in a Word document.
 
+
 ## Delete a cell from a table in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/delete/{tableRowPath}/cells/{index} |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/delete/{tableRowPath}/cells/{index}` |
 
 , where:
 

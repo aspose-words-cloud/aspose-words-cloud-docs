@@ -1,6 +1,5 @@
 ﻿---
-title: "Working with Document generation and Reporting"
-second_title: " online"
+title: "Working with Document generation and Reporting online"
 articleTitle: "Working with Document generation and Reporting"
 linktitle: "Document generation and Reporting"
 type: docs

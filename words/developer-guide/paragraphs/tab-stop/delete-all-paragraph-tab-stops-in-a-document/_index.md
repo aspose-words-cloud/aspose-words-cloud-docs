@@ -1,6 +1,5 @@
 ﻿---
-title: "Delete all paragraph tab stops from a Word document"
-second_title: " online"
+title: "Delete all paragraph tab stops from a Word document online"
 articleTitle: "Delete all paragraph tab stops"
 linktitle: "Delete all paragraph tab stops"
 type: docs
@@ -11,11 +10,12 @@ weight: 20
 
 Deletes all paragraph tab stops from a Word document.
 
+
 ## Delete all paragraph tab stops from a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/delete/{nodePath}/paragraphs/{index}/tabstops |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/delete/{nodePath}/paragraphs/{index}/tabstops` |
 
 , where:
 

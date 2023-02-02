@@ -1,6 +1,5 @@
 ﻿---
-title: "Reset border properties of a table in a Word document"
-second_title: " online"
+title: "Reset border properties of a table in a Word document online"
 articleTitle: "Reset border properties of a table"
 linktitle: "Reset border properties of a table"
 type: docs
@@ -11,11 +10,12 @@ weight: 160
 
 Resets border properties of a table in a Word document.
 
+
 ## Reset border properties of a table in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/delete/{nodePath}/borders/{borderType} |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/delete/{nodePath}/borders/{borderType}` |
 
 , where:
 

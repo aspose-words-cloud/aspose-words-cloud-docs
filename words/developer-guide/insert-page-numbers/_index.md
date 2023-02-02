@@ -1,6 +1,5 @@
 ﻿---
-title: "Insert page numbers into a Word document"
-second_title: " online"
+title: "Insert page numbers into a Word document online"
 articleTitle: "Insert page numbers"
 linktitle: "Insert page numbers"
 type: docs
@@ -11,11 +10,12 @@ weight: 190
 
 Inserts page numbers into a Word document.
 
+
 ## Insert page numbers into a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/put/PageNumbers |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/put/PageNumbers` |
 
 You can use the following parameters in a REST request:
 

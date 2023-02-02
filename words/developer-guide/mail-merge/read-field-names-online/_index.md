@@ -1,6 +1,5 @@
 ﻿---
-title: "Get all field names in a Word document"
-second_title: " online"
+title: "Get all field names in a Word document online"
 articleTitle: "Get all field names"
 linktitle: "Get all field names"
 type: docs
@@ -11,11 +10,12 @@ weight: 60
 
 Returns all field names in a Word document.
 
+
 ## Get all field names in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/get/mailMerge/FieldNames |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/get/mailMerge/FieldNames` |
 
 You can use the following parameters in a REST request:
 

@@ -1,6 +1,5 @@
 ﻿---
-title: "Delete the formatting properties of a Paragraph List from a Word document"
-second_title: " online"
+title: "Delete the formatting properties of a Paragraph List from a Word document online"
 articleTitle: "Delete the formatting properties of a Paragraph List"
 linktitle: "Delete the formatting properties of a Paragraph List"
 type: docs
@@ -11,11 +10,12 @@ weight: 10
 
 Deletes the formatting properties of a Paragraph List from a Word document.
 
+
 ## Delete the formatting properties of a Paragraph List from a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/delete/{nodePath}/paragraphs/{index}/listFormat |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/delete/{nodePath}/paragraphs/{index}/listFormat` |
 
 , where:
 

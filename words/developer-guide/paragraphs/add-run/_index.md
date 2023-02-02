@@ -1,6 +1,5 @@
 ﻿---
-title: "Insert a Run object into a paragraph in a Word document"
-second_title: " online"
+title: "Insert a Run object into a paragraph in a Word document online"
 articleTitle: "Insert a Run object into a paragraph"
 linktitle: "Insert a Run object into a paragraph"
 type: docs
@@ -11,11 +10,12 @@ weight: 20
 
 Inserts a `Run` object into a paragraph in a Word document.
 
+
 ## Insert a Run object into a paragraph in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/post/{paragraphPath}/runs |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/post/{paragraphPath}/runs` |
 
 , where:
 

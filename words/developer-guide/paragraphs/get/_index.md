@@ -1,6 +1,5 @@
 ﻿---
-title: "Get a paragraph in a Word document"
-second_title: " online"
+title: "Get a paragraph in a Word document online"
 articleTitle: "Get a paragraph"
 linktitle: "Get a paragraph"
 type: docs
@@ -11,11 +10,12 @@ weight: 30
 
 Returns a paragraph in a Word document.
 
+
 ## Get a paragraph in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/get/{nodePath}/paragraphs/{index} |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/get/{nodePath}/paragraphs/{index}` |
 
 , where:
 

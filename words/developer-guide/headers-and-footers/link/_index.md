@@ -1,6 +1,5 @@
 ﻿---
-title: "Link headers/footers of a section to the previous one"
-second_title: " online"
+title: "Link headers/footers of a section to the previous one online"
 articleTitle: "Link headers/footers of a section to the previous one"
 linktitle: "Link headers/footers of a section to the previous one"
 type: docs
@@ -11,11 +10,12 @@ weight: 80
 
 Links headers/footers of the section to the previous one.
 
+
 ## Link headers/footers of a section to the previous one REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/{name}/sections/{sectionIndex}/link |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/{name}/sections/{sectionIndex}/link` |
 
 , where:
 

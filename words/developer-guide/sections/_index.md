@@ -1,6 +1,5 @@
 ﻿---
-title: "Working with Sections in a Word document"
-second_title: " online"
+title: "Working with Sections in a Word document online"
 articleTitle: "Working with Sections"
 linktitle: "Sections"
 type: docs

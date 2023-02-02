@@ -1,6 +1,5 @@
 ﻿---
-title: "Update a List in a Word document"
-second_title: " online"
+title: "Update a List in a Word document online"
 articleTitle: "Update a List"
 linktitle: "Update a List"
 type: docs
@@ -11,11 +10,12 @@ weight: 40
 
 Updates a List in the document.
 
+
 ## Update a List in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/put/lists/{listId} |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/put/lists/{listId}` |
 
 , where:
 

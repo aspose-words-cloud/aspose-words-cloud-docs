@@ -1,6 +1,5 @@
 ﻿---
-title: "Get all properties in a Word document"
-second_title: " online"
+title: "Get all properties in a Word document online"
 articleTitle: "Get all properties"
 linktitle: "Get all properties"
 type: docs
@@ -11,11 +10,12 @@ weight: 40
 
 Returns all document properties in a Word document.
 
+
 ## Get all properties in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/get/documentProperties |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/get/documentProperties` |
 
 You can use the following parameters in a REST request:
 

@@ -1,6 +1,5 @@
 ﻿---
-title: "Get all comments in a Word document"
-second_title: " online"
+title: "Get all comments in a Word document online"
 articleTitle: "Get all comments"
 linktitle: "Get all comments"
 type: docs
@@ -9,13 +8,14 @@ description: "Get all comments in a Word document programmatically via Cloud API
 weight: 40
 ---
 
-This REST API returns all comments in a Word document. It takes the document file as an input and returns an array of comment objects, each containing the comment text and location in the document.
+This REST API returns all comments in a Word document.
+
 
 ## Get all comments in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/get/comments |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/get/comments` |
 
 You can use the following parameters in a REST request:
 

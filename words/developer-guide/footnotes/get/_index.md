@@ -1,6 +1,5 @@
 ﻿---
-title: "Get a footnote from a Word document"
-second_title: " online"
+title: "Get a footnote from a Word document online"
 articleTitle: "Get a footnote"
 linktitle: "Get a footnote"
 type: docs
@@ -11,11 +10,12 @@ weight: 20
 
 This REST API returns a footnote from a Word document.
 
+
 ## Get a footnote from a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/get/{nodePath}/footnotes/{index} |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/get/{nodePath}/footnotes/{index}` |
 
 , where:
 

@@ -1,6 +1,5 @@
 ﻿---
-title: "Get the formatting properties of a table row in a Word document"
-second_title: " online"
+title: "Get the formatting properties of a table row in a Word document online"
 articleTitle: "Get the formatting properties of a table row"
 linktitle: "Get the formatting properties of a table row"
 type: docs
@@ -11,11 +10,12 @@ weight: 140
 
 Returns the formatting properties of a table row in a Word document.
 
+
 ## Get the formatting properties of a table row in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/get/{tablePath}/rows/{index}/rowformat |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/get/{tablePath}/rows/{index}/rowformat` |
 
 , where:
 

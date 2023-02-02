@@ -1,6 +1,5 @@
 ﻿---
-title: "Get the page settings of a Section in a Word document"
-second_title: " online"
+title: "Get the page settings of a Section in a Word document online"
 articleTitle: "Get the page settings of a Section"
 linktitle: "Get the page settings of a Section"
 type: docs
@@ -11,11 +10,12 @@ weight: 30
 
 Returns the page settings of a Section in a Word document.
 
+
 ## Get the page settings of a Section in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/get/sections/{sectionIndex}/pageSetup |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/get/sections/{sectionIndex}/pageSetup` |
 
 , where:
 

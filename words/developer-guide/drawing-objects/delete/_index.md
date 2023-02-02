@@ -1,6 +1,5 @@
 ﻿---
-title: "Delete a `DrawingObject` from a Word document"
-second_title: " online"
+title: "Delete a `DrawingObject` from a Word document online"
 articleTitle: "Delete a `DrawingObject`"
 linktitle: "Delete a `DrawingObject`"
 type: docs
@@ -11,11 +10,12 @@ weight: 20
 
 Deletes a `DrawingObject` from a Word document.
 
+
 ## Delete a `DrawingObject` from a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/delete/{nodePath}/drawingObjects/{index} |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/delete/{nodePath}/drawingObjects/{index}` |
 
 , where:
 

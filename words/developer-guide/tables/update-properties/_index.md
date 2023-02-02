@@ -1,6 +1,5 @@
 ﻿---
-title: "Update table properties in a Word document"
-second_title: " online"
+title: "Update table properties in a Word document online"
 articleTitle: "Update table properties"
 linktitle: "Update table properties"
 type: docs
@@ -11,11 +10,12 @@ weight: 210
 
 Updates table properties in a Word document.
 
+
 ## Update table properties in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/put/{nodePath}/tables/{index}/properties |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/put/{nodePath}/tables/{index}/properties` |
 
 , where:
 

@@ -1,6 +1,5 @@
 ﻿---
-title: "Merge several Word, PDF documents to a single document"
-second_title: " online"
+title: "Merge several Word, PDF documents to a single document online"
 articleTitle: "Merge several Word, PDF documents to a single document"
 linktitle: "Merge several Word, PDF documents to a single document"
 type: docs
@@ -11,11 +10,12 @@ weight: 180
 
 Merges several Word, PDF documents to a single document.
 
+
 ## Merge several Word, PDF documents to a single document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/put/appendDocument |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/put/appendDocument` |
 
 You can use the following parameters in a REST request:
 

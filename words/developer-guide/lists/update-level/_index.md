@@ -1,6 +1,5 @@
 ﻿---
-title: "Update a list's level in a Word document"
-second_title: " online"
+title: "Update a list's level in a Word document online"
 articleTitle: "Update a list's level"
 linktitle: "Update a list's level"
 type: docs
@@ -11,11 +10,12 @@ weight: 50
 
 Updates the level of a List element in the document.
 
+
 ## Update a list's level in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/put/lists/{listId}/listLevels/{listLevel} |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/put/lists/{listId}/listLevels/{listLevel}` |
 
 , where:
 

@@ -1,6 +1,5 @@
 ﻿---
-title: "Delete CustomXmlParts from a Word document"
-second_title: " online"
+title: "Delete CustomXmlParts from a Word document online"
 articleTitle: "Delete CustomXmlParts"
 linktitle: "Delete CustomXmlParts"
 type: docs
@@ -11,11 +10,12 @@ weight: 10
 
 Deletes `CustomXmlParts` from a Word document.
 
+
 ## Delete CustomXmlParts from a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/delete/customXmlParts/{customXmlPartIndex} |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/delete/customXmlParts/{customXmlPartIndex}` |
 
 , where:
 

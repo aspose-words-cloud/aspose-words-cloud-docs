@@ -1,6 +1,5 @@
 ﻿---
-title: "Render a Word document page as an image"
-second_title: " online"
+title: "Render a Word document page as an image online"
 articleTitle: "Render a Word document page as an image"
 linktitle: "Render a Word document page as an image"
 type: docs
@@ -11,11 +10,12 @@ weight: 10
 
 Renders a Word document page as an image.
 
+
 ## Render a Word document page as an image REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/get/pages/{pageIndex}/render |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/get/pages/{pageIndex}/render` |
 
 , where:
 

@@ -1,6 +1,5 @@
 ﻿---
-title: "Get all tables in a Word document"
-second_title: " online"
+title: "Get all tables in a Word document online"
 articleTitle: "Get all tables"
 linktitle: "Get all tables"
 type: docs
@@ -11,11 +10,12 @@ weight: 90
 
 Returns all tables in a Word document.
 
+
 ## Get all tables in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/get/{nodePath}/tables |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/get/{nodePath}/tables` |
 
 , where:
 

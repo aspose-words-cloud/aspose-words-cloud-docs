@@ -1,6 +1,5 @@
 ﻿---
-title: "Create a new document"
-second_title: " online"
+title: "Create a new document online"
 articleTitle: "Create a new document"
 linktitle: "Create a new document"
 type: docs
@@ -11,11 +10,12 @@ weight: 10
 
 Creates a new document in the Cloud Storage in the format specified by the file extension.
 
+
 ## Create a new document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/create |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/create` |
 
 You can use the following parameters in a REST request:
 

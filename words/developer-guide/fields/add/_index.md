@@ -1,6 +1,5 @@
 ﻿---
-title: "Insert a field into a Word document"
-second_title: " online"
+title: "Insert a field into a Word document online"
 articleTitle: "Insert a field"
 linktitle: "Insert a field"
 type: docs
@@ -11,11 +10,12 @@ weight: 10
 
 Inserts a field into a Word document.
 
+
 ## Insert a field into a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/post/{nodePath}/fields |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/post/{nodePath}/fields` |
 
 , where:
 

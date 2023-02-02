@@ -1,6 +1,5 @@
 ﻿---
-title: "Renders an OfficeMath object as an image"
-second_title: " online"
+title: "Renders an OfficeMath object as an image online"
 articleTitle: "Renders an OfficeMath object as an image"
 linktitle: "Renders an OfficeMath object as an image"
 type: docs
@@ -11,11 +10,12 @@ weight: 70
 
 Renders an `OfficeMath` object as an image.
 
+
 ## Renders an OfficeMath object as an image REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/get/{nodePath}/OfficeMathObjects/{index}/render |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/get/{nodePath}/OfficeMathObjects/{index}/render` |
 
 , where:
 

@@ -1,6 +1,5 @@
 ﻿---
-title: "Get asymmetric public key"
-second_title: " online"
+title: "Get asymmetric public key online"
 articleTitle: "Get asymmetric public key"
 linktitle: "Get asymmetric public key"
 type: docs
@@ -10,13 +9,15 @@ weight: 7
 ---
 
 Aspose.Words REST API includes a `GetPublicKey` method that allows developers to retrieve the public key for an asymmetric encryption algorithm. The public key is returned in the form of a string, which can then be used to encrypt data.
+
 Asymmetric encryption uses two different keys, a public key and a private key. The public key can be shared with anyone and is used to encrypt data, while the private key is kept secret and is used to decrypt data.
+
 
 ## Get asymmetric public key REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | GET    | /words/encryption/publickey |
+| `https://api.aspose.cloud/v4.0`  | GET    | `/words/encryption/publickey` |
 
 {{% alert style="info" %}}
 **Note**: to access this REST API, you need to register and get personal credentials. Use the '[Quick Start](/words/getting-started/quickstart/)' guide to go through the procedure in a couple of minutes.

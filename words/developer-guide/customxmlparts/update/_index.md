@@ -1,6 +1,5 @@
 ﻿---
-title: "Update a CustomXmlPart in a Word document"
-second_title: " online"
+title: "Update a CustomXmlPart in a Word document online"
 articleTitle: "Update a CustomXmlPart"
 linktitle: "Update a CustomXmlPart"
 type: docs
@@ -11,11 +10,12 @@ weight: 40
 
 Updates a `CustomXmlPart` in a Word document.
 
+
 ## Update a CustomXmlPart in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/put/customXmlParts/{customXmlPartIndex} |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/put/customXmlParts/{customXmlPartIndex}` |
 
 , where:
 

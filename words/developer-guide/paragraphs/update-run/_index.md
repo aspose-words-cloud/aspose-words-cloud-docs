@@ -1,6 +1,5 @@
 ﻿---
-title: "Update properties of a Run object in a Word document"
-second_title: " online"
+title: "Update properties of a Run object in a Word document online"
 articleTitle: "Update properties of a Run object"
 linktitle: "Update properties of a Run object"
 type: docs
@@ -11,11 +10,12 @@ weight: 140
 
 Update properties of a `Run` object in a Word document.
 
+
 ## Update properties of a Run object in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/put/{paragraphPath}/runs/{index} |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/put/{paragraphPath}/runs/{index}` |
 
 , where:
 

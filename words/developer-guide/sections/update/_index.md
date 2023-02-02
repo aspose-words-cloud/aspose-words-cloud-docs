@@ -1,6 +1,5 @@
 ﻿---
-title: "Update the page settings of a Section in a Word document"
-second_title: " online"
+title: "Update the page settings of a Section in a Word document online"
 articleTitle: "Update the page settings of a Section"
 linktitle: "Update the page settings of a Section"
 type: docs
@@ -11,11 +10,12 @@ weight: 40
 
 Updates the page settings of a Section in a Word document.
 
+
 ## Update the page settings of a Section in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/put/sections/{sectionIndex}/pageSetup |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/put/sections/{sectionIndex}/pageSetup` |
 
 , where:
 

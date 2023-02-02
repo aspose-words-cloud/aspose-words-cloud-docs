@@ -1,6 +1,5 @@
 ﻿---
-title: "Classify a Word document"
-second_title: " online"
+title: "Classify a Word document online"
 articleTitle: "Classify"
 linktitle: "Classify"
 type: docs
@@ -10,18 +9,25 @@ weight: 10
 ---
 
 Document taxonomy refers to the process of classifying and organizing documents according to their content. It is a way of automatically grouping documents into categories and subcategories based on the topics or subjects they cover. Document taxonomies can be used to classify a wide variety of content, such as email attachments, news articles, research papers, company reports, and so on.
+
 The main goal of document taxonomy is to make it easier to find and retrieve relevant documents. By organizing documents into groups, it becomes easier to navigate through large collections of files and find the required information. This can improve efficiency and productivity, particularly in organizations that rely heavily on document management.
+
 Aspose.Words REST API includes a `ClassifyDocumentOnline` method that allows developers to automatically classify documents according to their content. The currently supported taxonomies are:
+
  * [IAB-2 Taxonomy](https://www.iab.com/guidelines/taxonomy/)
+
  * Documents Taxonomy
+
  * 2-Class Sentiment Taxonomy: negative/positive
+
  * 3-Class Setiment taxonomy: negative/neutral,positive
+
 
 ## Classify a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/get/classify |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/get/classify` |
 
 You can use the following parameters in a REST request:
 

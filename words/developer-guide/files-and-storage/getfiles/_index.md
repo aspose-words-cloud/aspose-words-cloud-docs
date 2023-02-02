@@ -1,6 +1,5 @@
 ﻿---
-title: "Get a list of files from a folder in Cloud Storage"
-second_title: " online"
+title: "Get a list of files from a folder in Cloud Storage online"
 articleTitle: "Get a list of files from a folder in Cloud Storage"
 linktitle: "Get a list of files from a folder in Cloud Storage"
 type: docs
@@ -11,11 +10,12 @@ weight: 70
 
 This REST API returns a list of files from a folder in Cloud Storage.
 
+
 ## Get a list of files from a folder in Cloud Storage REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | GET    | /words/storage/folder/{path} |
+| `https://api.aspose.cloud/v4.0`  | GET    | `/words/storage/folder/{path}` |
 
 , where:
 

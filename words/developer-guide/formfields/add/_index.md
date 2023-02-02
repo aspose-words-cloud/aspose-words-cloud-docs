@@ -1,6 +1,5 @@
 ﻿---
-title: "Insert a FormField into a Word document"
-second_title: " online"
+title: "Insert a FormField into a Word document online"
 articleTitle: "Insert a FormField"
 linktitle: "Insert a FormField"
 type: docs
@@ -11,11 +10,12 @@ weight: 10
 
 This REST API inserts a `FormField` into a Word document.
 
+
 ## Insert a FormField into a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/post/{nodePath}/formfields |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/post/{nodePath}/formfields` |
 
 , where:
 

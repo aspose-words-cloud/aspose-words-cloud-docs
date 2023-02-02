@@ -1,6 +1,5 @@
 ﻿---
-title: "Get the Range text in a Word document"
-second_title: " online"
+title: "Get the Range text in a Word document online"
 articleTitle: "Get the Range text"
 linktitle: "Get the Range text"
 type: docs
@@ -11,11 +10,12 @@ weight: 10
 
 Returns the `Range` text in a Word document.
 
+
 ## Get the Range text in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/get/range/{rangeStartIdentifier}/{rangeEndIdentifier} |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/get/range/{rangeStartIdentifier}/{rangeEndIdentifier}` |
 
 , where:
 

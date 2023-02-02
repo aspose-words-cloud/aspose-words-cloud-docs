@@ -1,6 +1,5 @@
 ﻿---
-title: "Compress a Word document"
-second_title: " online"
+title: "Compress a Word document online"
 articleTitle: "Compress"
 linktitle: "Compress"
 type: docs
@@ -11,11 +10,12 @@ weight: 11
 
 Compress and resize images inside a Word document.
 
+
 ## Compress a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/put/compress |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/put/compress` |
 
 You can use the following parameters in a REST request:
 

@@ -1,6 +1,5 @@
 ﻿---
-title: "Insert or update a paragraph tab stop in a Word document"
-second_title: " online"
+title: "Insert or update a paragraph tab stop in a Word document online"
 articleTitle: "Insert or update a paragraph tab stop"
 linktitle: "Insert or update a paragraph tab stop"
 type: docs
@@ -11,11 +10,12 @@ weight: 40
 
 Inserts or updates a paragraph tab stop in a Word document.
 
+
 ## Insert or update a paragraph tab stop in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/post/{nodePath}/paragraphs/{index}/tabstops |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/post/{nodePath}/paragraphs/{index}/tabstops` |
 
 , where:
 

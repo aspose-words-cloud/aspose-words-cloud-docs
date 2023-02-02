@@ -1,6 +1,5 @@
 ﻿---
-title: "Get all table borders in a Word document"
-second_title: " online"
+title: "Get all table borders in a Word document online"
 articleTitle: "Get all table borders"
 linktitle: "Get all table borders"
 type: docs
@@ -11,11 +10,12 @@ weight: 80
 
 Returns all table borders in a Word document.
 
+
 ## Get all table borders in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/get/{nodePath}/borders |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/get/{nodePath}/borders` |
 
 , where:
 

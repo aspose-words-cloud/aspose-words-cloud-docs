@@ -1,6 +1,5 @@
 ﻿---
-title: "Get all fonts in a Word document"
-second_title: " online"
+title: "Get all fonts in a Word document online"
 articleTitle: "Get all fonts"
 linktitle: "Get all fonts"
 type: docs
@@ -11,11 +10,12 @@ weight: 10
 
 This REST API returns all fonts in a Word document.
 
+
 ## Get all fonts in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | GET    | /words/fonts/available |
+| `https://api.aspose.cloud/v4.0`  | GET    | `/words/fonts/available` |
 
 You can use the following parameters in a REST request:
 

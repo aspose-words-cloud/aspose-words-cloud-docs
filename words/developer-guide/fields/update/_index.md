@@ -1,6 +1,5 @@
 ﻿---
-title: "Update all field values in a Word document"
-second_title: " online"
+title: "Update all field values in a Word document online"
 articleTitle: "Update all field values"
 linktitle: "Update all field values"
 type: docs
@@ -11,11 +10,12 @@ weight: 60
 
 Reevaluates all field values in a Word document.
 
+
 ## Update all field values in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/put/updateFields |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/put/updateFields` |
 
 You can use the following parameters in a REST request:
 

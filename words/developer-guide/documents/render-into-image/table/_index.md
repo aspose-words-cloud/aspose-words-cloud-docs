@@ -1,6 +1,5 @@
 ﻿---
-title: "Render a table as an image"
-second_title: " online"
+title: "Render a table as an image online"
 articleTitle: "Render a table as an image"
 linktitle: "Render a table as an image"
 type: docs
@@ -11,11 +10,12 @@ weight: 30
 
 Renders a table as an image.
 
+
 ## Render a table as an image REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/get/{nodePath}/tables/{index}/render |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/get/{nodePath}/tables/{index}/render` |
 
 , where:
 

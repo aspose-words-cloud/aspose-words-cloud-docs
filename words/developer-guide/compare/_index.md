@@ -1,6 +1,5 @@
 ﻿---
-title: "Compare two Word documents"
-second_title: " online"
+title: "Compare two Word documents online"
 articleTitle: "Compare two Word documents"
 linktitle: "Compare two Word documents"
 type: docs
@@ -10,14 +9,17 @@ weight: 40
 ---
 
 Comparing Word documents is often used to track changes made to important documents. Additionally, it is used in editing to compare the modified document version with the original.
+
 Aspose.Words REST API is a powerful document manipulation tool that allows developers to compare two Word documents and retrieve the differences between them.
+
 As a result of the comparison, a list of differences between the two Word documents is returned. Each difference will contain information about the type of difference (e.g. deleted text, added text, formatting change), the location of the difference in the document, and the text that was added or deleted.
+
 
 ## Compare two Word documents REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/put/compareDocument |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/put/compareDocument` |
 
 You can use the following parameters in a REST request:
 

@@ -1,6 +1,5 @@
 ﻿---
-title: "Get a List in a Word document"
-second_title: " online"
+title: "Get a List in a Word document online"
 articleTitle: "Get a List"
 linktitle: "Get a List"
 type: docs
@@ -11,11 +10,12 @@ weight: 10
 
 Returns a `List` in a Word document.
 
+
 ## Get a List in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | POST   | /words/online/get/lists/{listId} |
+| `https://api.aspose.cloud/v4.0`  | POST   | `/words/online/get/lists/{listId}` |
 
 , where:
 

@@ -1,6 +1,5 @@
 ﻿---
-title: "Get table properties in a Word document"
-second_title: " online"
+title: "Get table properties in a Word document online"
 articleTitle: "Get table properties"
 linktitle: "Get table properties"
 type: docs
@@ -11,11 +10,12 @@ weight: 150
 
 Returns table properties in a Word document.
 
+
 ## Get table properties in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/get/{nodePath}/tables/{index}/properties |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/get/{nodePath}/tables/{index}/properties` |
 
 , where:
 

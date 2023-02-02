@@ -1,6 +1,5 @@
 ﻿---
-title: "Get a style in a Word document"
-second_title: " online"
+title: "Get a style in a Word document online"
 articleTitle: "Get a style"
 linktitle: "Get a style"
 type: docs
@@ -11,11 +10,12 @@ weight: 30
 
 Returns a style in a Word document.
 
+
 ## Get a style in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/get/styles/{styleName} |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/get/styles/{styleName}` |
 
 , where:
 

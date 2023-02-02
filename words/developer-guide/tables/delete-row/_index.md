@@ -1,6 +1,5 @@
 ﻿---
-title: "Delete a row from a table in a Word document"
-second_title: " online"
+title: "Delete a row from a table in a Word document online"
 articleTitle: "Delete a row from a table"
 linktitle: "Delete a row from a table"
 type: docs
@@ -11,11 +10,12 @@ weight: 60
 
 Deletes a row from a table in a Word document.
 
+
 ## Delete a row from a table in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/delete/{tablePath}/rows/{index} |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/delete/{tablePath}/rows/{index}` |
 
 , where:
 

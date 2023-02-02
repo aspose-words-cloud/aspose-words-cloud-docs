@@ -1,6 +1,5 @@
 ﻿---
-title: "Create a folder in Cloud Storage"
-second_title: " online"
+title: "Create a folder in Cloud Storage online"
 articleTitle: "Create a folder in Cloud Storage"
 linktitle: "Create a folder in Cloud Storage"
 type: docs
@@ -11,11 +10,12 @@ weight: 30
 
 This REST API creates a folder in Cloud Storage.
 
+
 ## Create a folder in Cloud Storage REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/storage/folder/{path} |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/storage/folder/{path}` |
 
 , where:
 

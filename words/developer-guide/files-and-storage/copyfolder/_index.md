@@ -1,6 +1,5 @@
 ﻿---
-title: "Copy a folder to a new location in Cloud Storage"
-second_title: " online"
+title: "Copy a folder to a new location in Cloud Storage online"
 articleTitle: "Copy a folder to a new location in Cloud Storage"
 linktitle: "Copy a folder to a new location in Cloud Storage"
 type: docs
@@ -11,11 +10,12 @@ weight: 20
 
 This REST API copies a folder to a new location in Cloud Storage.
 
+
 ## Copy a folder to a new location in Cloud Storage REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/storage/folder/copy/{srcPath} |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/storage/folder/copy/{srcPath}` |
 
 , where:
 

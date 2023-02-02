@@ -1,6 +1,5 @@
 ﻿---
-title: "Get a field in a Word document"
-second_title: " online"
+title: "Get a field in a Word document online"
 articleTitle: "Get a field"
 linktitle: "Get a field"
 type: docs
@@ -9,13 +8,14 @@ description: "Get a field in a Word document programmatically via Cloud API."
 weight: 30
 ---
 
-This REST API returns a specific field by its name or index. It takes the document file and the field name or index as inputs and returns a field object containing the field type, name and properties.
+This REST API returns a field in a Word document.
+
 
 ## Get a field in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/get/{nodePath}/fields/{index} |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/get/{nodePath}/fields/{index}` |
 
 , where:
 

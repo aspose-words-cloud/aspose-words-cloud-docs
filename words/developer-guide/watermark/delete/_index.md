@@ -1,6 +1,5 @@
 ﻿---
-title: "Delete watermark from a Word document"
-second_title: " online"
+title: "Delete watermark from a Word document online"
 articleTitle: "Delete watermark"
 linktitle: "Delete watermark"
 type: docs
@@ -11,11 +10,12 @@ weight: 10
 
 Deletes watermark from a Word document.
 
+
 ## Delete watermark from a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/post/watermarks/deleteLast |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/post/watermarks/deleteLast` |
 
 You can use the following parameters in a REST request:
 

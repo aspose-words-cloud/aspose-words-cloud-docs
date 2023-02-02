@@ -1,6 +1,5 @@
 ﻿---
-title: "Get a table border in a Word document"
-second_title: " online"
+title: "Get a table border in a Word document online"
 articleTitle: "Get a table border"
 linktitle: "Get a table border"
 type: docs
@@ -11,11 +10,12 @@ weight: 70
 
 Returns a table border in a Word document.
 
+
 ## Get a table border in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/get/{nodePath}/borders/{borderType} |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/get/{nodePath}/borders/{borderType}` |
 
 , where:
 

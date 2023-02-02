@@ -1,6 +1,5 @@
 ﻿---
-title: "Insert a table a Word document"
-second_title: " online"
+title: "Insert a table a Word document online"
 articleTitle: "Insert a table"
 linktitle: "Insert a table"
 type: docs
@@ -11,11 +10,12 @@ weight: 30
 
 Inserts a new table a Word document.
 
+
 ## Insert a table a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/post/{nodePath}/tables |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/post/{nodePath}/tables` |
 
 , where:
 

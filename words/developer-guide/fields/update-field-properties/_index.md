@@ -1,6 +1,5 @@
 ﻿---
-title: "Update a field in a Word document"
-second_title: " online"
+title: "Update a field in a Word document online"
 articleTitle: "Update a field"
 linktitle: "Update a field"
 type: docs
@@ -11,11 +10,12 @@ weight: 70
 
 Updates a field in a Word document.
 
+
 ## Update a field in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/put/{nodePath}/fields/{index} |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/put/{nodePath}/fields/{index}` |
 
 , where:
 

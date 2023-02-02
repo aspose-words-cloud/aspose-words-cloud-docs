@@ -1,6 +1,5 @@
 ﻿---
-title: "Add a paragraph to a Word document"
-second_title: " online"
+title: "Add a paragraph to a Word document online"
 articleTitle: "Add a paragraph"
 linktitle: "Add a paragraph"
 type: docs
@@ -11,11 +10,12 @@ weight: 10
 
 Adds a new paragraph to a Word document.
 
+
 ## Add a paragraph to a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/post/{nodePath}/paragraphs |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/post/{nodePath}/paragraphs` |
 
 , where:
 

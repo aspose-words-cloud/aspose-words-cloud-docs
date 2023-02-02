@@ -1,6 +1,5 @@
 ﻿---
-title: "Render a DrawingObject as an image"
-second_title: " online"
+title: "Render a DrawingObject as an image online"
 articleTitle: "Render a DrawingObject as an image"
 linktitle: "Render a DrawingObject as an image"
 type: docs
@@ -11,11 +10,12 @@ weight: 40
 
 Renders a `DrawingObject` as an image.
 
+
 ## Render a DrawingObject as an image REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/get/{nodePath}/drawingObjects/{index}/render |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/get/{nodePath}/drawingObjects/{index}/render` |
 
 , where:
 

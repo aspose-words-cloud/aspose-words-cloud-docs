@@ -1,6 +1,5 @@
 ﻿---
-title: "Delete a folder in Cloud Storage"
-second_title: " online"
+title: "Delete a folder in Cloud Storage online"
 articleTitle: "Delete a folder in Cloud Storage"
 linktitle: "Delete a folder in Cloud Storage"
 type: docs
@@ -11,11 +10,12 @@ weight: 50
 
 This REST API deletes a folder in Cloud Storage.
 
+
 ## Delete a folder in Cloud Storage REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | DELETE | /words/storage/folder/{path} |
+| `https://api.aspose.cloud/v4.0`  | DELETE | `/words/storage/folder/{path}` |
 
 , where:
 

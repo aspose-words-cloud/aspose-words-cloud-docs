@@ -1,6 +1,5 @@
 ﻿---
-title: "Working with Files in Cloud Storage"
-second_title: " online"
+title: "Working with Files in Cloud Storage online"
 articleTitle: "Working with Files in Cloud Storage"
 linktitle: "Files in Cloud Storage"
 type: docs
@@ -10,5 +9,6 @@ weight: 90
 ---
 
 Aspose Cloud Storage is a powerful solution that enables developers to perform a wide range of file and directory operations: create, upload, download, move, copy, and delete files and directories in the cloud.
+
 
 {{<list-children-pages>}}

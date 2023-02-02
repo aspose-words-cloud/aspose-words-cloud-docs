@@ -1,6 +1,5 @@
 ﻿---
-title: "Render parts of a Word document into an image"
-second_title: " online"
+title: "Render parts of a Word document into an image online"
 articleTitle: "Render parts of a Word document into an image"
 linktitle: "Render parts of a Word document into an image"
 type: docs

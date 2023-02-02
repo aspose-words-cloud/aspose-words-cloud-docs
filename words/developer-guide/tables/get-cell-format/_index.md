@@ -1,6 +1,5 @@
 ﻿---
-title: "Get the formatting properties of a table cell in a Word document"
-second_title: " online"
+title: "Get the formatting properties of a table cell in a Word document online"
 articleTitle: "Get the formatting properties of a table cell"
 linktitle: "Get the formatting properties of a table cell"
 type: docs
@@ -11,11 +10,12 @@ weight: 120
 
 Returns the formatting properties of a table cell in a Word document.
 
+
 ## Get the formatting properties of a table cell in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/get/{tableRowPath}/cells/{index}/cellformat |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/get/{tableRowPath}/cells/{index}/cellformat` |
 
 , where:
 

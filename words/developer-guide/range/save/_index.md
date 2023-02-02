@@ -1,6 +1,5 @@
 ﻿---
-title: "Save the specified Range as a new document"
-second_title: " online"
+title: "Save the specified Range as a new document online"
 articleTitle: "Save the specified Range as a new document"
 linktitle: "Save the specified Range as a new document"
 type: docs
@@ -11,11 +10,12 @@ weight: 20
 
 Saves the specified `Range` as a new document.
 
+
 ## Save the specified Range as a new document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/post/range/{rangeStartIdentifier}/{rangeEndIdentifier}/SaveAs |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/post/range/{rangeStartIdentifier}/{rangeEndIdentifier}/SaveAs` |
 
 , where:
 

@@ -1,6 +1,5 @@
 ﻿---
-title: "Get all Run objects in a Word document"
-second_title: " online"
+title: "Get all Run objects in a Word document online"
 articleTitle: "Get all Run objects"
 linktitle: "Get all Run objects"
 type: docs
@@ -11,11 +10,12 @@ weight: 50
 
 Returns all `Run` objects in a Word document.
 
+
 ## Get all Run objects in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/get/{paragraphPath}/runs |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/get/{paragraphPath}/runs` |
 
 , where:
 

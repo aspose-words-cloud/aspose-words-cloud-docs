@@ -1,6 +1,5 @@
 ﻿---
-title: "Working with Word document protection"
-second_title: " online"
+title: "Working with Word document protection online"
 articleTitle: "Working with Word document protection"
 linktitle: "Word document protection"
 type: docs

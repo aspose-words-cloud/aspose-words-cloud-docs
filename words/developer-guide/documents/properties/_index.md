@@ -1,6 +1,5 @@
 ﻿---
-title: "Working with document properties"
-second_title: " online"
+title: "Working with document properties online"
 articleTitle: "Working with document properties"
 linktitle: "Document properties"
 type: docs

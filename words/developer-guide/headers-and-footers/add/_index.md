@@ -1,6 +1,5 @@
 ﻿---
-title: "Insert a HeaderFooter into a Word document"
-second_title: " online"
+title: "Insert a HeaderFooter into a Word document online"
 articleTitle: "Insert a HeaderFooter"
 linktitle: "Insert a HeaderFooter"
 type: docs
@@ -11,11 +10,12 @@ weight: 10
 
 Inserts a `HeaderFooter` object into a Word document.
 
+
 ## Insert a HeaderFooter into a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/put/{sectionPath}/headersfooters |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/put/{sectionPath}/headersfooters` |
 
 , where:
 

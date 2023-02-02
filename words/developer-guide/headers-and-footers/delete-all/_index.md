@@ -1,6 +1,5 @@
 ﻿---
-title: "Delete all HeaderFooter objects from a Word document"
-second_title: " online"
+title: "Delete all HeaderFooter objects from a Word document online"
 articleTitle: "Delete all HeaderFooter objects"
 linktitle: "Delete all HeaderFooter objects"
 type: docs
@@ -11,11 +10,12 @@ weight: 30
 
 Deletes all `HeaderFooter` objects from a Word document.
 
+
 ## Delete all HeaderFooter objects from a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/delete/{sectionPath}/headersfooters |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/delete/{sectionPath}/headersfooters` |
 
 , where:
 

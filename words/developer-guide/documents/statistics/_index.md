@@ -1,6 +1,5 @@
 ﻿---
-title: "Get statistics on a Word document"
-second_title: " online"
+title: "Get statistics on a Word document online"
 articleTitle: "Get statistics on"
 linktitle: "Get statistics on"
 type: docs
@@ -11,11 +10,12 @@ weight: 40
 
 Returns statistics on a Word document.
 
+
 ## Get statistics on a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/get/statistics |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/get/statistics` |
 
 You can use the following parameters in a REST request:
 

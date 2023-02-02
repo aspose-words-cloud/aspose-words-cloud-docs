@@ -1,6 +1,5 @@
 ﻿---
-title: "Delete a property from a Word document"
-second_title: " online"
+title: "Delete a property from a Word document online"
 articleTitle: "Delete a property"
 linktitle: "Delete a property"
 type: docs
@@ -11,11 +10,12 @@ weight: 20
 
 Deletes a property from a Word document.
 
+
 ## Delete a property from a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/delete/documentProperties/{propertyName} |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/delete/documentProperties/{propertyName}` |
 
 , where:
 

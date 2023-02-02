@@ -1,6 +1,5 @@
 ﻿---
-title: "Insert a List into a Word document"
-second_title: " online"
+title: "Insert a List into a Word document online"
 articleTitle: "Insert a List"
 linktitle: "Insert a List"
 type: docs
@@ -11,11 +10,12 @@ weight: 30
 
 Inserts a `List` into a Word document.
 
+
 ## Insert a List into a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/post/lists |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/post/lists` |
 
 You can use the following parameters in a REST request:
 

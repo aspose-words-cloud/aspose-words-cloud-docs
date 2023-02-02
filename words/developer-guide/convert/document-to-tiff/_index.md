@@ -1,6 +1,5 @@
 ﻿---
-title: "Convert Word document to TIFF image format"
-second_title: " online"
+title: "Convert Word document to TIFF image format online"
 articleTitle: "Convert Word document to TIFF image format"
 linktitle: "Convert Word document to TIFF image format"
 type: docs
@@ -10,14 +9,17 @@ weight: 30
 ---
 
 Aspose.Words Cloud API includes a `SaveAsTiffOnline` method that allows developers to convert a Word document to the TIFF image format using detailed conversion settings.
+
 The TIFF (Tagged Image File Format) format is a widely used graphics format. One of the key features of the TIFF format is its ability to support multiple pages. This makes it a popular choice when working with documents such as multi-page drawings, photographs, and scanned documents. TIFF files can also be saved in a variety of color depths, including grayscale, which makes it a versatile format for a wide range of applications.
+
 Another advantage of the TIFF format is its support for lossless compression. When a TIFF image is compressed, no information is lost, and the image can be restored to its original quality. This feature makes the TIFF format ideal for archiving and editing images, as well as for high-quality printing. Compared to other image formats such as JPG and PNG, TIFF is a more suitable for printing, as it supports CMYK color model while JPG and PNG support RGB.
+
 
 ## Convert Word document to TIFF image format REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/put/saveAs/tiff |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/put/saveAs/tiff` |
 
 You can use the following parameters in a REST request:
 

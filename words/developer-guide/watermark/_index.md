@@ -1,6 +1,5 @@
 ﻿---
-title: "Working with Watermarks in a Word document"
-second_title: " online"
+title: "Working with Watermarks in a Word document online"
 articleTitle: "Working with Watermarks"
 linktitle: "Watermarks"
 type: docs

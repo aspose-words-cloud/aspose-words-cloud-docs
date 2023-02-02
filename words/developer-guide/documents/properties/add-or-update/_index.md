@@ -1,6 +1,5 @@
 ﻿---
-title: "Create a new or update an existing property in a Word document"
-second_title: " online"
+title: "Create a new or update an existing property in a Word document online"
 articleTitle: "Create a new or update an existing property"
 linktitle: "Create a new or update an existing property"
 type: docs
@@ -11,11 +10,12 @@ weight: 10
 
 Creates a new or updates an existing property in a Word document.
 
+
 ## Create a new or update an existing property in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/put/documentProperties/{propertyName} |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/put/documentProperties/{propertyName}` |
 
 , where:
 

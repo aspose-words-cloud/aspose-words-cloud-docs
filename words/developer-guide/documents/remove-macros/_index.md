@@ -1,6 +1,5 @@
 ﻿---
-title: "Remove all macros from a Word document"
-second_title: " online"
+title: "Remove all macros from a Word document online"
 articleTitle: "Remove all macros"
 linktitle: "Remove all macros"
 type: docs
@@ -11,11 +10,12 @@ weight: 60
 
 Removes all macros from a Word document.
 
+
 ## Remove all macros from a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/delete/macros |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/delete/macros` |
 
 You can use the following parameters in a REST request:
 

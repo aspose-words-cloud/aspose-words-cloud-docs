@@ -1,6 +1,5 @@
 ﻿---
-title: "Apply a style to an element in a Word document."
-second_title: " online"
+title: "Apply a style to an element in a Word document. online"
 articleTitle: "Apply a style to an element in a Word document."
 linktitle: "Apply a style to an element in a Word document."
 type: docs
@@ -11,11 +10,12 @@ weight: 10
 
 Applies a style to an element in a Word document.
 
+
 ## Apply a style to an element in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/put/{styledNodePath}/style |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/put/{styledNodePath}/style` |
 
 , where:
 

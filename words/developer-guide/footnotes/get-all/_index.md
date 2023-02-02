@@ -1,6 +1,5 @@
 ﻿---
-title: "Get all footnotes from a Word document"
-second_title: " online"
+title: "Get all footnotes from a Word document online"
 articleTitle: "Get all footnotes"
 linktitle: "Get all footnotes"
 type: docs
@@ -11,11 +10,12 @@ weight: 30
 
 This REST API returns all footnotes from a Word document.
 
+
 ## Get all footnotes from a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/get/{nodePath}/footnotes |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/get/{nodePath}/footnotes` |
 
 , where:
 

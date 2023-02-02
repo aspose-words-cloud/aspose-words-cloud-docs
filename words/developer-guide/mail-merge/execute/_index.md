@@ -1,6 +1,5 @@
 ﻿---
-title: "Execute Mail Merge online"
-second_title: " online"
+title: "Execute Mail Merge online online"
 articleTitle: "Execute Mail Merge online"
 linktitle: "Execute Mail Merge online"
 type: docs
@@ -11,11 +10,12 @@ weight: 10
 
 Executes Mail Merge operation.
 
+
 ## Execute Mail Merge online REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/MailMerge |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/MailMerge` |
 
 You can use the following parameters in a REST request:
 

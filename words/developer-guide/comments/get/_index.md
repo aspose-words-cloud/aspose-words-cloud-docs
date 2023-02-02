@@ -1,6 +1,5 @@
 ﻿---
-title: "Get a comment in a Word document"
-second_title: " online"
+title: "Get a comment in a Word document online"
 articleTitle: "Get a comment"
 linktitle: "Get a comment"
 type: docs
@@ -9,13 +8,14 @@ description: "Get a comment in a Word document programmatically via Cloud API."
 weight: 30
 ---
 
-This REST API returns a specific comment by its index. It takes the document file and the comment index as inputs and returns a comment object containing the comment text and location in the document.
+This REST API returns a specific comment by its index.
+
 
 ## Get a comment in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/get/comments/{commentIndex} |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/get/comments/{commentIndex}` |
 
 , where:
 

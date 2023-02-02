@@ -1,6 +1,5 @@
 ﻿---
-title: "Working with DrawingObjects"
-second_title: " online"
+title: "Working with DrawingObjects online"
 articleTitle: "Working with DrawingObjects"
 linktitle: "DrawingObjects"
 type: docs

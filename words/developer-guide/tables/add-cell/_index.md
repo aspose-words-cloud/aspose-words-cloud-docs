@@ -1,6 +1,5 @@
 ﻿---
-title: "Insert a cell into a given row of a table in a Word document"
-second_title: " online"
+title: "Insert a cell into a given row of a table in a Word document online"
 articleTitle: "Insert a cell into a given row of a table"
 linktitle: "Insert a cell into a given row of a table"
 type: docs
@@ -11,11 +10,12 @@ weight: 20
 
 Inserts a new cell into a given row of a table in a Word document.
 
+
 ## Insert a cell into a given row of a table in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/post/{tableRowPath}/cells |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/post/{tableRowPath}/cells` |
 
 , where:
 

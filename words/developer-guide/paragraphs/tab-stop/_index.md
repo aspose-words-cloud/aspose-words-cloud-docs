@@ -1,6 +1,5 @@
 ﻿---
-title: "Working with paragraph tab stops in a Word document"
-second_title: " online"
+title: "Working with paragraph tab stops in a Word document online"
 articleTitle: "Working with paragraph tab stops"
 linktitle: "Paragraph tab stops"
 type: docs

@@ -1,6 +1,5 @@
 ﻿---
-title: "Get a Header/Footer of a Section"
-second_title: " online"
+title: "Get a Header/Footer of a Section online"
 articleTitle: "Get a Header/Footer of a Section"
 linktitle: "Get a Header/Footer of a Section"
 type: docs
@@ -11,11 +10,12 @@ weight: 41
 
 Returns a HeaderFooter object from the document section.
 
+
 ## Get a Header/Footer of a Section REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/get/sections/{sectionIndex}/headersfooters/{headerFooterIndex} |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/get/sections/{sectionIndex}/headersfooters/{headerFooterIndex}` |
 
 , where:
 

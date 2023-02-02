@@ -1,6 +1,5 @@
 ﻿---
-title: "Insert a style for an element in a Word document"
-second_title: " online"
+title: "Insert a style for an element in a Word document online"
 articleTitle: "Insert a style for an element"
 linktitle: "Insert a style for an element"
 type: docs
@@ -11,11 +10,12 @@ weight: 50
 
 Inserts a style for an element in a Word document.
 
+
 ## Insert a style for an element in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/post/styles/insert |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/post/styles/insert` |
 
 You can use the following parameters in a REST request:
 

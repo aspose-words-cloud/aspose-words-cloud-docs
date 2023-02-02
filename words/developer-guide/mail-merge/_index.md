@@ -1,6 +1,5 @@
 ﻿---
-title: "Working with Mail Merge feature in a Word document"
-second_title: " online"
+title: "Working with Mail Merge feature in a Word document online"
 articleTitle: "Working with Mail Merge feature"
 linktitle: "Mail Merge feature"
 type: docs

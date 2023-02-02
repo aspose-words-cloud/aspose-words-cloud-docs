@@ -1,6 +1,5 @@
 ﻿---
-title: "Get the formatting properties of a paragraph in a Word document"
-second_title: " online"
+title: "Get the formatting properties of a paragraph in a Word document online"
 articleTitle: "Get the formatting properties of a paragraph"
 linktitle: "Get the formatting properties of a paragraph"
 type: docs
@@ -11,11 +10,12 @@ weight: 60
 
 Returns the formatting properties of a paragraph in a Word document node.
 
+
 ## Get the formatting properties of a paragraph in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/get/{nodePath}/paragraphs/{index}/format |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/get/{nodePath}/paragraphs/{index}/format` |
 
 , where:
 

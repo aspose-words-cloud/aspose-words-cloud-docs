@@ -1,6 +1,5 @@
 ﻿---
-title: "Get all headers/footers in a Word document"
-second_title: " online"
+title: "Get all headers/footers in a Word document online"
 articleTitle: "Get all headers/footers"
 linktitle: "Get all headers/footers"
 type: docs
@@ -11,11 +10,12 @@ weight: 50
 
 Returns HeaderFooter objects from the document section.
 
+
 ## Get all headers/footers in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/get/{sectionPath}/headersfooters |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/get/{sectionPath}/headersfooters` |
 
 , where:
 

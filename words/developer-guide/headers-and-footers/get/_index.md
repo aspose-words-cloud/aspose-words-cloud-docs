@@ -1,6 +1,5 @@
 ﻿---
-title: "Get a HeaderFooter in a Word document"
-second_title: " online"
+title: "Get a HeaderFooter in a Word document online"
 articleTitle: "Get a HeaderFooter"
 linktitle: "Get a HeaderFooter"
 type: docs
@@ -11,11 +10,12 @@ weight: 40
 
 Returns a `HeaderFooter` in a Word document.
 
+
 ## Get a HeaderFooter in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/get/headersfooters/{headerFooterIndex} |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/get/headersfooters/{headerFooterIndex}` |
 
 , where:
 

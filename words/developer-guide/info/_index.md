@@ -1,6 +1,5 @@
 ﻿---
-title: "Retrieve information about the application"
-second_title: " online"
+title: "Retrieve information about the application online"
 articleTitle: "Retrieve information about the application"
 linktitle: "Retrieve information about the application"
 type: docs
@@ -10,13 +9,15 @@ weight: 8
 ---
 
 Aspose.Words REST API includes a `GetInfo` method that allows developers to retrieve information about the application, such as the version number and build date.
+
 This method can be useful for troubleshooting and for keeping track of which version of the application is in use. It can also be used to verify that the application is up-to-date.
+
 
 ## Retrieve information about the application REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | GET    | /words/info   |
+| `https://api.aspose.cloud/v4.0`  | GET    | `/words/info` |
 
 {{% alert style="info" %}}
 **Note**: to access this REST API, you need to register and get personal credentials. Use the '[Quick Start](/words/getting-started/quickstart/)' guide to go through the procedure in a couple of minutes.

@@ -1,6 +1,5 @@
 ﻿---
-title: "Get an OfficeMath object in a Word document"
-second_title: " online"
+title: "Get an OfficeMath object in a Word document online"
 articleTitle: "Get an OfficeMath object"
 linktitle: "Get an OfficeMath object"
 type: docs
@@ -11,11 +10,12 @@ weight: 10
 
 Returns an `OfficeMath` object in a Word document.
 
+
 ## Get an OfficeMath object in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/get/{nodePath}/OfficeMathObjects/{index} |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/get/{nodePath}/OfficeMathObjects/{index}` |
 
 , where:
 

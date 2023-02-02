@@ -1,6 +1,5 @@
 ﻿---
-title: "Get all sections in a Word document"
-second_title: " online"
+title: "Get all sections in a Word document online"
 articleTitle: "Get all sections"
 linktitle: "Get all sections"
 type: docs
@@ -11,11 +10,12 @@ weight: 10
 
 Returns all sections in a Word document.
 
+
 ## Get all sections in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/get/sections |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/get/sections` |
 
 You can use the following parameters in a REST request:
 

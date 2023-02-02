@@ -1,6 +1,5 @@
 ﻿---
-title: "Get embedded OLE data from a DrawingObject in a Word document"
-second_title: " online"
+title: "Get embedded OLE data from a DrawingObject in a Word document online"
 articleTitle: "Get embedded OLE data from a DrawingObject"
 linktitle: "Get embedded OLE data from a DrawingObject"
 type: docs
@@ -11,11 +10,12 @@ weight: 60
 
 Returns embedded `OLE` data from a `DrawingObject` in a Word document.
 
+
 ## Get embedded OLE data from a DrawingObject in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/get/{nodePath}/drawingObjects/{index}/oleData |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/get/{nodePath}/drawingObjects/{index}/oleData` |
 
 , where:
 

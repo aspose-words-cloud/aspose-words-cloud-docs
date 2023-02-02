@@ -1,6 +1,5 @@
 ﻿---
-title: "Get all FormFields in a Word document"
-second_title: " online"
+title: "Get all FormFields in a Word document online"
 articleTitle: "Get all FormFields"
 linktitle: "Get all FormFields"
 type: docs
@@ -11,11 +10,12 @@ weight: 20
 
 This REST API returns all `FormFields` in a Word document.
 
+
 ## Get all FormFields in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/get/{nodePath}/formfields |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/get/{nodePath}/formfields` |
 
 , where:
 

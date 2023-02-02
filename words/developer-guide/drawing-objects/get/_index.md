@@ -1,6 +1,5 @@
 ﻿---
-title: "Get a DrawingObject in a Word document"
-second_title: " online"
+title: "Get a DrawingObject in a Word document online"
 articleTitle: "Get a DrawingObject"
 linktitle: "Get a DrawingObject"
 type: docs
@@ -11,11 +10,12 @@ weight: 30
 
 Returns a `DrawingObject` in a Word document.
 
+
 ## Get a DrawingObject in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/get/{nodePath}/drawingObjects/{index} |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/get/{nodePath}/drawingObjects/{index}` |
 
 , where:
 

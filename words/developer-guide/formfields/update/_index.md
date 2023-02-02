@@ -1,6 +1,5 @@
 ﻿---
-title: "Update a FormField in a Word document"
-second_title: " online"
+title: "Update a FormField in a Word document online"
 articleTitle: "Update a FormField"
 linktitle: "Update a FormField"
 type: docs
@@ -11,11 +10,12 @@ weight: 50
 
 This REST API updates a `FormField` in a Word document.
 
+
 ## Update a FormField in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/put/{nodePath}/formfields/{index} |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/put/{nodePath}/formfields/{index}` |
 
 , where:
 

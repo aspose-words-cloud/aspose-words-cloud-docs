@@ -1,6 +1,5 @@
 ﻿---
-title: "Delete all comments from a Word document"
-second_title: " online"
+title: "Delete all comments from a Word document online"
 articleTitle: "Delete all comments"
 linktitle: "Delete all comments"
 type: docs
@@ -9,13 +8,14 @@ description: "Delete all comments from a Word document programmatically via Clou
 weight: 25
 ---
 
-This REST API deletes all comments from a Word document. It takes the document file as an input.
+This REST API deletes all comments from a Word document.
+
 
 ## Delete all comments from a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/delete/comments |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/delete/comments` |
 
 You can use the following parameters in a REST request:
 

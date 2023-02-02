@@ -1,6 +1,5 @@
 ﻿---
-title: "Remove protection from a Word document"
-second_title: " online"
+title: "Remove protection from a Word document online"
 articleTitle: "Remove protection"
 linktitle: "Remove protection"
 type: docs
@@ -11,11 +10,12 @@ weight: 30
 
 Removes protection from a Word document.
 
+
 ## Remove protection from a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/delete/protection |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/delete/protection` |
 
 You can use the following parameters in a REST request:
 
