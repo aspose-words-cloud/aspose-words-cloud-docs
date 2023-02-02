@@ -19,7 +19,7 @@ Copies all styles from the source document to the target document.
 
 , where:
 
-* **`name`** (required) - the filename of the target document.
+* **`name`** (required) — the filename of the target document.
 
 You can use the following parameters in a REST request:
 

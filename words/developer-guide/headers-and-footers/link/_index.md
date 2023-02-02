@@ -19,8 +19,8 @@ Links headers/footers of the section to the previous one.
 
 , where:
 
-* **`name`** (required) - the filename of the input document.
-* **`sectionIndex`** (required) - the index of the section.
+* **`name`** (required) — the filename of the input document.
+* **`sectionIndex`** (required) — the index of the section.
 
 You can use the following parameters in a REST request:
 

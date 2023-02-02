@@ -19,8 +19,8 @@ Updates the level of a List element in the document.
 
 , where:
 
-* **`listId`** (required) - the list Id.
-* **`listLevel`** (required) - the list level.
+* **`listId`** (required) — the list Id.
+* **`listLevel`** (required) — the list level.
 
 You can use the following parameters in a REST request:
 

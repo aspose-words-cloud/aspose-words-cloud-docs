@@ -19,8 +19,8 @@ Replaces a `Range` with text in a Word document.
 
 , where:
 
-* **`rangeStartIdentifier`** (required) - the range start identifier.
-* `rangeEndIdentifier` - the range end identifier.
+* **`rangeStartIdentifier`** (required) — the range start identifier.
+* `rangeEndIdentifier` — the range end identifier.
 
 You can use the following parameters in a REST request:
 

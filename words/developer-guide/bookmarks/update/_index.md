@@ -19,7 +19,7 @@ This REST API updates a bookmark by its name in a Word document.
 
 , where:
 
-* **`bookmarkName`** (required) - the name of the bookmark.
+* **`bookmarkName`** (required) — the name of the bookmark.
 
 You can use the following parameters in a REST request:
 

@@ -19,7 +19,7 @@ Returns a document property.
 
 , where:
 
-* **`propertyName`** (required) - the name of the property.
+* **`propertyName`** (required) — the name of the property.
 
 You can use the following parameters in a REST request:
 

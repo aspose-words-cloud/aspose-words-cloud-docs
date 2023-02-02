@@ -19,7 +19,7 @@ Returns the page settings of a Section in a Word document.
 
 , where:
 
-* **`sectionIndex`** (required) - the index of the section.
+* **`sectionIndex`** (required) — the index of the section.
 
 You can use the following parameters in a REST request:
 

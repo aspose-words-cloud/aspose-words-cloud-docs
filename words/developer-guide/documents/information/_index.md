@@ -19,7 +19,7 @@ Get general information about a Word document.
 
 , where:
 
-* **`documentName`** (required) - the filename of the input document.
+* **`documentName`** (required) — the filename of the input document.
 
 You can use the following parameters in a REST request:
 

@@ -19,7 +19,7 @@ Returns HeaderFooter objects from the document section.
 
 , where:
 
-* **`sectionPath`** (required) - the path to the section in the document tree.
+* **`sectionPath`** (required) — the path to the section in the document tree.
 
 You can use the following parameters in a REST request:
 

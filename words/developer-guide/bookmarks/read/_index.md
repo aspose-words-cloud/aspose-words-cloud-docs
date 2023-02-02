@@ -19,7 +19,7 @@ This REST API returns a bookmark specified by its name.
 
 , where:
 
-* **`bookmarkName`** (required) - the name of the bookmark.
+* **`bookmarkName`** (required) — the name of the bookmark.
 
 You can use the following parameters in a REST request:
 

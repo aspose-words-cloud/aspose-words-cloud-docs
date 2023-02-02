@@ -19,7 +19,7 @@ Deletes a section from a Word document.
 
 , where:
 
-* **`sectionIndex`** (required) - the index of the section.
+* **`sectionIndex`** (required) — the index of the section.
 
 You can use the following parameters in a REST request:
 

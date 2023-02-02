@@ -19,7 +19,7 @@ Updates a `CustomXmlPart` in a Word document.
 
 , where:
 
-* **`customXmlPartIndex`** (required) - the index of the custom xml part. This index is the number of the entry in the collection of custom xml parts, not the ID of the part.
+* **`customXmlPartIndex`** (required) — the index of the custom xml part. This index is the number of the entry in the collection of custom xml parts, not the ID of the part.
 
 You can use the following parameters in a REST request:
 

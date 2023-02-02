@@ -19,7 +19,7 @@ Returns a `HeaderFooter` in a Word document.
 
 , where:
 
-* **`headerFooterIndex`** (required) - the index of the HeaderFooter object.
+* **`headerFooterIndex`** (required) — the index of the HeaderFooter object.
 
 You can use the following parameters in a REST request:
 

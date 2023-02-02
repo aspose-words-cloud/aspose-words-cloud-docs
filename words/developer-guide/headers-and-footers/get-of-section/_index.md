@@ -19,8 +19,8 @@ Returns a HeaderFooter object from the document section.
 
 , where:
 
-* **`headerFooterIndex`** (required) - the index of the HeaderFooter object.
-* **`sectionIndex`** (required) - the index of the section.
+* **`headerFooterIndex`** (required) — the index of the HeaderFooter object.
+* **`sectionIndex`** (required) — the index of the section.
 
 You can use the following parameters in a REST request:
 

@@ -19,7 +19,7 @@ This REST API downloads a file from Cloud Storage.
 
 , where:
 
-* **`path`** (required) - path of the file including the file name and extension e.g. /folder1/file.ext
+* **`path`** (required) — path of the file including the file name and extension e.g. /folder1/file.ext
 
 You can use the following parameters in a REST request:
 

@@ -19,7 +19,7 @@ Deletes all `HeaderFooter` objects from a Word document.
 
 , where:
 
-* **`sectionPath`** (required) - the path to the section in the document tree.
+* **`sectionPath`** (required) — the path to the section in the document tree.
 
 You can use the following parameters in a REST request:
 

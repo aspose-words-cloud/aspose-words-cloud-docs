@@ -19,7 +19,7 @@ This REST API creates a folder in Cloud Storage.
 
 , where:
 
-* **`path`** (required) - target folder's path e.g. Folder1/Folder2/. The folders will be created recursively
+* **`path`** (required) — target folder's path e.g. Folder1/Folder2/. The folders will be created recursively
 
 You can use the following parameters in a REST request:
 

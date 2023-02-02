@@ -19,7 +19,7 @@ Converts a document to the specified format.
 
 , where:
 
-* **`name`** (required) - the filename of the input document.
+* **`name`** (required) — the filename of the input document.
 
 You can use the following parameters in a REST request:
 

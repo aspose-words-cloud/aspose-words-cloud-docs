@@ -19,7 +19,7 @@ This REST API uploads a file to Cloud Storage.
 
 , where:
 
-* **`path`** (required) - path where to upload including filename and extension e.g. /file.ext or /Folder 1/file.ext
+* **`path`** (required) — path where to upload including filename and extension e.g. /file.ext or /Folder 1/file.ext
             If the content is multipart and path does not contains the file name it tries to get them from filename parameter
             from Content-Disposition header.
             

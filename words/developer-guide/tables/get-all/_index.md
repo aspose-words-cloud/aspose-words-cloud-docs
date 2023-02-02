@@ -19,7 +19,7 @@ Returns all tables in a Word document.
 
 , where:
 
-* **`nodePath`** (required) - the path to the node in the document tree.
+* **`nodePath`** (required) — the path to the node in the document tree.
 
 You can use the following parameters in a REST request:
 

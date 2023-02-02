@@ -19,7 +19,7 @@ Updates the style of an element in a Word document.
 
 , where:
 
-* **`styleName`** (required) - the name of the style.
+* **`styleName`** (required) — the name of the style.
 
 You can use the following parameters in a REST request:
 

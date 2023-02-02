@@ -19,8 +19,8 @@ Returns embedded `OLE` data from a `DrawingObject` in a Word document.
 
 , where:
 
-* **`nodePath`** (required) - the path to the node in the document tree.
-* **`index`** (required) - object index.
+* **`nodePath`** (required) — the path to the node in the document tree.
+* **`index`** (required) — object index.
 
 You can use the following parameters in a REST request:
 

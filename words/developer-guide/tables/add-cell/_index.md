@@ -19,7 +19,7 @@ Inserts a new cell into a given row of a table in a Word document.
 
 , where:
 
-* **`tableRowPath`** (required) - the path to the table row in the document tree.
+* **`tableRowPath`** (required) — the path to the table row in the document tree.
 
 You can use the following parameters in a REST request:
 

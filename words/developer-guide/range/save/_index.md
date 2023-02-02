@@ -19,8 +19,8 @@ Saves the specified `Range` as a new document.
 
 , where:
 
-* **`rangeStartIdentifier`** (required) - the range start identifier.
-* `rangeEndIdentifier` - the range end identifier.
+* **`rangeStartIdentifier`** (required) — the range start identifier.
+* `rangeEndIdentifier` — the range end identifier.
 
 You can use the following parameters in a REST request:
 

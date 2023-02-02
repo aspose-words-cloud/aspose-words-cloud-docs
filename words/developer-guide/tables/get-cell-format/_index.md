@@ -19,8 +19,8 @@ Returns the formatting properties of a table cell in a Word document.
 
 , where:
 
-* **`tableRowPath`** (required) - the path to the table row in the document tree.
-* **`index`** (required) - object index.
+* **`tableRowPath`** (required) — the path to the table row in the document tree.
+* **`index`** (required) — object index.
 
 You can use the following parameters in a REST request:
 

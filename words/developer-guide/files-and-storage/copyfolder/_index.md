@@ -19,7 +19,7 @@ This REST API copies a folder to a new location in Cloud Storage.
 
 , where:
 
-* **`srcPath`** (required) - source folder path e.g. /Folder1
+* **`srcPath`** (required) — source folder path e.g. /Folder1
 
 You can use the following parameters in a REST request:
 

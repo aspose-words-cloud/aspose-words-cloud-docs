@@ -19,7 +19,7 @@ This REST API returns a list of files from a folder in Cloud Storage.
 
 , where:
 
-* **`path`** (required) - folder path e.g. '/folder'
+* **`path`** (required) — folder path e.g. '/folder'
 
 You can use the following parameters in a REST request:
 

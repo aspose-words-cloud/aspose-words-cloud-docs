@@ -19,8 +19,8 @@ Deletes a `HeaderFooter` object from a Word document.
 
 , where:
 
-* **`sectionPath`** (required) - the path to the section in the document tree.
-* **`index`** (required) - object index.
+* **`sectionPath`** (required) — the path to the section in the document tree.
+* **`index`** (required) — object index.
 
 You can use the following parameters in a REST request:
 

@@ -19,7 +19,7 @@ Returns all `Run` objects in a Word document.
 
 , where:
 
-* **`paragraphPath`** (required) - the path to the paragraph in the document tree.
+* **`paragraphPath`** (required) — the path to the paragraph in the document tree.
 
 You can use the following parameters in a REST request:
 

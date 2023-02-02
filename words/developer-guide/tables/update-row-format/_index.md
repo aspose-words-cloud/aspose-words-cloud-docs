@@ -19,8 +19,8 @@ Updates the formatting properties of a table row in a Word document.
 
 , where:
 
-* **`tablePath`** (required) - the path to the table in the document tree.
-* **`index`** (required) - object index.
+* **`tablePath`** (required) — the path to the table in the document tree.
+* **`index`** (required) — object index.
 
 You can use the following parameters in a REST request:
 

@@ -19,7 +19,7 @@ Returns a hyperlink in a Word document.
 
 , where:
 
-* **`hyperlinkIndex`** (required) - the index of the hyperlink.
+* **`hyperlinkIndex`** (required) — the index of the hyperlink.
 
 You can use the following parameters in a REST request:
 

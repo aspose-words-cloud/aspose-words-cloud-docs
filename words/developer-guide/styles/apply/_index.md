@@ -19,7 +19,7 @@ Applies a style to an element in a Word document.
 
 , where:
 
-* **`styledNodePath`** (required) - the path to the node in the document tree, that supports styles: ParagraphFormat, List, ListLevel, Table.
+* **`styledNodePath`** (required) — the path to the node in the document tree, that supports styles: ParagraphFormat, List, ListLevel, Table.
 
 You can use the following parameters in a REST request:
 

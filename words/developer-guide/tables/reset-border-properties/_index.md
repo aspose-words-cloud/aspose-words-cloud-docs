@@ -19,8 +19,8 @@ Resets border properties of a table in a Word document.
 
 , where:
 
-* **`nodePath`** (required) - the path to the node in the document tree.
-* **`borderType`** (required) - border type.
+* **`nodePath`** (required) — the path to the node in the document tree.
+* **`borderType`** (required) — border type.
 
 You can use the following parameters in a REST request:
 

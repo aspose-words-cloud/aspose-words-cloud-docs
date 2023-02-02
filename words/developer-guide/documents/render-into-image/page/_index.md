@@ -19,7 +19,7 @@ Renders a Word document page as an image.
 
 , where:
 
-* **`pageIndex`** (required) - the index of the page.
+* **`pageIndex`** (required) — the index of the page.
 
 You can use the following parameters in a REST request:
 

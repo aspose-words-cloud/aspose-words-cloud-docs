@@ -19,8 +19,8 @@ Update properties of a `Run` object in a Word document.
 
 , where:
 
-* **`paragraphPath`** (required) - the path to the paragraph in the document tree.
-* **`index`** (required) - object index.
+* **`paragraphPath`** (required) — the path to the paragraph in the document tree.
+* **`index`** (required) — object index.
 
 You can use the following parameters in a REST request:
 

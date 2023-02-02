@@ -19,7 +19,7 @@ This REST API copies a file to a new location in Cloud Storage.
 
 , where:
 
-* **`srcPath`** (required) - source file's path e.g. '/Folder 1/file.ext' or '/Bucket/Folder 1/file.ext'
+* **`srcPath`** (required) — source file's path e.g. '/Folder 1/file.ext' or '/Bucket/Folder 1/file.ext'
 
 You can use the following parameters in a REST request:
 

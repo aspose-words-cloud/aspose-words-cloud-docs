@@ -19,7 +19,7 @@ This REST API deletes a comment from a Word document.
 
 , where:
 
-* **`commentIndex`** (required) - the index of the comment.
+* **`commentIndex`** (required) — the index of the comment.
 
 You can use the following parameters in a REST request:
 

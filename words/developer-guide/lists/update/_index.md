@@ -19,7 +19,7 @@ Updates a List in the document.
 
 , where:
 
-* **`listId`** (required) - the list Id.
+* **`listId`** (required) — the list Id.
 
 You can use the following parameters in a REST request:
 
