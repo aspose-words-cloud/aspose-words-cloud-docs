@@ -1,20 +1,21 @@
 ﻿---
-title: "Get Styles from Document"
-second_title: "Aspose Words Cloud Docs"
+title: "Get all styles in a Word document online"
+articleTitle: "Get all styles"
+linktitle: "Get all styles"
 type: docs
 url: /styles/get-all/
-aliases: [/get-styles-from-document/]
-description: "Get styles in a Word document"
+description: "Get all styles in a Word document programmatically via Cloud API."
 weight: 40
 ---
 
-Reads styles from the document.
+Returns all styles in a Word document.
 
-## Get styles in Word document REST API
+
+## Get all styles in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/get/styles |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/get/styles` |
 
 You can use the following parameters in a REST request:
 
@@ -36,11 +37,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Get styles in Word document usage examples
+## Get all styles in a Word document usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to get styles in Word document with cURL or Postman
+### How to get all styles in a Word document with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -62,7 +63,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to get styles in Word document in Python, Java, C#, C++, JavaScript and other programming languages
+### How to get all styles in a Word document in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

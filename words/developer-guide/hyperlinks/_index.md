@@ -1,10 +1,11 @@
 ﻿---
-title: "Hyperlinks"
-second_title: "Aspose Words Cloud Docs"
+title: "Working with Hyperlinks in a Word document online"
+articleTitle: "Working with Hyperlinks"
+linktitle: "Hyperlinks"
 type: docs
 url: /hyperlinks/
-aliases: [/working-with-hyperlinks/]
-description: "Work with hyperlinks in a Word document"
+description: "Insert, edit, delete Hyperlinks in a Word document programmatically via Cloud API."
 weight: 140
 ---
 
+{{<list-children-pages>}}

@@ -1,20 +1,21 @@
 ﻿---
-title: "Delete comments"
-second_title: "Aspose Words Cloud Docs"
+title: "Delete all comments from a Word document online"
+articleTitle: "Delete all comments"
+linktitle: "Delete all comments"
 type: docs
 url: /comments/delete-all/
-aliases: [/delete-all-comment-from-a-word-document/]
-description: "Delete all comments from a Word document"
+description: "Delete all comments from a Word document programmatically via Cloud API."
 weight: 25
 ---
 
-Removes all comments from the document.
+This REST API deletes all comments from a Word document.
 
-## Delete all comments from Word document REST API
+
+## Delete all comments from a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/delete/comments |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/delete/comments` |
 
 You can use the following parameters in a REST request:
 
@@ -39,11 +40,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Delete all comments from Word document usage examples
+## Delete all comments from a Word document usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to delete all comments from Word document with cURL or Postman
+### How to delete all comments from a Word document with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -65,7 +66,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to delete all comments from Word document in Python, Java, C#, C++, JavaScript and other programming languages
+### How to delete all comments from a Word document in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

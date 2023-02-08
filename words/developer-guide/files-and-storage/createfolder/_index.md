@@ -1,22 +1,25 @@
 ﻿---
-title: "Create a Folder"
+title: "Create a folder in Cloud Storage online"
+articleTitle: "Create a folder in Cloud Storage"
+linktitle: "Create a folder in Cloud Storage"
 type: docs
 url: /files-and-storage/create-folder/
-description: "Create a folder in Cloud Storage"
+description: "Create a folder in Cloud Storage programmatically via Cloud API."
 weight: 30
 ---
 
-Create the folder
+This REST API creates a folder in Cloud Storage.
 
-## Create folder in Cloud Storage REST API
+
+## Create a folder in Cloud Storage REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/storage/folder/{path} |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/storage/folder/{path}` |
 
 , where:
 
-* **`path`** (required) - target folder's path e.g. Folder1/Folder2/. The folders will be created recursively
+* **`path`** (required) — target folder's path e.g. Folder1/Folder2/. The folders will be created recursively
 
 You can use the following parameters in a REST request:
 
@@ -29,11 +32,11 @@ You can use the following parameters in a REST request:
 {{% /alert %}}
 
 
-## Create folder in Cloud Storage usage examples
+## Create a folder in Cloud Storage usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to create folder in Cloud Storage with cURL or Postman
+### How to create a folder in Cloud Storage with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -55,7 +58,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to create folder in Cloud Storage in Python, Java, C#, C++, JavaScript and other programming languages
+### How to create a folder in Cloud Storage in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

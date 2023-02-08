@@ -1,29 +1,34 @@
 ﻿---
-title: "Get assymetric public key"
+title: "Get asymmetric public key online"
+articleTitle: "Get asymmetric public key"
+linktitle: "Get asymmetric public key"
 type: docs
 url: /publickey/
-description: "Get assymetric public key."
+description: "Get asymmetric public key programmatically via Cloud API."
 weight: 7
 ---
 
-Get assymetric public key.
+Aspose.Words REST API includes a `GetPublicKey` method that allows developers to retrieve the public key for an asymmetric encryption algorithm. The public key is returned in the form of a string, which can then be used to encrypt data.
 
-## Get assymetric public key REST API
+Asymmetric encryption uses two different keys, a public key and a private key. The public key can be shared with anyone and is used to encrypt data, while the private key is kept secret and is used to decrypt data.
+
+
+## Get asymmetric public key REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | GET    | /words/encryption/publickey |
+| `https://api.aspose.cloud/v4.0`  | GET    | `/words/encryption/publickey` |
 
 {{% alert style="info" %}}
 **Note**: to access this REST API, you need to register and get personal credentials. Use the '[Quick Start](/words/getting-started/quickstart/)' guide to go through the procedure in a couple of minutes.
 {{% /alert %}}
 
 
-## Get assymetric public key usage examples
+## Get asymmetric public key usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to get assymetric public key with cURL or Postman
+### How to get asymmetric public key with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -45,7 +50,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to get assymetric public key in Python, Java, C#, C++, JavaScript and other programming languages
+### How to get asymmetric public key in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

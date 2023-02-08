@@ -1,22 +1,25 @@
 ﻿---
-title: "Delete a Folder"
+title: "Delete a folder in Cloud Storage online"
+articleTitle: "Delete a folder in Cloud Storage"
+linktitle: "Delete a folder in Cloud Storage"
 type: docs
 url: /files-and-storage/delete-folder/
-description: "Delete a folder in Cloud Storage"
+description: "Delete a folder in Cloud Storage programmatically via Cloud API."
 weight: 50
 ---
 
-Delete folder
+This REST API deletes a folder in Cloud Storage.
 
-## Delete folder in Cloud Storage REST API
+
+## Delete a folder in Cloud Storage REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | DELETE | /words/storage/folder/{path} |
+| `https://api.aspose.cloud/v4.0`  | DELETE | `/words/storage/folder/{path}` |
 
 , where:
 
-* **`path`** (required) - folder path e.g. '/folder'
+* **`path`** (required) — folder path e.g. '/folder'
 
 You can use the following parameters in a REST request:
 
@@ -30,11 +33,11 @@ You can use the following parameters in a REST request:
 {{% /alert %}}
 
 
-## Delete folder in Cloud Storage usage examples
+## Delete a folder in Cloud Storage usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to delete folder in Cloud Storage with cURL or Postman
+### How to delete a folder in Cloud Storage with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -56,7 +59,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to delete folder in Cloud Storage in Python, Java, C#, C++, JavaScript and other programming languages
+### How to delete a folder in Cloud Storage in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

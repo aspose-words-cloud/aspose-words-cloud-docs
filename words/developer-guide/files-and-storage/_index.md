@@ -1,10 +1,14 @@
 ﻿---
-title: "Files and Storage"
-second_title: "Aspose Words Cloud"
+title: "Working with Files in Cloud Storage online"
+articleTitle: "Working with Files in Cloud Storage"
+linktitle: "Files in Cloud Storage"
 type: docs
 url: /files-and-storage/
-aliases: [/working-with-files-and-storage-using-aspose-words-cloud/]
-description: "Work with Aspose Words Cloud file storage"
+description: "Insert, edit, delete Files in Cloud Storage programmatically via Cloud API."
 weight: 90
 ---
 
+Aspose Cloud Storage is a powerful solution that enables developers to perform a wide range of file and directory operations: create, upload, download, move, copy, and delete files and directories in the cloud.
+
+
+{{<list-children-pages>}}

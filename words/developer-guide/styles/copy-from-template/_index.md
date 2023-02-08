@@ -1,23 +1,25 @@
 ﻿---
-title: "Copy a style from template"
-second_title: "Aspose Words Cloud Docs"
+title: "Copy all styles from the source document to the target document online"
+articleTitle: "Copy all styles from the source document to the target document"
+linktitle: "Copy all styles from the source document to the target document"
 type: docs
 url: /styles/copy-from-template/
-description: "Copy a style from template"
+description: "Copy all styles from the source document to the target document programmatically via Cloud API."
 weight: 21
 ---
 
-Copies styles from the origin document to the target document.
+Copies all styles from the source document to the target document.
 
-## Copy style from template REST API
+
+## Copy all styles from the source document to the target document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/{name}/styles/copy_from |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/{name}/styles/copy_from` |
 
 , where:
 
-* **`name`** (required) - the filename of the target document.
+* **`name`** (required) — the filename of the target document.
 
 You can use the following parameters in a REST request:
 
@@ -38,11 +40,11 @@ You can use the following parameters in a REST request:
 {{% /alert %}}
 
 
-## Copy style from template usage examples
+## Copy all styles from the source document to the target document usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to copy style from template with cURL or Postman
+### How to copy all styles from the source document to the target document with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -64,7 +66,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to copy style from template in Python, Java, C#, C++, JavaScript and other programming languages
+### How to copy all styles from the source document to the target document in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

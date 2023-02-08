@@ -1,20 +1,21 @@
 ﻿---
-title: "Copy Style from Document Element"
-second_title: "Aspose Words Cloud Docs"
+title: "Copy the style of the specified Word document element online"
+articleTitle: "Copy the style of the specified Word document element"
+linktitle: "Copy the style of the specified Word document element"
 type: docs
 url: /styles/copy/
-aliases: [/copy-style-from-document-element/]
-description: "Copy a style from an element in a Word document"
+description: "Copy the style of the specified Word document element programmatically via Cloud API."
 weight: 20
 ---
 
-Makes a copy of the style in the document.
+Copies the style of the specified Word document element.
 
-## Copy style from an element in Word document REST API
+
+## Copy the style of the specified Word document element REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/post/styles/copy |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/post/styles/copy` |
 
 You can use the following parameters in a REST request:
 
@@ -40,11 +41,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Copy style from an element in Word document usage examples
+## Copy the style of the specified Word document element usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to copy style from an element in Word document with cURL or Postman
+### How to copy the style of the specified Word document element with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -66,7 +67,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to copy style from an element in Word document in Python, Java, C#, C++, JavaScript and other programming languages
+### How to copy the style of the specified Word document element in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

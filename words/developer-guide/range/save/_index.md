@@ -1,24 +1,26 @@
 ﻿---
-title: "Save the selected range as a new document"
-second_title: "Aspose Words Cloud Docs"
+title: "Save the specified Range as a new document online"
+articleTitle: "Save the specified Range as a new document"
+linktitle: "Save the specified Range as a new document"
 type: docs
 url: /range/save/
-description: "Save the selected range as a new document"
+description: "Save the specified Range as a new document programmatically via Cloud API."
 weight: 20
 ---
 
-Saves a range as a new document.
+Saves the specified `Range` as a new document.
 
-## Save the selected range as new document REST API
+
+## Save the specified Range as a new document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/post/range/{rangeStartIdentifier}/{rangeEndIdentifier}/SaveAs |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/post/range/{rangeStartIdentifier}/{rangeEndIdentifier}/SaveAs` |
 
 , where:
 
-* **`rangeStartIdentifier`** (required) - the range start identifier.
-* `rangeEndIdentifier` - the range end identifier.
+* **`rangeStartIdentifier`** (required) — the range start identifier.
+* `rangeEndIdentifier` — the range end identifier.
 
 You can use the following parameters in a REST request:
 
@@ -41,11 +43,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Save the selected range as new document usage examples
+## Save the specified Range as a new document usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to save the selected range as new document with cURL or Postman
+### How to save the specified Range as a new document with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -67,7 +69,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to save the selected range as new document in Python, Java, C#, C++, JavaScript and other programming languages
+### How to save the specified Range as a new document in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

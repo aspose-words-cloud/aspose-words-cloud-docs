@@ -1,10 +1,11 @@
 ﻿---
-title: "Protection"
-second_title: "Aspose Words Cloud Docs"
+title: "Working with Word document protection online"
+articleTitle: "Working with Word document protection"
+linktitle: "Word document protection"
 type: docs
 url: /documents/protection/
-aliases: [/working-with-protection-in-a-word-document/]
-description: "Work with a Word document protection"
+description: "Insert, edit, delete Word document protection programmatically via Cloud API."
 weight: 50
 ---
 
+{{<list-children-pages>}}

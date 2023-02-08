@@ -1,25 +1,26 @@
 ﻿---
-title: "Update List Level"
-second_title: "Lists in a Document"
+title: "Update a list's level in a Word document online"
+articleTitle: "Update a list's level"
+linktitle: "Update a list's level"
 type: docs
 url: /lists/update-level/
-aliases: [/update-list-level-in-a-document/]
-description: "Update a list's level in a Word document"
+description: "Update a list's level in a Word document programmatically via Cloud API."
 weight: 50
 ---
 
 Updates the level of a List element in the document.
 
-## Update list's level in Word document REST API
+
+## Update a list's level in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/put/lists/{listId}/listLevels/{listLevel} |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/put/lists/{listId}/listLevels/{listLevel}` |
 
 , where:
 
-* **`listId`** (required) - the list Id.
-* **`listLevel`** (required) - the list level.
+* **`listId`** (required) — the list Id.
+* **`listLevel`** (required) — the list level.
 
 You can use the following parameters in a REST request:
 
@@ -45,11 +46,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Update list's level in Word document usage examples
+## Update a list's level in a Word document usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to update list's level in Word document with cURL or Postman
+### How to update a list's level in a Word document with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -71,7 +72,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to update list's level in Word document in Python, Java, C#, C++, JavaScript and other programming languages
+### How to update a list's level in a Word document in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

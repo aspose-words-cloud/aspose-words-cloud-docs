@@ -1,24 +1,26 @@
 ﻿---
-title: "Replaces a range with text"
-second_title: "Aspose Words Cloud Docs"
+title: "Replace a Range with text in a Word document online"
+articleTitle: "Replace a Range with text"
+linktitle: "Replace a Range with text"
 type: docs
 url: /range/replace/
-description: "Replaces a range with text in the document"
+description: "Replace a Range with text in a Word document programmatically via Cloud API."
 weight: 40
 ---
 
-Replaces a range with text in the document.
+Replaces a `Range` with text in a Word document.
 
-## Replaces range with text in the document REST API
+
+## Replace a Range with text in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/post/range/{rangeStartIdentifier}/{rangeEndIdentifier} |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/post/range/{rangeStartIdentifier}/{rangeEndIdentifier}` |
 
 , where:
 
-* **`rangeStartIdentifier`** (required) - the range start identifier.
-* `rangeEndIdentifier` - the range end identifier.
+* **`rangeStartIdentifier`** (required) — the range start identifier.
+* `rangeEndIdentifier` — the range end identifier.
 
 You can use the following parameters in a REST request:
 
@@ -42,11 +44,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Replaces range with text in the document usage examples
+## Replace a Range with text in a Word document usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to replaces range with text in the document with cURL or Postman
+### How to replace a Range with text in a Word document with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -68,7 +70,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to replaces range with text in the document in Python, Java, C#, C++, JavaScript and other programming languages
+### How to replace a Range with text in a Word document in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

@@ -1,24 +1,25 @@
 ﻿---
-title: "Update"
-second_title: "Bookmarks in a Word Document"
+title: "Update a bookmark in a Word document online"
+articleTitle: "Update a bookmark"
+linktitle: "Update a bookmark"
 type: docs
 url: /bookmarks/update/
-aliases: [/updating-the-boorkmark-text-in-a-document/]
-description: "Update bookmarks in a Word document"
+description: "Update a bookmark in a Word document programmatically via Cloud API."
 weight: 30
 ---
 
-Updates a bookmark in the document.
+This REST API updates a bookmark by its name in a Word document.
 
-## Update bookmarks in Word document REST API
+
+## Update a bookmark in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/put/bookmarks/{bookmarkName} |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/put/bookmarks/{bookmarkName}` |
 
 , where:
 
-* **`bookmarkName`** (required) - the name of the bookmark.
+* **`bookmarkName`** (required) — the name of the bookmark.
 
 You can use the following parameters in a REST request:
 
@@ -44,11 +45,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Update bookmarks in Word document usage examples
+## Update a bookmark in a Word document usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to update bookmarks in Word document with cURL or Postman
+### How to update a bookmark in a Word document with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -70,7 +71,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to update bookmarks in Word document in Python, Java, C#, C++, JavaScript and other programming languages
+### How to update a bookmark in a Word document in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

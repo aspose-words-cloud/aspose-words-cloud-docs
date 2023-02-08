@@ -1,19 +1,21 @@
 ﻿---
-title: "Execute"
-second_title: "Mail Merge"
+title: "Execute Mail Merge online online"
+articleTitle: "Execute Mail Merge online"
+linktitle: "Execute Mail Merge online"
 type: docs
 url: /mail-merge/execute/
-description: "Execute Mail Merge operation online"
+description: "Execute Mail Merge online programmatically via Cloud API."
 weight: 10
 ---
 
 Executes Mail Merge operation.
 
-## Execute Mail Merge operation online REST API
+
+## Execute Mail Merge online REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/MailMerge |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/MailMerge` |
 
 You can use the following parameters in a REST request:
 
@@ -37,11 +39,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Execute Mail Merge operation online usage examples
+## Execute Mail Merge online usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to execute Mail Merge operation online with cURL or Postman
+### How to execute Mail Merge online with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -63,7 +65,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to execute Mail Merge operation online in Python, Java, C#, C++, JavaScript and other programming languages
+### How to execute Mail Merge online in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

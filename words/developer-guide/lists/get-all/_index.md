@@ -1,20 +1,21 @@
 ﻿---
-title: "Get all"
-second_title: "Lists in a Document"
+title: "Get all Lists in a Word document online"
+articleTitle: "Get all Lists"
+linktitle: "Get all Lists"
 type: docs
 url: /lists/get-all/
-aliases: [/get-all-lists-from-document/]
-description: "Get all lists in a Word document"
+description: "Get all Lists in a Word document programmatically via Cloud API."
 weight: 20
 ---
 
-Reads lists from the document.
+Returns all Lists in a Word document.
 
-## Get all lists in Word document REST API
+
+## Get all Lists in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/get/lists |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/get/lists` |
 
 You can use the following parameters in a REST request:
 
@@ -36,11 +37,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Get all lists in Word document usage examples
+## Get all Lists in a Word document usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to get all lists in Word document with cURL or Postman
+### How to get all Lists in a Word document with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -62,7 +63,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to get all lists in Word document in Python, Java, C#, C++, JavaScript and other programming languages
+### How to get all Lists in a Word document in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

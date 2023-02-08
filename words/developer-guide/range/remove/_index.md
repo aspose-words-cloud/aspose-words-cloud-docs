@@ -1,24 +1,26 @@
 ﻿---
-title: "Remove a Range"
-second_title: "Aspose Words Cloud Docs"
+title: "Delete a Range from a Word document online"
+articleTitle: "Delete a Range"
+linktitle: "Delete a Range"
 type: docs
 url: /range/remove/
-description: "Remove a range from the document"
+description: "Delete a Range from a Word document programmatically via Cloud API."
 weight: 30
 ---
 
-Removes a range from the document.
+Deletes a `Range` object from a Word document.
 
-## Remove range from the document REST API
+
+## Delete a Range from a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/delete/range/{rangeStartIdentifier}/{rangeEndIdentifier} |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/delete/range/{rangeStartIdentifier}/{rangeEndIdentifier}` |
 
 , where:
 
-* **`rangeStartIdentifier`** (required) - the range start identifier.
-* `rangeEndIdentifier` - the range end identifier.
+* **`rangeStartIdentifier`** (required) — the range start identifier.
+* `rangeEndIdentifier` — the range end identifier.
 
 You can use the following parameters in a REST request:
 
@@ -41,11 +43,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Remove range from the document usage examples
+## Delete a Range from a Word document usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to remove range from the document with cURL or Postman
+### How to delete a Range from a Word document with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -67,7 +69,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to remove range from the document in Python, Java, C#, C++, JavaScript and other programming languages
+### How to delete a Range from a Word document in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

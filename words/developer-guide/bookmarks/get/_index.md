@@ -1,20 +1,21 @@
 ﻿---
-title: "Get"
-second_title: "Bookmarks in a Word Document"
+title: "Get all bookmarks in a Word document online"
+articleTitle: "Get all bookmarks"
+linktitle: "Get all bookmarks"
 type: docs
 url: /bookmarks/get/
-aliases: [/getting-bookmarks-from-a-document/]
-description: "Get bookmarks in a Word document"
+description: "Get all bookmarks in a Word document programmatically via Cloud API."
 weight: 10
 ---
 
-Reads bookmarks from the document.
+This REST API returns all bookmarks in a Word document.
 
-## Get bookmarks in Word document REST API
+
+## Get all bookmarks in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/get/bookmarks |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/get/bookmarks` |
 
 You can use the following parameters in a REST request:
 
@@ -36,11 +37,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Get bookmarks in Word document usage examples
+## Get all bookmarks in a Word document usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to get bookmarks in Word document with cURL or Postman
+### How to get all bookmarks in a Word document with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -62,7 +63,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to get bookmarks in Word document in Python, Java, C#, C++, JavaScript and other programming languages
+### How to get all bookmarks in a Word document in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

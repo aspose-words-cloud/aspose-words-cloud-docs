@@ -1,19 +1,21 @@
 ﻿---
-title: "Compress a Document"
-second_title: "Aspose Words Cloud Docs"
+title: "Compress a Word document online"
+articleTitle: "Compress"
+linktitle: "Compress"
 type: docs
 url: /documents/compress/
-description: "Compress and resize images inside the document"
+description: "Compress a Word document programmatically via Cloud API."
 weight: 11
 ---
 
-Compress and resize images inside the document.
+Compress and resize images inside a Word document.
 
-## Compress and resize images inside the document REST API
+
+## Compress a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/put/compress |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/put/compress` |
 
 You can use the following parameters in a REST request:
 
@@ -37,11 +39,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Compress and resize images inside the document usage examples
+## Compress a Word document usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to compress and resize images inside the document with cURL or Postman
+### How to compress a Word document with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -63,7 +65,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to compress and resize images inside the document in Python, Java, C#, C++, JavaScript and other programming languages
+### How to compress a Word document in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

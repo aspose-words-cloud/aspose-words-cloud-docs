@@ -1,20 +1,21 @@
 ﻿---
-title: "Gets the List of Fonts"
-second_title: "Aspose Words Cloud Docs"
+title: "Get all fonts in a Word document online"
+articleTitle: "Get all fonts"
+linktitle: "Get all fonts"
 type: docs
 url: /fonts/gets-the-list-of-fonts/
-aliases: [/gets-the-list-of-fonts/]
-description: "Get a list of fonts from a Word document"
+description: "Get all fonts in a Word document programmatically via Cloud API."
 weight: 10
 ---
 
-Reads available fonts from the document.
+This REST API returns all fonts in a Word document.
 
-## Get list of fonts from Word document REST API
+
+## Get all fonts in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | GET    | /words/fonts/available |
+| `https://api.aspose.cloud/v4.0`  | GET    | `/words/fonts/available` |
 
 You can use the following parameters in a REST request:
 
@@ -27,11 +28,11 @@ You can use the following parameters in a REST request:
 {{% /alert %}}
 
 
-## Get list of fonts from Word document usage examples
+## Get all fonts in a Word document usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to get list of fonts from Word document with cURL or Postman
+### How to get all fonts in a Word document with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -53,7 +54,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to get list of fonts from Word document in Python, Java, C#, C++, JavaScript and other programming languages
+### How to get all fonts in a Word document in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

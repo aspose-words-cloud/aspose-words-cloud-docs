@@ -1,22 +1,25 @@
 ﻿---
-title: "Move a File"
+title: "Move a file to a new location in Cloud Storage online"
+articleTitle: "Move a file to a new location in Cloud Storage"
+linktitle: "Move a file to a new location in Cloud Storage"
 type: docs
 url: /files-and-storage/move-file/
-description: "Move a file to a new location in Cloud Storage"
+description: "Move a file to a new location in Cloud Storage programmatically via Cloud API."
 weight: 80
 ---
 
-Move file
+This REST API moves a file to a new location in Cloud Storage.
 
-## Move file to new location in Cloud Storage REST API
+
+## Move a file to a new location in Cloud Storage REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/storage/file/move/{srcPath} |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/storage/file/move/{srcPath}` |
 
 , where:
 
-* **`srcPath`** (required) - source file's path e.g. '/Folder 1/file.ext' or '/Bucket/Folder 1/file.ext'
+* **`srcPath`** (required) — source file's path e.g. '/Folder 1/file.ext' or '/Bucket/Folder 1/file.ext'
 
 You can use the following parameters in a REST request:
 
@@ -32,11 +35,11 @@ You can use the following parameters in a REST request:
 {{% /alert %}}
 
 
-## Move file to new location in Cloud Storage usage examples
+## Move a file to a new location in Cloud Storage usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to move file to new location in Cloud Storage with cURL or Postman
+### How to move a file to a new location in Cloud Storage with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -58,7 +61,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to move file to new location in Cloud Storage in Python, Java, C#, C++, JavaScript and other programming languages
+### How to move a file to a new location in Cloud Storage in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

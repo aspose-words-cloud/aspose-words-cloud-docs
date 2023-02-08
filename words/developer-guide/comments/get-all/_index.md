@@ -1,20 +1,21 @@
 ﻿---
-title: "Get all comments"
-second_title: "Aspose Words Cloud Docs"
+title: "Get all comments in a Word document online"
+articleTitle: "Get all comments"
+linktitle: "Get all comments"
 type: docs
 url: /comments/get-all/
-aliases: [/get-all-comments-from-a-word-document/]
-description: "Get all comments from a Word document"
+description: "Get all comments in a Word document programmatically via Cloud API."
 weight: 40
 ---
 
-Reads comments from the document.
+This REST API returns all comments in a Word document.
 
-## Get all comments from Word document REST API
+
+## Get all comments in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/get/comments |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/get/comments` |
 
 You can use the following parameters in a REST request:
 
@@ -36,11 +37,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Get all comments from Word document usage examples
+## Get all comments in a Word document usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to get all comments from Word document with cURL or Postman
+### How to get all comments in a Word document with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -62,7 +63,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to get all comments from Word document in Python, Java, C#, C++, JavaScript and other programming languages
+### How to get all comments in a Word document in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

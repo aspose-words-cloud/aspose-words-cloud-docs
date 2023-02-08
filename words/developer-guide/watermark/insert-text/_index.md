@@ -1,20 +1,21 @@
 ﻿---
-title: "Insert a Watermark Text into a Word Document"
-second_title: "Aspose Words Cloud Docs"
+title: "Insert watermark text into a Word document online"
+articleTitle: "Insert watermark text"
+linktitle: "Insert watermark text"
 type: docs
 url: /watermark/insert-text/
-aliases: [/insert-a-watermark-text-into-a-word-document/]
-description: "Insert a watermark text into a Word document"
+description: "Insert watermark text into a Word document programmatically via Cloud API."
 weight: 30
 ---
 
-Inserts a new watermark text to the document.
+Inserts watermark text into a Word document.
 
-## Insert watermark text into Word document REST API
+
+## Insert watermark text into a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/post/watermarks/texts |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/post/watermarks/texts` |
 
 You can use the following parameters in a REST request:
 
@@ -40,11 +41,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Insert watermark text into Word document usage examples
+## Insert watermark text into a Word document usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to insert watermark text into Word document with cURL or Postman
+### How to insert watermark text into a Word document with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -66,7 +67,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to insert watermark text into Word document in Python, Java, C#, C++, JavaScript and other programming languages
+### How to insert watermark text into a Word document in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

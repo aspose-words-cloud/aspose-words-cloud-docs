@@ -1,23 +1,25 @@
 ﻿---
-title: "Delete a Particular Section in a Word Document"
-second_title: "Aspose Words Cloud Docs"
+title: "Delete a section from a Word document online"
+articleTitle: "Delete a section"
+linktitle: "Delete a section"
 type: docs
 url: /sections/delete/
-description: "Delete a section in a Word document"
+description: "Delete a section from a Word document programmatically via Cloud API."
 weight: 50
 ---
 
-Removes a section from the document.
+Deletes a section from a Word document.
 
-## Delete section in Word document REST API
+
+## Delete a section from a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/delete/sections/{sectionIndex} |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/delete/sections/{sectionIndex}` |
 
 , where:
 
-* **`sectionIndex`** (required) - the index of the section.
+* **`sectionIndex`** (required) — the index of the section.
 
 You can use the following parameters in a REST request:
 
@@ -42,11 +44,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Delete section in Word document usage examples
+## Delete a section from a Word document usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to delete section in Word document with cURL or Postman
+### How to delete a section from a Word document with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -68,7 +70,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to delete section in Word document in Python, Java, C#, C++, JavaScript and other programming languages
+### How to delete a section from a Word document in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

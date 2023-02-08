@@ -1,24 +1,25 @@
 ﻿---
-title: "Add Run"
-second_title: "Paragraphs in a Document"
+title: "Insert a Run object into a paragraph in a Word document online"
+articleTitle: "Insert a Run object into a paragraph"
+linktitle: "Insert a Run object into a paragraph"
 type: docs
 url: /paragraphs/add-run/
-aliases: [/add-run-to-paragraph/]
-description: "Add a run to a paragraph in a Word document"
+description: "Insert a Run object into a paragraph in a Word document programmatically via Cloud API."
 weight: 20
 ---
 
-Inserts a new Run object to the paragraph.
+Inserts a `Run` object into a paragraph in a Word document.
 
-## Add run to paragraph in Word document REST API
+
+## Insert a Run object into a paragraph in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/post/{paragraphPath}/runs |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/post/{paragraphPath}/runs` |
 
 , where:
 
-* **`paragraphPath`** (required) - the path to the paragraph in the document tree.
+* **`paragraphPath`** (required) — the path to the paragraph in the document tree.
 
 You can use the following parameters in a REST request:
 
@@ -45,11 +46,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Add run to paragraph in Word document usage examples
+## Insert a Run object into a paragraph in a Word document usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to add run to paragraph in Word document with cURL or Postman
+### How to insert a Run object into a paragraph in a Word document with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -71,7 +72,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to add run to paragraph in Word document in Python, Java, C#, C++, JavaScript and other programming languages
+### How to insert a Run object into a paragraph in a Word document in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

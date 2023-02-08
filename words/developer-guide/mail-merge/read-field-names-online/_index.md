@@ -1,21 +1,21 @@
 ﻿---
-title: "Read Field Names Online"
-second_title: "Mail Merge"
+title: "Get all field names in a Word document online"
+articleTitle: "Get all field names"
+linktitle: "Get all field names"
 type: docs
 url: /mail-merge/read-field-names-online/
-aliases: [/read-mailmerge-document-field-names-online/]
-description: "Get Mail Merge field names in a Word document online"
-keywords: "Read, mustache template, online, Mail Merge, Word, Microsoft Word"
+description: "Get all field names in a Word document programmatically via Cloud API."
 weight: 60
 ---
 
-Reads merge field names from the document.
+Returns all field names in a Word document.
 
-## Get Mail Merge field names in Word document online REST API
+
+## Get all field names in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/get/mailMerge/FieldNames |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/get/mailMerge/FieldNames` |
 
 You can use the following parameters in a REST request:
 
@@ -38,11 +38,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Get Mail Merge field names in Word document online usage examples
+## Get all field names in a Word document usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to get Mail Merge field names in Word document online with cURL or Postman
+### How to get all field names in a Word document with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -64,7 +64,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to get Mail Merge field names in Word document online in Python, Java, C#, C++, JavaScript and other programming languages
+### How to get all field names in a Word document in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

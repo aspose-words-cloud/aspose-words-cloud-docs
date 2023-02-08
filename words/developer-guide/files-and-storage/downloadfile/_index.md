@@ -1,22 +1,25 @@
 ﻿---
-title: "Download a File"
+title: "Download a file from Cloud Storage online"
+articleTitle: "Download a file from Cloud Storage"
+linktitle: "Download a file from Cloud Storage"
 type: docs
 url: /files-and-storage/download-file/
-description: "Download a file from Cloud Storage"
+description: "Download a file from Cloud Storage programmatically via Cloud API."
 weight: 60
 ---
 
-Download file
+This REST API downloads a file from Cloud Storage.
 
-## Download file from Cloud Storage REST API
+
+## Download a file from Cloud Storage REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | GET    | /words/storage/file/{path} |
+| `https://api.aspose.cloud/v4.0`  | GET    | `/words/storage/file/{path}` |
 
 , where:
 
-* **`path`** (required) - path of the file including the file name and extension e.g. /folder1/file.ext
+* **`path`** (required) — path of the file including the file name and extension e.g. /folder1/file.ext
 
 You can use the following parameters in a REST request:
 
@@ -30,11 +33,11 @@ You can use the following parameters in a REST request:
 {{% /alert %}}
 
 
-## Download file from Cloud Storage usage examples
+## Download a file from Cloud Storage usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to download file from Cloud Storage with cURL or Postman
+### How to download a file from Cloud Storage with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -56,7 +59,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to download file from Cloud Storage in Python, Java, C#, C++, JavaScript and other programming languages
+### How to download a file from Cloud Storage in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

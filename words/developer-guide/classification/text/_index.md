@@ -1,20 +1,21 @@
 ﻿---
-title: "Text Classification"
-second_title: "Aspose Words Cloud Docs"
+title: "Classify text online"
+articleTitle: "Classify text"
+linktitle: "Classify text"
 type: docs
 url: /classification/text/
-aliases: [/text-classification/]
-description: "Classify the text documents into one or many categories."
+description: "Classify text programmatically via Cloud API."
 weight: 20
 ---
 
 Runs a multi-class text classification for the specified raw text.
 
-## Classify the text documents into one or many categories REST API
+
+## Classify text REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/classify |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/classify` |
 
 You can use the following parameters in a REST request:
 
@@ -34,11 +35,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Classify the text documents into one or many categories usage examples
+## Classify text usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to classify the text documents into one or many categories with cURL or Postman
+### How to classify text with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -60,7 +61,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to classify the text documents into one or many categories in Python, Java, C#, C++, JavaScript and other programming languages
+### How to classify text in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

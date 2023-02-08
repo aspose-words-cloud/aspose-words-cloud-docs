@@ -1,10 +1,11 @@
 ﻿---
-title: "Paragraphs"
-second_title: "Aspose Words Cloud Docs"
+title: "Working with Paragraphs in a Word document online"
+articleTitle: "Working with Paragraphs"
+linktitle: "Paragraphs"
 type: docs
 url: /paragraphs/
-aliases: [/working-with-paragraphs/]
-description: "Work with paragraphs in a Word document"
+description: "Insert, edit, delete Paragraphs in a Word document programmatically via Cloud API."
 weight: 200
 ---
 
+{{<list-children-pages>}}

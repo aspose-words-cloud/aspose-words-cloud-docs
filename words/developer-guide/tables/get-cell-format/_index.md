@@ -1,25 +1,26 @@
 ﻿---
-title: "Get a Table Cell Format"
-second_title: "Aspose Words Cloud Docs"
+title: "Get the formatting properties of a table cell in a Word document online"
+articleTitle: "Get the formatting properties of a table cell"
+linktitle: "Get the formatting properties of a table cell"
 type: docs
 url: /tables/get-cell-format/
-aliases: [/get-a-table-cell-format/]
-description: "Get table's cell formatting properties in a Word document"
+description: "Get the formatting properties of a table cell in a Word document programmatically via Cloud API."
 weight: 120
 ---
 
-Reads the formatting properties of a table cell.
+Returns the formatting properties of a table cell in a Word document.
 
-## Get table's cell formatting properties in Word document REST API
+
+## Get the formatting properties of a table cell in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/get/{tableRowPath}/cells/{index}/cellformat |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/get/{tableRowPath}/cells/{index}/cellformat` |
 
 , where:
 
-* **`tableRowPath`** (required) - the path to the table row in the document tree.
-* **`index`** (required) - object index.
+* **`tableRowPath`** (required) — the path to the table row in the document tree.
+* **`index`** (required) — object index.
 
 You can use the following parameters in a REST request:
 
@@ -41,11 +42,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Get table's cell formatting properties in Word document usage examples
+## Get the formatting properties of a table cell in a Word document usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to get table's cell formatting properties in Word document with cURL or Postman
+### How to get the formatting properties of a table cell in a Word document with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -67,7 +68,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to get table's cell formatting properties in Word document in Python, Java, C#, C++, JavaScript and other programming languages
+### How to get the formatting properties of a table cell in a Word document in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

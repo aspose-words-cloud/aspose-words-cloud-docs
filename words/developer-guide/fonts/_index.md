@@ -1,14 +1,16 @@
----
-title: "Fonts"
-second_title: "Aspose Words Cloud Docs"
+﻿---
+title: "Working with Fonts in a Word document online"
+articleTitle: "Working with Fonts"
+linktitle: "Fonts"
 type: docs
 url: /fonts/
-aliases: [/working-with-fonts/]
-description: "Learn how to work with fonts in a Word document"
+description: "Insert, edit, delete Fonts in a Word document programmatically via Cloud API."
 weight: 100
 ---
 
-We support custom user's fonts while processing documents. To use this feature just add **fontsLocation** query parameter to resource URL. This parameter contains folder in filestorage, which will be used as fonts source. At the first time fonts will be downloaded from cloud storage and cached in memory. To reset this cache use cache resource.
+A font in a Word document is a set of characters and symbols that have a specific design and style, such as the shape and size of the letters and numbers. Fonts are used to change the appearance of text in a document. A font can be changed to a different one for a selected text, for a paragraph, or for the whole document. Word documents support many types of fonts, including Serif, Sans-Serif, Monospace, and Handwriting fonts. Some fonts come pre-installed with Microsoft Word, while others can be downloaded and installed from the internet.
 
-- [Gets the List of Fonts](/words/fonts/gets-the-list-of-fonts/).
-- [Reset Fonts Cache](/words/fonts/reset-fonts-cache/).
+Aspose.Words REST API is a powerful instrument for working with fonts in a Word document through a simple set of RESTful calls. It allows developers to change the formatting of text, including font size, color, style, and other properties. This can be useful for creating a document with a specific layout or for automating the formatting of a large number of documents.
+
+
+{{<list-children-pages>}}

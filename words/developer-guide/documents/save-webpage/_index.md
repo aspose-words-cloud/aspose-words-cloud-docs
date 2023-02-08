@@ -1,20 +1,21 @@
 ﻿---
-title: "Save a Webpage in a Word Document"
-second_title: "Aspose Words Cloud Docs"
+title: "Download a Web page and save it in the specified document format online"
+articleTitle: "Download a Web page and save it in the specified document format"
+linktitle: "Download a Web page and save it in the specified document format"
 type: docs
 url: /documents/save-webpage/
-aliases: [/save-a-webpage-in-a-word-document/]
-description: "Save a web page into a Word document"
+description: "Download a Web page and save it in the specified document format programmatically via Cloud API."
 weight: 80
 ---
 
-Downloads a document from the Web using URL and saves it to cloud storage in the specified format.
+Downloads a Web page and saves it in the specified document format.
 
-## Save web page into Word document REST API
+
+## Download a Web page and save it in the specified document format REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/loadWebDocument |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/loadWebDocument` |
 
 You can use the following parameters in a REST request:
 
@@ -39,11 +40,11 @@ You can use the following parameters in a REST request:
 {{% /alert %}}
 
 
-## Save web page into Word document usage examples
+## Download a Web page and save it in the specified document format usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to save web page into Word document with cURL or Postman
+### How to download a Web page and save it in the specified document format with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -65,7 +66,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to save web page into Word document in Python, Java, C#, C++, JavaScript and other programming languages
+### How to download a Web page and save it in the specified document format in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

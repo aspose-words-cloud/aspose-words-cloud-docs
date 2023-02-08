@@ -1,25 +1,26 @@
 ﻿---
-title: "Update Run Properties"
-second_title: "Paragraphs in a Document"
+title: "Update properties of a Run object in a Word document online"
+articleTitle: "Update properties of a Run object"
+linktitle: "Update properties of a Run object"
 type: docs
 url: /paragraphs/update-run/
-aliases: [/update-run-properties/]
-description: "Update Run properties in a document"
+description: "Update properties of a Run object in a Word document programmatically via Cloud API."
 weight: 140
 ---
 
-Updates a Run object in the paragraph.
+Update properties of a `Run` object in a Word document.
 
-## Update Run properties in document REST API
+
+## Update properties of a Run object in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/put/{paragraphPath}/runs/{index} |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/put/{paragraphPath}/runs/{index}` |
 
 , where:
 
-* **`paragraphPath`** (required) - the path to the paragraph in the document tree.
-* **`index`** (required) - object index.
+* **`paragraphPath`** (required) — the path to the paragraph in the document tree.
+* **`index`** (required) — object index.
 
 You can use the following parameters in a REST request:
 
@@ -45,11 +46,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Update Run properties in document usage examples
+## Update properties of a Run object in a Word document usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to update Run properties in document with cURL or Postman
+### How to update properties of a Run object in a Word document with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -71,7 +72,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to update Run properties in document in Python, Java, C#, C++, JavaScript and other programming languages
+### How to update properties of a Run object in a Word document in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

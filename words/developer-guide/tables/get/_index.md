@@ -1,25 +1,26 @@
 ﻿---
-title: "Get a Table"
-second_title: "Aspose Words Cloud Docs"
+title: "Get a table in a Word document online"
+articleTitle: "Get a table"
+linktitle: "Get a table"
 type: docs
 url: /tables/get/
-aliases: [/get-a-table/]
-description: "Get a table in a Word document"
+description: "Get a table in a Word document programmatically via Cloud API."
 weight: 100
 ---
 
-Reads a table from the document node.
+Returns a table in a Word document.
 
-## Get table in Word document REST API
+
+## Get a table in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/get/{nodePath}/tables/{index} |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/get/{nodePath}/tables/{index}` |
 
 , where:
 
-* **`nodePath`** (required) - the path to the node in the document tree.
-* **`index`** (required) - object index.
+* **`nodePath`** (required) — the path to the node in the document tree.
+* **`index`** (required) — object index.
 
 You can use the following parameters in a REST request:
 
@@ -41,11 +42,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Get table in Word document usage examples
+## Get a table in a Word document usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to get table in Word document with cURL or Postman
+### How to get a table in a Word document with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -67,7 +68,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to get table in Word document in Python, Java, C#, C++, JavaScript and other programming languages
+### How to get a table in a Word document in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

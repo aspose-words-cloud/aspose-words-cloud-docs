@@ -1,25 +1,26 @@
 ﻿---
-title: "Update a Table Row Format"
-second_title: "Aspose Words Cloud Docs"
+title: "Update the formatting properties of a table row in a Word document online"
+articleTitle: "Update the formatting properties of a table row"
+linktitle: "Update the formatting properties of a table row"
 type: docs
 url: /tables/update-row-format/
-aliases: [/update-a-table-row-format/]
-description: "Update table's row formatting properties in a Word document"
+description: "Update the formatting properties of a table row in a Word document programmatically via Cloud API."
 weight: 190
 ---
 
-Updates the formatting properties of a table row.
+Updates the formatting properties of a table row in a Word document.
 
-## Update table's row formatting properties in Word document REST API
+
+## Update the formatting properties of a table row in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/put/{tablePath}/rows/{index}/rowformat |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/put/{tablePath}/rows/{index}/rowformat` |
 
 , where:
 
-* **`tablePath`** (required) - the path to the table in the document tree.
-* **`index`** (required) - object index.
+* **`tablePath`** (required) — the path to the table in the document tree.
+* **`index`** (required) — object index.
 
 You can use the following parameters in a REST request:
 
@@ -45,11 +46,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Update table's row formatting properties in Word document usage examples
+## Update the formatting properties of a table row in a Word document usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to update table's row formatting properties in Word document with cURL or Postman
+### How to update the formatting properties of a table row in a Word document with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -71,7 +72,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to update table's row formatting properties in Word document in Python, Java, C#, C++, JavaScript and other programming languages
+### How to update the formatting properties of a table row in a Word document in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

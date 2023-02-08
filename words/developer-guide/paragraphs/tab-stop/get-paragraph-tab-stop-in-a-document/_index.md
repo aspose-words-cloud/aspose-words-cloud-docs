@@ -1,25 +1,26 @@
 ﻿---
-title: "Get Paragraph Tab Stop in a Document"
-second_title: "Aspose Words Cloud Docs"
+title: "Get paragraph tab stops in a Word document online"
+articleTitle: "Get paragraph tab stops"
+linktitle: "Get paragraph tab stops"
 type: docs
 url: /paragraphs/tab-stop/get-paragraph-tab-stop-in-a-document/
-aliases: [/get-paragraph-tab-stop-in-a-document/]
-description: "Get a paragraph's tab stop in a Word document"
+description: "Get paragraph tab stops in a Word document programmatically via Cloud API."
 weight: 30
 ---
 
-Reads paragraph tab stops from the document node.
+Returns paragraph tab stops in a Word document.
 
-## Get paragraph's tab stop in Word document REST API
+
+## Get paragraph tab stops in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/get/{nodePath}/paragraphs/{index}/tabstops |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/get/{nodePath}/paragraphs/{index}/tabstops` |
 
 , where:
 
-* **`nodePath`** (required) - the path to the node in the document tree.
-* **`index`** (required) - object index.
+* **`nodePath`** (required) — the path to the node in the document tree.
+* **`index`** (required) — object index.
 
 You can use the following parameters in a REST request:
 
@@ -41,11 +42,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Get paragraph's tab stop in Word document usage examples
+## Get paragraph tab stops in a Word document usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to get paragraph's tab stop in Word document with cURL or Postman
+### How to get paragraph tab stops in a Word document with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -67,7 +68,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to get paragraph's tab stop in Word document in Python, Java, C#, C++, JavaScript and other programming languages
+### How to get paragraph tab stops in a Word document in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

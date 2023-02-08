@@ -1,25 +1,26 @@
 ﻿---
-title: "Reset Border Properties to Default Values"
-second_title: "Aspose Words Cloud Docs"
+title: "Reset border properties of a table in a Word document online"
+articleTitle: "Reset border properties of a table"
+linktitle: "Reset border properties of a table"
 type: docs
 url: /tables/reset-border-properties/
-aliases: [/reset-border-properties-to-default-values/]
-description: "Reset table's border properties to default values in a Word document"
+description: "Reset border properties of a table in a Word document programmatically via Cloud API."
 weight: 160
 ---
 
-Removes a border from the document node.
+Resets border properties of a table in a Word document.
 
-## Reset table's border properties to default values in Word document REST API
+
+## Reset border properties of a table in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/delete/{nodePath}/borders/{borderType} |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/delete/{nodePath}/borders/{borderType}` |
 
 , where:
 
-* **`nodePath`** (required) - the path to the node in the document tree.
-* **`borderType`** (required) - border type.
+* **`nodePath`** (required) — the path to the node in the document tree.
+* **`borderType`** (required) — border type.
 
 You can use the following parameters in a REST request:
 
@@ -44,11 +45,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Reset table's border properties to default values in Word document usage examples
+## Reset border properties of a table in a Word document usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to reset table's border properties to default values in Word document with cURL or Postman
+### How to reset border properties of a table in a Word document with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -70,7 +71,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to reset table's border properties to default values in Word document in Python, Java, C#, C++, JavaScript and other programming languages
+### How to reset border properties of a table in a Word document in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

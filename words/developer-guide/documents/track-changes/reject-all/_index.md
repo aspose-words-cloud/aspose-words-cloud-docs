@@ -1,21 +1,21 @@
 ﻿---
-title: "Reject all"
-second_title: "Revisions in a Word Document"
+title: "Reject all revisions in a Word document online"
+articleTitle: "Reject all revisions"
+linktitle: "Reject all revisions"
 type: docs
 url: /documents/track-changes/reject-all/
-aliases: [/reject-all-revisions-in-a-document/]
-description: "Reject all revisions in a Word document"
-keywords: "word revision tracking, track changes, track changes in word"
+description: "Reject all revisions in a Word document programmatically via Cloud API."
 weight: 20
 ---
 
-Rejects all revisions in the document.
+Rejects all revisions in a Word document.
 
-## Reject all revisions in Word document REST API
+
+## Reject all revisions in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/put/revisions/rejectAll |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/put/revisions/rejectAll` |
 
 You can use the following parameters in a REST request:
 
@@ -38,11 +38,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Reject all revisions in Word document usage examples
+## Reject all revisions in a Word document usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to reject all revisions in Word document with cURL or Postman
+### How to reject all revisions in a Word document with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -64,7 +64,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to reject all revisions in Word document in Python, Java, C#, C++, JavaScript and other programming languages
+### How to reject all revisions in a Word document in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

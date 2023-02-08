@@ -1,25 +1,26 @@
 ﻿---
-title: "Delete"
-second_title: "Headers and Footers in a Document"
+title: "Delete a `HeaderFooter` object from a Word document online"
+articleTitle: "Delete a `HeaderFooter` object"
+linktitle: "Delete a `HeaderFooter` object"
 type: docs
 url: /headers-and-footers/delete/
-aliases: [/delete-header-or-footer-from-a-document/]
-description: "Delete headers and footers from a Word document"
+description: "Delete a `HeaderFooter` object from a Word document programmatically via Cloud API."
 weight: 20
 ---
 
-Removes a HeaderFooter object from the document section.
+Deletes a `HeaderFooter` object from a Word document.
 
-## Delete headers and footers from Word document REST API
+
+## Delete a `HeaderFooter` object from a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/delete/{sectionPath}/headersfooters/{index} |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/delete/{sectionPath}/headersfooters/{index}` |
 
 , where:
 
-* **`sectionPath`** (required) - the path to the section in the document tree.
-* **`index`** (required) - object index.
+* **`sectionPath`** (required) — the path to the section in the document tree.
+* **`index`** (required) — object index.
 
 You can use the following parameters in a REST request:
 
@@ -44,11 +45,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Delete headers and footers from Word document usage examples
+## Delete a `HeaderFooter` object from a Word document usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to delete headers and footers from Word document with cURL or Postman
+### How to delete a `HeaderFooter` object from a Word document with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -70,7 +71,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to delete headers and footers from Word document in Python, Java, C#, C++, JavaScript and other programming languages
+### How to delete a `HeaderFooter` object from a Word document in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

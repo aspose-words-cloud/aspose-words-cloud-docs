@@ -1,10 +1,11 @@
 ﻿---
-title: "Working With Paragraph Tab Stop"
-second_title: "Aspose Words Cloud Docs"
+title: "Working with paragraph tab stops in a Word document online"
+articleTitle: "Working with paragraph tab stops"
+linktitle: "Paragraph tab stops"
 type: docs
 url: /paragraphs/tab-stop/
-aliases: [/working-with-paragraph-tab-stop/]
-description: "Work with a paragraph tab stop in a Word document"
+description: "Insert, edit, delete paragraph tab stops in a Word document programmatically via Cloud API."
 weight: 160
 ---
 
+{{<list-children-pages>}}

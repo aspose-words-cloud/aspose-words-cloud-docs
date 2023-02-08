@@ -1,9 +1,11 @@
----
-title: "Text"
-second_title: "Aspose Words Cloud Docs"
+﻿---
+title: "Working with text in a Word document online"
+articleTitle: "Working with text"
+linktitle: "Text"
 type: docs
 url: /text/
-aliases: [/working-with-text/]
-description: "Learn how to work with a text in a Word document"
-weight: 270
+description: "Working with text in a Word document."
+weight: 20
 ---
+
+{{<list-children-pages>}}

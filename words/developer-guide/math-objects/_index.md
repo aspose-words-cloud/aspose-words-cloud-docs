@@ -1,10 +1,11 @@
 ﻿---
-title: "Math Objects"
-second_title: "Aspose Words Cloud Docs"
+title: "Working with OfficeMath objects in a Word document online"
+articleTitle: "Working with OfficeMath objects"
+linktitle: "OfficeMath objects"
 type: docs
 url: /math-objects/
-aliases: [/working-with-math-objects/]
-description: "Work with math objects in a Word document"
+description: "Insert, edit, delete OfficeMath objects in a Word document programmatically via Cloud API."
 weight: 170
 ---
 
+{{<list-children-pages>}}

@@ -1,15 +1,16 @@
----
-title: "Sections"
-second_title: "Aspose Words Cloud Docs"
+﻿---
+title: "Working with Sections in a Word document online"
+articleTitle: "Working with Sections"
+linktitle: "Sections"
 type: docs
 url: /sections/
-aliases: [/working-with-sections/]
-keywords: "section break word,Section Break, Word, Microsoft Word, Word Documents"
-description: "Learn how to work with sections in a Word document"
+description: "Insert, edit, delete Sections in a Word document programmatically via Cloud API."
 weight: 230
 ---
 
-A **section** or **section break** is known as the part of a *word document* that contains its own page formatting. These are often one page or a variety of pages, or a section break can comprise the whole document. The Aspose.Words Cloud allows its users to perform many operations on document section break. You can *insert section break* or perform the *removing section breaks in word*.The SDKs of this cloud API are available in *Python, C#, Java, Ruby, PHP, Node.js, Swift* and *Go* languages.
+A section in a Microsoft Word document is a part of the document that has its own distinct formatting and page layout. Each section can have its own margins, page orientation, page background, and page borders.
 
-Please read the following articles to get an idea that how API is working with section breaks:
+With Aspose.Words REST API, developers can easily create, modify, and manipulate sections within a Word document.
 
+
+{{<list-children-pages>}}

@@ -1,10 +1,11 @@
 ﻿---
-title: "Document Properties"
-second_title: "Aspose Words Cloud Docs"
+title: "Working with document properties online"
+articleTitle: "Working with document properties"
+linktitle: "Document properties"
 type: docs
 url: /documents/properties/
-aliases: [/working-with-document-properties/]
-description: "Work with document properties"
+description: "Insert, edit, delete document properties programmatically via Cloud API."
 weight: 20
 ---
 
+{{<list-children-pages>}}

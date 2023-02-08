@@ -1,24 +1,25 @@
 ﻿---
-title: "Add"
-second_title: "Headers and Footers in a Document"
+title: "Insert a HeaderFooter into a Word document online"
+articleTitle: "Insert a HeaderFooter"
+linktitle: "Insert a HeaderFooter"
 type: docs
 url: /headers-and-footers/add/
-aliases: [/add-header-or-footer-to-a-document/]
-description: "Add headers and footers into a Word document"
+description: "Insert a HeaderFooter into a Word document programmatically via Cloud API."
 weight: 10
 ---
 
-Inserts a new HeaderFooter object to the document section.
+Inserts a `HeaderFooter` object into a Word document.
 
-## Add headers and footers into Word document REST API
+
+## Insert a HeaderFooter into a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/put/{sectionPath}/headersfooters |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/put/{sectionPath}/headersfooters` |
 
 , where:
 
-* **`sectionPath`** (required) - the path to the section in the document tree.
+* **`sectionPath`** (required) — the path to the section in the document tree.
 
 You can use the following parameters in a REST request:
 
@@ -44,11 +45,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Add headers and footers into Word document usage examples
+## Insert a HeaderFooter into a Word document usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to add headers and footers into Word document with cURL or Postman
+### How to insert a HeaderFooter into a Word document with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -70,7 +71,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to add headers and footers into Word document in Python, Java, C#, C++, JavaScript and other programming languages
+### How to insert a HeaderFooter into a Word document in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

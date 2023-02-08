@@ -1,24 +1,25 @@
 ﻿---
-title: "Reads a style from the document"
-second_title: "Aspose Words Cloud Docs"
+title: "Get a style in a Word document online"
+articleTitle: "Get a style"
+linktitle: "Get a style"
 type: docs
 url: /styles/read/
-aliases: [/read-style/]
-description: "Reads a style from the document"
+description: "Get a style in a Word document programmatically via Cloud API."
 weight: 30
 ---
 
-Reads a style from the document.
+Returns a style in a Word document.
 
-## Reads style from the document REST API
+
+## Get a style in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/get/styles/{styleName} |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/get/styles/{styleName}` |
 
 , where:
 
-* **`styleName`** (required) - the name of the style.
+* **`styleName`** (required) — the name of the style.
 
 You can use the following parameters in a REST request:
 
@@ -40,11 +41,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Reads style from the document usage examples
+## Get a style in a Word document usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to reads style from the document with cURL or Postman
+### How to get a style in a Word document with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -66,7 +67,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to reads style from the document in Python, Java, C#, C++, JavaScript and other programming languages
+### How to get a style in a Word document in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

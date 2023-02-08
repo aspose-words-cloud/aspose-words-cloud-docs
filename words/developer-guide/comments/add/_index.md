@@ -1,20 +1,21 @@
 ﻿---
-title: "Add comments"
-second_title: "Aspose Words Cloud Docs"
+title: "Insert a comment into a Word document online"
+articleTitle: "Insert a comment"
+linktitle: "Insert a comment"
 type: docs
 url: /comments/add/
-aliases: [/add-comment-to-a-word-document/]
-description: "Add a comment to a Word document"
+description: "Insert a comment into a Word document programmatically via Cloud API."
 weight: 10
 ---
 
-Inserts a new comment to the document.
+This REST API inserts a new comment in a Word document.
 
-## Add comment to Word document REST API
+
+## Insert a comment into a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/post/comments |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/post/comments` |
 
 You can use the following parameters in a REST request:
 
@@ -40,11 +41,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Add comment to Word document usage examples
+## Insert a comment into a Word document usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to add comment to Word document with cURL or Postman
+### How to insert a comment into a Word document with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -66,7 +67,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to add comment to Word document in Python, Java, C#, C++, JavaScript and other programming languages
+### How to insert a comment into a Word document in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

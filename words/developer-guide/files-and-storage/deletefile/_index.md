@@ -1,22 +1,25 @@
 ﻿---
-title: "Delete a File"
+title: "Delete a file in Cloud Storage online"
+articleTitle: "Delete a file in Cloud Storage"
+linktitle: "Delete a file in Cloud Storage"
 type: docs
 url: /files-and-storage/delete-file/
-description: "Delete a file in Cloud Storage"
+description: "Delete a file in Cloud Storage programmatically via Cloud API."
 weight: 40
 ---
 
-Delete file
+This REST API deletes a file in Cloud Storage.
 
-## Delete file in Cloud Storage REST API
+
+## Delete a file in Cloud Storage REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | DELETE | /words/storage/file/{path} |
+| `https://api.aspose.cloud/v4.0`  | DELETE | `/words/storage/file/{path}` |
 
 , where:
 
-* **`path`** (required) - path of the file including the file name and extension e.g. /folder1/file.ext
+* **`path`** (required) — path of the file including the file name and extension e.g. /folder1/file.ext
 
 You can use the following parameters in a REST request:
 
@@ -30,11 +33,11 @@ You can use the following parameters in a REST request:
 {{% /alert %}}
 
 
-## Delete file in Cloud Storage usage examples
+## Delete a file in Cloud Storage usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to delete file in Cloud Storage with cURL or Postman
+### How to delete a file in Cloud Storage with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -56,7 +59,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to delete file in Cloud Storage in Python, Java, C#, C++, JavaScript and other programming languages
+### How to delete a file in Cloud Storage in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

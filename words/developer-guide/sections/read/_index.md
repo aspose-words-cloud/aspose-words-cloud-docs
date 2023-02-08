@@ -1,25 +1,25 @@
 ﻿---
-title: "Read the Page Setup of a Section"
-second_title: "Aspose Words Cloud Docs"
+title: "Get the page settings of a Section in a Word document online"
+articleTitle: "Get the page settings of a Section"
+linktitle: "Get the page settings of a Section"
 type: docs
 url: /sections/read/
-aliases: [/read-the-page-setup-of-a-section/]
-description: "Read a page setup of a section in a Word document"
-keywords: "page setup word,get sections,section break word,Section Break, Word, Microsoft Word, Word Documents"
+description: "Get the page settings of a Section in a Word document programmatically via Cloud API."
 weight: 30
 ---
 
-Reads the page setup of a section from the document.
+Returns the page settings of a Section in a Word document.
 
-## Read page setup of section in Word document REST API
+
+## Get the page settings of a Section in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/get/sections/{sectionIndex}/pageSetup |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/get/sections/{sectionIndex}/pageSetup` |
 
 , where:
 
-* **`sectionIndex`** (required) - the index of the section.
+* **`sectionIndex`** (required) — the index of the section.
 
 You can use the following parameters in a REST request:
 
@@ -41,11 +41,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Read page setup of section in Word document usage examples
+## Get the page settings of a Section in a Word document usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to read page setup of section in Word document with cURL or Postman
+### How to get the page settings of a Section in a Word document with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -67,7 +67,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to read page setup of section in Word document in Python, Java, C#, C++, JavaScript and other programming languages
+### How to get the page settings of a Section in a Word document in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

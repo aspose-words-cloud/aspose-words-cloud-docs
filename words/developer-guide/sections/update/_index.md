@@ -1,24 +1,25 @@
 ﻿---
-title: "Update the Page Setup of a Section"
-second_title: "Aspose Words Cloud Docs"
+title: "Update the page settings of a Section in a Word document online"
+articleTitle: "Update the page settings of a Section"
+linktitle: "Update the page settings of a Section"
 type: docs
 url: /sections/update/
-aliases: [/update-the-page-setup-of-a-section/]
-description: "Update page setup properties of a section in a Word document"
+description: "Update the page settings of a Section in a Word document programmatically via Cloud API."
 weight: 40
 ---
 
-Updates the page setup of a section in the document.
+Updates the page settings of a Section in a Word document.
 
-## Update page setup properties of section in Word document REST API
+
+## Update the page settings of a Section in a Word document REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/put/sections/{sectionIndex}/pageSetup |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/put/sections/{sectionIndex}/pageSetup` |
 
 , where:
 
-* **`sectionIndex`** (required) - the index of the section.
+* **`sectionIndex`** (required) — the index of the section.
 
 You can use the following parameters in a REST request:
 
@@ -44,11 +45,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Update page setup properties of section in Word document usage examples
+## Update the page settings of a Section in a Word document usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to update page setup properties of section in Word document with cURL or Postman
+### How to update the page settings of a Section in a Word document with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -70,7 +71,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to update page setup properties of section in Word document in Python, Java, C#, C++, JavaScript and other programming languages
+### How to update the page settings of a Section in a Word document in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 

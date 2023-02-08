@@ -1,20 +1,25 @@
 ﻿---
-title: "Compare"
-second_title: "Documents"
+title: "Compare two Word documents online"
+articleTitle: "Compare two Word documents"
+linktitle: "Compare two Word documents"
 type: docs
 url: /compare/
-aliases: [/compare-documents/]
-description: "Compare Word documents"
+description: "Compare two Word documents programmatically via Cloud API."
 weight: 40
 ---
 
-Compares two documents.
+Comparing Word documents is often used to track changes made to important documents. Additionally, it is used in editing to compare the modified document version with the original.
 
-## Compare Word documents REST API
+Aspose.Words REST API is a powerful document manipulation tool that allows developers to compare two Word documents and retrieve the differences between them.
+
+As a result of the comparison, a list of differences between the two Word documents is returned. Each difference will contain information about the type of difference (e.g. deleted text, added text, formatting change), the location of the difference in the document, and the text that was added or deleted.
+
+
+## Compare two Word documents REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
-| https://api.aspose.cloud/v4.0  | PUT    | /words/online/put/compareDocument |
+| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/put/compareDocument` |
 
 You can use the following parameters in a REST request:
 
@@ -40,11 +45,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Compare Word documents usage examples
+## Compare two Word documents usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to compare Word documents with cURL or Postman
+### How to compare two Word documents with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -66,7 +71,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to compare Word documents in Python, Java, C#, C++, JavaScript and other programming languages
+### How to compare two Word documents in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 
