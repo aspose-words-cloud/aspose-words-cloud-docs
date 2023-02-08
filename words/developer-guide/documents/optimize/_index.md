@@ -1,7 +1,7 @@
 ﻿---
 title: "Apply content optimization options, specific to a particular versions of Microsoft Word online"
 articleTitle: "Apply content optimization options, specific to a particular versions of Microsoft Word"
-linktitle: "Apply content optimization options, specific to a particular versions of Microsoft Word"
+linktitle: "Content optimization options"
 type: docs
 url: /documents/optimize/
 description: "Apply content optimization options, specific to a particular versions of Microsoft Word programmatically via Cloud API."

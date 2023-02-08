@@ -1,7 +1,7 @@
 ﻿---
 title: "Get statistics on a Word document online"
 articleTitle: "Get statistics on"
-linktitle: "Get statistics on"
+linktitle: "Document Statistics"
 type: docs
 url: /documents/statistics/
 description: "Get statistics on a Word document programmatically via Cloud API."

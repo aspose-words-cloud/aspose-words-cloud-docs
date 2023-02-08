@@ -1,7 +1,7 @@
 ﻿---
 title: "Merge several Word, PDF documents to a single document online"
 articleTitle: "Merge several Word, PDF documents to a single document"
-linktitle: "Merge several Word, PDF documents to a single document"
+linktitle: "Document Merging"
 type: docs
 url: /merge/
 description: "Merge several Word, PDF documents to a single document programmatically via Cloud API."

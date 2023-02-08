@@ -1,7 +1,7 @@
 ﻿---
 title: "Convert Word document to TIFF image format online"
 articleTitle: "Convert Word document to TIFF image format"
-linktitle: "Convert Word document to TIFF image format"
+linktitle: "Word to TIFF"
 type: docs
 url: /convert/document-to-tiff/
 description: "Convert Word document to TIFF image format programmatically via Cloud API."

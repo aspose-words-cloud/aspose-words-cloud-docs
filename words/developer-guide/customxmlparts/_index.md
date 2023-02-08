@@ -1,7 +1,7 @@
 ﻿---
 title: "Working with `CustomXmlParts` in a Word document online"
 articleTitle: "Working with `CustomXmlParts`"
-linktitle: "`CustomXmlParts`"
+linktitle: "CustomXmlParts"
 type: docs
 url: /customxmlparts/
 description: "Insert, edit, delete `CustomXmlParts` in a Word document programmatically via Cloud API."

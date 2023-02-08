@@ -1,7 +1,7 @@
 ﻿---
 title: "Get asymmetric public key online"
 articleTitle: "Get asymmetric public key"
-linktitle: "Get asymmetric public key"
+linktitle: "Public key"
 type: docs
 url: /publickey/
 description: "Get asymmetric public key programmatically via Cloud API."

@@ -1,7 +1,7 @@
 ﻿---
 title: "Working with Files in Cloud Storage online"
 articleTitle: "Working with Files in Cloud Storage"
-linktitle: "Files in Cloud Storage"
+linktitle: "Cloud Storage"
 type: docs
 url: /files-and-storage/
 description: "Insert, edit, delete Files in Cloud Storage programmatically via Cloud API."

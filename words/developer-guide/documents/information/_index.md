@@ -1,7 +1,7 @@
 ﻿---
 title: "Get general information about a Word document online"
 articleTitle: "Get general information about"
-linktitle: "Get general information about"
+linktitle: "General Info"
 type: docs
 url: /documents/information/
 description: "Get general information about a Word document programmatically via Cloud API."

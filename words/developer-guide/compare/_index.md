@@ -1,7 +1,7 @@
 ﻿---
 title: "Compare two Word documents online"
 articleTitle: "Compare two Word documents"
-linktitle: "Compare two Word documents"
+linktitle: "Document Comparison"
 type: docs
 url: /compare/
 description: "Compare two Word documents programmatically via Cloud API."
