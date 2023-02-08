@@ -1,14 +1,11 @@
 ﻿---
-title: "Classify text online"
-articleTitle: "Classify text"
-linktitle: "Classify text"
+title: "Working with text in a Word document online"
+articleTitle: "Working with text"
+linktitle: "Text"
 type: docs
 url: /text/
-description: "Classify text programmatically via Cloud API."
+description: "Working with text in a Word document."
 weight: 20
 ---
-
-Runs a multi-class text classification for the specified raw text.
-
 
 {{<list-children-pages>}}
