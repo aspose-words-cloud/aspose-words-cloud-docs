@@ -1,7 +1,7 @@
 ﻿---
 title: "Retrieve information about the application online"
 articleTitle: "Retrieve information about the application"
-linktitle: "Application info"
+linktitle: "Application Info"
 type: docs
 url: /info/
 description: "Retrieve information about the application programmatically via Cloud API."
