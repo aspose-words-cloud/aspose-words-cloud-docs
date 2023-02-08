@@ -4,8 +4,12 @@ second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /getting-started/supported-platforms/
 aliases: [/supported-platforms/]
-description: "Aspose Words Cloud API can be used with any language: C#, C++, Java, PHP, Ruby, Python, Node.js, Golang and many more."
+description: "Use Aspose Words REST API on Windows, Linux, Mac OS, and Android."
 weight: 40
 ---
 
-Aspose.Words Cloud is a REST API that can be used with any language: C#, C++, Java, PHP, Ruby, Python, Node.js, Golang and many more. You can use it with any language or platform that supports REST, including .NET, Windows, Linux, Mac OS and Android. Almost all platforms support REST and provide native REST clients to work with REST APIs. You do not need to worry about language or platform limitations. You can use it with any platform – web, desktop, mobile, and cloud. The API integrates with other cloud services to give you the flexibility you need when processing documents.
+The Aspose.Words Cloud products are cross-platform, allowing developers to use them on any operating system, including Windows, Linux, Mac OS, and Android.
+
+With Cloud SDKs for Python, Java, Node.js, C#, PHP, C++, Golang, Ruby, Swift, and Dart languages (each of them ​​is cross-platform), you likely don't need to be concerned about OS/platform limitations. You can choose the SDK that best suits your needs and use it for web, desktop, or mobile development.
+
+If you have specific requirements that are not supported by the available Cloud SDKs, or if you prefer to have more control over the implementation, using the REST API directly may be a better option. At the same time, you get complete independence from the software environment.
