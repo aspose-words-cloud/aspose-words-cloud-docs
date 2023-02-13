@@ -221,7 +221,7 @@ Each of those arguments initializes the corresponding self-titled property:
 
 ## ExecuteMailMergeRequest
 
-Represents a request model for [WordsApi.ExecuteMailMerge()](/words/mail-merge/populate-with-data/) operation.
+Represents a request model for [WordsApi.ExecuteMailMerge()](/words/mail-merge/) operation.
 
 An object of the **ExecuteMailMergeRequest** class is created by the following constructor methods:
 
