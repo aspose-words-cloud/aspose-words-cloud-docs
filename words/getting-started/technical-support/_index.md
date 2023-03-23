@@ -12,6 +12,6 @@ Aspose provides a free [technical support forum](https://forum.aspose.cloud/c/wo
 
 Our development team regularly monitors the forum and promptly responds to questions posted there. You can expect to receive a response within a few hours of posting a question. While waiting for an answer, please take into account the difference in time zones.
 
-The forum also serves as a knowledge hub where the customers can find answers to common questions, share their experiences, ideas, and insights. This is a great resource for those who want to learn more about the product's features and functionality.
+The forum also serves as a knowledge hub where you can find answers to common questions, share their experiences, ideas, and insights. This is a great resource for those who want to learn more about the product's features and functionality.
 
 Please note that Aspose does not provide technical support via telephone. The phone support service is limited to inquiries regarding sales and purchases only.
