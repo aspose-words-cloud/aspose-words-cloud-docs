@@ -4,7 +4,7 @@ second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /getting-started/available-sdks/
 aliases: [/available-sdks/]
-description: "Available SDKs"
+description: "Available Cloud SDKs"
 weight: 50
 ---
 
@@ -14,7 +14,7 @@ Developers are granted full access to the REST API via each Cloud SDK, which inc
 
 While the Cloud API provides all the core functionality, each SDK has its own specifics depending on the programming language in which it is implemented. This specifics can lead to differences in performance and RAM requirements. For example, Golang code can use built-in concurrency support, C++ code can benefit from less memory consumption, while Rust code can provide better memory safety.
 
-Each Cloud SDK comes with a dedicated set of web resources, including a product page with comprehensive product information, a GitHub page with source codes and step-by-step installation instructions, and code snippets. Furthermore, developers working with Python, JavaScript, and .NET (C#, F#, VB.NET, C++/CLI, TypeScript, PowerShell, Clojure CLR, Scala CLR) can easily install the libraries in their development environments using `PyPi`, `npm` and `NuGet` package managers.
+Each Cloud SDK comes with a dedicated set of web resources, including a page with comprehensive product information, a GitHub page with source codes and step-by-step installation instructions, and code snippets known as gists. Furthermore, developers working with Python, JavaScript, and .NET (C#, F#, VB.NET, C++/CLI, TypeScript, PowerShell, Clojure CLR, Scala CLR) can easily install the libraries in their development environments using `PyPi`, `npm` and `NuGet` package managers.
 
 The complete list of Aspose.Words Cloud SDKs with related links is below:
 
