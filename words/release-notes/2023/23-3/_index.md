@@ -24,7 +24,7 @@ The page contains release notes for Aspose.Words Cloud 23.3 – [API Reference]
 
 ## Cloud SDK Changes
 
-- Implemented support for Dart 3.0 in 'Aspose.Words Cloud SDK for Dart'
+- **Dart SDK**: implemented support for Dart 3.0
 
 
 ## All changes
