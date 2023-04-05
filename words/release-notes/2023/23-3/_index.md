@@ -15,7 +15,7 @@ The page contains release notes for Aspose.Words Cloud 23.3 – [API Reference]
 ## Words Cloud Changes
 
 - Various changes related to stability and performance
-- `Aspose.Words Cloud Docker Container` package vulnerability fixed
+- 'Aspose.Words Cloud Docker Container' package vulnerability fixed
 
 ## PDF to Word conversion improvements
 
@@ -24,7 +24,7 @@ The page contains release notes for Aspose.Words Cloud 23.3 – [API Reference]
 
 ## Cloud SDK Changes
 
-- Implemented support for Dart 3.0 in `Aspose.Words Cloud SDK for Dart`
+- Implemented support for Dart 3.0 in 'Aspose.Words Cloud SDK for Dart'
 
 
 ## All changes
@@ -35,5 +35,5 @@ The page contains release notes for Aspose.Words Cloud 23.3 – [API Reference]
 | WORDSNET-24928   | Colors are inverted after importing a PDF document                                            | Bug         |
 | WORDSNET-24658   | `PdfCompositeEncodingConvertor` throws `ArgumentOutOfRangeException`                          | Bug         |
 | WORDSNET-24767   | Table with merged cells is not recognized correctly                                           | Bug         |
-| WORDSCLOUD-2139  | `Aspose.Words Cloud Docker Container` package vulnerability                                   | Bug         |
+| WORDSCLOUD-2139  | 'Aspose.Words Cloud Docker Container' package vulnerability                                   | Bug         |
 | WORDSCLOUD-2244  | The SDK for Dart does not conform to null safety specification required in the upcoming version of Dart 3.0 | Bug         |
