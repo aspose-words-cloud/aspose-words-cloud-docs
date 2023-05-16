@@ -4,104 +4,30 @@ second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /getting-started/available-sdks/
 aliases: [/available-sdks/]
-description: "Available SDKs"
+description: "Available Cloud SDKs"
 weight: 50
 ---
 
-Aspose.Words Cloud is a modern REST API, that allows easy integration into existing systems.
+**Aspose.Words Cloud SDK**s are libraries for working with documents in the cloud using various programming languages. There are currently SDKs for Python, Java, Node.js, .NET, PHP, C++, Go, Ruby, Switf, and Dart. Each SDK is a wrapper around the REST API, which means that it provides a lightweight interface that encapsulates the HTTP(S) requests/responses needed to interact with the REST API.
 
-Using an SDK is the quickest way to speed up the development. An SDK takes care of low-level details by making requests and handling responses and lets you focus on writing code specific to your particular project.
+Developers are granted full access to the REST API via each Cloud SDK, which includes a complete set of components and methods for creating, modifying, converting, merging, splitting, and comparing documents. Additionally, all SDKs come furnished with utility functions, such as client authentication and authorization, data encoding/decoding, error handling, etc. By providing pre-built components that can be seamlessly incorporated into the codebase, Cloud SDKs can help developers accelerate the development process significantly.
 
-## SDK Benefits
+While the Cloud API provides all the core functionality, each SDK has its own specifics depending on the programming language in which it is implemented. This specifics can lead to differences in performance and RAM requirements. For example, Golang code can use built-in concurrency support, C++ code can benefit from less memory consumption, while Rust code can provide better memory safety.
 
-Our supported SDKs are 100% tested. They are open source and released to the public under the MIT License. You can use them absolutely free of charge.
+Each Cloud SDK comes with a dedicated set of web resources, including a page with comprehensive product information, a GitHub page with source codes and step-by-step installation instructions, and code snippets known as gists. Furthermore, developers working with Python, JavaScript, and .NET (C#, F#, VB.NET, C++/CLI, TypeScript, PowerShell, Clojure CLR, Scala CLR) can easily install the libraries in their development environments using `PyPi`, `npm` and `NuGet` package managers.
 
-## Cloud SDK Family
+The complete list of Aspose.Words Cloud SDKs with related links is below:
 
-{{< nosnippet >}}
-{{< tabs tabTotal="10" tabID="1" tabName1=".NET" tabName2="C++" tabName3="Java" tabName4="PHP" tabName5="Ruby" tabName6="Python" tabName7="Node.js" >}}
-{{< tab tabNum="1" >}}
 
-**Aspose.Words Cloud SDK for .NET** allows you to work with Aspose.Words Cloud REST APIs in your .NET applications easily.
-
-You can download the .NET SDK from the [GitHub repository](https://github.com/aspose-words-cloud/aspose-words-cloud-dotnet).
-
-{{< /tab >}}
-{{< tab tabNum="2" >}}
-
-**Aspose.Words Cloud SDK for C++** empowers you to work with Aspose.Words Cloud REST APIs in your C++ applications.
-
-You can download the C++ SDK from the [GitHub repository](https://github.com/aspose-words-cloud/aspose-words-cloud-cpp).
-
-{{< /tab >}}
-{{< tab tabNum="3" >}}
-
-**Aspose.Words Cloud SDK for Java** provides a quick and easy mechanism to incorporate Aspose.Words Cloud APIs in your Java applications.
-
-You can download the Java SDK from the [GitHub repository](https://github.com/aspose-words-cloud/aspose-words-cloud-java).
-
-{{< /tab >}}
-{{< tab tabNum="4" >}}
-
-**Aspose.Words Cloud SDK for PHP** is a convenient approach to use Aspose.Words Cloud REST APIs in PHP applications.
-
-You can download the PHP SDK from the [GitHub repository](https://github.com/aspose-words-cloud/aspose-words-cloud-php).
-
-{{< /tab >}}
-{{< tab tabNum="5" >}}
-
-**Aspose.Words Cloud SDK for Ruby** is a Free approach of using Aspose.Words Cloud REST APIs in Ruby applications.
-
-You can download the Ruby SDK from the [GitHub repository](https://github.com/aspose-words-cloud/aspose-words-cloud-ruby).
-
-{{< /tab >}}
-{{< tab tabNum="6" >}}
-
-**Aspose.Words Cloud SDK for Python** is a convenient approach to incorporate Aspose.Words Cloud services in Python applications.
-
-You can download the Python SDK from the [GitHub repository](https://github.com/aspose-words-cloud/aspose-words-cloud-python).
-
-{{< /tab >}}
-{{< tab tabNum="7" >}}
-
-**Aspose.Words Cloud SDK for Node.js** provides the capabilities to work with Aspose.Words Cloud REST APIs in Node.js applications. Use the SDK to produce stunning applications.
-
-You can download the Node.js SDK from the [GitHub repository](https://github.com/aspose-words-cloud/aspose-words-cloud-node).
-
-{{< /tab >}}
-{{< /tabs >}}
-{{< /nosnippet >}}
-
-## cURL
-
-cURL is a cross platform command-line tool for getting or sending data including files using URL syntax. It can be used to perform Aspose.Words Cloud [REST API](https://apireference.aspose.cloud/words/) requests.
-
-To make these requests you need to get **JSON Web Token** (JWT).
-
-{{< nosnippet >}}
-{{< tabs tabTotal="2" tabID="2" tabName1="Request" tabName2="Response" >}}
-{{< tab tabNum="1" >}}
-
-```bash
-# Please get your `Client Id` and `Secret` credentials from https://dashboard.aspose.cloud/applications.
-# Place `Client Id` in client_id argument. Place `Secret` in client_secret argument.
-curl -v "https://api.aspose.cloud/connect/token" \
--X POST \
--d "grant_type=client_credentials&client_id=xxxxx&client_secret=xxxxx" \
--H "Content-Type: application/x-www-form-urlencoded" \
--H "Accept: application/json"
-```
-
-{{< /tab >}}
-{{< tab tabNum="2" >}}
-
-```json
-{
-  "access_token": ".....",
-  "expires_in": 86400,
-  "token_type": "Bearer"
-} 
-```
-{{< /tab >}}
-{{< /tabs >}}
-{{< /nosnippet >}}
+| Cloud SDK                                                                 | Package   | GitHub                                                             | Code Snippets                                                                              | Common Application Areas                                           |
+|------------------------------------------------------------------------------|-----------|----------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|--------------------------------------------------------------------|
+| [Python](https://products.aspose.cloud/words/python/)  | [`PyPI`](https://pypi.org/project/aspose-words-cloud/) | [sources](https://github.com/aspose-words-cloud/aspose-words-cloud-python) | [gists](https://gist.github.com/aspose-words-cloud-gists/e26813ced70692c544820cd8011ee7e0) | web applications, scientific computing, data analysis              |
+| [Java](https://products.aspose.cloud/words/java/)      | [install manually](https://github.com/aspose-words-cloud/aspose-words-cloud-java#how-to-use-the-sdk) | [sources](https://github.com/aspose-words-cloud/aspose-words-cloud-java)   | [gists](https://gist.github.com/aspose-words-cloud-gists/caede439bfd2e57c3010befe504faff4) | enterprise software, web applications, Android mobile apps         |
+| [Node.js](https://products.aspose.cloud/words/nodejs/) | [`npm`](https://www.npmjs.com/package/asposewordscloud) | [sources](https://github.com/aspose-words-cloud/aspose-words-cloud-node) | [gists](https://gist.github.com/aspose-words-cloud-gists/a9510e4b51613f1138e7c1ec09634c4a) | real-time web applications, scalable network applications          |
+| [.NET](https://products.aspose.cloud/words/net/)       | [`NuGet`](https://www.nuget.org/packages/Aspose.Words-Cloud/) | [sources](https://github.com/aspose-words-cloud/aspose-words-cloud-dotnet) | [gists](https://gist.github.com/aspose-words-cloud-gists/374e1e3dd4bca8f696f29d913645f549) | enterprise applications, desktop software      |
+| [PHP](https://products.aspose.cloud/words/php/)        | [install manually](https://github.com/aspose-words-cloud/aspose-words-cloud-php#how-to-use-the-sdk) | [sources](https://github.com/aspose-words-cloud/aspose-words-cloud-php) | [gists](https://gist.github.com/aspose-words-cloud-gists/e2a72445b96362dc0117f06ab54bb94a) | web applications, content management systems, e-commerce platforms |
+| [C++](https://products.aspose.cloud/words/cpp/)        | [install manually](https://github.com/aspose-words-cloud/aspose-words-cloud-cpp#how-to-build-asposewordscloud-sdk-on-windows) | [sources](https://github.com/aspose-words-cloud/aspose-words-cloud-cpp)    | [gists](https://gist.github.com/aspose-words-cloud-gists/49aa5151a094849179bae8672c887a0e) | high-performance software that requires low-level control          |
+| [Go (Golang)](https://products.aspose.cloud/words/go/) | [install manually](https://github.com/aspose-words-cloud/aspose-words-cloud-go#getting-started-with-asposewords-cloud-sdk-for-go) | [sources](https://github.com/aspose-words-cloud/aspose-words-cloud-go) | [gists](https://gist.github.com/aspose-words-cloud-gists/625ca80adffd779e8f6e3611551e14d5) | scalable network applications and cloud services                   |
+| [Ruby](https://products.aspose.cloud/words/ruby/)      | [install manually](https://github.com/aspose-words-cloud/aspose-words-cloud-ruby#how-to-use-the-sdk) | [sources](https://github.com/aspose-words-cloud/aspose-words-cloud-ruby) | [gists](https://gist.github.com/aspose-words-cloud-gists/339f3835a4c0a536c81ec941de29baf7) | web applications, command-line tools, automation scripts           |
+| [Swift](https://products.aspose.cloud/words/swift/)    | [install manually](https://github.com/aspose-words-cloud/aspose-words-cloud-swift#how-to-use-the-sdk) | [sources](https://github.com/aspose-words-cloud/aspose-words-cloud-swift)  | [gists](https://gist.github.com/aspose-words-cloud-gists/790dbd2edd5d36f170732366f52cac4c) | mobile apps, desktop software, server-side applications            |
+| [Dart](https://products.aspose.cloud/words/dart/)      | [install manually](https://github.com/aspose-words-cloud/aspose-words-cloud-dart#how-to-use-the-sdk) | [sources](https://github.com/aspose-words-cloud/aspose-words-cloud-dart)   | [gists](https://gist.github.com/aspose-words-cloud-gists/6aae628cf2b878b78fea177c3171c6bf) | web applications, mobile apps, command-line tools                  |
