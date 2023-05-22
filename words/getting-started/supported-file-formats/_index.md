@@ -44,6 +44,13 @@ Below is the complete list of formats along with their import/export options.
   | [ODT](https://docs.fileformat.com/word-processing/odt/)             | OpenDocument Text Document                                                         | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
   | [OTT](https://docs.fileformat.com/word-processing/ott/)             | OpenDocument Text Template                                                         | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 
+# PDF
+
+  | Format                                                              | Description                                                                        | Import                 | Export                 |
+  |---------------------------------------------------------------------|------------------------------------------------------------------------------------|------------------------|------------------------|
+  | [PDF](https://docs.fileformat.com/pdf/)                             | Adobe Portable Document                                                            | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+
+
 ## Text and markup formats
 
   | Format                                                              | Description                                                                        | Import                 | Export                 |
@@ -62,22 +69,22 @@ Below is the complete list of formats along with their import/export options.
 
   | Format                                                              | Description                                                                        | Import                 |    Export              |
   |---------------------------------------------------------------------|------------------------------------------------------------------------------------|------------------------|------------------------|
-  | [EPUB](https://docs.fileformat.com/ebook/epub/)                     | IDPF EPUB format                                                                   | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-  | [MOBI](https://docs.fileformat.com/ebook/mobi/)                     | eBook format used by the MobiPocket Reader and Amazon Kindle readers               | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
   | [AZW3](https://docs.fileformat.com/ebook/azw3/)                     | eBook format used by Amazon Kindle readers                                         | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
   | [CHM](https://docs.fileformat.com/web/chm/)                         | Compiled HTML Help format                                                          | {{< emoticons/tick >}} |                        |
+  | [EPUB](https://docs.fileformat.com/ebook/epub/)                     | IDPF EPUB format                                                                   | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+  | [MOBI](https://docs.fileformat.com/ebook/mobi/)                     | eBook format used by the MobiPocket Reader and Amazon Kindle readers               | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+
 
 ## Fixed page layout formats
 
-  | Format                                                              | Description                                                                        | Import                 | Export                 |
-  |---------------------------------------------------------------------|------------------------------------------------------------------------------------|------------------------|------------------------|
-  | [PDF](https://docs.fileformat.com/pdf/)                             | Adobe Portable Document                                                            | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-  | [PS](https://docs.fileformat.com/page-description-language/ps/)     | PostScript format                                                                  |                        | {{< emoticons/tick >}} |
-  | [XPS](https://docs.fileformat.com/page-description-language/xps/)   | XML Paper Specification document                                                   |                        | {{< emoticons/tick >}} |
-  | [OpenXPS](https://docs.fileformat.com/page-description-language/xps/) | OpenXPS (ECMA-388) format                                                        |                        | {{< emoticons/tick >}} |
-  | [PCL](https://docs.fileformat.com/page-description-language/pcl/)   | Printer Control Language format                                                    |                        | {{< emoticons/tick >}} |
-  | [HtmlFixed](https://docs.fileformat.com/web/html/)                  | HTML format using absolutely positioned elements                                   |                        | {{< emoticons/tick >}} |
-  | [XamlFixed](https://docs.fileformat.com/web/xaml/)                  | Extensible Application Markup Language (XAML) format as a fixed document           |                        | {{< emoticons/tick >}} |
+  | Format                                                              | Description                                                                        | Export                 |
+  |---------------------------------------------------------------------|------------------------------------------------------------------------------------|------------------------|
+  | [HtmlFixed](https://docs.fileformat.com/web/html/)                  | HTML format using absolutely positioned elements                                   | {{< emoticons/tick >}} |
+  | [OpenXPS](https://docs.fileformat.com/page-description-language/xps/) | OpenXPS (ECMA-388) format                                                        | {{< emoticons/tick >}} |
+  | [PCL](https://docs.fileformat.com/page-description-language/pcl/)   | Printer Control Language format                                                    | {{< emoticons/tick >}} |
+  | [PS](https://docs.fileformat.com/page-description-language/ps/)     | PostScript format                                                                  | {{< emoticons/tick >}} |
+  | [XamlFixed](https://docs.fileformat.com/web/xaml/)                  | Extensible Application Markup Language (XAML) format as a fixed document           | {{< emoticons/tick >}} |
+  | [XPS](https://docs.fileformat.com/page-description-language/xps/)   | XML Paper Specification document                                                   | {{< emoticons/tick >}} |
 
 ## Image formats
 
