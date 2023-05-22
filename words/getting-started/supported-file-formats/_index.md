@@ -12,9 +12,9 @@ The Aspose.Words Cloud API provides extensive I/O support for a variety of forma
 
 Certain file formats, such as fixed page layout formats and image formats, are only supported for writing. They are primarily intended for storing static content in binary form, making it difficult to modify such files after they have been created. Therefore, our API offers export capabilities for these file formats only.
 
-Below is the complete list of formats along with their import/export options:
+Below is the complete list of formats along with their import/export options.
 
-* **Microsoft Word document formats**
+## Microsoft Word document formats
 
   | Format                                                              | Description                                                                        | Import                 | Export                 |
   |---------------------------------------------------------------------|------------------------------------------------------------------------------------|------------------------|------------------------|
@@ -24,7 +24,7 @@ Below is the complete list of formats along with their import/export options:
   | DocPreWord60                                                        | Word 6 or Word 95 Document                                                         | {{< emoticons/tick >}} |                        |
 
 
-* **Office Open XML document formats**
+## Office Open XML document formats
 
   | Format                                                              | Description                                                                                                 | Import                 | Export                 |
   |---------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|------------------------|------------------------|
@@ -37,14 +37,14 @@ Below is the complete list of formats along with their import/export options:
   | FlatOpcTemplate                                                     | Office Open XML WordprocessingML Template (macro-free) stored in a flat XML file instead of a ZIP package   | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
   | FlatOpcTemplateMacroEnabled                                         | Office Open XML WordprocessingML Macro-Enabled Template stored in a flat XML file instead of a ZIP package  | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 
-* **OpenDocument formats**
+## OpenDocument formats
 
   | Format                                                              | Description                                                                        | Import                 | Export                 |
   |---------------------------------------------------------------------|------------------------------------------------------------------------------------|------------------------|------------------------|
   | [ODT](https://docs.fileformat.com/word-processing/odt/)             | OpenDocument Text Document                                                         | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
   | [OTT](https://docs.fileformat.com/word-processing/ott/)             | OpenDocument Text Template                                                         | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 
-* **Text and markup formats**
+## Text and markup formats
 
   | Format                                                              | Description                                                                        | Import                 | Export                 |
   |---------------------------------------------------------------------|------------------------------------------------------------------------------------|------------------------|------------------------|
@@ -55,7 +55,7 @@ Below is the complete list of formats along with their import/export options:
   | [RTF](https://docs.fileformat.com/word-processing/rtf/)             | Rich Text Format document                                                          | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
   | [XML](https://docs.fileformat.com/web/xml/)                         | eXtensible Markup Language document                                                | {{< emoticons/tick >}} |                        |
 
-* **eBook formats**
+## eBook formats
 
   | Format                                                              | Description                                                                        | Import                 |    Export              |
   |---------------------------------------------------------------------|------------------------------------------------------------------------------------|------------------------|------------------------|
@@ -64,7 +64,7 @@ Below is the complete list of formats along with their import/export options:
   | [AZW3](https://docs.fileformat.com/ebook/azw3/)                     | eBook format used by Amazon Kindle readers                                         | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
   | [CHM](https://docs.fileformat.com/web/chm/)                         | Compiled HTML Help format                                                          | {{< emoticons/tick >}} |                        |
 
-* **Fixed page layout formats**
+## Fixed page layout formats
 
   | Format                                                              | Description                                                                        | Import                 | Export                 |
   |---------------------------------------------------------------------|------------------------------------------------------------------------------------|------------------------|------------------------|
@@ -78,14 +78,14 @@ Below is the complete list of formats along with their import/export options:
   | [XamlFlow](https://docs.fileformat.com/web/xaml/)                   | Extensible Application Markup Language (XAML) format as a flow document            |                        | {{< emoticons/tick >}} |
   | [XamlFlowPack](https://docs.fileformat.com/web/xaml/)               | Extensible Application Markup Language (XAML) package format as a flow document    |                        | {{< emoticons/tick >}} |
 
-* **Image formats**
+## Image formats
 
-  | Format                                                              | Description                                                                        | Import                 | Export                 |
-  |---------------------------------------------------------------------|------------------------------------------------------------------------------------|------------------------|------------------------|
-  | [JPEG](https://docs.fileformat.com/image/jpeg/)                     | Joint Photographic Experts Group image format                                      |                        | {{< emoticons/tick >}} |
-  | [PNG](https://docs.fileformat.com/image/png/)                       | Portable Network Graphic format                                                    |                        | {{< emoticons/tick >}} |
-  | [SVG](https://docs.fileformat.com/page-description-language/svg/)   | Scalar Vector Graphics format                                                      |                        | {{< emoticons/tick >}} |
-  | [TIFF](https://docs.fileformat.com/image/tiff/)                     | Single or multipage Tagged Image file format                                       |                        | {{< emoticons/tick >}} |
-  | [BMP](https://docs.fileformat.com/image/bmp/)                       | Bitmap image format                                                                |                        | {{< emoticons/tick >}} |
-  | [EMF](https://docs.fileformat.com/image/emf/)                       | Vector Enhanced Metafile image format                                              |                        | {{< emoticons/tick >}} |
-  | [GIF](https://docs.fileformat.com/image/gif/)                       | Graphic Interchange image format                                                   |                        | {{< emoticons/tick >}} |
+  | Format                                                              | Description                                                                        | Export                 |
+  |---------------------------------------------------------------------|------------------------------------------------------------------------------------|------------------------|
+  | [JPEG](https://docs.fileformat.com/image/jpeg/)                     | Joint Photographic Experts Group image format                                      | {{< emoticons/tick >}} |
+  | [PNG](https://docs.fileformat.com/image/png/)                       | Portable Network Graphic format                                                    | {{< emoticons/tick >}} |
+  | [SVG](https://docs.fileformat.com/page-description-language/svg/)   | Scalar Vector Graphics format                                                      | {{< emoticons/tick >}} |
+  | [TIFF](https://docs.fileformat.com/image/tiff/)                     | Single or multipage Tagged Image file format                                       | {{< emoticons/tick >}} |
+  | [BMP](https://docs.fileformat.com/image/bmp/)                       | Bitmap image format                                                                | {{< emoticons/tick >}} |
+  | [EMF](https://docs.fileformat.com/image/emf/)                       | Vector Enhanced Metafile image format                                              | {{< emoticons/tick >}} |
+  | [GIF](https://docs.fileformat.com/image/gif/)                       | Graphic Interchange image format                                                   | {{< emoticons/tick >}} |
