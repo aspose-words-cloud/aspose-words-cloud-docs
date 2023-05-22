@@ -14,7 +14,7 @@ Certain file formats, such as fixed page layout formats and image formats, are o
 
 Below is the complete list of formats along with their import/export options.
 
-## Microsoft Word document formats
+## Microsoft Word formats
 
   | Format                                                              | Description                                                                        | Import                 | Export                 |
   |---------------------------------------------------------------------|------------------------------------------------------------------------------------|------------------------|------------------------|
@@ -24,7 +24,7 @@ Below is the complete list of formats along with their import/export options.
   | DocPreWord60                                                        | Word 6 or Word 95 Document                                                         | {{< emoticons/tick >}} |                        |
 
 
-## Office Open XML document formats
+## Office Open XML formats
 
   | Format                                                              | Description                                                                                                 | Import                 | Export                 |
   |---------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|------------------------|------------------------|
