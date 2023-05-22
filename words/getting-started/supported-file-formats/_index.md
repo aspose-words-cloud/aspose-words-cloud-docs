@@ -54,6 +54,9 @@ Below is the complete list of formats along with their import/export options.
   | [MD](https://docs.fileformat.com/word-processing/md/)               | Markdown document                                                                  | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
   | [RTF](https://docs.fileformat.com/word-processing/rtf/)             | Rich Text Format document                                                          | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
   | [XML](https://docs.fileformat.com/web/xml/)                         | eXtensible Markup Language document                                                | {{< emoticons/tick >}} |                        |
+  | [XamlFlow](https://docs.fileformat.com/web/xaml/)                   | Extensible Application Markup Language (XAML) format as a flow document            |                        | {{< emoticons/tick >}} |
+  | [XamlFlowPack](https://docs.fileformat.com/web/xaml/)               | Extensible Application Markup Language (XAML) package format as a flow document    |                        | {{< emoticons/tick >}} |
+
 
 ## eBook formats
 
@@ -69,14 +72,12 @@ Below is the complete list of formats along with their import/export options.
   | Format                                                              | Description                                                                        | Import                 | Export                 |
   |---------------------------------------------------------------------|------------------------------------------------------------------------------------|------------------------|------------------------|
   | [PDF](https://docs.fileformat.com/pdf/)                             | Adobe Portable Document                                                            | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-  | [XPS](https://docs.fileformat.com/page-description-language/xps/)   | XML Paper Specification document                                                   |                        | {{< emoticons/tick >}} |
-  | [HtmlFixed](https://docs.fileformat.com/web/html/)                  | HTML format using absolutely positioned elements                                   |                        | {{< emoticons/tick >}} |
-  | [OpenXPS](https://docs.fileformat.com/page-description-language/xps/) | OpenXPS (ECMA-388) format                                                        |                        | {{< emoticons/tick >}} |
   | [PS](https://docs.fileformat.com/page-description-language/ps/)     | PostScript format                                                                  |                        | {{< emoticons/tick >}} |
+  | [XPS](https://docs.fileformat.com/page-description-language/xps/)   | XML Paper Specification document                                                   |                        | {{< emoticons/tick >}} |
+  | [OpenXPS](https://docs.fileformat.com/page-description-language/xps/) | OpenXPS (ECMA-388) format                                                        |                        | {{< emoticons/tick >}} |
   | [PCL](https://docs.fileformat.com/page-description-language/pcl/)   | Printer Control Language format                                                    |                        | {{< emoticons/tick >}} |
+  | [HtmlFixed](https://docs.fileformat.com/web/html/)                  | HTML format using absolutely positioned elements                                   |                        | {{< emoticons/tick >}} |
   | [XamlFixed](https://docs.fileformat.com/web/xaml/)                  | Extensible Application Markup Language (XAML) format as a fixed document           |                        | {{< emoticons/tick >}} |
-  | [XamlFlow](https://docs.fileformat.com/web/xaml/)                   | Extensible Application Markup Language (XAML) format as a flow document            |                        | {{< emoticons/tick >}} |
-  | [XamlFlowPack](https://docs.fileformat.com/web/xaml/)               | Extensible Application Markup Language (XAML) package format as a flow document    |                        | {{< emoticons/tick >}} |
 
 ## Image formats
 
