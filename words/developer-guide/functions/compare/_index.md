@@ -1,21 +1,21 @@
 ﻿---
-title: "Compare two Word documents online"
-articleTitle: "Compare two Word documents"
+title: "Compare two documents online"
+articleTitle: "Compare two documents"
 linktitle: "Document Comparison"
 type: docs
 url: /compare/
-description: "Compare two Word documents programmatically via Cloud API."
+description: "Compare two documents programmatically via Cloud API."
 weight: 20
 ---
 
-Comparing Word documents is often used to track changes made to important documents. Additionally, it is used in editing to compare the modified document version with the original.
+Comparing documents is often used to track changes made to important documents. Additionally, it is used in editing to compare the modified document version with the original.
 
-Aspose.Words REST API is a powerful document manipulation tool that allows developers to compare two Word documents and retrieve the differences between them.
+Aspose.Words REST API is a powerful document manipulation tool that allows developers to compare two documents and retrieve the differences between them.
 
 As a result of the comparison, a list of differences between the two Word documents is returned. Each difference will contain information about the type of difference (e.g. deleted text, added text, formatting change), the location of the difference in the document, and the text that was added or deleted.
 
 
-## Compare two Word documents REST API
+## Compare two documents REST API
 
 | Server                         | Method | Endpoint             |
 |--------------------------------|--------|----------------------|
@@ -45,11 +45,11 @@ Use `$multipart/form-data` request to combine one or more properties into a sing
 {{% /alert %}}
 
 
-## Compare two Word documents usage examples
+## Compare two documents usage examples
 
 Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
 
-### How to compare two Word documents with cURL or Postman
+### How to compare twodocuments with cURL or Postman
 
 One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
 
@@ -71,7 +71,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /nosnippet >}}
 
 
-### How to compare two Word documents in Python, Java, C#, C++, JavaScript and other programming languages
+### How to compare two documents in Python, Java, C#, C++, JavaScript and other programming languages
 
 Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
 
