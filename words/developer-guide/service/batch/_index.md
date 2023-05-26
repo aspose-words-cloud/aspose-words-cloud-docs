@@ -1,11 +1,9 @@
 ﻿---
-title: "Working with Batch Requests online"
-articleTitle: "Working with Batch Requests"
-linktitle: "Batch Requests"
+title: "Working with Batch Requests"
 type: docs
 url: /batch/
-description: "Insert, edit, delete Batch Requests programmatically via Cloud API."
-weight: 9
+description: "Working with Batch Requests."
+weight: 10
 ---
 
 Aspose.Words REST API provides a 'Batch Request' feature that allows developers to group multiple REST API requests into a single request. This method can minimize client-server interactions while maximizing document processing speed.

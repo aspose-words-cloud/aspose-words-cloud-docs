@@ -1,5 +1,5 @@
 ﻿---
-title: "Compare two documents online"
+title: "Compare two documents"
 type: docs
 url: /compare/
 description: "Compare two documents programmatically via Cloud API."

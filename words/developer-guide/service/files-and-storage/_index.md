@@ -1,10 +1,8 @@
 ﻿---
-title: "Working with Files in Cloud Storage online"
-articleTitle: "Working with Files in Cloud Storage"
-linktitle: "Cloud Storage"
+title: "Working with Files and Directories in Cloud Storage"
 type: docs
 url: /files-and-storage/
-description: "Insert, edit, delete Files in Cloud Storage programmatically via Cloud API."
+description: "Working with Files and Directories in Cloud Storage programmatically via Cloud API."
 weight: 90
 ---
 
