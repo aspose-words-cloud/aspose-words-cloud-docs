@@ -1,5 +1,5 @@
 ﻿---
-title: "Working with Batch Requests"
+title: "Working with batch requests"
 type: docs
 url: /batch/
 description: "Working with Batch Requests."

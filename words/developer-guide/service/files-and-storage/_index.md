@@ -1,5 +1,5 @@
 ﻿---
-title: "Working with Files and Directories in Cloud Storage"
+title: "Working with files and directories in cloud storage"
 type: docs
 url: /files-and-storage/
 description: "Working with Files and Directories in Cloud Storage programmatically via Cloud API."

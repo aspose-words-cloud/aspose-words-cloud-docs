@@ -1,5 +1,5 @@
 ---
-title: "Working with cURL"
+title: "Working with cURL utility"
 second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /getting-started/using-curl/
