@@ -1,5 +1,5 @@
 ---
-title: "Elements"
+title: "Document Elements"
 second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /elements/

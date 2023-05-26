@@ -7,152 +7,60 @@ description: "Developer Guide"
 weight: 20
 ---
 
-{{< tabs tabTotal="8" tabID="1" tabName1="Main" tabName2="Convert" tabName3="Structure" tabName4="Content" tabName5="Tables" tabName6="MailMerge" tabName7="Other" tabName8="Plugins" >}}
-{{< tab tabNum="1" >}}
+** Introduction **
 
-<div class="row">
-    <div class="col-md-6">
-        <p>Document Properties, Protection, Tracking of Changes</p>
-        <ul>
-            <li><a href="/words/documents/information/">Get Document Information</a></li>
-            <li><a href="/words/documents/statistics/">Get Document Statistics</a></li>
-            <li><a href="/words/documents/properties/">Document Properties</a></li>
-            <li><a href="/words/documents/protection/add/">Protect a Word Document</a></li>
-            <li><a href="/words/documents/track-changes/">Track Changes in a Word Document</a></li>
-        </ul>            
-        <p>Watermarks</p>
-        <ul>
-            <li><a href="/words/watermark/insert-image/">Insert a Watermark Image into a Word Document</a></li>
-            <li><a href="/words/watermark/insert-text/">Insert a Watermark Text into a Word Document</a></li>
-        </ul>
-    </div>
-    <div class="col-md-6">
-        <p>Create, Merge & Split Documents</p>
-        <ul>
-            <li><a href="/words/documents/create/">Create a new Word Document</a></li>
-            <li><a href="/words/merge/">Merge Word Documents</a></li>
-            <li><a href="/words/split/">Split a Document</a></li>
-        </ul>
-        <p>Compare & Render Documents</p>
-        <ul>
-            <li><a href="/words/compare/">Compare Documents</a></li>
-            <li><a href="/words/documents/render-into-image/">Render Complex Parts of a Word Document Into the Image</a></li>
-        </ul>
-		<p>Batch Requests</p>
-        <ul>
-            <li><a href="/words/batch/">Batch Requests</a></li>
-        </ul>
-    </div>
-</div>
-{{< /tab >}}
-{{< tab tabNum="2" >}}
+As a programmer, understanding the underlying structure of a Word document is crucial for effectively manipulating its content. In this article, we will delve into the various groups of elements that make up a Word document. By categorizing these elements, we can gain a deeper understanding of their composition and functionalities.
 
-<p>Convert with a high quality rendering. 20+ document formats are supported</p>
-<ul>
-    <li><a href="/words/convert/specified-format/">Convert a Word Document from Request Content to a Specified Format</a></li>    
-    <li><a href="/words/convert/pdf-to-word/">Convert a PDF Document to Word</a></li>
-    <li><a href="/words/convert/document-to-tiff/">Convert a Document to TIFF with Detailed Settings</a></li>    
-    <li><a href="/words/convert/conversion-settings/">Convert a Document to Destination Format with Detailed Settings and Save Result to Storage</a></li>
-</ul>
-{{< /tab >}}
-{{< tab tabNum="3" >}}
+**Structural Elements**
 
-<p>Headers, Footers & Sections</p>
-<ul>
-    <li><a href="/words/headers-and-footers/add/">Add a Header or a Footer to a Document</a></li>
-    <li><a href="/words/sections/read/">Read the Page Setup of a Section</a></li>
-    <li><a href="/words/sections/update/">Update the Page Setup of a Section</a></li>
-    <li><a href="/words/insert-page-numbers/">Insert Page Numbers in a Document</a></li>
-</ul>
-{{< /tab >}}
-{{< tab tabNum="4" >}}
-<div class="row">
-    <div class="col-md-4">
-        <p>Text Search & Replace</p>
-        <ul>
-            <li><a href="/words/text/search/">Search Text in a Word Document</a></li>
-            <li><a href="/words/text/replace/">Replace Document Text</a></li>
-        </ul>
-        <p>Paragraphs</p>
-        <ul>
-            <li><a href="/words/paragraphs/add/">Add a Paragraph to Document</a></li>
-            <li><a href="/words/paragraphs/update/">Update Paragraph Format Properties</a></li>
-            <li><a href="/words/paragraphs/update-font-properties/">Update Font Properties</a></li>
-        </ul>
-    </div>
-    <div class="col-md-4">
-        <p>Fields</p>
-        <ul>
-            <li><a href="/words/fields/add/">Add a Field to a Document</a></li>
-            <li><a href="/words/fields/update/">Update Field Properties</a></li>
-        </ul>
-        <p>Form Fields</p>
-        <ul>
-            <li><a href="/words/formfields/add/">Add a Form Field to Paragraph</a></li>
-            <li><a href="/words/formfields/update/">Update Properties of a Form Field</a></li>
-        </ul>
-    </div>
-    <div class="col-md-4">
-        <p>Footnotes</p>
-        <ul>
-            <li><a href="/words/footnotes/add/">Add Footnote to Document</a></li>
-            <li><a href="/words/footnotes/update/">Update Footnote Properties</a></li>
-        </ul>
-        <p>Comments</p>
-        <ul>
-            <li><a href="/words/comments/add/">Add Comments to a Word Document</a></li>
-            <li><a href="/words/comments/update/">Update the Comment in a Word Document</a></li>
-        </ul>
-    </div>
-</div>
-{{< /tab >}}
-{{< tab tabNum="5" >}}
+Structural elements provide the framework for organizing and arranging the content within a Word document. These elements include:
 
-<ul>
-    <li><a href="/words/tables/add/">Add a Table to a Document</a></li>
-    <li><a href="/words/tables/update-properties/">Update Table Properties</a></li>
-    <li><a href="/words/tables/add-row/">Add a Row To a Table</a></li>
-    <li><a href="/words/tables/update-row-format/">Update a Table Row Format</a></li>
-    <li><a href="/words/tables/add-cell/">Add a Cell to Table Row</a></li>
-    <li><a href="/words/tables/update-cell-format/">Update a Table Cell Format</a></li>
-</ul>
-{{< /tab >}}
-{{< tab tabNum="6" >}}
+* [Paragraphs](/words/paragraphs/) - represent individual blocks of text within a document.
+* [Sections](/words/sections/) - divide the document into distinct regions, each with its own formatting properties.
+* [Tables](/words/tables/) - allow for structured presentation of tabular data.
+* [Headers and Footers](/words/headers-and-footers/) - provide consistent content at the top and bottom of each page.
+* [Lists](/words/lists/) - enable the creation of ordered (numbered) or unordered (bulleted) sequences of items.
 
-<div class="col-md-6">
-    <p>Report Generation</p>
-    <ul>
-        <li><a href="/words/report/build-online/">Build Report Online</a></li>        
-    </ul>
-</div>
-<div class="col-md-6">
-    <p>MailMerge</p>
-    <ul>
-        <li><a href="/words/mail-merge/execute/">Execute MailMerge Operation</a></li>
-        <li><a href="/words/mail-merge/read-field-names-online/">Get Mail Merge field names</a></li>
-    </ul>
-</div>
-{{< /tab >}}
-{{< tab tabNum="7" >}}
+**Navigation Elements**
 
-<p>Files & Storage, Ranges, Drawing Objects</p>
-<ul>
-    <li><a href="/words/files-and-storage/">Working with Files and Storage using Aspose.Words Cloud</a></li>
-    <li><a href="/words/drawing-objects/add/">Add a Drawing Object to Word Document</a></li>
-    <li><a href="/words/drawing-objects/get-image-data/">Get Image Data from a Drawing Object</a></li>
-    <li><a href="/words/drawing-objects/get-ole-file/">Get OLE file from a Drawing Object</a></li>
-    <li><a href="/words/range/">Working with Range</a></li>
-    <li><a href="/words/documents/save-webpage/">Save a Webpage in a Word Document</a></li>
-</ul>
-{{< /tab >}}
-{{< tab tabNum="8" >}}
-    
-<p>Plugins for WordPress, SalesForce, Dynamics CRM & Drupal</p>
-<ul>
-    <li><a href="/words/plugins/wordpress/">Aspose.Words Cloud for WordPress</a></li>
-    <li><a href="/words/plugins/salesforce/">Aspose.Words Cloud for SalesForce</a></li>
-    <li><a href="/words/plugins/dynamics-crm/">Aspose.Words Cloud for Dynamics CRM</a></li>
-    <li><a href="/words/plugins/drupal/">Aspose.Words Cloud for Drupal</a></li>    
-</ul>
-    {{< /tab >}}
-{{< /tabs >}}   
+Navigation elements facilitate easy movement within a Word document, allowing users to efficiently browse and locate specific content. These elements include:
+
+* [Headings]() - provide a hierarchical structure to the document, enabling users to navigate through different sections and sub-sections.
+* [Bookmarks](/words/bookmarks/) - create reference points within the document, enabling users to jump to specific locations instantly.
+* [Hyperlinks](/words/hyperlinks/) - embed clickable links to external resources, websites, or other documents for seamless navigation.
+
+**Metadata Elements**
+
+Metadata elements store additional information about the Word document, such as its properties and settings. These elements include:
+
+* [Document Properties]() - capture information like the document title, author, creation date, and keywords.
+* [Fonts](/words/fonts/) - 
+* [Styles](/words/styles/) - define the formatting rules applied to different parts of the document, ensuring consistency.
+* [Comments](/words/comments/) - allow users to provide feedback or add annotations to specific parts of the document.
+* [Track Changes]() - keep a record of modifications made to the document, including insertions, deletions, and formatting changes.
+
+
+**Graphical Elements**
+
+Graphical elements allow for the inclusion of visual content within a Word document. These elements include:
+
+* [Pictures and Images]() - insert static images or photographs into the document.
+* [Shapes]() - add customizable shapes, such as rectangles, circles, or arrows.
+* [Charts]() - incorporate dynamic charts and graphs to represent data visually.
+* [SmartArt]() - create visual representations of complex concepts using pre-defined diagrams.
+
+**Security Elements**
+
+Elements related to security and protection contribute to safeguarding the content and integrity of a Word document. These elements include:
+
+* [Password Protection]() - restrict access to the document by setting a password for opening or modifying it.
+* [Digital Signatures]() - verify the authenticity and integrity of the document using cryptographic signatures.
+* [Document Encryption]() - encrypt the document's contents to prevent unauthorized access.
+* [Watermarks](/words/watermark/) - add semi-transparent images or text in the background of the document to convey additional information or branding.
+
+
+**Special Elements**
+
+Apart from the core categories, Word documents also include other elements like:
+
+* [OfficeMath objects](/words/math-objects/) - enable the creation, editing, and formatting of mathematical equations and formulas within the document.

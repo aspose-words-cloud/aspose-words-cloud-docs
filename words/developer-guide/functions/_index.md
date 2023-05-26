@@ -1,9 +1,9 @@
 ---
-title: "Functions"
+title: "Document Operations"
 second_title: "Aspose Words Cloud Docs"
 type: docs
-url: /functions/
+url: /operations/
 aliases: [/documents/]
-weight: 20
+weight: 10
 ---
 
