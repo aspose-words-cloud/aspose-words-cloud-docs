@@ -10,7 +10,7 @@ weight: 10
 
 Drupal is a free, open-source web development platform for online content and user communities. Drupal powers some of the busiest sites on the web, and can be adapted to virtually any visual design. Drupal runs over a million sites, including WhiteHouse.gov, World Economic Forum, Stanford University, and Examiner.com. It’s built, used, and supported by an active and diverse community of people around the world.
 
-### Aspose Doc Exporter
+## Aspose Doc Exporter
 
 Aspose Doc Exporter Module for Drupal allows administrators to export article contents to Microsoft Word (DOX/DOCX) document. This module demonstrates the powerful export feature Aspose.Words provides. It adds a simple update option: Aspose Export to DOC. When the bulk action is called, it exports all articles to a Microsoft Word (DOC/DOCX) document.
 
