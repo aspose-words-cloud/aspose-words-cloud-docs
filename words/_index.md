@@ -16,13 +16,13 @@ Aspose.Words Cloud API takes care of low-level details to make requests and hand
 
 {{% /alert %}}
 
-- [Getting Started](https://docs.aspose.cloud/words/getting-started/)
+- [Getting Started](https://docs.aspose.cloud/words/getting-started/)</br>
   Start using Aspose.Words Cloud in a few simple steps
-- [Developer Guide](https://docs.aspose.cloud/words/developer-guide/)
+- [Developer Guide](https://docs.aspose.cloud/words/developer-guide/)</br>
   Master Aspose.Words Cloud API and build your own document manipulation solutions
-- [Plugins](https://docs.aspose.cloud/words/plugins/)
+- [Plugins](https://docs.aspose.cloud/words/plugins/)</br>
   Use Aspose.Words Cloud with other powerful software plugins
-- [Specification](https://docs.aspose.cloud/words/spec/)
+- [Specification](https://docs.aspose.cloud/words/spec/)</br>
   Learn more about Aspose.Words API and discover the features and benefits of Aspose.Words Cloud
-- [Release Notes](https://releases.aspose.cloud/words/release-notes/)
+- [Release Notes](https://releases.aspose.cloud/words/release-notes/)</br>
   Read a summary of recent changes, enhancements, and bug fixes in Aspose.Words Cloud
