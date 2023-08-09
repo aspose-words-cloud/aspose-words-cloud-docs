@@ -49,7 +49,7 @@ An Application is a set of unique API credentials — **Client Id** and **Client
 To access information about your Applications, please perform the following steps:
 
 1. Log in to [Aspose Dashboard](https://dashboard.aspose.cloud/#/)
-2. On the left side of the page click the [Applications](https://dashboard.aspose.cloud/applications) tab.
+2. On the left side of the page click the **Applications** tab.
 
 ![applications.png](applications.png)
 

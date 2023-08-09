@@ -64,7 +64,7 @@ Please follow these steps to get started:
 You can download the Aspose Cloud eBook Generator plugin from one of the following locations:
 
 - Download from [WordPress](https://wordpress.org/plugins/aspose-cloud-ebook-generator/).
-- Download from [Github](https://github.com/asposeforcloud/Aspose_Cloud_for_WordPress/releases/tag/8.0).
+- Download from [Github](https://github.com/asposeforcloud/Aspose_Cloud_for_WordPress/tree/master/aspose-cloud-eBook-generator).
 
 ## Installing
 

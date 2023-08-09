@@ -72,7 +72,7 @@ Please follow these steps to get started:
 You can download the Aspose DOC Exporter Module from one of the following locations:
 
 - Download from [Drupal](https://www.drupal.org/project/aspose_doc_exporter/).
-- Download from [Github](https://github.com/asposeforcloud/Aspose_Cloud_for_Drupal/releases/tag/1.0).
+- Download from [Github](https://github.com/asposeforcloud/Aspose_Cloud_for_Drupal/tree/master/aspose_doc_exporter).
 
 #### Installing
 

@@ -149,7 +149,7 @@ It is simple to install Aspose Cloud AutoMerge. Please follow below Instructions
 
 ## Applying License
 
-- Create an account on <http://cloud.aspose.com/> and Save its AppSID and AppKey.
+- Create an account on <https://dashboard.aspose.cloud/> and Save its AppSID and AppKey.
 - It will be later used in workflow configuration.
 
 ## Uninstalling Aspose Cloud AutoMerge
