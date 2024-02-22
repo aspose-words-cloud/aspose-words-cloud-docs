@@ -59,10 +59,7 @@ In this section, you are instructed on how to create a storage account for files
 ![](005.png)
 
 5. On "Advanced" and "Networking" tabs leave the default settings.
-6. On the "Data Protection" tab, you can configure the "Soft Deletion" option if necessary.
-
-This option, when enabled, provides an additional layer of protection by retaining deleted data for a specified period. Disabling "Soft Delete" means that once data is deleted, it is permanently removed and cannot be recovered.
-
+6. On the "Data Protection" tab, you can configure the "Soft Deletion" option if necessary. This option, when enabled, provides an additional layer of protection by retaining deleted data for a specified period. Disabling "Soft Delete" means that once data is deleted, it is permanently removed and cannot be recovered.
 
 ![](006.png)
 
@@ -100,9 +97,9 @@ Next, we will proceed to create two separate file shares in our Azure Storage ac
 
 At this point, your your storage account should contain 2 file shares, `data` and `fonts`.
 
-18. Select "Access Keys" from the left menu and copy your access key to the clipboard (it will be required when mounting Azure storage into a container).
+18. Select "Access Keys" from the left menu and copy your access key to the clipboard (it will be required when mounting Azure storage into the container).
 
-This key is a unique ID that grants access to your Storage Account. It should be handled with care, as anyone with access to this key can access and manipulate your Storage Account.
+This key is a unique ID that grants access to your Storage account. It should be handled with care, as anyone with access to this key can access and manipulate your Storage account.
 
 ![](013.png)
 
@@ -189,7 +186,7 @@ This section provides instructions on how to test the setup. You will be guided 
 2. Execute following command in the command prompt (replace `YOUR_IP` with the IP of your container)
 
 ```
-curl -v "[http://YOUR_IP/v4.0/words/create?filename=Test.docx](http://your_ip/v4.0/words/create?filename=Test.docx)" -X PUT -d ""
+curl -v "http://YOUR_IP/v4.0/words/create?filename=Test.docx" -X PUT -d ""
 ```
 
 3. Click "Storage account" on the main page of Azure.
@@ -203,3 +200,6 @@ curl -v "[http://YOUR_IP/v4.0/words/create?filename=Test.docx](http://your_ip/v4
 5. Click "Browse" in the left menu. You should see the document created by your request in the list of files.
 
 ![](026.png)
+
+
+Congratulations! Now you have a fully functional Aspose.Words Cloud service, customized to your needs and able to interact with Azure storage.
