@@ -117,12 +117,12 @@ This section guides you on how to create a Docker container instance that will r
 
 3. Click "Create"
 4. Navigate to the "Basics" tab.
-    a. Select the resource group you created earlier from the drop-down list.
-    b. Enter a name for the container instance (i.e. 'aspose-cloud-container').
-    c. Select the region. You should select the region that is closest to your users to reduce latency.
-    d. For the "Image Source" field, select "Other registry".
-    e. In the "Image" field, type `aspose/words-cloud:latest`, which is the path to the latest version of the Aspose.Words Cloud Docker image in Docker Hub.
-    f. For the "OS Type" field, select "Linux".
+    A. Select the resource group you created earlier from the drop-down list.
+    B. Enter a name for the container instance (i.e. 'aspose-cloud-container').
+    C. Select the region. You should select the region that is closest to your users to reduce latency.
+    D. For the "Image Source" field, select "Other registry".
+    E. In the "Image" field, type `aspose/words-cloud:latest`, which is the path to the latest version of the Aspose.Words Cloud Docker image in Docker Hub.
+    F. For the "OS Type" field, select "Linux".
 
 ![](015.png)
 
@@ -160,8 +160,8 @@ This section guides you on how to create a Docker container instance that will r
 ![](020.png)
 
 14. Edit the template to mount Azure storage into the container.
-   a. Add the "volumes" section into the main "properties" section of the template. Pass the name of your storage account into the `storageAccountName` field. Paste the access key from the clipboard (we copied it earlier) into the `storageAccountKey` field.
-   b. Add the "volumeMounts" section into the "properties" section of "container".
+   A. Add the "volumes" section into the main "properties" section of the template. Pass the name of your storage account into the `storageAccountName` field. Paste the access key from the clipboard (we copied it earlier) into the `storageAccountKey` field.
+   B. Add the "volumeMounts" section into the "properties" section of "container".
    
 ![](021.png)
 
