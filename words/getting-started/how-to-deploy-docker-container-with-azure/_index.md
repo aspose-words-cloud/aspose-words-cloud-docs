@@ -51,10 +51,10 @@ In this section, you are instructed on how to create a storage account for files
 3. Click "Create".
 4. Navigate to the "Basics" tab.
 
- a. Select the resource group you created earlier from the drop-down list.
- b. Provide a name for your storage account. This name should be unique and identifiable (i.e. 'asposecloudfs'), as it will be used to distinguish this particular storage account from others in your Azure environment.
- c. Select the region where your storage account will be hosted. This should ideally be a location that is geographically close to your users to reduce latency.
- d. There is an option to choose "Redundancy". Azure provides different levels of redundancy, and you can choose the one that best suits your needs.
+   a. Select the resource group you created earlier from the drop-down list.
+   b. Provide a name for your storage account. This name should be unique and identifiable (i.e. 'asposecloudfs'), as it will be used to distinguish this particular storage account from others in your Azure environment.
+   c. Select the region where your storage account will be hosted. This should ideally be a location that is geographically close to your users to reduce latency.
+   d. There is an option to choose "Redundancy". Azure provides different levels of redundancy, and you can choose the one that best suits your needs.
 
 ![](005.png)
 
@@ -117,12 +117,12 @@ This section guides you on how to create a Docker container instance that will r
 
 3. Click "Create"
 4. Navigate to the "Basics" tab.
-   a. Select the resource group you created earlier from the drop-down list.
-   b. Enter a name for the container instance (i.e. 'aspose-cloud-container').
-   c. Select the region. You should select the region that is closest to your users to reduce latency.
-   d. For the "Image Source" field, select "Other registry".
-   e. In the "Image" field, type `aspose/words-cloud:latest`, which is the path to the latest version of the Aspose.Words Cloud Docker image in Docker Hub.
-   f. For the "OS Type" field, select "Linux".
+    a. Select the resource group you created earlier from the drop-down list.
+    b. Enter a name for the container instance (i.e. 'aspose-cloud-container').
+    c. Select the region. You should select the region that is closest to your users to reduce latency.
+    d. For the "Image Source" field, select "Other registry".
+    e. In the "Image" field, type `aspose/words-cloud:latest`, which is the path to the latest version of the Aspose.Words Cloud Docker image in Docker Hub.
+    f. For the "OS Type" field, select "Linux".
 
 ![](015.png)
 
