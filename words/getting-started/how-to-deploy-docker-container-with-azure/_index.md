@@ -51,10 +51,10 @@ In this section, you are instructed on how to create a storage account for files
 3. Click "Create".
 4. Navigate to the "Basics" tab.
 
-   a. Select the resource group you created earlier from the drop-down list.
-   b. Provide a name for your storage account. This name should be unique and identifiable (i.e. 'asposecloudfs'), as it will be used to distinguish this particular storage account from others in your Azure environment.
-   c. Select the region where your storage account will be hosted. This should ideally be a location that is geographically close to your users to reduce latency.
-   d. There is an option to choose "Redundancy". Azure provides different levels of redundancy, and you can choose the one that best suits your needs.
+   * Select the resource group you created earlier from the drop-down list.
+   * Provide a name for your storage account. This name should be unique and identifiable (i.e. 'asposecloudfs'), as it will be used to distinguish this particular storage account from others in your Azure environment.
+   * Select the region where your storage account will be hosted. This should ideally be a location that is geographically close to your users to reduce latency.
+   * There is an option to choose "Redundancy". Azure provides different levels of redundancy, and you can choose the one that best suits your needs.
 
 ![](005.png)
 
@@ -117,12 +117,14 @@ This section guides you on how to create a Docker container instance that will r
 
 3. Click "Create"
 4. Navigate to the "Basics" tab.
-    A. Select the resource group you created earlier from the drop-down list.
-    B. Enter a name for the container instance (i.e. 'aspose-cloud-container').
-    C. Select the region. You should select the region that is closest to your users to reduce latency.
-    D. For the "Image Source" field, select "Other registry".
-    E. In the "Image" field, type `aspose/words-cloud:latest`, which is the path to the latest version of the Aspose.Words Cloud Docker image in Docker Hub.
-    F. For the "OS Type" field, select "Linux".
+
+   * Select the resource group you created earlier from the drop-down list.	
+   * Enter a name for the container instance (i.e. 'aspose-cloud-container').	
+   * Select the region. You should select the region that is closest to your users to reduce latency.
+   
+   * For the "Image Source" field, select "Other registry".   
+   * In the "Image" field, type `aspose/words-cloud:latest`, which is the path to the latest version of the Aspose.Words Cloud Docker image in Docker Hub.
+   * For the "OS Type" field, select "Linux".
 
 ![](015.png)
 
@@ -160,8 +162,10 @@ This section guides you on how to create a Docker container instance that will r
 ![](020.png)
 
 14. Edit the template to mount Azure storage into the container.
-   A. Add the "volumes" section into the main "properties" section of the template. Pass the name of your storage account into the `storageAccountName` field. Paste the access key from the clipboard (we copied it earlier) into the `storageAccountKey` field.
-   B. Add the "volumeMounts" section into the "properties" section of "container".
+
+   a. Add the "volumes" section into the main "properties" section of the template. Pass the name of your storage account into the `storageAccountName` field. Paste the access key from the clipboard (we copied it earlier) into the `storageAccountKey` field.
+   
+   b. Add the "volumeMounts" section into the "properties" section of "container".
    
 ![](021.png)
 
@@ -176,7 +180,7 @@ This section guides you on how to create a Docker container instance that will r
    
 ## Testing
 
-This section provides instructions on how to test the setup. You will be guided on how to retrieve the IP address of the container, execute a curl command, and verify the creation of a document in the Azure storage account.
+This section provides instructions on how to test the setup. You will be guided on how to execute a `curl` command, and verify the creation of a document in the Azure storage account.
 
 1. Copy IP address from the container overview page.
 
@@ -188,14 +192,14 @@ This section provides instructions on how to test the setup. You will be guided 
 curl -v "[http://YOUR_IP/v4.0/words/create?filename=Test.docx](http://your_ip/v4.0/words/create?filename=Test.docx)" -X PUT -d ""
 ```
 
-3. Choose the "Storage account" on the main page of Azure.
+3. Click "Storage account" on the main page of Azure.
 
 ![](024.png)
 
-4. Choose the "File shares" in the left menu and "data" in the shares list.
+4. Click "File shares" in the left menu and "data" in the shares list.
 
 ![](025.png)
 
-5. Choose the "Browse" in the left menu. You should see the document created by your request in the list of files.
+5. Click "Browse" in the left menu. You should see the document created by your request in the list of files.
 
 ![](026.png)
