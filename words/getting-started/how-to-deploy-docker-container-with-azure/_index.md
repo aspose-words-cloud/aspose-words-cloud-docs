@@ -22,7 +22,7 @@ Finally, the guide provides a simple test to ensure that the deployment was succ
 
 In this section, you are guided through the process of creating a resource group in Azure - a container that holds related resources for an Azure solution. The resource group you create will be used to logically group the resources that you will deploy. You will select a name for your resource group and a region where it will be hosted. The region you select can impact the latency of your services, so it's important to choose a region that is close to your users.
 
-1. Click "Create a resource" on a main page.
+1. Click on "Create a resource" on a main page.
 
 ![](001.png)
 
@@ -30,12 +30,12 @@ In this section, you are guided through the process of creating a resource group
 
 ![](002.png)
 
-3. Click "Create".
+3. Click on "Create".
 4. Enter the name of the resource group (i.e. 'aspose-cloud-resource-group') and select a region.
 
 ![](003.png)
 
-5. Click "Review + Create" and "Create".
+5. Click on "Review + Create" and then on "Create".
 
 You have successfully created a new resource group in Azure.
 
@@ -43,12 +43,12 @@ You have successfully created a new resource group in Azure.
 
 In this section, you are instructed on how to create a storage account for files in Azure. A storage account in Azure is a unique namespace in Azure for your data. Every object that you store in Azure Storage has an address that includes your unique account name. The combination of the account name and the Azure Storage blob endpoint forms the base address for the objects in your storage account. You will create file shares within this storage account, which will be used to store and organize your files. You will also retrieve the access key for the storage account, which is needed to authenticate your applications and grant them access to your storage account.
 
-1. Click "Create a resource" on the main page.
+1. Click on "Create a resource" on the main page.
 2. Search for "Storage Account".
 
 ![](004.png)
 
-3. Click "Create".
+3. Click on "Create".
 4. Navigate to the "Basics" tab.
 
    * Select the resource group you created earlier from the drop-down list.
@@ -64,15 +64,15 @@ In this section, you are instructed on how to create a storage account for files
 ![](006.png)
 
 7. On "Encryption" and "Tags" tabs leave the default settings.
-8. On the "Review" tab click "Create".
+8. On the "Review" tab click on "Create".
 9. Wait for the storage account to be created (this may take a few minutes).
 
 ![](007.png)
 
 Next, we will proceed to create two separate file shares in our Azure Storage account. The 'data' file share will be used to store files that are processed by our Docker container. The 'fonts' file share will store font files that may be required for document processing tasks.
 
-10. Click "Go to resource".
-11. In the left menu click "File shares".
+10. Click on "Go to resource".
+11. In the left menu click on "File shares".
 12. Press on the plus icon to create a new file share.
 
 
@@ -82,7 +82,7 @@ Next, we will proceed to create two separate file shares in our Azure Storage ac
 
 ![](009.png)
 
-14. Click "Review + Create" and "Create".
+14. Click on "Review + Create" and then on "Create".
 15. Go back to the "File Shares" tab to create another file share.
 
 ![](010.png)
@@ -91,7 +91,7 @@ Next, we will proceed to create two separate file shares in our Azure Storage ac
 
 ![](011.png)
 
-17. Click "Review + Create" and "Create".
+17. Click on "Review + Create" and then on "Create".
 
 ![](012.png)
 
@@ -107,12 +107,12 @@ This key is a unique ID that grants access to your Storage account. It should be
 
 This section guides you on how to create a Docker container instance that will run the Aspose.Words Cloud service. You will also set environment variables and mount Azure storage into the container.
 
-1. Click "Create a resource" on the main page.
+1. Click on "Create a resource" on the main page.
 2. Search for "Container Instances".
 
 ![](014.png)
 
-3. Click "Create"
+3. Click on "Create"
 4. Navigate to the "Basics" tab.
 
    * Select the resource group you created earlier from the drop-down list.	
@@ -143,18 +143,18 @@ This section guides you on how to create a Docker container instance that will r
 ![](017.png)
 
 7. On the "Tags" tab leave the default settings.
-8. On "Review + create" tabs click "Create".
+8. On "Review + create" tabs click on "Create".
 9. Wait for the Docker container instance to be created (this may take a few minutes)
 
 ![](018.png)
 
-10. Click "Go to resource".
-11. In the left menu click "Export template".
-12. Click "Deploy".
+10. Click on "Go to resource".
+11. In the left menu click on "Export template".
+12. Click on "Deploy".
 
 ![](019.png)
 
-13. Click "Edit template".
+13. Click on "Edit template".
 
 ![](020.png)
 
@@ -169,9 +169,9 @@ This section guides you on how to create a Docker container instance that will r
 *NOTE: Example template (to copy-paste volumes to your template) can be found here: [https://pastebin.com/GKEdu8ge](https://pastebin.com/GKEdu8ge)*
 
 15. Save the template after editing.
-16. Click "Review and Create" and "Create".
+16. Click on "Review and Create" and the on "Create".
 17. Wait for the container instance to be redeployed with new settings (this may take a few minutes).
-18. Click "Go to resources".
+18. Click on "Go to resources".
 
 ![](022.png)
    
@@ -189,17 +189,16 @@ This section provides instructions on how to test the setup. You will be guided 
 curl -v "http://YOUR_IP/v4.0/words/create?filename=Test.docx" -X PUT -d ""
 ```
 
-3. Click "Storage account" on the main page of Azure.
+3. Click on "Storage account" on the main page of Azure.
 
 ![](024.png)
 
-4. Click "File shares" in the left menu and "data" in the shares list.
+4. Click on "File shares" in the left menu and select "data" in the shares list.
 
 ![](025.png)
 
-5. Click "Browse" in the left menu. You should see the document created by your request in the list of files.
+5. Click on "Browse" in the left menu. You should see the document created by your request in the list of files.
 
 ![](026.png)
-
 
 Congratulations! Now you have a fully functional Aspose.Words Cloud service, customized to your needs and able to interact with Azure storage.
