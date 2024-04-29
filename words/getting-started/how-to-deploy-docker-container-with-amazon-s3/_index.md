@@ -66,10 +66,7 @@ Setting up a Docker container for Aspose.Words Cloud involves preparing the envi
 
 `docker run --rm --env-file Dockerenv --device /dev/fuse --cap-add SYS\_ADMIN -p 80:80 aspose-cloud-s3`
 
-**NOTES**. This command includes parameters for mounting the S3 bucket and setting up the network port:
-    * We use the `--env-file Dockerenv` parameter to specify the file with the environment variables needed to start the container.
-    * Parameters `--device /dev/fuse --cap-add SYS\_ADMIN` are required to mount the S3 bucket in the container operating system.
-    * Parameter `-p 80:80` is used to forward port 80 from the container to the host.
+**NOTES**. This command includes parameters for mounting the S3 bucket and setting up the network port. We use `--env-file Dockerenv` to specify the file with the environment variables needed to start the container. The `--device /dev/fuse --cap-add SYS\_ADMIN` parameters are required to mount the S3 bucket in the container operating system. `-p 80:80` is used to forward port 80 from the container to the host.
 
 6. If the container launch was successful, you should see in the console how the S3 bucket is mounted and the Aspose.Cloud API is running.
 
