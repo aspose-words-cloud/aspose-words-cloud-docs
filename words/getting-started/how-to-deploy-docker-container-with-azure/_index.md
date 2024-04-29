@@ -1,24 +1,24 @@
 ﻿---
-title: "How to deploy Aspose.Words.Cloud container with Azure"
+title: "How to deploy Aspose.Words Cloud container with Azure"
 second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /getting-started/how-to-deploy-docker-container-with-azure/
 aliases: [/how-to-deploy-docker-container-with-azure/]
-description: "How to deploy Aspose.Words.Cloud container with Azure"
+description: "How to deploy Aspose.Words Cloud container with Azure"
 weight: 101
 ---
 
-This document serves as a guide on how to deploy Aspose.Words Cloud service as a Docker container in the Microsoft Azure environment. It is divided into four sections: "Create a resource group", "Creating storage for files", "Create a Docker container instance" and "Testing". 
+This document serves as a guide on how to deploy Aspose.Words Cloud service as a Docker container in the Microsoft Azure environment. It is divided into four sections: "Creating a Resource Group", "Creating Storage for Files", "Creating a Docker Container Instance" and "Verifying the Deployment". 
 
-The first section, "Create a resource group", involves setting up a new resource group in Azure. This is a necessary step as it allows you to manage and organize your Azure resources.
+The first section, "Creating a Resource Group", involves setting up a new resource group in Azure. This is a necessary step as it allows you to manage and organize your Azure resources.
 
-The second section, "Create storage for files", guides you through the process of setting up a storage account. This is where the your files will be stored. The guide provides instructions on how to create two file shares, `data` and `fonts`, within the storage account. It also explains how to obtain the access key for the storage account.
+The second section, "Creating Storage for Files", guides you through the process of setting up a storage account. This is where the your files will be stored. The guide provides instructions on how to create two file shares, `data` and `fonts`, within the storage account. It also explains how to obtain the access key for the storage account.
 
-The third section, "Create a Docker container instance", provides instructions on how to set up a Docker container instance in Azure. This involves specifying the image source, setting the OS type, adding environment variables for Aspose.Words license and user authentication, and mounting Azure storage into the container.
+The third section, "Creating a Docker Container Instance", provides instructions on how to set up a Docker container instance in Azure. This involves specifying the image source, setting the OS type, adding environment variables for Aspose.Words license and user authentication, and mounting Azure storage into the container.
 
 Finally, the guide provides a simple test to ensure that the deployment was successful. This involves executing a `curl` command in the command prompt and checking the Azure storage account to see if the document created by the request is present.
 
-## Create a resource group
+## Creating a Resource Group
 
 In this section, you are guided through the process of creating a resource group in Azure - a container that holds related resources for an Azure solution. The resource group you create will be used to logically group the resources that you will deploy. You will select a name for your resource group and a region where it will be hosted. The region you select can impact the latency of your services, so it's important to choose a region that is close to your users.
 
@@ -39,7 +39,7 @@ In this section, you are guided through the process of creating a resource group
 
 You have successfully created a new resource group in Azure.
 
-## Create storage for files
+## Create Storage for Files
 
 In this section, you are instructed on how to create a storage account for files in Azure. A storage account in Azure is a unique namespace in Azure for your data. Every object that you store in Azure Storage has an address that includes your unique account name. The combination of the account name and the Azure Storage blob endpoint forms the base address for the objects in your storage account. You will create file shares within this storage account, which will be used to store and organize your files. You will also retrieve the access key for the storage account, which is needed to authenticate your applications and grant them access to your storage account.
 
@@ -103,7 +103,7 @@ This key is a unique ID that grants access to your Storage account. It should be
 
 ![](013.png)
 
-## Create a Docker container instance
+## Creating a Docker Container Instance
 
 This section guides you on how to create a Docker container instance that will run the Aspose.Words Cloud service. You will also set environment variables and mount Azure storage into the container.
 
@@ -175,7 +175,7 @@ This section guides you on how to create a Docker container instance that will r
 
 ![](022.png)
    
-## Testing
+## Verifying the Deployment
 
 This section provides instructions on how to test the setup. You will be guided on how to execute a `curl` command, and verify the creation of a document in the Azure storage account.
 
@@ -183,7 +183,7 @@ This section provides instructions on how to test the setup. You will be guided 
 
 ![](023.png)
 
-2. Execute following command in the command prompt (replace `YOUR_IP` with the IP of your container)
+2. Execute the following command in the command prompt (replace `YOUR_IP` with the IP of your container)
 
 ```
 curl -v "http://YOUR_IP/v4.0/words/create?filename=Test.docx" -X PUT -d ""
