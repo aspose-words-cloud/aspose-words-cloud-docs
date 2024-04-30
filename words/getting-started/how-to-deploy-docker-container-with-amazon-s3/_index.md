@@ -46,27 +46,57 @@ This document serves as a guide on how to deploy Aspose.Words Cloud service as a
 
 Setting up a Docker container for Aspose.Words Cloud involves preparing the environment and configuring it to work with your S3 storage. We will use the Docker image "aspose/words-cloud" as the base. By default, "aspose/words-cloud" uses the `/data` folder in the container file system as a storage for files and documents. To use the S3 bucket as a container storage, we need to mount it as the `/data` folder in our image.
 
-1. Create a new `Dockerfile` file and copy the code from the following link: [https://pastebin.com/Dsm4fgb9](https://www.google.com/url?q=https://pastebin.com/Dsm4fgb9&sa=D&source=editors&ust=1714362525469514&usg=AOvVaw2R10l1SCUPKz3JbUSD8Jk-).
+1. Create a new `Dockerfile` file and paste the following text into it:
+
+```
+FROM aspose/words-cloud:latest
+ 
+## Install required packages
+RUN apt-get update -y && \
+    apt-get install -y alien dpkg-dev debhelper build-essential wget awscli s3fs && \
+    apt-get clean
+ 
+## Install amazon s3 file system
+RUN wget https://s3.amazonaws.com/mountpoint-s3-release/latest/x86_64/mount-s3.rpm && \
+    alien --install mount-s3.rpm && \
+    mkdir /data
+ 
+ENTRYPOINT mount-s3 $S3_BUCKET_NAME /data && dotnet Aspose.Words.Cloud.WebApp.dll
+```
+
 **NOTE**: We created our own image based on "aspose/words-cloud" and installed the `mount-s3` utility into it.
 
 2. Build your Docker image using the command `docker build -t aspose-cloud-s3`
 
-3. Create a new `Dockerenv` file and copy the environment variables from the following link:  [https://pastebin.com/SFF8J7EC](https://www.google.com/url?q=https://pastebin.com/SFF8J7EC&sa=D&source=editors&ust=1714362525470152&usg=AOvVaw1xioH4G6I1hpm6JxoquuoD). 
-   **NOTE**: In this tutorial, we are using a `Dockerenv` file to make it easy to start the container. But you can pass the necessary environment variables when starting the container via the command line or through the Docker user interface.
+3. Create a new `Dockerenv` file and paste the following text into it:
+
+```
+LicensePublicKey=
+LicensePrivateKey=
+User=test
+Password=12345678
+S3_BUCKET_NAME=aspose-words-cloud-s3-test
+AWS_ACCESS_KEY_ID=<PUT_YOUR_ACCESS_KEY_ID_HERE>
+AWS_SECRET_ACCESS_KEY=<PUT_YOUR_ACCESS_SECRET_HERE>
+```
+
+**NOTE**: In this tutorial, we are using a `Dockerenv` file to make it easy to start the container. But you can pass the necessary environment variables when starting the container via the command line or through the Docker user interface.
+
 4. Edit the parameters in your `Dockerenv` file. These include the `LicensePublicKey` and `LicensePrivateKey` parameters if you have the Aspose metered license, the `User` and `Password` parameters for accessing the Aspose.Cloud API inside the Docker container, and the `S3_BUCKET_NAME`, `AWS_ACCESS_KEY_ID`, and `AWS_SECRET_ACCESS_KEY` parameters for connecting to your S3 bucket:
 
     * If you have the Aspose metered license, set the `LicensePublicKey` and `LicensePrivateKey` parameters. Otherwise, leave them empty to run the API in trial mode.
     * For the `User` and `Password` parameters, specify the login and password you will use to access the Aspose.Cloud API inside the Docker container.
-    * For the `S3\_BUCKET\_NAME` parameter, specify the name of your S3 bucket.
-    * For the `AWS\_ACCESS\_KEY\_ID` and `AWS\_SECRET\_ACCESS\_KEY` parameters, specify the access keys we obtained earlier in the previous section.
+    * For the `S3_BUCKET_NAME` parameter, specify the name of your S3 bucket.
+    * For the `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY` parameters, specify the access keys we obtained earlier in the previous section.
 
 ![](07.png)
 
 5. Start the Docker container with the command
 
-`docker run --rm --env-file Dockerenv --device /dev/fuse --cap-add SYS\_ADMIN -p 80:80 aspose-cloud-s3`
+`docker run --rm --env-file Dockerenv --device /dev/fuse --cap-add SYS_ADMIN -p 80:80 aspose-cloud-s3`
 
-**NOTES**. This command includes parameters for mounting the S3 bucket and setting up the network port. We use `--env-file Dockerenv` to specify the file with the environment variables needed to start the container. The `--device /dev/fuse --cap-add SYS\_ADMIN` parameters are required to mount the S3 bucket in the container operating system. `-p 80:80` is used to forward port 80 from the container to the host.
+
+**NOTES**. This command includes parameters for mounting the S3 bucket and setting up the network port. We use `--env-file Dockerenv` to specify the file with the environment variables needed to start the container; `--device /dev/fuse --cap-add SYS_ADMIN` parameters are required to mount the S3 bucket in the container operating system; `-p 80:80` is used to forward port 80 from the container to the host.
 
 6. If the container launch was successful, you should see in the console how the S3 bucket is mounted and the Aspose.Cloud API is running.
 
