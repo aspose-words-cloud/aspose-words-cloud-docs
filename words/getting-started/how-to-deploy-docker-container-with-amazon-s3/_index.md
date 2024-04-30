@@ -40,7 +40,7 @@ This document serves as a guide on how to deploy Aspose.Words Cloud service as a
 
 ![](06.png)
 
-8. The Amazon services setup is complete. Now let's see how to create and run a Docker container. 
+The Amazon services setup is complete. Now let's see how to create and run a Docker container. 
 
 ## Creating and Running a Docker Container
 
