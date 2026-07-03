@@ -4,79 +4,137 @@ second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /getting-started/quickstart/
 aliases: [/quickstart/]
-description: "Learn how to get started quickly with Aspose Words Cloud API and SDKs."
-weight: 20
+description: "Make your first Aspose.Words Cloud API call in 5 minutes. Create an account, get credentials, install an SDK, and process a Word document."
+weight: 30
 ---
 
-These instructions guide you through initializing Aspose.Words Cloud API and installing the required document-processing libraries.
+Follow these five steps to make your first Words Cloud API call.
 
-You can easily integrate document conversion, generation and editing features into applications running on any modern OS. They assist to read, edit, merge, split documents as well as convert documents to various file formats. These programming libraries allow you to work with a complete set of Word document components, such as main text, paragraphs, headers, footers, tables, sections, comments, drawing objects, fonts, hyperlinks, math objects, watermarks, and much more.
+## 1. Create an Account
 
-## Create a Free Account
+Sign up for a free Aspose Cloud account — no credit card required.
 
-Aspose Cloud relies on a clear and comfortable sales model, that you can fully evaluate and test a product before committing to buying it.
+1. Go to the [Aspose Dashboard](https://dashboard.aspose.cloud/)
+2. Click **Sign In with GitHub** or **Sign In with Google**, or create an account with your email
+3. Verify your email address
 
-First, you need to create a free account to have access to Cloud infrastructure:
+Your account includes **150 free API calls per month**.
 
-- Please go to [Aspose Dashboard](https://dashboard.aspose.cloud/#/) login page
-- For a faster login, click the **Sign In with GitHub** or **Sign In with Google** button
-- Provide the required information
+## 2. Create a Storage
 
-{{% alert style="info" %}}
+Words Cloud processes documents from cloud storage. Create a storage container for your files:
 
-Congratulations! You have successfully signed up with Aspose Cloud.
+1. In the dashboard sidebar, open **Files**
+2. Click the storage dropdown and select **Create New Storage**
+3. Choose **Internal Storage** (Aspose-managed) — simplest for getting started
+4. Name it (e.g., `my-documents`)
 
-{{% /alert %}}
+For Azure, AWS S3, or other storage backends, see the [deployment guides](/words/getting-started/how-to-run-docker-container/).
 
-## View and Update Your Account Details
+You can upload test documents through the **Files** page in the dashboard sidebar.
 
-Next, you need to make individual adjustments to your account:
+## 3. Create an API Client App
 
-- Access your [Aspose Account Settings](https://id.containerize.com/admin/) by clicking  the icon in the upper-right corner of the page.
+1. In the dashboard sidebar, open **Applications**
+2. Click **Create New Application**
+3. Enter a name (e.g., `My Words App`) and a description
+4. Select your storage as the default
+5. Click **Save**
 
-![dashboard.png](dashboard.png)
+Copy your **Client Id** and **Client Secret** — these are separate from your dashboard login. You will use them to authenticate API requests.
 
-- Select the **Account Settings** item from the menu bar. Check your settings and click the **Save Changes** button to confirm.
+## 4. Install an SDK
 
-![settings.png](settings.png)
+{{< tabs tabTotal="4" tabID="1" tabName1="Python" tabName2=".NET" tabName3="Java" tabName4="Node.js">}}
 
-## Get Your Security Credentials (Client Id & Secret)
+{{< tab tabNum="1" >}}
+```bash
+pip install aspose-words-cloud
+```
+{{< /tab >}}
 
-Aspose attaches great importance to security issues. We use the JWT token for the  authentication and end-to-end HTTPS encryption to secure all client-server interactions.
+{{< tab tabNum="2" >}}
+```bash
+dotnet add package Aspose.Words-Cloud
+```
+{{< /tab >}}
 
-An Application is a set of unique API credentials — **Client Id** and **Client Secret**. You can use them to authenticate when calling our Cloud API. In most cases, you require just a single Application. In some advanced scenarios, you may want to register and use several Applications with separate **Client Id & Secret** credentials.
+{{< tab tabNum="3" >}}
+Add the Aspose Maven repository (`https://releases.aspose.cloud/java/repo/`) and dependency `com.aspose:aspose-words-cloud`.
+{{< /tab >}}
 
-To access information about your Applications, please perform the following steps:
+{{< tab tabNum="4" >}}
+```bash
+npm install asposewordscloud
+```
+{{< /tab >}}
 
-1. Log in to [Aspose Dashboard](https://dashboard.aspose.cloud/#/)
-2. On the left side of the page click the **Applications** tab.
+{{< /tabs >}}
 
-![applications.png](applications.png)
+→ [All 10 SDKs with install commands](/words/getting-started/available-sdks/)
 
-3. Scroll down to the bottom of the page, where you will find the default **"Fist App"** Application. Click the **"First App"** item to view and update your security credentials.
+## 5. Make an API Request
 
-![firstapp.png](firstapp.png)
+Replace `CLIENT_ID` and `CLIENT_SECRET` with your credentials.
 
-{{% alert style="info" %}}
+{{< tabs tabTotal="4" tabID="2" tabName1="Python" tabName2=".NET" tabName3="Java" tabName4="cURL">}}
 
-Congratulations! You have successfully obtained your security credentials to authenticate Aspose.Words API calls.
+{{< tab tabNum="1" >}}
+```python
+import asposewordscloud
 
-{{% /alert %}}
+api = asposewordscloud.WordsApi("CLIENT_ID", "CLIENT_SECRET")
+result = api.get_info()
+print(f"Words Cloud version: {result.version}")
+```
+{{< /tab >}}
 
-## Choose and Install SDK
+{{< tab tabNum="2" >}}
+```csharp
+using Aspose.Words.Cloud.Sdk;
 
-Please take a moment to familiarize yourself with a wide range of Aspose.Words Cloud products for a better understanding of your possibilities. These software products are built around a high-performance [Cloud API](https://apireference.aspose.com/), available 24/7.
+var config = new Configuration
+{
+    ClientId = "CLIENT_ID",
+    ClientSecret = "CLIENT_SECRET"
+};
+var api = new WordsApi(config);
+var result = await api.GetInfo();
+Console.WriteLine($"Version: {result.Version}");
+```
+{{< /tab >}}
 
-For the effective use of Cloud API we provide a family of powerful [Cloud SDKs](https://products.aspose.cloud/words/family) for almost all major operating systems (Windows, macOS, Linux, Android) and popular programming languages, including [Java](https://products.aspose.cloud/words/java), [C#](https://products.aspose.cloud/words/net), [C++](https://products.aspose.cloud/words/cpp), [Python](https://products.aspose.cloud/words/python), [Node.js](https://products.aspose.cloud/words/nodejs), [PHP](https://products.aspose.cloud/words/php), [Golang](https://products.aspose.cloud/words/go), [Ruby](https://products.aspose.cloud/words/ruby), [Swift](https://products.aspose.cloud/words/swift) and [Dart](https://products.aspose.cloud/words/dart).
+{{< tab tabNum="3" >}}
+```java
+import com.aspose.words.cloud.*;
 
- All of the above SDKs are hosted on [GitHub](https://github.com/aspose-words-cloud/). Each repository contains a wide range of code examples to illustrate its usage.
+WordsApi api = new WordsApi(
+    "CLIENT_ID", "CLIENT_SECRET", "https://api.aspose.cloud"
+);
+InfoResponse result = api.getInfo();
+System.out.println("Version: " + result.getVersion());
+```
+{{< /tab >}}
 
-## Check the Developer Documentation and Code Examples
+{{< tab tabNum="4" >}}
+```bash
+# Get access token
+TOKEN=$(curl -s -X POST "https://api.aspose.cloud/connect/token" \
+  -d "grant_type=client_credentials&client_id=CLIENT_ID&client_secret=CLIENT_SECRET" \
+  -H "Content-Type: application/x-www-form-urlencoded" \
+  | grep -o '"access_token":"[^"]*"' | cut -d'"' -f4)
 
-Now your account is fully configured and the developer environment is installed. You can start writing code with the chosen SDK.
+# Call the API
+curl -s "https://api.aspose.cloud/v4.0/words/info" \
+  -H "Authorization: Bearer $TOKEN"
+```
+{{< /tab >}}
 
-Please refer to the [Developer Guide](https://docs.aspose.cloud/words/developer-guide/) to find information on how to use the Cloud API easily.
+{{< /tabs >}}
 
-## Ask for Assistance, If Necessary
+## Next Steps
 
-Feel free to describe your problems and ask questions on our [Cloud Forums](http://forum.aspose.cloud/). Aspose technical support team is ready to help you. Have a note that Aspose does not provide technical support over the phone. Phone support is available only for sales and purchase questions.
+- [Developer Guide](/words/developer-guide/) — all API operations
+- [API Reference](https://apireference.aspose.cloud/words/) — interactive API explorer
+- [Authentication Guide](/words/getting-started/authentication/) — token details and best practices
+- [Rate Limits](/words/getting-started/rate-limits/) — understand usage limits
