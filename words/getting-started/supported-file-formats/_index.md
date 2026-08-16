@@ -5,7 +5,7 @@ type: docs
 url: /getting-started/supported-file-formats/
 aliases: [/supported-file-formats/]
 description: "A complete list of file formats supported by Aspose Words Cloud API"
-weight: 30
+weight: 60
 ---
 
 The Aspose.Words Cloud API provides extensive I/O support for a variety of formats, including Word, PDF, Web, and eBook document formats. With read (import) and write (export) capabilities, developers can efficiently manage and customize content in these formats. This flexibility ensures that the Cloud API can satisfy a wide range of requirements and use cases.

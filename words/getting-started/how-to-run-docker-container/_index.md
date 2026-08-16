@@ -1,11 +1,12 @@
 ---
 title: "How to Run Docker Container"
+articleTitle: "Docker Container"
 second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /getting-started/how-to-run-docker-container/
 aliases: [/how-to-run-docker-container/]
 description: "How to run Docker container"
-weight: 100
+weight: 140
 ---
 
 The **Docker** technology is designed to automate the deployment of the applications by using lightweight containers. Developers can use a **Docker Container** to wrap up an application with all of its libraries and dependencies and deploy everything as a single package.

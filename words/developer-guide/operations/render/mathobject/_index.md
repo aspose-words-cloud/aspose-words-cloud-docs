@@ -10,19 +10,13 @@ weight: 70
 
 Renders an `OfficeMath` object as an image.
 
-
 ## Renders an OfficeMath object as an image REST API
 
-| Server                         | Method | Endpoint             |
-|--------------------------------|--------|----------------------|
-| `https://api.aspose.cloud/v4.0`  | PUT    | `/words/online/get/{nodePath}/OfficeMathObjects/{index}/render` |
+Server: `https://api.aspose.cloud/v4.0`
 
-, where:
-
-* **`nodePath`** (required) — the path to the node in the document tree.
-* **`index`** (required) — object index.
-
-You can use the following parameters in a REST request:
+| Method   | Endpoint                                                        |
+|:---------|:----------------------------------------------------------------|
+| PUT      | `/words/online/get/{nodePath}/OfficeMathObjects/{index}/render` |
 
 | Parameter Name       | Data Type | Required/Optional  | Description                     |
 |----------------------|-----------|--------------------|---------------------------------|
@@ -33,25 +27,30 @@ You can use the following parameters in a REST request:
 | `destFileName`       | string    | Optional           | Result path of the document after the operation. If this parameter is omitted then result of the operation will be saved as the source document. |
 | `fontsLocation`      | string    | Optional           | Folder in filestorage with custom fonts.                     |
 
-
-Use `$multipart/form-data` request to combine one or more properties into a single body:
-
-| Property Name        | Data Type | Required/Optional  | Description                     |
-|----------------------|-----------|--------------------|---------------------------------|
-| `document`           | string(binary) | Required           | The document.                                                |
-
 {{% alert style="info" %}}
-**Note**: to access this REST API, you need to register and get personal credentials. Use the '[Quick Start](/words/getting-started/quickstart/)' guide to go through the procedure in a couple of minutes.
+**Note**: Requires Client Id and Secret. See [Quick Start](/words/getting-started/quickstart/) to obtain credentials.
 {{% /alert %}}
 
+### Response
 
-## Renders an OfficeMath object as an image usage examples
+| Field   | Type   | Description                    |
+|:--------|:-------|:-------------------------------|
+| Model   | File   | File with result of operation. |
 
-Let's look at practical examples of using the web service. You can do this both with cURL and Postman utilities, and from your code in various programming languages: Python, Java, JavaScript, C#, PHP, C++, Go, Ruby, Swift, Dart.
+### Error reference
 
-### How to renders an OfficeMath object as an image with cURL or Postman
+|   Status | Code             | Description                                       | Resolution                                                                   |
+|---------:|:-----------------|:--------------------------------------------------|:-----------------------------------------------------------------------------|
+|      400 | `bad_request`    | Invalid parameter value or missing required field | Check the parameter format and ensure all required fields are provided       |
+|      401 | `unauthorized`   | Missing or invalid access token                   | Obtain a new access token via the authentication endpoint                    |
+|      403 | `forbidden`      | Access to the requested resource is denied        | Verify that the access token has the required permissions                    |
+|      404 | `not_found`      | The requested resource does not exist             | Check the resource ID or path for typos                                      |
+|      429 | `rate_limited`   | Too many requests — rate limit exceeded           | Wait for the Retry-After period before making another request                |
+|      500 | `internal_error` | An unexpected server error occurred               | Retry the request after a short delay; contact support if the issue persists |
 
-One of the easiest and fastest ways to call a REST API is to use cURL or Postman:
+## Usage examples
+
+### REST API
 
 {{< nosnippet >}}
 {{< tabs tabTotal="2" tabID="1" tabName1="cURL Request" tabName2="Postman Request" >}}
@@ -70,10 +69,7 @@ One of the easiest and fastest ways to call a REST API is to use cURL or Postman
 {{< /tabs >}}
 {{< /nosnippet >}}
 
-
-### How to renders an OfficeMath object as an image in Python, Java, C#, C++, JavaScript and other programming languages
-
-Using SDK is the quickest way to speed up the development. Please take a look at the provided code examples to quickly call this web service from your favourite programming language:
+### SDK
 
 {{< nosnippet >}}
 {{< tabs tabTotal="10" tabID="2" tabName1="Python" tabName2="Java" tabName3="Node.js" tabName4="C#" tabName5="PHP" tabName6="C++" tabName7="Go" tabName8="Ruby" tabName9="Swift" tabName10="Dart" >}}
@@ -111,9 +107,7 @@ Using SDK is the quickest way to speed up the development. Please take a look at
 {{< /tabs >}}
 {{< /nosnippet >}}
 
-
 ## See Also
 
- * [GitHub repository](https://github.com/aspose-words-cloud) — explore Aspose.Words Cloud SDK Family. These software libraries take care of all low-level document-processing details.
-
+ * [Cloud SDKs](https://github.com/aspose-words-cloud) — Create, Edit, Convert and Render Word documents via REST API.
 

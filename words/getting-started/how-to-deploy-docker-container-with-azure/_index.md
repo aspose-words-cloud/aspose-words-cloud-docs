@@ -1,11 +1,12 @@
 ﻿---
 title: "How to deploy Aspose.Words Cloud container with Azure"
+articleTitle: "Azure Deployment"
 second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /getting-started/how-to-deploy-docker-container-with-azure/
 aliases: [/how-to-deploy-docker-container-with-azure/]
 description: "How to deploy Aspose.Words Cloud container with Azure"
-weight: 101
+weight: 150
 ---
 
 This document serves as a guide on how to deploy Aspose.Words Cloud service as a Docker container in the Microsoft Azure environment. It is divided into four sections: "Creating a Resource Group", "Creating Storage for Files", "Creating a Docker Container Instance" and "Verifying the Deployment". 

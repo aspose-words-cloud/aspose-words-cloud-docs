@@ -1,11 +1,12 @@
 ﻿---
 title: "How to deploy Aspose.Words Cloud container with Amazon S3"
+articleTitle: "Amazon S3 Deployment"
 second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /getting-started/how-to-deploy-docker-container-with-amazon-s3/
 aliases: [/how-to-deploy-docker-container-with-amazon-s3/]
 description: "How to deploy Aspose.Words Cloud container with Amazon S3"
-weight: 102
+weight: 160
 ---
 
 This document serves as a guide on how to deploy Aspose.Words Cloud service as a Docker container in the Amazon S3 environment. It consists of three sections: "Creating and Configuring Amazon S3 Storage", "Creating and Running a Docker Container", and "Verifying the Deployment". By following the steps in this guide, you will be able to leverage the power of the Aspose.Words Cloud API combined with the reliability and scalability of Amazon Web Services (AWS) to work efficiently with Word documents.
