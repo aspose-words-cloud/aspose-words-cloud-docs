@@ -109,7 +109,7 @@ The following properties are defined:
 
 ## DeleteAllParagraphTabStopsOnlineRequest
 
-Represents a request model for [WordsApi.DeleteAllParagraphTabStopsOnline()](/words/paragraphs/tab-stop/delete-all-paragraph-tab-stops-in-a-document/) operation.
+Represents a request model for [WordsApi.DeleteAllParagraphTabStopsOnline()](/words/paragraphs/tab-stop/delete-all-paragraph-tab-stops/) operation.
 
 An object of the **DeleteAllParagraphTabStopsOnlineRequest** class is created by the following constructor methods:
 
@@ -132,7 +132,7 @@ Each of those arguments initializes the corresponding self-titled property:
 
 ## DeleteAllParagraphTabStopsOnlineResponse
 
-Represents a response model for [WordsApi.DeleteAllParagraphTabStopsOnline()](/words/paragraphs/tab-stop/delete-all-paragraph-tab-stops-in-a-document/) operation.
+Represents a response model for [WordsApi.DeleteAllParagraphTabStopsOnline()](/words/paragraphs/tab-stop/delete-all-paragraph-tab-stops/) operation.
 
 An object of the **DeleteAllParagraphTabStopsOnlineResponse** class is created by the following constructor methods:
 
@@ -149,7 +149,7 @@ Each of those arguments initializes the corresponding self-titled property:
 
 ## DeleteAllParagraphTabStopsRequest
 
-Represents a request model for [WordsApi.DeleteAllParagraphTabStops()](/words/paragraphs/tab-stop/delete-all-paragraph-tab-stops-in-a-document/) operation.
+Represents a request model for [WordsApi.DeleteAllParagraphTabStops()](/words/paragraphs/tab-stop/delete-all-paragraph-tab-stops/) operation.
 
 An object of the **DeleteAllParagraphTabStopsRequest** class is created by the following constructor methods:
 
@@ -174,7 +174,7 @@ Each of those arguments initializes the corresponding self-titled property:
 
 ## DeleteParagraphTabStopOnlineRequest
 
-Represents a request model for [WordsApi.DeleteParagraphTabStopOnline()](/words/paragraphs/tab-stop/delete-a-paragraph-tab-stop-in-a-document/) operation.
+Represents a request model for [WordsApi.DeleteParagraphTabStopOnline()](/words/paragraphs/tab-stop/delete-a-paragraph-tab-stop/) operation.
 
 An object of the **DeleteParagraphTabStopOnlineRequest** class is created by the following constructor methods:
 
@@ -198,7 +198,7 @@ Each of those arguments initializes the corresponding self-titled property:
 
 ## DeleteParagraphTabStopOnlineResponse
 
-Represents a response model for [WordsApi.DeleteParagraphTabStopOnline()](/words/paragraphs/tab-stop/delete-a-paragraph-tab-stop-in-a-document/) operation.
+Represents a response model for [WordsApi.DeleteParagraphTabStopOnline()](/words/paragraphs/tab-stop/delete-a-paragraph-tab-stop/) operation.
 
 An object of the **DeleteParagraphTabStopOnlineResponse** class is created by the following constructor methods:
 
@@ -215,7 +215,7 @@ Each of those arguments initializes the corresponding self-titled property:
 
 ## DeleteParagraphTabStopRequest
 
-Represents a request model for [WordsApi.DeleteParagraphTabStop()](/words/paragraphs/tab-stop/delete-a-paragraph-tab-stop-in-a-document/) operation.
+Represents a request model for [WordsApi.DeleteParagraphTabStop()](/words/paragraphs/tab-stop/delete-a-paragraph-tab-stop/) operation.
 
 An object of the **DeleteParagraphTabStopRequest** class is created by the following constructor methods:
 
@@ -241,7 +241,7 @@ Each of those arguments initializes the corresponding self-titled property:
 
 ## GetParagraphTabStopsOnlineRequest
 
-Represents a request model for [WordsApi.GetParagraphTabStopsOnline()](/words/paragraphs/tab-stop/get-paragraph-tab-stop-in-a-document/) operation.
+Represents a request model for [WordsApi.GetParagraphTabStopsOnline()](/words/paragraphs/tab-stop/get-paragraph-tab-stop/) operation.
 
 An object of the **GetParagraphTabStopsOnlineRequest** class is created by the following constructor methods:
 
@@ -263,7 +263,7 @@ Each of those arguments initializes the corresponding self-titled property:
 
 ## GetParagraphTabStopsRequest
 
-Represents a request model for [WordsApi.GetParagraphTabStops()](/words/paragraphs/tab-stop/get-paragraph-tab-stop-in-a-document/) operation.
+Represents a request model for [WordsApi.GetParagraphTabStops()](/words/paragraphs/tab-stop/get-paragraph-tab-stop/) operation.
 
 An object of the **GetParagraphTabStopsRequest** class is created by the following constructor methods:
 
@@ -287,7 +287,7 @@ Each of those arguments initializes the corresponding self-titled property:
 
 ## InsertOrUpdateParagraphTabStopOnlineRequest
 
-Represents a request model for [WordsApi.InsertOrUpdateParagraphTabStopOnline()](/words/paragraphs/tab-stop/insert-or-update-paragraph-tab-stop-in-a-document/) operation.
+Represents a request model for [WordsApi.InsertOrUpdateParagraphTabStopOnline()](/words/paragraphs/tab-stop/insert-or-update-paragraph-tab-stop/) operation.
 
 An object of the **InsertOrUpdateParagraphTabStopOnlineRequest** class is created by the following constructor methods:
 
@@ -311,7 +311,7 @@ Each of those arguments initializes the corresponding self-titled property:
 
 ## InsertOrUpdateParagraphTabStopOnlineResponse
 
-Represents a response model for [WordsApi.InsertOrUpdateParagraphTabStopOnline()](/words/paragraphs/tab-stop/insert-or-update-paragraph-tab-stop-in-a-document/) operation.
+Represents a response model for [WordsApi.InsertOrUpdateParagraphTabStopOnline()](/words/paragraphs/tab-stop/insert-or-update-paragraph-tab-stop/) operation.
 
 An object of the **InsertOrUpdateParagraphTabStopOnlineResponse** class is created by the following constructor methods:
 
@@ -328,7 +328,7 @@ Each of those arguments initializes the corresponding self-titled property:
 
 ## InsertOrUpdateParagraphTabStopRequest
 
-Represents a request model for [WordsApi.InsertOrUpdateParagraphTabStop()](/words/paragraphs/tab-stop/insert-or-update-paragraph-tab-stop-in-a-document/) operation.
+Represents a request model for [WordsApi.InsertOrUpdateParagraphTabStop()](/words/paragraphs/tab-stop/insert-or-update-paragraph-tab-stop/) operation.
 
 An object of the **InsertOrUpdateParagraphTabStopRequest** class is created by the following constructor methods:
 

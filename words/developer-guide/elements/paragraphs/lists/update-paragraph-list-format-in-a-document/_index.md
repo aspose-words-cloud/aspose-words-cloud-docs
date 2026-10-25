@@ -3,7 +3,8 @@ title: "Update the formatting properties of a Paragraph List in a Word document 
 articleTitle: "Update the formatting properties of a Paragraph List"
 linktitle: "Update the formatting properties of a Paragraph List"
 type: docs
-url: /paragraphs/lists/update-paragraph-list-format-in-a-document/
+url: /paragraphs/lists/update-paragraph-list-format/
+aliases: [/paragraphs/lists/update-paragraph-list-format-in-a-document/]
 description: "Update the formatting properties of a Paragraph List in a Word document programmatically via Cloud API."
 weight: 40
 ---

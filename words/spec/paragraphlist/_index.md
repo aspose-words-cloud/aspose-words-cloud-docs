@@ -84,7 +84,7 @@ The following properties are defined:
 
 ## DeleteParagraphListFormatOnlineRequest
 
-Represents a request model for [WordsApi.DeleteParagraphListFormatOnline()](/words/paragraphs/lists/delete-paragraph-list-format-in-a-document/) operation.
+Represents a request model for [WordsApi.DeleteParagraphListFormatOnline()](/words/paragraphs/lists/delete-paragraph-list-format/) operation.
 
 An object of the **DeleteParagraphListFormatOnlineRequest** class is created by the following constructor methods:
 
@@ -109,7 +109,7 @@ Each of those arguments initializes the corresponding self-titled property:
 
 ## DeleteParagraphListFormatOnlineResponse
 
-Represents a response model for [WordsApi.DeleteParagraphListFormatOnline()](/words/paragraphs/lists/delete-paragraph-list-format-in-a-document/) operation.
+Represents a response model for [WordsApi.DeleteParagraphListFormatOnline()](/words/paragraphs/lists/delete-paragraph-list-format/) operation.
 
 An object of the **DeleteParagraphListFormatOnlineResponse** class is created by the following constructor methods:
 
@@ -126,7 +126,7 @@ Each of those arguments initializes the corresponding self-titled property:
 
 ## DeleteParagraphListFormatRequest
 
-Represents a request model for [WordsApi.DeleteParagraphListFormat()](/words/paragraphs/lists/delete-paragraph-list-format-in-a-document/) operation.
+Represents a request model for [WordsApi.DeleteParagraphListFormat()](/words/paragraphs/lists/delete-paragraph-list-format/) operation.
 
 An object of the **DeleteParagraphListFormatRequest** class is created by the following constructor methods:
 
@@ -153,7 +153,7 @@ Each of those arguments initializes the corresponding self-titled property:
 
 ## GetParagraphListFormatOnlineRequest
 
-Represents a request model for [WordsApi.GetParagraphListFormatOnline()](/words/paragraphs/lists/get-paragraph-list-format-in-a-document/) operation.
+Represents a request model for [WordsApi.GetParagraphListFormatOnline()](/words/paragraphs/lists/get-paragraph-list-format/) operation.
 
 An object of the **GetParagraphListFormatOnlineRequest** class is created by the following constructor methods:
 
@@ -175,7 +175,7 @@ Each of those arguments initializes the corresponding self-titled property:
 
 ## GetParagraphListFormatRequest
 
-Represents a request model for [WordsApi.GetParagraphListFormat()](/words/paragraphs/lists/get-paragraph-list-format-in-a-document/) operation.
+Represents a request model for [WordsApi.GetParagraphListFormat()](/words/paragraphs/lists/get-paragraph-list-format/) operation.
 
 An object of the **GetParagraphListFormatRequest** class is created by the following constructor methods:
 
@@ -213,7 +213,7 @@ The following properties are defined:
 
 ## UpdateParagraphListFormatOnlineRequest
 
-Represents a request model for [WordsApi.UpdateParagraphListFormatOnline()](/words/paragraphs/lists/update-paragraph-list-format-in-a-document/) operation.
+Represents a request model for [WordsApi.UpdateParagraphListFormatOnline()](/words/paragraphs/lists/update-paragraph-list-format/) operation.
 
 An object of the **UpdateParagraphListFormatOnlineRequest** class is created by the following constructor methods:
 
@@ -239,7 +239,7 @@ Each of those arguments initializes the corresponding self-titled property:
 
 ## UpdateParagraphListFormatOnlineResponse
 
-Represents a response model for [WordsApi.UpdateParagraphListFormatOnline()](/words/paragraphs/lists/update-paragraph-list-format-in-a-document/) operation.
+Represents a response model for [WordsApi.UpdateParagraphListFormatOnline()](/words/paragraphs/lists/update-paragraph-list-format/) operation.
 
 An object of the **UpdateParagraphListFormatOnlineResponse** class is created by the following constructor methods:
 
@@ -256,7 +256,7 @@ Each of those arguments initializes the corresponding self-titled property:
 
 ## UpdateParagraphListFormatRequest
 
-Represents a request model for [WordsApi.UpdateParagraphListFormat()](/words/paragraphs/lists/update-paragraph-list-format-in-a-document/) operation.
+Represents a request model for [WordsApi.UpdateParagraphListFormat()](/words/paragraphs/lists/update-paragraph-list-format/) operation.
 
 An object of the **UpdateParagraphListFormatRequest** class is created by the following constructor methods:
 

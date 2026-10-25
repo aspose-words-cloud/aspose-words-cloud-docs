@@ -3,7 +3,8 @@ title: "Delete all paragraph tab stops from a Word document online"
 articleTitle: "Delete all paragraph tab stops"
 linktitle: "Delete all paragraph tab stops"
 type: docs
-url: /paragraphs/tab-stop/delete-all-paragraph-tab-stops-in-a-document/
+url: /paragraphs/tab-stop/delete-all-paragraph-tab-stops/
+aliases: [/paragraphs/tab-stop/delete-all-paragraph-tab-stops-in-a-document/]
 description: "Delete all paragraph tab stops from a Word document programmatically via Cloud API."
 weight: 20
 ---

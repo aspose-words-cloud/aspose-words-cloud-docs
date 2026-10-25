@@ -1,10 +1,10 @@
----
+﻿---
 title: "Working with cURL utility"
 second_title: "Aspose Words Cloud Docs"
 type: docs
 url: /getting-started/using-curl/
 description: "Using the curl utility to interact with REST APIs"
-weight: 80
+weight: 85
 ---
 
 HTTP requests are composed of several components: HTTP method, URI, headers, query parameters, and request body. Each of these components plays an important role in communicating information between a client and a server.

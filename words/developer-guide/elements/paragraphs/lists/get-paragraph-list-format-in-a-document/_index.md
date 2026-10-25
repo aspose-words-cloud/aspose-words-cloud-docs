@@ -3,7 +3,8 @@ title: "Get the formatting properties of a paragraph list from a Word document o
 articleTitle: "Get the formatting properties of a paragraph list"
 linktitle: "Get the formatting properties of a paragraph list"
 type: docs
-url: /paragraphs/lists/get-paragraph-list-format-in-a-document/
+url: /paragraphs/lists/get-paragraph-list-format/
+aliases: [/paragraphs/lists/get-paragraph-list-format-in-a-document/]
 description: "Get the formatting properties of a paragraph list from a Word document programmatically via Cloud API."
 weight: 20
 ---

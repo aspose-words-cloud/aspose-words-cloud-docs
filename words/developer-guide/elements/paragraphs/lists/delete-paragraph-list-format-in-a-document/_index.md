@@ -3,7 +3,8 @@ title: "Delete the formatting properties of a Paragraph List from a Word documen
 articleTitle: "Delete the formatting properties of a Paragraph List"
 linktitle: "Delete the formatting properties of a Paragraph List"
 type: docs
-url: /paragraphs/lists/delete-paragraph-list-format-in-a-document/
+url: /paragraphs/lists/delete-paragraph-list-format/
+aliases: [/paragraphs/lists/delete-paragraph-list-format-in-a-document/]
 description: "Delete the formatting properties of a Paragraph List from a Word document programmatically via Cloud API."
 weight: 10
 ---

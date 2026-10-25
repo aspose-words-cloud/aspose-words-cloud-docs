@@ -90,27 +90,22 @@ weight: 50
 <table>
   <tbody>
     <tr>
-      <td><a href="/words/spec/documentclassification#classificationresponse">ClassificationResponse<a></td>
       <td><a href="/words/spec/document#comparedata">CompareData<a></td>
       <td><a href="/words/spec/document#createdocumentrequest">CreateDocumentRequest<a></td>
     </tr>
     <tr>
-      <td><a href="/words/spec/documentclassification#classificationresult">ClassificationResult<a></td>
       <td><a href="/words/spec/document#comparedocumentonlinerequest">CompareDocumentOnlineRequest<a></td>
       <td><a href="/words/spec/file#createfolderrequest">CreateFolderRequest<a></td>
     </tr>
     <tr>
-      <td><a href="/words/spec/documentclassification#classifydocumentonlinerequest">ClassifyDocumentOnlineRequest<a></td>
       <td><a href="/words/spec/document#comparedocumentonlineresponse">CompareDocumentOnlineResponse<a></td>
       <td><a href="/words/spec/documentproperties#createorupdatedocumentpropertyonlinerequest">CreateOrUpdateDocumentPropertyOnlineRequest<a></td>
     </tr>
     <tr>
-      <td><a href="/words/spec/documentclassification#classifydocumentrequest">ClassifyDocumentRequest<a></td>
       <td><a href="/words/spec/document#comparedocumentrequest">CompareDocumentRequest<a></td>
       <td><a href="/words/spec/documentproperties#createorupdatedocumentpropertyonlineresponse">CreateOrUpdateDocumentPropertyOnlineResponse<a></td>
     </tr>
     <tr>
-      <td><a href="/words/spec/documentclassification#classifyrequest">ClassifyRequest<a></td>
       <td><a href="/words/spec/document#compareoptions">CompareOptions<a></td>
       <td><a href="/words/spec/documentproperties#createorupdatedocumentpropertyrequest">CreateOrUpdateDocumentPropertyRequest<a></td>
     </tr>
